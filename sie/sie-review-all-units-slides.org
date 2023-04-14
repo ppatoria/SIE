@@ -1,0 +1,1821 @@
+
+** Unit 1 -Equities
+**** All of the following statements about shares of treasury stock are true
+**** except:
+A. The shares receive dividends.
+B. The shares do not have voting rights.
+C. The shares were previously sold to the public.
+D. The shares were repurchased by the issuer.
+*** Question 1 of 10
+**** A shareholder owns 3,000 shares of ABC Corp. stock. If 3 board seats are
+**** to be filled, under statutory voting the most votes she can cast for any
+**** one director is:
+A. 1,000 votes
+B. 3,000 votes
+C. 6,000 votes
+D. 9,000 votes
+*** Question 2 of 10
+44
+**** The annual report, including financial statements, that public companies
+**** must file with the SEC within 90 days of year-end is called:
+A. Form 10-Q
+B. Form 10-K
+C. Form D
+D. The annual proxy
+*** Question 3 of 10
+55
+**** Among the rights of common stock shareholders, the right that allows
+**** shareholders to maintain proportionate ownership interest and avoid
+**** dilution is called:
+A. Warrants
+B. Pre-emptive rights
+C. Proxy rights
+D. Statutory voting rights
+*** Question 4 of 10
+**** A registered representative is explaining the characteristics of warrants to
+**** her client. It would NOT be accurate for her to say:
+A. the market value of a warrant is tied to the value of the underlying stock.
+B. warrants make interest payments to investors.
+C. warrants give investors the right, but not the obligation, to purchase stock at a set
+price.
+D. warrants are typically issued with an exercise price above the current market value
+of the stock.
+*** Question 5 of 10
+**** Which of the following securities is a penny stock?
+A. An exchange-traded stock selling for $2 per share.
+B. An exchange-traded stock that will soon be delisted.
+C. An OTC stock selling for $7 per share.
+D. An OTC stock selling for $4.50 per share.
+*** Question 6 of 10
+**** The board of directors of ABC Co. has declared a dividend and set a
+**** record date of Tuesday, January 29th. Assuming regular way settlement,
+**** what is the last day an investor can purchase the stock and receive the
+**** dividend?
+A. Thursday, January 24th
+B. Friday, January 25th
+C. Monday, January 28th
+D. Tuesday, January 29th
+*** Question 7 of 10
+MON TUES WED THURS FRI
+21  22   23  24    25
+28  29   30  31    1
+99
+**** Investors in American Depository Receipts (ADRs) face all of the following
+**** risks except:
+A. Political risk
+B. Call risk
+C. Currency risk
+D. Business risk
+*** Question 8 of 10
+**** An investor owns 100 shares of a stock selling for $90 per share. After a 3-
+**** for-1 forward stock split, the investor will have:
+A. 100 shares of stock
+selling for $30 per share.
+B. 300 shares of stock
+selling for $90 per share.
+C. 300 shares of stock
+selling for $30 per share.
+D. 33.3 shares of stock
+selling for $30 per share.
+*** Question 9 of 10
+**** An investor sells short 100 shares of a stock priced at $45. The maximum
+**** upside and downside risk of this position is:
+A. $4,500 upside; unlimited downside.
+B. $4,500 downside; unlimited upside.
+C. $4,500 upside and $4,500 downside.
+D. Unlimited upside and downside.
+*** Question 10 of 10
+*** Review Answers & Rationales
+1. (A)Treasury stock was previously sold to the public and then repurchased
+    by the issuer. These shares do not receive dividends or have voting rights.
+2. (B)Statutory voting allows shareholders to vote one time per share for each
+    board seat. Cumulative voting allows shareholders to pool all votes together
+    and allocate them as desired.
+3. (B)Public companies must file annual financial reports (which includes
+    financial statements) called 10-ks with the SEC within 90 days of year-end.
+4. (B)Pre-emptive rights allow shareholders to maintain proportionate
+    ownership interest and avoid dilution when companies issue more shares.
+5. (B) Warrants are considered equity securities because they allow investors
+    the right to purchase the company’s stock at a fixed price. Warrants are
+    typically issued with no intrinsic value, meaning they are issued with an
+    exercise price above the current market value. Because they are not debt
+    securities, warrants do not make interest payments to investors.
+6. (D)A penny stock is defined as an OTC (unlisted) stock selling for less than $
+    per share.
+7. (B)In order to receive the dividend, the investor must be on the books and
+    records by the company by the end of trading on the record date. Because
+    equities trades settle two business days later, if the investor purchases the
+    stock on Friday, January 25th, it will settle on the record date of Tuesday,
+    January 29th. In this example, the ex-dividend date, which is the first day
+    when the investor buys the stock, they will not receive the dividend, is
+    Monday, January 28th.
+8. (B)ADRs are securities sold on US exchanges, usually denominated in US
+    dollars, that mirror performance of foreign-traded stocks. Because ADRs are
+    common stock and not debt securities, they do not have call risk or interest
+    rate risk.
+9. (C)Stock splits do not change the total value of the investor’s position.
+    Instead, a forward stock split increases the number of shares by the amount
+    of the split and reduces the price proportionately. The total value remains
+    $9,000 before (100 shares X $90) and after (300 shares X $30) the split.
+10. (A)Short-sellers profit when stocks decline in value. The maximum upside in
+   a short position is if the stock goes to zero. In this case, the investor profits
+   $4,500 (100 shares X $45). The maximum downside is always unlimited
+   because the stock’s upside price is not capped.
+** Unit 2 -Bonds
+**** A bond with a par value of $1,000 has a nominal yield of 4.5%. If the
+**** bond was purchased at a price of $900, and now it is worth $1,100,
+**** which of the following statements is true?
+A. The bond’s nominal yield has increased since purchase.
+B. The bond’s nominal yield has decreased since purchase.
+C. The bond’s nominal yield has not changed since purchase.
+D. The change in nominal yield will depend on the amount of time to maturity.
+*** Question 1 of 10
+**** A bond with a par value of $1,000 is trading at $1,200 and pays a
+**** semiannual coupon of $30. Its current yield is:
+A. 2.5%
+B. 3.0%
+C. 5.0%
+D. 6.0%
+*** Question 2 of 10
+**** Which of the following bonds will be most susceptible to interest rate risk?
+A. 10-year 5% coupon bond
+B. 10-year zero-coupon bond
+C. 30-year 5% coupon bond
+D. 30-year zero-coupon bond
+*** Question 3 of 10
+**** What type of bond has no reinvestment rate risk?
+A. US Treasury bond
+B. Serial bond
+C. Zero-coupon bond
+D. A bond purchased at a premium
+*** Question 4 of 10
+**** Bonds issued with maturities at different intervals, so that a portion of the
+**** issue matures each year over a period of time are referred to as:
+A. Serial bonds
+B. Time sequence bonds
+C. Term bonds
+D. Debentures
+*** Question 5 of 10
+**** An investor owns two corporate bonds of the same issuer. Bond A has a
+**** duration of 8 years, while Bond B has a duration of 12 years. Which of the
+**** following statements is true?
+A. Bond A has greater exposure to default risk.
+B. Bond B pays a higher coupon than Bond A.
+C. Bond B has greater exposure to interest rate risk.
+D. Bond A has more time to maturity than Bond B.
+*** Question 6 of 10
+**** A bond issuer will most likely call a bond prior to maturity:
+A. When the bond is in danger of default.
+B. When interest rates are falling.
+C. When interest rates are rising.
+D. When the Federal Reserve is tightening credit conditions.
+*** Question 7 of 10
+**** Which of the following factors typically has the most significant impact
+**** on the liquidity of bonds?
+A. Call premiums
+B. Coupon rates
+C. Credit ratings
+D. Maturity dates
+*** Question 8 of 10
+**** For a bondholder, the terms amortization and accretion relate to annual
+**** adjustments in:
+A. A bond’s tax cost basis.
+B. A bond’s market value.
+C. A bond’s coupon rate.
+D. A bond’s yield to maturity (YTM).
+*** Question 9 of 10
+**** A bond that pays semi-annual interest in February and August is sold by
+**** an investor in mid-May. Which statement is accurate as it relates to the
+**** payment of accrued interest?
+A. It is paid by the seller of the bond to the buyer of the bond in the amount of
+interest due from February through May.
+B. It is paid by the buyer of the bond to the seller of the bond in the amount of
+interest due from February through May.
+C. It is paid by the seller of the bond to the buyer of the bond in the amount of
+interest due from February through August.
+D. It is paid by the buyer of the bond to the seller of the bond in the amount of
+interest due from February through August.
+*** Question 10 of 10
+*** Review Answers & Rationales
+1. (C)Nominal yield is the annual coupon (interest) rate paid by the issuer, as a
+    percentage of par value. In this case, $45 of interest is paid per year, over
+    the life of the bond. Importantly, nominal yield is fixed and does not change
+    over the life of the bond.
+2. (C)Current yield is the annual interest divided by the market price of a
+    bond. In this case, it is the $60 annual interest divided by $1,200 = 5.0%.
+    Because this question provides a semiannual coupon payment, be sure to
+    multiply it by 2 to calculate the annual figure.
+3. (D) Interest rate risk is the risk that if interest rates increase, bond prices
+    decrease. Long-term, low-coupon bonds (including zero-coupon bonds)
+    have the greatest interest rate risk, meaning they are most sensitive to
+    changing rates.
+4. (C)Reinvestment rate risk is the risk that as interest rates fall, that the semi-
+    annual coupon payments that an investor receives will be reinvested back
+    into the market at a lower rate of return. Note that zero coupon bonds do
+    not have reinvestment rate risk as there are no cash flows to reinvest.
+5. (A)In a serial bond issue, bonds mature at different intervals, with a portion
+    of the issue maturing each year.
+6. (C)Duration measures a bond’s sensitivity to changing interest rates. The
+    greater the duration, the greater the interest rate risk.
+7. (B)Bonds are most likely to be called when interest rates are falling because
+    issuers can refinance bonds at lower interest rates. Falling interest rates are
+    often caused by the Federal Reserve’s actions to loosen credit conditions,
+    not tighten them.
+8. (C) Of the choices given, credit ratings will typically have the most
+    significant impact on the liquidity of bonds as they measure a bond’s
+    likelihood of default.
+9. (A)Accretion and amortization refer the annual adjustment of a bond’s
+    cost basis for tax purposes. Discount bonds are accreted, which means
+    their cost basis increases upwards towards par each year. Premium bonds
+    are amortized, which means their cost basis decreases downwards towards
+    par each year.
+10. (B)Accrued interest is the interest paid by the buyer of the bond to the
+    seller of the bond when the bond is traded between coupon dates. This is
+    because even though the buyer will receive the full semi-annual coupon
+    payment in August, they did not own the bond for the entire period (the
+    seller owned it from February until mid-May) so the buyer pays that portion
+    back to the seller when the bond is purchased.
+** Unit 3 –Types of Bonds
+**** What backs the promise to make interest and principal payments in a
+**** debenture bond?
+A. Commercial real estate
+B. A designated stream of receivables or payments
+C. The good faith and credit of the issuing company
+D. The good faith and credit of a state or local government authority
+*** Question 1 of 10
+**** Which of the following statements about convertible bonds is not
+**** accurate?
+A. The value of the convertible bond is based
+on the value of the underlying common stock.
+B. Convertible bonds pay a higher rate of
+interest compared to similar non-convertible bonds.
+C. The number of common shares that an
+investor can convert each bond into is fixed.
+D. The price at which an investor is mathematically indifferent
+between owning the bond or the underlying stock is referred to as parity.
+*** Question 2 of 10
+44
+**** An example of a non-marketable US Government debt instrument is:
+A. Series I bonds
+B. STRIPS
+C. TIPS
+D. US Treasury bonds
+*** Question 3 of 10
+**** Which statement best describes the tax treatment of interest paid by US
+**** Treasury securities?
+A. The interest income is non-taxable at the federal level, but taxable at the state and
+local levels.
+B. The interest income is taxable at the federal level but not at the state or local level.
+C. The interest income is taxable at the federal, state, and local levels.
+D. The interest income is tax-exempt at all levels.
+*** Question 4 of 10
+**** The main advantage of holding STRIPS is:
+A. The elimination of interest rate risk.
+B. The elimination of purchasing power risk.
+C. Attractive current income.
+D. Safety of principal.
+*** Question 5 of 10
+**** All of the following statements about industrial development revenue
+**** bonds (IDRBs) are true except:
+A. They usually pay tax-exempt income.
+B. They are not backed by the good faith and credit of the municipality.
+C. They usually are backed by lease payments made by a corporation.
+D. A corporation is responsible for repaying the bonds.
+*** Question 6 of 10
+**** The primary disclosure document that investors rely on for information in
+**** municipal bond offerings is called:
+A. The red herring
+B. The statutory prospectus
+C. The official statement
+D. The trust indenture
+*** Question 7 of 10
+99
+**** For agency security issues, which of the following statements about the
+**** full faith and credit backing of the US Government is true?
+A. All agency securities have the full faith and credit backing of the US Government.
+B. Only Fannie Mae and Freddie Mac issues have the full faith and credit backing of
+the US Government.
+C. Only Ginnie Mae issues have the full faith and credit backing of the US
+Government.
+D. No agency debt has the full faith and credit backing of the US Government.
+*** Question 8 of 10
+1010
+**** All of the following can be considered money market debt instruments
+**** except:
+A. American depository receipts
+B. Commercial paper
+C. Banker’s acceptances
+D. US Treasury bills
+*** Question 9 of 10
+**** All of the following statements about Eurodollar bonds are true except:
+A. They are issued in foreign countries.
+B. They are denominated in US dollars.
+C. They are registered with the SEC.
+D. Their par value is typically $1,000.
+*** Question 10 of 10
+*** Review Answers & Rationales
+1. (C)Debenture bonds are unsecured corporate debt instruments. They are
+    backed by the good faith and credit quality of the issuing company, not
+    collateral or specific corporate assets.
+2. (B)Convertible bonds are a type of corporate bond where the investor has
+    the right to convert the bond into the company’s underlying common stock.
+    Because of this conversion benefit for the investor, convertible bonds pay a
+    lower (not higher) rate of interest compared to similar non-convertible
+    bonds.
+3. (A)A Series I bond is a non-marketable US Treasury savings bond. Non-
+    marketable securities, such as US savings bonds, cannot be resold to other
+    investors – i.e., lack a secondary market. Other US Government bonds are
+    marketable.
+4. (B) The interest income from Treasury securities is taxable at the federal level,
+    but not at the state or local level.
+5. (D)STRIPS are zero-coupon bonds issued and backed by the US
+    Government and therefore have safety of principal. However, because
+    they are zero-coupon securities they have a high degree of interest rate risk
+    and the securities are susceptible to purchasing power risk.
+6. (A) IDRBs are a type of taxable municipal security that are issued by a
+    municipality on behalf of a corporation. The bonds are backed by lease
+    payments made by a corporation to the municipality. The debt is the
+    responsibility of, and depends on the credit rating of, the corporation.
+7. (C)The official statement is the primary disclosure document for municipal
+    securities. It includes all relevant information for investors, including risk
+    factors.
+8. (C)Ginnie, Fannie, and Freddie all help create liquidity in the mortgage
+    market by issuing mortgage-backed securities. However, Ginnie is the only
+    one of the three that is backed by the full faith and credit of the US
+    Government. Because Fannie and Freddie are government sponsored
+    enterprises, they only have an implied, but not an explicit backing of the US
+    government.
+9. (A)Commercial paper, banker’s acceptances, and US Treasury bills are all
+    examples of money market securities, which are short-term debt instruments
+    with maturities of one-year or less. American depository receipts (ADRs) are
+    a type of equity security and therefore do not trade in the money market.
+10. (C)Eurodollar bonds are issued in foreign countries and denominated in US
+    dollars. Par value is $1,000 and coupons are paid in US dollars. Because they
+    are issued and traded overseas, Eurodollar bonds are not SEC-registered.
+** Unit  4  – Investment Companies
+**** An investor is making her first purchase in ABC Mutual Fund. What
+**** disclosure document requirement must her registered representative
+**** meet?
+A. Deliver both a summary and statutory prospectus, at or prior to the time of sale.
+B. Deliver a summary prospectus, at or prior to the time of sale.
+C. Provide notice of the online location of a statutory prospectus, within 3 business
+days of sale.
+D. Provide notice of the online location of a summary prospectus, within 3 business
+days of sale.
+*** Question 1 of 10
+**** The entity that is responsible for holding and safekeeping a mutual fund’s
+**** securities and cash is the:
+A. Custodian
+B. Transfer agent
+C. Registrar
+D. Prime broker
+*** Question 2 of 10
+**** A mutual fund investor is attempting to understand the different types of
+**** share classes. It would NOT be accurate to tell her that:
+A. Class A shares have an upfront sales charge,
+whereas Class B shares have a back-end load.
+B. All share classes have 12b-1 fees.
+C. All share classes offer breakpoints.
+D. Class C shares have a level load.
+*** Question 3 of 10
+**** Which of the following mutual funds orders will be executed at a price
+**** different than the others?
+A. An order placed at 5pm on Friday
+B. An order placed at 2pm on Sunday
+C. An order placed at 2pm on Monday
+D. An order placed at 5pm on Monday
+*** Question 4 of 10
+66
+**** A mutual fund’s expense ratio reflects:
+A. All costs of fund ownership, including front-end and back-end loads.
+B. All costs of fund ownership, including front-end loads.
+C. All costs of fund ownership, excluding sales charges.
+D. Only the fund’s management fees.
+*** Question 5 of 10
+77
+**** Fund XYZ has a net asset value of $10 and the most recent transaction in
+**** the fund was executed at $9.50. What must be true about Fund XYZ?
+A. Fund XYZ must be an open-end fund.
+B. Fund XYZ must be a closed-end fund.
+C. Fund XYZ can either be an open-end fund or a closed-end fund.
+D. Fund XYZ cannot be either an open-end fund or a closed-end fund.
+*** Question 6 of 10
+88
+**** When deciding on a mutual fund investment, the primary consideration
+**** should be:
+A. Cost-efficiency.
+B. The performance history of the fund manager.
+C. The size of the fund.
+D. The investor’s investment objectives.
+*** Question 7 of 10
+99
+**** To avoid the violation of a breakpoint sale, it is important for a registered
+**** representative to know a mutual fund’s:
+A. Back-end load
+B. Sales charge and discounts
+C. Expense ratio
+D. 12b-1 fee
+*** Question 8 of 10
+1010
+**** When comparing ETFs and UITs, it would be correct to say that:
+A. Both ETFs and UITs are exchange-traded.
+B. Both ETFs and UITs are redeemable.
+C. ETFs are exchange-traded, while UITs are redeemable.
+D. UITs and ETFs are both actively managed.
+*** Question 9 of 10
+**** All of the following are key differences between exchange-traded funds
+**** (ETFs) and mutual funds except:
+A. How orders are priced.
+B. When shares can be bought and sold.
+C. Ability to diversify assets among many securities.
+D. Ongoing costs of ownership.
+*** Question 10 of 10
+ETF or MF
+Investor
+Diversified portfolio
+1212
+1313
+*** Review Answers & Rationales
+***1. (B)** It is sufficient to deliver a summary prospectus at or prior to the time of
+    sale. It summarizes information available in the longer (statutory) prospectus.
+***2. (A)** A bank or trust company acts as custodian, holding and safekeeping a
+    mutual fund’s securities and cash.
+***3. (C)** Class A shares have an upfront sales charge. Class B shares have a
+    back-end load (aka contingent deferred sales charges or CDSCs), which
+    investors pay when they redeem their shares. Class C shares have level
+    loads. All share classes have 12b-1 fees, but Class B and C 12b-1 fees are
+    usually higher than Class A shares. Class A shares are the only share class
+    that can benefit from breakpoints.
+***4. (D)** When an investor purchases shares of a mutual fund, the price they pay
+    is based on the next NAV (net asset value) calculation after the order is
+    received. The NAV is calculated daily based on the closing price of the
+    market. This is referred to as forward pricing. For example, if on Monday a
+    customer places an order to buy shares at 5:00pm, which is after the market
+    close, the price they would pay for the shares is based on Tuesday’s closing
+    price. Since all the other orders were placed after the close on Friday, they
+    would have been executed at Monday’s closing price.
+***5. (C)** An expense ratio captures all ongoing costs of fund ownership including
+    management fees, operating expenses and 12b-1 fees. However, it does
+    not include sales charges.
+***6. (B)** Because closed-end funds are exchange-traded, they can trade at a
+    price either above or below their net asset value (NAV) based on the supply
+    and demand of the shares. Note that since mutual funds are purchased at
+    the NAV plus a sales charge that they can never trade below their NAV.
+***7. (D)** When deciding on a mutual fund investment, the investor’s investment
+    objectives are the primary consideration. Fees are of secondary
+    importance. Note that the size of the fund is typically the least important
+    factor.
+***8. (B)** Breakpoints are the levels of share purchases that achieve a quantity
+    discount in the front-end load (sales charge). A breakpoint violation occurs
+    when share sales occur just below these levels, to avoid giving a discount to
+    the investor.
+***9. (C)** A unit investment trust (UIT) is an investment company security that
+    combines redeemable shares with a fixed portfolio. Specifically, the
+    portfolio is assembled by a sponsor, who does not actively trade the
+    portfolio. Unlike UITs, ETFs are exchange-traded, though similar to UITs they
+    are not actively managed.
+***10. (C)** ETF shares are bought and sold on exchanges, at any time of the
+    trading day. Mutual fund shares can only be bought and sold through the
+    fund itself, and transactions are priced just once per day. ETFs, being
+    passively managed, can be more economical than mutual funds as they
+    will have lower expense ratios. Both structures provide broad diversification
+    among securities.
+** Unit 5 –Other Managed Products
+**** In order to pass through gains, REITs must meet all of the following criteria
+**** except:
+A. invest at least 75% of assets in real estate.
+B. derive at least 75% of income from real estate.
+C. invest at least 75% of assets in mortgage-backed securities.
+D. pass through at least 90% of gains to investors.
+*** Question 1 of 10
+33
+**** The dividends that REITs pay investors are taxed as:
+A. long-term capital gains if the shares have been held more than a year;
+otherwise as ordinary income.
+B. qualified dividends if the shares have been held more than 60 days;
+otherwise as ordinary income.
+C. long-term capital gains.
+D. ordinary income.
+*** Question 2 of 10
+44
+**** Which of the following assets is most likely to generate depletion tax
+**** deductions for a limited partnership?
+A. Oil and gas deposits
+B. Raw land
+C. Commercial real estate
+D. Plant and equipment
+*** Question 3 of 10
+55
+**** A direct participation program (DPP) passes through its passive gains
+**** and losses to investors. Passive losses can be used to:
+A. offset either ordinary income or passive gains.
+B. offset passive gains.
+C. increase the investor’s cost basis in the partnership.
+D. offset any non-partnership income or gains the investor generates in the same
+year.
+*** Question 4 of 10
+66
+**** Which entity does NOT pass-through gains and losses to investors?
+A. C-corps
+B. S-corps
+C. Limited partnerships
+D. Direct participation programs
+*** Question 5 of 10
+77
+**** What are the most important investment objectives of a raw land limited
+**** partnership?
+A. Depreciation and long-term capital gains
+B. Current income and long-term capital gains
+C. Depreciation and current incomes
+D. Only long-term capital gains
+*** Question 6 of 10
+88
+**** When a limited partnership is dissolved, who has the lowest claim on any
+**** partnership assets?
+A. General creditors
+B. Secured lenders
+C. General partners
+D. Limited partners
+*** Question 7 of 10
+99
+**** Hedge funds typically are suitable only for institutional and sophisticated
+**** individual investors. All of the following are reasons for this except:
+A. hedge funds often pursue aggressive trading strategies.
+B. hedge funds magnify risk by using leverage.
+C. hedge funds charge lower than other fund investments due to the large amount
+typically invested.
+D. hedge funds may have more limited disclosure than publicly traded investments.
+*** Question 8 of 10
+1010
+**** A bank offers a bundle of services to hedge funds and other large
+**** institutional investors. It includes trading, lending and custody. This
+**** relationship is referred to as:
+A. custodial.
+B. an omnibus account.
+C. prime brokerage.
+D. a discretionary account.
+*** Question 9 of 10
+1111
+**** When comparing exchange-traded funds (ETFs) and exchange-traded
+**** notes (ETNs) it would be accurate to state that:
+A. ETFs are considered equity securities, while ETNs are a type of secured corporate
+debt.
+B. both ETFs and ETNs are types of secured corporate debt.
+C. both ETFs and ETNs typically have limited liquidity.
+D. ETNs have credit risk, while ETFs do not.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (C)REITs are not subject to corporate tax if they meet the 75-75-90 test. At
+    least 75% of assets must be invested in real estate, at least 75% of income
+    must be derived from real estate, and at least 90% of gains must be passed
+    through to investors.
+2. (D)Dividends paid by a REIT are always taxed as ordinary income,
+    regardless of holding period. They are never capital gains or qualified
+    dividends.
+3. (A)Depletion compensates for using up natural resources such as oil or gas.
+    Raw land cannot be depleted or depreciated. Real estate and
+    plant/equipment are depreciated, though not depleted.
+1414
+*** Review Answers & Rationales
+4. (B) DPPs pass through their gains and losses to investors. If there is a passive
+    loss, it can only be used to offset passive gains.
+5. (A)An S corporation and limited partnership are both types of direct
+    participation program (DPP), in which shareholders receive a passthrough of
+    income and losses. In a C-corporation, dividends are taxed at both the
+    corporate and shareholder levels (double taxation).
+6. (D)Raw land LPs invest in a piece of land hoping that it increases in value
+    over time and that it can eventually be sold for a profit. Because the land is
+    not developed, there is no income or depreciation from the ownership
+    interest.
+1515
+*** Review Answers & Rationales
+7. (C)The priority of claims upon the assets of a dissolving limited partnership is,
+    from first to last: secured lenders, general creditors, limited partners, general
+    partners.
+8. (C)Hedge funds are aggressive, highly leveraged investments that charge
+    relatively high management fees. Most of them are private investment
+    funds, so they may have less disclosure than public investments.
+9. (C) Prime brokerage is a suite of bundled services offered to hedge funds
+    and other large institutions by banks and wealth management firms.
+1616
+*** Review Answers & Rationales
+10. (D)ETNs are unsecured corporate debt issues that combine principal
+    protection with equity market upside exposure. Because they are
+    unsecured, although the return of an ETN is based on an underlying equity,
+    they do not actually own that security. This contrasts with ETFs, which own
+    the securities in their portfolio and therefore are considered equity
+    securities. The credit quality of an ETN is based on that of the issuing broker-
+    dealer. Note that although both are exchange-traded, ETNs tend to have
+    much more limited liquidity
+** Unit 6 –Options
+22
+**** In listed options contracts, what type of risk does the Options Clearing
+**** Corporation (OCC) guarantee against?
+A. Counterparty
+B. Market
+C. Credit
+D. Interest rate
+*** Question 1 of 10
+33
+**** What impact does the issuance of Microsoft listed options contracts
+**** have on the capital structure of Microsoft?
+A. The issuance dilutes the equity of Microsoft.
+B. The issuance results in new Microsoft debt.
+C. There is no impact on Microsoft’s capital structure until the option is exercised.
+D. There is no impact to Microsoft’s capital structure.
+*** Question 2 of 10
+44
+**** The main difference between American-style options and European-style
+**** options is:
+A. Where they are issued.
+B. When they can be exercised.
+C. Where they were traded.
+D. An underlying 100× multiplier.
+*** Question 3 of 10
+55
+**** An investor sells a call option with a strike price of $45 and receives a
+**** premium of $4 per share. The underlying stock is currently trading at $43.
+**** The position will be at-the-money when:
+A. the underlying stock is at $41.
+B. the underlying stock is at $45.
+C. the underlying stock is at $47.
+D. the underlying stock is at $49.
+*** Question 4 of 10
+66
+**** An investor bought a call option with a strike price of $90, paying a
+**** premium of $5 per share. The underlying stock is now trading at $105.
+**** How can the investor lock in a gain now without exercising the option?
+A. Liquidate the position by buying a put option on the same underlying stock
+B. Liquidate the position by selling a call option on the same underlying stock
+C. Liquidate the position by selling a put option on the same underlying stock
+D. Liquidate the position by purchasing another call option on the same underlying stock
+*** Question 5 of 10
+77
+**** An investor buys 1 call option on ABC stock, when ABC is trading $37. The
+**** strike price of the option is $40, and the premium is $3 per share. The
+**** maximum gain on this position is:
+A. $4,300.
+B. $8,400.
+C. $24,800.
+D. unlimited.
+*** Question 6 of 10
+88
+**** In terms of risk exposure, the main difference between writing a covered
+**** call and writing an uncovered call is:
+A. the potential loss is much greater in uncovered call-writing.
+B. the potential loss is much greater in covered call-writing.
+C. uncovered call writing has more counterparty risk.
+D. there is little or no difference in risk exposure.
+*** Question 7 of 10
+99
+**** An investor owns 100 shares of ABC Corp. stock purchased at $67 and
+**** writes 1 ABC Nov 70 call at a premium of $3 per share. What is the
+**** investor’s breakeven?
+A. $64
+B. $67
+C. $70
+D. $73
+*** Question 8 of 10
+MV  64 73
+1 stPosition
+100 shares ABC at 67
+2 ndPosition
+Write 1 ABC Nov 70 call
+Premium= 3
+Profit or Loss
+1010
+**** An investor goes long 2 DEF Nov 21 put options at $2 per share when the
+**** underlying stock is priced at $24. What is the investor’s breakeven?
+A. $17
+B. $19
+C. $23
+D. $25
+*** Question 9 of 10
+1111
+**** The Volatility Market Index (VIX) measures the volatility of:
+A. interest rates.
+B. Dow Jones Index component stocks.
+C. S&P 500 Index options.
+D. Nasdaq.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (A)The OCC issues all listed options contracts and stands as the
+    counterparty to all trades. This eliminates counterparty risk – the risk that the
+    counterparty will default.
+2. (D)Listed options contracts are issued by the Options Clearing Corporation
+    (OCC). They are not the result of corporate actions and have no impact on
+    the capital structure of the issuer of the underlying stock as the company
+    itself is not raising money.
+3. (B)American-style options can be exercised at any time up to and including
+    the expiration date. European-style options can only be exercised on the
+    expiration date.
+1414
+*** Review Answers & Rationales
+4. (B) Options are at-the-money when the market value of the stock is equal to
+    the strike price of the option. When the option is at-the-money, the owner of
+    the option would let is expire and lose their premium.
+5. (B)Options positions can be liquidated to lock in profits, without exercising
+    the option. This is done by taking the opposite action (buy/sell) in the same
+    option contract. In this case, because the investor initially bought a call
+    option, they can liquidate by now selling that call option to another investor.
+6. (D)When an investor buys a call option, they have the right to buy the
+    underlying stock at the strike price. Because there is no limit on how high the
+    stock price can rise, the maximum gain is unlimited.
+1515
+*** Review Answers & Rationales
+7. (A)A covered call position consists of owning the underlying stock and
+    writing an option against it. In an uncovered call, there is no ownership of
+    the underlying shares and the risk of loss to the option position is unlimited.
+    This is because no matter how high the stock price increases, the writer will
+    be obligated to purchase the shares in the market and then sell the stock at
+    the strike price.
+8. (A)A covered call is a strategy where an investor sells a call option on a
+    stock, while also owning that stock. To calculate the breakeven on a
+    covered call, subtract the premium received from purchase price of the
+    stock. $67 - $3 = $64.
+1616
+*** Review Answers & Rationales
+9. (B) The breakeven of a put option is calculated as the strike price minus the
+    premium. Take note, that purchasing multiple contracts would not impact
+    the breakeven point.
+10. (C)The VIX, often referred to as the “fear index”, measures the volatility of
+    S&P 500 index options.
+** Unit 7 –Suitability
+22
+**** An individual qualifies as an institutional investor under FINRA’s suitability
+**** rules by having assets of at least:
+A. $5 million.
+B. $25 million.
+C. $50 million.
+D. $100 million.
+*** Question 1 of 10
+33
+**** An investor has a growth objective. Which investment would be least
+**** suitable for her?
+A. S&P 500 Index fund
+B. Preferred stock
+C. Blue-chip stocks
+D. Cyclical stocks
+*** Question 2 of 10
+44
+**** An investor is trying to understand whether common stock or preferred
+**** stock would be a more suitable investment. It would be accurate for his
+**** registered representative to tell him:
+A. if he is seeking an equity investment, he should invest in common stock as
+preferred is technically a debt instrument.
+B. both preferred and common stock typically pay semi-annual dividends and
+therefore provide current income.
+C. preferred stock would be a more suitable investment if he is seeking current
+income.
+D. preferred stock typically has more potential for appreciation and capital gains
+compared to common stock.
+*** Question 3 of 10
+55
+**** Which of the following investments has the least amount of liquidity risk?
+A. Exchange-traded notes (ETNs)
+B. Direct participation programs
+C. Municipal bonds
+D. Exchange-traded funds (ETFs)
+*** Question 4 of 10
+66
+**** An investor, who is seeking no decline in the value of her portfolio, would
+**** like to understand if Treasury bonds would be an appropriate investment
+**** choice. It would not be accurate for her registered representative to tell
+**** her:
+A. Treasury bonds are backed by the US Government and therefore are completely
+risk-free.
+B. Treasury bonds do not have any credit risk but are susceptible to interest rate risk.
+C. Treasury bills would be more suitable than Treasury bonds due to their shorter term.
+D. Treasury bonds do not have any credit risk but are susceptible to inflationary risk.
+*** Question 5 of 10
+77
+**** Which of the following funds is most appropriate for an investor with an
+**** objective of preservation of capital?
+A. US Treasury bond mutual fund
+B. Balanced mutual fund
+C. Money market mutual fund
+D. High-grade corporate bond mutual fund
+*** Question 6 of 10
+88
+**** What strategy might the manager of a stock mutual fund pursue if she
+**** believes there will be a sharp short-term decline in the stock market?
+A. Buy cyclical stocks
+B. Rotate among stock market sectors
+C. Increase cash holdings
+D. Increasing holdings of long-term bonds
+*** Question 7 of 10
+99
+**** All of the following information is relevant when calculating a stock’s
+**** total return except the:
+A. holding period.
+B. purchase price.
+C. sale price.
+D. dividends received.
+*** Question 8 of 10
+1010
+**** An investor purchased XYZ stock for $1,000 and sold it a year later for
+**** $1,300. During the year, he received $200 in dividends. His total return is:
+A. 13%.
+B. 30%.
+C. 32%.
+D. 50%.
+*** Question 9 of 10
+1111
+**** ABC stock was purchased six months ago at a price of $50. It currently is
+**** trading at $40 and pays quarterly dividends of $1 per share. Its current
+**** yield is:
+A. 2%.
+B. 2.5%.
+C. 8%.
+D. 10%.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (C)Under FINRA suitability rules, an individual qualifies as an institutional
+    investor by having assets of at least $50 million
+2. (B)Preferred stock pays a fix quarterly dividend and is therefore appropriate
+    for an investor seeking current income. However, because of the fixed
+    dividend, preferred stock does not have as much potential for appreciation
+    and capital gains.
+3. (C)Preferred stock is an equity security that pays a fix quarterly dividend
+    and is therefore appropriate for an investor seeking current income.
+    However, because of the fixed dividend, preferred stock does not have as
+    much potential for appreciation and capital gains. For an investor seeking
+    growth, common stock would be more suitable.
+1414
+*** Review Answers & Rationales
+4. (D) A security that cannot easily be sold is said to have liquidity risk. Of the
+    choices given, ETFs have the greatest liquidity and secondary market given
+    that they are equity securities and exchange-traded investments. Although
+    ETNs are also exchange-traded, because they are a more specialized
+    structured product, they have less liquidity.
+5. (A)Although a Treasury bond has no credit risk, as they are guaranteed by
+    the full faith and credit of the US government, they still are very susceptible
+    to interest rate risk given their long-term (e.g. 30 year) maturity.
+1515
+*** Review Answers & Rationales
+6. (C)Preservation of capital (safety) is an objective under which the investor
+    seeks no decline in the value of investments. Because money market funds
+    invest is debt securities with one year or less remaining until maturity, they
+    are the best fit to this objective. The only type of mutual fund that matches
+    this objective is money market funds. Note that although US Treasury bonds
+    have a high degree of safety, they are susceptible to greater interest rate
+    risk due to the longer maturity date which is why they are not the best
+    answer choice
+7. (C)If the manager of a fund believes there might be a short-term decline in
+    the market, he/she could increase assets held in cash and cash equivalents.
+    This is will allow her to “buy the dip”.
+1616
+*** Review Answers & Rationales
+8. (A) Stock total return is calculated as (capital gains plus dividends) divided
+    by the initial purchase price. Capital gains is calculated as the difference
+    between the purchase and sale price. The length of the holding period is
+    not required.
+9. (D)Stock total return is calculated as (capital gains plus dividends) divided
+    by the initial purchase price. In this case: ($300 + 200) / $1,000 = 50%.
+10. (D)Current calculated as annual dividends divided by the current market
+    price. $4 / $40 = 10%. Remember to multiply quarterly dividends by four to
+    calculate the annual figure.
+** Unit 8 –Issuing Securities
+**** An IPO investor is given a disclosure document about 2 weeks before the
+**** anticipated effective date. It includes all the material information about
+**** the company but does not include the offer price or number of
+**** registered shares. This document is the:
+*** Question 1 of 10
+A. tombstone ad.
+B. official statement.
+C. preliminary prospectus.
+D. final prospectus.
+*** Question 2 of 10
+**** Rule 147 allows companies to raise capital and avoid SEC registration,
+**** provided they:
+A. offer securities only to accredited investors.
+B. offer securities only to in-state residents.
+C. do not exceed $50 million in gross offerings in a calendar year.
+D. offer securities only to foreign investors.
+*** Question 3 of 10
+**** A Regulation D offering can generally have:
+A. an unlimited number of both accredited and non-accredited investors.
+B. a limit of 35 accredited and 35 non-accredited investors.
+C. an unlimited number of accredited investors,
+but no more than 35 non-accredited investors.
+D. an unlimited number of accredited investors,
+but zero non-accredited investors.
+*** Question 4 of 10
+**** A wealthy individual, who consistently earned more than $200,000 in
+**** annual income while working, has now since retired. Can she still qualify
+**** as a Regulation D accredited investor?
+A. No, because once she retires there is not a
+reasonable expectation for a similar income to continue.
+B. Yes, because she consistently earned
+more than $200,000 while she was working.
+C. Yes, because once an individual
+qualifies as accredited, their status does not change.
+D. Yes, but only if she has a net worth of at least
+$1 million excluding her primary residence.
+*** Question 5 of 10
+**** Which of the following investors is eligible to trade unregistered securities
+**** under Rule 144A?
+A. A resident of the same state in which the issuer is located.
+B. A hedge fund that manages $500 million in discretionary assets.
+C. An investor who resides in a foreign jurisdiction.
+D. An individual with annual income of $500,000 and a net worth of $10 million.
+*** Question 6 of 10
+**** XYZ engages in a tender offer to purchase 30 million shares of ABC.
+**** However, the offer is oversubscribed, and 40 million shares are tendered
+**** by ABC shareholders. What will be the outcome for a shareholder who
+**** tendered 10,000 shares?
+A. All 10,000 shares will be accepted.
+B. 7,500 shares will be accepted.
+C. No shares will be accepted as oversubscribed
+tender offers are automatically cancelled.
+D. Some of the investor’s shares may be
+accepted at a price below the best price offered.
+*** Question 7 of 10
+**** Which of the following statements describing secondary offerings is most
+**** accurate?
+A. All follow-on offerings are secondary offerings
+B. In a secondary offering the company’s total number of shares will increase
+C. In a secondary offering the shares are sold by existing shareholders
+D. IPOs can never be secondary offerings
+*** Question 8 of 10
+**** All of the following statements about shelf registrations are true except:
+A. a shelf registration is good for up to three years.
+B. a shelf registration can be used to offer either equity or debt.
+C. a shelf registration allows a company to preregister securities so that they can be
+sold when market conditions are most favorable.
+D. a shelf registration can be used for either an IPO or follow-on offering.
+*** Question 9 of 10
+**** A registered representative works for ABC Securities. Which of the
+**** registered rep’s family members would be considered a restricted person?
+A. The registered rep’s cousin
+B. The registered rep’s mother-in-law
+C. The registered rep’s grandfather
+D. The registered rep’s ex-wife
+*** Question 10 of 10
+**** Why might an underwriter engage in a stabilizing bid?
+A. To support an IPO by bidding the stock above the public offering price
+B. To keep the price of an IPO from falling below the public offering price
+C. To increase the demand of an IPO
+D. To put a ceiling on the price of an IPO stock immediately after it goes public
+*** Review Answers & Rationales
+1. (C)A preliminary prospectus (red herring) is used to inform market the
+    transaction to investors and collect indications of interest during the cooling-
+    off period. The preliminary prospectus will generally not include the timely
+    details of the transaction, such as the offer price or number of shares being
+    registered. Instead, buyers must still receive a final prospectus no later than
+    the settlement date of the transaction, which includes this information.
+2. (B)Rule 147 allows an in-state business to raise capital in their home state
+    and avoid SEC registration. Under 147, 100% of the securities must be sold to
+    state residents who cannot resell outside the state for six months.
+3. (C)Generally, a Regulation D offering can have an unlimited number of
+    accredited investors but not more than 35 non-accredited investors.
+4. (D) An individual who consistently made at least $200,000 during his or her
+    career but has since retired would not necessarily be accredited because
+    once he or she retires there is not a reasonable expectation for a similar
+    income to continue. However, she could qualify as accredited if she met
+    the net worth test, by having a net worth of at least $1 million, excluding her
+    primary residence.
+5. (B)Rule 144A allows Qualified Institutional Buyers (QIBs) to freely trade
+    unregistered securities among themselves. A QIB is an institution that
+    manages at least $100 million in discretionary assets.
+6. (B)If a tender offer is oversubscribed, shares are accepted proportionately
+    from shareholders who tendered. In this case, each investor who tendered
+    will have 75% of tendered shares accepted (30 million / 40 million = 75%).
+7. (C)A secondary offering is a new issue in which shares are being sold by
+    existing shareholders, not the company. It can be either an IPO or a follow-
+    on offering.
+8. (D) A shelf registration allows an issuer to preregister securities today and sell
+    them at a late date when market conditions are most favorable. A shelf can
+    be used to sell either equity or debt securities for up to 3 years from
+    registration, but it cannot be used for an IPO.
+9. (B)FINRA rules prohibit restricted persons from investing in IPOs of common
+    stock. They include employees of broker-dealers and their spouses, parents,
+    siblings, children and in-laws.
+10. (B)Stabilization allows an underwriter to bid on securities in the open market
+    to prevent the price from declining following an IPO. Stabilization bids must
+    be at or below the IPO price.
+** Unit 9 –Secondary Market
+22
+**** An investor places a limit order to buy 1,000 shares at a price of $47.00
+**** 600 shares of the order are executed quickly. What happens to the rest
+**** of the order if no further instructions were given:
+A. The rest of the order is cancelled.
+B. The rest of the order becomes a market order.
+C. The order remains in effect for the rest of the
+day as a limit order to buy 400 shares at $47.00.
+D. The order becomes a stop limit order to buy 400 shares at $47.
+*** Question 1 of 10
+33
+**** In which case would a broker-dealer charge a customer a mark-down?
+A. When acting as an agent to sell stock for a customer
+B. When acting as an agent to buy stock for a customer
+C. When acting as a principal and selling stock to a customer from inventory
+D. When acting as a principal and buying stock from a customer for inventory
+*** Question 2 of 10
+44
+**** If a market-maker fails to honor a firm quote, it has committed a violation
+**** called:
+A. trading ahead.
+B. backing away.
+C. quote-stuffing.
+D. spoofing.
+*** Question 3 of 10
+55
+**** Which of the following stocks may be quoted by a market-maker on one
+**** side of the market only?
+A. Stock quoted on NASDAQ
+B. Stock quoted on NYSE
+C. Stock quoted on OTCBB
+D. All stock may be quoted on one side of the market
+*** Question 4 of 10
+66
+**** An investor wants to sell 200 shares of a stock immediately at the best
+**** price available and then buy back all 200 shares, but only at a price at
+**** least $2 a share lower. This should be executed by placing:
+A. A market order to sell and a limit order to buy
+B. Two limit orders
+C. Two market orders
+D. A limit order to sell and a market order to buy
+*** Question 5 of 10
+77
+**** All of the following orders are automatically adjusted downwards in price
+**** on a stock’s ex-dividend date except:
+A. sell stop orders.
+B. buy stop orders.
+C. buy limit orders.
+D. sell stop limit orders.
+*** Question 6 of 10
+Market price Limit orders Stop orders
+88
+**** A registered representative receives an order from a wealthy customer
+**** to buy 10,000 shares of ABC Co. stock. Before executing the customer
+**** order, he buys 500 shares for his own account. This violation is called:
+A. churning.
+B. gun-jumping.
+C. front-running.
+D. interpositioning.
+*** Question 7 of 10
+99
+**** When is a registered representative prohibited from using the information
+**** contained in a research report to trade on securities mentioned in the
+**** report?
+A. When the report is written by an analyst at the same firm
+B. When the information is not yet public
+C. When the information is considered material to the company’s performance
+D. In all cases
+*** Question 8 of 10
+1010
+**** A trader sees that a stock is trading at a higher price in one market than
+**** in another. She buys the stock in the low-price market and simultaneously
+**** sells it in the high-price market for a profit. This is:
+A. a violation called ticket-splitting.
+B. a violation called trading through.
+C. an example of arbitrage.
+D. an example of spoofing.
+*** Question 9 of 10
+1111
+**** A trader enters buy limit orders on a thinly traded stock, to give the
+**** appearance of buying interest & trading volume. As the stock price rises,
+**** the trader cancels the orders & sells the same stock at the inflated price.
+**** This is a violation called:
+A. spoofing.
+B. layering.
+C. priming the market.
+D. pump-and-dump.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (C)Limit orders can be partially filled if the trader cannot get the entirety of
+    the order executed. The remaining 400 shares would sit on the books until
+    the end of the day where it will either be executed or cancelled.
+2. (D)Mark-ups and mark-downs relate to the trades broker-dealers make
+    when acting as principals. A mark-up is charged when selling stock to a
+    customer and a mark-down is charged when buying stock from the
+    customer.
+3. (B)Backing away is a violation that occurs when a market-maker fails to
+    honor firm quotes.
+1414
+*** Review Answers & Rationales
+4. (C) Quotes on the OTC Bulletin Board and OTC Pink may be one-sided
+    (either a bid or ask but not both required). Quotes on national exchanges
+    such as NASDAQ, NYSE and BATS must be two-sided.
+5. (A)Market orders are executed immediately at the best price available.
+    Limit orders specify a price the investor is willing to accept. Limit orders may
+    (or may not be) filled, in full or part.
+6. (B) Only orders entered at or below the market are adjusted downward for
+    dividends. Those include buy limit, sell stop, and sell stop limit.
+1515
+*** Review Answers & Rationales
+7. (C)Front-running is a violation in which a registered representative or firm
+    becomes aware of a large customer order and then trades for its one
+    account in advance of executing the customer order.
+8. (B)Trading ahead is a violation in which a broker-dealer or registered
+    representative trades based on nonpublic information contained in
+    research reports prior to the report being made publicly available.
+9. (C) Arbitrage occurs when an investor takes advantage of temporary price
+    disparities in markets to profit.
+1616
+*** Review Answers & Rationales
+10. (A)Spoofing is a form of market manipulation where a trader enters an
+    order to manipulate prices to be higher or lower, with no intent to actually
+    execute at the quoted price. In other words, spoofing refers to entering
+    orders to entice other participants to join on the same side of the market,
+    and then trading against the other market participants’ orders. Pump-and-
+    dumpusually involves driving up the price of a security through rumors or
+    false information
+** Unit 10 –Economics and Monetary Policy
+22
+**** A commodity is considered demand elastic.
+**** This means that as prices rise:
+A. the supply of the product will rise.
+B. demand for the product will rise.
+C. the supply of the product will fall.
+D. demand for the product will fall.
+*** Question 1 of 10
+$1 $2 $3 $4
+Price
+Demand Demand
+$1 $2 $3 $4
+Price
+33
+**** What officially signals that the US economy has entered a recession?
+A. A decline in wages and output over three consecutive months
+B. A persistent decline in the stock market, coinciding with falling industrial production
+C. Two consecutive quarters of falling employment and wages
+D. Two consecutive quarters of a decline in gross domestic product
+*** Question 2 of 10
+44
+**** An inverted yield curve occurs when:
+A. short-term interest rates are above long-term rates.
+B. long-term interest rates are above short-term rates.
+C. long-term and short-term interest rates are equal.
+D. demand for fixed income investments is falling.
+*** Question 3 of 10
+Interest rate
+¼ 1 2 3 5 7 10 20 30
+Maturity (in yrs.)
+8%
+6%
+4%
+2%
+0%
+INVERTED YIELD CURVE
+55
+**** Which type of equities would you expect to find in a portfolio that
+**** emphasizes cyclical stocks?
+A. Gas and electric utilities
+B. Grocery and pharmaceutical
+C. Auto and technology
+D. Health care
+*** Question 4 of 10
+66
+**** A bond investor who anticipates a deflationary environment would
+**** expect:
+A. interest rates to rise.
+B. bond prices to fall.
+C. new bond issues to be more attractive than outstanding bonds.
+D. bond prices to rise.
+*** Question 5 of 10
+77
+**** A company has total assets of $500 million, current assets of $300 million,
+**** total liabilities of $300 million, and current liabilities of $175 million. What is
+**** the company’s working capital?
+A. $125 million
+B. $200 million
+C. $325 million
+D. $500 million
+*** Question 6 of 10
+88
+**** The economic theory founded by Adam Smith can best be summarized
+**** as:
+A. the economy is best controlled through taxation and government spending.
+B. the economy works best without government interference.
+C. nations should emphasize domestic product over imports.
+D. the central bank has an important role to play in regulating money supply.
+*** Question 7 of 10
+99
+**** When the US government hands out large stimulus checks to help all
+**** citizens cope with recessions, it is practicing:
+A. classical economic theory.
+B. laissez-faire economics.
+C. Keynesian economics.
+D. monetarism.
+*** Question 8 of 10
+1010
+**** To tighten the money supply and curb inflation, the Federal Reserve will:
+A. lower the discount rate.
+B. lower the reserve requirement.
+C. sell government securities.
+D. buy government securities.
+*** Question 9 of 10
+1111
+**** Which of the following is the correct ranking of interest rates from low to
+**** high?
+A. Federal funds rate, discount rate, broker’s call rate, prime rate
+B. Prime rate, broker’s call rate, discount rate, federal funds rate
+C. Discount rate, federal funds rate, broker’s call rate, prime rate
+D. Prime rate, discount rate, broker’s call rate, federal funds rate
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (D)Elasticity refers to the sensitivity of supply and demand of a commodity
+    to a change of price. If a commodity is demand elastic, that means that as
+    prices change, demand will change. For example, if prices increase,
+    demand will decrease, and vice versa
+2. (D)A recession is defined as a decline in gross domestic product (GDP) for
+    two or more consecutive quarters.
+3. (A)In a normal yield curve, short-term rates are below long-term. An
+    inverted curve occurs when this relationship flips. Investors believe the
+    Federal Reserve will reduce interest rates to stimulate the economy and
+    they rush into long-term bonds to capture price gains, causing long-term
+    rates to fall.
+1414
+*** Review Answers & Rationales
+4. (C) Cyclical stocks mirror trends in the economy, strengthening when the
+    economy is growing rapidly and declining as the economy contracts. On
+    the other hand, demand for goods of defensive companies (e.g., grocery,
+    pharmaceutical, utilities, health care) is more stable over an economic
+    cycle.
+5. (D) Inflation and interest rates typically move in the same direction.
+    Therefore, in a deflationary environment, interest rates would fall leading to
+    rising bond prices (due to the inverse relationship between rates and prices).
+    Additionally, in a deflationary environment, outstanding issues of corporate
+    bonds are more attractive than new issues. This is because the new issue
+    would have a lower coupon, reflecting the decline in interest rates that
+    accompanies deflation.
+1515
+*** Review Answers & Rationales
+6. (A)Working capital is calculated by subtracting current liabilities ($150
+    million) from current assets ($300 million).
+7. (B) Adam Smith is considered the founder of classical economic theory,
+    which states that the economy best functions without government
+    interference.
+8. (C)Keynesian economists believe the economy is best controlled through
+    active government intervention to stimulate demand and avoid recessions
+    (e.g., tax cuts, deficit spending, stimulus checks).
+1616
+*** Review Answers & Rationales
+9. (C) When inflation is increasing, the Fed will tighten the money supply by
+    increasing interest rates. The Fed can tighten the money supply by
+    increasing the discount rate, selling government securities, or raising the
+    reserve requirement.
+10. (A)The order, from lowest to highest rate, is: federal funds rate, discount
+    rate, broker’s call rate, and prime rate.
+** Unit 11 –Customer Accounts
+22
+**** A registered representative in Maryland wishes to cold call a prospect
+**** who lives in California. She may do so during the hours of:
+A. 9 am to 8 pm California time.
+B. 8 am to 9 pm California time.
+C. 9 am to 8 pm Maryland time.
+D. 8 am to 9 pm Maryland time.
+*** Question 1 of 10
+33
+**** A customer wants to open a numbered account at his broker-dealer in
+**** order to remain anonymous. All of the following statements about the
+**** process are accurate except:
+A. the account can be represented by a symbol.
+B. the account can be represented by an alias.
+C. the broker-dealer must receive a written statement of ownership from the customer.
+D. the customer is still required to provide proof of identity.
+*** Question 2 of 10
+44
+**** A customer opens a margin account and places her first trade to buy
+**** $3,000 worth of stock. The amount of cash she must deposit is:
+A. $1,000
+B. $1,500
+C. $2,000
+D. $3,000
+*** Question 3 of 10
+$0 $1000 $2000 $3000 $4000 $5000 $6000
+$3000
+$2000
+$1000
+$0
+REQ. DEPOSIT
+TRANSACTIONAMOUNT
+LONG ACCT
+55
+**** Which of the following securities can be purchased on margin?
+A. Mutual funds
+B. Standard options contracts
+C. Exchange-traded funds
+D. New issues
+*** Question 4 of 10
+66
+**** When a customer opens a margin account, she is asked to sign a
+**** hypothecation agreement. What does the agreement obligate her to do?
+A. Pledge the securities in the account as collateral for the loans
+B. Permit the broker-dealer to lend her securities to other customers
+C. Avoid purchasing any securities prohibited in margin accounts
+D. Loan the securities in the account to other customers for short sales
+*** Question 5 of 10
+77
+**** A married couple is looking to open a brokerage account for their 3-
+**** year-old daughter and newborn son. Their registered representative is
+**** explaining the characteristics of a minor account. All of the following are
+**** accurate statements regarding the account except:
+A. any assets gifted to the minor’s account are irrevocable.
+B. each child would require a separate minor account.
+C. the minor’s social security number is on the account.
+D. the parents are liable for any taxes on the gains in the account.
+*** Question 6 of 10
+88
+**** In a not held order, a registered representative has the client’s permission
+**** to choose:
+A. the amount and time of the trade.
+B. the action (buy or sell) and price of the trade.
+C. the price and time of the trade.
+D. whether to sell all or part of a position.
+*** Question 7 of 10
+99
+**** A husband and wife have a JTWROS account. If the husband dies, what
+**** will happen to assets in the account?
+A. All securities positions will be liquidated, and the cash will be distributed to the wife.
+B. The assets will be distributed by the probate court.
+C. The wife maintains 50% ownership, while her husband’s 50% will be distributed in
+accordance with his will.
+D. 100% will be owned by the wife.
+*** Question 8 of 10
+1010
+**** A customer has $400,000 in a brokerage account at ABC Securities, of
+**** which $180,000 is in cash and the rest in securities. What amount is
+**** covered by the Securities Investor Protection Corp. (SIPC)?
+A. All securities and all cash
+B. All securities but no cash
+C. Up to $250,000 in securities plus up to $250,000 in cash
+D. Up to $500,000 in total, of which $250,000 can be cash
+*** Question 9 of 10
+1111
+**** A customer is going on vacation and wants her broker-dealer to hold her
+**** mail, such as trade confirmations and account statements. Which of the
+**** following most accurately describes this process?
+A. The firm can hold the customer’s mail for up to three months for international travel
+and two months for domestic travel upon written request by the customer.
+B. The firm can only hold on to the customer’s mail if there is a security concern.
+C. The firm can hold the customer’s mail for up to three months upon verbal request
+from the customer.
+D. The firm can hold the customer’s mail for up to three months upon written request
+from the customer.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (B)Cold calls are allowed between 8am and 9pm in the time zone of the
+    person being called.
+2. (B)A numbered account is a brokerage account represented by a symbol
+    or number, but not an alias, which allows the account holder to remain
+    anonymous. The firm must receive a written statement of ownership and
+    proof of identity from the customer.
+3. (C)Under FINRA rules, if a customer wants to purchase between $2,000 and
+    $4,000 in a margin account, they must deposit minimum initial equity of at
+    least $2,000.
+1414
+*** Review Answers & Rationales
+4. (C) Marginable securities include exchange-listed stocks, closed-end funds,
+    ETFs, fixed income securities, and LEAP options with more than nine months
+    to expiration. Mutual funds, annuities standard option contracts, and new
+    issues (for the first 30 days after the effective date) cannot be bought on
+    margin.
+5. (A)In return for receiving margin loans from the brokerage firm, customer
+    agree to let securities in the account be pledged as collateral for those
+    loans. This is called hypothecation.
+1515
+*** Review Answers & Rationales
+6. (D)Each account an only have one beneficial minor and because the
+    minor owns the account, it is their social security number on the account
+    and the minor is liable for any taxes. However, the account is managed by
+    a custodian, who trades on behalf of the minor. Additionally, any assets that
+    are gifted to the minor’s account are irrevocable, which means they
+    cannot be taken back.
+7. (C)A not held order occurs when the customer provides the asset, amount,
+    and action, but gives the registered representative permission to determine
+    the price and time of execution. Discretionary trading authority is not
+    required for note held orders.
+1616
+*** Review Answers & Rationales
+8. (D)In a JTWROS account, all owners have an undivided (100%) interest. If
+    one of two joint owners dies, the assets avoid probate, which is the
+    inheritance process via the court, and go straight to the survivor.
+9. (D)SIPC protects each customer account if a broker-dealer goes bankrupt.
+    The protection is for up to $500,000 in total, but not more than $250,000 in
+    cash. Since the cash does not exceed $250,000, the account is covered for
+    up to $500,000 in total.
+10. (D) If a customer will be travelling, they can request that their broker-dealer
+    hold on to their mail, such as trade confirmations and account statements,
+    for up to three months. The customer must make this request in writing.
+** Unit 12 –Tax Advantaged Accounts
+22
+**** 65-year-old woman earns $8,000 from investment income, $3,500 from a
+**** part-time job, $12,000 from pension income, and $19,000 from Social
+**** Security. The most she can contribute to a traditional IRA is:
+A. $2,000.
+B. $3,500.
+C. $6,000.
+D. $7,000.
+*** Question 1 of 10
+33
+**** In order to avoid potential tax consequences and early withdrawal
+**** penalties, IRA rollovers must be completed within:
+A. 30 days.
+B. 60 days.
+C. 90 days.
+D. 120 days.
+*** Question 2 of 10
+44
+**** Which of the following statements accurately describes the tax status of
+**** a Roth IRA?
+A. Contributions to a Roth IRA are always non-deductible and only the growth is
+taxed as ordinary income upon distribution
+B. Contributions to a Roth IRA are always non-deductible and only the growth is
+taxed as capital gains upon distribution
+C. Contributions to a Roth IRA are always non-deductible and qualified distributions
+are completely tax-free
+D. Contributions to a Roth IRA are always deductible and qualified distributions are
+completely tax-free
+*** Question 3 of 10
+55
+**** When do required minimum distributions (RMDs) begin for the holder of a
+**** traditional IRA?
+A. At age 59 ½
+B. At age 70 ½
+C. At age 72
+D. Not until death of the account holder
+*** Question 4 of 10
+66
+**** When describing the characteristics of a variable annuity it would be
+**** accurate to say:
+A. the number of accumulation units is fixed, but the value of each unit will fluctuate.
+B. the number of accumulation units will fluctuate, but the value of each unit is fixed.
+C. the number of annuity units is fixed, but the value of each unit will fluctuate.
+D. the number of annuity units will fluctuate, but the value of each unit is fixed.
+*** Question 5 of 10
+77
+**** An individual buys a variable annuity, choosing a joint and last survivor
+**** with 10-year period certain payout option. He names his spouse as joint
+**** annuitant. If he annuitizes and then dies after 6 years of payments,
+**** payments will continue for:
+A. 4 years.
+B. 10 years.
+C. the rest of the spouse’s life, but not for less than 4 more years.
+D. the rest of the spouse’s life, but not for less than 10 more years.
+*** Question 6 of 10
+88
+**** For an annuity investor, the benefit of making a 1035 exchange is:
+A. no surrender charge.
+B. no income tax.
+C. a higher payout.
+D. the ability to avoid a new surrender charge schedule.
+*** Question 7 of 10
+99
+**** A type of retirement plan used by employees of public schools and non-
+**** profit organizations is called a:
+A. 529.
+B. 401(k).
+C. 403(b).
+D. Simple IRA.
+*** Question 8 of 10
+1010
+**** An individual is eligible to have an ABLE opened on their behalf if they
+**** had a disability prior to age:
+A. 18.
+B. 21.
+C. 26.
+D. 30.
+*** Question 9 of 10
+1111
+**** When comparing a 529 plan and Coverdell, it would be accurate to say
+**** that:
+A. a Coverdell has a higher annual contribution limit.
+B. unlike a Coverdell, a 529 plan has an age limit by which the assets in the account
+must be withdrawn.
+C. both plans allow for tax-free distributions when the funds are used for education.
+D. both 529 plans and Coverdells are considered municipal fund securities.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (B)Individuals can contribute the lesser of $6,000 per year ($7,000 for those
+    aged 50 or older) or 100% of earned income. Pensions, Social Security, and
+    investment income are not considered earned income and therefore
+    cannot be contributed to an IRA.
+2. (B)Individuals can move their IRA investments from one plan provider to
+    another. This is referred to as a rollover and must be completed within 60
+    days to avoid potential tax liabilities and early withdrawal penalties.
+3. (C)Contributions to a Roth IRA are always made with after-tax dollars. The
+    earnings in the plan grow and accumulate tax-free and qualified
+    distributions from a Roth are tax-free. To be qualified, distributions must be
+    made after reaching age 59 ½ and the money must have been in the plan
+    for at least five years.
+1414
+*** Review Answers & Rationales
+4. (C) Required minimum distributions (RMDs) must begin in traditional IRAs by
+    April 1st following an individual’s 72nd birthday. However, in Roth IRAs, RMDs
+    are not required until death of the account holder.
+5. (C)When an individual invests money into a variable annuity, the dollars
+    invested into the insurance company’s separate account purchase
+    accumulation units. The value of each unit will fluctuate based on the value
+    of the securities in the portfolio. Therefore, both the number of accumulation
+    units will vary (the number will increase as the individual invests more
+    money) as will the value of each unit. Once the individual annuitizes (begins
+    taking distributions from the insurance company), they receive a fixed
+    number of annuity units, which will fluctuate in value based on the
+    performance of the subaccounts.
+1515
+*** Review Answers & Rationales
+6. (C)A joint and last survivor payout continues payments for as long as either
+    of two annuitants live. The 10-year period certain guarantees that payments
+    will be made for a minimum of ten years (in the event that both spouses die
+    beforehand). She will receive payments as long as she is alive but not less
+    than 10 years of payments total (5 years after he dies).
+7. (B)1035 exchanges allow one annuity to be swapped for another with no
+    current income tax. They do not eliminate surrender charges on the old
+    annuity or surrender charge schedules on the new annuity.
+8. (C) 403(b) plans, also called tax-sheltered annuities, are retirement plans
+    that work much the same as 401(k)s, except that they are used by
+    employees of public schools and non-profit organizations.
+1616
+*** Review Answers & Rationales
+9. (C)An ABLE account is a tax-advantaged savings account for individuals
+    with disabilities. It may be opened for persons with disabilities up to the age
+    of 26.
+10. (C)A 529 plan is a tax-advantaged to save for education. Contributions to the
+    plan are made with after-tax dollars. The earnings in the plan grow and
+    accumulate tax-free and distributions for qualified education (e.g. tuition and
+    books) are completely tax-free at the federal level. There is no age limit on the
+    beneficiary of a 529 plan. Technically, because 529 plans are offered by states,
+    they are considered municipal fund securities. A Coverdell can also be used to
+    fund education expenses and has the same tax treatment as a 529 plan. However,
+    529 plans are the much more popular of the two plans as a Coverdell has a much
+    lower maximum contribution limit: $2,000 per year per child. Additionally, the assets
+    in a Coverdell must be withdrawn or transferred by the time the student reaches
+    the age of 30.
+** Unit 13 –FINRA Registration
+22
+**** All of the following are self-regulatory organizations (SROs) except:
+A. FINRA.
+B. the Municipal Securities Rulemaking Board (MSRB).
+C. the SEC.
+D. the Chicago Board of Options Exchange (CBOE)
+*** Question 1 of 10
+33
+**** The MSRB is:
+A. responsible for regulating the issuers of municipal securities.
+B. a government agency.
+C. responsible for creating rules that help govern the municipal securities industry.
+D. responsible for creating and enforcing rules that govern the municipal securities
+industry.
+*** Question 2 of 10
+44
+**** All of the following are true of FINRA arbitration rules except:
+A. arbitrators can be from both inside the securities industry or outside the securities
+industry.
+B. a law degree is not required to be an arbitrator.
+C. if an individual has signed a pre-dispute arbitration agreement, the case is required
+to go to arbitration with no exceptions.
+D. cases involving members of the public must include arbitrators from outside the
+securities industry.
+*** Question 3 of 10
+55
+**** All of the following are required to submit fingerprints to FINRA except:
+A. a registered representative working in operations.
+B. clerical staff involved in the handling of securities.
+C. a partner of the broker-dealer.
+D. an employee of a broker-dealer who regularly accesses the firm’s original books
+and records.
+*** Question 4 of 10
+66
+**** If a registered representative engages in new outside business activity
+**** away from the firm, how must this activity be reported?
+A. On an amended Form U4, filed within 30 days
+B. On an amended Form U4, filed by the end of the calendar quarter
+C. On an amended Form U5, filed within 30 days
+D. On an amended Form U5, filed by the end of the calendar quarter
+*** Question 5 of 10
+77
+**** After a registered representative is terminated by her firm, what
+**** responsibility does she have to keep FINRA notified of changes in
+**** her current address?
+A. She must keep FINRA updated for one year after termination
+B. She must keep FINRA updated for two years after termination
+C. She must keep FINRA updated for ten years after termination
+D. There is no requirement to update FINRA, unless the registered representative is
+convicted of a crime
+*** Question 6 of 10
+88
+**** Regulatory element continuing education (CE) must be completed :
+A. within 90 days of the first registration anniversary, and every two years thereafter.
+B. within 120 days of the second registration anniversary, and every two years
+thereafter.
+C. within 120 days of the second registration anniversary, and every three years
+thereafter.
+D. annually.
+*** Question 7 of 10
+99
+**** How frequently does a registered representative need to complete firm
+**** element continuing education (CE)?
+A. At least annually
+B. At least once every three years
+C. Within 120 days of their second anniversary of being registered and every three
+years thereafter
+D. At least semi-annually
+*** Question 8 of 10
+1010
+**** Which investment advisers (IAs) are required to register with the SEC?
+A. All investment advisers
+B. All investment advisers that have offices in multiple states
+C. All investment advisers with over $50 million in assets under management
+D. All investment advisers with over $100 million in assets under management
+*** Question 9 of 10
+1111
+**** Individuals are statutorily disqualified if:
+A. they were accused of a felony or securities related misdemeanor in past ten years.
+B. they were convicted for any felony or misdemeanor in the past ten years.
+C. they were convicted for any felony or securities related misdemeanor in the past
+ten years.
+D. they were convicted for any felony or securities related misdemeanor in the past
+five years
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (C)Self-regulatory organizations (SROs) are regulatory bodies empowered
+    by and accountable to the SEC. They provide investor protection and
+    promote market integrity. The SEC is a US government agency, not an SRO.
+2. (C)The MSRB is a self-regulatory organization that regulates municipal
+    securities firms, advisors, and professionals but not municipal issuers.
+    Although the MSRB creates rules, it has no enforcement authority. Instead,
+    MSRB rules are enforced by FINRA and other regulators.
+1414
+*** Review Answers & Rationales
+3. (C)FINRA arbitrators can be from both inside the industry and outside the
+    industry. Those from outside are called public arbitrators. A law degree is not
+    a required credential for arbitrators. Industry cases are decided by industry
+    arbitrators, while cases involving the public must include arbitrators from the
+    public sector. If an individual has signed a pre-dispute arbitration
+    agreement, they have agreed to go to arbitration to settle any disputes that
+    arise. An exception is disputes regarding harassment or discrimination, which
+    go to a court unless both parties agree to arbitration.
+1515
+*** Review Answers & Rationales
+4. (C) All registered representatives of a broker-dealer must submit fingerprints
+    to FINRA as part of their registration. This requirement also applies to any
+    partners of the firm or clerical staff who are involved in the handling or
+    processing of securities or money. However, a partner of the firm or clerical
+    employee not involved in those activities are exempt from fingerprinting
+    requirements. For example, a partner of a broker-dealer, who has invested
+    capital into the firm, but has no other involvement (e.g. a silent partner) is
+    not required to submit fingerprints.
+5. (A)All registered individuals must complete Form U4 upon joining a broker-
+    dealer. Any changes to this information, including engaging in a new
+    outside business activity (e.g. second job) away from the firm, must be
+    reported on an amended U4 within 30 days.
+1616
+*** Review Answers & Rationales
+6. (B)After a registered representative is terminated, the individual must keep
+    his/her address updated with FINRA for two years after termination.
+7. (C)Regulatory element continuing education must be completed within
+    120 days of the second registration anniversary, and every three years
+    thereafter.
+8. (A) FINRA requires firm element CE continuing education to be completed
+    at least annually.
+1717
+*** Review Answers & Rationales
+9. (D)Larger investment advisers, defined as those with over $100 million in
+    assets under management, must register with the SEC. Smaller advisers must
+    register in each state where they operate.
+10. (C) A statutory disqualification will occur if within the past ten years the
+    individual has been convicted of a felony or a securities related
+    misdemeanor. In this situation, the individual cannot be employed with a
+    broker-dealer unless they receive a waiver from FINRA.
+** Unit 14 –Business Conduct Rules
+22
+**** A broker-dealer creates an advertisement, which it uses multiple times
+**** over several years. The broker-dealer is required to maintain records of
+**** these ads for a period of:
+A. two years from first use.
+B. three years from first use.
+C. two years from last use.
+D. three years from last use.
+*** Question 1 of 10
+33
+**** Under MSRB rules, a municipal finance professional (MFP) can make a
+**** political contribution of:
+A. up to $100 per election to any candidate.
+B. up to $100 per election to a candidate they are eligible to vote for.
+C. up to $250 per election to any candidate.
+D. up to $250 per election to a candidate they are eligible to vote for.
+*** Question 2 of 10
+44
+**** All the following are potential insider trading penalties except:
+A. civil penalties of up to three times the profits gained, or losses avoided.
+B. civil penalties up to treble damages.
+C. criminal penalties up to $5 million in fines.
+D. criminal penalties up to 5 years in prison.
+*** Question 3 of 10
+55
+**** A Currency Transaction Report (CTR) must be filed:
+A. for any cash deposits in excess of $5,000 in a single day.
+B. for any cash deposits in excess of $5,000 within a 15-day period.
+C. for any cash deposits in excess of $10,000 in a single day.
+D. for any cash deposits in excess of $10,000 within a 15-day period.
+*** Question 4 of 10
+66
+**** A registered representative can lend money to a client:
+A. under no circumstances.
+B. who is a friend with notification to the firm.
+C. who is a bank without permission from the firm.
+D. who is a family member with permission from the firm.
+*** Question 5 of 10
+77
+**** A registered takes a second job on the weekends working at his parent’s
+**** restaurant. This requires:
+A. permission from her firm.
+B. notification to her firm and if she is being paid, permission from her firm.
+C. notification to her firm.
+D. neither notification nor permission from her firm.
+*** Question 6 of 10
+88
+**** A registered representative at broker-dealer ABC wants to help raise
+**** capital for his friend’s start-up healthcare business. If he wants to
+**** conduct this activity away from his broker-dealer on nights and
+**** weekends, must he obtain the firm’s prior permission?
+A. Yes, if he will earn any form of compensation
+B. Yes, if he will be earning cash compensation
+C. Yes, regardless of whether he earns compensation
+D. No, but notification to his firm is required
+*** Question 7 of 10
+99
+**** A registered representative wants to open a joint brokerage account
+**** with a customer. Is this permitted?
+A. Yes, but only with permission from the customer
+B. Yes, but only with permission from the firm
+C. Yes, but only with permission from both the customer and firm
+D. Not in any case
+*** Question 8 of 10
+1010
+**** Registered representatives are required to forward to a supervisor any
+**** customer complaint, provided that the complaint:
+A. alleges fraud, theft or forgery.
+B. involves a sum of more than $500.
+C. is in writing.
+D. contains an accurate claim or facts.
+*** Question 9 of 10
+1111
+**** Retail communications include any written or electronic communication
+**** distributed:
+A. To 25 or more retail investors within a 30-calendar day period.
+B. to more than 25 retail investors within a 30-calendar day period.
+C. to 25 or more retail investors within a 90-calendar day period.
+D. to more than 25 retail investors within a 90-calendar day period.
+*** Question 10 of 10
+1212
+1313
+*** Review Answers & Rationales
+1. (D)Broker-dealers’ business records generally must be maintained for three
+    years after the record is created. However, for advertisements used multiple
+    times, the three-year clock restarts each time the ad is used.
+2. (D)A municipal finance professional (MFP) can give a maximum
+    contribution of $250 per election to a candidate they are eligible to vote
+    for.
+3. (D)The 1934 Act provides for civil penalties up to treble damages (3 times
+    the profits gained or losses avoided) and criminal penalties up to $5 million
+    in fines and 20 years in prison.
+1414
+*** Review Answers & Rationales
+4. (C) A Currency Transaction Report (CTR) must be filed for any cash deposits
+    in excess of $10,000 in a single business day. Once triggered, a CTR must be
+    filed with FINCEN within 15 days of deposit.
+5. (C)A registered representative is allowed to lend or borrow money from a
+    client with no notice or permission required if the client is a bank or family
+    member. Firm permission is required if the loan is based on an outside
+    business or personal relationship with the client or if the client is a registered
+    person at the same firm.
+6. (C) A registered rep that wishes to engage in outside employment (e.g. a
+    second job) away from their firm must notify their firm prior to engaging in
+    the activity.
+1515
+*** Review Answers & Rationales
+7. (A)This is an example of selling away (private securities transactions) – when
+    a registered representative conducts securities business away from his/her
+    firm. The firm must be notified, but prior permission is only required when
+    there is compensation. Note that both cash and non-cash compensation
+    trigger the permission requirement.
+8. (C)A registered representative and customer can share in the profits and
+    losses of an account (in proportion to their contributions) but only with
+    permission of both the firm and customer.
+9. (C) All written customer complaints must be forwarded to a supervisor. Note
+    that verbal complaints do not need to be reported.
+1616
+*** Review Answers & Rationales
+10. (B)Retail communications include any written or electronic communication
+    distributed to more than 25 retail investors within a 30-calendar-day period.
+    These communications require principal approval before first use.

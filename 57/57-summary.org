@@ -1,0 +1,143 @@
+* Broker-Dealers
+** Broker (Book-A)
+*** Routes the order to the liquiduty provider i.e. Interstate Bank or Market Maker
+*** commission is the income
+*** STP/ECN
+*** fixed spead
+** Market Maker (Book-B)
+*** In-house match
+*** spread is the income
+*** Dealing desk
+*** floating spread
+*** fastest execution (as the order is matched in-house not need to route to market)
+
+* Order Flow
+in case Broker-Dealer maintains bothe Book-A and Book-B i.e. it is both broker as well as market maker
+** Receives order
+*** QUANT team determines if it is profitable to match in-house
+**** If profitable act as Market Maker and enter the order in Book-B
+**** Else act as Broker and enters the order in Book-A
+
+* ECN vs STP
+|--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
+|                    | ECN Brokers                                                                                                                         | STP Brokers                                                                                                                             |
+|--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
+| Order routing      | Order is routed straight through to the central interbank market and is filled at the best market rate with no dealer intervention. | Order is routed directly to a counterparty that might be the interbank market, another STP broker, market maker, or even an ECN broker. |
+| Speed of execution | An ECN broker executes trades over the ECN for potential investors, which results in the lowest execution time.                     | The speed of execution depends on the exact route it takes on specific orders.                                                          |
+| Fee structure      | Always charges a small commission for trades and always has variable spreads.                                                       | Can charge commissions and also earn from the spreads. STP can offer variable and fixed spreads.                                        |
+|--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
+
+
+* Video: https://www.youtube.com/watch?v=6_0e4nNKjSo
+#+title: Equities
+* Dates
+** Declaration day
+** Trade day                            T
+** Ex-dividend day                      T+1        (excluding dividend i.e. price of stock = stock price - dividend)
+** settlement day or Record day         T+2
+#+title: OTC
+
+* size
+0.0001-0.0999: 10,000 shares
+0.10-0.1999: 5,000 shares
+0.20-0.5099: 2,500 shares
+0.51-0.9999: 1,000 shares
+1.00-174.99: 100 shares
+175.00+: 1 share
+
+10000 * .0001 / 0.0001  1/10000
+5000  * 0.1   / 0.1     1/10
+2500  * 0.2   / 0.2     1/5
+1000  * 0.5   / 0.5     1/2
+100   * 1     / 1       1
+1
+#+title: Trading Rules
+
+* halts
+** market wide
+*** SEC market disruptions.
+-   Up to 90 days (approval with notice to President).
+*** circuit break on decline of S&P (i.e. Index):
+**** 7%  (9.30-3.25): 15 minutes         (MM can enter quotes and customer can order quotes to BDs during last 5 min)
+**** 13% (9.30-3.25): 15 minutes         (MM can enter quotes and customer can order quotes to BDs during last 5 min)
+**** 20% (9.30-4.00): rest of the day
+** single stock
+*** Exchange
+**** T1 pending news                                      (BDs can submit order to NASDAQ during this time.)
+**** T2 release news                                      (BDs can submit order to NASDAQ during this time.)
+**** T3 let new disseminate for 5 minutes and reopen
+*** SEC (NMS or OTC)
+10 days for investor protection or market manipulation
+*** FINRA (NMS or OTC)
+**** Halt on system error/pending news/halt in a associative security
+**** SEC directed to halt.
+**** 10 days halt in extra ordinary situations.
+** ADR
+*** foreign company halts due to pending news or some event
+Halt trading
+*** Foreign company halts due to regulatory reasons.
+No halt
+
+* Close out /settlement
+** Short Sale : T + 3  (before open)
+** Long Sale  : T + 5  (before open)
+** Threshold  : T + 14 (before open)
+
+* Risk Control
+** Pre-Trade Control: Automated control for automated trading system.
+** If BD provides DMA: The control should be direct and exclusive (no out sourcing allowed)
+
+* Limit Up Limit Down
+** Band/LULD: is % above and below the stock reference price
+** Reference price: 5 minute average moving price of an stock which is
+*** calculated every 30 seconds.
+*** updated after 1% or greater change in the prior reference price.
+** COMMENT 5% band (lower priced stock have higher band 10%, 20% or 75%)
+
+
+# Rule
+# ----
+** IF greater than 5% Limit then
+*** price is changed to the limit
+**** IF == 5% Limit
+***** wait for 15 seconds
+***** During wait orders can be entered but they will not be executed.
+***** IF the quote is not removed or executed within 15 seconds
+****** pause and wait for 5 minutes
+****** IF the quote is not removed or executed within 5 minutes
+******* Primary Exchange can either pause or resume
+******* IF the quote is not removed or executed after 2nd halt
+******** Each exchange (there decision) may either wait for 10 minutes and result.
+***** ELSE
+****** EITHER order get canceled by the MM/BD/Customer
+****** OR     order is executed
+****** Trading will continue
+
+[[./LULD.png]]
+* Short Sell
+** Broker Dealer
+*** Locate
+**** Agreement with institutional investors
+    or
+**** Have availability
+***** Should publish the list of available list and update every 24 hours.
+*** Aggregate the position
+***** real time
+***** Avoid real time by independent unit aggregation; every unit / Trader will aggregate and will work independently for a specific unit (not more than one unit)
+*** Reporting
+**** every 15 days
+**** due 2 days ( 15 + 2 )
+** Restrictions
+*** IF market goes down by 10% or more.
+**** SS is restricted.
+**** trade halt for that day and next day
+** Restriction exceptions
+*** If the if price  higher than the NBB  (e.g. NBB 75.25-50 => SS 75.26) .
+*** if long
+*** If odd lot/warrant/right/covertible/vwap/riskless principal trade/recently traded and will settle next day.
+
+** In-Kind services
+*** BD should
+    - adhere order protection rule
+    - best execution mandate
+    - disclose any payments for order flow to affected customers.

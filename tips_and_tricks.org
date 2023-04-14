@@ -1,0 +1,36 @@
+* Test Taking Skills
+
+** Read the full question and the full answer set (RTFQ & RTFA) or shop the answer set
+** Read the last sentence first
+** Project the correct answer
+** Process of elimination
+** Reduction to the ridiculous
+** Principle of mutual exclusion
+** Sesame Trick (one of these things is unlike others)
+** Use True/ False on each answer
+** Too Long to be wrong
+
+* Read2Write1 Identify3Eliminate2Mark1
+** Read Last first
+** Read Full question and answer
+
+** Write your answer
+
+** Identify:
+*** Mutual exclusion
+*** Dissimilar
+*** Longer
+
+** Eliminate
+*** sequentially
+*** Ridiculous
+
+** Mark True False
+
+* Accredited investors
+** 123
+*** 1 -> 1000, 000 (should have 1000, 000 net work excluding house)
+or
+*** 2 -> 200, 000  ( salary of 200 thousand)
+or
+*** 3 -> 300, 000 (combined salary of husband+ wife)
