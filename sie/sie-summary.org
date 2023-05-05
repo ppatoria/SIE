@@ -1,3 +1,118 @@
+Chapter 1: Equity Securities
+Chapter 2: Debt Securities
+Chapter 3: Types of Bonds
+Chapter 4: Investment Company Securities
+Chapter 5: Other Managed Products
+Chapter 6: Options
+Chapter 7: Suitability and Investment Risks
+Chapter 8: Issuing Securities
+Chapter 9: Secondary Market and Equity Trading
+Chapter 10: Economics and Monetary Policy
+Chapter 11: Customer Accounts
+Chapter 12: Tax-Advantaged Accounts and Products
+Chapter 13: FINRA and State Supervision and Regulation
+Chapter 14: Business Conduct Rules
+
+* Section Description Percentage of Exam Number of Questions Textbook Chapters
+|---+---------------+------+----+------------------------------------------------+------------------------------------------|
+| # | Description   |    % |  # | SIE Chapters                                   | Series 57                                |
+|---+---------------+------+----+------------------------------------------------+------------------------------------------|
+| 1 | Knowledge     |  16% | 12 | 8: Issuing Securities                          | 6: New-Issue Market                      |
+|   | of            |      |    | 9: Secondary Market and Equity Trading         |                                          |
+|   | Capital       |      |    | 10: Economics and Monetary Policy              |                                          |
+|   | Markets       |      |    |                                                |                                          |
+|   |               |      |    |                                                |                                          |
+| 2 | Understanding |  44% | 33 | 1: Equity Securities                           | 1: The Nasdaq Stock Market               |
+|   | Products and  |      |    | 2: Debt Securities                             | 2: Over-the-Counter (OTC) Equities       |
+|   | Their Risks   |      |    | 3: Types of Bonds                              | 8: Options Contracts and Strategies      |
+|   |               |      |    | 4: Investment Company Securities               |                                          |
+|   |               |      |    | 5: Other Managed Products                      |                                          |
+|   |               |      |    | 6: Options                                     |                                          |
+|   |               |      |    | 7: Suitability and Investment Risks            |                                          |
+|   |               |      |    |                                                |                                          |
+| 3 | Understanding |  31% | 23 | 8: Issuing Securities                          | 3: Trading Rules                         |
+|   | Trading,      |      |    | 11: Customer Accounts                          | 4: Handling Customer Orders              |
+|   | Customer      |      |    | 12: Tax-Advantaged Accounts and Products       | 5: Trade Reporting                       |
+|   | Accounts,     |      |    |                                                |                                          |
+|   | and           |      |    |                                                |                                          |
+|   | Prohibited    |      |    |                                                |                                          |
+|   | Activities    |      |    |                                                |                                          |
+|   |               |      |    |                                                |                                          |
+| 4 | Overview      |   9% |  7 | 13: FINRA and State Supervision and Regulation | 7: Equity Markets Securities Regulations |
+|   | of the        |      |    | 14: Business Conduct Rules                     |                                          |
+|   | Regulatory    |      |    |                                                |                                          |
+|   | Framework     |      |    |                                                |                                          |
+|   |               |      |    |                                                |                                          |
+|---+---------------+------+----+------------------------------------------------+------------------------------------------|
+|   | To t a l      | 100% | 75 |                                                |                                          |
+|---+---------------+------+----+------------------------------------------------+------------------------------------------|
+* Common topics covered in both the FINRA Securities Industry Essentials (SIE) exam and the Series 57 exam:
+*** Series 57
+
+
+Chapter 8:
+
+
+** Securities Markets, Products, and Participants:
+Both exams cover the different types of securities, including
+- equities,
+- fixed-income securities, and
+- derivatives, as well as the
+- market participants, such as
+  - investors,
+  - issuers, and
+  - broker-dealers.
+
+** Regulatory Environment:
+Both exams cover the regulatory agencies that oversee the securities industry, including the
+- Securities and Exchange Commission (SEC),
+- the Financial Industry Regulatory Authority (FINRA), and
+- state regulators.
+
+** Trade Execution and Settlement:
+Both exams cover the
+- trade execution and settlement process, including the mechanics of
+  -- buying and selling securities, as well as the
+  -- settlement cycle and
+  -- the different types of orders.
+
+** Investment Banking:
+Both exams cover the basics of investment banking, including
+- the types of securities offerings,
+- the underwriting process, and
+- the role of investment banks in the capital markets.
+
+** Customer Accounts:
+Both exams cover the different types of customer accounts, including
+- cash accounts,
+- margin accounts, and
+- retirement accounts, as well as
+- the regulatory requirements related to opening and maintaining these accounts.
+
+** Anti-Money Laundering (AML):
+Both exams cover the basics of AML regulations, including
+- the different types of money laundering and terrorist financing, as well as
+- the obligations of broker-dealers to detect and report suspicious activity.
+
+
+
+
+
+
+* Fixed-rate capital securities [important]
+are a type of *hybrid security* that have characteristics of both
+- bonds and
+- preferred stock.
+They are issued by corporations and have a
+- fixed interest rate,but
+- do not have a stated maturity date. Instead,
+- they have a call date,
+which is the earliest date that the issuer can redeem the security.
+
+Because of this call feature,
+- fixed-rate capital securities are typically traded based on their average life,
+  which takes into account the call date and expected cash flows.
+
 * bond
 ** Forms of ownership
 *'**********************
@@ -21,6 +136,7 @@
 *'***********
 *+-----------------------------+ceives; not just par value but also (last) coupon.
 *|* type     -+----------------+------+             -
+t required
 *|** ter--b---+----------------+------+---------es at one date in the future.
 *+------------+----------------+------+tu-es at different intervals.
 *** sinking fund provision  - common in bonds with long term maturity  - it is provision by issuer to prepare for future redemption (interest payments).  - issuer establish a escrow account<\b> with bank (or any third party)  - issuer regularly set aside money in the special account called sinking fund for the redemption of bonds before maturity.
@@ -276,6 +392,9 @@
 **** tax  taxable; both federal & state
 **** cash flow:  varied every month (depends on repayments/interest rate)
 **** government agencies debt securities  very safe (second in safety to treasury)  Homeowners with mortgage -> Bank -> Ginnie mae/Franniw mae/fradie mac -> issue MBS bonds
+**** Relationship with interest rates
+***** interest rate rise  <-> payment(as well as prepayment) decelerate or reduces, people default
+***** interest rate falls <-> pre-payment
 *** Government Agency (Agency)
 **** Subsidiaries of US government
 **** Explicit Guarantee  i.e. legally obliged by US govenment
@@ -476,7 +595,7 @@ Fund --> Underwriter/Distributor/Sponsor --> Broker/Dealer --> Investor
 |---------------------+-------------------------------------------------+--------------------------------------------------|
 |                     | open-end fund                                   | close-end fund                                   |
 |---------------------+-------------------------------------------------+--------------------------------------------------|
-| Market              | Primary (All shares are new; reg under 33)      | Secondary                                        |
+| Market              | Primary (All shares are new; reg under 33)      | (Initial IPO later) Secondary                    |
 | Exchange Tradeable  | No; investor.                                   | Yes (Both Exchange or OTC)                       |
 | Pricing             | NAV = POP - SC                                  | ASK-BID spread/supply & demand                   |
 | Prospectus required | Yes                                             | No (after IPO)                                   |
@@ -721,6 +840,18 @@ Amount (quantity to buy or sell)
 
 *** underwiting
 **** IB/underwriter -> syndicate members -> either firm commitment or best effort -> underwriters sell share (uw can stabilize if required)
+** Private securities [important]
+- are securities that are not registered with the Securities and Exchange Commission (SEC) and
+- are not traded on a public exchange.
+- Private securities may be sold in private offerings to a limited number of sophisticated investors,
+  or
+  to the general public under certain conditions, such as through Regulation D offerings.
+- Private securities are generally subject to fewer regulatory requirements than public securities, and as a result, they may be *riskier investments*.
+- private security transactions are subject to rules and regulations under the Financial Industry Regulatory Authority (FINRA).
+- These rules require registered representatives who want to participate in private securities transactions to
+  - provide written notice to their employing firms, as well as
+  - comply with other requirements designed to protect investors.
+
 ** Excempted offering
 *** Excepted securities
 *** Excepted transactions
@@ -876,6 +1007,577 @@ when redemtion request received after market hours are filled with today's NAV  
 when the RR sells the funds just before dividend which lowers NAV on dividend.
 ** interpositioning
 When the principal BD add another BD to trade a customers requirement when there is no benefit to the customer.
-
+** selling away [important]
+The practice of a broker-dealer or registered representative engaging in securities transactions
+- *outside of their firm*
+- *without the knowledge or approval of their employer.*
+This is generally considered a violation of industry regulations and can result in disciplinary action, including fines and suspension or revocation of licenses.
+* money laundering
+** Placement
+Placement is the process of depositing illegal funds into financial institutions.
+This is the part of the process that is most easily detected.
 ** layering
-money laundaring .
+Layering is when money is transferred through complex financial transactions
+(such as wire transfers) to separate the funds from their illegal origins.
+** integration
+Through integration , the illegal funds are mixed with legitimate funds.
+
+
+* Economic factors
+** Consumer spending
+*** interest rates
+*** inflation/deflation (measured by CPI)
+*** unemployment
+** GDP & GNP
+*** GDP (economic stabilizers are used to increase GDP during the recession)
+*** GNP
+** The Business cycle
+*** Expansion
+*** Peak
+*** Contraction
+*** Trough
+** Economic indicators
+*** leading indicators
+**** change before the economy changes
+***** stock market (example:S&P 500)
+*** lagging indicators
+**** change after the economy has begun changing
+***** interest rates
+*** co-incident indicators
+**** economic factors that vary simultaneously with the business cycle
+***** GDP
+
+* yield curve
+[[./yield_curve.png]]
+
+
+* Federal Reserve and Economic policy
+** classical economics(laissez-faire economics)
+ - founded by Adam smith
+ - no government interference with the market.
+** Keynesian theory (fiscal policy/congress)
+use government tools to affect the economy
+- government spending
+- taxation
+*** Scenarios:
+|-----------+---------------------+----------|
+|           | government spending | taxation |
+|-----------+---------------------+----------|
+| Inflation | decrease            | increase |
+| Deflation | increase            | decrease |
+|-----------+---------------------+----------|
+** monetarist theory (federal reserve) (memory aid: DORM)
+Use money supply to affect the economy.
+|----------------------------+------------------------------------+-------------------------------------------------|
+| Item                       | supply money into the market       | restrict excess money circulation in the market |
+|----------------------------+------------------------------------+-------------------------------------------------|
+| discount rate              | lower the discount rate            | increases the discount rate                     |
+| open market operations     | buy the government bonds           | sell the government bonds                       |
+| (bank) reserve requirement | lower the bank reserve requirement | raise the bank reserve requirement              |
+| margin (REG T)             | lower the required margin          | raise the required margin                       |
+|----------------------------+------------------------------------+-------------------------------------------------|
+
+* Interest Rates
+the below interest rates are listed from high to low (memory aid: "Pretty boy drives Ferrari").
+** prime rate
+rate that banks charge their most creditworthy institutional customers.
+** broker call rate
+rate that a broker-dealer pays a bank to borrow money to facilitate margin loans
+** discount rate
+rate that the FED charges banks for short-term loans (negotiated every day)
+** federal funds rate
+rate that banks charge each other for overnight loans
+*** most volatile as they are changed very frequently.
+
+* Margin Account
+- Brokerage firm takes loan from bank at the broker call rate.
+- Regulation T : Customer should have 50% or 2000 (in case the investment is less than 4000)
+** Margin account depends on broker call rate and regulation T.
+
+* Economic cycles
+[[./economic_cycle.png]]
+* Phases
+** Inflation
+ - rise in prices
+ _ decrease of the value of currency (purchasing power of the currency)
+*** Equities
+**** Will do better
+**** Better to invest in growth stocks.
+*** Fixed Income
+**** as the CPI decreases the value of the interest paid by FI decreases. Will not do better.
+** disinflation
+- rise in price but in a slower rate. (going down after inflation)
+- very gradual increase in purchasing power of the currency
+** deflation
+ - decrease in prices
+ _ increase of the value of currency (purchasing power of the currency)
+*** Equities
+**** Will not do better
+**** Better to invest in FI.
+*** Fixed Income
+**** as the CPI increases the value of the interest paid by FI increases. Will do better.
+
+* Recession
+ occurs after 2 consecutive negative GDP growth.
+
+* Financial statements
+** Income (P&L) statements
+*** revenues
+*** expenses
+*** net income (revenues - expenses)
+*** timing
+**** annual
+**** quarterly
+
+** balance sheet
+*** assets
+*** liabilities
+*** shareholders equity (assets - liabilities)
+*** working capital (current asset - current liability)
+**** current asset
+cash and other assets that are expected to be cash within one year of the date of the balance sheet.
+**** current liability
+An obligation (payment) that is due within one year of the date of the balance sheet.
+*** timing
+**** year end (as of December 31)
+**** quarter end
+
+** cash flow statements
+*** source of cash
+*** uses of cash
+*** timing
+**** annual
+**** quarterly
+
+* Exchange rate
+** Purchase power parity
+    helps determine it by comparing how much it would cost to buy the same basket of goods in different currencies.
+
+** benefitiories
+|---------------+-------------+-------------+------------------+------------------|
+| dollar value  | US exporter | US importer | Foreign exporter | Foreign Importer |
+|---------------+-------------+-------------+------------------+------------------|
+| strong dollar | N           | Y           | Y                | N                |
+| weak dollar   | Y           | N           | N                | Y                |
+|---------------+-------------+-------------+------------------+------------------|
+
+** relation ship with moderate inflation
+|---------------+-------------+-------------|
+| interest rate | US dollar   | bond prices |
+|---------------+-------------+-------------|
+| rise          | strengthens | fall        |
+|---------------+-------------+-------------|
+
+* classification of stocks
+** growth
+no interest , high PE , risky
+** defensive
+steady, safe
+** cyclical
+goes with the economy
+** value
+undervalued stock
+* Under SEC Regulation S-P (Consumer Privacy), [Important]
+** required
+firm required to provide customers with privacy and opt-out notices that explain
+- how they collect, use, and protect nonpublic personal information about their customers.
+- customer's right to opt out of the sharing of nonpublic personal information with nonaffiliated third parties and the methods by which the customer may exercise that right.
+** not required in the notice
+- The address of the firm's website,
+- the fee to opt out, and
+- the deadline by which to opt out
+** notice timing
+- The notices must be provided to customers at the time the customer relationship is established and
+- annually thereafter.
+
+* Timing
+** Reporting
+*** MF financial reporting + Balance Sheet + income statement + portfolio
+semiannually
+*** MF update prospectus
+annually
+*** NON-TRADED REID: disclosure filing with SEC
+Annual and Quarterly report and an offering prospectus filled with SEC
+*** customer account statement
+**** penny stock or options
+monthly
+**** stocks , bonds etc
+***** active
+monthly
+***** not active
+quarterly
+*** 529
+Underwriter should report semiannually to MSRB
+- plan
+- aggregate plan
+- investment options
+*** broker firm to customer
+at least annually about existing BrokerCheck and of its website address and phone number.
+NOTE : BrokerCheck is a free online tool provided by the FINRA
+       to research the background and qualifications of
+       - brokers,
+       - brokerage firms, and
+       - investment advisors.
+According to SEC Rule 15c3-3, a broker-dealer must send account statements to customers
+**** Active Account
+- quarterly
+**** No activity
+- annually
+*** Regulation S-P privacy notice
+- account opening and
+- annually there after.
+
+*** customer account student
+quarterly
+
+
+** Approval
+*** MF 12b-1
+annual (renewable contract)
+
+** Training
+*** Regulatory element Continuous Education(CE)
+**** Within 120 days  and after every 3 years
+**** Annually
+**** CE inactive
+If RR does not give or pass the CE exam by 31st of December else he becomes CE inactive and is forbidden to do any task.
+*** Firm element Continuous education(CE)
+**** annually (can be more with a year depends on the firm)
+** Interest adjustment
+*** TIPS
+    Semiannually
+*** CDSC (MF contingent deferred sales charges)
+    Paid annually
+*** variable annuity
+monthly payment
+*** preferred stocks
+quarterly
+
+** withdrawl
+*** 529
+upto 10000 annually to cover cost associated with elementary school and high school
+
+* SIPC (Securities Investor Protection Corporation)
+** non-profic corporation
+** non-government corporation
+** protects investors from broker-dealer failures.
+** market value of the claim is based on the date the bankruptcy is filed by the broker-dealer
+** does not protect non-securities like commodities and futures.
+** each customer is protected upto 500000 and not 250000 in cash.
+*** if the limit is exceeded the investor becomes the creditor of the broker-dealer.
+
+* FDIC (The Federal Deposit Insurance Corporation)
+** insures deposits 250,000 per depositor or thrift up to 500,000 (including cash 250,000)
+*** does not cover
+- Investments in MF Insurance Stock. Bonds or Other investment products
+
+* FINRA Rule
+** 15-business-day hold on distribution from the investors account to review in case there is suspicion of financial exploitation of a vulnerable investor.
+
+
+* Retirement plan
+** Government
+** Corporate
+*** Qualified
+**** ERISA (Employee Retirement Income Security Act)
+***** eligibility
+- age : 21 years
+- work service : 1 year of service with the employer
+***** benefits
+- pre-tax contribution (tax-deductible contribution)
+- tax deferred growth
+- all distributions are taxable as ordinary income.
+***** ERISA Plan
+- Vesting schedule for employer contribution.
+
+**** Defined benefit plan (pension plan)
+***** Require actuarial calculation
+Ex: 1% of last 3 months salary * number of years worked in the company
+**** Defined contribution plan (retirement plan)
+*****  elective-deferral contribution
+- An elective-deferral contribution is a portion of an employee's salary that's
+  withheld and transferred into a retirement plan such as a 401(k).
+- Elective deferrals can be made on a pre-tax or after-tax basis if an employer
+  allows.
+
+|---------------------------------+----------------+------------------+---------------------------+---------+---------------+-------------------------------+-----|
+| plan                            | employee       | employer         | contribution limit        | minimum | first         | taxation                      | RMD |
+|                                 | contribution   | contribution     | year (21/22/23)           | holding | distribution/ |                               |     |
+|                                 |                |                  |                           | period  | withdrawl     |                               |     |
+|---------------------------------+----------------+------------------+---------------------------+---------+---------------+-------------------------------+-----|
+| 401k                            | pre-tax/       | matching in 401k | 19500/20500/22500 (< 50)  | 5y      | gt 59.5y      | ordinary income               | 73y |
+|                                 | tax-deductible |                  | 26000/27000/30000 (=> 50) |         |               |                               |     |
+|                                 |                |                  |                           |         |               |                               |     |
+| 401k roth                       | post-tax/      | matching in 401k |                           | 5y      | gt 59.5y      | tax free (employee 401k roth) | 73y |
+|                                 | after-tax      | (not 401k roth)  |                           |         |               | ordinary tax (employer 401k)  |     |
+|                                 |                |                  |                           |         |               |                               |     |
+| keogh(self employed individual) | N/A            | 100%             |                           |         |               |                               |     |
+|                                 |                |                  |                           |         |               |                               |     |
+| sep-ira                         | pre-tax        | 0%               |                           |         |               | ordinary income               |     |
+|                                 |                |                  |                           |         |               |                               |     |
+| simple ira                      | pre-pax        | pre-tax          |                           |         |               | ordinary income               |     |
+|                                 |                |                  |                           |         |               |                               |     |
+|---------------------------------+----------------+------------------+---------------------------+---------+---------------+-------------------------------+-----|
+
+*** Non-Qualified
+- after-tax/ non-deductible contribution
+- growth tax-deferred
+- distribution: only growth is taxed as ordinary income
+- carry credit risk if the employer is insolvent
+**** payroll deduction
+**** deferred compensation plans
+** Individual
+*** IRA (Individual retirement account)
+**** IRA account can't be a joined account. It will always be individual account.
+**** Unlike 401k; minimum 5 years of contribution is *NOT* required in IRA
+**** Individual can contribute to both corporate plan (i.e. 401k etc) and IRA
+**** Only earned income can be contributed to an IRA
+***** Following incomes cannot be contributed
+- investment income (capital gain/dividends/interest)
+- pension income
+**** prohibited investments
+  - fixed life insurance
+  - antiques and collectibles (other than us-issued gold and silver coins)
+  - risk options like uncovered calls
+  - real estate
+**** Deadline for IRA contribution is April 15 ( i.e. due date of federal income tax return)
+**** Deductible
+Income level determines whether a Traditional IRA contribution is fully
+deductible, partially deductible or non-deductible. If their income level falls
+in a certain range, the contribution is partially deductible.
+**** Withdrawl
+***** Before 59 1/2
+****** Penalty
+- 10% penalty (also in the contributions were pre-tax; the amount becomes taxable)
+****** Exemptions
+- Penalty is exempted upto $10,000 withdrawl.
+◆ Disability of the account owner
+◆ Payment of education expenses for the account owner, her spouse, children, and grandchildren
+◆ First-time homebuyers (limited to $10,000)
+◆ Medical expenses
+◆ Death of the account owner
+◆ Birth or adoption of a child (limited to $5,000 per parent)
+**** Transfer
+***** Rollover
+- receive cash/cheque from one financial institution where the account is held and rollover to another
+- Only once in a year
+- Within 60 days to avoid tax liability and early withdrawn penalty.
+***** Direct transfer
+- trustee-to-trustee (you don't need to transfer yourself)
+- no restrictions any number of times.
+**** RMD
+***** 2023:
+- 72 years
+- penalty: 25% of the required initial RMD
+***** 2020
+- 70 years
+- penalty: 50% of the required initial RMD
+
+
+
+
+*** Details
+|--------------------+---------------------+--------------------+---------+---------------+----------------------------------------+--------------------------+--------------|
+| plan               | contribution        | contribution limit | minimum | first         | taxation                               | rollover                 | RMD          |
+|                    |                     | year (21/22/23)    | holding | distribution/ |                                        |                          |              |
+|                    |                     |                    | period  | withdrawl     |                                        |                          |              |
+|--------------------+---------------------+--------------------+---------+---------------+----------------------------------------+--------------------------+--------------|
+| IRA Traditional    | pre-tax             | >50  6000          | 5y      | - ge 59.5     | all distribution as ordinary income    | within 60 days           | 72y          |
+|                    | (only if individual | =<50  7000         |         | - penalty 10% |                                        | to avoid tax and penalty |              |
+|                    | not eligible to     |                    |         | on early w/l  |                                        |                          |              |
+|                    | participate in a    |                    |         |               |                                        |                          |              |
+|                    | corporate plan      |                    |         |               |                                        |                          |              |
+|                    | or                  |                    |         |               |                                        |                          |              |
+|                    | make below defined  |                    |         |               |                                        |                          |              |
+|                    | income)             |                    |         |               |                                        |                          |              |
+|                    |                     |                    |         |               |                                        |                          |              |
+| IRA Traditional    | post-tax            |                    | 5y      | same          | only grown is taxed as ordinary income | same                     | not required |
+|                    |                     |                    |         |               |                                        |                          |              |
+| Qualified IRA ROTH | post-tax            |                    | 5y      | same          | tax free (if qualified i.e meet 4 & 5) | same                     | not required |
+|                    |                     |                    |         |               |                                        |                          |              |
+|--------------------+---------------------+--------------------+---------+---------------+----------------------------------------+--------------------------+--------------|
+* Annuities
+** Purpose
+more appropriate for people who have maximized there contributions to their
+other retirement plans/accounts and have additional income to set aside for the
+future.
+** phase
+*** accumulation
+**** accumulation units represents an interest in an underlying sub-account
+**** during this phase the investor is making payment and aquiring accumation units and is not tax liable.
+*** annuitization
+**** when annuitized, the accumulation units are covered into a fixed number of annuity units
+**** In this phase the investor will be tax liable
+** types
+
+*** Fixed Annuity:
+A fixed annuity is an annuity that provides a guaranteed fixed rate of return on the invested funds for a certain period of time. The payment amount and the interest rate remain fixed for the entire period.
+**** hold in "general" account
+**** non security investment
+**** credit and inflation risk
+*** Deferred Annuity:
+A deferred annuity is an annuity that begins making payments to the annuitant at a future date, such as retirement. The funds can be invested in a variety of underlying investment options, such as stocks, bonds, and mutual funds.
+**** variable contracts
+***** Variable Annuity:
+A variable annuity is an annuity that allows the annuitant to invest in a variety of underlying investment options, such as stocks, bonds, and mutual funds. The payment amount is not fixed and varies based on the performance of the underlying investments.
+****** hold in "separate" account
+****** annuities are considered securities and are registered with SEC and sold with prospectus
+****** credit and market risk (NOTE greatest is market risk)
+****** market value is calculated daily.
+****** being securities they can only be sold by individuals with both insurance and securities licenses.
+****** the accumulation unit will increase by time during accumulation period and value will fluctuate
+****** A variable annuity would be most appropriate for an individual who has maximized their contributions to their other retirement accounts and have additional income to set aside for the future.
+***** variable life insurance.
+provides a death benefit to beneficiaries.
+**** Indexed Annuity:
+An indexed annuity is a type of fixed annuity that is linked to a stock market index, such as the S&P 500. The payment amount is based on the performance of the index, subject to a minimum guaranteed interest rate.
+**** Longevity Annuity:
+A longevity annuity is an annuity that provides payments to the annuitant only after a certain age, such as 80 or 85. This type of annuity is used to hedge against the risk of outliving one's savings.
+**** Qualified Annuity:
+A qualified annuity is an annuity that is purchased using funds from a tax-deferred retirement account, such as a 401(k) or an IRA. The payments from a qualified annuity are taxed as income.
+**** Nonqualified Annuity:
+A nonqualified annuity is an annuity that is purchased using funds that have already been taxed. The payments from a nonqualified annuity are taxed only on the earnings portion of the payment.
+*** Immediate Annuity:
+An immediate annuity is an annuity that begins making payments to the annuitant immediately after the lump sum payment is made. This type of annuity is often used for retirement income planning.
+
+** important notes:
+*** The kind of annuity selected partly determines the payment amounts to the annuitant.
+For example, a fixed annuity guarantees a specific payment amount, while a variable annuity's payment amounts are based on the performance of the underlying investment portfolio.
+*** In the case of life annuity contracts, the age and sex of the annuitant can also affect the payment amounts, as the insurance company will factor in the annuitant's life expectancy.
+** Distribution of interest
+|--------------------------+----------------------------------------------+-------------------------+------------------------+--------------+---------------------------------------|
+| plan                     | Interest payment                             | risk and monthly payout | Distribution           | contribution | TAX                                   |
+|--------------------------+----------------------------------------------+-------------------------+------------------------+--------------+---------------------------------------|
+| straight life            | till the customer alive                      | high / high             | <= 59.5                | post-tax     | - only on earnings and growth         |
+| life with period certain | n year certain weather customer dies earlier | lesser / lesser         | 10% on early withdrawl |              | as ordinary income                    |
+| joint with last survivor | till the last survivor                       | least / least           |                        |              | - taxed only during annuitization and |
+|                          |                                              |                         |                        |              | not during accumulation               |
+|--------------------------+----------------------------------------------+-------------------------+------------------------+--------------+---------------------------------------|
+** Surrender charges
+*** fee paid if withdraws prior to annuitization.
+
+** transfer to another annuity contact
+*** no tax liability via a 1035 exchange
+*** surrender charges still apply
+* tax advantage savings for disabilities
+** ABLE (Achieving a better life experience)
+*** eligiblility: disability prior to age 26
+*** Municiple fund security
+*** post-tax contribution
+*** tax-free distribution (at federal level)
+
+* tax advantage savings for education
+|----------------------------+------------------------------+-------------------------------+------------------------------+----------------+----------|
+| plan                       | purpose                      | offered by                    | can be transferred           | contribution   | tax      |
+|----------------------------+------------------------------+-------------------------------+------------------------------+----------------+----------|
+| 529                        | only for minor for           | state                         | yes                          | post-tax       | tax-free |
+|                            | qualified education expenses | maximum contribution amount   | to family members            |                |          |
+|                            |                              | will vary from state to state | w/o penalty                  |                |          |
+|                            |                              |                               | upto once per year.          |                |          |
+|                            |                              |                               |                              |                |          |
+| coverdell (ESA)            | same as 529                  | not a municipal fund security | must be spent or transferred | post-tax       | tax-free |
+| education savings accounts |                              |                               | to a family member by the    | limited to     |          |
+|                            |                              |                               | beneficiary turns 30, or the | $2000/year     |          |
+|                            |                              |                               | fund will be subject to      | and plan       |          |
+|                            |                              |                               | federal income tax as well   | only available |          |
+|                            |                              |                               | as a 10% penalty             | to family      |          |
+|                            |                              |                               |                              | below certain  |          |
+|                            |                              |                               |                              | income level.  |          |
+|----------------------------+------------------------------+-------------------------------+------------------------------+----------------+----------|
+
+* limited partnership
+** passive lossed can only be deductible agaist passive income.
+* muncipality undersriter appointment
+** competitive bidding ;
+choose the underwriter which offers lowest interest cost.
+** negotiated
+If a municipality appoints an underwriter to offer a new issue, it is a negotiated underwriting.
+
+* Exemptions from registration under the securities act of 1933.
+
+** Securities sold only to accredited investors:
+Accredited investors are individuals or institutions that meet certain financial criteria and are considered to be sophisticated investors. If a security is sold only to accredited investors, the issuer may be exempt from registering the security with the SEC.
+
+** Intrastate offerings:
+Securities offerings that are offered and sold only within one state may be exempt from registration under the Securities Act if certain conditions are met.
+
+** Regulation A offerings:
+Regulation A offerings are a type of mini-IPO that allows smaller companies to offer and sell securities to the public without having to go through the full SEC registration process.
+
+** Securities issued by municipalities:
+Securities issued by state and local governments are generally exempt from registration under the Securities Act.
+
+** Private placements:
+Securities offerings that are sold only to a limited number of investors who meet certain financial and/or sophistication criteria may be exempt from registration under the Securities Act.
+
+
+
+
+
+
+Regenerate response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Traditional IRA is an individual retirement plan. SIMPLE IRAs and SEP-IRAs are employer-sponsored.
+The beneficiary of a Section 529 plan does not need to be related to the owner of the account, and there are no age requirements for the beneficiary.
+Roth IRAs are not available to everyone with earned income. To open an account and make contributions in a Roth IRA, the participant must meet a Modified Adjusted Gross Income (MAGI) test.
+IRA owners are free to buy, sell, exchange or trade assets within their accounts without current tax consequences.
+
+Earnings accumulate in a Traditional IRA on a tax-deferred basis, and withdrawals are fully taxable, unless they represent a return of non-deductible contributions.  Withdrawals made before age 59 ½ may be subject to an additional 10% penalty.
+
+Textbook Reference
+Please see textbook section 12.2.1.2
+The exceptions to the 10% penalty include withdrawals on account of death or disability; for unreimbursed medical expenses above 7.5% of adjusted gross income; to pay the cost of medical insurance; taken in the form of an annuity or "substantially equal payments"; taken to buy, build or rebuild a first home; and taken by a qualified military reservist.
+
+Textbook Reference
+Please see textbook section 12.2.1.3
+Answer Explanation
+Surrender charges are similar to contingent deferred sales charges, or back-end loads, of B-share mutual funds.
+
+Textbook Reference
+Please see textbook section 12.3.3.4
+Answer Explanation
+Distributions from a 529 Plan that are used to pay for the beneficiary's qualified college education costs are federally income tax-free. These include fees for room and board.
+
+Textbook Reference
+Please see textbook section 12.4.1.4
+Answer Explanation
+This exception is only available to a first-time homebuyer. The new home is considered a first home if neither the IRA owner nor a spouse had an interest in a main home in the two years before the home's purchase. He would have to wait at least two years between transactions to qualify.
+
+Textbook Reference
+Please see textbook section 12.2.1.3
+
+Answer Explanation
+There are no exceptions to the five-year holding period requirement. It must be met to take a qualified distribution from a Roth IRA.
+
+Textbook Reference
+Please see textbook section 12.2.2
+A variable annuity is a contract with an insurance company, and is designed to provide retirement benefits.  A death benefit that guarantees a return of purchase payments is not always included, but can be purchased.  Growth is not guaranteed, although riders can be purchased to ensure minimum benefits are available for the lifetime of the annuitant(s). Variable annuity contracts are subject to market volatility; fixed annuities are not.
+
+
+

@@ -10,36 +10,36 @@ instead help you focus your study efforts as the exam approaches.
 
 # Contents
 
-Chapter 1 – Equity Securities ................................................................................................................ 2
+* Chapter 1 – Equity Securities ................................................................................................................ 2
 
-Chapter 2 – Debt Securities .................................................................................................................. 5
+* Chapter 2 – Debt Securities .................................................................................................................. 5
 
-Chapter 3 – Types of Bonds .................................................................................................................. 7
+* Chapter 3 – Types of Bonds .................................................................................................................. 7
 
-Chapter 4 – Investment Company Securities ................................................................................ 10
+* Chapter 4 – Investment Company Securities ................................................................................ 10
 
-Chapter 5 – Other Managed Products ........................................................................................... 14
+* Chapter 5 – Other Managed Products ........................................................................................... 14
 
-Chapter 6 – Options .............................................................................................................................. 16
+* Chapter 6 – Options .............................................................................................................................. 16
 
-Chapter 7 – Suitability and Investment Risks .................................................................................. 18
+* Chapter 7 – Suitability and Investment Risks .................................................................................. 18
 
-Chapter 8 – Issuing Securities ............................................................................................................. 19
+* Chapter 8 – Issuing Securities ............................................................................................................. 19
 
-Chapter 9 – The Secondary Market and Equity Trading ............................................................ 22
+* Chapter 9 – The Secondary Market and Equity Trading ............................................................ 22
 
-Chapter 10 – Economics and Monetary Policy ............................................................................ 24
+* Chapter 10 – Economics and Monetary Policy ............................................................................ 24
 
-Chapter 11 – Customer Accounts .................................................................................................... 27
+* Chapter 11 – Customer Accounts .................................................................................................... 27
 
-Chapter 12 – Tax-Advantaged Accounts and Products ........................................................... 32
+* Chapter 12 – Tax-Advantaged Accounts and Products ........................................................... 32
 
-Chapter 13 – FINRA Registration ........................................................................................................ 35
+* Chapter 13 – FINRA Registration ........................................................................................................ 35
 
-Chapter 14 – Business Conduct Rules .............................................................................................. 38
+* Chapter 14 – Business Conduct Rules .............................................................................................. 38
 
 
-Chapter 1 – Equity Securities
+* Chapter 1 – Equity Securities
 
 1. Treasury Stock: Treasury stock is authorized stock that was previously sold to
     the public but was repurchased by the issuer. Because it is no longer
@@ -178,7 +178,7 @@ dilution.
     indefinitely (rather than fall as the investor wants), short sellers have
     unlimited risk potential.
 
-Chapter 2 – Debt Securities
+* Chapter 2 – Debt Securities
 
 1. Discount Versus Premium Bond: When the market value of a bond is
     greater than the par value, the bond is trading at a premium. If the
@@ -279,7 +279,7 @@ CY, NY.
     and once regular semi-annual coupon payments begin, it is no longer
     relevant.
 
-Chapter 3 – Types of Bonds
+* Chapter 3 – Types of Bonds
 
 1. Unsecured Corporate Debt: Unsecured corporate debt is not backed by
     collateral or a specific asset of the corporation. Instead, it is backed by
@@ -398,7 +398,7 @@ free municipal bond, the tax-equivalent yield is 7.69%, calculated as
 produces equal after-tax income to a tax-free municipal bond
 yielding 5% for this investor in the 35% tax bracket.
 ```
-Chapter 4 – Investment Company Securities
+* Chapter 4 – Investment Company Securities
 
 1. Summary Prospectus: The SEC allows a mutual fund to deliver a summary
     prospectus to shareholders, which is a compilation of highlights from the
@@ -548,7 +548,7 @@ their cost basis would be adjusted upwards to $1,200.
 28. ETF Versus Mutual Fund Expenses: Because mutual funds are actively
     managed, they typically have higher fees for investors than ETFs.
 
-Chapter 5 – Other Managed Products
+* Chapter 5 – Other Managed Products
 
 1. REITs: A real estate investment trust (REIT) is a company that owns or
     operates income-producing real estate or real estate-related assets. It is
@@ -624,7 +624,7 @@ iv. General partners
     The credit quality of an ETN is based on that of the issuing broker-dealer.
 
 
-Chapter 6 – Options
+* Chapter 6 – Options
 
 1. Options Clearing Corporation (OCC): The OCC issues and guarantees all
     listed options contracts. Therefore, if an investor wants to exercise an
@@ -728,7 +728,7 @@ Chapter 6 – Options
     (call or put) with identical strike prices and expiration dates. For example,
     a March 80 call and a March 80 put are of the same series
 
-Chapter 7 – Suitability and Investment Risks
+* Chapter 7 – Suitability and Investment Risks
 
 1. Institutional Threshold: Under FINRA suitability rules, an individual with
     assets of at least $50 million is considered an institutional investor.
@@ -766,7 +766,7 @@ Chapter 7 – Suitability and Investment Risks
 8. Dividends and Current Yield: If a company’s dividend is reduced, but the
     stock price stays the same, current yield will fall.
 
-Chapter 8 – Issuing Securities
+* Chapter 8 – Issuing Securities
 
 1. Preliminary Prospectus: A preliminary prospectus can be used to market
     to investors during the cooling-off period. It includes a description of the
@@ -882,7 +882,7 @@ uncles, cousins, nieces and nephews, and ex-spouses.
     price). For example, if XYZ stock went public at $30 per share, the
     underwriters could stabilize at or below $30.
 
-Chapter 9 – The Secondary Market and Equity Trading
+* Chapter 9 – The Secondary Market and Equity Trading
 
 1. Settlement: Settlement is the legal transfer of securities to a buyer’s
     account and cash to seller’s account. The standard settlement cycle
@@ -965,7 +965,7 @@ stock or other risky investment.
     directly between institutions on a private, OTC computer network rather
     than large exchanges such as the NYSE or NASDAQ.
 
-Chapter 10 – Economics and Monetary Policy
+* Chapter 10 – Economics and Monetary Policy
 
 1. Elasticity: Elasticity refers to the sensitivity of supply and demand of a
     commodity to a change of price. If a commodity is demand elastic, that
@@ -1087,7 +1087,7 @@ services decreases because of an increase in production costs). This
 contrasts with demand-pull inflation, which is consumer driven and is the
 result of an economy’s demand exceeding its aggregate supply.
 ```
-Chapter 11 – Customer Accounts
+* Chapter 11 – Customer Accounts
 
 1. Telemarketing: FINRA and the MSRB have telemarketing rules that allow
     firms to solicit new business by cold calling potential clients. Prior to
@@ -1312,7 +1312,7 @@ the hold can be extended further.
     investor’s cost basis is adjusted to the fair market value of the security at
     the time of death. This is referred to as a “stepped-up basis.”
 
-Chapter 12 – Tax-Advantaged Accounts and Products
+* Chapter 12 – Tax-Advantaged Accounts and Products
 
 1. Vesting Schedule: ERISA requires that qualified corporate plans, such as
     401ks, have a vesting schedule which specifies when participants have
@@ -1418,9 +1418,9 @@ separate account units daily.
     the investor dies, the insurance company will then make payments to the
     beneficiary until their death. Because the life option is expected to have a
     shorter duration and is therefore riskier to the investor, it makes higher
-    monthly payments.
-20. Surrender Charges: A surrender charge is a fee paid by an investor to the
-    insurance company if the investor withdraws their capital prior to
+        monthly payments.
+    20. Surrender Charges: A surrender charge is a fee paid by an investor to the
+    insurance company if    the investor withdraws their capital prior to
     annuitization.
 21. 1035 Exchange: A 1035 exchange allows an investor to transfer from one
     variable annuity to another with no tax consequences. Note that
@@ -1463,7 +1463,7 @@ separate account units daily.
     requirements under ERISA (the federal law). The ERISA criteria are not
     tested.
 
-Chapter 13 – FINRA Registration
+* Chapter 13 – FINRA Registration
 
 1. SEC Mission: The primary mission of the SEC is to maintain integrity of US
     markets and protect investors. FINRA is overseen by the SEC and its
@@ -1584,7 +1584,7 @@ is a government agency, not an SRO.
     Smaller advisers, those with less than $100mm in assets, must register in
     each state they operate.
 
-Chapter 14 – Business Conduct Rules
+* Chapter 14 – Business Conduct Rules
 
 1. Broker-dealer Books & Records (including advertisements): Broker-dealers’
     business records, which include advertisements, must be maintained for
