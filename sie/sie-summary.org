@@ -103,8 +103,8 @@ Both exams cover the basics of AML regulations, including
 are a type of *hybrid security* that have characteristics of both
 - bonds and
 - preferred stock.
-They are issued by corporations and have a
-- fixed interest rate,but
+Corporations issue them and have a
+- fixed interest rate, but
 - do not have a stated maturity date. Instead,
 - they have a call date,
 which is the earliest date that the issuer can redeem the security.
@@ -117,7 +117,7 @@ Because of this call feature,
 ** Forms of ownership
 *'**********************
 *** Registered form
-*** Book-enry form                                                    o    oo
+*** Book-entry form                                                    o    oo
                 ------------------------------------------------------o|
 ** par value                                                           |
 *'***********                                                          |
@@ -125,13 +125,13 @@ Because of this call feature,
 
 ** bond quotation  (%age of par)
 *'*********************************
-*** premium  (e.g. 105 is 105% of 1000 = 1050)
+*** premium  (e.g., 105 is 105% of 1000 = 1050)
 *** discount  (e.g. 95 is 95%of 1000 = 950)
 ** coupon
 *'*********
 *** nominal yield or face value
-*** mostly every 6 month
-*** calculation: 10% coupon will give coupon $50  i.e. (10% of par value)/2
+*** mostly every six month
+*** calculation: 10% coupon will give coupon $50, i.e. (10% of par value)/2
 ** maturity
 *'***********
 *+-----------------------------+ceives; not just par value but also (last) coupon.
@@ -139,19 +139,19 @@ Because of this call feature,
 t required
 *|** ter--b---+----------------+------+---------es at one date in the future.
 *+------------+----------------+------+tu-es at different intervals.
-*** sinking fund provision  - common in bonds with long term maturity  - it is provision by issuer to prepare for future redemption (interest payments).  - issuer establish a escrow account<\b> with bank (or any third party)  - issuer regularly set aside money in the special account called sinking fund for the redemption of bonds before maturity.
+*** sinking fund provision  - common in bonds with long-term maturity  - is the provision by the issuer to prepare for future redemption (interest payments).  - issuer establishes an escrow account<\b> with the bank (or any third party)  - issuer regularly sets aside money in the special account called a sinking fund to redeem bonds before maturity.
 ** bonds types
 *'********
 *** coupon bonds
 **** fixed rate bonds
 ****  floating or variable rate or adjustable rate bonds
-***** interest rate are based on specific benchmark like treasury bill rate .
+***** Interest rates are based on specific benchmarks like treasury bill rates.
 ***** Example: The ray may be treasury bills + 2%
-***** market value of such bonds are stable.
+***** market value of such bonds is stable.
 *** zero-coupon bonds
-**** purchased in deep discount
-****  Note: Zero-coupon bonds do pay interest but only at maturity.  The interest is the difference  between the discounted issue price and par or maturity value.
-**** useful for long-term goal such as retirement or a college education
+**** purchased at a deep discount
+****  Note: Zero-coupon bonds do pay interest but only at maturity. The interest is the difference between the discounted issue price and the par or maturity value.
+**** useful for long-term goals such as retirement or a college education
 **** taxed on imputed or phantom interest
 ***** investor pays tax each year on the imputed interest
 ***** imputed interest = yield to maturity * present price
@@ -159,20 +159,20 @@ t required
 *'*********
 *** types
 **** NY (nominal yield or coupon)
-***** fixed instest rate
+***** fixed interest rate
 **** CY (current yield)
-***** yield in current market
+***** yield in the current market
 ***** CY = annual interest / current market price of the bond
 **** YTC (yield to call)
 **** YTM (yield to maturity)
 *** relationship
-**** when bond is trading at premium  NY > CY > YTM > YTC
-**** when bond is trading at discount NY < CY < YTM < YTC
+**** when the bond is trading at premium  NY > CY > YTM > YTC
+**** when the bond is trading at a discount NY < CY < YTM < YTC
 **** when bond is trading at par      NY = CY = YTM = YTC
 ** bond pricing
 *'****************
-*** price is inversely proportional to interest rates.
-*** basis points (bps): unit of measurement.  100bps = 1%  75 bps =  0.75%
+*** Price is inversely proportional to interest rates.
+*** basis points (bps): unit of measurement. 100bps = 1%  75 bps =  0.75%
 ** call feature
 *'****************
 *** callable bonds
@@ -181,118 +181,118 @@ t required
 ***** - disclose when they might redeem it
 ***** - and at what price
 **** call premium
-***** - callable bonds mostly have call premium; amount which is above par.
-***** - earlier the call higher the premium.
+***** - callable bonds mostly have call premium, which is above par.
+***** - earlier, the call higher the premium.
 **** call scenarios
 ***** refunding
 ****** The process of calling bonds   when the interest rates have fallen is called refunding
-**** final settlement  boldholder will receive
+**** final settlement  bondholder will receive
 ***** par value
-***** semiannual coupon value
-***** call premium (if applicable)
-**** benefitiary
-***** issuer; as boldholder will loose higher interest
+***** Semiannual coupon value
+***** Call premium (if applicable)
+**** beneficiary
+***** issuer; as bondholder will lose higher interest
 **** risk  higher
-*****  reinvesting the principle received from the issuer after call in a low rate environment is risking/venerable for the investor.
-**** interest rates payed by issuer higher
+***** Reinvesting the principle received from the issuer after a call in a low-rate environment is risky/venerable for the investor.
+**** interest rates paid by issuer higher
 *** call protection
-**** prevents call for a period of time from the date of issue.
-**** the provision is set by the issuer and based on market conditions.
-*** non callable bonds
-**** bonds issued by federal govenment are not callable.
+**** prevents calls for a period of time from the date of issue.
+**** The provision is set by the issuer and based on market conditions.
+*** noncallable bonds
+**** Bonds issued by the federal government are not callable.
 ** put feature
 *'***************
-*** give investor the right to demand early repayment of principal
-*** put scenarios  mostly when the bond rating falls or interest rates increase above a certain level.
-*** Specified in contract
-**** one or more date after which bondholder may excercise put
-*** benefitiory:  boldholder
-*** interest rate payed by issuer islower
+*** Give investors the right to demand early repayment of principal
+*** Put scenarios mostly when the bond rating falls, or interest rates increase above a certain level.
+*** Specified in the contract
+**** one or more dates after which bondholder may exercise put
+*** beneficiary:  bondholder
+*** interest rate paid by the issuer is lower
 ** risk
 *'********
-*** longer the maturity higher the risk; due to volatile nature
-*** lower the coupon higher the risk; due to volatile nature
-*** zero-coupon; due to volatile nature
-*** call risk  investor loose high rate of interest
-*** reinvestment risk: call risk leads to reinvestment risk as no available investments will provide similar returns as bonds that has been called.
+*** longer the maturity higher the risk; due to the volatile nature
+*** lower the coupon, higher the risk; due to the volatile nature
+*** zero-coupon; due to the volatile nature
+*** Call risk  investor lose high rate of interest
+*** Reinvestment risk: Call risk leads to reinvestment risk as no available investments will provide similar returns as bonds that have been called.
 *** inflation risk
 **** CPI (Consumer Price Index)  measurement for inflation
-**** securities with fixed rate of interest/dividends  are susceptible to inflation risk
-***** e.g. - fixed coupon bonds
-***** - prefered stocks
+**** Securities with a fixed rate of interest/dividends  are susceptible to inflation risk
+*****, e.g., fixed coupon bonds
+***** - preferred stocks
 *** credit risk  when the issuer defaults
 **** credit rating
-***** investment grate  lower chance of default
-***** junk bonds or high-yield bonds  higher chances of default.
+***** Investment grade;  lower chance of default
+***** Junk bonds or high-yield bonds have higher chances of default.
 **** US federal government bonds are risk-free but pay low interest
-**** Corporate bonds has higher risk but pays higher interest.
+**** Corporate bonds have comparatively higher risk but pay higher interest.
 ** accrued interest
 *'*******************
-*** interest added to the purchase price of the bond.
+*** Interest is added to the purchase price of the bond.
 *** Number of days considered
-**** conporate bonds  360 days
-**** tresury bonds  365 days
-*** Accrued interest process for cororate bonds.  Last Coupon Date   |  V  Trade Date   |  V  Settlement Date(T + 2)   |  V  Next Coupon Date
-**** Last Coupon Date   |  V  Trade Date   |  V  Settlement Date(T + 2 - 1)  The seller is owed interest  beginning on the previous coupon date and up to,  but not including, the settlement date.  This is paid from the buyer to the seller at the time of the trade.
+**** corporate bonds  360 days
+**** Treasury bonds  365 days
+*** Accrued interest process for corporate bonds. Last Coupon Date   |  V  Trade Date   |  V  Settlement Date(T + 2)   |  V  Next Coupon Date
+**** Last Coupon Date   |  V  Trade Date   |  V  Settlement Date(T + 2 - 1)  The seller owes interest beginning on the previous coupon date and up to,  but not including, the settlement date. It is paid from the buyer to the seller during the trade.
 **** Settlement Date   |  V  Next Coupon Date  On the coupon date,  the buyer/owner receives the full semiannual coupon.
-*** example: bond with par vallue $1000 with 10% coupon is sold on April 11.  The coupon is received on Jan 1 and July 1.  Seller is eligible for interest for the period Jan1 to Aplil 11 = 30 + 30 + 30 + 11 = 103 days  (note: 1 is added to settlement date but not including selltement date when we consider T+2) = 101 days  Accrued interest =  1000*(10/100)  --->  360 days  x                          ---> 105 days  x = (1000*(10/100) * 103)/360 = $28.9
+*** Example: bond with a par value of $1000 with a 10% coupon sold on April 11. The coupon was received on January 1 and July 1. Seller is eligible for interest for the period Jan1 to April 11 = 30 + 30 + 30 + 11 = 103 days  (note: 1 is added to settlement date but not including settlement date when we consider T+2) = 101 days  Accrued interest =  1000*(10/100)  --->  360 days  x                          ---> 105 days  x = (1000*(10/100) * 103)/360 = $28.9
 *** Treasury
 **** 365 days
 **** T+2
-*** Corporate, Muncipality, MBS and rest
+*** Corporate, Municipality, MBS, and rest
 **** 360 days
 **** T+1
 *** Cash settlement for all
-**** same day i.e Trade day
+**** same Day, i.e., Trade day
 
 ** Tax
 *** straight line method
-**** cost basis: represents the value of an asset for tax purposes.
+**** Cost basis: represents the value of an asset for tax purposes.
 **** Accretion:
-***** purchased on a discount
-****** adjusted upward  cost basis must be adjusted upward toward par each year  so that at maturity  the investor’s cost basis will equal par of $1,000.
+***** purchased at a discount
+****** adjusted upward cost basis must be adjusted upward toward par each year so that at maturity, the investor's cost basis will equal par of $1,000.
 ***** Example: John buys a bond for $900 with 10 years until maturity.
 ****** discount = $1000 - $900 = $100
 ****** annual accretion = discount / years of maturity = 100/10 = $10
-****** cost basis will be adjusted upward by $10 each year.  For example, after one year the new cost basis will be $910.
+****** cost basis will be adjusted upward by $10 each year. For example, after one year, the new cost basis will be $910.
 **** Amortization:
 ***** purchased on a premium
-****** adjusted downwards  cost basis will be adjusted downward each year  so that at maturity  the investor’s cost basis will equal par of $1,000.
+****** adjusted downwards cost basis will be adjusted downward each year so that at maturity, the investor's cost basis will equal a par of $1,000.
 ***** Example: Jane buys a bond for $1,100 with five years until maturity.
 ****** premium = $1100 - 1000 = $100
 ****** annual amortization = premium / years of maturity = 100/5 = 20$
-****** cost basis will be adjusted downward by $20 each year.  For example, after one year, the new cost basis will be $1,080.
+****** cost basis will be adjusted downward by $20 each year. For example, after one year, the new cost basis will be $1,080.
 *
 
 ** Credit Risk (default risk)
-*** Risk associated with bonds important : note it is only applicable for bonds and not stockholders;  bondholders are creditors;  they provide credit to the issuer  while stockholders are owners  (so no credit risk applicable)
-*** liquidation priority  risk (top down)  interest earned (bottomup)
+*** Risk associated with bonds important: note it is only applicable for bonds and not stockholders;  bondholders are creditors;  they provide credit to the issuer  while stockholders are owners  (so no credit risk applicable)
+*** Liquidation priority  risk (top-down)  interest earned (bottom-up)
 **** secured bondholders  (Credit Risk/Default Risk)
 **** unsecured bond or debenture holders and general creditors  (Credit Risk/Default Risk)
 **** subordinated debt and convertible bonds  (Credit Risk/Default Risk)
-**** prefered stockholders
+**** preferred stockholders
 **** common stockholders
-** corporate bond  issued by  commercial and industrial entities
+** Corporate bonds issued by  commercial and industrial entities
 *** higher yield
-*** tax  interest earned is fully taxable.  (at federal. state and local levels)
+*** Tax interest earned is fully taxable. (at federal. state and local levels)
 *** convertible bonds
-**** a bond can be both callable and convertible<\b>.
-**** convertible to  fixed number of common shares  its investors right  and can choose the date
+**** A bond can be both callable and convertible<\b>.
+**** convertible to a fixed number of common shares, its investors right  and can choose the date
 **** calculation
-**** always calculated on par value (i.e. its fixed)
-**** conversion price(CP) is fixed  known to investor during purchase
-**** conversion ratio(CR) the number of shared received on conversion.
-***** CR = par value / conversion price  Example:  convertible bond with  4% interest  and convertion price 40  CR= 1000 / 40 = 20  (can purchase 20 shares).
-***** conversio ration(CR) is also fixed  as both par value and conversion price are fixed
+**** always calculated on par value (i.e., it is fixed)
+**** Conversion price(CP) is fixed and known to the investor during the purchase
+**** Conversion ratio(CR) is the number of shares received on conversion.
+***** CR = par value/conversion price  Example:  convertible bond with  4% interest and conversion price 40  CR= 1000 / 40 = 20  (can purchase 20 shares).
+***** Conversion ratio (CR) is also fixed  as both par value and conversion price are fixed
 **** parity price
 ***** market value of the share  is in parity with (is equal to)  the (fixed) conversion price of the convertible bond
-*** classification by:  credit risk and collateral
-**** secured corporate debt  backed by corporate collateral.  pays lesser interest  and have a lesser credit risk,  issuer will always have right to collateral; pledged by the issue
-***** mortgage bonds  backed by real state  property or holdings.
-****** mortgage-backed securities  (MBS)
+*** Classification by:  credit risk and collateral
+**** secured corporate debt backed by corporate collateral. pays lesser interest  and has a lesser credit risk, the issuer will always have the right to collateral; pledged by the issue
+***** mortgage bonds backed by real state property or holdings.
+****** Mortgage-backed securities  (MBS)
 ******* pool of mortgages  turned into bonds
 ******** creates more liquidity  in the mortgage market
-****** collatralized mortgage obligations  (CMOs)
+****** Collateralized mortgage obligations  (CMOs)
 ******* mortgage-backed securities
 ******* structured by broker-dealers
 ******* divided into trenches/portions
@@ -300,146 +300,146 @@ t required
 - expected maturity
 - credit quality
 - exposure to investment risks
-****** collateral trust bonds  backed by financial asset  owned by the corporation.
+****** collateral trust bonds backed by financial assets owned by the corporation.
 ******* example: stock,  bonds,  or other securities.
-****** equipment trust obligations  backed by equipments or physical assets  such as  airplanes,  trucks and  trains etc.
-**** unsecured corporate debt  backed by  good faith  credit of issuer;  also called as debentures pays higher interest  and have a greater risk.
-*** classification by duration
-**** corporate bond/term  (long-term matuarity atleast 10 years)
+****** Equipment trust obligations backed by equipment or physical assets such as airplanes,  trucks, trains, etc.
+**** Unsecured corporate debt backed by good faith credit of the issuer, also called debentures, pay higher interest and has a greater risk.
+*** Classification by duration
+**** corporate bond/term  (long-term maturity at least 10 years)
 **** notes
 **** medium-term maturity
 **** commercial paper
-**** short-term maturity  (no more that 270 days)
-**** only issed by bank or financial institutions.
+**** short-term maturity  (no more than than 270 days)
+**** only issued by banks or financial institutions.
 ***** vast majority is traded  over the counter
-*** trust indenture  (agreement)  act of 1939
-**** if  corporate debth  >  $50 million  it requires
-**** trust indenture  (written agreement)  between issuer and  an independent trustee  (typically a large bank)
-***** includes  covenants(promises)  by issuers  designed to  protect interests  of bondholders
+*** trust indenture  (agreement) Act of 1939
+**** If corporate debt  >  $50 million, it requires
+**** trust indenture  (written agreement)  between the issuer and  an independent trustee  (typically a large bank)
+***** includes  covenants(promises)  by issuers  designed to  protect the interests  of bondholders
 ****** includes
 ******* submit SEC filling
 ******* pay taxes
-******* no selling of key assets
+******* No selling off key assets
 ******* maintain insurance
 ******* maintain a certain  credit profile
-****** if issuer defaults
-******* trustee may be  able to seize  the issuers assets  and sell them  to recoup  bondholders inverstments.
+****** If the issuer defaults
+******* trustee may be able to seize the issuer's assets and sell them to recoup bondholders' investments.
 
 ** municipal bonds
-*** usually not traded in secondary market
-*** interest rate of the munciple bonds  do not fluctuate  they are fixed at issue.
+*** usually not traded in the secondary market
+*** interest rate of the municipal bonds does not fluctuate. They are fixed at issue.
 *** triple-tax
 **** local tax
 **** state tax
 **** federal tax
 
-*** classification by region & taxes
+*** Classification by region & taxes
 **** local authorities: city/counties/Towns & villages
 ***** MB will be triple-tax-free
 **** state: intrastate or in-state
 ***** MB will be triple-tax-free
-**** interstate authorities  (more than one state ex:port authority of NY & NJ)
-***** MB may be taxed by  - the state (as its outside the state) and  - local authorities like city tax;  but except from federal tax.
-**** US territories, possessions and commonwealth  (ex: Guam/Rico/US vergin island)
-***** MB is triple-tax-free  regardless you live there or not.
-*** classification by type of MB
-**** general obligation (GO) bonds
+**** interstate authorities  (more than one state ex: port authority of NY & NJ)
+***** MB may be taxed by  - the state (as it is outside the state) and  - local authorities like city tax,  except federal tax.
+**** US territories, possessions, and commonwealth  (ex: Guam/Rico/US Virgin Islands)
+***** MB is triple-tax-free regardless you live there or not.
+*** Classification by type of MB
+**** General obligation (GO) bonds
 ***** issued to finance a  non-revenue-producing facility
 ***** Example
 ****** public park,  public school, or  public library
-****** backed by  the taxing power  of the issuing muncipality
+****** backed by  the taxing power  of the issuing municipality
 **** revenue bonds
 ***** issued to finance  a revenue-production facility
 ****** Example
 ******* toll road/airport/water treatment facility
 ******* Industrial development bonds<b/>  lease payments by corporations
-******** for job and economic growth
+******** for the job and economic growth
 ******** based on the credit quality of the corporation
-*****  bonds issued to build facilities   usually mature before the facility is no longer of use.
-*****  do not have debt limitations  like general obligation bonds.
+***** Bonds issued to build facilities usually mature before the facility is no longer used.
+*****  do not have debt limitations like general obligation bonds.
 ** government bonds
-*** tax  need to pay federal tax while  state and local tax are excempted.
-*** credit risk free
+*** Tax must pay federal tax while state and local taxes are exempted.
+*** credit risk-free
 *** principal safety
 *** low yield
-*** classification by duration
+*** Classification by duration
 **** mid to long term
 ***** quoted as %age of par in 32nd of a point(1/32)  Example:  quote 11 bonds at 95:16 = 95 + (16*1/32) = 95.5% = 1000 * 95.5/100 = $955 * 11 = $10505
 ***** treasury bonds  maturity 30 years
-***** tresury notes   maturity between 2 and 10 years
+***** Treasury notes   maturity between 2 and 10 years
 **** short term
-***** quote as annuanlized discount %age.
-****** tresury bills  less than or upto a year  maturity 4/13/26/52 weeks
-****** no coupon  similar to zero-coupon bonds i.e.  sold at discount  and mature at par
-*** (TIPS)  tresury  inflation  protected  securities
-**** principal is adjustated  every 6 months  based on  consumer price index.  the interest is constant  but generates differect amount  when multipled by  inflation-adjested  principal.
+***** quote as annualized discount %age.
+****** Treasury bills  less than or upto a year  maturity 4/13/26/52 weeks
+****** no coupon  similar to zero-coupon bonds, i.e., sold at a discount  and mature at par
+*** (TIPS)  treasury inflation-protected securities
+**** principal is adjusted every 6 months based on the consumer price index. The interest is constant but generates a different amount when multiplied by the inflation-adjusted principal.
 *** (STRIPS)  separate  trading of  registered  interest and  principal  securities  program  securities
-**** T-bonds, T-notes & TIPS  can be separated or stripped  into individual STRIPS investments  and traded in the secondary market.
-***** effectively a  zero-coupon bond  issued by  US government.
-***** example:  10 years T-notes  could be stripped into  21 STRIPS.  20 interest payments and  one security for the principal payment  at maturty.
+**** T-bonds, T-notes & TIPS  can be separated or stripped into individual STRIPS investments and traded in the secondary market.
+***** effectively a  zero-coupon bond issued by the US government.
+***** example:  10 years T-notes could be stripped into  21 STRIPS. 20 interest payments and one security for the principal payment at maturity.
 *** Tresury Receipts  issued by <broket-dealers> backed by tresury securities.
-**** obligation  is solely on  broker-dealers  and not on  <federal government  as unlike STRIPS  they are not  issued by  US Govenment.
-**** effectively a zero-coupon bonds.
+**** obligation is solely on broker-dealers and not on  <federal government as unlike STRIPS, the US government does not issue them.
+**** effectively a zero-coupon bond.
 **** only traded in *secondary market*.
-*** Agency Securities [Mortgage backed securities (MBS)]
+*** Agency Securities [Mortgage-backed securities (MBS)]
 **** MBS Model:  Homeowners with mortgage -> Bank -> Ginnie mae/Franniw mae/fradie mac -> issue MBS bonds
-**** It does not pay semiannual interest  it is monthly
+**** It does not pay semiannual interest. It is monthly
 **** MBS average life is shorter than maturity  (as homeowner can repay before maturity)
 **** risky
 **** when Interest Rates(IR) low -> more repayments(as homeowners will refinance) -> shorter maturities -> reinvestment risk(as IR are low)
 **** when Interest Rates(IR) high -> no repayments -> longer maturities -> extension risk(as IR are high)
-**** replayment of principal is very safe(second in sagefy to treasury as backed by US government)
+**** repayment of principal is very safe(second in safety to treasury as backed by US government)
 **** tax  taxable; both federal & state
-**** cash flow:  varied every month (depends on repayments/interest rate)
+**** Cash flow:  varied every month (depends on repayments/interest rate)
 **** government agencies debt securities  very safe (second in safety to treasury)  Homeowners with mortgage -> Bank -> Ginnie mae/Franniw mae/fradie mac -> issue MBS bonds
 **** Relationship with interest rates
 ***** interest rate rise  <-> payment(as well as prepayment) decelerate or reduces, people default
 ***** interest rate falls <-> pre-payment
 *** Government Agency (Agency)
-**** Subsidiaries of US government
-**** Explicit Guarantee  i.e. legally obliged by US govenment
-**** Ginnie mae
+**** Subsidiaries of the US government
+**** Explicit Guarantee, i.e., legally obliged by the US government
+**** Ginnie Mae
 ****  Government Sponsored Enterprises (GSE)
-***** Created/Chartered by US govennment
-***** Implicit Guarantee  i.e. historically US govenment backed  but not legally obliged.
+***** Created/Chartered by the US government
+***** Implicit Guarantee, i.e., historically, the US government-backed but not legally obliged.
 ***** Fennie mae
 ***** Fredie mac
 
 
-** money market securities
+** Money market securities
 '***************************
 *** debt security
 *** very safe
 *** very liquid
 *** low returns
-*** fluctuating income  it matures in very short period  and thus has reinvestment risk  as it depends on the interest rate prevailing.
+*** Fluctuating income matures in a very short period and thus has reinvestment risk as it depends on the interest rate prevailing.
 *** maturities of  one year or less
 **** includes
 **** treasury bills
 **** negotiable certificates of deposit
-**** commercial papper
-**** US Treasury Bonds  with less than 12 months  remaining for maturity.
+**** Commercial paper
+**** US Treasury Bonds with less than 12 months remaining for maturity.
 *** eurodollar
 **** tax
 ***** taxable; both federal and state
 **** bonds
-***** issued outside USA
-***** traded outside USA
+***** issued outside the USA
+***** traded outside the USA
 ****** not registered with SEC
 **** denominated in USD
 **** coupon payment in USD
-**** Used by companies  to make  securities  more marketable.
-**** Example:  issuer from Argentina  can issue bonds in EuroDollars  as the home currency is unstable.  it will make more marketable  as investor will not have currency risk;  but note issuer will have to bear currency risk.
+**** Used by companies to make securities more marketable.
+**** Example:  issuer from Argentina can issue bonds in EuroDollars as the home currency is unstable. It will make it more marketable as investors will not have currency risk, but note issuer will have to bear currency risk.
 *** deposits
 **** deposits  in international banks  in USD
 **** outside USA
 
-*** classification of debt market
+*** Classification of the debt market
 **** Money Market
 ***** Maturity less than 1 year.
 **** Capital Market
 ***** Maturity greater than 1 year.
-** classification of bonds as per objectives
+** Classification of bonds as per objectives
 *** corporate bonds
 **** income
 *** Munciple bonds
@@ -448,26 +448,26 @@ t required
 **** monthly income
 **** diversification
 *** Treasuries
-**** safety of principal  (fully backed by US govenment)
+**** safety of principal  (fully backed by US government)
 *** TIPS
 **** maintaining purchasing power  (keep pace with inflation)
-*** money market instruments
-**** safety of principal
+*** Money market instruments
+**** Safety of principal
 **** liquidity
 *** convertible bonds
 **** equity upside and not the coupon.
 
-*** classification of bonds by returns (top down)
+*** Classification of bonds by returns (top-down)
 **** Corporate bonds
-**** Mincipal bonds
+**** Municipal bonds
 **** MBS/Agency Securities
 **** Treasuries/TIPS
 **** convertible bonds
 **** money market
 
-*** bond interest taxation summary
+*** Bond interest taxation summary
 **** federal tax
-***** US Tresury Securities
+***** US Treasury Securities
 ***** Agency securities(MBS)
 ***** Corporate bonds
 ***** Foreign Debt Securities
@@ -475,8 +475,8 @@ t required
 ***** Agency Securities (MBS)
 ***** Corporate bonds
 ***** Munciple bonds (Intrastate)
-*** banker's acceptance
-**** Traditionally, BAs were used to finance international trade.  Importers(having deposit account) ---> Bank --> issue BA(backed by deposit a/c) ---> exported
+*** Banker's acceptance
+**** Traditionally, BAs were used to finance international trade. Importers(having deposit account) ---> Bank --> issue BA(backed by deposit a/c) ---> exported
 ** Bond Yield and its relationship with bond price
 
 *** When purchased on discount; as the graph shows
@@ -529,35 +529,35 @@ PAR VALUE ----+------+---+-------------\----------------------------------------
                                                                                    \-
 ** Memory Aid
 *** Government is goofy
-Government or Treasury bonds behave differently and uses following.
-- 365 days actual calender
+Government or Treasury bonds behave differently and use the following.
+- 365 days of actual calendar
 - T + 1 settlement
 - 32nd
 
 * options
 ** call
-*** (owner & writer) . owner is buyer and writer is seller. Buyer has to pay the premium
-*** call is a contract to buy some stock at specific price called strike price.
-*** call owner/buyer has to pay premium or purchase price
-*** if market price - premium > strike price (In the market)
-**** then caller profits as he will purchase at the stoke price which is less than the market price
+*** (owner & writer) . owner is the buyer, and the writer is the seller. Buyer has to pay the premium
+*** Call is a contract to buy some stock at a specific price called the strike price.
+*** Call owner/buyer has to pay premium or purchase price
+*** If the market price - premium > strike price (In the market)
+**** then caller profits as he will purchase at the store price, which is less than the market price
 *** if market price -premium = strike price
-**** breakeven called (at the market)
-*** if market price -premium < strike price
-**** loss called (out of market)
-**** in this case buyer will not excercise and only lose the premium
+**** Breakeven called (at the market)
+*** If the market price -premium < strike price
+**** loss called (out of the market)
+****, In this case, the buyer will not exercise and only lose the premium
 ** put
-*** put is a contract to sell some stock at specific price (strike price)
+*** Put is a contract to sell some stock at a specific price (strike price)
 *** if market price + premium < strike price (in the market)
-**** put seller will be in profit as he will sell at strike price which is greater than the market price
+**** put seller will be in profit as he will sell at a strike price which is greater than the market price
 *** if market price + premium = strike price
 **** breakeven (at the market)
 *** if market price + premium > strike price
-**** loss (out of market)
-**** in this case seller will not excercise and will lose onlu premium
-** visual projection.
+**** loss (out of the market)
+****, In this case, the seller will not exercise and will lose the only premium
+** Visual projection.
 |-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
-| *Terms: Long/Buyer/Owner  OR OrderType: Opening Purchase ==> Long Position*                     | *Terms: Short/Seller/Writer OR OrderType: Openeing Sale ==> Short Position* |
+| *Terms: Long/Buyer/Owner  OR OrderType: Opening Purchase ==> Long Position*                     | *Terms: Short/Seller/Writer OR OrderType: Opening Sale ==> Short Position* |
 |-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | *long call*                                                                                 ^   | *short call*                                                |               |
 | - buyer (who is bearish)                                                                    |   | - seller (who is bullish)                                   |               |
@@ -574,7 +574,7 @@ Government or Treasury bonds behave differently and uses following.
 |                                                                                   *STRIKE PRICE - PREMIUM = BE*
 |-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 * investment companies
-** Fund work flow.
+** Fund workflow.
                                          3
                               |----------------------|
                               |      $2800           |
@@ -586,10 +586,10 @@ Fund --> Underwriter/Distributor/Sponsor --> Broker/Dealer --> Investor
           2                              1
 
 ** Underwriter/Distributor/Sponsor:
- - Distributes the securities through Broker/Dealers.
- - Can't give gift more than &100
- - Can't sell securities below the NAV.
- - Securities which are refunded within first week should also contain all the concessions refunded.
+ - Distributes the securities through brokers/Dealers.
+ - Can't give gifts of more than &100
+ - Cannot sell securities below the NAV.
+ - Securities refunded within the first week should also contain all the refunded concessions.
 
 ** Open/Close funds
 |---------------------+-------------------------------------------------+--------------------------------------------------|
@@ -601,7 +601,7 @@ Fund --> Underwriter/Distributor/Sponsor --> Broker/Dealer --> Investor
 | Prospectus required | Yes                                             | No (after IPO)                                   |
 | Redeemable          | Yes                                             | No                                               |
 | Forward Pricing     | Yes; NAV calculated after close daily           | No (exchange Traded)                             |
-| Ex-Date             | DREP i.e. Day After record day (decided by BOD) | DERP i.e. Day before record day (decided by UPC) |
+| Ex-Date             | DREP, i.e., Day After record day (decided by BOD) | DERP, i.e., Day before record day (decided by UPC) |
 | Max charges         | Max load or SC can be 8.5%.                     | They work on commissions                         |
 |---------------------+-------------------------------------------------+--------------------------------------------------|
 *** https://www.youtube.com/watch?v=zS_ClsPYvfI
@@ -610,26 +610,26 @@ Fund --> Underwriter/Distributor/Sponsor --> Broker/Dealer --> Investor
 *** Prospectus :
 - can be provided before or at the time of sale.
 *** Reports
-- Semiannually
+- SemiannuallySemiannually
 *** MF provides investment advice.
-*** sales charges, fees and expenses
-*** 12b-1 : marketing and distribution fees of the fund.
+*** Sales charges, fees, and expenses
+*** 12b-1: Marketing and distribution fees of the fund.
 *** Memory Aid
- If Mutual fund pass through 90% of their net investments income (NII);
- it comes under regulated fund and the firm is excused of TAX on Dividends and Interest from bonds.
+ If Mutual funds pass through 90% of their net investments income (NII);
+ it comes under a regulated fund, and the firm is excused of TAX on Dividends and Interest from bonds.
 
  *DIE 90*
   Dividend(Stocks)  +
   Interest(bonds)   -
-  Expenses          (i.e. NII)
+  Expenses          (i.e., NII)
   90% of the above
 ** Forward Pricing Rules:
-- NAV is calculated after market close daily.
+- NAV is calculated after the market close daily.
 - Any new opening or redeem
-  -- during market time:  will be priced at the closing NAV of that day.
-  -- after market close: will be  priced at the next days closing NAV.
+  -- during market time:  will be priced at the closing NAV of that Day.
+  -- after market close: will be priced at the following days closing NAV.
 ** Money Market funds
-- no-load (i.e. not service charges)
+- no-load (i.e., no service charges)
 - Target NAV $1
 ** Income fund
 - utility stocks
@@ -637,27 +637,27 @@ Fund --> Underwriter/Distributor/Sponsor --> Broker/Dealer --> Investor
 - preferred stocks
 ** Growth fund
 - mid/small cap
-** management fees:
-** sales charges:
+** Management fees:
+** Sales charges:
 *** front load
 *** back load
 
 ** NAV = sales charges + public offering price
 
-** expense ration = management and operating fees/NAV
+** Expense ratio = management and operating fees/NAV
 
 ** breakpoint
-*** sales charge discount on the amount of investment
-*** letter of intend (LOI)
+*** Sales charge discount on the amount of investment
+*** Letter of intent (LOI)
 **** backdated max 90 days
 **** from date max 13 months of fund
-*** Rights of accumulation : use share appreciation or aggregate investments to reach the breakpoint.
-*** Breakpoint schedule : the point where sales charges are less compared to charger if its below that point.
+*** Rights of accumulation: use share appreciation or aggregate investments to reach the breakpoint.
+*** Breakpoint schedule: the point where sales charges are less compared to the charger if it's below that point.
 ** Memory Aid breakpoints
 Breakpoint Left Right
-Breakpoint : Discount
-Left : Letter of intend
-Right : Right of accumulation
+Breakpoint: Discount
+Left: Letter of intend
+Right: Right of accumulation
 
 
 ** classes
@@ -670,7 +670,7 @@ Right : Right of accumulation
 ***** backload or CDSC (contingent differed sales charges)
 *** C
 ***** 12b-1 high
-***** levelload i.e. either front or back load
+***** level-load, i.e., either front or back load
 *** No-load funds
 ****** 12b_1 high
 ****** no load i.e. NAV = POP
@@ -679,7 +679,7 @@ Right : Right of accumulation
 *** buy
 *** sell
 **** short sell
-** The term and condition of the order
+** The term and conditions of the Order
 *** market
 *** limit (guarantee price/ no guarantee will be filled)
 **** buy
@@ -688,14 +688,14 @@ Right : Right of accumulation
     if bid >=
 *** stop (fully filled/ no guarantee for price may be below or above stop price )
 **** market (default)
-    when condition for stop met; it becomes market order.
+    When the stop condition is met, it becomes a market order.
 **** limit
-    when the condition for stop met; it becomes limit order
+    when the condition for stopping is met; it becomes a limit order
 ** ex-dividend adjustment
 *** Long position.
-When investor have the stock and will want to sell on profit.
+When investors have the stock and they want to sell on profit.
 - He will sell when it touches 60 and above. So he will trade a sell limit order of 60
-- He will also want to protect himself if the price does down below 40. So he will trade a sell stop order of 40.
+- He will also want to protect himself if the price drops below 40. So he will trade a sell-stop order of 40.
 |--------+------------|
 |        | Protection |
 |--------+------------|
@@ -707,9 +707,9 @@ When investor have the stock and will want to sell on profit.
 |--------+------------|
 
 *** Short position
-When a person want to do short Sell he is bearish. He will try to borrow and sell at a  stock as high as possible and buy back as low as possible.
- - Investor will want to buy lower than specific price below the market price i.e. 50. So it places a buy limit order
- - Investor also would not like to protect himself for negative scenario when buy price does not drop. So he places buy stop limit order above market price i.e. 50.
+When a person wants to do a short Sell, he is bearish. He will try to borrow and sell at a  stock as high as possible and buy back as low as possible.
+ - Investor will want to buy lower than the specific price below the market price, i.e., 50. So it places a buy-limit order
+ - Investors also would not like to protect themselves from negative scenarios when the buy price does not drop. So he places buy stop limit order above market price, i.e., 50.
 
 |---------+------------|
 |         | protection |
@@ -722,7 +722,7 @@ When a person want to do short Sell he is bearish. He will try to borrow and sel
 
 *** Long and Short combined
 |----------+------------+-------------------------------------------------|
-| Initiate | Protection | Adjustment on ex-divident day or on stock split |
+| Initiate | Protection | Adjustment on ex-dividend Day or on stock split |
 |----------+------------+-------------------------------------------------|
 | SL       | BS(L)      | No                                              |
 | (long)   | (short)    |                                                 |
@@ -735,41 +735,41 @@ When a person want to do short Sell he is bearish. He will try to borrow and sel
 *** As Broker capacity (or Agency trade)
 **** It charges commission from both the clients (in case both used his system)
 *** As Dealer Capacity
-**** It owns the security and matches against it. It charges markup and markdown for purchase and sale resp.
+**** It owns the security and matches against it. It charges Markup and Markdown for purchase and sale resp.
 
 * transaction
-** solicit (from broker)
-** unsolicit (from client)
-** discretionary (broker select the(type of security)/amout and Action(buy or sell) while client approved the price and time)
-*** discretionary account require POA
+** solicit (from the Broker)
+** unsolicited (from the client)
+** discretionary (broker select the(type of security)/amount and Action(buy or sell) while client approved the price and time)
+*** Discretionary account requires POA
 
 * Broker-Dealers
 ** Broker (Book-A)
-*** Routes the order to the liquiduty provider i.e. Interstate Bank or Market Maker
-*** commission is the income
+*** Routes the Order to the liquidity provider, i.e., Interstate Bank or Market Maker
+*** Commission is the income
 *** STP/ECN
-*** fixed spead
+*** fixed SpeedSpeed
 ** Market Maker (Book-B)
 *** In-house match
-*** spread is the income
+*** Spread is the income
 *** Dealing desk
 
 *** floating spread
-*** fastest execution (as the order is matched in-house not need to route to market)
+*** fastest execution (as the Order is matched in-house and does not need to route to market)
 
 * Order Flow
-in case Broker-Dealer maintains bothe Book-A and Book-B i.e. it is both broker as well as market maker
-** Receives order
+in case Broker-Dealer maintains both Book-A and Book-B, i.e., it is both brokers as well as the market maker
+** Receives Order
 *** QUANT team determines if it is profitable to match in-house
-**** If profitable act as Market Maker and enter the order in Book-B
-**** Else act as Broker and enters the order in Book-A
+**** If profitable, act as Market Maker and enter the Order in Book-B
+**** Else act as Broker and enter the Order in Book-A
 
-* ECN vs STP
+* ECN vs. STP
 |--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
 |                    | ECN Brokers                                                                                                                         | STP Brokers                                                                                                                             |
 |--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
-| Order routing      | Order is routed straight through to the central interbank market and is filled at the best market rate with no dealer intervention. | Order is routed directly to a counterparty that might be the interbank market, another STP broker, market maker, or even an ECN broker. |
-| Speed of execution | An ECN broker executes trades over the ECN for potential investors, which results in the lowest execution time.                     | The speed of execution depends on the exact route it takes on specific orders.                                                          |
+| Order routing      | Order is routed straight through to the central interbank market and is filled at the best market rate with no dealer intervention. | Order is routed directly to a counterparty that might be the interbank market, another STP broker, a market maker, or even an ECN broker. |
+| SpeedSpeed of execution | An ECN broker executes trades over the ECN for potential investors, which results in the lowest execution time.                     | The SpeedSpeed of execution depends on the exact route it takes on specific orders.                                                          |
 | Fee structure      | Always charges a small commission for trades and always has variable spreads.                                                       | Can charge commissions and also earn from the spreads. STP can offer variable and fixed spreads.                                        |
 |--------------------+-------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
 
@@ -777,8 +777,8 @@ in case Broker-Dealer maintains bothe Book-A and Book-B i.e. it is both broker a
 ** Video: https://www.youtube.com/watch?v=6_0e4nNKjSo
 https://www.youtubepi.com/watch?v=Ltx1P-SUHqY
 
-* Sequence of events to register client with a firm
-** Menory aid:
+* Sequence of events to register the client with a firm
+** Memory aid:
 *DATO 15*
 Disclosure (document)
 Approval
@@ -789,7 +789,7 @@ Option Agreement (back   within)
 * Issuing securities
 ** Accredited investors
 *** 123
-**** 1 -> 1000, 000 (should have 1000, 000 net work excluding house)
+**** 1 -> 1000 000 (should have 1000 000 networks excluding house)
 or
 **** 2 -> 200, 000  ( salary of 200 thousand)
 or
@@ -798,16 +798,16 @@ or
 * Identify capacity and Investment Advisory firm
 ABC
 
-Agent   (Agency/Dealer/MM takes Markup on purchase and Markdown on sell)
-Broker  (takes commission)
+Agent   (Agency/Dealer/MM takes Markup on purchase and Markdown on sale)
+Broker  (takes a commission)
 Commission
 
 * Types of order Broker/Dealer or RR can receive
 ** Solicit
-** unsolicit
+** unsolicited
 ** discretionary
-*** to identify weather an order is discretionary or not the memory aid is
-If AAA is present the order is not discretionary.
+*** To identify whether an order is discretionary or not, the memory aid is
+If AAA is present, the Order is not discretionary.
 Action (buy or Sell)
 Asset  (Security name)
 Amount (quantity to buy or sell)
@@ -822,7 +822,7 @@ Amount (quantity to buy or sell)
      |
      V
 
- Cooling-Off(red herring (prospectus)/road show/receive Indication of Intend)
+ Cooling-Off(red herring (prospectus)/roadshow/receive Indication of Intent)
 
      |
      V
@@ -834,11 +834,11 @@ Amount (quantity to buy or sell)
 ****** IPO
 ****** Follow-on offering
 **** proceeds
-***** primary offering (from company)
-***** secondary offerring (from existing shareholders)
+***** Primary offering (from the company)
+***** secondary offering (from existing shareholders)
 ***** split offering (company + shareholder)
 
-*** underwiting
+*** underwriting
 **** IB/underwriter -> syndicate members -> either firm commitment or best effort -> underwriters sell share (uw can stabilize if required)
 ** Private securities [important]
 - are securities that are not registered with the Securities and Exchange Commission (SEC) and
@@ -856,10 +856,10 @@ Amount (quantity to buy or sell)
 *** Excepted securities
 *** Excepted transactions
 *** Reg D Private placement
-**** accedited can be one of the following
+**** accredited can be one of the following
  - officer or director of the issuer
- - instrtutional investors with over $5 million in total assets
- - high-net worth individuals either $1 million net worth excluding home or $200k (300K with wife) annually
+ - institutional investors with over $5 million in total assets
+ - high-net-worth individuals with either $1 million net worth excluding home or $200k (300K with wife) annually
 
 | who can          | how much  | how often | investor                                          |
 |:-----------------|:----------|:----------|:--------------------------------------------------|
@@ -873,8 +873,8 @@ Amount (quantity to buy or sell)
 
 **** Memory Aid for 144:
 1% OR
-4 weeks trading volume (which ever is greater)
-4 times in a year i.e. every 90 days
+4 weeks trading volume (whichever is greater)
+4 times in a year, i.e., every 90 days
 
 
 *** Rule 144 - Restricted stock
@@ -895,7 +895,7 @@ Amount (quantity to buy or sell)
 | who can                                         | how much  | how often | who can invest    | sell accross state lines |
 |:------------------------------------------------|:----------|:----------|:------------------|--------------------------|
 | in-state business matching following conditions | unlimited | no limit  | in-state resident | after 6 monts            |
-(either 80% of revenue's or asset or net proceeds or majority employee's in-state)
+(either 80% of revenue or asset or net proceeds or majority employees in-state)
 
 *** Regulation A - Small business
 *** Regulation M - Market manipulation of new issues
@@ -908,17 +908,17 @@ Amount (quantity to buy or sell)
 | issuer(buyback) or outside investor(takeover)   | least 5%   | no limit    | existing shareholder   | equal ratio of shares received   |
 
 ** Memory Aid
-*** 33 vs 34
+*** 33 vs. 34
 **** 33 related to paper/prospectus/cooling off etc
 **** 34 related to people and places like SEC FINRA etc
-*** primary vs secondary
-**** Primary: if issuer receives the proceeds.
-**** Secondary: if previous owner receives the proceeds.
+*** Primary vs. secondary
+**** Primary: if the issuer receives the proceeds.
+**** Secondary: if the previous owner receives the proceeds.
 *** Sequence of dividend
 *DERP*
     Declare dividend
     Ex-Date
-    Record date (day after Ex-Date)
+    Record date (the Day after Ex-Date)
     Payment date
 * Reports
 ** 10k
@@ -926,21 +926,21 @@ Amount (quantity to buy or sell)
 - annually
 - before 90 days of the year-end.
 ** Research report
-- if non-public neither disclose not use.
+- if nonpublic, neither disclose nor use.
 - Trading Ahead (is prohibited)
 ** U4
-- within 30 days of change
+- within 30 days of the change
 ** Currency Transaction Report (CTR)
-- cash/check etc. deposit in excess of $10,000 in single day.
-- Report to FINCEN within 15 days.
+- cash/check etc., deposit in excess of $10,000 in a single day.
+- Report to FinCEN within 15 days.
 ** Customer Complaints.
 - must be forwarded to the supervisor.
-- verbal complains need not be reported.
-- using U4 (Artibration claims/regulatory proceeding/bankrupcis/Criminal history)
-- must be submitted to FINRA by 15th day of the month.
+- verbal complaints need not be reported.
+- using U4 (Artibration claims/regulatory proceeding/bankruptcies/Criminal history)
+- must be submitted to FINRA by the 15th Day of the month.
 ** Mutual Fund
 - financial report
-- semi-annually
+- semiannually 
 ** SAR (Suspicious Activity Report)
 - Money laundry.
 - Report to FINCEN
@@ -962,51 +962,51 @@ Amount (quantity to buy or sell)
 ** Statutory disqualification
 *** U4 must be amended within 10 days
 OR
-*** U5 must be filled if the firm want to sponsor the disqualified person and request for the waiver.
-** Emergency contact
+*** U5 must be filled if the firm wants to sponsor the disqualified person and request a waiver.
+** Emergency Contact
 - within 30 days
 
 * Block Orders
 - in excess of 10,000 shares
 - Front Running: BD is not permitted to do any trading on that security
-  before block order trading for the customer once the order is received.
+  before block order trading for the customer once the Order is received.
 
 * market protection
 
-** front running violation
-When a trader is aware of some news about a future trade and it manipulate to make profit.
+** Front running violation
+When a trader is aware of some news about future trade, or it manipulates to make a profit.
 
-** trade shredding or splitting
-when the trader splits the orders into multiple small orders just to get multiple commissions.
+** Trade shredding or splitting
+when the trader splits the orders into multiple small orders to get multiple commissions.
 
 ** market manipulation
-when a firm give inside information to outside world to manipulate.
+when a firm gives inside information to the outside world to manipulate.
 
 ** trading ahead
-when the firm has research division and it increased its inventory before publishing the research report to public.
+when the firm has a research division, and it increases its inventory before publishing the research report to the public.
 
-** pump and dump
-when the investor hype up the price by manipulating the trading practices
+** Pump and dump
+when the investor hypes up the price by manipulating the trading practices
 
 ** spoofing
-put the order in the market and removing it before execution just for manipulating price.
+put the Order in the market and remove it before execution just to manipulate the price.
 
-** arbitage
-buy in one market sell in another and vice versa.
+** arbitrage
+buy in one market, sell in another, and vice versa.
 
 ** trading through
-when trader purposely buy or sell the clients security below the market price.
+when traders purposely buy or sell the client's security below the market price.
 
 ** backing away
 when a market dealer does not honor the firm quote.
-** swithcing or churning
-when a RR give advise to get profit to the client. example switching from one MF to another just for RR profit and no gain to client.
+** Switching or churning
+when a RR gives the advice to get profit to the client. For example, switching from one MF to another just for RR profit and no gain to the client.
 ** late trading
-when redemtion request received after market hours are filled with today's NAV  instead of tomorrows NAV (note if request is after hours NAV should be for next day)
-** selling dividents
-when the RR sells the funds just before dividend which lowers NAV on dividend.
-** interpositioning
-When the principal BD add another BD to trade a customers requirement when there is no benefit to the customer.
+when redemption requests received after market hours are filled with today's NAV  instead of tomorrow's NAV (note if the request is after hours, NAV should be for the next Day)
+** selling dividends
+when the RR sells the funds just before the dividend, which lowers NAV on the dividend.
+** interposition
+When the principal BD adds another BD;  to trade a customer's requirement when there is no benefit to the customer.
 ** selling away [important]
 The practice of a broker-dealer or registered representative engaging in securities transactions
 - *outside of their firm*
@@ -1017,16 +1017,16 @@ This is generally considered a violation of industry regulations and can result 
 Placement is the process of depositing illegal funds into financial institutions.
 This is the part of the process that is most easily detected.
 ** layering
-Layering is when money is transferred through complex financial transactions
+Layering is when money is transferred through complex financial transactions.
 (such as wire transfers) to separate the funds from their illegal origins.
 ** integration
-Through integration , the illegal funds are mixed with legitimate funds.
+Through integration, illegal funds are mixed with legitimate funds.
 
 
 * Economic factors
 ** Consumer spending
 *** interest rates
-*** inflation/deflation (measured by CPI)
+*** Inflation/deflation (measured by CPI)
 *** unemployment
 ** GDP & GNP
 *** GDP (economic stabilizers are used to increase GDP during the recession)
@@ -1038,13 +1038,13 @@ Through integration , the illegal funds are mixed with legitimate funds.
 *** Trough
 ** Economic indicators
 *** leading indicators
-**** change before the economy changes
-***** stock market (example:S&P 500)
+**** Change before the economy changes
+***** stock market (example: S&P 500)
 *** lagging indicators
 **** change after the economy has begun changing
 ***** interest rates
 *** co-incident indicators
-**** economic factors that vary simultaneously with the business cycle
+**** Economic factors that vary simultaneously with the business cycle
 ***** GDP
 
 * yield curve
@@ -1053,7 +1053,7 @@ Through integration , the illegal funds are mixed with legitimate funds.
 
 * Federal Reserve and Economic policy
 ** classical economics(laissez-faire economics)
- - founded by Adam smith
+ - founded by Adam Smith
  - no government interference with the market.
 ** Keynesian theory (fiscal policy/congress)
 use government tools to affect the economy
@@ -1066,7 +1066,7 @@ use government tools to affect the economy
 | Inflation | decrease            | increase |
 | Deflation | increase            | decrease |
 |-----------+---------------------+----------|
-** monetarist theory (federal reserve) (memory aid: DORM)
+** Monetarist theory (federal reserve) (memory aid: DORM)
 Use money supply to affect the economy.
 |----------------------------+------------------------------------+-------------------------------------------------|
 | Item                       | supply money into the market       | restrict excess money circulation in the market |
@@ -1080,18 +1080,18 @@ Use money supply to affect the economy.
 * Interest Rates
 the below interest rates are listed from high to low (memory aid: "Pretty boy drives Ferrari").
 ** prime rate
-rate that banks charge their most creditworthy institutional customers.
-** broker call rate
-rate that a broker-dealer pays a bank to borrow money to facilitate margin loans
+the rate that banks charge their most creditworthy institutional customers.
+** Broker call rate
+the rate that a broker-dealer pays a bank to borrow money to facilitate margin loans
 ** discount rate
-rate that the FED charges banks for short-term loans (negotiated every day)
-** federal funds rate
-rate that banks charge each other for overnight loans
+the rate that the FED charges banks for short-term loans (negotiated every Day)
+** Federal funds rate
+the rate that banks charge each other for overnight loans
 *** most volatile as they are changed very frequently.
 
 * Margin Account
-- Brokerage firm takes loan from bank at the broker call rate.
-- Regulation T : Customer should have 50% or 2000 (in case the investment is less than 4000)
+- A brokerage firm takes a loan from the bank at the broker call rate.
+- Regulation T: Customer should have 50% or 2000 (in case the investment is less than 4000)
 ** Margin account depends on broker call rate and regulation T.
 
 * Economic cycles
@@ -1099,23 +1099,23 @@ rate that banks charge each other for overnight loans
 * Phases
 ** Inflation
  - rise in prices
- _ decrease of the value of currency (purchasing power of the currency)
+ _ decrease of the value of the currency (purchasing power of the currency)
 *** Equities
 **** Will do better
 **** Better to invest in growth stocks.
 *** Fixed Income
-**** as the CPI decreases the value of the interest paid by FI decreases. Will not do better.
+**** As the CPI decreases, the value of the interest paid by FI decreases. I will not do better.
 ** disinflation
-- rise in price but in a slower rate. (going down after inflation)
-- very gradual increase in purchasing power of the currency
+- rise in price but at a slower rate. (going down after inflation)
+- a very gradual increase in purchasing power of the currency
 ** deflation
  - decrease in prices
- _ increase of the value of currency (purchasing power of the currency)
+ _ increase of the value of the currency (purchasing power of the currency)
 *** Equities
 **** Will not do better
 **** Better to invest in FI.
 *** Fixed Income
-**** as the CPI increases the value of the interest paid by FI increases. Will do better.
+**** As the CPI increases, the value of the interest paid by FI increases. I will do better.
 
 * Recession
  occurs after 2 consecutive negative GDP growth.
@@ -1124,7 +1124,7 @@ rate that banks charge each other for overnight loans
 ** Income (P&L) statements
 *** revenues
 *** expenses
-*** net income (revenues - expenses)
+*** Net income (revenues - expenses)
 *** timing
 **** annual
 **** quarterly
@@ -1132,17 +1132,17 @@ rate that banks charge each other for overnight loans
 ** balance sheet
 *** assets
 *** liabilities
-*** shareholders equity (assets - liabilities)
-*** working capital (current asset - current liability)
+*** Shareholders equity (assets - liabilities)
+*** Working capital (current asset - current liability)
 **** current asset
-cash and other assets that are expected to be cash within one year of the date of the balance sheet.
+cash and other assets that are expected to be cash within one year of the balance sheet date.
 **** current liability
-An obligation (payment) that is due within one year of the date of the balance sheet.
+An obligation (payment) that is due within one year of the balance sheet date.
 *** timing
-**** year end (as of December 31)
+**** year-end (as of December 31)
 **** quarter end
 
-** cash flow statements
+** Cash flow statements
 *** source of cash
 *** uses of cash
 *** timing
@@ -1153,7 +1153,7 @@ An obligation (payment) that is due within one year of the date of the balance s
 ** Purchase power parity
     helps determine it by comparing how much it would cost to buy the same basket of goods in different currencies.
 
-** benefitiories
+** beneficiaries
 |---------------+-------------+-------------+------------------+------------------|
 | dollar value  | US exporter | US importer | Foreign exporter | Foreign Importer |
 |---------------+-------------+-------------+------------------+------------------|
@@ -1170,7 +1170,7 @@ An obligation (payment) that is due within one year of the date of the balance s
 
 * classification of stocks
 ** growth
-no interest , high PE , risky
+no interest, high PE, risky
 ** defensive
 steady, safe
 ** cyclical
@@ -1179,13 +1179,13 @@ goes with the economy
 undervalued stock
 * Under SEC Regulation S-P (Consumer Privacy), [Important]
 ** required
-firm required to provide customers with privacy and opt-out notices that explain
+the firm is required to provide customers with privacy and opt-out notices that explain
 - how they collect, use, and protect nonpublic personal information about their customers.
-- customer's right to opt out of the sharing of nonpublic personal information with nonaffiliated third parties and the methods by which the customer may exercise that right.
+- customer's right to opt out of the sharing of nonpublic personal information with non-affiliated third parties and the methods by which the customer may exercise that right.
 ** not required in the notice
 - The address of the firm's website,
-- the fee to opt out, and
-- the deadline by which to opt out
+- the fee to opt-out, and
+- the deadline by which to opt-out
 ** notice timing
 - The notices must be provided to customers at the time the customer relationship is established and
 - annually thereafter.
@@ -1193,27 +1193,27 @@ firm required to provide customers with privacy and opt-out notices that explain
 * Timing
 ** Reporting
 *** MF financial reporting + Balance Sheet + income statement + portfolio
-semiannually
+semiannually 
 *** MF update prospectus
 annually
 *** NON-TRADED REID: disclosure filing with SEC
-Annual and Quarterly report and an offering prospectus filled with SEC
-*** customer account statement
+Annual and Quarterly reports and an offering prospectus filed with SEC
+*** Customer account statement
 **** penny stock or options
 monthly
-**** stocks , bonds etc
+**** stocks, bonds, etc
 ***** active
 monthly
 ***** not active
 quarterly
 *** 529
-Underwriter should report semiannually to MSRB
+The underwriter should report semiannually  to MSRB
 - plan
 - aggregate plan
 - investment options
-*** broker firm to customer
-at least annually about existing BrokerCheck and of its website address and phone number.
-NOTE : BrokerCheck is a free online tool provided by the FINRA
+*** Broker firm to the customer
+at least annually about existing BrokerCheck and its website address and phone number.
+NOTE: BrokerCheck is a free online tool provided by the FINRA
        to research the background and qualifications of
        - brokers,
        - brokerage firms, and
@@ -1225,9 +1225,9 @@ According to SEC Rule 15c3-3, a broker-dealer must send account statements to cu
 - annually
 *** Regulation S-P privacy notice
 - account opening and
-- annually there after.
+- annually thereafter.
 
-*** customer account student
+*** Customer account student
 quarterly
 
 
@@ -1240,12 +1240,12 @@ annual (renewable contract)
 **** Within 120 days  and after every 3 years
 **** Annually
 **** CE inactive
-If RR does not give or pass the CE exam by 31st of December else he becomes CE inactive and is forbidden to do any task.
+If RR gives or passes the CE exam by December 31 else, he becomes CE active and is allowed to do any task.
 *** Firm element Continuous education(CE)
-**** annually (can be more with a year depends on the firm)
+**** annually (can be more than a year, depending on the firm)
 ** Interest adjustment
 *** TIPS
-    Semiannually
+    SemiannuallySemiannually
 *** CDSC (MF contingent deferred sales charges)
     Paid annually
 *** variable annuity
@@ -1253,26 +1253,26 @@ monthly payment
 *** preferred stocks
 quarterly
 
-** withdrawl
+** withdrawal
 *** 529
-upto 10000 annually to cover cost associated with elementary school and high school
+up to up to 10,000 annually to cover the costs associated with elementary school and high school
 
 * SIPC (Securities Investor Protection Corporation)
-** non-profic corporation
+** non-profit corporation
 ** non-government corporation
 ** protects investors from broker-dealer failures.
-** market value of the claim is based on the date the bankruptcy is filed by the broker-dealer
+** market value of the claim is based on the date the broker-dealer files the bankruptcy
 ** does not protect non-securities like commodities and futures.
-** each customer is protected upto 500000 and not 250000 in cash.
-*** if the limit is exceeded the investor becomes the creditor of the broker-dealer.
+** Each customer is protected up to 500000 and not 250000 in cash.
+*** If the limit is exceeded, the investor becomes the creditor of the broker-dealer.
 
 * FDIC (The Federal Deposit Insurance Corporation)
-** insures deposits 250,000 per depositor or thrift up to 500,000 (including cash 250,000)
+** Insures deposits of 250,000 per depositor or thrift up to 500,000 (including cash 250,000)
 *** does not cover
 - Investments in MF Insurance Stock. Bonds or Other investment products
 
 * FINRA Rule
-** 15-business-day hold on distribution from the investors account to review in case there is suspicion of financial exploitation of a vulnerable investor.
+** 15-business-day hold on distribution from the investor's account to review in case there is suspicion of financial exploitation of a vulnerable investor.
 
 
 * Retirement plan
@@ -1281,18 +1281,18 @@ upto 10000 annually to cover cost associated with elementary school and high sch
 *** Qualified
 **** ERISA (Employee Retirement Income Security Act)
 ***** eligibility
-- age : 21 years
-- work service : 1 year of service with the employer
+- age: 21 years
+- work service: 1 year of service with the employer
 ***** benefits
 - pre-tax contribution (tax-deductible contribution)
-- tax deferred growth
+- tax-deferred growth
 - all distributions are taxable as ordinary income.
 ***** ERISA Plan
-- Vesting schedule for employer contribution.
+- Vesting schedule for the employer contribution.
 
 **** Defined benefit plan (pension plan)
 ***** Require actuarial calculation
-Ex: 1% of last 3 months salary * number of years worked in the company
+Ex: 1% of last 3 months' salary * number of years worked in the company
 **** Defined contribution plan (retirement plan)
 *****  elective-deferral contribution
 - An elective-deferral contribution is a portion of an employee's salary that's
@@ -1320,7 +1320,7 @@ Ex: 1% of last 3 months salary * number of years worked in the company
 |---------------------------------+----------------+------------------+---------------------------+---------+---------------+-------------------------------+-----|
 
 *** Non-Qualified
-- after-tax/ non-deductible contribution
+- after-tax/nondeductible contribution
 - growth tax-deferred
 - distribution: only growth is taxed as ordinary income
 - carry credit risk if the employer is insolvent
@@ -1328,9 +1328,9 @@ Ex: 1% of last 3 months salary * number of years worked in the company
 **** deferred compensation plans
 ** Individual
 *** IRA (Individual retirement account)
-**** IRA account can't be a joined account. It will always be individual account.
+**** IRA account can't be a joined account. It will always be an individual account.
 **** Unlike 401k; minimum 5 years of contribution is *NOT* required in IRA
-**** Individual can contribute to both corporate plan (i.e. 401k etc) and IRA
+**** Individuals can contribute to both corporate plans (i.e., 401k, etc.) and IRA
 **** Only earned income can be contributed to an IRA
 ***** Following incomes cannot be contributed
 - investment income (capital gain/dividends/interest)
@@ -1340,17 +1340,17 @@ Ex: 1% of last 3 months salary * number of years worked in the company
   - antiques and collectibles (other than us-issued gold and silver coins)
   - risk options like uncovered calls
   - real estate
-**** Deadline for IRA contribution is April 15 ( i.e. due date of federal income tax return)
+**** Deadline for IRA contribution is April 15 ( i.e., the due date of the federal income tax return)
 **** Deductible
 Income level determines whether a Traditional IRA contribution is fully
-deductible, partially deductible or non-deductible. If their income level falls
-in a certain range, the contribution is partially deductible.
+deductible, partially deductible, or nondeductible. If their income level falls
+in a particular range, the contribution is partially deductible.
 **** Withdrawl
 ***** Before 59 1/2
 ****** Penalty
-- 10% penalty (also in the contributions were pre-tax; the amount becomes taxable)
+- 10% penalty (also, the contributions were pre-tax; the amount becomes taxable)
 ****** Exemptions
-- Penalty is exempted upto $10,000 withdrawl.
+- Penalty is exempted up to $10,000 withdrawal.
 ◆ Disability of the account owner
 ◆ Payment of education expenses for the account owner, her spouse, children, and grandchildren
 ◆ First-time homebuyers (limited to $10,000)
@@ -1360,8 +1360,8 @@ in a certain range, the contribution is partially deductible.
 **** Transfer
 ***** Rollover
 - receive cash/cheque from one financial institution where the account is held and rollover to another
-- Only once in a year
-- Within 60 days to avoid tax liability and early withdrawn penalty.
+- Only once a year
+- Within 60 days to avoid tax liability and early withdrawal penalty.
 ***** Direct transfer
 - trustee-to-trustee (you don't need to transfer yourself)
 - no restrictions any number of times.
@@ -1398,49 +1398,49 @@ in a certain range, the contribution is partially deductible.
 |--------------------+---------------------+--------------------+---------+---------------+----------------------------------------+--------------------------+--------------|
 * Annuities
 ** Purpose
-more appropriate for people who have maximized there contributions to their
+more appropriate for people who have maximized their contributions to their
 other retirement plans/accounts and have additional income to set aside for the
 future.
 ** phase
 *** accumulation
-**** accumulation units represents an interest in an underlying sub-account
-**** during this phase the investor is making payment and aquiring accumation units and is not tax liable.
+**** Accumulation units represent an interest in an underlying sub-account
+**** During this phase, the investor is making payments and acquiring accumulation units and is not tax liable.
 *** annuitization
-**** when annuitized, the accumulation units are covered into a fixed number of annuity units
-**** In this phase the investor will be tax liable
+**** When annuitized, the accumulation units are covered into a fixed number of annuity units
+**** In this phase, the investor will be tax liable
 ** types
 
 *** Fixed Annuity:
 A fixed annuity is an annuity that provides a guaranteed fixed rate of return on the invested funds for a certain period of time. The payment amount and the interest rate remain fixed for the entire period.
-**** hold in "general" account
-**** non security investment
+**** Hold in "general" account
+**** non-security investment
 **** credit and inflation risk
 *** Deferred Annuity:
 A deferred annuity is an annuity that begins making payments to the annuitant at a future date, such as retirement. The funds can be invested in a variety of underlying investment options, such as stocks, bonds, and mutual funds.
 **** variable contracts
 ***** Variable Annuity:
 A variable annuity is an annuity that allows the annuitant to invest in a variety of underlying investment options, such as stocks, bonds, and mutual funds. The payment amount is not fixed and varies based on the performance of the underlying investments.
-****** hold in "separate" account
-****** annuities are considered securities and are registered with SEC and sold with prospectus
-****** credit and market risk (NOTE greatest is market risk)
-****** market value is calculated daily.
-****** being securities they can only be sold by individuals with both insurance and securities licenses.
-****** the accumulation unit will increase by time during accumulation period and value will fluctuate
-****** A variable annuity would be most appropriate for an individual who has maximized their contributions to their other retirement accounts and have additional income to set aside for the future.
+****** Hold in a "separate" account
+****** Annuities are considered securities and are registered with SEC and sold with a prospectus
+****** credit and market risk (NOTE greatest is a market risk)
+****** Market value is calculated daily.
+****** being securities, they can only be sold by individuals with both insurance and securities licenses.
+****** The accumulation unit will increase over time during the accumulation period, and the value will fluctuate
+****** A variable annuity would be most appropriate for an individual who has maximized their contributions to their other retirement accounts and has additional income to set aside for the future.
 ***** variable life insurance.
-provides a death benefit to beneficiaries.
+It provides a death benefit to beneficiaries.
 **** Indexed Annuity:
 An indexed annuity is a type of fixed annuity that is linked to a stock market index, such as the S&P 500. The payment amount is based on the performance of the index, subject to a minimum guaranteed interest rate.
 **** Longevity Annuity:
 A longevity annuity is an annuity that provides payments to the annuitant only after a certain age, such as 80 or 85. This type of annuity is used to hedge against the risk of outliving one's savings.
 **** Qualified Annuity:
 A qualified annuity is an annuity that is purchased using funds from a tax-deferred retirement account, such as a 401(k) or an IRA. The payments from a qualified annuity are taxed as income.
-**** Nonqualified Annuity:
-A nonqualified annuity is an annuity that is purchased using funds that have already been taxed. The payments from a nonqualified annuity are taxed only on the earnings portion of the payment.
+**** Non-qualified Annuity:
+A non-qualified annuity is an annuity that is purchased using funds that have already been taxed. The payments from a non-qualified annuity are taxed only on the earnings portion of the payment.
 *** Immediate Annuity:
 An immediate annuity is an annuity that begins making payments to the annuitant immediately after the lump sum payment is made. This type of annuity is often used for retirement income planning.
 
-** important notes:
+** Important notes:
 *** The kind of annuity selected partly determines the payment amounts to the annuitant.
 For example, a fixed annuity guarantees a specific payment amount, while a variable annuity's payment amounts are based on the performance of the underlying investment portfolio.
 *** In the case of life annuity contracts, the age and sex of the annuitant can also affect the payment amounts, as the insurance company will factor in the annuitant's life expectancy.
@@ -1454,17 +1454,17 @@ For example, a fixed annuity guarantees a specific payment amount, while a varia
 |                          |                                              |                         |                        |              | not during accumulation               |
 |--------------------------+----------------------------------------------+-------------------------+------------------------+--------------+---------------------------------------|
 ** Surrender charges
-*** fee paid if withdraws prior to annuitization.
+*** Fee paid if withdraws prior to annuitization.
 
-** transfer to another annuity contact
-*** no tax liability via a 1035 exchange
-*** surrender charges still apply
+** transfer to another annuity contract
+*** No tax liability via a 1035 exchange
+*** Surrender charges still apply
 * tax advantage savings for disabilities
 ** ABLE (Achieving a better life experience)
-*** eligiblility: disability prior to age 26
+*** Eligibility: disability prior to age 26
 *** Municiple fund security
 *** post-tax contribution
-*** tax-free distribution (at federal level)
+*** Tax-free distribution (at the federal level)
 
 * tax advantage savings for education
 |----------------------------+------------------------------+-------------------------------+------------------------------+----------------+----------|
@@ -1473,7 +1473,7 @@ For example, a fixed annuity guarantees a specific payment amount, while a varia
 | 529                        | only for minor for           | state                         | yes                          | post-tax       | tax-free |
 |                            | qualified education expenses | maximum contribution amount   | to family members            |                |          |
 |                            |                              | will vary from state to state | w/o penalty                  |                |          |
-|                            |                              |                               | upto once per year.          |                |          |
+|                            |                              |                               | up to once per year.          |                |          |
 |                            |                              |                               |                              |                |          |
 | coverdell (ESA)            | same as 529                  | not a municipal fund security | must be spent or transferred | post-tax       | tax-free |
 | education savings accounts |                              |                               | to a family member by the    | limited to     |          |
@@ -1486,10 +1486,10 @@ For example, a fixed annuity guarantees a specific payment amount, while a varia
 |----------------------------+------------------------------+-------------------------------+------------------------------+----------------+----------|
 
 * limited partnership
-** passive lossed can only be deductible agaist passive income.
-* muncipality undersriter appointment
+** Passive loss can only be deductible against passive income.
+* municipality underwriter appointment
 ** competitive bidding ;
-choose the underwriter which offers lowest interest cost.
+choose the underwriter who offers the lowest interest cost.
 ** negotiated
 If a municipality appoints an underwriter to offer a new issue, it is a negotiated underwriting.
 
@@ -1502,7 +1502,7 @@ Accredited investors are individuals or institutions that meet certain financial
 Securities offerings that are offered and sold only within one state may be exempt from registration under the Securities Act if certain conditions are met.
 
 ** Regulation A offerings:
-Regulation A offerings are a type of mini-IPO that allows smaller companies to offer and sell securities to the public without having to go through the full SEC registration process.
+Regulation A offerings are a type of mini-IPO that allows smaller companies to offer and sell securities to the public without having to go through the whole SEC registration process.
 
 ** Securities issued by municipalities:
 Securities issued by state and local governments are generally exempt from registration under the Securities Act.
@@ -1545,10 +1545,10 @@ Regenerate response
 
 A Traditional IRA is an individual retirement plan. SIMPLE IRAs and SEP-IRAs are employer-sponsored.
 The beneficiary of a Section 529 plan does not need to be related to the owner of the account, and there are no age requirements for the beneficiary.
-Roth IRAs are not available to everyone with earned income. To open an account and make contributions in a Roth IRA, the participant must meet a Modified Adjusted Gross Income (MAGI) test.
-IRA owners are free to buy, sell, exchange or trade assets within their accounts without current tax consequences.
+Roth IRAs are only available to some with earned income. To open an account and make contributions to a Roth IRA, the participant must meet a Modified Adjusted Gross Income (MAGI) test.
+IRA owners are free to buy, sell, exchange, or trade assets within their accounts without current tax consequences.
 
-Earnings accumulate in a Traditional IRA on a tax-deferred basis, and withdrawals are fully taxable, unless they represent a return of non-deductible contributions.  Withdrawals made before age 59 ½ may be subject to an additional 10% penalty.
+Earnings accumulate in a Traditional IRA on a tax-deferred basis, and withdrawals are fully taxable unless they represent a return of nondeductible contributions. Withdrawals made before age 59 ½ may be subject to an additional 10% penalty.
 
 Textbook Reference
 Please see textbook section 12.2.1.2
@@ -1562,7 +1562,7 @@ Surrender charges are similar to contingent deferred sales charges, or back-end 
 Textbook Reference
 Please see textbook section 12.3.3.4
 Answer Explanation
-Distributions from a 529 Plan that are used to pay for the beneficiary's qualified college education costs are federally income tax-free. These include fees for room and board.
+Distributions from a 529 Plan that are used to pay for the beneficiary's qualified college education costs are federal income tax-free. These include fees for room and board.
 
 Textbook Reference
 Please see textbook section 12.4.1.4
@@ -1577,7 +1577,4 @@ There are no exceptions to the five-year holding period requirement. It must be 
 
 Textbook Reference
 Please see textbook section 12.2.2
-A variable annuity is a contract with an insurance company, and is designed to provide retirement benefits.  A death benefit that guarantees a return of purchase payments is not always included, but can be purchased.  Growth is not guaranteed, although riders can be purchased to ensure minimum benefits are available for the lifetime of the annuitant(s). Variable annuity contracts are subject to market volatility; fixed annuities are not.
-
-
-
+A variable annuity is a contract with an insurance company and is designed to provide retirement benefits. A death benefit that guarantees a return of purchase payments is not always included but can be purchased. Growth is not guaranteed, although riders can be purchased to ensure minimum benefits are available for the lifetime of the annuitant(s). Variable annuity contracts are subject to market volatility; fixed annuities are not.
