@@ -1,0 +1,14 @@
+#+title: Questions
+Question Number 1 of 75
+
+Which of the following statements is true about all U.S. government agency issues?
+
+
+[ ] A) They are exempt from federal taxes.
+[ ] B) They are exempt from registration under the Securities Act of 1933.
+[ ] C) They are issued in bearer form only.
+[ ] D) They are general obligations of the federal government.
+
+
+|---+---|
+| 1 | B |
