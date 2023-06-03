@@ -1512,16 +1512,38 @@ Securities offerings that are sold only to a limited number of investors who mee
 
 
 
+* fiscal or budget deficit : 
+when rovernment expenditure exceeds its revenue.
 
 
 
+* point of sale
+The BR is only responsible for suitability of the investment is till the "point of sale" i.e. till the invertor purchase the security and beyond that. 
+* duty of trust
+logal and ethical obligation to keep the confidential information private and to not disclose to others.
+* customer relationship summary (CRS)
+BD oblication to provide CRS to retail customer.
+* BI (Best Interest)
+Reg BI is intended to enhance the transparency and accountability of broker-dealers to retail customers.
+* types of account
+** accredited investor
+*** net worth: 1 million
+*** income: $200,000 or $300,000 with spouse (from last 2 years)
+** institutional account
+*** net income $50 million
+** qualified institutional buyer
+*** net income $100 million
+*** private participation
 Regenerate response
 
 
 
 
-
-
+* Re-purchasing shares and agreeing to sell them to customers at no less than the original sales price
+could potentially be viewed as a manipulative practice and be in violation of securities regulations.
+However, under certain conditions, re-purchasing shares could be permissible.
+To ensure compliance, the underwriting firm must immediately set aside funds for the repurchase
+to prevent the agreement from being viewed as fraudulent or manipulative.
 
 
 
