@@ -1,3 +1,5 @@
+#+TITLE: Series 57
+
 * Active and Passive broker-dealers
 
 ** Key differences between active and passive broker-dealers:
@@ -188,27 +190,29 @@ No halt
     - disclose any payments for order flow to affected customers.
 * The differences in cost basis calculation for covered and non-covered securities, along with an example:
 
-|-------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
-| Feature                             | Covered Securities                                                                               | Non-covered Securities                                                                      |
-|                                     |                                                                                                  |                                                                                             |
-|-------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
-| Brokers and financial institutions  | Yes                                                                                              | No                                                                                          |
-| required to report cost basis       |                                                                                                  |                                                                                             |
-|-------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
-| Cost basis reported on Form 1099-B  | Yes                                                                                              | No                                                                                          |
-| Responsibility to report cost basis | Taxpayer and brokers/financial institutions                                                      | Taxpayer                                                                                    |
-| Cost basis calculation              | Brokers and financial institutions report the cost basis                                         | Taxpayers are responsible for calculating the cost basis using the original purchase price, |
-|                                     | to the IRS and the taxpayer; taxpayers may adjust the                                            | any fees or commissions paid, and any adjustments for certain events                        |
-|                                     | cost basis for certain events, such as reinvested dividends                                      |                                                                                             |
-|                                     | or stock splits                                                                                  |                                                                                             |
-|-------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
-| Example                             | If you purchase 100 shares of a covered stock for $1,000 and pay a $10 commission,               | If you purchase 100 shares of a non-covered stock for $1,000 and pay a $10 commission,      |
-|                                     | Your cost basis would be reported to the IRS and the taxpayer as $1,010.                         | you are responsible for calculating the cost basis as $1,010 ($1,000 + $10),                |
-|                                     | If you later sell the shares for $1,200 and pay a $12 commission,                                | and any adjustments for certain events such as reinvested dividends or stock splits.        |
-|                                     | your Broker or financial institution would report the sale proceeds as $1,188 ($1,200 - $12) and | If you later sell the shares for $1,200 and pay a $12 commission,                           |
-|                                     | The capital gain is $178 ($1,188 - $1,010).                                                      | you would need to calculate the capital gain as $178 ($1,200 - $1,010 - $12),               |
-|                                     |                                                                                                  | and report this gain on your tax return.                                                    |
-|-------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
+|-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
+| Feature                             | Covered Securities                                           | Non-covered Securities                                            |
+|                                     |                                                              |                                                                   |
+|-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
+| Brokers and financial institutions  | Yes                                                          | No                                                                |
+| required to report cost basis       |                                                              |                                                                   |
+|-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
+| Cost basis reported on Form 1099-B  | Yes                                                          | No                                                                |
+| Responsibility to report cost basis | Taxpayer and brokers/financial institutions                  | Taxpayer                                                          |
+| Cost basis calculation              | Brokers and financial institutions report the cost basis     | Taxpayers are responsible for calculating the cost basis          |
+|                                     | to the IRS and the taxpayer; taxpayers may adjust the        | using the original purchase price, any fees or commissions paid,  |
+|                                     | cost basis for certain events, such as reinvested dividends  | and any adjustments for certain events                            |
+|                                     | or stock splits                                              |                                                                   |
+|-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
+| Example                             | If you purchase 100 shares of a covered stock for $1,000     | If you purchase 100 shares of a non-covered stock for $1,000      |
+|                                     | and pay a $10 commission, Your cost basis would be reported  | and pay a $10 commission, you are responsible for calculating     |
+|                                     | to the IRS and the taxpayer as $1,010. If you later sell the | the cost basis as $1,010 ($1,000 + $10), and any adjustments      |
+|                                     | shares for $1,200 and pay a $12 commission, your Broker or   | for certain events such as reinvested dividends or stock splits.  |
+|                                     | financial institution would report the sale proceeds         | If you later sell the shares for $1,200 and pay a $12 commission, |
+|                                     | as $1,188 ($1,200 - $12) and                                 | you would need to calculate the capital gain as                   |
+|                                     | The capital gain is $178 ($1,188 - $1,010).                  | $178 ($1,200 - $1,010 - $12), and report this gain on your        |
+|                                     |                                                              | tax return.                                                       |
+|-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
 
 
 
@@ -252,7 +256,7 @@ No halt
 |             |                                                                |                                                                  |
 | Outcome     | Buyer hopes to profit from the difference between the          | Trading in the affected security is typically halted for a       |
 |             | price of the underlying security and the strike price of       | specified period of time, allowing investors time to adjust      |
-|             | the options.                                                   | their positions and preventing panic selling or buying.           |
+|             | the options.                                                   | their positions and preventing panic selling or buying.          |
 |             |                                                                |                                                                  |
 | Timeframe   | The straddle is typically held until the expiration date       | The length of the halt period may vary depending                 |
 |             | of the options, which is usually several months in the future. | on the specific circumstances and the policies of                |
@@ -312,185 +316,229 @@ strategy, traders should carefully consider their investment objectives, risk to
 |----------+-------------------------------------------+-------------------------------------------+---------------------------------------------|
 
 * NYSE Limit State
-| Level | Trigger Threshold                     | Halt Duration        | 15-Second Halt? | Review Process                                                         |
-|-------+---------------------------------------+----------------------+-----------------+------------------------------------------------------------------------|
-|     1 | 5% decline from previous day's close  | 15 minutes           | Yes             | Exchange conducts review of trading data to ensure                     |
-|       | in the S&P 500 index                  |                      |                 | there were no erroneous or manipulative orders                         |
-|       |                                       |                      |                 | contributing to the decline during the 15-second halt.                 |
-|     2 | 10% decline from previous day's close | 15 minutes           | Yes             | Exchange conducts review of trading data to ensure                     |
-|       | in the S&P 500 index                  |                      |                 | there were no erroneous or manipulative orders                         |
-|       |                                       |                      |                 | contributing to the decline during the 15-second halt.                 |
-|     3 | 20% decline from the previous day's close | Remainder of the day | No              | Exchange does not conduct a review process for Level 3,                |
-|       | in the S&P 500 index                  |                      |                 | as it is assumed that the decline is due to significant market events. |
+| Level | Trigger Threshold                         | Halt Duration        | 15-Second Halt? | Review Process                                          |
+|-------+-------------------------------------------+----------------------+-----------------+---------------------------------------------------------|
+|     1 | 5% decline from previous day's close      | 15 minutes           | Yes             | Exchange conducts review of trading data to ensure      |
+|       | in the S&P 500 index                      |                      |                 | there were no erroneous or manipulative orders          |
+|       |                                           |                      |                 | contributing to the decline during the 15-second halt.  |
+|     2 | 10% decline from previous day's close     | 15 minutes           | Yes             | Exchange conducts review of trading data to ensure      |
+|       | in the S&P 500 index                      |                      |                 | there were no erroneous or manipulative orders          |
+|       |                                           |                      |                 | contributing to the decline during the 15-second halt.  |
+|     3 | 20% decline from the previous day's close | Remainder of the day | No              | Exchange does not conduct a review process for Level 3, |
+|       | in the S&P 500 index                      |                      |                 | as it is assumed that the decline is due to significant |
+|       |                                           |                      |                 | market events.                                          |
 
-During the 15-second halt following a Level 1 or Level 2 halt, the NYSE will conduct a review of the trading data to ensure that the halt was triggered by legitimate market activity and not erroneous or manipulative trading. 
+During the 15-second halt following a Level 1 or Level 2 halt,
+the NYSE will conduct a review of the trading data to ensure
+that the halt was triggered by legitimate market activity and
+not erroneous or manipulative trading. 
+
 If the NYSE determines that the halt was triggered by legitimate market activity, trading will resume after the 15-second period. 
 If the NYSE determines that the halt was triggered by erroneous or manipulative activity, the affected trades may be canceled, or the trading halt may be extended.
 Sure, here is a summary table:
 
 * Multi-Day event for clearly erroneous trades.
 
-|----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Topic                                        | Summary                                                                                                                                               |
-|----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Multi-Day Event for Clearly Erroneous Trades | A period of time during which there have been significant errors in trades that have occurred over multiple trading days.                             |
-|                                              | FINRA may declare a multi-day event for clearly erroneous trades if it determines that there have been                                                |
-|                                              | widespread or systemic errors in the market that have resulted in trades being executed at prices that                                                |
-|                                              | are significantly different from the prevailing market prices.                                                                                        |
-|----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Example                                      | XYZ Corp was trading at around $50 per share, but due to a technical glitch, a large institutional investor buys 10,000 shares at $100 per share.     |
-|                                              | This leads to other traders buying at $80 per share, resulting in many trades at prices that deviated significantly from the prevailing market price. |
-|                                              | FINRA may declare a multi-day event for clearly erroneous trades in this situation.                                                                   |
-|----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rule for Declaration                         | If FINRA decides to cancel all transactions during the multi-day event for clearly erroneous trades,                                                  |
-|                                              | It must declare the event no later than the start of trading on Thursday.                                                                             |
-|                                              | This allows market participants to adjust their positions and trading strategies                                                                      |
-|                                              | based on the cancellation of any erroneous trades before the start of trading on Thursday.                                                            |
-|                                              | However, it is generally considered better practice to declare the event as early as possible                                                         |
-|                                              | to minimize market disruption and uncertainty.                                                                                                        |
-|----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------+-------------------------------------------------------------------------------------|
+| Topic                                        | Summary                                                                             |
+|----------------------------------------------+-------------------------------------------------------------------------------------|
+| Multi-Day Event for Clearly Erroneous Trades | A period of time during which there have been significant errors in trades          |
+|                                              | that have occurred over multiple trading days.                                      |
+|                                              | FINRA may declare a multi-day event for clearly erroneous trades if it              |
+|                                              | determines that there have been widespread or systemic errors in the market         |
+|                                              | that have resulted in trades being executed at prices that are significantly        |
+|                                              | different from the prevailing market prices.                                        |
+|----------------------------------------------+-------------------------------------------------------------------------------------|
+| Example                                      | XYZ Corp was trading at around $50 per share, but due to a technical glitch,        |
+|                                              | a large institutional investor buys 10,000 shares at $100 per share.                |
+|                                              | This leads to other traders buying at $80 per share, resulting in many trades       |
+|                                              | at prices that deviated significantly from the prevailing market price.             |
+|                                              | FINRA may declare a multi-day event for clearly erroneous trades in this situation. |
+|----------------------------------------------+-------------------------------------------------------------------------------------|
+| Rule for Declaration                         | If FINRA decides to cancel all transactions during the multi-day event for clearly  |
+|                                              | erroneous trades, It must declare the event no later than the start of trading on   |
+|                                              | Thursday. This allows market participants to adjust their positions and trading     |
+|                                              | strategies based on the cancellation of any erroneous trades before the start of    |
+|                                              | trading on Thursday. However, it is generally considered better practice to declare |
+|                                              | the event as early as possible to minimize market disruption and uncertainty.       |
+|----------------------------------------------+-------------------------------------------------------------------------------------|
 
 * Table that includes the order type, symbol, condition, side, and an example representation for each order type and side:
 
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Side | Symbol | Order Type               | Condition                                               | Representation                                                              |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-|      |        |                          |                                                         |                                                                             |
-| Buy  | LMT    | Buy limit order          | At or below a specified price                           | LMT Buy 600 shares at $85 or lower                                          |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Sell | LMT    | Sell limit order         | At or above a specified price                           | LMT Sell 600 shares at $85 or higher                                        |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Buy  | STP    | Buy stop order           | At or below a specified price                           | STP Buy 600 shares at $85 or lower                                          |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Sell | STP    | Sell stop order          | At or above a specified price                           | STP Sell 600 shares at $85 or higher                                        |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Both | FOK    | Fill or Kill (FOK)       | Entire order must be filled immediately or canceled     | - LMT Buy 600 shares at $85 or lower                                        |
-|      |        |                          |                                                         | - LMT Sell 600 shares at $85 or higher                                      |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Both | AON    | All or None (AON)        | Entire order must be filled in its entirety or canceled | - LMT Buy 600 shares at $85 or lower                                        |
-|      |        |                          |                                                         | - LMT Sell 600 shares at $85 or higher                                      |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Both | GTC    | Good 'Til Canceled (GTC) | Order remains active until filled or canceled           | - STP Buy 600 shares at $85 or lower                                        |
-|      |        |                          |                                                         | - STP Sell 600 shares at $85 or higher                                      |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
-| Both | OCO    | One Cancels Other (OCO)  | Two orders are placed simultaneously,                   | - STP Buy 600 shares at $85 or lower; LMT Buy 600 shares at $90 or higher   |
-|      |        |                          | and when one is filled the other is canceled            | - STP Sell 600 shares at $85 or higher; LMT Sell 600 shares at $80 or lower |
-|------+--------+--------------------------+---------------------------------------------------------+-----------------------------------------------------------------------------|
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Side | Symbol | Order Type               | Condition                             | Representation                                                              |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+|      |        |                          |                                       |                                                                             |
+| Buy  | LMT    | Buy limit order          | At or below a specified price         | LMT Buy 600 shares at $85 or lower                                          |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Sell | LMT    | Sell limit order         | At or above a specified price         | LMT Sell 600 shares at $85 or higher                                        |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Buy  | STP    | Buy stop order           | At or below a specified price         | STP Buy 600 shares at $85 or lower                                          |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Sell | STP    | Sell stop order          | At or above a specified price         | STP Sell 600 shares at $85 or higher                                        |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Both | FOK    | Fill or Kill (FOK)       | Entire order must be filled           | - LMT Buy 600 shares at $85 or lower                                        |
+|      |        |                          | immediately or canceled               | - LMT Sell 600 shares at $85 or higher                                      |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Both | AON    | All or None (AON)        | Entire order must be filled           | - LMT Buy 600 shares at $85 or lower                                        |
+|      |        |                          | in its entirety or canceled           | - LMT Sell 600 shares at $85 or higher                                      |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Both | GTC    | Good 'Til Canceled (GTC) | Order remains active until            | - STP Buy 600 shares at $85 or lower                                        |
+|      |        |                          | filled or canceled                    | - STP Sell 600 shares at $85 or higher                                      |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
+| Both | OCO    | One Cancels Other (OCO)  | Two orders are placed simultaneously, | - STP Buy 600 shares at $85 or lower; LMT Buy 600 shares at $90 or higher   |
+|      |        |                          | and when one is filled the            | - STP Sell 600 shares at $85 or higher; LMT Sell 600 shares at $80 or lower |
+|      |        |                          | other is canceled                     |                                                                             |
+|------+--------+--------------------------+---------------------------------------+-----------------------------------------------------------------------------|
 
 * OrderTypes
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Order Type          | Description                                 | Can be    | Can be              | Duration           | Buy Side                                       | Sell Side Behavior                            |
-|                     |                                             | Partially | Canceled?           |                    | Behavior                                       |                                               |
-|                     |                                             | Filled?   |                     |                    |                                                |                                               |
-|                     |                                             |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Market Order        | An order to buy or sell a security          | Yes       | No                  | Day                | Will be filled at the best available price     | Will be filled at the best available price    |
-| (MO)                | at the best available price in the          |           |                     |                    | at the time of execution.                      | at the time of execution.                     |
-|                     | market at the time the Order is executed.   |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Limit Order         | An order to buy or sell a security          | Yes       | Yes,                | Day or             | Will be filled at the specified                | Will be filled at the specified               |
-| (LMT)               | at a specified price or better.             |           | before execution    | Good 'til Canceled | limit price or better.                         | limit price or better. If the                 |
-|                     | The order is executed at the specified      |           |                     | (GTC)              | If the limit price is not available            | limit price is not available in the market,   |
-|                     | price or better, but only if the price      |           |                     |                    | in the market, the Order will not be executed. | the Order will not be executed.               |
-|                     | is available in the market.                 |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Stop Order          | An order to buy or sell a security at       | No        | Yes,                | Day                | Will be triggered to execute at                | Will be triggered to execute at the           |
-| (STP)               | the market price, but only when the         |           | before execution    | or                 | the market price once the                      | market price once the stop price is reached.  |
-|                     | price of the security reaches a             |           |                     | GTC                | stop price is reached.                         |                                               |
-|                     | specified stop price. The order is          |           |                     |                    |                                                |                                               |
-|                     | designed to limit an investor's             |           |                     |                    |                                                |                                               |
-|                     | potential losses or to protect profits      |           |                     |                    |                                                |                                               |
-|                     | on a long or short position.                |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-|                     |                                             |           |                     |                    |                                                |                                               |
-| Stop Limit Order    | An order to buy or sell a security          | No        | Yes,                | Day                | Will be triggered to execute                   | Will be triggered to execute                  |
-| (SL)                | at a specified price or better,             |           | before execution    | or                 | at the specified limit price or                | at the specified limit price or               |
-|                     | but only when the security reaches          |           |                     | GTC                | better once the stop price is reached.         | better once the stop price is reached.        |
-|                     | a specified stop price.                     |           |                     |                    | If the limit price is not available            | If the limit price is not available           |
-|                     | The order is designed to limit              |           |                     |                    | in the market, the order will not be           | in the market, the order will not be          |
-|                     | an investor's potential losses or           |           |                     |                    | executed.                                      | executed.                                     |
-|                     | to protect profits on a long or             |           |                     |                    |                                                |                                               |
-|                     | short position, while also providing        |           |                     |                    |                                                |                                               |
-|                     | Price control over the execution.           |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Fill or Kill        | An order that must be                        | No        | Yes,                | Day                | Will be executed immediately and completely    | Will be executed immediately and completely    |
-| (FOK) Order         | immediately and completely filled, or       |           | if not executed     |                    | if the entire order can be filled at once.     | if the entire Order can be filled at once.    |
-|                     | not filled at all.                          |           |                     |                    | Otherwise,                                     | Otherwise,                                    |
-|                     | This order type is typically used for       |           |                     |                    | the order will not be executed at all and      | the order will not be executed at all and     |
-|                     | large, time-sensitive orders.               |           |                     |                    | will be canceled.                              | will be canceled.                             |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| All  or None        | An order that must be executed              | No        | Yes,                | Day                | Will not be executed unless                    | Will not be executed unless                   |
-| (AON) Order         | in its entirety, or                         |           | if not executed     | or                 | the entire order can be filled at once.        | The entire Order can be filled at once.       |
-|                     | not executed at all.                        |           |                     | GTC                | If the entire Order cannot be filled at once,  | If the entire Order cannot be filled at once, |
-|                     | This order type is typically used           |           |                     |                    | the order will                                 | the order will not be executed at all and     |
-|                     | for orders requiring a specific             |           |                     |                    | not be executed at all and will be canceled.   | will be canceled.                             |
-|                     | quantity or price.                          |           |                     |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Good 'til Canceled  | An order that remains in effect until it is | Yes       | Yes,                | GTC                | Will remain active until it is filled,         | Will remain active until it is filled,        |
-| (GTC) Order         | either executed or canceled. The order will |           | until expiration    |                    | manually canceled by the investor,             | manually canceled by the investor,            |
-|                     | remain active until it is filled, manually  |           | or                  |                    | or it expires.                                 | or it expires.                                |
-|                     | canceled by the investor, or it expires.    |           | execution           |                    |                                                |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| Immediate or Cancel | An order to buy or sell a security          | No        | Yes,                | Day                | Will be executed immediately and completely    | Will be executed immediately and completely   |
-| (IOC) Order         | that must be executed immediately and       |           | only                |                    | if the entire order can be filled at once.     | if the entire Order can be filled at once.    |
-|                     | in its entirety, or canceled.               |           | immediate execution |                    | Otherwise,                                     | Otherwise,                                    |
-|                     |                                             |           | or                  |                    | any portion of the order that can be filled    | any portion of the order that can be          |
-|                     |                                             |           | cancellation        |                    | immediately will be filled, and the remaining  | filled immediately will be filled,            |
-|                     |                                             |           |                     |                    | portion will be canceled.                      |                                               |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
-| One Cancels Other   | An order that includes two or more orders,  | Yes       | Yes,                | Day                | Will include both a buy and a sell order.      | Will include both a buy and a sell order.     |
-| (OCO) Order         | typically a limit order and a stop order,   |           | before execution    | or                 | If the limit order is executed,                | If the limit order is executed,               |
-|                     | where the execution of one order cancels    |           |                     | GTC                | the stop order will be canceled.               | the stop order will be canceled.              |
-|                     | the other Order. This order type is         |           |                     |                    | If the stop order is executed,                 | If the stop order is executed,                |
-|                     | typically used for managing risk and        |           |                     |                    | the limit order will be canceled.              | The limit order will be canceled.             |
-|                     | protecting profits.                         |           |                     |                    |                                                | Example:                                      |
-|                     |                                             |           |                     |                    |                                                | STP Buy 600 shares at $85 or lower;           |
-|                     |                                             |           |                     |                    |                                                | LMT Buy 600 shares at $90 or higher           |
-|---------------------+---------------------------------------------+-----------+---------------------+--------------------+------------------------------------------------+-----------------------------------------------|
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Order Type          | Description                    | Can be    | Can be       | Duration | Buy Side                          | Sell Side Behavior                  |
+|                     |                                | Partially | Canceled?    |          | Behavior                          |                                     |
+|                     |                                | Filled?   |              |          |                                   |                                     |
+|                     |                                |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Market Order        | An order to buy or sell        | Yes       | No           | Day      | Will be filled at the best        | Will be filled at the               |
+| (MO)                | a security at the best         |           |              |          | available price at the time       | best available price                |
+|                     | available price in the         |           |              |          | of execution.                     | at the time of execution.           |
+|                     | market at the time the         |           |              |          |                                   |                                     |
+|                     | Order is executed.             |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Limit Order         | An order to buy or sell        | Yes       | Yes,         | Day or   | Will be filled at the             | Will be filled at the               |
+| (LMT)               | a security at a specified      |           | before       | Good     | specified limit price or          | specified limit price or            |
+|                     | price or better. The order     |           | execution    | 'til     | better. If the limit price        | better. If the limit price          |
+|                     | is executed at the             |           |              | Canceled | is not available in the market,   | is not available in the             |
+|                     | specified price or better,     |           |              | (GTC)    | the Order will not be executed.   | market, the Order will not          |
+|                     | but only if the price is       |           |              |          |                                   | be executed.                        |
+|                     | available in the market.       |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Stop Order          | An order to buy or sell        | No        | Yes,         | Day      | Will be triggered to execute at   | Will be triggered to                |
+| (STP)               | a security at the market       |           | before       | or       | the market price once the         | execute at the market               |
+|                     | price, but only when the       |           | execution    | GTC      | stop price is reached.            | price once the stop                 |
+|                     | price of the security          |           |              |          |                                   | price is reached.                   |
+|                     | reaches a specified stop       |           |              |          |                                   |                                     |
+|                     | price. The order is            |           |              |          |                                   |                                     |
+|                     | designed to limit an           |           |              |          |                                   |                                     |
+|                     | investor's potential           |           |              |          |                                   |                                     |
+|                     | losses or to protect           |           |              |          |                                   |                                     |
+|                     | profits on a long or           |           |              |          |                                   |                                     |
+|                     | short position.                |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+|                     |                                |           |              |          |                                   |                                     |
+| Stop Limit Order    | An order to buy or sell        | No        | Yes,         | Day      | Will be triggered to execute      | Will be triggered to                |
+| (SL)                | a security at a specified      |           | before       | or       | at the specified limit price      | execute at the specified            |
+|                     | price or better, but only      |           | execution    | GTC      | or better once the stop price     | limit price or better once          |
+|                     | when the security reaches      |           |              |          | is reached. If the limit price    | the stop price is reached.          |
+|                     | a specified stop price.        |           |              |          | is not available in the market,   | If the limit price is not           |
+|                     | The order is designed to       |           |              |          | the order will not be executed.   | available in the market,            |
+|                     | limit an investor's            |           |              |          |                                   | the order will not be               |
+|                     | potential losses or to         |           |              |          |                                   | executed.                           |
+|                     | protect profits on a long      |           |              |          |                                   |                                     |
+|                     | or short position, while       |           |              |          |                                   |                                     |
+|                     | also providing Price           |           |              |          |                                   |                                     |
+|                     | control over the               |           |              |          |                                   |                                     |
+|                     | execution.                     |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Fill or Kill        | An order that must be          | No        | Yes,         | Day      | Will be executed immediately and  | Will be executed immediately        |
+| (FOK) Order         | immediately and completely     |           | if           |          | completely if the entire order    | and completely if the entire        |
+|                     | filled, or not filled at       |           | not          |          | can be filled at once. Otherwise, | Order can be filled at once.        |
+|                     | all. This order type is        |           | executed     |          | the order will not be executed    | Otherwise, the order will           |
+|                     | typically used for large,      |           |              |          | at all and will be canceled.      | not be executed at all and          |
+|                     | time-sensitive orders.         |           |              |          |                                   | will be canceled.                   |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| All  or None        | An order that must be          | No        | Yes,         | Day      | Will not be executed unless       | Will not be executed unless         |
+| (AON) Order         | executed in its entirety,      |           | if           | or       | the entire order can be filled    | The entire Order can be             |
+|                     | or not executed at all.        |           | not          | GTC      | at once. If the entire Order      | filled at once. If the              |
+|                     | This order type is             |           | executed     |          | cannot be filled at once, the     | entire Order cannot be              |
+|                     | typically used for orders      |           |              |          | order will not be executed at     | filled at once, the order           |
+|                     | requiring a specific           |           |              |          | all and will be canceled.         | will not be executed at all         |
+|                     | quantity or price.             |           |              |          |                                   | and will be canceled.               |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Good 'til Canceled  | An order that remains in       | Yes       | Yes,         | GTC      | Will remain active until it is    | Will remain active until it         |
+| (GTC) Order         | effect until it is either      |           | until        |          | filled, manually canceled by the  | is filled, manually canceled        |
+|                     | executed or canceled.          |           | expiration   |          | investor, or it expires.          | by the investor, or it              |
+|                     | The order will remain          |           | or           |          |                                   | expires.                            |
+|                     | active until it is filled,     |           | execution    |          |                                   |                                     |
+|                     | manually canceled by the       |           |              |          |                                   |                                     |
+|                     | investor, or it expires.       |           |              |          |                                   |                                     |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| Immediate or Cancel | An order to buy or sell        | No        | Yes,         | Day      | Will be executed immediately and  | Will be executed immediately        |
+| (IOC) Order         | a security that must be        |           | only         |          | completely if the entire order    | and completely if the entire        |
+|                     | executed immediately and       |           | immediate    |          | can be filled at once. Otherwise, | Order can be filled at once.        |
+|                     | in its entirety,               |           | execution or |          | any portion of the order that can | Otherwise, any portion of           |
+|                     | or canceled.                   |           | cancellation |          | be filled immediately will be     | the order that can be               |
+|                     |                                |           |              |          | filled, and the remaining portion | filled immediately will be          |
+|                     |                                |           |              |          | will be canceled.                 | filled,                             |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
+| One Cancels Other   | An order that includes two     | Yes       | Yes,         | Day      | Will include both a buy and a     | Will include both a buy and         |
+| (OCO) Order         | or more orders, typically a    |           | before       | or       | sell order. If the limit order    | a sell order. If the limit          |
+|                     | limit order and a stop order,  |           | execution    | GTC      | is executed, the stop order will  | order is executed, the stop         |
+|                     | where the execution of one     |           |              |          | be canceled. If the stop order    | order will be canceled.             |
+|                     | order cancels the other Order. |           |              |          | is executed, the limit order will | If the stop order is                |
+|                     | This order type is typically   |           |              |          | be canceled.                      | executed, The limit order           |
+|                     | used for managing risk and     |           |              |          |                                   | will be canceled.                   |
+|                     | protecting profits.            |           |              |          |                                   | Example:                            |
+|                     |                                |           |              |          |                                   | STP Buy 600 shares at $85 or lower; |
+|                     |                                |           |              |          |                                   | LMT Buy 600 shares at $90 or higher |
+|---------------------+--------------------------------+-----------+--------------+----------+-----------------------------------+-------------------------------------|
 * The key differences between FOK and AON order types are presented in a tabular format:
 
-|-------------------+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------|
-| Feature           | FOK (Fill or Kill)                                                             | AON (All or None)                                                                                   |
-|-------------------+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------|
-| Definition        | An order that must be executed immediately and in its entirety or be canceled. | An order that must be executed in its entirety or not at all, but without any time constraint.      |
-| Time Constraint   | Immediate execution is required.                                               | No specific time constraint for execution.                                                          |
-| Partial Execution | Not allowed. The Order must be filled in its entirety or be canceled.          | Not allowed. The Order must be filled in its entirety or not executed at all.                       |
-| Duration          | Typically canceled within seconds if not filled.                               | Can remain open until the Order is filled, canceled, or expires.                                    |
-| Purpose           | To execute a large order quickly without the risk of partial fills.            | To ensure that the entire Order is executed at once without multiple transactions or partial fills. |
-| Order Type        | Can be a limit or market order.                                                | Can be a limit or market order.                                                                     |
-| Liquidity Impact  | May increase price volatility due to its immediacy.                            | May have less impact on price volatility since there is no time constraint.                         |
-|-------------------+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------|
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Feature           | FOK (Fill or Kill)                                  | AON (All or None)                                                                    |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Definition        | An order that must be executed immediately          | An order that must be executed in its entirety or                                    |
+|                   | and in its entirety or be canceled.                 | not at all, but without any time constraint.                                         |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Time Constraint   | Immediate execution is required.                    | No specific time constraint for execution.                                           |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Partial Execution | Not allowed. The Order must be filled in its        | Not allowed. The Order must be filled in its entirety or not executed at all.        |
+|                   | entirety or be canceled.                            |                                                                                      |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Duration          | Typically canceled within seconds if not filled.    | Can remain open until the Order is filled, canceled, or expires.                     |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Purpose           | To execute a large order quickly without the        | To ensure that the entire Order is executed at once without multiple transactions or |
+|                   | risk of partial fills.                              | partial fills.                                                                       |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Order Type        | Can be a limit or market order.                     | Can be a limit or market order.                                                      |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Liquidity Impact  | May increase price volatility due to its immediacy. | May have less impact on price volatility since there is no time constraint.          |
+|-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------|
 
 
 * Comparison of order types that allow cancellation:
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-| Order Type                      | Can Be Canceled?                             | Description                                                                                                           |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-|                                 |                                              |                                                                                                                       |
-| Limit Order                     | Yes, before execution                        | An order to buy or sell a security at a specified price or better.                                                    |
-|                                 |                                              | The Order is executed at the specified price or better, but only if the price is available in the market.             |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-| Stop Order                      | Yes, before execution                        | An order to buy or sell a security at the market price,                                                               |
-|                                 |                                              | but only when the price of the security reaches a specified stop price.                                               |
-|                                 |                                              | The Order is designed to limit an investor's potential losses or to protect profits on a long or short position.      |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-| Stop Limit Order                | Yes, before execution                        | An order to buy or sell a security at a specified price or better,                                                    |
-|                                 |                                              | but only when the security reaches a specified stop price.                                                            |
-|                                 |                                              | The Order is designed to limit an investor's potential losses or to protect profits on a long or short position,      |
-|                                 |                                              | while also providing price control over the execution.                                                                |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-| Good 'til Canceled (GTC) Order  | Yes, until expiration or execution           | An order that remains in effect until it is either executed or canceled.                                              |
-|                                 |                                              | The Order will remain active until it is filled, manually canceled by the investor, or it expires.                    |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
-| Immediate or Cancel (IOC) Order | No, only immediate execution or cancellation | An order to buy or sell a security that must be executed immediately and in its entirety or canceled.                |
-|                                 |                                              | It's important to note that while some order types allow for cancellation,                                            |
-|                                 |                                              | There may be restrictions on when and how the cancellation can occur.                                                 |
-|                                 |                                              | For example, a limit order can be canceled before it is executed,                                                     |
-|                                 |                                              | but once it is executed, it cannot be canceled.                                                                       |
-|                                 |                                              | Additionally, there may be fees or penalties associated with canceling an order, depending on the Broker or exchange. |
-|                                 |                                              | It's always a good idea to carefully review the terms and conditions of each order type before placing an order,      |
-|                                 |                                              | and to consult with a financial professional if you have any questions or concerns.                                   |
-|---------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------------|
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+| Order Type                      | Can Be Canceled?                             | Description                                                                         |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+|                                 |                                              |                                                                                     |
+| Limit Order                     | Yes, before execution                        | An order to buy or sell a security at a specified price or better.                  |
+|                                 |                                              | The Order is executed at the specified price or better,                             |
+|                                 |                                              | but only if the price is available in the market.                                   |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+| Stop Order                      | Yes, before execution                        | An order to buy or sell a security at the market price,                             |
+|                                 |                                              | but only when the price of the security reaches a specified stop price.             |
+|                                 |                                              | The Order is designed to limit an investor's potential losses or                    |
+|                                 |                                              | to protect profits on a long or short position.                                     |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+| Stop Limit Order                | Yes, before execution                        | An order to buy or sell a security at a specified price or better,                  |
+|                                 |                                              | but only when the security reaches a specified stop price.                          |
+|                                 |                                              | The Order is designed to limit an investor's potential losses or                    |
+|                                 |                                              | to protect profits on a long or short position, while also providing                |
+|                                 |                                              | price control over the execution.                                                   |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+| Good 'til Canceled (GTC) Order  | Yes, until expiration or execution           | An order that remains in effect until it is either executed or canceled.            |
+|                                 |                                              | The Order will remain active until it is filled, manually canceled by the investor, |
+|                                 |                                              | or it expires.                                                                      |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
+| Immediate or Cancel (IOC) Order | No, only immediate execution or cancellation | An order to buy or sell a security that must be executed immediately and            |
+|                                 |                                              | in its entirety or canceled. It's important to note that while some order types     |
+|                                 |                                              | allow for cancellation, There may be restrictions on when and how the cancellation  |
+|                                 |                                              | can occur. For example, a limit order can be canceled before it is executed,        |
+|                                 |                                              | but once it is executed, it cannot be canceled.                                     |
+|                                 |                                              | Additionally, there may be fees or penalties associated with canceling an order,    |
+|                                 |                                              | depending on the Broker or exchange. It's always a good idea to carefully review    |
+|                                 |                                              | the terms and conditions of each order type before placing an order, and to consult |
+|                                 |                                              | with a financial professional if you have any questions or concerns.                |
+|---------------------------------+----------------------------------------------+-------------------------------------------------------------------------------------|
 
 
 |---------------------+------+----------+----------+-----------+---------------+--------------------------------------------------------------------------------------------------------------------------------|
@@ -609,44 +657,41 @@ No halt
 
 
 
-
-
-
-Please create a file logger in Python that reads the JSON file's logging configuration.
-
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Order Type          | Side | OrderQty | Price | StopPx | TimeInForce | Description.                                                                                                            |
-|                     |      |          |       |        |             |                                                                                                                         |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Market Order        | Buy  |      100 |       |        |           0 | This message represents a buy market order for 100 shares of "XYZ",                                                     |
-| (MKT)               |      |          |       |        |             | which will be executed at the current market price.                                                                     |
-|                     |      |          |       |        |             | The OrdType field is set to 1 to denote a market order.                                                                 |
-|                     |      |          |       |        |             | The Price field is not included in the message since the order                                                          |
-|                     |      |          |       |        |             | will be executed at the current market price.                                                                           |
-|                     |      |          |       |        |             | The TimeInForce field is set to 0 to indicate that the order                                                            |
-|                     |      |          |       |        |             | will remain open until it is either filled or canceled.                                                                 |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Limit Order         | Buy  |      100 |    85 |        |           0 | This message represents a buy limit order for 100 shares of "XYZ" at or below a limit price of 85,                      |
-| (LMT)               |      |          |       |        |             | which will remain open until it is either filled or canceled.                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Stop Order          | Sell |      100 |     0 |     75 |           0 | This message represents a sell stop order for 100 shares of "XYZ" at or below a stop price of 75,                       |
-| (STP)               |      |          |       |        |             | which will remain open until it is either filled or canceled.                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Stop Limit Order    | Buy  |      100 |    85 |     75 |           0 | This message represents a buy stop limit order for 100 shares of "XYZ" with a stop price of 75 and a limit price of 85, |
-| (STP LMT)           |      |          |       |        |             | which will remain open until it is either filled or canceled.                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Immediate or Cancel | Buy  |      100 |    85 |        |           3 | This message represents a buy limit order for 100 shares of "XYZ" at or below a limit price of 85,                      |
-| (IOC) Order         |      |          |       |        |             | which must be filled immediately or canceled.                                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Fill or Kill        | Sell |      100 |    75 |        |           4 | This message represents a sell limit order for 100 shares of "XYZ" at or above a limit price of 75,                     |
-| (FOK) Order         |      |          |       |        |             | which must be filled immediately and completely, or canceled.                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| Good Till Cancelled | Sell |      100 |    75 |        |           1 | This message represents a sell limit order for 100 shares of "XYZ" at or above a limit price of 75,                     |
-| (GTC) Order         |      |          |       |        |             | which will remain open until it is either filled or canceled.                                                           |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
-| All or None         | Buy  |      100 |    85 |        |           0 | This message represents a buy limit order for 100 shares of "XYZ" at or below a limit price of 85,                      |
-| (AON) Order         |      |          |       |        |             |                                                                                                                         |
-|---------------------+------+----------+-------+--------+-------------+-------------------------------------------------------------------------------------------------------------------------|
+* Order Types with examples
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Order Type          | Side | OrderQty | Price | StopPx | TimeInForce | Description.                                                                                   |
+|                     |      |          |       |        |             |                                                                                                |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Market Order        | Buy  |      100 |       |        |           0 | This message represents a buy market order for 100 shares of "XYZ",                            |
+| (MKT)               |      |          |       |        |             | which will be executed at the current market price.                                            |
+|                     |      |          |       |        |             | The OrdType field is set to 1 to denote a market order.                                        |
+|                     |      |          |       |        |             | The Price field is not included in the message since the order                                 |
+|                     |      |          |       |        |             | will be executed at the current market price.                                                  |
+|                     |      |          |       |        |             | The TimeInForce field is set to 0 to indicate that the order                                   |
+|                     |      |          |       |        |             | will remain open until it is either filled or canceled.                                        |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Limit Order         | Buy  |      100 |    85 |        |           0 | This message represents a buy limit order for 100 shares of "XYZ"                              |
+| (LMT)               |      |          |       |        |             | at or below a limit price of 85, which will remain open until it is either filled or canceled. |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Stop Order          | Sell |      100 |     0 |     75 |           0 | This message represents a sell stop order for 100 shares of "XYZ"                              |
+| (STP)               |      |          |       |        |             | at or below a stop price of 75, which will remain open until it is either filled or canceled.  |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Stop Limit Order    | Buy  |      100 |    85 |     75 |           0 | This message represents a buy stop limit order for 100 shares of "XYZ"                         |
+| (STP LMT)           |      |          |       |        |             | with a stop price of 75 and a limit price of 85, which will remain open until                  |
+|                     |      |          |       |        |             | it is either filled or canceled.                                                               |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Immediate or Cancel | Buy  |      100 |    85 |        |           3 | This message represents a buy limit order for 100 shares of "XYZ"                              |
+| (IOC) Order         |      |          |       |        |             | at or below a limit price of 85, which must be filled immediately or canceled.                 |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Fill or Kill        | Sell |      100 |    75 |        |           4 | This message represents a sell limit order for 100 shares of "XYZ"                             |
+| (FOK) Order         |      |          |       |        |             | at or above a limit price of 75, which must be filled immediately and completely, or canceled. |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| Good Till Cancelled | Sell |      100 |    75 |        |           1 | This message represents a sell limit order for 100 shares of "XYZ"                             |
+| (GTC) Order         |      |          |       |        |             | at or above a limit price of 75, which will remain open until it is either filled or canceled. |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
+| All or None         | Buy  |      100 |    85 |        |           0 | This message represents a buy limit order for 100 shares of "XYZ"                              |
+| (AON) Order         |      |          |       |        |             | at or below a limit price of 85,                                                               |
+|---------------------+------+----------+-------+--------+-------------+------------------------------------------------------------------------------------------------|
 
 | One Cancels Other | MsgType   = NewOrderList   | ListID  = 123    | ListSeqNo = 1 | ListNoOrds = 2    |                |            |             |                 | This message represents a One Cancels Other (OCO) order,                   |
 | (OCO) Order       | MsgType   = NewOrderSingle | ClOrdID = order1 | Side = Buy    | OrdType = LMT     | OrderQty = 100 | Price = 85 |             | TimeInForce = 0 | which is a combination of two separate orders.                             |
@@ -658,25 +703,488 @@ Please create a file logger in Python that reads the JSON file's logging configu
 |-------------------+----------------------------+------------------+---------------+-------------------+----------------+------------+-------------+-----------------+----------------------------------------------------------------------------|
 
 
+* A table outlining the main points of the Firm Quote Rule (FQR)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| FQR Rule Point              | Description                                                  | Exceptions                                                             |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Minimum Size Requirement    | Market makers and specialists must provide firm quotes       |                                                                        |
+|                             | that meet certain minimum size requirements,                 | Market makers may provide smaller quotes in certain circumstances.     |
+|                             | which are typically set by the relevant regulatory body.     |                                                                        |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Timely Quote Updates        | If a trade occurs at a price that is equal to or better      |                                                                        |
+|                             | than the displayed quote, the market maker or specialist     | Market makers may be unable to update their quotes in a timely manner. |
+|                             | must update their quote in a timely manner to reflect the    |                                                                        |
+|                             | new market conditions.                                       |                                                                        |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Display Obligation          | Market makers and specialists must maintain accurate and     | 1. Executed upon receipt of the order.                                 |
+|                             | up-to-date quotes on any security or asset that they are     | 2. Customer request not to display.                                    |
+|                             | responsible for, and must display these quotes to the market | 3. Odd-lot order.                                                      |
+|                             | for execution.                                               | 4. Block size order.                                                   |
+|                             |                                                              | 5. Delivered immediately to an exchange or ECN.                        |
+|                             |                                                              | 6. Delivered immediately to another OTC Market Maker                   |
+|                             |                                                              | that displays the order.                                               |
+|                             |                                                              | 7. All-or-none order There may be additional circumstances             |
+|                             |                                                              | where a market maker is not required to display a customer             |
+|                             |                                                              | limit order.                                                           |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Quote Continuity Obligation | Market makers and specialists are generally required to      |                                                                        |
+|                             | provide continuous quotes throughout the trading day,        | There may be exceptions to the requirement for continuous quotes.      |
+|                             | unless certain conditions are met (such as a trading halt).  |                                                                        |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Compliance Monitoring       | Market makers and specialists must be able to demonstrate    |                                                                        |
+|                             | that they are in compliance with the FQR and                 | There may be specific circumstances where a market maker's             |
+|                             | other relevant securities regulations,                       | supervisory controls are deemed sufficient.                            |
+|                             | and may be subject to monitoring and enforcement actions     |                                                                        |
+|                             | by the relevant regulatory body.                             |                                                                        |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
+| Public Quotation Display    | Market makers must publicly display their best bids and      |                                                                        |
+| and Best Offer Obligation   | offers for certain securities, known as National Market      |                                                                        |
+|                             | System (NMS) securities.                                     |                                                                        |
+|                             |                                                              |                                                                        |
+|-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
     
+* SEC Regulation M Rule 104:
+
+|---------------------------------+---------------------------------------------------------------------------------------------------------------------|
+| Regulation M Rule 104           | Description                                                                                                         |
+|---------------------------------+---------------------------------------------------------------------------------------------------------------------|
+| Stabilizing bid                 | A bid entered by an underwriter to support the price of a new issue in the aftermarket.                             |
+| Highest current independent bid | The highest bid for the security in the principal market that is not entered by an underwriter or syndicate member. |
+| Principal market                | The market with the largest aggregate trading volume for the security during the most recent 60 calendar days.      |
+| Previous close                  | The price at which the security last traded when the principal market closed on the previous trading day.           |
+| Maximum stabilizing bid price   | The highest price at which a stabilizing bid can be entered is                                                      |
+|                                 | if the principal market is open then                                                                                |
+|                                 | ....the lower of the highest current independent bid for the security in the principal market                       |
+|                                 | else if the principal market is closed,                                                                             |
+|                                 | ....to a price no higher than the highest independent bid in the principal market at the previous close thereof.    |
+|---------------------------------+---------------------------------------------------------------------------------------------------------------------|
+
+
+* Summary of SEC Regulation M Rule 104:
+|------------------------------------+---------------------------------------------------------------------------------------------------------------------|
+| Regulation M Rule 104              | Description                                                                                                         |
+|------------------------------------+---------------------------------------------------------------------------------------------------------------------|
+| Stabilizing bid                    | A bid entered by an underwriter to support the price of a new issue in the aftermarket.                             |
+| Last independent transaction price | The price at which the most recent trade occurred that was not entered by an underwriter or syndicate member.       |
+| Highest current independent bid    | The highest bid for the security in the principal market that is not entered by an underwriter or syndicate member. |
+| Best asked price                   | The lowest price at which a seller is willing to sell a security.                                                   |
+| Maximum stabilizing bid price      | If the current best asked price is greater than or equal to the last independent transaction/sale price,            |
+|                                    | ....stabilization can occur at that last independent transaction price.                                             |
+|                                    | If the current best asked price is less than the last sale,                                                         |
+|                                    | ....stabilization can occur at the highest current independent bid.                                                 |
+|------------------------------------+---------------------------------------------------------------------------------------------------------------------|
+
+
+* A covered nonpublic (i.e., private) company is one that meets any _one_ of three conditions:
+
+|----+--------------------------+-----------------------------------------------------------------------|
+| 1. | Income                   | of at least $1 million in the last fiscal year, or in two of the last |
+|    |                          | three fiscal years, and shareholders’ equity of at least $15 million  |
+| 2. | Shareholders’ equity     | of at least $30 million and a two-year operating                      |
+|    |                          | history, or                                                           |
+| 3. | Total assets and revenue | of at least $75 million in the latest fiscal year, or                 |
+|    |                          | in two of the last three fiscal years                                 |
+|----+--------------------------+-----------------------------------------------------------------------|
+
+
+* Spinning 
+
+
+       Investment Bank (XYZ Bank)
+          |
+          |                   Corporate Client (Company A)
+  Executives or top clients   |
+   of Company A               |     Initial Public Offering (IPO)
+          |                   |
+          V                   V
+   Allocation of IPO shares   Public Market
+        to executives         (Shares available to the public)
+
+* Table summarizing the information relevant to determining if a private firm is involved in spinning:
+
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
+| Criteria                    | Description                                                                                                                 |
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
+| Allocation Practices        | Evaluate the firm's history of allocating highly sought-after IPO shares to executives or top clients of corporate clients  |
+| Conflicts of Interest       | Assess any potential financial or personal relationships that could compromise the fairness and transparency of allocations |
+| Compliance with Regulations | Determine if the firm adheres to applicable regulations governing the allocation of IPO shares and potential conflicts      |
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
+
+       `
+In the context of short selling, an "open-fail position" occurs when a short seller is unable to deliver the securities they have contracted to sell by the settlement date. This can happen if the short seller cannot locate the securities to borrow or if there is a problem with the delivery process.
+
+* Summary of the different types of short sale positions:
+|-----------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Short Sale Position   | Description                                                                                                                |
+|-----------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Open short position   | The short seller has sold securities they have borrowed and has not yet closed the position by buying back the securities. |
+| Closed short position | The short seller has bought back the securities they borrowed and has closed the position.                                 |
+| Open-long position    | The investor has bought securities and has not yet sold them.                                                              |
+| Closed-long position  | The investor has sold the securities they bought and has closed the position.                                              |
+| Open-fail position    | The short seller has failed to deliver the securities they contracted to sell by the settlement date.                      |
+|-----------------------+----------------------------------------------------------------------------------------------------------------------------|
+
+
+* State diagram illustrating the positions and transitions:
+
+An *Open-Short* Position can transition to a *Closed-Short* Position when the short position is closed.
+A *Closed-Short* Position can transition to an *Open-Fail* Position if the delivery of securities fails.
+An *Open-Fail* Position can transition back to a *Closed-Short* Position if the failure to deliver is resolved or closed.
+
+** Detailed
+
+*** Simple
+              +------------------+
+              |   Open Short     |
+              +------------------+
+                      | Close
+                      v
+              +------------------+
+              |  Closed Short    |
+              +------------------+
+
+              +------------------+
+              |   Open Long      |
+              +------------------+
+                      | Close
+                      v
+              +------------------+
+              |  Closed Long     |
+              +------------------+
+
+              +------------------+
+              |    Open Fail     |
+              +------------------+
+                      | Close
+                      v
+              +------------------+
+              |  Closed Short    |
+              +------------------+
+*** Transition
+              +------------------+
+               |   Open Short     |
+               +------------------+
+                      | Close
+                      v
+               +------------------+
+               |  Closed Short    |
+               +------------------+
+                      | Open-Fail
+                      v
+               +------------------+
+               |    Open Fail     |
+               +------------------+
+                      | Close
+                      v
+               +------------------+
+               |  Closed Short    |
+               +------------------+
+
+               +------------------+
+               |   Open Long      |
+               +------------------+
+                      | Close
+                      v
+               +------------------+
+               |  Closed Long     |
+               +------------------+
+
+** Summary 
+   +--------------------+       Close       +----------------+
+   |    Open Short      |----------------->| Closed Short   |
+   +--------------------+                   +----------------+
+           |   Close
+           v
+   +--------------------+
+   |    Open Long       |
+   +--------------------+
+           |   Close
+           v
+   +--------------------+
+   |    Closed Long     |
+   +--------------------+
+           |   Open-Fail
+           v
+   +--------------------+
+   |    Open Fail       |
+   +--------------------+
+           |   Close
+           v
+   +--------------------+
+   |    Closed Short    |
+   +--------------------+
+
+* Table listing some possible scenarios or reasons for an Open-Fail position in short selling, along with examples:
+
+|-----------------------------------+-------------------------------------------------------+--------------------------------------|
+| Scenario/Reason                   | Example                                               | Consequences/Contempt of Regulation  |
+|-----------------------------------+-------------------------------------------------------+--------------------------------------|
+| Operational or                    | The broker fails to locate the shares for borrowing   | Regulatory fines,                    |
+| administrative issues             | and cannot deliver them within the settlement period. | legal penalties,                     |
+|                                   |                                                       | loss of reputation,                  |
+|                                   |                                                       | potential civil liabilities.         |
+|                                   |                                                       |                                      |
+| Stock certificate issues          | The physical stock certificates are missing or        | Regulatory scrutiny,                 |
+|                                   | delayed in the transfer process,                      | potential legal consequences,        |
+|                                   | causing a failure to deliver.                         | reputational damage.                 |
+|                                   |                                                       |                                      |
+| Failed trade confirmation         | The trade confirmation between                        | Regulatory investigation,            |
+|                                   | the buyer and seller is not properly processed,       | potential legal repercussions,       |
+|                                   | resulting in a failure to deliver.                    | penalties or fines.                  |
+|                                   |                                                       |                                      |
+| Market volatility                 | The security experiences extreme                      | Regulatory scrutiny,                 |
+|                                   | price fluctuations or market disruptions,             | potential restrictions or penalties, |
+|                                   | making it challenging to execute the delivery.        | reputational harm.                   |
+|                                   |                                                       |                                      |
+| Inadequate borrowing availability | The lender is unable to provide                       | Compliance issues,                   |
+|                                   | the required shares for borrowing                     | potential regulatory investigations, |
+|                                   | due to limited availability in the market.            | reputational damage.                 |
+|                                   |                                                       |                                      |
+| Settlement system failures        | Errors or technical issues in the                     | Regulatory scrutiny,                 |
+|                                   | settlement system prevent                             | potential investigations,            |
+|                                   | the timely and accurate                               | reputational harm,                   |
+|                                   | transfer of securities.                               | legal consequences.                  |
+|                                   |                                                       |                                      |
+| Naked short selling               | The seller engages in short selling                   | Regulatory investigations,           |
+|                                   | without actually borrowing the securities,            | potential fines or penalties,        |
+|                                   | leading to a failure to deliver.                      | legal consequences.                  |
+|                                   |                                                       |                                      |
+| Regulatory restrictions           | Regulatory authorities may impose                     | Non-compliance,                      |
+|                                   | restrictions or suspensions                           | potential legal actions,             |
+|                                   | on certain securities,                                | regulatory penalties,                |
+|                                   | causing a failure to deliver.                         | reputational harm.                   |
+|                                   |                                                       |                                      |
+| Counterparty default              | The counterparty involved in                          | Legal disputes,                      |
+|                                   | the short sale transaction                            | potential financial losses,          |
+|                                   | defaults or fails to fulfill                          | reputational harm,                   |
+|                                   | their obligations.                                    | regulatory scrutiny.                 |
+|-----------------------------------+-------------------------------------------------------+--------------------------------------|
+
+|-----------------------+---------------------------------------------------------------+-------------------------------------|
+| Reason                | Example                                                       | Consequences/Contempt of Regulation |
+|-----------------------+---------------------------------------------------------------+-------------------------------------|
+| Administrative delays | A delay in processing the trade by a clearing agency          | None                                |
+|                       |                                                               |                                     |
+| Human error           | A mistake made by a trader or broker when executing the trade | None                                |
+|                       |                                                               |                                     |
+| Naked short selling   | The controversial practice of selling a stock short           | Can lead to contempt of regulation  |
+|                       | without first borrowing or arranging to borrow it             |                                     |
+|-----------------------+---------------------------------------------------------------+-------------------------------------|
+
+|-------------------------+-------------------------------------------+-------------------------------------------------+-----------------------------------------------|
+| Scenario/Reason         | Description                               | Example                                         | Consequences/Contempt of Regulation           |
+|-------------------------+-------------------------------------------+-------------------------------------------------+-----------------------------------------------|
+| No shares available     | The trader is unable to locate            | A trader wants to short sell shares of a small, | No significant consequences,                  |
+| to borrow               | any shares of the security to             | illiquid company with limited shares available  | but could result in                           |
+|                         | borrow in order to sell short.            | for borrowing.                                  | missed trading opportunities and              |
+|                         |                                           |                                                 | potential profit.                             |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+| Brokerage restrictions  | The trader's brokerage may have           | A trader's brokerage may restrict               | No significant consequences,                  |
+|                         | restrictions on short selling             | short selling of penny stocks or                | but could result in                           |
+|                         | certain securities or may limit           | may limit the number of shares that             | missed trading opportunities and              |
+|                         | the number of shares that can be          | can be shorted due to risk management           | potential profit.                             |
+|                         | shorted.                                  | policies.                                       |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+| Operational issues      | There may be operational issues           | A trader may have sold short shares             | No significant consequences,                  |
+|                         | related to the delivery of shares,        | of a security, but the shares are not           | but could result in                           |
+|                         | such as delays or errors in the           | delivered on the settlement date due            | missed trading opportunities and              |
+|                         | settlement process.                       | to an error in the transfer of shares           | potential profit.                             |
+|                         |                                           | between brokerage firms.                        |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+| Regulatory restrictions | Regulatory bodies may impose restrictions | During a market crisis,                         | Violation of regulatory rules can result in   |
+|                         | on short selling during periods of market | regulators may impose restrictions              | fines and penalties,                          |
+|                         | volatility or for certain types of        | on short selling to prevent                     | including                                     |
+|                         | securities.                               | excessive market volatility.                    | suspension or revocation of trading licenses. |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+|                         |                                           |                                                 |                                               |
+| Buy-in requirement      | If the lender of the securities           | A trader may have shorted shares of a security, | Violation of regulatory rules can result in   |
+|                         | demands the shares back,                  | but the lender demands the shares back due to   | fines and penalties,                          |
+|                         | the trader who shorted the shares         | regulatory requirements or other reasons.       | including                                     |
+|                         | has to buy back the shares to return      |                                                 | suspension or revocation of trading licenses. |
+|                         | it to the lender.                         |                                                 | Engaging in                                   |
+|                         | If the trader can't buy back the          |                                                 | illegal short selling practices,              |
+|                         | shares, then the position is in an        |                                                 | such as                                       |
+|                         | open-fail state.                          |                                                 | naked short selling,                          |
+|                         |                                           |                                                 | can lead to                                   |
+|                         |                                           |                                                 | legal and regulatory consequences,            |
+|                         |                                           |                                                 | including                                     |
+|                         |                                           |                                                 | fines and penalties,                          |
+|                         |                                           |                                                 | as well as                                    |
+|                         |                                           |                                                 | criminal charges and                          |
+|                         |                                           |                                                 | imprisonment.                                 |
+|-------------------------+-------------------------------------------+-------------------------------------------------+-----------------------------------------------|
+
+* Short Sell
+** Circuit Breaker Rules
+*** Table summarizing the Designated Percentage requirements for different types of stocks and exchanges:
+
+|-------------------------+--------------------------------------------|
+| Stock Category          | Designated Percentage                      |
+|-------------------------+--------------------------------------------|
+| S&P 500 or Russell 1000 | 8% below NBBO or last reported sale price  |
+| NMS stock > $1.00       | 28% below NBBO or last reported sale price |
+| All other stocks        | 30% below NBBO or last reported sale price |
+|-------------------------+--------------------------------------------|
+
+|------------------------------------------+-----------------------------------------+--------------------+------------------|
+| Exchange                                 | Tier 1 Stocks (S&P 500 or Russell 1000) | NMS Stocks > $1.00 | All Other Stocks |
+|------------------------------------------+-----------------------------------------+--------------------+------------------|
+| NYSE, NYSE American, NYSE Arca           |                                      8% |                28% |              30% |
+| Nasdaq                                   |                                      8% |                28% |              30% |
+| Cboe BZX, Cboe BYX, Cboe EDGX, Cboe EDGA |                                      8% |                28% |              30% |
+| IEX                                      |                                      8% |                28% |              30% |
+| MEMX                                     |                                      8% |                28% |              30% |
+| MIAX                                     |                                      8% |                28% |              30% |
+| Phlx                                     |                                      8% |                28% |              30% |
+| BOX                                      |                                      8% |                28% |              30% |
+| Nasdaq BX                                |                                      8% |                28% |              30% |
+|------------------------------------------+-----------------------------------------+--------------------+------------------|
+
+*** Exceptions
+
+**** Table summarizing the exceptions to short sale circuit breaker rules in the US:
+
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Exception             | Description                                                                                                                       |
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Options Market Makers | Short sale circuit breaker rules do not apply to options market makers engaging in bona fide market making activity.              |
+| Non-Listed Securities | Short sale circuit breaker rules do not apply to short sales of securities that are not listed on a national securities exchange. |
+| 10% Price Increase    | Short sale circuit breaker rules do not apply to short sales executed on a national securities exchange                           |
+|                       | if the price of the security has increased by at least 10% from the security's closing price on the previous trading day.         |
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+
+|---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Exception                       | Description                                                                                                                                         |
+|---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Market-Wide Circuit Breakers    | If a market-wide circuit breaker is triggered, all trading on the national securities exchanges will be halted, including short selling.            |
+| Intermarket Sweep Orders (ISOs) | ISOs are orders that allow traders to execute trades at multiple markets simultaneously.                                                            |
+|                                 | ISOs are exempt from the short-sale circuit breaker restrictions if they are executed at a price that is higher than the circuit breaker threshold. |
+| Trading Halts                   | If a stock is subject to a trading halt, short selling will be halted along with other trading activity.                                            |
+| Derivatives                     | Short selling of options and other derivatives is not subject to the short-sale circuit breaker restrictions.                                       |
+| Primary Market Maker Exemption  | Primary Market Makers (PMMs) are exempt from the short-sale circuit breaker restrictions when they are performing their market making activities.   |
+|---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
+
+|------------------+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------|
+| Term             | Definition                                                                | Example                                                                                        |
+|------------------+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------|
+| Exception        | A situation where the short-sale circuit breaker rule does not apply      | An investor wants to short sell 100 shares of stock XYZ                                        |
+|                  |                                                                           |                                                                                                |
+| Covered security | A security that is subject to the short-sale circuit breaker rule         | Stock XYZ is currently trading at $10 per share and has dropped                                |
+|                  |                                                                           | more than 10% from its previous day's closing price, triggering the short-sale circuit breaker |
+|                  |                                                                           |                                                                                                |
+| Deemed to own    | A person who is considered to own a security for the purposes of the rule | The investor is deemed to own stock XYZ and intends to deliver the security                    |
+|                  |                                                                           | as soon as all restrictions on delivery have been removed                                      |
+|                  |                                                                           |                                                                                                |
+| Result           | The investor would be able to execute the short sale even                 | The investor would be able to execute the short sale                                           |
+|                  | if the price of stock XYZ does not rise above $10                         | even if the price of stock XYZ does not rise above $10                                         |
+|------------------+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------|
+
+
+|----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Exceptions to Short Sale Circuit Break             | Description                                                                                                                                               |
+|----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Opening and Closing Auctions                       | Short selling may be allowed during the opening and closing auctions,                                                                                     |
+|                                                    | which are specific periods before and after regular trading hours when securities are matched at a single price.                                          |
+|                                                    |                                                                                                                                                           |
+| Market Makers and Designated Liquidity Providers   | Market makers and designated liquidity providers may be exempt from short sale circuit break rules to ensure liquidity in the market.                     |
+|                                                    |                                                                                                                                                           |
+| Hedging and Market-Making Activities               | Short selling for hedging purposes or as part of market-making activities may be exempt from certain restrictions or circuit break rules.                 |
+|                                                    |                                                                                                                                                           |
+| Pre-Borrowing or Alternative Compliance Mechanisms | Traders may be allowed to engage in short selling if they pre-borrow the shares they intend to short or comply with alternative compliance mechanisms.    |
+|                                                    |                                                                                                                                                           |
+| Sector-Specific Exemptions                         | Certain sectors or securities may have specific exemptions or modified rules                                                                              |
+|                                                    | regarding short sale circuit break, based on regulatory considerations or market dynamics.                                                                |
+|                                                    |                                                                                                                                                           |
+| Regulatory Exemptions                              | Regulatory bodies may grant exemptions on a case-by-case basis or introduce temporary exemptions during exceptional market conditions or specific events. |
+|----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+** Upstrick
+*** Upstrick rule variation
+
+|-----------------------+-----------------------------------------------------------------------------|
+| Uptick Rule Variation | Description                                                                 |
+|-----------------------+-----------------------------------------------------------------------------|
+| Traditional Uptick    | A short sale must be executed on an                                         |
+|                       | uptick or                                                                   |
+|                       | zero-plus tick.                                                             |
+|                       |                                                                             |
+| Modified Uptick       | A short sale must be executed on an                                         |
+|                       | uptick,                                                                     |
+|                       | zero-plus tick, or a                                                        |
+|                       | specific price increase threshold (e.g., 5%).                               |
+|                       |                                                                             |
+| Alternative Uptick    | A short sale must be executed on an                                         |
+|                       | uptick,                                                                     |
+|                       | zero-plus tick, or a                                                        |
+|                       | specific price increase threshold (e.g., 10%) within a defined time period. |
+|                       |                                                                             |
+| No Uptick Rule        | No restriction on short selling based on price movements.                   |
+|-----------------------+-----------------------------------------------------------------------------|
+
+
+*** Exceptions
+
+|---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Exception                                         | Description                                                                                                                                                   |
+|---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Short Sales by Market Makers                      | Market makers are exempt from the uptick rule when entering short sale orders as part of their market-making activities.                                      |
+|                                                   |                                                                                                                                                               |
+| Hedge Transactions                                | A hedge transaction is an offsetting transaction made by a market participant to reduce their risks in another position.                                      |
+|                                                   | Hedge transactions are exempt from the uptick rule.                                                                                                           |
+|                                                   |                                                                                                                                                               |
+| Exchange-Traded Funds (ETFs)                      | ETFs are exempt from the uptick rule because they represent baskets of securities rather than individual stocks.                                              |
+|                                                   |                                                                                                                                                               |
+| Bonafide Market Making                            | This exception applies to market makers that have a bona fide intention to make a market in a security and are engaging in market-making activities.          |
+|                                                   |                                                                                                                                                               |
+| Riskless Principal Transactions                   | This exception applies to broker-dealer transactions where the broker-dealer is buying or selling a security as a riskless principal on behalf of a customer. |
+|                                                   |                                                                                                                                                               |
+| Trading at or below the current national best bid | Short sales of securities that are trading at or below the current national best bid are exempt from the uptick rule.                                         |
+|                                                   |                                                                                                                                                               |
+| Market Makers                                     | The uptick rule does not apply to market makers who are registered with a national securities exchange and are acting in that capacity.                       |
+|                                                   |                                                                                                                                                               |
+| Basket Transactions                               | The uptick rule does not apply to short sales of securities that are part of a basket of 15 or more securities                                                |
+|                                                   | that are sold simultaneously in a single transaction.                                                                                                         |
+|                                                   |                                                                                                                                                               |
+| Temporary Exemptions                              | The SEC may grant temporary exemptions to the uptick rule in certain circumstances,                                                                           |
+|                                                   | such as during market emergencies or in response to specific market conditions.                                                                               |
+|                                                   |                                                                                                                                                               |
+| Stock Ownership                                   | The trader owns the stock they are trying to sell.                                                                                                            |
+|---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+** Differences and relationship between uptick and SS circuit break
+
+|---------------+------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------|
+|               | Uptick Rule                                                                        | Short Sell Circuit Break                                                                               |
+|---------------+------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------|
+| Purpose       | Regulates short selling to prevent aggressive downward pressure on security prices | Provides a temporary halt or restriction in trading to assess market conditions and maintain stability |
+| Trigger       | Requires an uptick (price increase) before executing a short sale                  | Triggered by a significant decline or increased volatility in a security's price                       |
+| Application   | Applies to individual short sale transactions                                      | Applies to trading activities, including short selling, for a specific security or the broader market  |
+| Duration      | In effect during normal trading conditions                                         | Temporary halt or restriction typically lasting minutes to hours                                       |
+| Market Impact | Aims to prevent excessive short selling and stabilize security prices              | Provides a cooling-off period to assess market conditions and prevent panic selling                    |
+| Example       | Trader A can only short sell shares of XYZ Corporation after an uptick in price    | Trading of ABC Corporation is halted for 15 minutes due to a significant price decline                 |
+|---------------+------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------|
+
+
+* Prices
+
+|---------------+--------------------------------------------------------------------------------------|
+| Price         | Description                                                                          |
+|---------------+--------------------------------------------------------------------------------------|
+| Trade Price   | The actual price at which a security is bought or sold in a transaction.             |
+| Bid Price     | The highest price that buyers are willing to pay to purchase a security.             |
+| Ask Price     | The lowest price that sellers are willing to accept when selling a security.         |
+| Last Price    | The most recent price at which a security was traded.                                |
+| Opening Price | The price at which a security is first traded at the beginning of a trading session. |
+| Closing Price | The final price at which a security is traded at the end of a trading session.       |
+| High Price    | The highest traded price for a security within a given time period.                  |
+| Low Price     | The lowest traded price for a security within a given time period.                   |
+|---------------+--------------------------------------------------------------------------------------|
