@@ -1,3 +1,16 @@
+#+PROPERTY: org-table-properties :width 100% :align center
+#+PROPERTY: org-table-cell-properties :all :font-size 14px
+
+table {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+td {
+  font-size: 14px;
+  color: black;
+}
+
 #+TITLE: Series 57
 
 * Active and Passive broker-dealers
@@ -1188,3 +1201,74 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 | High Price    | The highest traded price for a security within a given time period.                  |
 | Low Price     | The lowest traded price for a security within a given time period.                   |
 |---------------+--------------------------------------------------------------------------------------|
+
+|-------------+-----------------------------------------------------------------------------------------------------------|
+| Feature     | Exchanges and Finra                                                                                       |
+|-------------+-----------------------------------------------------------------------------------------------------------|
+| Threshold   | Exchanges: 100,000 shares for stocks                                                                      |
+|             | Finra:     $200,000 for options contracts                                                                 |
+|             |                                                                                                           |
+| Regulations | Exchanges and FINRA have trading volume thresholds that are designed to prevent market manipulation and   |
+|             | ensure that all investors have access to fair and orderly markets.                                        |
+|             | FINRA's threshold contract trading rules require that all threshold contracts                             |
+|             | be traded on a national securities exchange or through a registered broker-dealer.                        |
+|             |                                                                                                           |
+|             |                                                                                                           |
+|             |                                                                                                           |
+|             |                                                                                                           |
+| Exceptions  | There are a number of exceptions to the trading volume thresholds, including:                             |
+|             | * Trades that are executed by market makers                                                               |
+|             | * Trades that are executed in response to an order from a customer                                        |
+|             | * Trades that are executed in connection with an underwriting or secondary offering                       |
+|             | * Trades that are executed for hedging purposes                                                           |
+|             | * Trades that are executed for arbitrage purposes                                                         |
+|             | * Trades that are executed by large institutions                                                          |
+|             |                                                                                                           |
+| Penalty     | If a trading volume threshold is exceeded, the exchange or FINRA may take a number of actions, including: |
+| or          | * Suspending trading in the security or contract                                                          |
+| Actions     | * Investigating the matter to determine if there was any market manipulation                              |
+|             | * Taking disciplinary action against any individuals or firms who were involved in the violation          |
+|             | FINRA may impose a number of penalties for violations of its threshold contract trading rules, including: |
+|             | * Fines                                                                                                   |
+|             | * Suspension or expulsion from FINRA                                                                      |
+|             | * Criminal prosecution                                                                                    |
+|             |                                                                                                           |
+| Exceptions  | * **Market makers:**                                                                                      |
+|             | Market makers are firms that are obligated to maintain continuous trading in a security.                  |
+|             | They do this by buying and selling the security at the best available prices.                             |
+|             | Trades that are executed by market makers are exempt from the trading volume thresholds                   |
+|             | because they are necessary to ensure that there is always liquidity in the market.                        |
+|             |                                                                                                           |
+|             | * **Customer orders:**                                                                                    |
+|             | Trades that are executed in response to an order from a customer are also exempt                          |
+|             | from the trading volume thresholds. This is because customers should be able to trade securities          |
+|             | without being subject to the trading volume thresholds.                                                   |
+|             |                                                                                                           |
+|             | * **Underwritings and secondary offerings:**                                                              |
+|             | Trades that are executed in connection with an underwriting or secondary offering                         |
+|             | are also exempt from the trading volume thresholds. This is because these types                           |
+|             | of transactions are typically large and negotiated transactions, and                                      |
+|             | the trading volume thresholds would not be effective in preventing market manipulation in these cases.    |
+|             |                                                                                                           |
+|             | * **Hedging and arbitrage:**                                                                              |
+|             | Trades that are executed for hedging or arbitrage purposes are also exempt                                |
+|             | from the trading volume thresholds. Hedging is a risk management strategy that involves                   |
+|             | taking offsetting positions in different securities. Arbitrage is a trading strategy that                 |
+|             | involves buying and selling the same security in different markets to profit from a price difference.     |
+|             |                                                                                                           |
+|             | * **Large institutions:**                                                                                 |
+|             | Trades that are executed by large institutions are also exempt from the trading volume thresholds.        |
+|             | This is because large institutions typically have significant resources                                   |
+|             | and can make their own decisions about whether or not to trade a security.                                |
+|             |                                                                                                           |
+| Exchanges   | There are many different exchanges in the world, each with its own rules and regulations.                 |
+|             | Some of the largest and most well-known exchanges include:                                                |
+|             | * The New York Stock Exchange (NYSE)                                                                      |
+|             | * The Nasdaq Stock Market                                                                                 |
+|             | * The London Stock Exchange                                                                               |
+|             | * The Tokyo Stock Exchange                                                                                |
+|             | * The Hong Kong Stock Exchange                                                                            |
+|             |                                                                                                           |
+|             | These exchanges are all regulated by different organizations,                                             |
+|             | but they all have similar goals of providing fair and orderly markets for investors.                      |
+|-------------+-----------------------------------------------------------------------------------------------------------|
