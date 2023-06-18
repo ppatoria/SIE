@@ -1,18 +1,37 @@
-#+PROPERTY: org-table-properties :width 100% :align center
-#+PROPERTY: org-table-cell-properties :all :font-size 14px
+
+#+TITLE: Series 57 Summary
+#+AUTHOR: Pralay
+#+DATE: 2023-06-17
+
+#+CSS:
+body {
+font-family: "Consolas", monospace;
+font-size: 14px;
+color: #ccc;
+background-color: #2b2b2b;
+}
 
 table {
-  border: 1px solid black;
-  background-color: gray;
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+padding: 5px;
+border: 1px solid #ccc;
+}
+
+th {
+background-color: #444;
+color: #fff;
 }
 
 td {
-  font-size: 14px;
-  color: black;
+color: #aaa;
 }
 
-#+TITLE: Series 57
-
+#+CAPTION: A table with 120 columns
+#+TBLFM: $1=$2=$3
 * Active and Passive broker-dealers
 
 ** Key differences between active and passive broker-dealers:
@@ -1313,6 +1332,10 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 | Immediate or Cancel (IOC) Order | Remains on the book | The order may not be filled if there is not enough liquidity in the market to fill the order partially.                           |
 |---------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------|
 
+
+* Difference in cirtuit breaket halt regulations  between Exchange Traded Equities and OTC Equities.
+#+CAPTION: A table with 120 columns
+#+TBLFM: $1=$2=$3
 |----------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
 | Feature        | Exchange-Traded Equities                                                                                  | OTC Equities                                                                                                                      |
 |----------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
