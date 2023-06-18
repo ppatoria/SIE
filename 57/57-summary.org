@@ -1354,8 +1354,7 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 | Secondary  | Shares that have been sold on a stock exchange but have not yet been fully paid for by the buyer.     | The buyer may not have enough money to pay for the shares, or the seller may require the buyer to pay for the shares in installments. | Exchange-traded markets have set settlement dates for trades. This means that the buyer and seller have a specific number of days to settle the trade. If the buyer does not pay for the shares by the settlement date, the trade will be canceled. | The buyer may be required to pay interest on the unpaid balance, and they may also be subject to penalties.                       | The buyer may be able to get an exception if they can show that they were unable to pay for the shares due to extenuating circumstances. |
 | OTC        | Shares that are bought and sold directly between two parties, without going through a stock exchange. | The buyer or seller may not be a member of an exchange, or the trade may not be cleared through a clearing house.                 | There are no specific regulations that apply to OTC trading. However, the buyer and seller should still be aware of the risks involved, such as the potential for fraud. | There is no specific penalty for unpaid shares in OTC trading. However, the buyer or seller may be subject to civil or criminal penalties if they engage in fraudulent or illegal activity. | There are no specific exceptions to the rules regarding unpaid shares in OTC trading. However, the buyer and seller may be able to agree on a different arrangement, such as a payment plan. |
 |------------+-------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
-|            |                                                                                                       |                                                                                                                                   |                                                                                                                                   |                                                                                                                                   |                                                                                                                                   |
-Sure. Here is an expanded table that provides more information about the Net Order Imbalance Indicator (NOII):
+** Unpaired shares are a lagging indicator for illiquidity of a share.
 
 * NOII Net Order Imbalance Indicator:
 
@@ -1363,10 +1362,20 @@ Sure. Here is an expanded table that provides more information about the Net Ord
 |------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+---------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
 | **Net Order Imbalance Indicator (NOII)** | A measure of the imbalance between the number of buy and sell orders for a security. It is calculated by taking the total number of buy orders for a security and subtracting the total number of sell orders for that security. A positive NOII indicates that there are more buy orders than sell orders, while a negative NOII indicates that there are more sell orders than buy orders. | NOII = Buy Orders - Sell Orders | Identify stocks that are likely to experience a price move. | NOII is just one indicator of a stock's price movement. Other factors, such as company earnings, economic news, and political events, can also affect a stock's price. | **A positive NOII indicates that there is strong buying pressure on a stock, which could lead to a price increase. A negative NOII indicates that there is strong selling pressure on a stock, which could lead to a price decrease.** | **Institutional investors, hedge funds, and day traders** | **NOII can be used to identify stocks that are likely to experience a price move. It can also be used to confirm other technical indicators, such as moving averages and support and resistance levels.** |
 
-NOII is used by a variety of investors, including institutional investors, hedge funds, and day traders. It is a valuable tool for identifying stocks that are likely to experience a price move. However, it is important to remember that NOII is just one indicator of a stock's price movement. Other factors, such as company earnings, economic news, and political events, can also affect a stock's price.
+** NOII is used by a variety of investors,including
+    - institutional investors,
+    - hedge funds, and
+    - day traders.
+      It is a valuable tool for identifying stocks that are likely to experience a price move.
 
-** NOII is a lagging indicator, which means that it measures the imbalance between buy and sell orders that have already been placed. This means that NOII can be used to confirm a price move that has already happened, but it cannot be used to predict a future price move.
-** NOII is not always accurate. There are times when NOII may indicate a price move that does not happen. This is because NOII is just one indicator of a stock's price movement, and other factors can also affect a stock's price.
+** NOII is a lagging indicator,
+    - which means that it measures the imbalance between buy and sell orders that have already been placed.
+      This means that NOII can be used to confirm a price move that has already happened,
+      but it cannot be used to predict a future price move.
+** NOII is not always accurate.
+    - There are times when NOII may indicate a price move that does not happen.
+      This is because NOII is just one indicator of a stock's price movement,
+      and other factors can also affect a stock's price.
 * Unpaired shares:
 
 | **Term**        | **Definition**                          | **Causes**                                                | **Implications on the Market**                     | **Relationship with NOII**                                      |
@@ -1380,11 +1389,97 @@ NOII is used by a variety of investors, including institutional investors, hedge
 |                 |                                         |                                                           | which can increase the risk of losses.             | This could lead to a price decrease.                            |
 |-----------------+-----------------------------------------+-----------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------------|
 
-** Investors should also be aware of the fees associated with trading securities 
-with a high number of unpaired shares. 
+** Higher fees:
+Investors should also be aware of the fees associated with trading securities with a high number of unpaired shares.
 These fees can add up, so it is important to factor them into your trading decisions.
 
-** NOII can be used to identify securities that are likely to experience a price move.
-A positive NOII and a high number of unpaired shares could indicate that there is strong buying pressure on a security,
-which could lead to a price increase. A negative NOII and a high number of unpaired shares could indicate that there is strong selling pressure on a security, 
-which could lead to a price decrease.
+
+* Opening and Closing Auction in Details
+
+|----------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------|
+| **Step** | **Action**                                                                             | **Explanation**                                                                                                            |
+|----------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------|
+|        1 | Calculate NOII                                                                         | NOII is calculated by taking the difference between the number of buy orders and the number of sell orders for a security. |
+|        2 | Calculate reference price                                                              | Reference price is calculated by dividing the NOII by the total number of shares that are available to be traded.          |
+|        3 | Adjust reference price for supply and demand                                           | The reference price may be adjusted up or down depending on the supply and demand for the security.                        |
+|        4 | Check if the adjusted reference price is within the allowed range                      | The adjusted reference price must be within the allowed range, which is determined by regulations.                         |
+|        5 | If the adjusted reference price is not within the allowed range, adjust it accordingly | If the adjusted reference price is not within the allowed range, it must be adjusted accordingly.                          |
+|        6 | The opening or closing price is set                                                    | The opening or closing price is set at the adjusted reference price.                                                       |
+|----------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------|
+
+Here is an example of how the steps above are applied:
+
+** There are 100 buy orders and 50 sell orders for a security.
+** The NOII is therefore 50.
+** There is more buying pressure than selling pressure, so the supply and demand factor is +10%.
+** The reference price is $3.33.
+** The adjusted reference price is $3.66.
+** The adjusted reference price is within the allowed range.
+** The opening or closing price is set at $3.66.
+
+
+* To understand how opening and closing prices are calculated and
+* how the imbalance indicators such as NOII (Net Order Imbalance Indicator) and
+* unpaired shares are used to determine the reference price,
+* let's go through the process step by step:
+
+1. Pre-Market Phase:
+   - During the pre-market phase, before regular trading hours, traders can submit orders to buy or sell securities.
+   - The exchange calculates the NOII based on the orders received during this phase.
+     The NOII represents the net order imbalance, indicating the difference between buy and sell orders.
+
+2. Auction Phase:
+   - The auction phase occurs immediately before the market opens.
+   - The exchange calculates the reference price based on the NOII and the unpaired shares.
+
+3. Calculation of Reference Price:
+   - The reference price is determined to facilitate the opening auction process.
+     It aims to find a price at which the maximum number of shares can be matched.
+   - The exchange considers the following factors:
+     - Buy Imbalance: The total quantity of buy orders in the NOII.
+     - Sell Imbalance: The total quantity of sell orders in the NOII.
+     - Unpaired Shares: The remaining shares that could not be matched based on the buy and sell orders in the NOII.
+   - The reference price is calculated to minimize the imbalance between buy and sell orders and
+     maximize the number of matched shares.
+
+4. Opening Auction:
+   - The opening auction occurs after the reference price is determined.
+   - Orders placed during the pre-market phase are matched at or within a specified range around the reference price.
+   - The exchange executes the trades at the opening price,
+     which is the price at which the maximum number of shares can be matched.
+
+5. Opening Price:
+   - The opening price is the price at which the trades are executed during the opening auction.
+   - It is calculated based on the matching algorithm of the exchange,
+     taking into account the order flow and the reference price.
+
+6. Regular Trading Hours:
+   - Once the market is open, securities can be traded throughout the regular trading hours.
+   - The price of each trade is determined by the supply and demand dynamics in the market,
+     with buyers and sellers agreeing on a price for each transaction.
+
+7. Closing Auction:
+   - At the end of the trading day, a closing auction takes place to establish the closing price.
+   - Similar to the opening auction, buy and sell orders are matched, and the exchange determines a closing reference price.
+   - Orders placed during the regular trading hours are matched at or
+     within a specified range around the closing reference price.
+   - The trades executed during the closing auction contribute to determining the closing price.
+
+8. Closing Price:
+   - The closing price is the final price at which the trades are executed during the closing auction.
+   - It represents the last traded price for the day and
+     is often used as a reference for performance measurement.
+
+Regulations and exchange rules:
+- The specific rules and regulations governing the calculation of opening and closing prices,
+  as well as the use of imbalance indicators, may vary depending on the exchange and jurisdiction.
+- Each exchange has its own set of rules that govern the opening and closing auction processes,
+  including how the reference price is determined and the trading rules during these periods.
+- Regulatory bodies such as the Financial Industry Regulatory Authority (FINRA) in the United States may
+  provide guidelines and oversight to ensure fair and orderly markets.
+
+It's important to note that the precise calculations and rules for opening and closing prices
+can be complex and vary across different exchanges and markets.
+The examples provided here are simplified explanations to help understand the general concept.
+For specific details and accurate calculations,
+it's advisable to refer to the rules and regulations of the relevant exchange or consult official sources.
