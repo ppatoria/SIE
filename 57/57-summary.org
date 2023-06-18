@@ -1202,6 +1202,29 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 | Low Price     | The lowest traded price for a security within a given time period.                   |
 |---------------+--------------------------------------------------------------------------------------|
 
+
+* Affirmative Options (Opt-in and Opt-out)
+|------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Feature                                                          | Affirmative Option                                                                                                                | Affirmative Opt Out                                                                                                               |
+|------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Definition                                                       | A type of trading where investors must actively opt in to participate.                                                            | A type of trading where investors must actively opt out of participating.                                                         |
+| Examples                                                         | An investor who wants to trade in a dark pool, high-frequency trading, commodity trading, or options trading must first contact their broker and request to be included in the pool, trading algorithm, market, or trade respectively. | An investor who does not want to trade in a dark pool, high-frequency trading, commodity trading, or options trading can simply choose not to contact their broker and request to be included. |
+| Scenarios where they occur                                       | Affirmative option is typically used for trading in dark pools, which are private exchanges that allow investors to trade large blocks of shares without impacting the public market. Affirmative option is also used for high-frequency trading, commodity trading, and options trading. | Affirmative opt out is typically used for trading in exchanges, which are public markets where anyone can buy and sell shares.    |
+| How they are reported to FINRA                                   | Affirmative option trades must be reported to FINRA by the broker who executed the trade.                                         | Affirmative opt out trades do not need to be reported to FINRA.                                                                   |
+| Regulations that need to be followed in case of Dark Moon        | In the case of Dark Moon, which is a dark pool operated by Goldman Sachs, FINRA requires that all affirmative option trades be reported within 15 minutes of execution. | FINRA does not have any specific regulations governing affirmative opt out trades.                                                |
+| What happens if it's not timely reported or if it's not reported | If an affirmative option trade is not timely reported to FINRA, the broker who executed the trade may be subject to fines and other penalties. | If an affirmative opt out trade is not reported to FINRA, there are no specific penalties. However, FINRA may investigate the matter and take action if it believes that the trade was not executed in accordance with the rules. |
+| Trades where affirmative option is mandatory                     | Dark pool trading, high-frequency trading, commodity trading, options trading                                                     |                                                                                                                                   |
+|------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+* Rules that govern how brokers must interact with their customers.
+|-----------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Rule      | Description                                                                                                                       |
+|-----------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Rule 2210 | Brokers must provide their customers with clear and concise information about the risks and costs associated with different types of trading. |
+| Rule 2220 | Brokers must obtain their customers' consent before executing trades.                                                             |
+| Rule 2230 | Brokers must keep records of all trades that they execute for their customers.                                                    |
+|-----------+-----------------------------------------------------------------------------------------------------------------------------------|
+
+* Trading Volume Thresholds (For Exchanges and Finra)
 |-------------+-----------------------------------------------------------------------------------------------------------|
 | Feature     | Exchanges and Finra                                                                                       |
 |-------------+-----------------------------------------------------------------------------------------------------------|
@@ -1272,3 +1295,30 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 |             | These exchanges are all regulated by different organizations,                                             |
 |             | but they all have similar goals of providing fair and orderly markets for investors.                      |
 |-------------+-----------------------------------------------------------------------------------------------------------|
+
+
+
+* Table that shows the state and potential consequences of all order types during a circuit breaker trading halt:
+
+|---------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Order Type                      | State               | Potential Consequences                                                                                                            |
+|---------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Limit Order                     | Remains on the book | The order may be filled at a different price than the limit price if the price of the security has moved significantly since the order was placed. |
+| Market Order                    | Remains on the book | The order may be filled at a different price than the current market price if the price of the security has moved significantly since the order was placed. |
+| Stop Order                      | Remains on the book | The order may not be triggered if the price of the security does not reach the stop price before trading resumes.                 |
+| Trailing Stop Order             | Remains on the book | The order may not be triggered if the price of the security does not move to the stop price before trading resumes.               |
+| Good Till Cancel (GTC) Order    | Remains on the book | The order may be canceled if it is not filled before the specified expiration date.                                               |
+| Good Till Date (GTD) Order      | Remains on the book | The order may be canceled if it is not filled before the specified date.                                                          |
+| Fill or Kill (FOK) Order        | Remains on the book | The order may not be filled if there is not enough liquidity in the market to fill the order at the specified price.              |
+| Immediate or Cancel (IOC) Order | Remains on the book | The order may not be filled if there is not enough liquidity in the market to fill the order partially.                           |
+|---------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+
+|----------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Feature        | Exchange-Traded Equities                                                                                  | OTC Equities                                                                                                                      |
+|----------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Trigger        | Price moves by a certain percentage in a short period of time                                             | Decrease in the number of bids or asks                                                                                            |
+| Duration       | Typically 15 minutes                                                                                      | Can last up to 30 minutes                                                                                                         |
+| Liquidity      | More liquid                                                                                               | Less liquid                                                                                                                       |
+| Quotes         | Easier to get                                                                                             | More difficult to get                                                                                                             |
+| Considerations | Be patient, be prepared to pay a higher price if buying, be prepared to sell for a lower price if selling | Be patient, be prepared to pay a higher price if buying, be prepared to sell for a lower price if selling, be aware of the possibility of wider spreads and delayed pricing |
+|----------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
