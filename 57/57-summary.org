@@ -1365,7 +1365,26 @@ Sure. Here is an expanded table that provides more information about the Net Ord
 
 NOII is used by a variety of investors, including institutional investors, hedge funds, and day traders. It is a valuable tool for identifying stocks that are likely to experience a price move. However, it is important to remember that NOII is just one indicator of a stock's price movement. Other factors, such as company earnings, economic news, and political events, can also affect a stock's price.
 
-Here are some additional things to keep in mind when using NOII:
-
 ** NOII is a lagging indicator, which means that it measures the imbalance between buy and sell orders that have already been placed. This means that NOII can be used to confirm a price move that has already happened, but it cannot be used to predict a future price move.
 ** NOII is not always accurate. There are times when NOII may indicate a price move that does not happen. This is because NOII is just one indicator of a stock's price movement, and other factors can also affect a stock's price.
+* Unpaired shares:
+
+| **Term**        | **Definition**                          | **Causes**                                                | **Implications on the Market**                     | **Relationship with NOII**                                      |
+|-----------------+-----------------------------------------+-----------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------------|
+| Unpaired shares | Shares that are not matched             | - Lack of liquidity in the market.                        | Unpaired shares can be a sign of illiquidity       | Unpaired shares can cause both positive and negative NOII.      |
+|                 | with a corresponding buy or sell order. | - Large price difference between the buy and sell orders. | in the market.                                     | - A positive NOII indicates that there is more buying pressure  |
+|                 |                                         | - Technical glitch in the trading system.                 | When there are a large number of unpaired shares,  | than selling pressure for the security.                         |
+|                 |                                         |                                                           | it can be difficult to buy or sell shares quickly. | This could lead to a price increase.                            |
+|                 |                                         |                                                           | This can make it difficult for investors to        | - A negative NOII indicates that there is more selling pressure |
+|                 |                                         |                                                           | get in or out of a position quickly,               | than buying pressure for the security.                          |
+|                 |                                         |                                                           | which can increase the risk of losses.             | This could lead to a price decrease.                            |
+|-----------------+-----------------------------------------+-----------------------------------------------------------+----------------------------------------------------+-----------------------------------------------------------------|
+
+** Investors should also be aware of the fees associated with trading securities 
+with a high number of unpaired shares. 
+These fees can add up, so it is important to factor them into your trading decisions.
+
+** NOII can be used to identify securities that are likely to experience a price move.
+A positive NOII and a high number of unpaired shares could indicate that there is strong buying pressure on a security,
+which could lead to a price increase. A negative NOII and a high number of unpaired shares could indicate that there is strong selling pressure on a security, 
+which could lead to a price decrease.
