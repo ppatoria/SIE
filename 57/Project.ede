@@ -1,0 +1,10 @@
+;; Object finra
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "finra"
+  :file "Project.ede"
+  :name "finra"
+  :targets nil
+  :configurations '("debug" "release")
+  :object-name "finra"
+  :makefile-type Makefile.am
+  :configuration-variables '("debug" (("DEBUG" . "1"))))
