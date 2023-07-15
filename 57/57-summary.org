@@ -210,19 +210,19 @@ This type of halt is used when there is pending news about a foreign company tha
 **** No halt
 This type of halt does not involve halting trading but rather involves regulatory action against a foreign company.
 ** Limit Up Limit Down
-
+#+ATTR_HTML: :align left
 [[./LULD_FLOW.png]]
-#+BEGIN_SRC plantuml
+#+begin_src 
 @startuml
 title LULD Process
 
 start
 note
-*** Band/LULD: is % above and below the stock reference price
-*** Reference price: the 5-minute average moving price of a stock 
-**** which is calculated every 30 seconds 
-**** updated after 1% or greater change in the prior reference price.
-*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
+,*** Band/LULD: is % above and below the stock reference price
+,*** Reference price: the 5-minute average moving price of a stock 
+,**** which is calculated every 30 seconds 
+,**** updated after 1% or greater change in the prior reference price.
+,*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
 end note
 :Stock price moves up or down;
 if (Stock price movement <= LULD Band) then (within LULD Band)
@@ -242,11 +242,13 @@ else (outside LULD Band)
 endif
 stop
 @enduml
-#+END_SRC
+#+end_src
+#+ATTR_HTML: :align left
 [[./LULD.png]]
 
 
 ** Circuit breaker
+#+begin_src 
 @startuml
 title Market-Wide Circuit Breakers Process
 
@@ -282,9 +284,12 @@ endif
 
 stop
 @enduml
+#+end_src
+#+ATTR_HTML: :align left
 [[./CircuitBreaker.png]]
 
 ** Circuit breaker vs LULD
+#+begin_src 
 @startuml
 title Circuit Breaker vs LULD Flowchart
 
@@ -310,10 +315,13 @@ endif
 
 stop
 @enduml
+#+end_src
+#+ATTR_HTML: :align left
 [[./CircuitBreaker_VS_LULD.png]]
 
 * Short Sell
 ** Flow Broker-Dealer's Perspective
+#+begin_src
 @startuml
 start
 :Start;
@@ -345,10 +353,19 @@ end note
 if (Market Down by 10% or More?) then (yes)
   :Restrict Short Selling;
   :Trade Halt;
+else if (Price Higher than NBB?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
+else if (Long Position?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
+else if (Odd Lot/Warrant/Right/Convertible/VWAP/Riskless Principal Trade/Recently Traded and Settling Next Day?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
 else (no)
   :Follow Normal Short Selling Process;
+  :Execute Trades;
 endif
-:Execute Trades;
 :Trade Settlement (T + 3);
 if (Settlement Failure?) then (yes)
   :Additional Days Before Penalties (T + 3 + 2);
@@ -366,8 +383,11 @@ note left
   If settlement fails, the broker-dealer may provide an additional two business days before regulatory penalties apply.
 end note
 @enduml
+#+end_src
+#+ATTR_HTML: :align left
 [[./SS.png]]
 ** Traders Perspective
+#+begin_src 
 @startuml
 start
 :Start;
@@ -427,8 +447,13 @@ note left
   If the price does not decrease, the trader will need to wait until it does.
 end note
 @enduml
+#+end_src
+#+ATTR_HTML: :align left
 [[./SS_Trader.png]]
 ** Aggregate the positions
+ 
+
+#+begin_src 
 @startuml
 title Short Selling Position Aggregation Process
 
@@ -486,6 +511,8 @@ group Record Keeping
 end group
 
 @enduml
+#+end_src
+#+ATTR_HTML: :align left
 [[./SS_Aggregation_Positions_process.png]]
 
 ** Broker-Dealer
@@ -509,7 +536,32 @@ end group
 *** if long
 *** If odd lot/warrant/right/convertible/vwap/riskless principal trade/recently traded and will settle the next day.
 
+
 ** In-Kind services
+
+#+begin_src plantuml
+@startmindmap
+,* Securities Trading
+,** BD Should:
+,*** Adhere to Order Protection Rule
+,**** Ensure best available price is executed for investors
+,**** Route orders to trading venues that provide best price
+,*** Follow Best Execution Mandate
+,**** Seek best possible execution price for clients' orders
+,**** Use reliable and efficient trading systems
+,**** Monitor execution quality to identify and correct issues
+,*** Disclose any Payments for Order Flow to Affected Customers
+,**** Provide information about nature and amount of payments
+,**** Disclose potential conflicts of interest
+,**** Ensure transparency and fairness in the marketplace
+,**** Allow investors to make informed decisions
+@endmindmap
+#+end_src
+
+[[./in-kind-service.png]]
+
+
+
 *** BD should
     - adhere order protection rule
     - best execution mandate
