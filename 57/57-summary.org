@@ -212,17 +212,17 @@ This type of halt does not involve halting trading but rather involves regulator
 ** Limit Up Limit Down
 #+ATTR_HTML: :align left
 [[./LULD_FLOW.png]]
-#+begin_src 
+#+BEGIN_SRC plantuml
 @startuml
 title LULD Process
 
 start
 note
-,*** Band/LULD: is % above and below the stock reference price
-,*** Reference price: the 5-minute average moving price of a stock 
-,**** which is calculated every 30 seconds 
-,**** updated after 1% or greater change in the prior reference price.
-,*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
+*** Band/LULD: is % above and below the stock reference price
+*** Reference price: the 5-minute average moving price of a stock 
+**** which is calculated every 30 seconds 
+**** updated after 1% or greater change in the prior reference price.
+*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
 end note
 :Stock price moves up or down;
 if (Stock price movement <= LULD Band) then (within LULD Band)
@@ -242,8 +242,7 @@ else (outside LULD Band)
 endif
 stop
 @enduml
-#+end_src
-#+ATTR_HTML: :align left
+#+END_SRC
 [[./LULD.png]]
 
 
@@ -3279,97 +3278,190 @@ However, there are other regulations that may apply to share repurchases, such a
 
 Here are some of the other regulations that may apply to share repurchases:
 
+* Security Offerings
+** Initial Public Offerings (IPO)
+** Secondary Offerings
+** Follow-On Offerings
+** Exchange Offer
+** Tender Offer
+
+~
+@startmindmap 
+skinparam backgroundColor gray
+skinparam handwritten true
+skinparam shadowing<<with_shadow>> true
+skinparam arrowcolor black
+<style>
+mindmapDiagram {
+  .darkkhaki {
+    BackgroundColor darkkhaki
+  }
+.midnightblue {
+    BackgroundColor midnightblue
+    mindmapfontcolor white
+  }
+ .gray {
+    BackgroundColor gray
+  }
+ .darkgray {
+    BackgroundColor darkgray
+  }
+  .darkcyan {
+    BackgroundColor darkcyan
+  }
+  .darkslategrey {
+    BackgroundColor darkslategrey    
+  }
+.darkseagreen {
+    BackgroundColor darkseagreen    
+  }
+:depth(1) {
+      BackGroundColor darkcyan
+}
+:depth(3) {
+      BackGroundColor darkcyan
+}
+:depth(4) {
+      BackGroundColor darkkhaki
+}
+:depth(2) {
+      BackGroundColor darkkhaki
+}
+
+  boxless {
+    FontColor black
+  }
+}
+</style>
+
+
+
+* Security Offerings <<gray>>
+left side
+** Initial Public Offering (IPO) 
+***_ 1st sale of shares to public 
+***_ Private -> Public 
+***_ Raises capital for growth 
+***_ Attracts new investors
+right side
+** Secondary Offerings
+***_ After IPO
+***_ Existing shareholders sell
+***_ Can include new shares
+***_ Additional capital
+*** Follow-On Offerings <<darkcyan>>
+****_ Part of secondary offerings
+****_ Company issues new shares (capital)
+**** Diluted Follow-On Offering <<darkseagreen>>
+*****_ New shares issued, dilution
+*****_ Capital for expansion
+**** Non-Diluted Follow-On Offering <<darkseagreen>>
+*****_ Existing shareholders sell
+*****_ No ownership change
+*** Exchange Offers <<darkcyan>>
+****_ Shareholders exchange securities
+****_ Ownership or structure change
+*** Tender Offers <<darkcyan>>
+****_ One company buys shares
+****_ Mergers, acquisitions
+@endmindmap
+~
+[[./security_offerings.png]]
+
+
 * Rule 10b-18 -
 This rule provides a safe harbor from liability under Rule 10b-5 for certain repurchases of common stock that are made in accordance with specific guidelines.
 Section 16(b) of the Securities Exchange Act of 1934 - This section requires insiders to disgorge any profits that they realize from short-swing trading.
 State laws - Some states have laws that restrict the amount of shares that an issuer can repurchase.
 It is important for issuers to consult with their legal counsel to ensure that they are in compliance with all applicable regulations when repurchasing shares.
 
-
-* Some of the possible questions that can be asked regarding Regulation M, along with the answers:
+* Regulation M
 
 ** Question: What is Regulation M?
 
-*** Answer: Regulation M is a set of rules enacted by the Securities and Exchange Commission (SEC) to prevent manipulation of the market price of securities during a distribution. The rules prohibit certain activities, such as purchasing or bidding for securities, that could artificially inflate the price of the securities.
-
-** Question: What is the purpose of Regulation M?
-
-*** Answer: The purpose of Regulation M is to ensure that the market price of securities is not artificially inflated during a distribution. This is important because it protects investors from buying securities at inflated prices.
+*** Answer: Regulation M is a set of rules enacted by the Securities and Exchange Commission (SEC) to
+              - Prevent manipulation of the market price of securities during a distribution.
+              - The rules prohibit certain activities, such as purchasing or bidding for securities, that could artificially inflate the price of the securities.
 
 ** Question: Who is subject to Regulation M?
 
-*** Answer: Regulation M applies to all companies that are distributing securities, including initial public offerings (IPOs), secondary offerings, and follow-on offerings. The rules also apply to any person who is participating in a distribution, such as an underwriter, broker-dealer, or selling security holder.
+*** Answer: Regulation M applies to all companies that are distributing securities, including
+               - initial public offerings (IPOs),
+               - secondary offerings, and
+               - follow-on offerings.
+              The rules also apply to any person who is participating in a distribution, such as an
+               - underwriter,
+               - broker-dealer, or
+               - selling security holder.
 
 ** Question: What are the prohibited activities under Regulation M?
 
 *** Answer: The prohibited activities under Regulation M include:
+              - Purchasing or bidding for securities during the restricted period.
+              - Entering into a stabilizing agreement.
+              - Engaging in a short sale during the restricted period.
+              - Causing any of the prohibited activities to occur.
 
-Purchasing or bidding for securities during the restricted period.
-Entering into a stabilizing agreement.
-Engaging in a short sale during the restricted period.
-Causing any of the prohibited activities to occur.
 ** Question: What are the exceptions to the prohibited activities under Regulation M?
 
 *** Answer: There are a few exceptions to the prohibited activities under Regulation M. These exceptions include:
 
-Purchases made in the ordinary course of business.
-Purchases made by bona fide market makers.
-Purchases made by institutional investors.
+              - Purchases made in the ordinary course of business.
+              - Purchases made by bona fide market makers.
+              - Purchases made by institutional investors.
 ** Question: How is Regulation M enforced?
 
-*** Answer: Regulation M is enforced by the SEC. The SEC can bring civil enforcement actions against companies and individuals who violate Regulation M. The SEC can also impose civil penalties, such as fines and disgorgement of profits.
+*** Answer: Regulation M is enforced by the SEC.
+              - The SEC can bring civil enforcement actions against companies and individuals who violate Regulation M.
+              - The SEC can also impose civil penalties, such as fines and disgorgement of profits.
 
 ** Question: What are the penalties for violating Regulation M?
 
-*** Answer: The penalties for violating Regulation M can be severe. The SEC can impose civil penalties, such as fines and disgorgement of profits. The SEC can also bring criminal charges against individuals who violate Regulation M.
+*** Answer: The penalties for violating Regulation M can be severe.
+              - The SEC can impose civil penalties, such as fines and disgorgement of profits.
+              - The SEC can also bring criminal charges against individuals who violate Regulation M.
 
 ** Question: What are the recent developments in Regulation M?
 
-*** Answer: The SEC has recently updated Regulation M to clarify some of the rules and to make it easier for companies to comply. The SEC has also issued guidance on how Regulation M applies to certain types of transactions, such as exchange offers and tender offers.
+*** Answer: The SEC has recently updated Regulation M to clarify some of the rules and to make it easier for companies to comply.
+The SEC has also issued guidance on how Regulation M applies to certain types of transactions, such as exchange offers and tender offers.
 
 ** Question: What is the difference between Regulation M and Rule 10b-5?
 
-*** Answer: Regulation M and Rule 10b-5 are both rules that prohibit manipulative or deceptive trading practices. However, there are some key differences between the two rules. Regulation M specifically applies to distributions of securities, while Rule 10b-5 applies to all securities transactions. Additionally, Regulation M has a shorter restricted period than Rule 10b-5.
+*** Answer: Regulation M and Rule 10b-5 are both rules that prohibit manipulative or deceptive trading practices.
+              However, there are some key differences between the two rules.
+              - Regulation M specifically applies to distributions of securities, while
+              - Rule 10b-5 applies to all securities transactions.
+                Additionally, Regulation M has a shorter restricted period than Rule 10b-5.
 
 ** Question: What is the difference between Regulation M and Rule 10b-18?
 
-*** Answer: Regulation M and Rule 10b-18 are both rules that provide safe harbors from liability under Rule 10b-5 for certain repurchases of common stock. However, there are some key differences between the two rules. Regulation M applies to repurchases that are made during a distribution, while Rule 10b-18 applies to repurchases that are made outside of a distribution. Additionally, Regulation M has a more restrictive set of requirements than Rule 10b-18.
+*** Answer: Regulation M and Rule 10b-18 are both rules that provide safe harbors from liability under Rule 10b-5 for certain repurchases of common stock.
+              However, there are some key differences between the two rules.
+              - Regulation M applies to repurchases that are made during a distribution, while
+              - Rule 10b-18 applies to repurchases that are made outside of a distribution.
+                Additionally, Regulation M has a more restrictive set of requirements than Rule 10b-18.
 
 ** Question: What are the implications of Regulation M for issuers?
 
-*** Answer: Regulation M has a number of implications for issuers. First, issuers must comply with the rules of Regulation M when they distribute securities. Second, issuers must be aware of the exceptions to the rules of Regulation M. Third, issuers must be aware of the penalties for violating Regulation M.
+*** Answer: Regulation M has a number of implications for issuers.
+              - First, issuers must comply with the rules of Regulation M when they distribute securities.
+              - Second, issuers must be aware of the exceptions to the rules of Regulation M.
+              - Third, issuers must be aware of the penalties for violating Regulation M.
 
 ** Question: What are the implications of Regulation M for investors?
 
-*** Answer: Regulation M has a number of implications for investors. First, investors can be confident that the market price of securities is not being artificially inflated during a distribution. Second, investors can be aware of the exceptions to the rules of Regulation M. Third, investors can be aware of the penalties for violating Regulation M.
+*** Answer: Regulation M has a number of implications for investors.
+              (1) investors can be confident that the market price of securities is not being artificially inflated during a distribution.
+              (2) investors can be aware of the exceptions to the rules of Regulation M.
+              (3) investors can be aware of the penalties for violating Regulation M.
 
-** Question: What are the best practices for compliance with Regulation M?
+** Question: The prohibited activities under regulation M include entering into stabilizing agreement but it's very common that the issuer specially the underwriter stabilizes the price after IPO or secondary offering or follow of offering and it is allowed as per the rule regulation ?
 
-*** Answer: There are a number of best practices for compliance with Regulation M. These best practices include:
-
-Familiarizing yourself with the rules of Regulation M.
-Understanding the exceptions to the rules of Regulation M.
-Seeking the advice of legal counsel if you have any questions about Regulation M.
-
-definitely it helps
-and I want to thank you for your effort
-my next question is
-you stated that the prohibited activities under regulation M include
-entering into stabilizing agreement
-but
-it's very common
-that the
-issuer
-specially the underwriter
-stabilizes the price
-after IPO
-or secondary offering
-or follow of offering
-and
-it is allowed as per the rule regulation
-correct me if I'm wrong
-
-You are correct. Stabilizing is a common practice in the securities industry, and it is allowed under Regulation M. However, there are a number of restrictions on stabilizing activities. For example, stabilizing can only be done to prevent or retard a decline in the market price of a security. Stabilizing cannot be used to artificially inflate the market price of a security.
+You are correct. Stabilizing is a common practice in the securities industry, and it is allowed under Regulation M.
+However, there are a number of restrictions on stabilizing activities.
+For example, stabilizing can only be done to prevent or retard a decline in the market price of a security.
+Stabilizing cannot be used to artificially inflate the market price of a security.
 
 The rules governing stabilizing activities under Regulation M are complex, and it is important for issuers and underwriters to seek the advice of legal counsel to ensure that they are in compliance.
 
