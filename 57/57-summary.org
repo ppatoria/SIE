@@ -3368,6 +3368,9 @@ right side
 ~
 [[./security_offerings.png]]
 
+* Stabilizing Bids
+[[./stabilizing-bids.png]]
+
 
 * Rule 10b-18 -
 This rule provides a safe harbor from liability under Rule 10b-5 for certain repurchases of common stock that are made in accordance with specific guidelines.

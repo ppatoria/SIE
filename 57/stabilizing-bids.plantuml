@@ -1,21 +1,81 @@
 @startuml
-!theme _none_
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle bold
+    FontSize 15
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 15
+    ActivityFontStyle bold
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 15
+    ActivityDiamondFontStyle bold
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+} 
+
 title Stabilizing Bids Process
 
 start
     :Underwriter enters into stabilizing bids;
-    :Determine:\n(1) Current bid-ask price.\n(2) Last independent transaction price\n(3) Last sale price;
-        note left: The independent transaction price refers to \nthe last sale price of a security \nthat was not made by the stabilizing agent \nor any member of the syndicate.
-        note right: The last sale price refers to the most recent price \nat which a security was traded in the open market, \nregardless of who made the trade.
-    if(current best ask >= last independent transaction) then (yes)
-        :stabilize at the last independent transaction price and continue;
-    else(no)
-        if (current best asked <  last sale price) then (yes)
-            :stabilize at the highest current independent bid and continue;
-        else(no)
-            :end the process;
+    fork
+        :Determine:\n(1) Current bid-ask price.\n(2) Last independent transaction price\n(3) Last sale price;
+        note left: The independent transaction price \nrefers to the \nlast sale price of a security \nthat was not made by the stabilizing agent \nor any member of the syndicate.
+        note left: The last sale price \nrefers to the most recent price \nat which a security was traded in the open market, \nregardless of who made the trade.
+    fork again
+        if (Market active for that security\n or \nthere is an established market for the security) then (yes)
+            if (Current best ask >= Last independent transaction price) then (yes)
+                :Stabilize at the last independent transaction price\n and \ncontinue;
+            else (no)
+                if (Current best ask < Last sale price) then (yes)
+                    :Stabilize at the highest current independent bid\n and \ncontinue;
+                else (no)
+                    :End the process;
+                endif
+            endif
         endif
-    endif
+    endfork
+        note right
+        * Only one stabilization bid
+          can be entered at any one time.
+        * The stabilization agent:
+            - Must give priority to an
+              independent bid at the same price,
+              regardless of its size.
+            - Cannot bid on the stock
+              in addition to its stabilization bid.
+            - Must give prior regulatory notice
+              to the SEC.
+        end note
     :Limit amount of stock that can be purchased (e.g. 15% of total offering size);
         note right: (1) Artificial inflation of price \n(2) Potential sudden drop in market price when stabilizing bid is removed.
     if (Amount exceeds limit) then (yes)
