@@ -1,0 +1,100 @@
+@startuml
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+} 
+
+start
+
+:Pre-IPO;
+:Company files registration statement with SEC;
+:Company conducts roadshows to meet\nwith potential investors;
+:Company sets offering price;
+:Company sets effective date of\nregistration statement;
+
+:IPO;
+:Company prices the offering;
+:Company begins distributing\nsecurities to investors;
+
+:Restricted Period;
+note right
+- Restricted period under Regulation M; Participants prohibited from certain activities to avoid price inflation;
+-- Trading restrictions on the offered security may apply.
+-- Restrict share repurchase.
+-- Prohibition on market manipulation and actions that distort market fairness;
+- Restricted period begins (Five business days prior to pricing); Ends when distribution is completed;
+- Stabilizing activities allowed during restricted period, subject to specific rules;
+- Penalty bids are used to discourage selling below offering price;
+end note
+note right: For secondary or follow-on offering, restricted period begins (One business day prior to pricing); Ends when distribution is completed;
+
+:Distribution Period;
+note right
+Distribution period begins (Date of pricing); Ends when all securities have been sold;
+end note
+
+:Stabilizing Activities under Regulation M;
+note right
+- Restrictions to prevent market manipulation during distribution;
+- Stabilizing can only be done during restricted period;
+- Stabilizing price no higher than lower of offering price or stabilizing bid;
+- Cannot create false or misleading appearance of active trading;
+end note
+
+:Stabilizing and Penalty Bids;
+note right
+- Methods to prevent or retard market price decline during distribution;
+- Stabilizing by underwriter or distribution participants;
+- Penalty bids by issuer;
+- Stabilizing only during restricted period;
+- Penalty bids can be done at any time during distribution period;
+end note
+
+:Penalties for Violations;
+note right
+- SEC can impose civil penalties (fines, disgorgement of profits);
+- SEC can bring criminal charges against violators;
+end note
+
+stop
+@enduml

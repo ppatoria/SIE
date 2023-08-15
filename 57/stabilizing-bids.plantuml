@@ -17,8 +17,8 @@ skinparam note {
     BackgroundColor Grey
     BorderColor DarkGray
     FontColor Navy
-    fontstyle bold
-    FontSize 15
+    fontstyle normal
+    FontSize 20
     FontName "Ubuntu Mono"
 }
 
@@ -29,62 +29,109 @@ skinparam {
     ActivityBorderThickness 0
     ActivityFontColor Black
     ActivityFontName "Ubuntu Mono"
-    ActivityFontSize 15
-    ActivityFontStyle bold
+    ActivityFontSize 20
+    ActivityFontStyle normal
     ActivityDiamondBackgroundColor DarkGreen
     ActivityDiamondBorderColor Lightgreen
     ActivityDiamondFontColor Black
     ActivityDiamondFontName "Ubuntu Mono"
-    ActivityDiamondFontSize 15
-    ActivityDiamondFontStyle bold
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
     ActivityArrowColor Grey
     ActivityArrowThickness 2
     ActivityStartColor LightGreen
     ActivityEndColor LightRed
 } 
 
-title Stabilizing Bids Process
+title Stabilizing Bids Process. Regulation M Rule 104.
 
 start
     :Underwriter enters into stabilizing bids;
-    fork
-        :Determine:\n(1) Current bid-ask price.\n(2) Last independent transaction price\n(3) Last sale price;
-        note left: The independent transaction price \nrefers to the \nlast sale price of a security \nthat was not made by the stabilizing agent \nor any member of the syndicate.
-        note left: The last sale price \nrefers to the most recent price \nat which a security was traded in the open market, \nregardless of who made the trade.
-    fork again
-        if (Market active for that security\n or \nthere is an established market for the security) then (yes)
-            if (Current best ask >= Last independent transaction price) then (yes)
-                :Stabilize at the last independent transaction price\n and \ncontinue;
+    :Determine:\n(1) Current bid-ask price.\n(2) Last independent transaction price\n(3) Last sale price;
+    note left: The independent transaction price \nrefers to the \nlast sale price of a security \nthat was not made by the stabilizing agent \nor any member of the syndicate.
+    note right: The last sale price \nrefers to the most recent price \nat which a security was traded in the open market, \nregardless of who made the trade.
+    if (Market active for that security\n or \nthere is an established market for the security) then (yes)
+        if (Current best ask \n>= \nLast independent transaction price) then (yes)
+            :Stabilize at the last independent transaction price\n and \ncontinue;
+        else (no)
+            if (Current best ask \n< \nLast sale price) then (yes)
+                :Stabilize at the highest current independent bid\n and \ncontinue;
             else (no)
-                if (Current best ask < Last sale price) then (yes)
-                    :Stabilize at the highest current independent bid\n and \ncontinue;
-                else (no)
-                    :End the process;
-                endif
+                :End the process;
             endif
         endif
-    endfork
+    endif
         note right
         * Only one stabilization bid
           can be entered at any one time.
         * The stabilization agent:
             - Must give priority to an
-              independent bid at the same price,
+              independent bid at the
+              same price,
               regardless of its size.
             - Cannot bid on the stock
-              in addition to its stabilization bid.
-            - Must give prior regulatory notice
-              to the SEC.
+              in addition to its
+              stabilization bid.
+            - Must give prior regulatory
+              notice to the SEC.
+        end note
+        note left
+            Some of the other
+            interpretations/jargons with same meanings.
+
+            if the principal market is open then
+                The lower of the highest current
+                independent bid for the security
+                in the principal market
+            else if the principal market is closed,
+                To a price no higher than the
+                highest independent bid
+                in the principal market
+                at the previous close thereof.
+            OR
+
+            "Stabilizing can only be done at a price
+             that is no higher than
+             the lower of the offering price
+             or the stabilizing bid for the security
+             in the principal market."
+
+            "Repurchase/Buy back terms are also used
+            for stibilization process."
+
+            Closing Price    : On the first day of
+                               trading after an IPO,
+                               it would be the price
+                               at which the security
+                               ends its first day of
+                               trading.
+            Last traded price: on the day of the IPO
+                               would be the price at
+                               which the security was
+                               last traded before the
+                               market closed on that
+                               day.
+            Principal market: is the market with the
+                              largest aggregate
+                              trading volume
+                              for the security during
+                              the most recent 60 calendar
+                              days.
+            Previous close  : The price at which
+                              the security last traded
+                              when the principal market
+                              closed on the previous trading
+                              day.
         end note
     :Limit amount of stock that can be purchased (e.g. 15% of total offering size);
-        note right: (1) Artificial inflation of price \n(2) Potential sudden drop in market price when stabilizing bid is removed.
+        note right: (1) Artificial inflation of price \n(2) Potential sudden drop in market price \nwhen stabilizing bid is removed.
     if (Amount exceeds limit) then (yes)
         :Adjust bids to stay within limit;
     endif
     :Disclose stabilizing bids to the public;
-        note right: (1) Include information about stabilizing bids in the prospectus or offering circular;\n(2) Through various channels, such as press releases.
+        note right: (1) Include information about stabilizing bids \nin the prospectus or offering circular;\n(2) Through various channels, such as press releases.
     :Report stabilizing bids to the SEC;
-        note right: (1) This information is reported to the SEC on Form 10.\n(2) Underwriters are required to file within 10 days after the end of the stabilization period.
+        note right: (1) This information is reported to the SEC on Form 10.\n(2) Underwriters are required to file within 10 days \nafter the end of the stabilization period.
     :Monitor market and adjust bids as necessary;
     :Continue stabilizing bids for up to 30 days;
 stop

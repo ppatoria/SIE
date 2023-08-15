@@ -1,0 +1,77 @@
+@startmindmap 
+skinparam backgroundColor gray
+skinparam handwritten true
+skinparam shadowing<<with_shadow>> true
+skinparam arrowcolor black
+<style>
+mindmapDiagram {
+  .darkkhaki {
+    BackgroundColor darkkhaki
+  }
+.midnightblue {
+    BackgroundColor midnightblue
+    mindmapfontcolor white
+  }
+ .gray {
+    BackgroundColor gray
+  }
+ .darkgray {
+    BackgroundColor darkgray
+  }
+  .darkcyan {
+    BackgroundColor darkcyan
+  }
+  .darkslategrey {
+    BackgroundColor darkslategrey    
+  }
+.darkseagreen {
+    BackgroundColor darkseagreen    
+  }
+:depth(1) {
+      BackGroundColor darkcyan
+}
+:depth(3) {
+      BackGroundColor darkcyan
+}
+:depth(4) {
+      BackGroundColor darkkhaki
+}
+:depth(2) {
+      BackGroundColor darkkhaki
+}
+
+  boxless {
+    FontColor black
+  }
+}
+</style>
+
+*_ Security Offerings <<gray>>
+left side
+** Initial Public Offering (IPO) 
+***_ 1st sale of shares to public 
+***_ Private -> Public 
+***_ Raises capital for growth 
+***_ Attracts new investors
+right side
+** Secondary Offerings
+***_ After IPO
+***_ Existing shareholders sell
+***_ Can include new shares
+***_ Additional capital
+*** Follow-On Offerings <<darkcyan>>
+****_ Part of secondary offerings
+****_ Company issues new shares (capital)
+**** Diluted Follow-On Offering <<darkseagreen>>
+*****_ New shares issued, dilution
+*****_ Capital for expansion
+**** Non-Diluted Follow-On Offering <<darkseagreen>>
+*****_ Existing shareholders sell
+*****_ No ownership change
+*** Exchange Offers <<darkcyan>>
+****_ Shareholders exchange securities
+****_ Ownership or structure change
+*** Tender Offers <<darkcyan>>
+****_ One company buys shares
+****_ Mergers, acquisitions
+@endmindmap
