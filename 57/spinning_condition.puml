@@ -1,0 +1,86 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+}
+st=>start: Start
+e=>end: End
+
+st->op1=>operation: Check if the third-party company\nis a covered nonpublic (private) company?
+cond1=>condition: Does the third-party company meet any of the three conditions?
+op2=>operation: Obtain and evaluate\nincome,\nshareholders' equity,\ntotal assets, and\ntotal revenue
+cond2=>condition: Income >= $1M and Shareholders equity >= $15M\nor\nShareholders equity >= $30M and Two-year operating history\nor\nTotal assets >= $75M and Total revenue >= $75M
+op3=>operation: The third-party company is subject to spinning rules
+cond3=>condition: Are individuals from the third-party company materially supported?
+op4=>operation: Spinning rules apply
+cond4=>condition: Is the underwriter an investment bank\nor\nhas the underwriter received compensation in the past 12 months?
+op5=>operation: Spinning is prohibited
+cond5=>condition: Does the underwriter intend to provide or expect\nto be retained for investment banking services?
+op6=>operation: Spinning is prohibited
+cond6=>condition: Has an executive officer or director\npromised future services?
+op7=>operation: Spinning is prohibited
+op8=>operation: Spinning is allowed
+op9=>operation: The third-party company is\nnot subject to spinning rules
+
+st->op1->cond1
+cond1(yes)->op2
+op2->cond2
+cond2(yes)->op3
+op3->cond3
+cond3(yes)->op4
+cond3(no)->cond4
+op4->cond5
+cond4(yes)->op5
+cond4(no)->cond5
+op5->e
+cond5(yes)->op6
+cond5(no)->cond6
+op6->e
+cond6(yes)->op7
+cond6(no)->op8
+op7->e
+op8->e
+cond2(no)->op9
+op9->e
+cond1(no)->op9
+
+@enduml

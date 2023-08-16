@@ -1,0 +1,180 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor DarkGray
+    BorderColor DarkGray
+    FontColor Black
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+skinparam RectangleFontColor DarkGrey
+
+skinparam SequenceDelayFontName "Ubuntu Mono"
+skinparam SequenceDelayFontSize 20
+skinparam SequenceDelayFontStyle normal
+skinparam SequenceDelayFontColor DarkGreen
+
+skinparam SequenceDividerBorderThickness 5
+skinparam SequenceDividerFontColor Grey
+/'
+' skinparam SequenceDividerFontName"Ubuntu Mono"
+'/
+skinparam SequenceDividerFontSize 20
+skinparam SequenceDividerFontStyle normal
+
+skinparam SequenceGroupBodyBackgroundColor Grey
+skinparam SequenceGroupBorderThickness 5
+skinparam SequenceGroupFontColor DarkKhaki
+/'
+' skinparam SequenceGroupFontName "Ubuntu Mono"
+'/
+skinparam SequenceGroupFontSize 20
+skinparam SequenceGroupFontStyle normal
+skinparam SequenceGroupHeaderFontColor DarkKhaki
+/'
+ ' skinparam SequenceGroupHeaderFontName "Ubuntu Mono"
+ '/
+skinparam SequenceGroupHeaderFontSize 20
+skinparam SequenceGroupHeaderFontStyle normal
+
+skinparam SequenceLifeLineBorderColor  Grey
+skinparam SequenceLifeLineBorderThickness 5
+/'
+' skinparam SequenceMessageAlignment
+' skinparam SequenceMessageTextAlignment
+'/
+
+skinparam SequenceNewpageSeparatorColor Grey
+
+
+skinparam SequenceParticipantFontName "Ubuntu Mono"
+skinparam SequenceParticipantFontSize 20
+skinparam SequenceParticipantFontColor Black
+skinparam SequenceParticipantBackgroundColor Grey
+
+
+skinparam SequenceParticipantBorderThickness 5
+
+/'
+' skinparam SequenceReferenceAlignment
+'/
+skinparam SequenceReferenceBackgroundColor Grey
+skinparam SequenceReferenceBorderThickness 5
+skinparam SequenceReferenceFontColor DarkRed
+skinparam SequenceReferenceFontName "Ubuntu Mono"
+skinparam SequenceReferenceFontSize 20
+skinparam SequenceReferenceFontStyle normal
+skinparam SequenceReferenceHeaderBackgroundColor Grey
+
+skinparam SequenceStereotypeFontColor DarkBlue
+skinparam SequenceStereotypeFontName "Ubuntu Mono"
+skinparam SequenceStereotypeFontSize 20
+skinparam SequenceStereotypeFontStyle normal
+
+skinparam SequenceActorBorderThickness 5
+
+skinparam SequenceArrowThickness 2
+
+skinparam SequenceBoxBorderColor Grey
+skinparam SequenceBoxFontColor DarkKhaki
+skinparam SequenceBoxFontName "Ubuntu Mono"
+skinparam SequenceBoxFontSize 20
+skinparam SequenceBoxFontStyle normal
+
+skinparam ActorBackgroundColor  DarkGreen
+skinparam ActorBorderColor LightGray
+skinparam ActorFontColor LightGray
+skinparam ActorFontName "Ubuntu Mono"
+skinparam ActorFontSize 20
+skinparam ActorFontStyle normal
+skinparam ActorStereotypeFontColor DarkGray
+skinparam ActorStereotypeFontName "Ubuntu Mono"
+skinparam ActorStereotypeFontSize 20
+skinparam ActorStereotypeFontStyle normal
+
+skinparam ArrowColor LightGray
+skinparam ArrowFontColor DarkKhaki
+skinparam ArrowFontName "Ubuntu Mono"
+skinparam ArrowFontSize 20
+skinparam ArrowFontStyle normal
+skinparam ArrowHeadColor DarkGreen
+skinparam ArrowLollipopColor DarkGreen
+skinparam ArrowThickness 2.0
+/'
+ ' ActorStyle (?)
+ '/
+
+actor Issuer
+actor Underwriter
+
+Issuance -> Underwriter : IPO Process Begins
+
+note left: Pre-IPO Activities
+
+activate Issuer
+activate Underwriter
+
+Issuer -> Underwriter : File Registration Statement
+Issuer -> Underwriter : Conduct Roadshows
+Issuer -> Underwriter : Set Offering Price
+Issuer -> Underwriter : Set Effective Date
+
+deactivate Issuer
+
+note over Underwriter
+  During IPO Activities
+end note
+
+Underwriter -> Underwriter : Stabilization Period Begins
+note right
+    Stabilization Period:
+        Begins before IPO pricing and
+        Ends when distribution is completed
+end note
+Underwriter -> Underwriter : Distribute Securities to Investors
+note right
+    Distribution Period:
+        Begins on IPO pricing date and
+        Ends when all securities are sold
+end note
+
+note over Underwriter
+  Stabilization Activities
+  (Stabilizing Bids, Penalty Bids)
+end note
+
+Underwriter -> Underwriter : Stabilization Period Ends
+note left
+    Stabilization Period Ends
+    Penalty Bid Period Begins
+end note
+
+note over Underwriter
+  Penalty Bids: Imposed on underwriters
+  who sell shares below offering price
+  (Penalty bid price is usually set at offering price)
+  Duration varies (e.g., 30 days)
+end note
+
+Underwriter -> Underwriter : Penalty Bid Check
+note right: If offering price <= penalty bid price
+
+note over Underwriter
+  Penalty Bids by Underwriter
+end note
+
+@enduml

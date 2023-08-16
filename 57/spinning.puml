@@ -1,0 +1,178 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor DarkGray
+    BorderColor DarkGray
+    FontColor Black
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+skinparam RectangleFontColor DarkGrey
+
+skinparam SequenceDelayFontName "Ubuntu Mono"
+skinparam SequenceDelayFontSize 20
+skinparam SequenceDelayFontStyle normal
+skinparam SequenceDelayFontColor DarkGreen
+
+skinparam SequenceDividerBorderThickness 5
+skinparam SequenceDividerFontColor Grey
+/'
+' skinparam SequenceDividerFontName"Ubuntu Mono"
+'/
+skinparam SequenceDividerFontSize 20
+skinparam SequenceDividerFontStyle normal
+
+skinparam SequenceGroupBodyBackgroundColor Grey
+skinparam SequenceGroupBorderThickness 5
+skinparam SequenceGroupFontColor DarkKhaki
+/'
+' skinparam SequenceGroupFontName "Ubuntu Mono"
+'/
+skinparam SequenceGroupFontSize 20
+skinparam SequenceGroupFontStyle normal
+skinparam SequenceGroupHeaderFontColor DarkKhaki
+/'
+ ' skinparam SequenceGroupHeaderFontName "Ubuntu Mono"
+ '/
+skinparam SequenceGroupHeaderFontSize 20
+skinparam SequenceGroupHeaderFontStyle normal
+
+skinparam SequenceLifeLineBorderColor  Grey
+skinparam SequenceLifeLineBorderThickness 5
+/'
+' skinparam SequenceMessageAlignment
+' skinparam SequenceMessageTextAlignment
+'/
+
+skinparam SequenceNewpageSeparatorColor Grey
+
+
+skinparam SequenceParticipantFontName "Ubuntu Mono"
+skinparam SequenceParticipantFontSize 20
+skinparam SequenceParticipantFontColor Black
+skinparam SequenceParticipantBackgroundColor Grey
+
+
+skinparam SequenceParticipantBorderThickness 5
+
+/'
+' skinparam SequenceReferenceAlignment
+'/
+skinparam SequenceReferenceBackgroundColor Grey
+skinparam SequenceReferenceBorderThickness 5
+skinparam SequenceReferenceFontColor DarkRed
+skinparam SequenceReferenceFontName "Ubuntu Mono"
+skinparam SequenceReferenceFontSize 20
+skinparam SequenceReferenceFontStyle normal
+skinparam SequenceReferenceHeaderBackgroundColor Grey
+
+skinparam SequenceStereotypeFontColor DarkBlue
+skinparam SequenceStereotypeFontName "Ubuntu Mono"
+skinparam SequenceStereotypeFontSize 20
+skinparam SequenceStereotypeFontStyle normal
+
+skinparam SequenceActorBorderThickness 5
+
+skinparam SequenceArrowThickness 2
+
+skinparam SequenceBoxBorderColor Grey
+skinparam SequenceBoxFontColor DarkKhaki
+skinparam SequenceBoxFontName "Ubuntu Mono"
+skinparam SequenceBoxFontSize 20
+skinparam SequenceBoxFontStyle normal
+
+skinparam ActorBackgroundColor  DarkGreen
+skinparam ActorBorderColor LightGray
+skinparam ActorFontColor LightGray
+skinparam ActorFontName "Ubuntu Mono"
+skinparam ActorFontSize 20
+skinparam ActorFontStyle normal
+skinparam ActorStereotypeFontColor DarkGray
+skinparam ActorStereotypeFontName "Ubuntu Mono"
+skinparam ActorStereotypeFontSize 20
+skinparam ActorStereotypeFontStyle normal
+
+skinparam ArrowColor LightGray
+skinparam ArrowFontColor DarkKhaki
+skinparam ArrowFontName "Ubuntu Mono"
+skinparam ArrowFontSize 20
+skinparam ArrowFontStyle normal
+skinparam ArrowHeadColor DarkGreen
+skinparam ArrowLollipopColor DarkGreen
+skinparam ArrowThickness 2.0
+/'
+ ' ActorStyle (?)
+ '/
+
+actor InvestmentBank
+actor CorporateClient
+participant PublicMarket
+participant RegulatoryAuthorities
+
+InvestmentBank -> CorporateClient : Build Banking Relationship
+InvestmentBank -> CorporateClient : Promise Future IPO Allocation
+CorporateClient -> InvestmentBank : Become Banking Client
+
+InvestmentBank -> CorporateClient : Allocate IPO Shares
+CorporateClient -> InvestmentBank : Accept IPO Shares
+InvestmentBank -> CorporateClient : Verify Corporate Client's Status
+note right
+    * Covered: Corporate Client is subject to Rule 5131.
+    * Non-Covered: Corporate Client is not subject to Rule 5131.
+end note
+
+skinparam ArrowColor Navy
+skinparam ArrowFontColor Navy
+skinparam ArrowFontName "Ubuntu Mono"
+skinparam ArrowFontSize 20
+skinparam ArrowFontStyle normal
+skinparam ArrowHeadColor DarkGreen
+skinparam ArrowLollipopColor DarkGreen
+skinparam ArrowThickness 2.0
+skinparam defaultFontColor Black
+
+alt #DarkSlateGray Non-Covered Corporate Client 
+    CorporateClient -> InvestmentBank : Confirmed Non-Covered Status
+    InvestmentBank -> PublicMarket : IPO Offering
+    CorporateClient -> PublicMarket : Sell IPO Shares
+    InvestmentBank -> CorporateClient : Investigate IPO Misconduct
+    CorporateClient -> InvestmentBank : Cooperation
+    RegulatoryAuthorities -> InvestmentBank : No Violation
+
+else #RosyBrown Covered Corporate Client 
+    CorporateClient -> InvestmentBank : Confirmed Covered Status
+    alt #RosyBrown Company
+        InvestmentBank -> CorporateClient : Company is Investment Banking Client
+    else #RosyBrown Person
+        InvestmentBank -> CorporateClient : Person's Intent for Future Services
+    else #RosyBrown Promise
+        InvestmentBank -> CorporateClient : Express or Implied Condition
+    end
+    InvestmentBank -> CorporateClient : Allocate IPO Shares below future IPO offering price
+    note right
+        * Malpractice: Corporate Client is allocated IPO shares at a price lower than the offering price.
+        * Violation: Distributing IPO shares to Corporate Client before the offering date.
+    end note
+    CorporateClient -> InvestmentBank : Accept IPO Shares
+    InvestmentBank -> PublicMarket : IPO Offering
+    CorporateClient -> PublicMarket : Sell IPO Shares
+    InvestmentBank -> CorporateClient : Investigate IPO Misconduct
+    CorporateClient -> InvestmentBank : Cooperation
+    RegulatoryAuthorities -> InvestmentBank : Fine and Penalty
+end
+
+@enduml

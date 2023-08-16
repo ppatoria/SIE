@@ -1,5 +1,4 @@
 @startuml
-@startuml
 !define DarkBackground #2D2D2D
 !define LightGreen #00CC00
 !define LightRed #FF6666
@@ -81,20 +80,23 @@ note right
 - Cannot create false or misleading appearance of active trading;
 end note
 
-:Stabilizing and Penalty Bids;
+:Stabilization Period Ends;
+:Penalty bid period begins;
+if (Offering price from underwriter <= Penalty bid price) then (yes)
+    :Penalty bid is activated;
+endif
 note right
-- Methods to prevent or retard market price decline during distribution;
-- Stabilizing by underwriter or distribution participants;
-- Penalty bids by issuer;
-- Stabilizing only during restricted period;
-- Penalty bids can be done at any time during distribution period;
+    * Underwriters may be subject to penalty bids;
+    * Penalty bid can be imposed on underwriters who sell shares below offering price;
+    * Penalty bid price is usually set at the offering price;
+    * Penalty bid can discourage selling below offering price;
+    * Penalty bid duration varies (e.g., 30 days);
+    * Penalty bids by issuer;
+    * Penalty bids can be done at any time during distribution period;
+    * SEC can impose civil penalties (fines, disgorgement of profits);
+    * SEC can bring criminal charges against violators;
 end note
 
-:Penalties for Violations;
-note right
-- SEC can impose civil penalties (fines, disgorgement of profits);
-- SEC can bring criminal charges against violators;
-end note
 
 stop
 @enduml

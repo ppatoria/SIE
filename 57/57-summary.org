@@ -1134,18 +1134,9 @@ No halt
 |----+--------------------------+-----------------------------------------------------------------------|
 
 
-* Spinning 
-
-
-       Investment Bank (XYZ Bank)
-          |
-          |                   Corporate Client (Company A)
-  Executives or top clients   |
-   of Company A               |     Initial Public Offering (IPO)
-          |                   |
-          V                   V
-   Allocation of IPO shares   Public Market
-        to executives         (Shares available to the public)
+* Spinning
+[[./spinning_condition.png]]
+[[./spinning.png]]
 
 * Table summarizing the information relevant to determining if a private firm is involved in spinning:
 
@@ -3200,6 +3191,9 @@ I hope this explanation is more clear. Let me know if you have any other questio
 
 * Security Offerings
 [[./security_offerings.png]]
+
+* IPO
+[[./IPO_period.png]]
 
 * Stabilizing Bids
 [[./stabilizing-bids.png]]
