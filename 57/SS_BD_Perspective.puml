@@ -1,0 +1,62 @@
+@startuml
+!include theme_activity_diagram.puml
+start
+:Start;
+:Contact Broker-Dealer;
+if (Securities Available?) then (yes)
+  :Borrow Securities;
+else (no)
+  :Locate Securities;
+  if (Securities Located?) then (yes)
+    :Borrow Securities;
+  else (no)
+    if (Have Agreement with Institutional Investor?) then (yes)
+      :Borrow Securities;
+    else (no)
+      :Wait for Availability;
+    endif
+  endif
+endif
+:Aggregate Positions;
+note left
+  - Collect short selling positions
+  - Calculate total positions
+  - Track and monitor positions
+  - Reporting and compliance
+  - Risk management
+  - Record keeping
+end note
+:Report Short Selling Positions;
+if (Market Down by 10% or More?) then (yes)
+  :Restrict Short Selling;
+  :Trade Halt;
+else if (Price Higher than NBB?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
+else if (Long Position?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
+else if (Odd Lot/Warrant/Right/Convertible/VWAP/Riskless Principal Trade/Recently Traded and Settling Next Day?) then (yes)
+  :Restriction Exceptions;
+  :Execute Trades;
+else (no)
+  :Follow Normal Short Selling Process;
+  :Execute Trades;
+endif
+:Trade Settlement (T + 3);
+if (Settlement Failure?) then (yes)
+  :Additional Days Before Penalties (T + 3 + 2);
+  :Regulatory Penalties;
+else (no)
+  :Complete Settlement;
+endif
+:End;
+stop
+
+note left
+  Broker-Dealer may have agreements with institutional investors to borrow securities for short selling.
+  If securities are not available in inventory, the broker-dealer can locate securities from other sources such as institutional investors.
+  Trade settlement occurs on T + 3 business days after the trade date.
+  If settlement fails, the broker-dealer may provide an additional two business days before regulatory penalties apply.
+end note
+@enduml

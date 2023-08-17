@@ -1,0 +1,58 @@
+@startuml
+!include theme_activity_diagram.puml
+title Short Selling Position Aggregation Process
+
+start
+:Collect Positions;
+:Calculate Total Positions;
+:Track and Monitor Positions;
+:Report Aggregated Positions;
+:Conduct Risk Management;
+:Record Keeping;
+stop
+
+note left
+Suppose ABC Securities receives short selling positions from three traders:
+Trader A, Trader B, and Trader C.
+Each trader has borrowed and sold short a different quantity of XYZ stock.
+end note
+
+group Collect Positions
+  :Collect short selling positions from each trader;
+  :Obtain information on borrowed quantities and sold short quantities for XYZ stock;
+end group
+
+group Calculate Total Positions
+  :Calculate total positions for XYZ stock;
+  :Sum up the sold short quantities from each trader;
+  note right
+  Total borrowed quantity: 1,000 + 500 + 1,200 = 2,700 shares
+  Total sold short quantity: 800 + 300 + 1,000 = 2,100 shares
+  end note
+end group
+
+group Track and Monitor Positions
+  :Track and monitor aggregated short selling positions of XYZ stock;
+  :Ensure up-to-date view of overall short position exposure;
+end group
+
+group Report Aggregated Positions
+  :Include aggregated positions in regulatory reports;
+  :Provide transparency and compliance with reporting obligations;
+  :Share aggregated positions with internal stakeholders, compliance teams, and risk management departments;
+end group
+
+group Conduct Risk Management
+  :Assess exposure to potential market risks;
+  :Identify concentrations in specific securities;
+  :Assess impact on market conditions;
+  :Take necessary risk management measures to mitigate potential losses;
+end group
+
+group Record Keeping
+  :Maintain accurate records of aggregated short selling positions for XYZ stock;
+  :Use records as audit trail;
+  :Provide historical data and demonstrate compliance during regulatory audits or internal reviews;
+end group
+
+@enduml

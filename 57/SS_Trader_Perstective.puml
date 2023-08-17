@@ -1,0 +1,60 @@
+@startuml
+!include theme_activity_diagram.puml
+start
+:Start;
+:Identify Securities to Short Sell;
+:Contact Broker-Dealer;
+if (Securities Available?) then (yes)
+  :Borrow Securities;
+else (no)
+  :Locate Securities;
+  if (Securities Located?) then (yes)
+    :Borrow Securities;
+  else (no)
+    if (Have Agreement with Institutional Investor?) then (yes)
+      :Borrow Securities;
+    else (no)
+      :Wait for Availability;
+    endif
+  endif
+endif
+:Execute Short Sell Order;
+:Trade Settlement (T + 3);
+if (Settlement Failure?) then (yes)
+  :Additional Days Before Penalties (T + 3 + 2);
+  :Regulatory Penalties;
+else (no)
+  :Complete Settlement;
+endif
+:Identify Time to Buy Back Securities;
+if (Price Decreased?) then (yes)
+  :Execute Buy Back Order;
+  :Trade Settlement (T + 3);
+  if (Settlement Failure?) then (yes)
+    :Additional Days Before Penalties (T + 3 + 2);
+    :Regulatory Penalties;
+  else (no)
+    :Complete Settlement;
+  endif
+else (no)
+  :Wait for Price Decrease;
+endif
+:End;
+stop
+
+note left
+  The trader identifies the securities they wish to short sell.
+  The trader contacts their broker-dealer to initiate the short selling process.
+  If the broker-dealer has the securities available, they will borrow them on behalf of the trader.
+  If the broker-dealer does not have the securities available, they will attempt to locate them from other sources.
+  If the securities are located, the broker-dealer will borrow them on behalf of the trader.
+  If the broker-dealer has an agreement with an institutional investor to borrow securities, they will do so on behalf of the trader.
+  If the securities are not available, the trader will need to wait until they become available.
+  Once the trader has borrowed the securities, they can execute their short sell order.
+  Trade settlement occurs on T + 3 business days after the trade date.
+  If settlement fails, the trader may have additional time before regulatory penalties apply.
+  After the short sale, the trader monitors the price of the securities to determine the optimal time to buy back.
+  If the price decreases, the trader can execute their buy back order and settle the trade.
+  If the price does not decrease, the trader will need to wait until it does.
+end note
+@enduml

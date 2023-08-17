@@ -1,0 +1,36 @@
+@startuml
+!include theme_activity_diagram.puml
+title Market-Wide Circuit Breakers Process
+
+start
+:Monitor S&P 500 Index;
+if (7% decline) then (Yes)
+  :Initiate Level 1 trading halt for 15 minutes;
+  if (Before 3:25 pm) then (Yes)
+    :Trading resumes normally after 15-minute halt;
+  else (No)
+    if (Level 1 halt already occurred today?) then (No)
+      :Trading resumes normally after 15-minute halt;
+    else (Yes)
+      :Trading continues normally;
+    endif
+  endif
+else if (13% decline) then (Yes)
+  :Initiate Level 2 trading halt for 15 minutes;
+  if (Before 3:25 pm) then (Yes)
+    :Trading resumes normally after 15-minute halt;
+  else (No)
+    if (Level 2 halt already occurred today?) then (No)
+      :Trading resumes normally after 15-minute halt;
+    else (Yes)
+      :Trading continues normally;
+    endif
+  endif
+else if (20% decline) then (Yes)
+  :Halt all trading for the rest of the day;
+  :All market-on-close (MOC) orders cancelled;
+  :Official closing price set at last trade executed before halt;
+endif
+
+stop
+@enduml

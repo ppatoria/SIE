@@ -18,7 +18,7 @@ skinparam note {
     BorderColor DarkGray
     FontColor Navy
     fontstyle normal
-    FontSize 20
+    FontSize 18
     FontName "Ubuntu Mono"
 }
 
@@ -29,58 +29,55 @@ skinparam {
     ActivityBorderThickness 0
     ActivityFontColor Black
     ActivityFontName "Ubuntu Mono"
-    ActivityFontSize 20
+    ActivityFontSize 18
     ActivityFontStyle normal
     ActivityDiamondBackgroundColor DarkGreen
     ActivityDiamondBorderColor Lightgreen
     ActivityDiamondFontColor Black
     ActivityDiamondFontName "Ubuntu Mono"
-    ActivityDiamondFontSize 20
+    ActivityDiamondFontSize 18
     ActivityDiamondFontStyle normal
     ActivityArrowColor Grey
     ActivityArrowThickness 2
     ActivityStartColor LightGreen
     ActivityEndColor LightRed
 }
-st=>start: Start
-e=>end: End
+start
 
-st->op1=>operation: Check if the third-party company\nis a covered nonpublic (private) company?
-cond1=>condition: Does the third-party company meet any of the three conditions?
-op2=>operation: Obtain and evaluate\nincome,\nshareholders' equity,\ntotal assets, and\ntotal revenue
-cond2=>condition: Income >= $1M and Shareholders equity >= $15M\nor\nShareholders equity >= $30M and Two-year operating history\nor\nTotal assets >= $75M and Total revenue >= $75M
-op3=>operation: The third-party company is subject to spinning rules
-cond3=>condition: Are individuals from the third-party company materially supported?
-op4=>operation: Spinning rules apply
-cond4=>condition: Is the underwriter an investment bank\nor\nhas the underwriter received compensation in the past 12 months?
-op5=>operation: Spinning is prohibited
-cond5=>condition: Does the underwriter intend to provide or expect\nto be retained for investment banking services?
-op6=>operation: Spinning is prohibited
-cond6=>condition: Has an executive officer or director\npromised future services?
-op7=>operation: Spinning is prohibited
-op8=>operation: Spinning is allowed
-op9=>operation: The third-party company is\nnot subject to spinning rules
-
-st->op1->cond1
-cond1(yes)->op2
-op2->cond2
-cond2(yes)->op3
-op3->cond3
-cond3(yes)->op4
-cond3(no)->cond4
-op4->cond5
-cond4(yes)->op5
-cond4(no)->cond5
-op5->e
-cond5(yes)->op6
-cond5(no)->cond6
-op6->e
-cond6(yes)->op7
-cond6(no)->op8
-op7->e
-op8->e
-cond2(no)->op9
-op9->e
-cond1(no)->op9
+:Check if the third-party company \nis a covered nonpublic (private) company?;
+if (Does the third-party company meet \nany of the three conditions?) then (Yes)
+  :Obtain and evaluate \nincome, \nshareholders' \nequity, \ntotal assets, and \ntotal revenue;
+  
+  if (Income >= $1M and Shareholders equity >= $15M) \nor \n(Shareholders equity >= $30M and Two-year operating history) \nor \n(Total assets >= $75M and Total revenue >= $75M) then (Yes)
+    :The third-party company is subject to spinning rules;
+  
+    :Check if individuals receiving shares \nfrom the third-party company are senior executives or directors;
+    if (Are individuals from the third-party company materially supported?) then (Yes)
+      :Spinning rules apply;
+    else (No)
+      :Check qualifiers for spinning rules;
+      if (Is the underwriter an investment bank \nor \nhas the underwriter received compensation in the past 12 months?) then (Yes)
+        :Spinning is prohibited;
+      else (No)
+        :Check if IPO allocation decisions \nindicate future investment banking services;
+        if (Does the underwriter intend to provide or expect \nto be retained for investment banking services?) then (Yes)
+          :Spinning is prohibited;
+        else (No)
+          :Check for express or implied conditions \nof future investment banking services;
+          if (Has an executive officer or director \npromised future services?) then (Yes)
+            :Spinning is prohibited;
+          else (No)
+            :Spinning is allowed;
+          endif
+        endif
+      endif
+    endif
+  else
+    :The third-party company is \nnot subject to spinning rules;
+  endif
+else (No)
+  :The third-party company is \nnot a covered nonpublic company;
+  :The third-party company is \nnot subject to spinning rules;
+endif
 
 @enduml

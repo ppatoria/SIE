@@ -1,0 +1,18 @@
+@startmindmap
+!include theme_activity_diagram.puml
+skinparam defaultFontColor Black
+* Securities Trading
+** BD Should:
+*** Adhere to Order Protection Rule
+**** Ensure best available price is executed for investors
+**** Route orders to trading venues that provide best price
+*** Follow Best Execution Mandate
+**** Seek best possible execution price for clients' orders
+**** Use reliable and efficient trading systems
+**** Monitor execution quality to identify and correct issues
+*** Disclose any Payments for Order Flow to Affected Customers
+**** Provide information about nature and amount of payments
+**** Disclose potential conflicts of interest
+**** Ensure transparency and fairness in the marketplace
+**** Allow investors to make informed decisions
+@endmindmap

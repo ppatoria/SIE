@@ -1,0 +1,71 @@
+@startuml
+!include theme_activity_diagram.puml
+title LULD Process
+
+start
+note
+*** Band/LULD: is % above and below the stock reference price
+*** Reference price: the 5-minute average moving price of a stock 
+**** which is calculated every 30 seconds 
+**** updated after 1% or greater change in the prior reference price.
+*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
+end note
+:Stock price moves up or down;
+if (Stock price movement <= LULD Band) then (within LULD Band)
+  :Trading continues normally;
+else (outside LULD Band)
+  :15-second limit state;
+  if (Quote remains at or outside band for 15 seconds?) then (Yes)
+    :Five-minute trading halt;
+    if (Re-opening price is reported by primary market within 10 minutes?) then (Yes)
+      :Trading resumes normally;
+    else (No)
+      :Trading may resume at other trading centers and exchanges;
+    endif
+  else (No)
+    :Trading continues within the band;
+  endif
+endif
+stop
+@enduml
+#+END_SRC
+[[./LULD.png]]
+
+
+** Circuit breaker
+#+begin_src 
+@startuml
+title Market-Wide Circuit Breakers Process
+
+start
+:Monitor S&P 500 Index;
+if (7% decline) then (Yes)
+  :Initiate Level 1 trading halt for 15 minutes;
+  if (Before 3:25 pm) then (Yes)
+    :Trading resumes normally after 15-minute halt;
+  else (No)
+    if (Level 1 halt already occurred today?) then (No)
+      :Trading resumes normally after 15-minute halt;
+    else (Yes)
+      :Trading continues normally;
+    endif
+  endif
+else if (13% decline) then (Yes)
+  :Initiate Level 2 trading halt for 15 minutes;
+  if (Before 3:25 pm) then (Yes)
+    :Trading resumes normally after 15-minute halt;
+  else (No)
+    if (Level 2 halt already occurred today?) then (No)
+      :Trading resumes normally after 15-minute halt;
+    else (Yes)
+      :Trading continues normally;
+    endif
+  endif
+else if (20% decline) then (Yes)
+  :Halt all trading for the rest of the day;
+  :All market-on-close (MOC) orders cancelled;
+  :Official closing price set at last trade executed before halt;
+endif
+
+stop
+@enduml

@@ -1,0 +1,107 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+}
+
+title Regulation M Rule 105: Short-Selling in Connection with Public Offering
+
+start
+
+:Purpose of Rule 105;
+note left
+  Prevent manipulative conduct, especially short-selling,
+  in connection with public offerings.
+end note
+
+:Scope of Rule 105;
+note right
+  Applies to domestic and foreign securities offerings.
+  Prohibits short-selling and purchasing from underwriters
+  during restricted period.
+end note
+
+:Definition of Restricted Period;
+note left
+  Begins five business days before pricing of offering
+  and ends with pricing of offering.
+end note
+
+:Prohibition on Short-Selling;
+note right
+  Prohibits short-selling of equity security if received
+  shares from same security offering.
+end note
+
+stop
+
+:Example Scenario: Manipulative Short-Selling;
+note left
+  Company XYZ announces public offering on Jan 1.
+  Offering priced on Jan 10.
+end note
+
+:Manipulative Short-Selling;
+note right
+  During restricted period: Jan 1 to Jan 10.
+  A trader shorts XYZ stock heavily to drive down its price.
+end note
+
+:Purchasing from Underwriters;
+note left
+  Cannot purchase XYZ stock from underwriters
+  during restricted period if received shares.
+end note
+
+:Rule 105 Restriction in Action;
+note right
+  Trader's manipulative short-selling impacts XYZ stock price.
+  However, Rule 105 restricts short-selling during the restricted period.
+end note
+
+:Violations and Penalties;
+note right
+  Violations result in fines, suspensions,
+  and regulatory actions.
+end note
+
+@enduml

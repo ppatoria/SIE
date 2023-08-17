@@ -1,0 +1,132 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor Black
+skinparam defaultfontstyle bold
+skinparam defaultFontSize 20
+skinparam defaultFontName "Ubuntu Mono"
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+}
+start
+title  Regulation M Rule 103 (Passive Market Making Defined)
+'----------------------------'
+'Passive Market Maker Defined'
+'----------------------------'
+partition DarkGray PassiveMarketMakingDefined{
+    :Passive Market Maker Defined;
+}
+note  right
+  - Displays Two-Sided Quotes
+  - Maintains a Neutral Position
+  - Avoids Aggressive Trading
+  - Doesn't Promote the Security
+  - Facilitates Trading
+end note
+
+'----------------------------'
+'Best Bid/Offer in the market'
+'----------------------------'
+
+fork
+    partition DarkGray BestPriceRestrictionsDefined{
+    :Best Bid and Offer
+     in the Market Define;
+    }
+    note left
+        Best bid:
+        highest bid  published in the Market
+
+        Best offer:
+        lowest offer published in the market
+
+        Restrictions on quotes below:
+        Best bid in the market
+        OR
+        Best offer in the market
+    end note
+
+'---------------------'
+'Independent Bid/Offer'
+'---------------------'
+
+fork again
+    partition DarkGray BestIndependentPriceRestrictionsDefined{
+        :Independent Bid and Offer Defined;
+        :Passive Market Maker
+         Independent Quote restrictions;
+    }
+    note right
+        Independent bid:
+        highest bid  published by market maker
+
+        Independent offer:
+        lowest offer published by market maker
+
+        Restrictions on quotes below
+        independent bid or above independent offer
+    end note
+
+'------------------'
+'compliance defined'
+'------------------'
+
+fork again
+    partition DarkGray ComplianceForDistributionDefined{
+
+        :Compliance for Distribution;
+        :Restriction Condition for Compliance:
+         Entering quotes Above independent offer
+         or Below independent bid;
+
+        :Compliance for Distribution:
+         Applies to distribution of securities,
+         including IPO;
+        :Quotes restrictions;
+        note right
+            Restrictions on quotes below
+            best bid or above best offer
+        end note
+    }
+end fork
+
+stop
+
+@enduml

@@ -2,36 +2,6 @@
 #+AUTHOR: Pralay
 #+DATE: 2023-06-17
 
-#+CSS:
-body {
-font-family: "Consolas", monospace;
-font-size: 14px;
-color: #ccc;
-background-color: #2b2b2b;
-}
-
-table {
-border-collapse: collapse;
-width: 100%;
-}
-
-th, td {
-padding: 5px;
-border: 1px solid #ccc;
-}
-
-th {
-background-color: #444;
-color: #fff;
-}
-
-td {
-color: #aaa;
-}
-
-#+CAPTION: A table with 120 columns
-#+TBLFM: $1=$2=$3
-
 * Market Participants
 ** Broker Dealer
 *** Active
@@ -210,309 +180,28 @@ This type of halt is used when there is pending news about a foreign company tha
 **** No halt
 This type of halt does not involve halting trading but rather involves regulatory action against a foreign company.
 ** Limit Up Limit Down
-#+ATTR_HTML: :align left
-[[./LULD_FLOW.png]]
-#+BEGIN_SRC plantuml
-@startuml
-title LULD Process
 
-start
-note
-*** Band/LULD: is % above and below the stock reference price
-*** Reference price: the 5-minute average moving price of a stock 
-**** which is calculated every 30 seconds 
-**** updated after 1% or greater change in the prior reference price.
-*** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
-end note
-:Stock price moves up or down;
-if (Stock price movement <= LULD Band) then (within LULD Band)
-  :Trading continues normally;
-else (outside LULD Band)
-  :15-second limit state;
-  if (Quote remains at or outside band for 15 seconds?) then (Yes)
-    :Five-minute trading halt;
-    if (Re-opening price is reported by primary market within 10 minutes?) then (Yes)
-      :Trading resumes normally;
-    else (No)
-      :Trading may resume at other trading centers and exchanges;
-    endif
-  else (No)
-    :Trading continues within the band;
-  endif
-endif
-stop
-@enduml
-#+END_SRC
 [[./LULD.png]]
 
-
 ** Circuit breaker
-#+begin_src 
-@startuml
-title Market-Wide Circuit Breakers Process
-
-start
-:Monitor S&P 500 Index;
-if (7% decline) then (Yes)
-  :Initiate Level 1 trading halt for 15 minutes;
-  if (Before 3:25 pm) then (Yes)
-    :Trading resumes normally after 15-minute halt;
-  else (No)
-    if (Level 1 halt already occurred today?) then (No)
-      :Trading resumes normally after 15-minute halt;
-    else (Yes)
-      :Trading continues normally;
-    endif
-  endif
-else if (13% decline) then (Yes)
-  :Initiate Level 2 trading halt for 15 minutes;
-  if (Before 3:25 pm) then (Yes)
-    :Trading resumes normally after 15-minute halt;
-  else (No)
-    if (Level 2 halt already occurred today?) then (No)
-      :Trading resumes normally after 15-minute halt;
-    else (Yes)
-      :Trading continues normally;
-    endif
-  endif
-else if (20% decline) then (Yes)
-  :Halt all trading for the rest of the day;
-  :All market-on-close (MOC) orders cancelled;
-  :Official closing price set at last trade executed before halt;
-endif
-
-stop
-@enduml
-#+end_src
-#+ATTR_HTML: :align left
 [[./CircuitBreaker.png]]
 
 ** Circuit breaker vs LULD
-#+begin_src 
-@startuml
-title Circuit Breaker vs LULD Flowchart
 
-start
-:Trading for all securities is active;
-
-if (Price of any security falls below 7% decline in the S&P 500) then (yes)
-  :Circuit breaker is triggered;
-  :Trading for all securities is halted;
-else if (Price of a security reaches or exceeds +/- 5% from reference price) then (yes)
-  :LULD event is triggered;
-  :Trading for affected security is paused;
-  :Traders can adjust their orders;
-  if (Price remains within price bands after pause) then (yes)
-    :Trading for affected security resumes;
-  else
-    :LULD event is triggered again;
-    :Trading for affected security is paused again;
-  endif
-else
-  :Trading continues;
-endif
-
-stop
-@enduml
-#+end_src
-#+ATTR_HTML: :align left
 [[./CircuitBreaker_VS_LULD.png]]
 
 * Short Sell
 ** Flow Broker-Dealer's Perspective
-#+begin_src
-@startuml
-start
-:Start;
-:Contact Broker-Dealer;
-if (Securities Available?) then (yes)
-  :Borrow Securities;
-else (no)
-  :Locate Securities;
-  if (Securities Located?) then (yes)
-    :Borrow Securities;
-  else (no)
-    if (Have Agreement with Institutional Investor?) then (yes)
-      :Borrow Securities;
-    else (no)
-      :Wait for Availability;
-    endif
-  endif
-endif
-:Aggregate Positions;
-note left
-  - Collect short selling positions
-  - Calculate total positions
-  - Track and monitor positions
-  - Reporting and compliance
-  - Risk management
-  - Record keeping
-end note
-:Report Short Selling Positions;
-if (Market Down by 10% or More?) then (yes)
-  :Restrict Short Selling;
-  :Trade Halt;
-else if (Price Higher than NBB?) then (yes)
-  :Restriction Exceptions;
-  :Execute Trades;
-else if (Long Position?) then (yes)
-  :Restriction Exceptions;
-  :Execute Trades;
-else if (Odd Lot/Warrant/Right/Convertible/VWAP/Riskless Principal Trade/Recently Traded and Settling Next Day?) then (yes)
-  :Restriction Exceptions;
-  :Execute Trades;
-else (no)
-  :Follow Normal Short Selling Process;
-  :Execute Trades;
-endif
-:Trade Settlement (T + 3);
-if (Settlement Failure?) then (yes)
-  :Additional Days Before Penalties (T + 3 + 2);
-  :Regulatory Penalties;
-else (no)
-  :Complete Settlement;
-endif
-:End;
-stop
+[[
+./SS_BD_Perspective.png]]
 
-note left
-  Broker-Dealer may have agreements with institutional investors to borrow securities for short selling.
-  If securities are not available in inventory, the broker-dealer can locate securities from other sources such as institutional investors.
-  Trade settlement occurs on T + 3 business days after the trade date.
-  If settlement fails, the broker-dealer may provide an additional two business days before regulatory penalties apply.
-end note
-@enduml
-#+end_src
-#+ATTR_HTML: :align left
-[[./SS.png]]
 ** Traders Perspective
-#+begin_src 
-@startuml
-start
-:Start;
-:Identify Securities to Short Sell;
-:Contact Broker-Dealer;
-if (Securities Available?) then (yes)
-  :Borrow Securities;
-else (no)
-  :Locate Securities;
-  if (Securities Located?) then (yes)
-    :Borrow Securities;
-  else (no)
-    if (Have Agreement with Institutional Investor?) then (yes)
-      :Borrow Securities;
-    else (no)
-      :Wait for Availability;
-    endif
-  endif
-endif
-:Execute Short Sell Order;
-:Trade Settlement (T + 3);
-if (Settlement Failure?) then (yes)
-  :Additional Days Before Penalties (T + 3 + 2);
-  :Regulatory Penalties;
-else (no)
-  :Complete Settlement;
-endif
-:Identify Time to Buy Back Securities;
-if (Price Decreased?) then (yes)
-  :Execute Buy Back Order;
-  :Trade Settlement (T + 3);
-  if (Settlement Failure?) then (yes)
-    :Additional Days Before Penalties (T + 3 + 2);
-    :Regulatory Penalties;
-  else (no)
-    :Complete Settlement;
-  endif
-else (no)
-  :Wait for Price Decrease;
-endif
-:End;
-stop
 
-note left
-  The trader identifies the securities they wish to short sell.
-  The trader contacts their broker-dealer to initiate the short selling process.
-  If the broker-dealer has the securities available, they will borrow them on behalf of the trader.
-  If the broker-dealer does not have the securities available, they will attempt to locate them from other sources.
-  If the securities are located, the broker-dealer will borrow them on behalf of the trader.
-  If the broker-dealer has an agreement with an institutional investor to borrow securities, they will do so on behalf of the trader.
-  If the securities are not available, the trader will need to wait until they become available.
-  Once the trader has borrowed the securities, they can execute their short sell order.
-  Trade settlement occurs on T + 3 business days after the trade date.
-  If settlement fails, the trader may have additional time before regulatory penalties apply.
-  After the short sale, the trader monitors the price of the securities to determine the optimal time to buy back.
-  If the price decreases, the trader can execute their buy back order and settle the trade.
-  If the price does not decrease, the trader will need to wait until it does.
-end note
-@enduml
-#+end_src
-#+ATTR_HTML: :align left
-[[./SS_Trader.png]]
+[[./SS_Trader_Perstective.png]]
+
 ** Aggregate the positions
- 
 
-#+begin_src 
-@startuml
-title Short Selling Position Aggregation Process
-
-start
-:Collect Positions;
-:Calculate Total Positions;
-:Track and Monitor Positions;
-:Report Aggregated Positions;
-:Conduct Risk Management;
-:Record Keeping;
-stop
-
-note left
-Suppose ABC Securities receives short selling positions from three traders:
-Trader A, Trader B, and Trader C.
-Each trader has borrowed and sold short a different quantity of XYZ stock.
-end note
-
-group Collect Positions
-  :Collect short selling positions from each trader;
-  :Obtain information on borrowed quantities and sold short quantities for XYZ stock;
-end group
-
-group Calculate Total Positions
-  :Calculate total positions for XYZ stock;
-  :Sum up the sold short quantities from each trader;
-  note right
-  Total borrowed quantity: 1,000 + 500 + 1,200 = 2,700 shares
-  Total sold short quantity: 800 + 300 + 1,000 = 2,100 shares
-  end note
-end group
-
-group Track and Monitor Positions
-  :Track and monitor aggregated short selling positions of XYZ stock;
-  :Ensure up-to-date view of overall short position exposure;
-end group
-
-group Report Aggregated Positions
-  :Include aggregated positions in regulatory reports;
-  :Provide transparency and compliance with reporting obligations;
-  :Share aggregated positions with internal stakeholders, compliance teams, and risk management departments;
-end group
-
-group Conduct Risk Management
-  :Assess exposure to potential market risks;
-  :Identify concentrations in specific securities;
-  :Assess impact on market conditions;
-  :Take necessary risk management measures to mitigate potential losses;
-end group
-
-group Record Keeping
-  :Maintain accurate records of aggregated short selling positions for XYZ stock;
-  :Use records as audit trail;
-  :Provide historical data and demonstrate compliance during regulatory audits or internal reviews;
-end group
-
-@enduml
-#+end_src
-#+ATTR_HTML: :align left
-[[./SS_Aggregation_Positions_process.png]]
+[[./SS_Aggregate_Position.png]]
 
 ** Broker-Dealer
 *** Locate
@@ -538,28 +227,7 @@ end group
 
 ** In-Kind services
 
-#+begin_src plantuml
-@startmindmap
-,* Securities Trading
-,** BD Should:
-,*** Adhere to Order Protection Rule
-,**** Ensure best available price is executed for investors
-,**** Route orders to trading venues that provide best price
-,*** Follow Best Execution Mandate
-,**** Seek best possible execution price for clients' orders
-,**** Use reliable and efficient trading systems
-,**** Monitor execution quality to identify and correct issues
-,*** Disclose any Payments for Order Flow to Affected Customers
-,**** Provide information about nature and amount of payments
-,**** Disclose potential conflicts of interest
-,**** Ensure transparency and fairness in the marketplace
-,**** Allow investors to make informed decisions
-@endmindmap
-#+end_src
-
-[[./in-kind-service.png]]
-
-
+[[./in_kind_service.png]]
 
 *** BD should
     - adhere order protection rule
@@ -1122,34 +790,7 @@ No halt
 |-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
     
 
-* A covered nonpublic (i.e., private) company is one that meets any _one_ of three conditions:
 
-|----+--------------------------+-----------------------------------------------------------------------|
-| 1. | Income                   | of at least $1 million in the last fiscal year, or in two of the last |
-|    |                          | three fiscal years, and shareholders’ equity of at least $15 million  |
-| 2. | Shareholders’ equity     | of at least $30 million and a two-year operating                      |
-|    |                          | history, or                                                           |
-| 3. | Total assets and revenue | of at least $75 million in the latest fiscal year, or                 |
-|    |                          | in two of the last three fiscal years                                 |
-|----+--------------------------+-----------------------------------------------------------------------|
-
-
-* Spinning
-[[./spinning_condition.png]]
-[[./spinning.png]]
-
-* Table summarizing the information relevant to determining if a private firm is involved in spinning:
-
-|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
-| Criteria                    | Description                                                                                                                 |
-|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
-| Allocation Practices        | Evaluate the firm's history of allocating highly sought-after IPO shares to executives or top clients of corporate clients  |
-| Conflicts of Interest       | Assess any potential financial or personal relationships that could compromise the fairness and transparency of allocations |
-| Compliance with Regulations | Determine if the firm adheres to applicable regulations governing the allocation of IPO shares and potential conflicts      |
-|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------|
-
-       `
-In the context of short selling, an "open-fail position" occurs when a short seller is unable to deliver the securities they have contracted to sell by the settlement date. This can happen if the short seller cannot locate the securities to borrow or if there is a problem with the delivery process.
 
 * Summary of the different types of short sale positions:
 |-----------------------+----------------------------------------------------------------------------------------------------------------------------|
@@ -3179,9 +2820,6 @@ I hope this explanation is more clear. Let me know if you have any other questio
 
 
 
-
-
-
 * Security Offerings
 ** Initial Public Offerings (IPO)
 ** Secondary Offerings
@@ -3189,14 +2827,46 @@ I hope this explanation is more clear. Let me know if you have any other questio
 ** Exchange Offer
 ** Tender Offer
 
-* Security Offerings
+*** Security Offerings
 [[./security_offerings.png]]
 
 * IPO
 [[./IPO_period.png]]
 
+* Regulation M
+
+** Rule 1
+
+[[./Regulation_M.png]]
+
+** Rule 2
+
+[[./Regulation_M_Rule_102.png]]
+
+** Rule 3
+
+[[./Regulation_M_Rule_103.png]]
+
+** Rule 4
+[[./Regulation_M_Rule_104.png]]
+
+** Rule 5
+
+[[./Regulation_M_Rule_105.png]]
 * Stabilizing Bids
 [[./stabilizing-bids.png]]
+
+* Spinning
+[[./spinning_condition.png]]
+[[./spinning.png]]
+
+
+       `
+In the context of short selling, an "open-fail position" occurs when a short seller is unable to deliver the securities they have contracted to sell by the settlement date. This can happen if the short seller cannot locate the securities to borrow or if there is a problem with the delivery process.
+
+* Lockup Agreement
+
+[[./Lockup-Provision.png]]
 
 
 * Rule 10b-18 -
@@ -3204,98 +2874,6 @@ This rule provides a safe harbor from liability under Rule 10b-5 for certain rep
 Section 16(b) of the Securities Exchange Act of 1934 - This section requires insiders to disgorge any profits that they realize from short-swing trading.
 State laws - Some states have laws that restrict the amount of shares that an issuer can repurchase.
 It is important for issuers to consult with their legal counsel to ensure that they are in compliance with all applicable regulations when repurchasing shares.
-
-* Regulation M
-
-** Question: What is Regulation M?
-
-*** Answer: Regulation M is a set of rules enacted by the Securities and Exchange Commission (SEC) to
-              - Prevent manipulation of the market price of securities during a distribution.
-              - The rules prohibit certain activities, such as purchasing or bidding for securities, that could artificially inflate the price of the securities.
-
-** Question: Who is subject to Regulation M?
-
-*** Answer: Regulation M applies to all companies that are distributing securities, including
-               - initial public offerings (IPOs),
-               - secondary offerings, and
-               - follow-on offerings.
-              The rules also apply to any person who is participating in a distribution, such as an
-               - underwriter,
-               - broker-dealer, or
-               - selling security holder.
-
-** Question: What are the prohibited activities under Regulation M?
-
-*** Answer: The prohibited activities under Regulation M include:
-              - Purchasing or bidding for securities during the restricted period.
-              - Entering into a stabilizing agreement.
-              - Engaging in a short sale during the restricted period.
-              - Causing any of the prohibited activities to occur.
-
-** Question: What are the exceptions to the prohibited activities under Regulation M?
-
-*** Answer: There are a few exceptions to the prohibited activities under Regulation M. These exceptions include:
-
-              - Purchases made in the ordinary course of business.
-              - Purchases made by bona fide market makers.
-              - Purchases made by institutional investors.
-** Question: How is Regulation M enforced?
-
-*** Answer: Regulation M is enforced by the SEC.
-              - The SEC can bring civil enforcement actions against companies and individuals who violate Regulation M.
-              - The SEC can also impose civil penalties, such as fines and disgorgement of profits.
-
-** Question: What are the penalties for violating Regulation M?
-
-*** Answer: The penalties for violating Regulation M can be severe.
-              - The SEC can impose civil penalties, such as fines and disgorgement of profits.
-              - The SEC can also bring criminal charges against individuals who violate Regulation M.
-
-** Question: What are the recent developments in Regulation M?
-
-*** Answer: The SEC has recently updated Regulation M to clarify some of the rules and to make it easier for companies to comply.
-The SEC has also issued guidance on how Regulation M applies to certain types of transactions, such as exchange offers and tender offers.
-
-** Question: What is the difference between Regulation M and Rule 10b-5?
-
-*** Answer: Regulation M and Rule 10b-5 are both rules that prohibit manipulative or deceptive trading practices.
-              However, there are some key differences between the two rules.
-              - Regulation M specifically applies to distributions of securities, while
-              - Rule 10b-5 applies to all securities transactions.
-                Additionally, Regulation M has a shorter restricted period than Rule 10b-5.
-
-** Question: What is the difference between Regulation M and Rule 10b-18?
-
-*** Answer: Regulation M and Rule 10b-18 are both rules that provide safe harbors from liability under Rule 10b-5 for certain repurchases of common stock.
-              However, there are some key differences between the two rules.
-              - Regulation M applies to repurchases that are made during a distribution, while
-              - Rule 10b-18 applies to repurchases that are made outside of a distribution.
-                Additionally, Regulation M has a more restrictive set of requirements than Rule 10b-18.
-
-** Question: What are the implications of Regulation M for issuers?
-
-*** Answer: Regulation M has a number of implications for issuers.
-              - First, issuers must comply with the rules of Regulation M when they distribute securities.
-              - Second, issuers must be aware of the exceptions to the rules of Regulation M.
-              - Third, issuers must be aware of the penalties for violating Regulation M.
-
-** Question: What are the implications of Regulation M for investors?
-
-*** Answer: Regulation M has a number of implications for investors.
-              (1) investors can be confident that the market price of securities is not being artificially inflated during a distribution.
-              (2) investors can be aware of the exceptions to the rules of Regulation M.
-              (3) investors can be aware of the penalties for violating Regulation M.
-
-** Question: The prohibited activities under regulation M include entering into stabilizing agreement but it's very common that the issuer specially the underwriter stabilizes the price after IPO or secondary offering or follow of offering and it is allowed as per the rule regulation ?
-
-You are correct. Stabilizing is a common practice in the securities industry, and it is allowed under Regulation M.
-However, there are a number of restrictions on stabilizing activities.
-For example, stabilizing can only be done to prevent or retard a decline in the market price of a security.
-Stabilizing cannot be used to artificially inflate the market price of a security.
-
-The rules governing stabilizing activities under Regulation M are complex, and it is important for issuers and underwriters to seek the advice of legal counsel to ensure that they are in compliance.
-
-
 
 
 * Possible questions regarding 10b5-1 plans:
@@ -3715,70 +3293,5 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
         |
         └────── Reports Submitted Upon Request
         
-* Lock-up Provision
-├── Lock-up during IPO
-│   ├── Insider (typically 180 days)
-│   └── Directed Share Program
-|    └──Flipping
-|       ├── Rule 5130 of FINRA (30 days): prohibits underwriters from selling IPO shares to accounts in which a restricted person has a beneficial interest if that person acquired shares in the IPO and then sold them within 30 days of oferring .
-|       ├── Rule 104 of SEC Regulation M (5 days): prohibits anyone participating in an IPO from bidding for or purchasing shares in the market during the restricted period, typically first 5 business days after the offering date.
-|       ├── NYSE Rule 434: procedures to include measures to identify accounts that engage in flipping and to prevent future participation in IPOs by such accounts.
-|       └── NASDAQ Rule 5131: prohibits members from allocating IPO shares to any account in which a restricted person has a beneficial interest if that person has engaged in flipping in the past 12 months.
-└── Lock-up during secondary market
-    ├── Secondary Offering
-    │   ├── Insiders or Early Investors
-    │   └── Other Shareholders
-    ├── Private Placement
-    │   ├── Private Investors (typically institutions or accredited investors)
-    │   └── Other Participants
-    ├── Merger or Acquisition
-    └── Employee Stock Options and Equity Incentive Plans
 
 
-
-
-I hope this tree structure helps to provide a clear overview of the regulations related to flipping in the context of IPOs.
-
-
-Sure, here's an updated tree structure that reflects the nuances and clarifications related to the regulations and rules regarding flipping:
-
-Lock-up Provision
-├── Lock-up during IPO
-│   ├── Insider (typically 180 days)
-│   ├── Directed Share Program
-│   └── Flipping (30 days restriction include all i.e. broker-dealer/institutional investors/retails investors )
-│       ├── FINRA Rule 5130:
-|       |        Prohibits the sale of new issues to certain restricted persons,
-|       |        such as broker-dealers and portfolio managers,
-|       |        and includes provisions related to flipping,
-|       |        prohibiting the sale of new issues to accounts that engage in flipping
-|       |        or that have a beneficial interest in a flipping account.
-|       |     
-│       ├── SEC Regulation M Rule 104 (5 days):
-|       |        Prohibits anyone participating in an IPO from bidding for or purchasing shares in the market during the restricted period,
-|       |        typically the first five business days after the offering date.
-|       |     
-│       ├── NYSE Rule 434:
-|       |        Requires syndicate managers and passive market makers to establish and enforce written procedures to prevent flipping,
-|       |        including measures to identify accounts that engage in flipping and to prevent future participation in IPOs by such accounts.
-|       |     
-│       └── NASDAQ Rule 5131:
-|                Addresses spinning,
-|                which is the allocation of IPO shares to executive officers and directors of current or potential investment banking clients,
-|                but also includes provisions related to flipping,
-|                prohibiting the allocation of IPO shares to accounts that have engaged in flipping or that have a beneficial interest in a flipping account.
-|
-└── Lock-up during secondary market
-    ├── Secondary Offering
-    │   ├── Insiders or Early Investors (lock-up period can vary)
-    │   └── Other Shareholders (lock-up period can vary)
-    ├── Private Placement
-    │   ├── Private Investors (typically institutions or accredited investors) (lock-up period can vary)
-    │   └── Other Participants (lock-up period can vary)
-    ├── Merger or Acquisition (lock-up period can vary)
-    └── Employee Stock Options and Equity Incentive Plans (lock-up period can vary)
-a held sell order, a held limit buy order,
-and a held limit sell order would all be permitted pre-IPO (since they are either sell orders or
-buy orders that specify a price). A held buy order is not allowed, because there is no price.
-
-* LULD_FLOW.png

@@ -1,0 +1,25 @@
+@startuml
+
+start
+:Market Maker wants to publish a quote;
+if (Has Issuer's Information) then (yes)
+  :Market Maker conducts due diligence;
+  if (Has Completed Form 211) then (yes)
+    :Market Maker files Form 211 with FINRA;
+    :Market Maker publishes quote;
+  else (no)
+    :Market Maker cannot publish quote without filing Form 211;
+  endif
+else (no)
+  :Market Maker checks if another Market Maker has already published a quote;
+  if (Another Market Maker has Published Quote) then (yes)
+    :Market Maker can piggyback on the existing due diligence;
+    :Market Maker publishes quote based on the existing due diligence;
+  else (no)
+    :Market Maker cannot piggyback without existing due diligence;
+  endif
+endif
+
+stop
+
+@enduml

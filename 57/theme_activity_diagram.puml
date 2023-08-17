@@ -1,0 +1,43 @@
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+}

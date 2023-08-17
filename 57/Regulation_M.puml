@@ -1,0 +1,65 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+} 
+
+title Rule 101 of Regulation M
+
+start
+if (Is distribution participant?) then (Yes)
+  :Restricted Period Categories;
+  if (Average Daily Trading Volume (ADTV) < $100,000 \nand Public float(outstanding shares) < $25 million) then (Yes)
+    :Restricted period: 1 business day before offering \nto \n30 calendar days after offering;
+  else if (Average Daily Trading Volume (ADTV) < $1 million \nand Public float < $25 million) then (Yes)
+    :Restricted period: 1 business day before offering \nto \n10 calendar days after offering;
+  else if (Average Daily Trading Volume (ADTV) >= $1 million \nor \nPublic float >= $25 million) then (Yes)
+    :Restricted period: 1 business day before offering \nto \n3 calendar days after offering;
+  endif
+  :Prohibited from bidding for \nor purchasing covered securities \nduring restricted period;
+  :Exceptions apply;
+else (No)
+  :Not a distribution participant;
+  :No restrictions apply;
+endif
+stop
+@enduml

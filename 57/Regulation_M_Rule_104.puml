@@ -1,0 +1,114 @@
+@startuml
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor DarkKhaki
+
+skinparam note {
+    BackgroundColor Grey
+    BorderColor DarkGray
+    FontColor Navy
+    fontstyle normal
+    FontSize 20
+    FontName "Ubuntu Mono"
+}
+
+skinparam {
+    ActivityBackgroundColor DarkSlateGray
+    ActivityBarColor Grey
+    ActivityBorderColor LightGray
+    ActivityBorderThickness 0
+    ActivityFontColor Black
+    ActivityFontName "Ubuntu Mono"
+    ActivityFontSize 20
+    ActivityFontStyle normal
+    ActivityDiamondBackgroundColor DarkGreen
+    ActivityDiamondBorderColor Lightgreen
+    ActivityDiamondFontColor Black
+    ActivityDiamondFontName "Ubuntu Mono"
+    ActivityDiamondFontSize 20
+    ActivityDiamondFontStyle normal
+    ActivityArrowColor Grey
+    ActivityArrowThickness 2
+    ActivityStartColor LightGreen
+    ActivityEndColor LightRed
+}
+
+title Regulation M Rule 104: Stabilizing Bids and Syndicate Covering Transactions
+
+note left
+  Purpose: Prevent manipulative practices during
+  the distribution of securities through stabilizing bids
+  and syndicate covering transactions.
+end note
+
+start
+
+:Stabilizing Bids;
+note left
+  - Stabilizing manager or syndicate manager makes bids
+  - Purchase to sustain or maintain the price
+  - Bid price may be higher than market price
+end note
+
+:Price Limitations;
+note right
+  - Bid cannot exceed public offering price
+  - Bid must be made in good faith to stabilize or maintain price
+end note
+
+:Syndicate Covering Transactions;
+note left
+  - Syndicate members purchase security being distributed
+  - Cover overallotments or stabilize price
+end note
+
+:Overallotment Option;
+note right
+  - Underwriters can sell additional shares if there's demand
+  - Syndicate covering transactions may cover overallotment
+end note
+
+:Prohibited Actions;
+note left
+  - Prohibits inducing non-distribution participant purchases
+  - Prohibits trading that creates active trading or upward movement
+  - Prohibits bids exceeding public offering price
+end note
+
+stop
+
+:Example: XYZ Company IPO;
+note left
+  XYZ plans to distribute 1 million shares at $10 each
+  Underwriters have overallotment option for 100,000 shares
+end note
+
+:Stabilizing Bids in Action;
+note right
+  - Market price drops below $10
+  - Stabilizing manager places bids at $10 to stabilize
+end note
+
+:Syndicate Covering Transactions;
+note left
+  - Overallotment option exercised
+  - Syndicate purchases shares to cover option and stabilize price
+end note
+
+:Result: Fair and Orderly Market;
+note right
+  Stabilizing bids and syndicate covering transactions
+  help maintain price during distribution
+end note
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+!include theme_activity_diagram.puml
+title Circuit Breaker vs LULD Flowchart
+
+start
+:Trading for all securities is active;
+
+if (Price of any security falls below 7% decline in the S&P 500) then (yes)
+  :Circuit breaker is triggered;
+  :Trading for all securities is halted;
+else if (Price of a security reaches or exceeds +/- 5% from reference price) then (yes)
+  :LULD event is triggered;
+  :Trading for affected security is paused;
+  :Traders can adjust their orders;
+  if (Price remains within price bands after pause) then (yes)
+    :Trading for affected security resumes;
+  else
+    :LULD event is triggered again;
+    :Trading for affected security is paused again;
+  endif
+else
+  :Trading continues;
+endif
+
+stop
+@enduml
