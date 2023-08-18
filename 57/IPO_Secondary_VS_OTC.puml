@@ -1,0 +1,30 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Secondary Market Trading of IPOs
+
+start
+
+:IPO;
+if (Type of Market) then (Secondary Market)
+        :Offering Process;
+        :Trading Begins;
+        LightGreen:Market Makers;
+        note left: Passive Market Making is allowed while active Market Making is restricted.\n(Restriction day typically starts on declaration day and ends on Pricing Day);
+        LightGreen:Stabilizing Bids (Allowed);
+        :Regulations;
+        :Transparency;
+else (OTC Market)
+        :Offering Process;
+        :Trading Begins;
+        LightRed:Market Makers;
+        note right: Prohibited during restriction period\n(Restriction day typically starts on declaration day and ends on Pricing Day)
+        LightRed:Stabilizing Bids (Prohibited);
+        :Regulations;
+        :Transparency;
+endif
+
+stop
+
+@enduml

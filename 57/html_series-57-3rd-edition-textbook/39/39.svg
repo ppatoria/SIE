@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 935 1182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_39{
+fill: none;
+stroke: #231F20;
+stroke-width: 1.527;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 0,4;
+}
+.g1_39{
+fill: none;
+stroke: #231F20;
+stroke-width: 1.527;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+.g2_39{
+fill: #F2F2F3;
+}
+.g3_39{
+fill: #E7E8E8;
+}
+.g4_39{
+fill: #DCDDDE;
+}
+.g5_39{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g6_39{
+fill: none;
+stroke: #231F20;
+stroke-width: 3.055;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M150.5,392H639.4" class="g0_39"/>
+<path d="M147.4,392v0m493.5,0v0" class="g1_39"/>
+<path d="M149,490.5H639.4" class="g0_39"/>
+<path d="M145.9,490.5v0m495,0v0" class="g1_39"/>
+<path d="M128.3,1022.4H660V893.6H128.3v128.8Z" class="g2_39"/>
+<path d="M110.4,503.9H346.5v26H110.4v-26Zm236.1,0h55v26h-55v-26Zm55,0H451v26H401.5v-26Zm49.5,0H679.8v26H451v-26Z" class="g3_39"/>
+<path d="M401.5,688.9H451v79.4H401.5V688.9Zm49.5,0h77v79.4H451V688.9Zm77,0H679.8v79.4H528V688.9ZM110.4,768.4H258.5v87.1H110.4V768.4Zm148.1,0h88v87.1h-88V768.4Zm88,0h55v87.1h-55V768.4Z" class="g4_39"/>
+<path d="M346.5,529.5V504.2M451,529.5V504.2M110.4,552.4V530.2m236.1,22.2V530.2M451,552.4V530.2m228.8,22.2V530.2M110,552.8H258.5m-148.1,23V553.2m148.1,-.4h88m0,0H400m-53.5,22.6V553.2m56.5,-.4h48m0,0h77m-77,22.6V553.2m77,-.4H680.2m-.4,23V553.2M110.4,598.7V575.8m235.7,0H400m-53.5,22.5V576.1m56.5,-.3h48.4m-.4,22.5V576.1m228.8,22.2V575.8M110.4,688.5V598.7m235.7,0H400m-53.5,89.8V599.1m56.5,-.4h48m0,0h77m-77,89.8V599.1m77,-.4H680.2M528,688.5V599.1m151.8,89.4V599.1M110,688.9H258.5M110.4,768V689.3m148.1,-.4h88m-88,79.1V689.3m88,-.4H400M346.5,768V689.3m56.5,-.4h48m0,0h77M451,768V689.3m77,-.4H680.2M528,768V689.3M679.8,768V689.3M110,768.3H258.5M110.4,855.1V768.7m148.1,-.4h88m-88,86.8V768.7m88,-.4H400m-53.5,86.8V768.7m56.5,-.4h48m0,0h77m0,0H680.2m-.4,86.8V768.7M110,855.5H258.5m0,0h88m0,0h55m0,0H451m0,0h77m0,0H680.2" class="g5_39"/>
+<path d="M401.5,529.5V504.2m0,48.6V530.2m0,45.6v-23m0,45.9V575.8m0,113.1V598.7m0,169.6V688.9m0,166.2V768.3" class="g6_39"/>
+<path d="M110,503.9H258.5M110.4,529.5V504.2m148.1,-.3h88m0,0h55m0,0H451m0,0h77m0,0H680.2m-.4,25.6V504.2M110,529.9H258.5m0,0h88m0,0h55m0,0H451m0,0h77m0,0H680.2" class="g5_39"/>
+</svg>

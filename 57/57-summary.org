@@ -2,6 +2,8 @@
 #+AUTHOR: Pralay
 #+DATE: 2023-06-17
 
+#+TOC: headlines 
+
 * Market Participants
 ** Broker Dealer
 *** Active
@@ -179,11 +181,13 @@ This type of halt is used when there is pending news about a foreign company tha
 *** Foreign company halts due to regulatory reasons.
 **** No halt
 This type of halt does not involve halting trading but rather involves regulatory action against a foreign company.
+
 ** Limit Up Limit Down
 
 [[./LULD.png]]
 
 ** Circuit breaker
+
 [[./CircuitBreaker.png]]
 
 ** Circuit breaker vs LULD
@@ -191,9 +195,10 @@ This type of halt does not involve halting trading but rather involves regulator
 [[./CircuitBreaker_VS_LULD.png]]
 
 * Short Sell
+
 ** Flow Broker-Dealer's Perspective
-[[
-./SS_BD_Perspective.png]]
+
+[[./SS_BD_Perspective.png]]
 
 ** Traders Perspective
 
@@ -672,6 +677,7 @@ No halt
 ****** Trading will continue
 
 [[./LULD.png]]
+
 * Short Sell
 ** Broker Dealer
 *** Locate
@@ -2828,9 +2834,11 @@ I hope this explanation is more clear. Let me know if you have any other questio
 ** Tender Offer
 
 *** Security Offerings
+
 [[./security_offerings.png]]
 
 * IPO
+
 [[./IPO_period.png]]
 
 * Regulation M
@@ -2848,20 +2856,60 @@ I hope this explanation is more clear. Let me know if you have any other questio
 [[./Regulation_M_Rule_103.png]]
 
 ** Rule 4
+
 [[./Regulation_M_Rule_104.png]]
 
 ** Rule 5
 
 [[./Regulation_M_Rule_105.png]]
+
+* Rule 6 : IPO rules and regulations on OTC Market Defined
+
+[[./MM_AND_StabilizingBids.png]]
+
+[[./IPO_Secondary_VS_OTC.png]]
+
+
 * Stabilizing Bids
+
 [[./stabilizing-bids.png]]
 
+* Return of IPO Shares:
+
+[[./ReturnedShares.png]]
+
+* Secondary Market Trading for IPO Shares:
+
+[[./SecondaryMarket_Trading_IPO.png]]
+
+
+* Quid Pro Quo Allocations
+
+[[./QuidProQuo.png]]
+
+
+* Flipping
+
+[[./flipping.png]]
+
 * Spinning
+
+
+
 [[./spinning_condition.png]]
+
 [[./spinning.png]]
 
+* IPO Share Allocation Report:
 
-       `
+[[./IPOShareAllocationReport.png]]
+
+** Indication of Interest
+
+[[./IOI.png]]
+
+
+      `
 In the context of short selling, an "open-fail position" occurs when a short seller is unable to deliver the securities they have contracted to sell by the settlement date. This can happen if the short seller cannot locate the securities to borrow or if there is a problem with the delivery process.
 
 * Lockup Agreement

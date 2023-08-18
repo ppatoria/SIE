@@ -1,0 +1,15 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title FINRA Rule 6435: Market-Making and Stabilizing Bids
+
+note left
+  FINRA Rule 6435:
+  - Requires underwriters to withdraw from market-making
+    activities in OTC equity securities during restricted period.
+  - Applicable restricted period: one or five days under Rule 101 of Regulation M.
+  - Prohibits underwriters from entering stabilizing bids for OTC equity securities under Rule 104.
+end note
+
+@enduml

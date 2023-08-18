@@ -1,0 +1,32 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title IPO Share Allocation Reports
+
+participant "Book-running Lead Manager" as lead_manager
+participant "Issuer" as issuer
+
+note left
+  IPO Share Allocation Reports:
+  - Required under FINRA Rule 5131.
+  - Book-running lead manager during and after IPO.
+  - Specific requirements.
+  - Not made public, only available to the issuer.
+end note
+
+lead_manager -> issuer: Generate IPO Share Allocation Reports
+
+note right
+  Before Pricing:
+end note
+lead_manager -> lead_manager: Prepare indications of interest report
+
+note right
+  After Pricing:
+end note
+lead_manager -> lead_manager: Prepare final allocation report
+
+lead_manager -> issuer: Provide reports to the issuer
+
+@enduml

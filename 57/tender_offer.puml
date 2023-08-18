@@ -1,0 +1,184 @@
+
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Tender Offers
+
+participant "Bidder" as bidder
+participant "Shareholders" as shareholders
+participant "Subject Company" as subject_company
+
+skinparam ArrowColor DodgerBlue
+skinparam ArrowThickness 4
+
+bidder       -> shareholders    : Tender Offer
+note left
+        A public call to purchase
+        a certain percentage of
+        outstanding shares
+        from all shareholders.
+end note
+
+shareholders -> shareholders    : Broad solicitation
+note right
+        The "broad solicitation" aspect refers to
+        the fact that the tender offer is
+        communicated widely to all existing
+        shareholders of the target company.
+end note
+
+bidder -> shareholders : Contingent on convincing shareholders
+note left
+        The tender offer is dependent (contingent)
+        on the bidder's ability to
+        convince a certain percentage
+        of shareholders to sell their shares
+        at a fixed price.
+        The bidder offers to purchase shares
+        at this price if a specified percentage
+        of shareholders agree to tender their shares.
+end note
+skinparam defaultFontColor Black
+alt#Yellow #DarkSlateGray **__Timeframe is met (At least 20 Business Days)__**
+    shareholders -> shareholders: Shareholders decide on offer terms
+    bidder       -> shareholders : Bidder sets timeframe
+    alt#Yellow #DarkSlateGray Changes in Terms (Bidder Changes Shares or Price)
+        bidder -> shareholders: Shareholders given 10 business days from change
+    end
+    shareholders -> shareholders: Tender Period Ends
+        note right
+                Shareholders have accepted the offer and
+                provided their agreement to tender their
+                shares at the specified price.
+        end note
+    alt#Yellow #DarkSlateGray **Post-Tender Period (At least 10 Business Days)**
+        shareholders -> bidder: Bidder cannot acquire stock outside tender offer
+                note left
+                        During the specified period
+                        (such as the post-tender period),
+                        the bidder is restricted from
+                        purchasing additional shares
+                        in the market outside of the
+                        tender offer process
+                end note
+    end
+
+else #RosyBrown __**Dutch Auction**__
+    bidder -> shareholders: Share Price Range Set
+    note left
+       The bidder will set a the
+       minimum and maximum prices
+       per share prices within
+       which tenders will be accepted.
+       Each individual shareholder has
+       the opportunity to respond with
+       their own acceptable price
+       within the specified range.
+    end note
+
+    shareholders -> bidder: Individual shareholders state acceptable prices
+    alt#Yellow #RosyBrown **Clearing Bid (Lowest Bid for Desired Shares)**
+        note left
+            The clearing bid or purchase price will be based on the lowest price
+            that allows the company to purchase the desired number of shares.
+        end note
+        bidder -> shareholders : Accepted Tenders Paid Clearing Bid Price
+        alt#Yellow #RosyBrown **More Tenders Below Price (Shares Accepted Pro Rata)**
+        note right
+            If there are more tenders from shareholders below the clearing bid price.
+            Bidder follows a "pro rata" allocation method;
+            each shareholder who tendered shares below the clearing bid price
+            is offered the same percentage of their offered shares.
+        end note
+            shareholders -> bidders: Same Percentage of Shares Accepted from Each Shareholder
+        end
+    end
+end
+
+skinparam defaultFontColor DarkKhaki
+
+shareholders -> subject_company: Releases Recommendation Statement (Schedule 14D-9)
+subject_company -> shareholders: Recommends acceptance, rejection, remaining neutral, or unable to take position
+
+@enduml
+
+
+/'
+ ' @startuml
+ ' 
+ ' !include theme_activity_diagram.puml
+ ' 
+ ' title Tender Offers
+ ' 
+ ' start
+ ' 
+ ' : Tender Offer;
+ ' : Broad solicitation to purchase a percentage of company's stock;
+ ' 
+ ' note right
+ '         A public call to purchase
+ '         a certain percentage of
+ '         outstanding shares
+ '         from all shareholders.
+ ' end note
+ ' 
+ ' note left
+ '         The bidder specifies
+ '         the percentage of shares
+ '         they intend to acquire,
+ '         which can range from a
+ '         minimum of 5% up to 100%
+ '         of the company's shares.;
+ ' end note
+ ' 
+ ' note left
+ '         The "broad solicitation" aspect refers to
+ '         the fact that the tender offer is
+ '         communicated widely to all existing
+ '         shareholders of the target company.;
+ ' end note
+ ' 
+ ' : Contingent on convincing shareholders to sell at fixed price;
+ ' note right
+ '         The tender offer is dependent (contingent)
+ '         on the bidder's ability to
+ '         convince a certain percentage
+ '         of shareholders to sell their shares
+ '         at a fixed price.
+ '         The bidder offers to purchase shares
+ '         at this price if a specified percentage
+ '         of shareholders agree to tender their shares.
+ ' end note
+ ' 
+ ' if (Timeframe) then (At least 20 Business Days)
+ '     : Shareholders decide on offer terms;
+ '     : Bidder sets timeframe;
+ '     if (Changes in Terms) then (Bidder Changes Shares or Price)
+ '         : Shareholders given 10 business days from change;
+ '     endif
+ '     : Tender Period Ends;
+ '     if (Post-Tender Period) then (At least 10 Business Days)
+ '         : Bidder cannot acquire stock outside tender offer;
+
+ '     endif
+ ' else (Dutch Auction)
+ '     : Share Price Range Set;
+ '     : Shareholders state acceptable price;
+ '     if (Clearing Bid) then (Lowest Bid for Desired Shares)
+ '         : Accepted Tenders Paid Clearing Bid Price;
+ '         if (More Tenders Below Price) then (Shares Accepted Pro Rata)
+ '             : Same Percentage of Shares Accepted from Each Shareholder;
+ '         endif
+ '     endif
+ ' endif
+ ' 
+ ' : Subject Company;
+ ' : Releases Recommendation Statement (Schedule 14D-9);
+ ' : Recommends acceptance, rejection, remaining neutral, or unable to take position;
+ ' : Company recommendation not binding;
+ ' 
+ ' stop
+ ' 
+ ' @enduml
+ '/

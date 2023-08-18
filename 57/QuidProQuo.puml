@@ -1,0 +1,30 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Quid Pro Quo (something for something).Allocations and Tie-In Arrangements
+
+note top
+  Quid Pro Quo Allocations:
+  - Investors awarded IPO shares for compensation.
+  - Violation of FINRA Rule 5131.
+end note
+
+note bottom
+  Prohibits:
+  - Offering IPO allocations for compensation.
+  - Tie-in arrangements requiring secondary market purchases.
+      - Investors required to buy secondary market shares for IPO allocations.
+      - Considered a form of market manipulation.
+end note
+
+note right
+  Example Scenario:
+  - Brokerage offers discounted commissions.
+  - Client is eligible for lower commission rates due to high trading volume.
+  - In exchange for being allocated shares in an IPO, the client agrees to pay full commissions.
+  - The client's agreement to pay higher commissions is considered compensation for the IPO allocation.
+  - This arrangement violates FINRA Rule 5131.
+end note
+
+@enduml

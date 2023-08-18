@@ -1,0 +1,52 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Returned Shares Process
+
+
+participant "Purchaser" as purchaser
+participant "Syndicate Member" as syndicate_member
+
+
+purchaser -> syndicate_member: Return Shares
+note left
+  * Returned Shares:
+        - Shares returned by purchaser to syndicate member after trading begins.
+        - Specific requirements under FINRA Rule 5131.
+
+  * Determining the Return Window:
+        - Usually determined by regulatory rules and guidelines.
+        - Terms outlined in the offering prospectus.
+
+  * Scenarios for Returning Shares:
+        - Liquidation
+        - Trading Error
+        - Regulatory Compliance
+
+  * Restrictions and Considerations:
+        - Time Period: Typically shortly after trading begins.
+        - Reason for Return: Correcting errors, regulatory compliance, etc.
+end note
+
+
+syndicate_member -> syndicate_member: Use to offset syndicate short position
+note right
+  - Syndicate Short Position (is allowed in some scenarious):
+    - Overselling of IPO shares by lead underwriter.
+    - Syndicate may sell more shares than registered, leading to short position.
+    - Syndicate covering transaction:
+        Purchase shares in secondary market to cover oversold shares.
+    - Not specifically addressed by Regulation M after offering date.
+end note
+
+syndicate_member -> syndicate_member: Offer at public offering price to unfilled customer orders
+syndicate_member -> syndicate_member: Use random allocation methodology to unfilled customer orders
+syndicate_member -> syndicate_member: Do not place in investment account
+note right
+    - Syndicate can't place them into firm's investment account.
+        i.e. Syndicate can't trade them in the secondary market.
+end note
+
+@enduml
+

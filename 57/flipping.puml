@@ -1,0 +1,34 @@
+@startuml
+!include theme_activity_diagram.puml
+
+title Flipping in IPOs and FINRA Rule 5131
+
+note left
+  Flipping: Selling IPO shares within 30 days of offering date
+  or 30 days from the effective date (date SEC permits sale).
+end note
+
+note right
+  FINRA Rule 5131:
+  * Broker/Dealers involved in flipping are
+        prohibited from reclaiming/recouping commission
+        for flipped IPO shares.
+
+  * Penalty bid if syndicate manager assesses any
+        involvement of the Syndicate/underwriters.
+
+   * Example: A securities trader sells IPO shares to a customer
+        who then decides to flip those shares within 30 days.
+        The trader cannot recoup any commission they earned
+        from the initial sale unless the syndicate manager
+        has assessed a penalty bid on the entire syndicate.
+end note
+
+note right
+  Applicable to:
+  - Investors
+  - Underwriters
+  - Issuers
+end note
+
+@enduml

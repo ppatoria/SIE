@@ -1,0 +1,36 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Secondary Market Trading of IPOs
+
+participant "Underwriters" as underwriters
+participant "Investors" as investors
+participant "Market Makers" as market_makers
+participant "Broker-Dealers" as broker_dealers
+participant "Nasdaq / NYSE" as nasdaq_nyse
+
+note left
+  Secondary Market Trading of IPOs:
+  - Buying and selling of newly issued securities after IPO.
+end note
+
+underwriters -> investors: Sell new issue at public offering price (POP)
+
+note right
+  Initial Transaction After IPO:
+  - Occurs on Nasdaq or NYSE.
+  - Typically at a higher price than the POP.
+end note
+
+nasdaq_nyse -> broker_dealers: Market opens, execute customer orders
+
+note right
+  Market-Making Firms:
+  - Register and quote IPO after opening IPO cross.
+  - Facilitate buying and selling of new securities.
+end note
+
+market_makers -> investors: Facilitate buying and selling in open market
+
+@enduml

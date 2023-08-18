@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 935 1182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_123{
+fill: none;
+stroke: #231F20;
+stroke-width: 1.527;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 0,4;
+}
+.g1_123{
+fill: none;
+stroke: #231F20;
+stroke-width: 1.527;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+.g2_123{
+fill: none;
+stroke: #231F20;
+stroke-width: 1.145;
+stroke-miterlimit: 10;
+}
+.g3_123{
+fill: #E7E8E8;
+}
+.g4_123{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M150.5,66.4H639.4" class="g0_123"/>
+<path d="M147.4,66.4v0m493.5,0v0" class="g1_123"/>
+<path d="M149,255.9H639.4" class="g0_123"/>
+<path d="M145.9,255.9v0m495,0v0" class="g1_123"/>
+<path d="M148.2,279H678.3M148.2,304.6H678.3" class="g2_123"/>
+<path d="M150.5,439.2H639.4" class="g0_123"/>
+<path d="M147.4,439.2v0m493.5,0v0" class="g1_123"/>
+<path d="M149,595H639.4" class="g0_123"/>
+<path d="M145.9,595v0m495,0v0" class="g1_123"/>
+<path d="M150.5,616.4H639.4" class="g0_123"/>
+<path d="M147.4,616.4v0m493.5,0v0" class="g1_123"/>
+<path d="M149,937.4H639.4" class="g0_123"/>
+<path d="M145.9,937.4v0m495,0v0" class="g1_123"/>
+<path d="M302.1,728.3h80.6v26H302.1v-26Zm80.6,0h50.8v26H382.7v-26Zm50.8,0h51.2v26H433.5v-26Z" class="g3_123"/>
+<path d="M382.7,753.9V728.7m50.8,25.2V728.7M302.1,776.9V754.7m80.6,22.2V754.7m50.8,22.2V754.7m51.2,22.2V754.7m-183,22.6h81m-80.6,22.5V777.7m80.6,-.4h50.8m-50.8,22.5V777.7m50.8,-.4h51.6m-51.6,22.5V777.7m51.2,22.1V777.7m-183,22.5h81m-80.6,22.6V800.6m80.6,-.4h50.8m-50.8,22.6V800.6m50.8,-.4h51.6m-51.6,22.6V800.6m51.2,22.2V800.6m-183,22.6h81m0,0h50.8m0,0h51.6M301.7,728.3h81m-80.6,25.6V728.7m80.6,-.4h50.8m0,0h51.6m-.4,25.6V728.7m-183,25.6h81m0,0h50.8m0,0h51.6" class="g4_123"/>
+</svg>

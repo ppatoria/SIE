@@ -1,0 +1,40 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Indications of Interest in IPO
+
+note left
+  Indications of Interest in IPO:
+  - Expressions of potential investors' willingness to participate in an upcoming offering.
+  - Non-binding commitments to purchase shares.
+end note
+
+participant "Potential Investors" as investors
+
+note right
+  1. Expression of Interest
+end note
+investors -> IPO_Manager: Express interest in IPO
+
+note right
+  2. Non-Binding
+end note
+IPO_Manager --> investors: Indications are non-binding
+
+note right
+  3. Informing Pricing
+end note
+IPO_Manager -> Pricing_Team: Use indications to inform pricing decisions
+
+note right
+  4. Communication
+end note
+Pricing_Team --> investors: Contact with final pricing details
+
+note right
+  5. Allocation
+end note
+Pricing_Team --> Allocation_Team: Allocation process based on various criteria
+
+@enduml
