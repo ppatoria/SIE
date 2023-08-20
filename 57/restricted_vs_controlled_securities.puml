@@ -1,0 +1,23 @@
+@startuml 
+!theme black-knight
+!define RECTANGLE class
+skinparam defaultfontcolor darkgrey
+skinparam defaultfontname "Ubuntu Mono"
+skinparam defaultfontsize 20
+
+RECTANGLE "Restricted Securities" {
+  * Not registered with SEC
+  * **Acquisition:** Private placements, etc.
+  * **Volume Restrictions:** None
+  * **Holding Period:** 6 months (reporting) or 1 year (non*reporting)
+  * **Legend:** Typically has a restrictive legend
+}
+RECTANGLE "Control Securities" {
+  * Held by corporate insiders
+  * **Ownership:** Officers, board members, >10% owners
+  * **Volume Restrictions:** 1% of outstanding shares or average trading volume
+  * **Holding Period:** None (for control stock)
+  * **Legend:** No legend if purchased in open market
+}
+
+@enduml

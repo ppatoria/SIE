@@ -1,0 +1,21 @@
+@startmindmap 
+!include theme_mindmap.puml
+
+*_ Reporting Share Repurchases
+** Comprehensive details to \nInclude in the Report
+*** Total Number of Shares Purchased [229a]
+*** Average Price Paid per Share [229b]
+****_ This metric offers insights into the \ncost dynamics of the share repurchase.
+*** Total Shares Repurchased \nas Part of a Publicly Announced Program [229c]
+****_ This total should encompass shares acquired \nunder existing programs, even those announced in prior periods.
+*** Maximum Shares (or Dollar Amount) \nThat May Yet Be Repurchased [229d]
+****_ This figure reflects the company's \nremaining capacity for future buybacks under the program.
+*** Dates of Share Repurchase Periods [229e]
+****_ This information illustrates \nthe timing of the company's buyback activity.\n
+*** Footnote Disclosure of Program Terms [229f]
+****_ The initial announcement of the program.
+****_ Any modifications or extensions \nto the program during the reporting period.
+****_ Details of any expired or terminated programs.\n
+*** Quarterly Periodic Reports Requirement [229g]
+****_ These disclosures must be included in quarterly periodic reports \nfor any quarter in which share repurchases have occurred. \nThis obligation applies irrespective of the company's \nintention to qualify for the 10b-18 safe harbor.
+@endmindmap

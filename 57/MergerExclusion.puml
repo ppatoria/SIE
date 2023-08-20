@@ -1,0 +1,28 @@
+
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ __**Rule 10b-18 Merger Exclusion**__
+** Purpose of the Rule
+*** Governs share repurchases during mergers and acquisitions.
+*** Aims to prevent market manipulation during corporate events.
+** Duration of Exclusion [230a]
+*** Generally not available from merger/acquisition announcement until:
+**** Closing date of the transaction, or
+**** Date of shareholder vote on the transaction.
+
+** Exceptions to the Exclusion
+*** Exception 1: All-Cash Transactions with No Valuation Period [230b]
+**** Allows share repurchases during the merger period.
+*** Volume Limitations for Exception 1 [230c]
+**** Repurchases allowed up to the lesser of:
+***** 25% of four-week Average Daily Trading Volume (ADTV).
+***** Daily average share repurchases under Rule 10b-18 for preceding three months.
+
+** Summary
+*** Rule 10b-18 Merger Exclusion regulates share repurchases during mergers/acquisitions.
+*** Generally prohibits repurchases from announcement date until closing/vote.
+*** Exceptions exist for all-cash transactions, with volume limits based on the lesser of ADTV and prior repurchases.
+
+@endmindmap

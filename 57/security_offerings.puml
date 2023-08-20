@@ -46,6 +46,8 @@ mindmapDiagram {
 }
 </style>
 
+
+
 *_ Security Offerings <<gray>>
 left side
 ** Initial Public Offering (IPO) 
@@ -74,4 +76,3 @@ right side
 *** Tender Offers <<darkcyan>>
 ****_ One company buys shares
 ****_ Mergers, acquisitions
-@endmindmap

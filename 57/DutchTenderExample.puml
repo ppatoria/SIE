@@ -1,0 +1,43 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Dutch Auction Tender Offer
+
+actor Shareholder
+participant "Acquiring Company" as Company
+
+note left: Price Range: $50 to $60 per share
+note left: Bidding Period: Open for 20 days
+note left: Bid Submission: Shareholders specify quantity and price
+
+Shareholder -> Company: Submits bid to sell\n100 shares at $55 per share
+Company -> Company: Determines Acceptance Priority\nStarts with Highest Price\nWorks Down to Desired Quantity
+
+activate Company
+
+Company --> Shareholder: Accepts bids starting from\nhighest price
+
+note right: Acquiring Company aims to buy 1,000 shares
+
+Company -> Shareholder: Accepts higher-priced bids first
+note right: E.g., 100 shares at $55
+
+Company -> Shareholder: Continues to accept bids\nin descending order of price
+note right: E.g., 200 shares at $54
+note right: E.g., 150 shares at $53
+
+Company -> Shareholder: Continues until the desired\nquantity of shares is reached
+note right: Acquiring 700 shares at this point
+
+Company --> Shareholder: Informs shareholders of\naccepted bids and final price
+Company --> Company: Determines Clearing Price
+
+deactivate Company
+
+note left: Clearing Price: $53 per share
+note left: Settlement Period: After the offer period ends
+
+Shareholder -> Company: Settles with shareholders
+
+@enduml

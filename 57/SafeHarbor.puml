@@ -1,0 +1,40 @@
+@startuml
+!theme black-knight
+!define RECTANGLE class
+skinparam defaultfontsize 20
+skinparam defaultTextAlignment left
+skinparam defaultfontcolor DarkGray
+
+RECTANGLE "Safe Harbor Provisions of Rule 10b-18" {
+  RECTANGLE "Four Types of Conditions" as SafeHarborConditions {
+    - Timing
+    - Volume Limitations
+    - Price Limitations
+    - Manner of Purchase
+  }
+  SafeHarborConditions -- "T. Timing" : The purchase must not be made\nduring the last 30 minutes\nof regular trading hours,\nexcept when the security\nis actively traded on another\nnational securities exchange\nduring that time.
+  SafeHarborConditions -- "V. Volume Limitations" : The aggregate daily volume of purchases,\nincluding any single transaction \nor series of transactions, \nmust not exceed 25% of the \naverage daily trading volume \nfor that class of securities.
+  SafeHarborConditions -- "P. Price Limitations" : The purchase price must not \nexceed the higher of the highest \ncurrent independent bid price \nor the last independent transaction price.
+  SafeHarborConditions -- "M. Manner of Purchase" : The purchases must meet one of the following conditions:\n\n**(i) Broker/Dealer:**\nThe purchase must be through one or more brokers or dealers in theordinary course of business.\n\n**(ii) Tender Offer:**\nThe purchase must be through a tender offer compliant with Rule 13e-4.\n\n**(iii) Exchange:**\nThe purchase must be on a securities exchange.\n\n**(IV) Trading Plan:**\nThe purchase must be pursuant to an issuer's trading plan that meets the requirements of Rule 10b5-1.\nThe plan must be in writing and  it must be adopted before  the person has any  \nmaterial non-public information  about the company.\nThe plan must also specify the amount of securities that can be purchased or sold, \nthe price at which they can be purchased or sold, \nand the date on which the purchase or sale can occur.
+        note bottom
+                **Material non-public information** is information
+                that could significantly affect the price of a security
+                if it were known to the public.
+
+                **Insider trading** is the buying or selling
+                of a security based on material non-public information.
+        end note
+
+note top of SafeHarborConditions
+        Even if these conditions are not met,
+        share buybacks are not automatically
+        considered manipulative or deceptive.
+        SEC disclosures are required for all
+        share buybacks, regardless of whether
+        the safe harbor is obtained.
+end note
+
+}
+
+
+@enduml

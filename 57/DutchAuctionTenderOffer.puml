@@ -1,0 +1,38 @@
+@startuml
+!include theme_sequential_diagram.puml
+!define RECTANGLE class
+!define ARROW -
+!define END ;
+
+title Dutch Auction Tender Offer
+
+actor "Acquiring Company" as acquiring_company
+participant "Shareholders" as shareholders
+
+acquiring_company -> acquiring_company : Sets Price Range
+acquiring_company -> acquiring_company : Defines Bidding Period
+shareholders -> shareholders : Submit Bids (Quantity and Price) \n Within Price Range
+acquiring_company -> acquiring_company : Determines Acceptance Priority \n Starts with Highest Price \n Works Down to Desired Quantity
+note left
+        Here's an example to illustrate this process:
+        Let's say the acquiring company wants to
+        purchase 10,000 shares and has received bids
+        from shareholders at various prices within
+        the price range. It starts by accepting bids
+        with the highest prices until it reaches the
+        10,000 shares target or exhausts the bids
+        within the price range.
+
+        This prioritization ensures that shareholders
+        who are willing to sell their shares at higher
+        prices have a better chance of having their
+        bids accepted, but it also helps the acquiring
+        company manage its budget and acquisition goals
+        effectively.
+end note
+shareholders -> shareholders : Receive Acceptance or Rejection
+acquiring_company -> acquiring_company : Determines Clearing Price \n Lowest Price for All Desired Shares
+shareholders -> shareholders : Participate in Pro-Ration if Oversubscribed \n Reduction in Shares on Pro-Rata Basis
+acquiring_company -> acquiring_company : Settles with Shareholders \n Payment for Tendered Shares \n Acquisition of Shares
+
+@enduml

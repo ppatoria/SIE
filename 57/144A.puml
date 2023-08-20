@@ -1,0 +1,42 @@
+@startmindmap
+!include theme_mindmap.puml
+
+*_ __**Rule 144A**__
+** Definition [231a]
+*** Allows resale of restricted securities to \nQualified Institutional Buyers (QIBs) without SEC registration. \nRestricted securities refer to securities acquired in unregistered, \nprivate sales from an issuer or an affiliate of the issuer. \nThey are subject to restrictions on resale.
+**** Seller must reasonably believe buyer is a QIB.
+**** Buyer qualification via financial statements or attestation.
+**** Broker-dealers assist in confirming QIB status.
+
+** It increases liquidity
+*** Increases liquidity of unregistered securities; without it they are illiquid in nature.
+*** Makes US capital markets accessible to foreign companies without the need for a full SEC registration process.
+
+** Uses of Rule 144A
+*** Common uses:
+**** high-yield debt/bonds. Companies that issue high-yield bonds often choose to issue them as restricted securities initially. 
+**** pre-IPO shares. Companies that are preparing for an initial public offering (IPO) may issue shares to QIB before the IPO occurs which are typically restricted.
+*** Investors often have piggyback registration rights.
+*** **Piggyback registration** allows institutional investors, \nwho have invested in restricted securities of the issuer's company, \nto include their restricted securities in the \nIPO prospectus at the issuer's expense. \nThese investors can then sell their securities \nalongside the issuer's securities \nfor resale to Qualified Institutional Buyers (QIBs) \nduring the registration process."
+** Control Securities
+*** Rule 144A applies to control securities. \nAffiliates or corporate insiders \nof the issuing company \ntypically hold control securities \mexempted from the registration requirements \mfor certain resales of securities \nto qualified institutional buyers (QIBs). 
+*** Affiliates must file Form 144 with the SEC.
+*** Sale conditions: >5,000 shares or >$50,000 in three months.
+*** Sale within three months of filing; amend if not sold.
+
+** Resale Requirements
+*** Sale of Restricted Securities by Affiliates
+**** Six months or one year holding period.
+**** Remove legend before sale.
+**** Volume restrictions apply.
+
+*** Sale of Restricted Securities by Non-Affiliates
+**** Six months or one year holding period.
+**** Remove legend before sale.
+**** Volume restrictions do not apply.
+
+*** Sale of Registered Securities by Affiliates
+**** No holding period.
+**** No legend required.
+**** Volume restrictions apply.
+@endmindmap

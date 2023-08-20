@@ -1,0 +1,53 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Short Tendering Process
+
+actor Shareholder
+participant "Purchaser/Issuer" as purchaser
+participant "Company" as company
+
+Shareholder -> purchaser: Short Tendering Request
+note right
+  Shareholder expresses intent to tender shares
+  and states an acceptable price within the range.
+end note
+
+purchaser -> company: Set Share Price Range
+note left
+  Purchaser/Issuer sets a range of acceptable share prices
+  within which tenders will be considered.
+end note
+
+Shareholder -> purchaser: Tender Offer (Acceptable Price)
+note right
+  Shareholders who wish to tender their shares state
+  an acceptable price within the defined range.
+end note
+
+purchaser -> company: Determine Clearing Bid Price
+note left
+  Lowest bid that allows the company to purchase the
+  stated number of shares is the clearing bid or purchase price.
+end note
+
+purchaser -> Shareholder: Accept Tender at Clearing Bid Price
+note right
+  All accepted tenders are paid the clearing bid price.
+  If more tenders are made below the clearing bid price
+  than the company can accept, shares are accepted on a pro rata basis.
+end note
+
+Shareholder -> Shareholder: Shares Accepted Pro Rata
+note right
+  The same percentage of tendered shares is accepted
+  from each shareholder who has chosen to sell.
+end note
+
+Shareholder -> Shareholder: Shares Rejected (Above Clearing Bid Price)
+note right
+  Shares offered at a price higher than the clearing bid price are rejected.
+end note
+
+@enduml

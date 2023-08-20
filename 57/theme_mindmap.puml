@@ -1,0 +1,64 @@
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+skinparam backgroundColor DarkBackground
+skinparam defaultFontColor LightGray
+skinparam handwritten true
+skinparam shadowing<<with_shadow>> true
+skinparam arrowcolor LightGray
+skinparam defaultfontsize 20
+skinparam defaultfontname "Ubuntu Mono"
+skinparam mindmapboxcolor  "darkslategray"
+<style>
+mindmapDiagram {
+        .darkkhaki {
+                BackgroundColor darkkhaki
+        }
+        .midnightblue {
+                BackgroundColor midnightblue
+                mindmapfontcolor white
+        }
+        .gray {
+                BackgroundColor gray
+        }
+        .darkgray {
+                BackgroundColor darkgray
+        }
+        .darkcyan {
+                BackgroundColor darkcyan
+        }
+        .darkslategrey {
+                BackgroundColor darkslategrey    
+        }
+        .darkseagreen {
+                BackgroundColor darkseagreen    
+        }
+        :depth(1) {
+                BackGroundColor DarkSlateGray
+                FontColor DarkKhaki
+        }
+        :depth(3) {
+                BackGroundColor darkcyan
+                FontColor Black
+        }
+        :depth(4) {
+                BackGroundColor darkkhaki
+                FontColor Black
+        }
+        :depth(2) {
+                BackGroundColor DarkGray
+                FontColor darkkhaki
+        }
+
+        boxless {
+                FontColor LIghtGray
+        }
+}
+</style>

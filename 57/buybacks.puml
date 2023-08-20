@@ -1,0 +1,46 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Share Buybacks
+
+start
+
+: Share Buyback;
+: Corporate action to repurchase own shares from shareholders;
+
+note right
+        A company buys back its own shares
+        from existing shareholders.
+end note
+
+: Purpose of Share Buyback;
+note left
+        Reasons for conducting share buybacks:
+        - Returning excess capital to shareholders
+        - Increasing shareholder value
+        - Capital restructuring
+        - Defense against hostile takeovers
+end note
+
+: Compliance with Laws and Regulations;
+note right
+        Share buybacks must adhere to laws,
+        regulations, and company's articles
+        of incorporation or bylaws.
+        Authorization from board of directors
+        or shareholders is required.
+end note
+
+: Disclosure of Details;
+note left
+        Details of share buyback are disclosed in:
+        - Number of shares to be repurchased
+        - Price range
+        - Duration of buyback program
+        - Additional terms and conditions
+end note
+
+stop
+
+@enduml

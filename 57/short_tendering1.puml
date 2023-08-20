@@ -1,0 +1,23 @@
+@startuml
+
+'!include theme_sequence_diagram.puml
+
+title Short Tendering (Dutch Auction) Method
+
+actor Shareholders
+participant "Purchaser or Issuer" as purchaser
+participant "Company"  as company
+
+Shareholders -> purchaser : Tender Shares (State Acceptable Price)
+purchaser    -> company   : Set Share Price Range, Number of Shares/Dollar Amount
+Shareholders -> purchaser : Tender Shares at Acceptable Price
+
+alt Acceptable Bids
+    Shareholders -> purchaser : Same Percentage of Shares Accepted from Each Shareholder
+else Reject Bids Below Clearing Price
+    Shareholders -> Shareholders: Shares Rejected (Pro Rata Basis)
+end
+
+purchaser -> Shareholders: Accepted Tenders Paid Clearing Bid Price
+
+@enduml

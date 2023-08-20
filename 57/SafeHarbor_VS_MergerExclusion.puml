@@ -1,0 +1,25 @@
+@startuml
+
+!define RECTANGLE class
+
+RECTANGLE "Merger Exclusion under Rule 10b-18" as MergerExclusion {
+  - Safe harbor not available during mergers/acquisitions.
+
+  -- Exception 1 --
+  - All-Cash Transactions with No Valuation Period [230b]
+  - Allows share repurchases during merger period.
+
+  -- Volume Limitations for Exception 1 [230c] --
+  - Repurchases allowed, subject to limits:
+    - Lesser of 25% of four-week Average Daily Trading Volume (ADTV).
+    - Daily average share repurchases under Rule 10b-18 for preceding three months.
+    
+  -- Exception 2 (Alternative Exception) --
+  - Example Calculation for Exception 1 [230d]
+  - To determine repurchase eligibility:
+    - Calculate the lesser of volume limits.
+    - If > 0, share repurchases allowed.
+    - If 0, repurchases prohibited during exclusion period.
+}
+
+@enduml

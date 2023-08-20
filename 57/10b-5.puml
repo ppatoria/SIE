@@ -1,0 +1,54 @@
+@startmindmap 
+!include theme_mindmap.puml
+
+*_ SEC Rule 10b-5
+** Elements of Rule 10b-5 --
+*** Employment of Fraudulent Devices:
+****_ Prohibits the use of deceptive tactics, schemes,\nor artifices to defraud investors or manipulate the market.
+*** Making False Statements:
+****_ Forbids making untrue statements of material facts \nor omitting material information that would make statements made misleading.
+*** Engaging in Acts of Fraud or Deceit:
+****_ Prohibits engaging in practices \nor courses of business that operate as fraud or deceit upon any person.
+*** Manipulating Security Prices**:
+****_ Outlaws transactions, practices, \nor courses of business that manipulate or could manipulate the price of a security.
+** Key Concepts
+*** Materiality:
+****_ Refers to the significance of information that could affect an investor's decision. \nIt applies to false or misleading statements or \nomissions that are considered material, \nmeaning they are relevant and \nlikely to impact an investor's choices.
+*** Scienter (Intent or Knowledge of Wrongdoing):
+****_ Scienter is the legal requirement that the person \nor entity accused of wrongdoing acted with intent \nor knowledge of their fraudulent or deceptive actions. \nIt means that there must be a level of intent to deceive \nor manipulate, not just accidental \nor innocent misstatements.
+*** Private Right of Action:
+****_ Rule 10b-5 allows individuals who have suffered harm \ndue to violations of the rule to bring \nprivate lawsuits seeking damages.
+
+
+*_ Rule 10b-10
+** Trade Confirmation Information
+*** Broker-Dealer Information:
+****_ Trade confirmations must include the name and \naddress of the broker-dealer involved in the transaction.
+*** Transaction Details**:
+****_ This includes specifying whether the trade was a purchase or sale, \nthe price at which the transaction occurred, \nand a complete description of the security, \nincluding its name and CUSIP.
+*** Quantity of Shares**:
+****_ Trade confirmations should indicate the number of \nshares involved in the transaction.
+*** Settlement Date**:
+****_ The date on which the trade is scheduled to settle.
+*** Time of the Trade**:
+****_ Either the time of the trade \nor a statement indicating that this \ninformation is available upon request.
+*** Delivery and Payment Instructions**:
+****_ Information regarding how the securities will be delivered \nand how payment will be made.
+*** Broker-Dealer's Capacity**:
+****_ Whether the broker-dealer acted as an agent \nor principal in the transaction.
+*** Market Maker Status:
+****_ If the broker-dealer acted as a principal, \nwhether it is a market maker in the security being traded.
+*** Price Differences for Riskless Principal Transactions**:
+****_ For riskless principal transactions, \nthe difference between the price charged to the customer and \nthe price paid by the broker-dealer for the offsetting leg of the transaction.
+*** Mark-up or Mark-down for Principal Transactions**:
+****_ If the broker-dealer acted as a principal, \nthe difference between the price charged to the customer and the reported transaction price, \nrepresenting the mark-up or mark-down.
+*** Commission**:
+****_ If the broker-dealer acted as an agent, \nthe commission charged for the transaction.
+*** Other Remuneration**:
+****_ If the broker-dealer acted as an agent, \nany other remuneration received in connection with the transaction, \nsuch as payment for order flow.
+*** Market Where the Trade Occurred**:
+****_ The market where the trade was executed.
+*** Control Relationships with the Issuer**:
+****_ Any control relationships between the issuer of the securities and \nthe broker-dealer must be disclosed.
+
+@endmindmap
