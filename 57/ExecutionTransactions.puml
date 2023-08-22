@@ -1,0 +1,66 @@
+@startuml 
+!include theme_sequential_diagram.puml
+
+actor CustomerA
+actor CustomerB
+participant MarketMaker
+
+== Principal Trading ==
+CustomerA -[#Green]> MarketMaker: <font color=limegreen> Request to Buy 1,000 shares of XYZ
+MarketMaker -[#pink]> CustomerA: <font color=pink> Sells 1,000 shares. CustomerA pays **Mark-Down** .
+
+CustomerB -[#green]> MarketMaker: <font color=limegreen>Request to Sell 300 shares of XYZ
+MarketMaker <[#darkred]- CustomerB: <font color=pink>Buys 300 shares. CustomerB pays **Mark-Up** .
+note right
+        **Principal Trading**
+        (*) a market maker executes trades using its own inventory of securities.
+        (*) When a firm trades as a principal, the fee paid by a client is called
+            a "mark-up" when the firm is selling to the client or
+            a "mark-down" when the firm is buying from the client.
+        (*) Example:
+            if  CustomerA contacts a market maker to buy 1,000 shares of IBM, and
+            the market maker sells the CustomerA 1,000 shares of IBM from its own stock,
+            it is considered principal trading.
+end note
+
+== Agent Trading ==
+CustomerA -[#Green]> MarketMaker: <font color=limegreen>Request to Buy 300 shares of XYZ
+CustomerB -[#Green]> MarketMaker: <font color=limegreen>Request to Sell 300 shares of XYZ
+MarketMaker -> MarketMaker: Execute as Agent
+MarketMaker <[#darkred]- CustomerB: <font color=pink>Facilitates Trade
+note right
+**Agent Trading:**
+(*) The market maker acts as an intermediary,
+    connecting buyers and sellers who are the actual counterparties to the trade.
+(*) Receives a commission from each client for facilitating the trade.
+(*) Example:
+        if CustomerA contacts Market Maker to buy 300 shares of IBM and
+        CustomerB contacts Market Maker to sell her 300 shares of IBM,
+        the Market-Maker facilitates the trade between CustomerA and CustomerB,
+        who are the two counterparties.
+
+end note
+
+== Riskless Principal Trading ==
+CustomerA -[#Green]> MarketMaker: <font color=limegreen>Request to Buy 300 shares of XYZ
+MarketMaker -> MarketMaker: Execute as Principal
+MarketMaker -[#darkred]> CustomerA: <font color=pink>Sells 300 shares
+note right
+        **Riskless Principal Trading:**
+        (*) Market Maker receives an order to buy a security,
+            purchases the security as a principal, and
+            then immediately fills the existing customer order at the same price.
+        (*) It's called "riskless" because,
+            the market maker already has an order in hand
+            to immediately offset the position it took as a principal.
+        (*) Technically, it's a principal trade because the security
+            passes through the inventory of the broker-dealer,
+            but functionally, the broker-dealer is acting as an agent.
+        (*) Example:
+            if CustomerA contacts Market Maker to buy 300 shares of IBM,
+            Market Maker buys 300 shares of IBM as a principal at $150 per share
+            while CustomerA's buy order is pending.
+            Then, Market Maker fills CustomerA's order at $150 per share.
+end note
+
+@enduml

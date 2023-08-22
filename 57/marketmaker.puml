@@ -1,0 +1,42 @@
+@startuml MarketMakerRole
+
+!include theme_sequential_diagram.puml
+!define DarkGray #444444
+
+'!define MarketMaker <<Actor>>
+DarkGray [MarketMaker] as MM
+DarkGray [Market Hours] as MH
+DarkGray [Regular Trading Hours] as RTH
+DarkGray [Outside Regular Hours] as ORH
+DarkGray [Back Away Violation] as BAV
+
+MM --> MH : Agrees to Buy/Sell Securities
+MM --> RTH : (*) Provides Liquidity\n(*) Displays Quotes
+RTH --> ORH : No Obligation (Outside Hours)
+RTH --> BAV : Backing Away Violation
+
+note "Two-Sided Quote:\nBid & Ask for\nat **least 100 shares**" as TwoSidedQuote
+MM --> TwoSidedQuote
+TwoSidedQuote --> RTH
+
+note "Nasdaq Rule 4613 Requirements:" as Requirements
+Requirements --> MM : **Obligations**\n- Firm Quotes\n- Order Size\n- Pricing\n- Refresh Quotes
+note left
+**Firm Quotes:** MM must stand by the bid and ask prices they display. 
+**Order Size:** MM typically need to specify the minimum and maximum order sizes
+        for which they are willing to provide liquidity.
+**Pricing:** MM must establish competitive and fair bid and ask prices and
+        should reflect current market conditions and factors
+        that may affect the value of the securities.
+**Refresh Quotes:** Update their quotes regularly to reflect changes in the market
+        which includes adjusting bid and ask prices
+        as well as order sizes as market conditions evolve.
+end note
+Requirements --> MM : MPID\n(Market Participant Identifier)
+note "Market Makers must continuously\nbuy and sell during regular hours,\nbut no obligation outside hours." as ContinuousBuySell
+MM --> ContinuousBuySell
+
+note "To begin quoting additional securities:\nApply on Nasdaq, Obtain Approval,\nStart quoting within 5 business days." as AdditionalSecurities
+MM --> AdditionalSecurities
+
+@enduml

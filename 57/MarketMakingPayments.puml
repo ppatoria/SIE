@@ -1,0 +1,72 @@
+@startuml MarketMakingPayments
+
+!include theme_sequential_diagram.puml
+
+actor BrokerDealer
+actor Issuer
+actor Promoter
+participant FINRA
+participant SEC
+participant Exchanges
+
+== Decision to make a Market.==
+BrokerDealer -> FINRA: Decide to Make a Market if valid and legitimate reasons
+BrokerDealer --> FINRA: Market Making Decision
+note right
+Broker-dealers must use their business judgment to decide
+        whether to act as a market maker in a particular stock,
+        based on valid and legitimate reasons.
+end note
+== Prohibited Payments for Market Making==
+Issuer --> BrokerDealer: Offers Payment to Initiate Quotations
+FINRA --> BrokerDealer: Prohibits Payments for Market Making
+BrokerDealer --> Finra: But may initiate quotations without payment.
+note right
+**Prohibited Payments for Market-Making:**
+FINRA Rule 5250 prohibits any member (broker-dealer) from accepting
+                direct or indirect payment or consideration from
+                an issuer of a security, its affiliate, or promoter
+                in exchange for:
+                - Publishing a quote, or
+                - Acting as a market maker.
+                Payments can include cash, non-cash, or securities.
+end note
+== Types of Prohibited Payments ==
+Issuer --> BrokerDealer: Cash Reimbursement for Expenses
+Issuer --> BrokerDealer: Payments to Telemarketers for Promotion
+note right
+**Examples of Prohibited Payments:**
+        It is prohibited for an issuer or promoter to provide a market maker with
+        cash reimbursement to cover out-of-pocket expenses incurred for
+        Nasdaq registration as a market maker.
+        Payments for services designed to promote interest in the issuer's securities,
+        such as paying telemarketers to find qualified investors in secondary market trading,
+        are also prohibited.
+end note
+
+Promoter --> BrokerDealer: Payment for Market Making prohibited
+Promoter --> BrokerDealer: Payment for Maintaining Quotes prohibited
+note right
+        **Promoter:**
+        A promoter is broadly defined to include anyone, other than the issuer and its affiliates,
+        who may have an interest in influencing a member's market-making.
+end note
+
+BrokerDealer --> SEC: Reimbursements for Registration Fees
+BrokerDealer --> SEC: Reimbursements for Listing Fees
+BrokerDealer --> Exchanges: Payments as Per Exchange Rules
+
+== Exceptions to Prohibited Payments: ==
+BrokerDealer --> BrokerDealer: Acceptable Payments
+Issuer --> BrokerDealer: Payments for bona fide services, such as investment banking.
+Issuer --> BrokerDealer: Reimbursements for registration fees imposed on the issuer by the SEC or states. 
+Issuer --> BrokerDealer: Listing fees imposed by exchanges or SROs.
+note right
+        Payments for
+        - bona fide services,
+        - investment banking, and
+        - legitimate reimbursements
+        may be accepted.
+        **Note that reimbursement of the market maker's Nasdaq fees is not an approved exception.**
+end note
+@enduml

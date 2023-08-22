@@ -1,0 +1,33 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+|Market Maket Net Capital Requirements|
+
+start
+
+:Minimum net capital of $100,000, regardless of the number of stocks being quoted;
+
+if (Bid price of stock <= $5) then (yes)
+  :Net capital of $1,000 per security;
+else (no)
+  :Net capital of $2,500 per security;
+endif
+
+:Check if market maker is a qualified block positioner;
+
+if (Qualified block positioner) then (yes)
+  :Minimum net capital of $1,000,000;
+else (no)
+  :Follow net capital requirements based on bid price;
+endif
+note right
+        **Example Calculation:**
+        For each stock with a bid price of $10 or more: $2,500 * 10 = $25,000
+        For stocks with a bid price of $5 or less: $1,000 * 0 = $0
+        Total Minimum Net Capital Requirement: $25,000;
+        $25000 < $100000 so MM is not eligible.
+end note
+stop
+
+@enduml

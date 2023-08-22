@@ -1,0 +1,7 @@
+@startmindmap
+!include theme_mindmap.puml
+*_ The equity market is divided into \nthree types of facilities:
+** **Quotation Systems**: \nThese systems provide market participants with information about securities, \nincluding stock prices, \nbid-ask spreads, \ntrading volumes, \nand other relevant data.
+** **Execution Systems**: \nThese systems enable market participants to execute trades, \nbuying or selling securities based on the information provided by quotation systems.
+** **Reporting Systems**: \nReporting systems are responsible for recording and reporting executed transactions, \nensuring transparency and compliance with regulatory requirements.
+@endmindmap

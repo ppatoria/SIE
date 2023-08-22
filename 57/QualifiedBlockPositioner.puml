@@ -1,0 +1,22 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+start
+if (net capital > $1,000,000) then ("Qualified block positioner.")
+    if(Buy or sell blocks of stock with a market value >= $200,000) then ("Block Trading")
+        :Register as a block positioner;
+        :Confirm block cannot be sold or purchased \nfrom others non equivalent or better terms;
+        :Execute block transaction\nwith a single purpose;
+        :Exercise reasonable diligence;
+        :Maintain two-sided quote for at least \n100 shares of a stock during trading hours;
+        :Capable of managing risks\nand using hedges for large positions;
+        :Exclude transactions executed to\nmanage market maker's own inventory;
+        :Exempt from locate requirement\nfor short sales.;
+        :Provide liquidity;
+        :Facilitate customer orders;
+        :Display public quotes representing\nbuy and sell prices;
+        :Exclude transactions executed to\nmanage market maker's own inventory;
+    endif
+endif
+@enduml

@@ -27,13 +27,13 @@ skinparam SequenceDelayFontSize 20
 skinparam SequenceDelayFontStyle normal
 skinparam SequenceDelayFontColor DarkGreen
 
-skinparam SequenceDividerBorderThickness 5
-skinparam SequenceDividerFontColor Grey
-/'
-' skinparam SequenceDividerFontName"Ubuntu Mono"
-'/
+skinparam SequenceDividerBackgroundColor LightGray
+skinparam SequenceDividerBorderColor Black
+skinparam SequenceDividerBorderThickness 4
+skinparam SequenceDividerFontColor Black
+skinparam SequenceDividerFontName "Ubuntu Mono"
 skinparam SequenceDividerFontSize 20
-skinparam SequenceDividerFontStyle normal
+skinparam SequenceDividerFontStyle bold
 
 skinparam SequenceGroupBodyBackgroundColor Grey
 skinparam SequenceGroupBorderThickness 5
@@ -113,3 +113,6 @@ skinparam ArrowFontStyle normal
 skinparam ArrowHeadColor DarkGreen
 skinparam ArrowLollipopColor DarkGreen
 skinparam ArrowThickness 2.0
+
+
+

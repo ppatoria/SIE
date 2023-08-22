@@ -3180,4 +3180,26 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
         └────── Reports Submitted Upon Request
         
 
+* The NASDAQ stock Market
+-------------------------
+** Qualified Block Positioner:
 
+[[./QualifiedBlockPositioner.png]]
+
+** Equity Market Schematic:
+
+[[./Schematic.png]]
+
+[[./facilities.png]]
+
+** Role of Market Maker
+
+[[./MarketMakerRole.png]]
+
+*** Type Of Execution Transactions
+
+[[./ExecutionTransactions.png]]
+
+** Market Making Payments
+
+[[./MarketMakingPayments.png]]

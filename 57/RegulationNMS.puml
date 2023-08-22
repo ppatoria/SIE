@@ -1,0 +1,39 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Regulation NMS
+
+class RegulationNMS {
+  - order protection rule
+  - order access rule
+  - pricing increment rule
+  - market data rule
+}
+
+RegulationNMS --> OrderProtectionRule
+RegulationNMS --> OrderAccessRule
+RegulationNMS --> PricingIncrementRule
+RegulationNMS --> MarketDataRule
+
+class OrderProtectionRule {
+  - ensures that customers receive the best price for their order execution
+  - requires market participants to access and execute against the best displayed prices in the marketplace
+}
+
+class OrderAccessRule {
+  - ensures fair and non-discriminatory access to all quotations in all markets
+  - requires that investors have the opportunity to access the best displayed prices available
+}
+
+class PricingIncrementRule {
+  - sets the permissible pricing increments for quotes
+  - ensures that market participants quote in a manner that facilitates meaningful price competition and maintains fair and efficient markets
+}
+
+class MarketDataRule {
+  - emphasizes the importance of publicly disseminating quote and pricing information
+  - enhances market transparency, enabling investors to make informed trading decisions based on real-time information about the market depth and liquidity
+}
+
+@enduml
