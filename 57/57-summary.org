@@ -3207,3 +3207,8 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 ** Regulation NMS
 
 [[./RegulationNMS.png]]
+
+
+** Nasdaq Market Center:
+
+[[./NasdaqMarketCenter.png]]

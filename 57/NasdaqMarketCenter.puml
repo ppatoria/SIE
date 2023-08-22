@@ -1,26 +1,39 @@
 @startmindmap
 
 !include theme_mindmap.puml
-* **Nasdaq Market Center (System)**
+*_ __**Nasdaq Market Center (System)**__
+
 ** **Services**
 *** Order Execution Service
 *** Trade Reporting Service
 *** Data Feed(s) for Quotes and Displayed Orders;
+
 ** **Levels of Service**
+
 *** **Level 1 Service (Nasdaq Basic):**
-**** Best Bids and Offers on US Exchange-Listed Securities Last Sale Information;
+**** provides information on the best bids and offers on all US exchange-listed securities traded on Nasdaq.
+**** provides information regarding the last sale (last match) for each security as reported to the FINRA/Nasdaq Trade Reporting Facility.
+**** It is appropriate for retail investors or financial professionals not directly executing trades or \nrequiring detailed market data, as it provides a limited view of the market.
+
+
+**** Example:\n__**SHARES BID ASK SHARES**__\n1,300 14.10 14.15 500
+
+
 *** **Level 2 Service:**
-**** All Level 1 Data
-**** Market Participant Depth
-**** (Nasdaq, NYSE, Regional)
-**** Market Movements and Liquidity;
+**** provides all the data available in Level 1 plus market participant depth in Nasdaq, NYSE, \nand regional exchange-listed securities.
+**** Market participant depth shows the best quote of each market participant in the Nasdaq execution system \n(not just the highest bid and lowest ask).
+**** This type of data can be used by market participants to gauge supply, demand, and \npotential market movements as a result of liquidity or lack thereof.
+
 *** **Nasdaq TotalView:**
-**** Every Quote and Order at Every Price Level(Nasdaq, NYSE, NYSE MKT, Regional)
-**** Net Order Imbalance Indicator (NOII)
-**** Opening and Closing Crosses;
+**** Displays every quote and order at every price level \nin Nasdaq-, NYSE-, NYSE MKT-, and regional-listed securities on Nasdaq.
+**** Unlike Level 2, TotalView shows the quotes for all displayable orders in the Nasdaq execution system.
+**** a TotalView subscriber would see all of the quotes from a market maker at all price levels, \nnot just each market maker’s best price.
+**** TotalView includes Net Order Imbalance Indicator (NOII) data for the Nasdaq opening and closing crosses \nthat can be used to participate in the market opening and closing.
+
 *** **Level 3 Service (Required for Market Makers):**
-**** All TotalView Data
-**** Market Maker's Ability to Adjust Quotes
-**** Entire Depth of the Market;
+**** It is required for market makers.
+**** Displays all the data from TotalView, and allows a market maker to adjust its quotes in the system, \nproviding the mechanism to change quotes as investors change their view of a particular security.
+**** The quotes that are displayed on Level 1, Level 2, and TotalView are entered and modified by market maker firms \nthat have subscribed to Level 3 service.
+**** Allows firms to see the entire depth of the market.
 
 @endmindmap

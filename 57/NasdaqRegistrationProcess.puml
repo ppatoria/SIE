@@ -1,0 +1,14 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Nasdaq Market Maker Registration Process
+
+start
+: Market maker applies on Nasdaq to initiate quotes in a specific security;
+: Nasdaq generally approves the request;
+: Market maker may begin entering quotes;
+: **Market maker must start quoting the security by no later than the open of trading <font color=pink> five business days later**;
+stop
+
+@enduml
