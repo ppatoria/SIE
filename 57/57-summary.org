@@ -3203,3 +3203,7 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 ** Market Making Payments
 
 [[./MarketMakingPayments.png]]
+
+** Regulation NMS
+
+[[./RegulationNMS.png]]

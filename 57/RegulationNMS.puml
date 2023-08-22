@@ -1,39 +1,27 @@
-@startuml
+@startmindmap
 
-!include theme_activity_diagram.puml
+!include theme_mindmap.puml
 
 title Regulation NMS
 
-class RegulationNMS {
-  - order protection rule
-  - order access rule
-  - pricing increment rule
-  - market data rule
-}
+*_ **Regulation National Market System (NMS)**
+** **NMS stocks**
+*** equities listed or traded on public exchanges such as the NYSE or Nasdaq.
+** **Rules**
+*** **Order Protection:**
+**** Ensuring that customer orders receive the best possible price execution.
+**** Requires market participants to access and \nexecute against the best displayed prices in the marketplace
 
-RegulationNMS --> OrderProtectionRule
-RegulationNMS --> OrderAccessRule
-RegulationNMS --> PricingIncrementRule
-RegulationNMS --> MarketDataRule
+*** **Order Access:**
+**** Ensuring fair and non-discriminatory access to all quotations in all markets.
+**** Requires that investors have the opportunity to access the best displayed prices available
 
-class OrderProtectionRule {
-  - ensures that customers receive the best price for their order execution
-  - requires market participants to access and execute against the best displayed prices in the marketplace
-}
+*** **Pricing Increments:**
+**** Setting permissible pricing increments for quotes.
+**** Ensures that market participants quote in a manner \nthat facilitates meaningful price competition and \nmaintains fair and efficient markets
 
-class OrderAccessRule {
-  - ensures fair and non-discriminatory access to all quotations in all markets
-  - requires that investors have the opportunity to access the best displayed prices available
-}
+*** **Market Data:**
+**** Publicly disseminating quote and pricing information.
+**** Enhances market transparency, \nenabling investors to make informed trading decisions \nbased on real-time information about the \nmarket depth and liquidity
 
-class PricingIncrementRule {
-  - sets the permissible pricing increments for quotes
-  - ensures that market participants quote in a manner that facilitates meaningful price competition and maintains fair and efficient markets
-}
-
-class MarketDataRule {
-  - emphasizes the importance of publicly disseminating quote and pricing information
-  - enhances market transparency, enabling investors to make informed trading decisions based on real-time information about the market depth and liquidity
-}
-
-@enduml
+@endmindmap
