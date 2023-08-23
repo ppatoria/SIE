@@ -35,30 +35,47 @@ mindmapDiagram {
                 BackgroundColor darkcyan
         }
         .darkslategrey {
-                BackgroundColor darkslategrey    
+                BackgroundColor darkslategrey
         }
         .darkseagreen {
-                BackgroundColor darkseagreen    
+                BackgroundColor darkseagreen
+        }
+        :depth(0) {
+                BackGroundColor DarkGreen
+                FontColor Grey
         }
         :depth(1) {
                 BackGroundColor DarkSlateGray
-                FontColor DarkKhaki
+                FontColor Grey
+        }
+        :depth(2) {
+                BackGroundColor DarkGray
+                FontColor Grey
         }
         :depth(3) {
                 BackGroundColor darkcyan
                 FontColor Black
         }
         :depth(4) {
-                BackGroundColor darkkhaki
+                BackGroundColor Grey
                 FontColor Black
         }
-        :depth(2) {
+        :depth(5) {
                 BackGroundColor DarkGray
-                FontColor darkkhaki
+                FontColor Grey
+        }
+        :depth(6) {
+                BackGroundColor Black
+                FontColor Grey
+        }
+
+        :depth(7) {
+                BackGroundColor DarkBackground
+                FontColor LightGray
         }
 
         boxless {
-                FontColor LIghtGray
+                FontColor DarkGray
         }
 }
 </style>

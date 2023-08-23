@@ -1,0 +1,26 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Minimum Quote Increments for NMS Stocks
+
+start
+
+if(Stock Price >= $1) then (yes)
+: Minimum Quote Increment = $0.01 \n(one cent);
+else (No)
+: Minimum Quote Increment = $0.0001 \n(one hundredth of a cent);
+endif
+
+note right
+(*) NBBO is $13.12 × $13.19.
+    A new bid could be entered at $13.13, but not at $13.125.
+(*) NBBO is $0.8201 × $0.9823.
+    A new bid could be entered at $0.8202, but not at $0.82015.
+end note
+
+stop
+
+@enduml
+
+

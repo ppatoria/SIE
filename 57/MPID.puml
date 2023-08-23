@@ -1,0 +1,35 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+title Market Participant Identifiers (MPIDs) Usage
+
+start
+: Each market maker has a unique MPID;
+: Primary MPID for identifying the member;
+: Additional MPIDs can be obtained for various purposes;
+: Additional MPIDs often used for dark pool or OTC trades;
+
+if (Primary MPID) then (Yes)
+  : Primary MPID for core identification;
+  : Must always have a **firm, two-sided quote**;
+else (No)
+  : Additional MPIDs can be used for specific purposes;
+  : Such as reporting dark pool or OTC trades;
+  : **Supplemental MPID quotes do not need to be two-sided**;
+  : Can be withdrawn at any time;
+endif
+
+: **MPID issuance is a privilege, not a right**;
+
+if (Requirements for Multiple MPIDs)
+  : Members must identify legitimate purpose(s) and system(s) for each MPID;
+  : Obtain written approval from FINRA Operations;
+  : Quotation for OTC equity security and subsequent trade must use the same MPID;
+else (Consequences)
+  : FINRA may withdraw additional MPIDs for infractions;
+  : Losing the right to use the primary MPID also restricts additional MPID usage;
+endif
+
+stop
+@enduml

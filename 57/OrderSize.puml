@@ -1,0 +1,18 @@
+@startmindmap
+!include theme_mindmap.puml
+
+*_ OrderSize
+** **Normal Unit of Trading (Round Lot):**
+*** The standard trading size for a security, which is typically 100 shares.
+*** Market makers on various exchanges have an **obligation** \nto provide bids and ask for quotes for at least one round lot (100 shares).
+
+** **Mixed Lot:**
+*** Is greater than a normal unit of trading (100 shares), but it is not a multiple of the round lot size. \nFor example, if an order is for 286 shares, \nit is considered a mixed lot because \nit's greater than 100 shares but not a multiple thereof.
+
+** **Odd Lot:**
+*** Is less than a normal unit of trading (100 shares). \nFor example, if an order is for 12 shares, it is considered an odd lot \nbecause it's less than the standard 100-share round lot.
+
+** **Market Maker Obligation:**
+*** Market makers are typically **obligated to provide quotes for at least one round lot**  i.e. quotes is often displayed in round lots.
+
+@endmindmap

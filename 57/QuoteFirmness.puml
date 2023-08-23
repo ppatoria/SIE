@@ -1,0 +1,33 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ **Pink OTC Quotes**
+
+** **Firm Quotes**
+*** **One-sided**
+**** Priced Bid **or** Offer
+*** **Two-sided**
+**** Priced Bid **and** Offer
+
+** Indicative/Subjective/Non-Firm Quotes
+
+*** **Unpriced Indication of Interest (IOI)**
+**** Indicates interest in a security without specifying a specific price. \nIt can serve different purposes, depending on whether it's "Natural" or "Non-natural."
+
+**** **Natural**
+***** **Customer Order or Transaction Desire (IOI for Customers):** \nThis type of Unpriced **IOI** reflects a **customer's interest** in a security without specifying a particular price. \nEssentially, it indicates that a customer is looking to buy or sell the security \nbut hasn't set a specific price yet. \nMarket participants who see a natural Unpriced IOI \nmay contact the firm displaying it \nto discuss pricing and potentially execute a trade.
+
+
+**** **Non-natural**
+***** **IOI for Market Maker:** \nThis type of Unpriced IOI is typically used by market makers or firms \nthat are willing to act as counterparties for trades. \nIt indicates that a market maker is interested in buying or selling a security but hasn't specified a price. \nUnlike the natural IOI, which often represents customer orders, \nnon-natural IOIs are more about the market maker's trading intentions.
+
+** **Subject (i.e. NOT FIRM)**
+*** Allowed in **OTC Pink** 
+**** Must be Clearly Indicated as "Not Firm" (Subject)
+
+** **No Penalty for Quote Withdrawal:**
+*** There is no penalty for a quote withdrawal by an OTC market maker in the OTC Pink marketplace.
+*** OTC equities on OTC Pink do not have a continuous, firm-quote requirement.
+**** A quote need not be firm in following scenarious:\n(*) It is clearly designated "not firm"\n(*) "firm" for less than the normal unit of trading\ni.e. A "firm" order with  size less than the round lot \n may also be considered "not firm".
+@endmindmap

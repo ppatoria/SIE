@@ -1,0 +1,51 @@
+@startmindmap
+!include theme_mindmap.puml
+
+*_ **Two-Sided Quotes**\n**Firm Quotes**\n**Bona fide Quotes**
+
+** **The two-sided obligations:**
+
+*** All quotes entered by market makers into the Nasdaq system must be firm quotes.
+*** Market makers must be willing to buy and sell on a continuous basis \n**during all regular market hours** .
+
+*** **Exceptions**:
+**** **Outside Regular Hours**
+***** Market makers do not have an obligation \nto maintain quotes \n**outside regular market hours** \n.i.e., in the pre-market or after-market.
+**** **Regular Hours**
+***** A market maker \nis not obligated \nto honor \na firm quote \n**during regular hours** \nin two cases:
+****** **Changing a quote**
+******* Before a counterparty’s order was presented, the market maker entered a revised bid or offer
+******* **Example:** A market maker has placed a firm quote to buy Company X's stock at $50 per share, \nand this quote is visible to the market.\nBefore any counterparty  decides to sell their shares to the market maker at $50, \nthe market maker decides to change their mind and updates their quote to buy at $49 per share.
+****** **Executing a quote**
+******* At the time the counterparty’s order was presented, \nthe market maker was in the process of \neffecting a transaction and will be revising its quote.
+******* **Example:** The market maker has a firm quote to sell Company Y's stock at $75 per share.\nA counterparty then decides to buy a significant number of shares from the market maker \nat the quoted price of $75.\nHowever, while this trade is happening, \nthe market maker realizes that there has been a sudden development \nin the market or with Company Y's stock \nthat significantly affects the stock's value. \nThey decide to update their quote and revise their offer price to $76 per share.
+
+** **Backing Away**
+*** Failure to maintain or honor firm quotes is called **backing away** \nand is a **serious violation** .
+*** Nasdaq regulators use automated market surveillance tools \nto scan the market in real time for backing-away violations.
+*** Complaints regarding **backing away** should be **filed with regulators within five minutes** . \nHowever, a failure to do so does not forgive the offending firm from liability.
+
+** **Normal Trading Unit / Round Lot**
+*** A normal trading unit is for a \n**minimum of 100 shares on both the bid and ask sides** \nthis 100-share unit is referred to as a round lot.
+**** **Quote**
+***** The quote on both sides must be available \nfor a required **normal trading unit** i.e. **round lot** .
+**** **Execution**
+***** Market makers are expected to buy or sell a normal trading unit \n in a quoted stock at its quoted price.
+
+** **Refresh Quote**
+*** After each trade execution, the member must refresh its quote.
+
+/'
+ ' **** If a market maker is quoting both equity and warrants on a particular issuer
+ ' ***** The market maker is required to trade a normal trading unit for both securities: the equity and the warrants.
+ ' ***** Example:\n The chart below shows three market makers’ quotes.\nFirm Bid Ask Size (bid × ask) Notes\nMMAA 9.92 9.99 4 × 8\nMMAA is willing to buy (bid) four\nround lots (400 shares) at $9.92 and\nwilling to sell (ask) eight round lots (800\nshares) at $9.99.\nMMBB 9.89 9.96 12 × 3\nMMBB is willing to buy 12 round lots\n(1,200 shares) at $9.89 and willing to sell\nthree round lots (300 shares) at $9.96.\nMMCC 9.90 10.04 1 × 5\nMMCC is willing to buy one round lot\n(100 shares) at $9.90 and willing to sell\nfive round lots (500 shares) at $10.04.\nMarket maker quotes are then organized in the Nasdaq system so that market\nparticipants can easily see who is willing to pay the most for the shares, called\nthe best bid, and who is willing to sell their shares at the lowest price, the best\noffer. At any particular moment, these two best quotes, the best bid and the best\nask, are called the inside market or the national best bid/offer (NBBO). The\nsystem would display the quotes in the following manner:\nMM Size Bid Ask Size MM\nMMAA 4 9.92 9.96 3 MMBB\nMMCC 1 9.90 9.99 8 MMAA\nMMBB 12 9.89 10.04 5 MMCC
+ ' 
+ ' *** The inside market, or NBBO, here is MMAA’s bid of 9.92 and MMBB’s ask of 9.96\nwith a size of 4 × 3. The best buyer (the buyer willing to pay the most) is MMAA\nwith its bid of $9.92, and sales will be directed to MMAA first. Conversely, market participants seeking to buy shares would do so from MMBB, who is a seller\n(asking) at $9.96; buyers would first purchase from MMBB because it is offering\nthe lowest price.
+ ' 
+ ' 
+ ' **** In the example above, assume MMDD was bidding 9.88 on 15 round\nlots. How many shares must be bought in the open market before\nMMDD’s bid can be executed?\nA: MMDD’s bid is inferior to those of MMAA, MMBB, and MMCC.\nTherefore, all three of those bids must be executed first: 4 Round Lots +\n1 Round Lot + 12 Round Lots = 17 Round Lots (1,700 shares). Assuming\nno other bids were entered, MMDD’s bid of 9.88 would be the best bid\nand eligible for execution.
+ ' *** As market makers change their quotes, the Nasdaq screen continuously and regularly updates to reflect new quotes coming into the market and existing quotes\nbeing removed—because they were executed against, or because a market maker\nchanged its quote for the security. For example, if MMDD entered a new quote of\n9.94–9.99 7 × 6, the system would update to display this new data.
+ ' **** Note MM Size Bid Ask Size MM Note\nNew best bid.\nMMDD is a buyer\nof up to 700\nshares at $9.94.\nMMDD 7 9.94 9.96 3 MMBB\nThe existing best offer\nremains MMBB asking\n$9.96 for three round lots.\nMMAA 4 9.92 9.99 6 MMDD\nThere are now a total of\n14 round lots available at\n$9.99 from MMAA and\nMMDD.
+ ' **** MMCC 1 9.90 9.99 8 MMAA\nMMBB 12 9.89 10.04 5 MMCC
+ '/
+@endmindmap

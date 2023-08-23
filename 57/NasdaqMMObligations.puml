@@ -1,0 +1,10 @@
+@startmindmap
+!include theme_mindmap.puml
+
+*_ __**Nasdaq Rule 4613 obligations:**__
+** Maintain firm, two-sided quotes;
+** Adhere to specific order size requirements;
+** Price securities according to market rules;
+** Regularly refresh quotes;
+
+@endmindmap

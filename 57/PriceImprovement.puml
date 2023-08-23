@@ -1,0 +1,36 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+if (Execution Price < Customer's Limit Price) then (yes)
+    : Price Improvement occurs;
+    : Benefit goes to the customer;
+else (No)
+    : No Price Improvement;
+endif
+
+note right
+**Example:**
+        (*) **Stock XYZ** trading at, $10.00 x $10.05.
+
+        (*) **Market Participant A (Seller):**
+            - Order Type: Limit Sell
+            - Quantity: 100 shares
+            - Limit Price: $10.02
+            i.e. The seller is willing to sell shares for
+                 no less than $10.02 per share.
+
+        (*) **Market Participant B (Buyer):**
+            Order Type: Limit Buy
+            Quantity: 100 shares
+            Limit Price: $10.04
+            i.e. The buyer is willing to buy shares for
+                 no higher than $10.04 per share.
+
+        (*) **Price improvement Occurs:**
+            Since the execution price of $10.04 is
+            better/higher than the
+            Customer A's (Seller's) limit price of $10.02.
+end note
+
+@enduml
