@@ -1,0 +1,36 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ **Entry of Orders:**
+** Nasdaq market makers and Nasdaq ECNs can enter quotes into the Nasdaq system between 4:00 am and 8:00 pm Eastern Standard Time (ET).
+*** **Pre-Market Hours:**      4:00 AM to 9:30 AM
+*** **Regular Trading Hours:** 9:30 AM to 4:00 PM
+*** **After-Hours Trading:**   4:00 PM to 8:00 PM
+
+*_ **Types of Orders:**
+
+** System Order:
+*** Entered into the system for **display and execution** .
+*** Must be **limit orders**.
+**** Example: A retail trader places a **limit order to buy 100 shares of XYZ stock at $50.00** .
+
+** Attributable Order:
+*** Includes the **MPID** of the market maker next to its quote.
+*** Identity is visible.
+**** Example: Market Maker ABC places an **attributable order to sell 500 shares of ABC stock at $55.25 with MPID "MMABC."**
+
+** Non-Attributable Order:
+*** Anonymous orders where the buyer or seller's identity is not revealed.
+**** Example: **An institutional investor places a non-attributable order to buy 1,000 shares of XYZ stock at $49.75** .
+
+** Reserve Order:
+*** Allows participants to **display part of the order** while holding the rest in reserve.
+*** Example: Market Maker XYZ displays 700 shares of a 2,000-share order at $25.00 and holds the remaining 1,300 shares in reserve.
+
+** Non-Displayed Order:
+*** **Available for execution but not displayed** in the system. Lower priority.
+**** Example: An algorithmic trading system places a non-displayed order to sell 1,000 shares of ABC stock at market price.
+
+
+@endmindmap

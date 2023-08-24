@@ -1,0 +1,140 @@
+@startuml
+skinparam componentStyle uml2
+
+note right
+        Pegged orders are designed to
+        automatically adjust their
+        prices or quantities based on
+        specific market conditions or
+        reference points.
+
+        The primary goal of pegged orders
+        is to help traders execute their
+        orders at prices that are responsive
+        to changing market dynamics.
+end note
+
+note right
+**Reference Point:**
+        Pegged orders are tied to a specific
+        reference point or benchmark within
+        the market.
+        This reference point can be the
+        - best bid,
+        - best ask,
+        - midpoint between bid and ask, or
+        - other relevant market data.
+end note
+
+note right
+**Automatic Adjustment:**
+        Automatically adjust in response to changes
+        in the chosen reference point.
+        **Example:**
+        if an order is pegged to the best bid,
+        its price will be continuously adjusted
+        to stay just **below the best bid** as market
+        conditions change.
+end note
+
+note right
+**Types of Pegged Orders:**
+        **Price Pegged Orders:**
+        (*) Adjust their prices based on the reference point.
+            Example:
+                   a buy order may be pegged to the best bid,
+                    ensuring that it remains competitive with
+                    current market prices.
+ end note
+
+note right
+        **Quantity Pegged Orders:**
+        These orders adjust their order quantity based on
+        changes in market conditions, helping traders adapt
+        to varying liquidity.
+end note
+
+note right
+        **Execution Flexibility:**
+        Pegged orders can offer execution flexibility
+        by allowing traders to capture price movements
+        or liquidity shifts in a dynamic manner.
+        They can be particularly useful in fast-moving
+        markets.
+end note
+
+start note
+        **Display and Execution:**
+         Some pegged orders are displayed to the market,
+         meaning their existence is visible to other market
+         participants. Others may be undisclosed or hidden,
+         only revealing themselves when specific conditions
+         are met.
+end note
+
+start note
+        **Risk Considerations:**
+         While pegged orders can be valuable tools,
+         they come with certain risks. If market conditions
+         change rapidly, a pegged order may execute at
+         unpected prices. Traders need to carefully configure
+         and manage these orders to avoid unwanted executions.
+end note
+note right
+    Pegged orders are commonly used by both institutional
+    and retail traders to enhance their trading strategies.
+    By automatically adjusting to prevailing market conditions,
+    pegged orders help traders achieve their desired trade outcomes
+    while maintaining competitiveness in the marketplace.
+end note
+
+note right
+types of pegging:
+Price Pegging:
+In price pegging, the order price is adjusted based on a reference price.
+For example, a buy order might be pegged to the best bid,
+meaning that the order price is automatically set slightly below the best bid,
+ensuring that it is more likely to be executed.
+
+Quantity Pegging: In quantity pegging, the order quantity is adjusted based on market conditions. For example, an order might be set to increase or decrease its quantity based on changes in the market's available liquidity.
+
+Midpoint Pegging: A midpoint peg order is pegged to the midpoint between the best bid and best ask. This order type is used when traders want to capture trades at a price between the bid and ask.
+
+Primary Pegging: Primary pegging involves pegging the order to the same side of the market. For example, a primary peg to buy would be set at or near the best bid, while a primary peg to sell would be set at or near the best ask.
+
+Market Pegging: Market pegging involves pegging the order to the opposite side of the market. A market peg to buy would be set at or near the best ask, and a market peg to sell would be set at or near the best bid. These orders are typically designed to be executed immediately if there is enough liquidity on the opposite side of the market.
+
+
+!define MM_PEG_ORDER << (M,#FF7700) MM Peg Order >>
+!define PEGGED_ORDER << (P,#0077FF) Pegged Order >>
+
+package "Nasdaq Orders" {
+  [Market Maker]
+  [Investor]
+
+  [Market Maker] --> [MM Peg Order]
+  [Investor] --> [Pegged Order]
+
+  [MM Peg Order] --> "Automatically adjusts" [Market Price]
+  [Pegged Order] --> "Adjusts based on" [Reference Price]
+
+  [MM Peg Order] --> "May have" [Offset]
+  [Pegged Order] --> "May have" [Offset]
+
+  [MM Peg Order] --> "Must meet" [Quoting Obligations]
+  [Pegged Order] --> "Used for automation" [Automated Order]
+
+  [MM Peg Order] --> "Upon execution, requires" [Order Maintenance]
+  [Pegged Order] --> "Can have" [Limit Price]
+
+  [MM Peg Order] --> "Specific to market makers" [Market Maker-Specific]
+  [Pegged Order] --> "Used by various participants" [Versatile]
+
+  [MM Peg Order] --> "Complies with Nasdaq Rule 4613" [Regulatory Requirement]
+  [Pegged Order] --> "Offers flexibility" [User-Defined]
+
+  [Market Maker] ..> [MM Peg Order]
+  [Investor] ..> [Pegged Order]
+}
+
+@enduml

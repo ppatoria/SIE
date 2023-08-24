@@ -1,0 +1,116 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+start
+
+: Market Maker;
+note left
+Pricing must be within a designated percentage away from the current
+**NBBO, or it references the last reported sale if there's no NBBO**.
+end note
+
+fork
+:**Tier 1**:Stocks from major indices;
+'------------------------------------'
+note left
+(*) **Large-cap stocks**
+    **Widely recognized and traded**
+    **Stocks from major indices**
+    **Most stringent pricing obligations. **
+    **Like the S&P 500 or the Russell 1000. **
+(*) **Highly Liquid**
+(*) **Large market capitalization**
+end note
+: Determine if the Quote is permissible;
+if(New Quote) then (yes)
+        if ((New Bid <= 8% of Best Bid) \nOR \n(New Offer >= 8% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+elseif(No New Quote) then (Check Existing Quotes with NBBO)
+        if(Regular Market Hours) then (yes)
+            if ((Existing Bid <= 9.5% of Best Bid) \nOR \n(Existing Offer >= 9.5% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+            endif
+       else (No)
+             if ((Existing Bid <= 21.5% of Best Bid) \nOR \n(Existing Offer >= 21.5% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+             endif
+       endif
+endif
+
+fork again
+:**Tier 2**;
+'-----------'
+note left
+(*) **Characteristics of Tier 2:**
+    **NMS stocks that are not classified as Tier 1**
+                AND
+    Have a **price equal to or greater than $1** .
+
+(*) **Relatively liquid**
+(*) Relatively slight flexibility
+    in pricing obligations compared
+    to Tier 1.
+end note
+: Determine if the new Quote is permissible;
+if(New Quote) then (yes)
+        if ((New Bid <= 28% of Best Bid) \nOR \n(New Offer >= 28% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+elseif(No New Quote) then (Check Exiting Quotes with NBBO)
+        if ((Existing Bid <= 29.5% of Best Bid) \nOR \n(Existing Offer >= 29.5% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+endif
+
+fork again
+:Tier 3;
+'--------'
+ note left
+(*) **Characteristics of Rier 3**:
+        NMS stocks not classified as Tier 1
+                    AND
+        **Price less than $1. **
+
+(*) These are referred to as **penny stocks**.
+(*) **Most flexibility in their pricing obligations**
+(*) **Less Liquid** and often more **volatile**.
+end note
+: Determine if the new Quote is permissible;
+if(New Quote) then (yes)
+        if ((New Bid <= 30% of Best Bid) \nOR \n(New Offer >= 30% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+elseif(No New Quote) then (Check Exiting Quotes with NBBO)
+        if ((Existing Bid <= 31.5% of Best Bid) \nOR \n(Existing Offer >= 31.5% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+endif
+
+fork again
+:Rights and Warrants;
+'-------------------'
+: Determine if the new Quote is permissible;
+if(New Quote) then (yes)
+        if ((New Bid <= 30% of Best Bid) \nOR \n(New Offer >= 30% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+elseif(No New Quote) then (Check Exiting Quotes with NBBO)
+        if ((Existing Bid <= 31.5% of Best Bid) \nOR \n(Existing Offer >= 31.5% of Best Offer)) then (No)
+                #pink: Quote is not permissible;
+        endif
+endif
+
+end fork
+
+if (New Quote is not Permissible) then (yes)
+        :adjust quotes to permissible price range;
+endif
+
+
+:Enter New Quote;
+stop
+
+@enduml
+

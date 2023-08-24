@@ -1,0 +1,8 @@
+@startmindmap
+!include theme_mindmap.puml
+*_ **Best Market Price**
+** Inside Market
+*** These refer to the highest bid and lowest offer (ask) prices \n currently available in **the order book of a particular exchange or market** .
+** National Best Bid and Offer (NBBO)
+*** This represents the highest bid and lowest offer prices \n across **all available trading venues or exchanges in a given market** . I
+@endmindmap

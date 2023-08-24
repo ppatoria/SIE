@@ -1,0 +1,80 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+actor MarketMaker
+participant NasdaqSystem
+participant MarketData
+participant OrderMatchingEngine
+participant Market
+
+MarketMaker -> NasdaqSystem: Enter MM Pegged Order (Buy)
+NasdaqSystem -> MarketData: Get Market Data (Inside Bid/Ask)
+MarketData -> Market: Query Market for Current Bid/Ask
+Market --> MarketData: Return Current Bid/Ask
+note right
+*Details:*
+MM Pegged order is a **two-step process**.
+(I) The order is pegged by sending it to the exchange.
+    This means that the order is automatically
+    adjusted by the system to stay within the defined
+    limits as market prices fluctuate.
+(II) Once the order is pegged, it is eligible for
+     execution if there is enough available interest
+     on the other side of the market.
+
+The process of a Market Maker Pegged order for buying
+a stock, incorporating all the steps and adjustments
+mentioned in the provided example.
+
+(*) A Market Maker enters an MM Pegged Order
+    to **buy** a stock currently quoted **at $10**.
+
+(*) The **Nasdaq System retrieves the current
+    market data**, including the inside Bid and
+    Ask prices.
+
+(*) The Nasdaq System prices the MM Pegged Order,
+    setting it **8% below the Best Bid**, which is
+    **the minimum bid price permissible**, resulting
+    in an initial price of **$9.20**.
+
+(*) **If the Best Bid moves higher (e.g., to $10.50)**,
+    the MM Pegged Order **automatically adjusts** to
+    stay **within 9.5%** below the new Best Offer
+    **(adjusted price: $9.51)**.
+    **NOTE**: It is adjusted to 9.5% below not 8%
+    because for **Existing Quote** the permissible
+    minimum bid is 9.5% while for **New Quote**
+    it is 8%.
+
+(*) The **Market Maker has set an offset of $0.05**,
+    which is added to the adjusted price.
+    The offset ensures that the order price remains
+    a specific interval away from the pegged price.
+
+(*) The OrderMatchingEngine matches the MM Pegged Order
+    with available liquidity in the market, and a trade
+    is executed.
+
+(*) Execution confirmations are sent to the MarketMaker.
+        end note
+
+MarketData --> NasdaqSystem: Provide Market Data \n**(Initial Bid $10)**
+NasdaqSystem -> NasdaqSystem: Price MM Pegged Order (8% below Best Bid) \n**(Bid is now $9.20)**
+NasdaqSystem -> MarketMaker: Confirmation of Pegged Price (Initial Price)
+MarketMaker -> NasdaqSystem: Confirm MM Pegged Order Entry
+
+alt DarkGray Best Bid Moves Higher
+    NasdaqSystem -> NasdaqSystem: Automatic Adjustment (9.5% below New Best Offer) + Offset \n**(Bid is now $9.51 + $0.05)**
+    NasdaqSystem -> MarketMaker: Confirmation of Price Adjustment
+else DarkGray
+    NasdaqSystem -> MarketMaker: No Adjustment Required
+end
+
+NasdaqSystem -> OrderMatchingEngine: Execute MM Pegged Order
+OrderMatchingEngine -> Market: Match MM Pegged Order with Market Liquidity
+Market --> OrderMatchingEngine: Execute Trade
+OrderMatchingEngine --> NasdaqSystem: Execution Confirmation
+NasdaqSystem --> MarketMaker: Execution Confirmation
+
+@enduml

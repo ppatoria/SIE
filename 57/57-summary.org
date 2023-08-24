@@ -2251,7 +2251,9 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 [[./PriceImprovement.png]]
 
 
+** Pricing Obligations for new Quotes:
 
+[[./PricingObligationForNewQuotes.png]]
 
 
 
@@ -2264,4 +2266,22 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 ** Quotes Firmness:
 
 [[./QuoteFirmness.png]]
+
+** Best Bid and Offer Price
+
+[[./BestMarketPrice.png]]
+
+** Market Maker Pegged Orders:
+
+[[./MarketMakerPeggedOrders.png]]
+
+
+*** Market Maker Pegged Orders with Offset:
+
+[[./MarketMakerPeggedOrdersWithOffset.png]]
+
+
+** Order Types
+
+[[./OrderTypes.png]]
 
