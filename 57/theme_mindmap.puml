@@ -42,15 +42,15 @@ mindmapDiagram {
         }
         :depth(0) {
                 BackGroundColor DarkGreen
-                FontColor Grey
+                FontColor Black
         }
         :depth(1) {
                 BackGroundColor DarkSlateGray
-                FontColor Grey
+                FontColor Black
         }
         :depth(2) {
                 BackGroundColor DarkGray
-                FontColor Grey
+                FontColor Black
         }
         :depth(3) {
                 BackGroundColor darkcyan

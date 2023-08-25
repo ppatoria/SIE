@@ -1,0 +1,57 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ **Order Types**
+** Imbalance-only orders are executed only if \nthere are unfilled orders remaining \non the opposite side of the market.\nThis ensures that imbalance-only orders \ncontribute to balancing the market \nby filling in the gaps \nwhere there is an imbalance of supply and demand.
+
+** **Opening Cross Order Types:**
+
+
+*** **Market-on-Open (MOO):**
+
+**** **Guarantee execution** 
+**** **Does not Guarantee price** 
+**** They cannot be entered, canceled, or modified after 9:28 am.
+
+*** **Limit-on-Open (LOO):**
+**** **Guarantee Price** 
+**** **Does not Guarantee Execution** 
+**** They are only valid for the market opening and \ncannot be entered, canceled, or modified \nafter 9:28 am.
+
+*** **Opening Imbalance Only (OIO):**
+**** OIO orders provide liquidity \nintended to offset on-open orders \nduring the opening cross.
+**** **Guarantee Execution** 
+**** **Does not Guarantee Price** 
+**** They cannot be canceled or modified after 9:28 am, except to increase the number of shares.
+**** OIO orders can be entered \nbetween 4:00 am ET and \nthe execution of the Nasdaq opening cross at 9:30:00 am. \nAfter 9:28 am, OIO orders \ncannot be canceled or modified.
+
+** **Closing Cross Order Types:**
+*** **Orders entered at or after 3:55 pm cannot be canceled or modified for any reason.**
+
+*** **Market-on-Close (MOC):**
+**** **Guarantee execution** 
+**** **Does not Guarantee price** 
+
+
+*** **Limit-on-Close (LOC):**
+*** Orders can still be entered until 3:58 pm, \nbut existing orders cannot be canceled or modified after 3:55 pm.\nAfter 3:58 pm, orders cannot be entered, canceled, or modified.
+**** **Guarantee Price** 
+**** **Does not Guarantee Execution** 
+
+*** **Closing Imbalance Only (CIO):**
+**** **Guarantee Execution** 
+**** **Does not Guarantee Price** 
+**** CIO orders provide liquidity \nintended to offset on-close orders \nduring the closing cross.
+**** Orders may be submitted at and after 3:58 pm but cannot be canceled or modified for any reason.
+**** CIO orders can be entered between 4:00 am ET and \nthe execution of the Nasdaq closing cross at 4:00 pm. \nAfter 3:58:00 pm, CIO orders \ncannot be canceled or modified.
+
+@endmindmap
+
+
+
+
+
+
+
+

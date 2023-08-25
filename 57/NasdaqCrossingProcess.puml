@@ -1,0 +1,52 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Nasdaq Opening Cross Process
+
+actor MarketParticipant
+participant NasdaqSystem
+participant MarketData
+participant OpeningCrossSoftware
+
+MarketParticipant -> NasdaqSystem: Order Entry Begins (4:00 am)
+note right
+        Includes following orders:
+        (*) **limit-on-open(LOO)**
+            LOO buy order with a limit price of $50.
+            **Only Executed** if below or equal limit price $50.
+
+        (*) **market-on-open (MOO)**
+           **The order will be executed at the opening price**,
+           whether it's $49, $50, or $51.
+
+        (*) **opening-imbalance-only (OIO)**
+            An OIO order is an order type that is priced and
+            is executed at either the opening or closing price.
+            The price of an OIO order can be adjusted as the
+            opening cross occurs, subject to certain price
+            instructions.
+            OIO orders are used to participate in the
+            opening cross and may be used to address order
+            imbalances.
+            **Example: **
+
+            OIO buy order with a price of $49.
+
+            If inbalance: buyers > sellers and demand > supply
+            as the result highest bid in the market is $50,
+            the OIO order will be executed at $50.
+
+            If inbalance as seller < buyers and supply > demand
+            and highest bid in the market is $48,
+            the OIO order will be adjusted and executed at $48.
+end note
+MarketParticipant -> MarketData: Order Imbalance Info Request (9:28 am)
+note right: Seek to balance the imbalance
+MarketData -> OpeningCrossSoftware: Order Imbalance Data (9:28-9:30 am)
+note left: Disseminated every second
+OpeningCrossSoftware -> NasdaqSystem: Execute Opening Cross (9:30 am)
+note right: Determines opening prices
+NasdaqSystem -> MarketData: Publish Nasdaq Official Opening Price (NOOP)
+note left: Used as an industry benchmark
+@enduml

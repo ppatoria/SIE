@@ -1,0 +1,77 @@
+@startuml
+
+!define OIO_ORDER_TYPE
+!define CALCULATED_PRICE_FAVORABLE
+!define CALCULATED_PRICE_GREATER
+
+!include theme_sequential_diagram.puml
+
+title Opening Cross Process - OIO Order Handling
+
+actor MarketParticipant
+participant NasdaqSystem
+participant Market
+
+MarketParticipant -> NasdaqSystem: Order Entry Begins (4:00 am)
+note right
+  Includes the following orders:
+  (*) limit-on-open(LOO)
+  (*) market-on-open (MOO)
+  (*) opening-imbalance-only (OIO)
+end note
+
+NasdaqSystem -> Market: Order Entry Received
+
+NasdaqSystem -> NasdaqSystem: Collects OIO Orders
+
+note right
+  OIO orders can be executed at the opening or closing
+  price, and their price may be adjusted to match the
+  prevailing market conditions.
+end note
+
+NasdaqSystem -> Market: Collects and Calculates Orders
+
+note right
+  The Nasdaq system calculates the opening cross
+  price based on the supply and demand for the stock.
+end note
+
+NasdaqSystem -> Market: Publishes Opening Cross Order Imbalance Information (9:28 am - 9:30 am)
+
+MarketParticipant -> MarketParticipant: Participants Review Imbalance Information
+
+alt DarkGray <font color=MidNightBlue> $50.00 (Best Bid) > Opening Cross Price
+  MarketParticipant -> NasdaqSystem: Enter OIO Buy Order (1000 shares for $50.00) {OIO_ORDER_TYPE}
+
+  NasdaqSystem -> NasdaqSystem: Calculate Opening Cross Price {CALCULATED_PRICE_FAVORABLE}
+
+  NasdaqSystem --> MarketParticipant: Opening Cross Price: $49.10 {CALCULATED_PRICE_FAVORABLE}
+  note left
+    The calculated opening cross price is
+    lower than the order price.
+    The investor's order will be adjusted
+    to match the calculated opening cross price.
+  end note
+
+  NasdaqSystem -> Market: Execute OIO Buy Order (1000 shares for $49.10)
+else #DimGrey <font color=MidNightBlue> $50.00 (Best Bid) < Opening Cross Price
+  MarketParticipant -> NasdaqSystem: Enter OIO Buy Order (1000 shares for $50.00) {OIO_ORDER_TYPE}
+
+  NasdaqSystem -> NasdaqSystem: Calculate Opening Cross Price {CALCULATED_PRICE_GREATER}
+
+  NasdaqSystem --> MarketParticipant: Opening Cross Price: $50.50 {CALCULATED_PRICE_GREATER}
+  note left
+    The calculated opening cross price
+    is greater than the order price.
+    The investor's order will not be
+    adjusted to $50.50.
+    Instead, the investor's order will
+    be executed at the calculated opening
+    cross price.
+  end note
+
+  NasdaqSystem -> Market: Execute OIO Buy Order (1000 shares for $50.50)
+end
+
+@enduml

@@ -1,0 +1,111 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Market Maker Termination and Excused Withdrawal
+
+actor MarketMaker
+participant ADTMarketCenter
+participant ADTMarketWatch
+participant Market
+
+skinparam defaultfontcolor Black
+skinparam defaultfontsize 20
+skinparam defaultFontStyle bold
+skinparam ArrowColor MidnightBlue
+skinparam ArrowFontColor Black
+skinparam ArrowFontName "Ubuntu Mono"
+skinparam ArrowFontSize 20
+skinparam ArrowFontStyle bold
+skinparam ArrowHeadColor Lime
+skinparam ArrowLollipopColor Lime
+skinparam ArrowThickness 4.0
+
+alt #DarkSlateGray Voluntarily Withdrawal
+    MarketMaker -> ADTMarketCenter: Voluntarily terminates two-sided quote
+    note right
+        After termination,
+        they cannot re-register as a market maker
+        in the same security for 20 business days.
+        However, if the withdrawal is due to reasons
+        beyond the market maker's control
+        (e.g., corporate action, trading halt),
+        and they enter a new two-sided quote on the
+        same day or when trading resumes,
+        registration is not terminated.
+
+        Example: If a stock is halted on Monday, and
+        the market maker terminates its two-sided quote,
+        the market maker may resume a two-sided quote on
+        Wednesday.
+        If they don't, it's considered a voluntary
+        termination.
+
+        Stock Halted: Monday
+        Quote Terminated
+    end note
+
+    ADTMarketCenter -> ADTMarketWatch: Quote termination request
+    ADTMarketWatch -> ADTMarketCenter: Approval for termination(Cannot re-register for 20 business days)
+
+    alt #DarkCyan <font color=DarkRed> Quote Termination for Reasons Beyond Control
+        MarketMaker -> ADTMarketCenter: Enters new two-sided quote on the same day
+    else #DarkCyan <font color=DarkRed> Quote Termination Due to Market Maker's Decision
+        MarketMaker -> ADTMarketCenter: Waits for the next regular trading day
+        MarketMaker -> ADTMarketCenter: Requests to begin quoting
+        ADTMarketCenter -> ADTMarketWatch: Request approval
+        ADTMarketWatch -> ADTMarketCenter: Approval granted
+    end
+
+    opt #CadetBlue Re-registration Exception (Reasons Beyond Control)
+        ADTMarketCenter -> MarketMaker: Registration not terminated
+    end
+
+    ADTMarketCenter --> MarketMaker: Confirmation of quote termination
+
+else #DarkGreen Excused Withdrawal
+    MarketMaker -> ADTMarketWatch: Requests Excused Withdrawal
+    note right
+        ADT Rule 4619 allows market makers to seek
+        an excused withdrawal by contacting ADT MarketWatch
+        before withdrawing their quote.
+    end note
+    ADTMarketWatch -> ADTMarketCenter: Excused Withdrawal request
+    ADTMarketCenter -> ADTMarketWatch: Review request
+
+    alt #Green Excused Withdrawal Granted (Up to 5 Days)
+        ADTMarketWatch -> ADTMarketCenter: Approval for withdrawal granted (Up to 5 Days)
+    else #Green Extended Excused Withdrawal
+        ADTMarketWatch -> ADTMarketCenter: Approval for extended withdrawal granted (More than 5 Days)
+    end
+
+    opt #LimeGreen Re-registration Exception
+        ADTMarketCenter -> MarketMaker: Registration not terminated during excused withdrawal
+    end
+
+    ADTMarketCenter --> MarketMaker: Confirmation of excused withdrawal
+else DarkGray Accidental Withdrawal
+    MarketMaker -> ADTMarketWatch: Notifies ADT MarketWatch of accidental withdrawal
+    note right
+        Market makers can apply for immediate reinstatement
+        if they accidentally withdraw from a stock,
+        such as due to keystroke mistakes.
+        They must notify ADT MarketWatch within one hour
+        of the termination.
+    end note
+    ADTMarketWatch -> ADTMarketCenter: Request for reinstatement (Within 1 hour of withdrawal)
+
+    alt #DimGray Reinstatement Approved
+        ADTMarketCenter -> ADTMarketWatch: Approval for reinstatement granted
+    else #DimGray Reinstatement Denied
+        ADTMarketCenter -> ADTMarketWatch: Reinstatement denied
+    end
+
+    opt #Grey Re-registration Exception
+        ADTMarketCenter -> MarketMaker: Registration not terminated during accidental withdrawal
+    end
+
+    ADTMarketCenter --> MarketMaker: Confirmation of reinstatement or denial
+end
+
+@enduml

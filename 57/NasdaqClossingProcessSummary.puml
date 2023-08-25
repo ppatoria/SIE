@@ -1,0 +1,53 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+* Nasdaq Clossing Process Summary
+** Opening Cross:
+
+*** The Nasdaq Opening Cross occurs at 9:30 AM ET, marking the start of the regular trading day.
+*** It matches buy and sell orders to determine the opening price for securities.
+*** Various types of orders participate, including market orders, limit orders, and on-open orders.
+*** The opening price is the one at which the maximum number of shares can be paired, promoting liquidity.
+
+** Closing Cross:
+*** The Nasdaq Closing Cross takes place at 4:00 PM ET, marking the end of the regular trading day.
+*** Similar to the opening cross, it determines the closing price for securities.
+*** Orders like market-on-close (MOC), limit-on-close (LOC), and imbalance-only (IO) orders participate.
+*** The closing price is essential for mutual funds to calculate their Net Asset Value (NAV).
+
+** Imbalance-Only (IO) Orders:
+*** IO orders are limit orders specifically entered to provide liquidity during opening and closing crosses.
+*** They execute only at the opening and closing crosses and add liquidity to the process.
+
+** Net Order Imbalance Indicator (NOII):
+*** The NOII is a real-time indicator that disseminates information about order imbalances.
+*** It reflects the volume of buy and sell orders in the market, helping traders anticipate the opening and closing prices.
+*** Provides details on the likely opening and closing prices based on order imbalances.
+
+** Far Clearing and Near Clearing Prices:
+*** Far Clearing Price: Reflects the price at which the cross would execute solely based on on-open or on-close orders.
+*** Near Clearing Price: Includes orders in the Nasdaq Market Center, like traditional market and limit orders.
+*** Both are used to assess the impact of orders on the opening or closing prices.
+
+** Halt Cross:
+*** Occurs when trading in a security is temporarily halted, usually due to significant price movements.
+*** Resumes trading by matching orders based on imbalances, similar to the opening and closing crosses.
+
+** Current Reference Price:
+*** The price at which the maximum number of shares can be paired during opening and closing crosses.
+*** Crucial in determining the final opening and closing prices.
+
+**  Order Types:
+*** Various order types are used in the crossing process, including market orders, limit orders, MOC orders, LOC orders, and IO orders.
+*** Each has specific execution rules and objectives.
+
+** Mutual Fund NAV Calculation:
+*** Mutual funds that hold Nasdaq-traded securities calculate their Net Asset Value (NAV) based on the Nasdaq Official Closing Price (NOCP).
+
+**  Market Center Services:
+*** The Nasdaq Market Center provides order execution services, trade reporting, and data feeds to display bid and ask quotes but doesn't perform clearing functions.
+@endmindmap
+
+
+

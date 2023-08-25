@@ -2285,3 +2285,62 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 
 [[./OrderTypes.png]]
 
+
+** Order with single and multiple price levels.
+[[./pricelevel.png]]
+
+** Book Processing
+
+[[./bookprocessing.png]]
+
+** Discretionary Order Execution:
+
+[[./DiscretionaryOrderExecution.png]]
+
+** Terminating Quotes
+
+[[./TerminatingQuotes.png]]
+ 
+** Prohibition of Locking and Crossing Quotation.
+
+[[./ProhibitionLockingCrossingQuotes.png]]
+
+** Nasdaq Opening Crossing
+
+[[./NasdaqCrossingProcess.png]]
+
+** OIO Order Handling:
+
+[[./OIOOrderHandling.png]]
+
+** Closing Crossing
+
+[[./ClosingCrossing.png]]
+
+** Opening Clossing Imbalance-Only Order Types
+
+[[./OpenCloseCrossingOrderType.png]]
+
+
+** Halt Crossing
+
+[[./HaltCrossing.png]]
+
+
+** ADT
+
+[[./ADT.png]]
+
+** ADT Quote Withdrawl rules and regulations.
+
+[[./ADTTerminatingQuotes.png]]
+
+** ADT Summary
+
+[[./ADTSummary.png]]
+
+** Summary
+
+
+
+[[./NasdaqClossingProcessSummary.png]]

@@ -1,0 +1,17 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ **Prohibition from**\n**Locking or Crossing**\n**Quotations**
+** Market Maker Rules
+*** No Locking Markets
+**** Inside bid equals inside offer
+**** Market makers must avoid this situation
+*** No Crossing Markets
+**** Inside bid is higher than inside offer
+**** Market makers must avoid this situation
+*** Exceptions
+**** System or display malfunction
+**** Best bid above best offer
+**** Intermarket sweep order
+@endmindmap

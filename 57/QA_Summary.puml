@@ -1,0 +1,76 @@
+@startmindmap
+
+*_ **ADT**
+
+** Resposibility for proving that an ADF Trading Center's system outage is excused or unexcused  is on "The Trading Center"
+
+** To deny BD direct electronic access
+*** The Trading Center must give prior notice of at least 14 calendar days to FINRA Market Operations.
+
+
+** The Two-Sided Obligation is suspended during a trading halt, suspension or pause.
+*** It re-commences after the **first regular way trade** in the primary listing market.
+
+** The defined limit for S&P 500 index stock,
+*** 9.5% from NBBO (or last trade) at all times
+*** except between 9:30 and 9:45 and 3:35 and market close it 20%.
+
+** Excused withdrawals based on circumstances beyond a Center's control
+*** Up to five business days, unless extended by ADF Operations. Excused withdrawals are not permanent in nature.
+
+
+** The five items that must be reported for an order received and acted upon or responded to via direct or indirect access from another broker dealer are:
+*** unique order identifier, order response, order response time, quantity, and price.
+
+
+** Reporting and record-keeping requirements may be outsourced by written agreement to a
+*** Reporting Agent. However, the member remains responsible for reporting and record-keeping requirements.
+
+** Unexcused system outages, trading suspension last for an ADF Trading Center for
+*** 20 business days
+*** The suspension generally requires three unexcused outages within five business days.
+
+
+** FINRA-excused withdrawal
+*** Up to 60 days
+
+** The ADF is a quote collection and trade reporting facility that serves as an alternative to exchanges for orders in NMS securities.
+*** It does not provide order routing and execution.
+
+** Requests for withdrawals based on vacations are only available to
+*** small Nasdaq Market Markets - those with three or fewer Nasdaq level 3 terminals.
+
+
+** An ADF Trading Center that seeks a FINRA review of a system outage must supply supporting information by
+*** the close of business that day or on the following business day if the outage occurs outside normal market hours.
+*** FINRA normally will make a determination on the day after that.
+
+** ADF Trading Center two criteria to declare a system outage.
+*** One is an inability to post automated quotations. 
+*** Inability to respond to orders
+
+** A voluntary failure to maintain a clearing arrangement will not be an excused withdrawal.
+
+** Involuntary failure will be considered excused and participation in the Nasdaq Market Center system will be suspended.
+
+
+** The **Two-Sided Obligation** is the essence of a market maker's responsibility.
+
+** ADF Trading Centers may stay **open voluntarily** from 8:00 a.m. to 6:30 p.m. EST
+
+** ADF Trading Centers **must be open** from 9:30 a.m. to 4:00 p.m.
+
+** If they choose to open voluntarily in pre-market or after-market hours, they must maintain a Two-Sided Obligation and firm quotes during these hours.
+
+** An ADF Trading Center is suspended on the grounds of too many unexcused system outages. May appeal to
+*** Requesting a determination by a special FINRA subcommittee
+
+
+** A firm quote means that a market maker executes transactions of at least the size displayed, at the price bid/offered.
+
+** What makes a quote or order marketable, for purpose of complying with FINRA's requirement against inactive quoting by a Registered Reporting ADF ECN?
+ C) It is accessed by another center or participant
+
+** Stocks eligible for trading on the ADF?
+*** NMS
+

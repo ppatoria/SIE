@@ -1,0 +1,15 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ Price Levels
+
+** Single Price Level Orders:
+*** Specific price at which the \nmarket participant wants to buy or sell a security\nReferred to as "limit orders" because they \nlimit the price at which the trade can be executed.
+**** Example: Order to buy 100 shares of a stock at a limit price of $50
+
+** Multiple Price Level Orders:
+*** More complex orders that involve \nspecifying multiple prices \nat which a market participant is willing to buy or sell a security.\n Implement trading strategies that involve \nbuying or selling gradually \nas the market moves.
+**** Example: A multiple price level order to buy \n500 shares of a stock with the following instructions:\nBuy 100 shares at a limit price of $50.\nBuy another 200 shares at a limit price of $49.75.\nBuy the remaining 200 shares at a limit price of $49.50.\nIn this case, \nthe trader is willing to buy the first 100 shares \nat $50 or a better price, \nthen the next 200 shares \nat $49.75 or a better price, \nand finally, the last 200 shares \nat $49.50 or a better price.
+
+@endmindmap

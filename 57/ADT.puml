@@ -1,0 +1,83 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title ADF - Alternative Display Facility
+
+participant "FINRA's ADF" as ADF
+participant "Market Makers" as MarketMakers
+participant "ECNs - Electronic Comm. Networks" as ECNs
+participant "Trade Reporting Facility" as TRF
+participant "FINRA Members" as FINRAMembers
+
+== ADF Overview ==
+
+FINRAMembers -> ADF: Eligible FINRA Members
+ADF --> ADF: Operates from 8:00 am–6:30 pm, ET
+ADF -> MarketMakers: No Order Routing or Execution
+
+== ADF Market Participants ==
+
+FINRAMembers -> ADF: Register as\nADF Market Participants or ADF ECNs
+FINRAMembers --> ADF: Submit Certification Record and\nParticipant Agreement
+FINRAMembers -> ADF: Receive Certification of\nGood Standing
+FINRAMembers -> ADF: Comply with Net Capital\nRequirements and Financial\nResponsibilities
+FINRAMembers -> ADF: Submit ADF Deposit:
+FINRAMembers -> ADF: The ADF deposit is $250,000, \nwhich needs to be made in five equal installments into escrow.
+FINRAMembers -> ADF: If a firm requests accelerated migration to the ADF, \nthe deposit amount increases to $500,000.
+FINRAMembers -> ADF: Minimum Net Capital Requirement for Market Makers
+FINRAMembers -> ADF: - For stocks $5 or less: $1,000 per security
+FINRAMembers -> ADF: - For stocks above $5: $2,500 per security
+FINRAMembers -> ADF: - Overall minimum: $100,000
+FINRAMembers -> ADF: Minimum Net Capital Requirement for Qualified Block Positioners: $1,000,000
+
+== ADF Market Participants Obligations ==
+
+ADF -> MarketMakers: Plan to Direct 75% Quoting\nand Trading Volume to ADF
+ADF -> MarketMakers: Maintain Firm, Two-Sided\nQuotes for One Round Lot
+ADF -> MarketMakers: Minimum Quotation Increments
+ADF -> MarketMakers: Quotes Must Be Certain Percentage\nAway from Inside Market
+ADF -> ECNs: Post Marketable Quotes on ADF Every 30 Days
+
+== Trade or Fade ==
+
+ADF -> MarketMakers: Receive Order Larger Than\nPublished Quotation Size
+ADF -> MarketMakers: Execute Less Than Its Own Initial Bid
+ADF -> MarketMakers: Update Bid to Inferior Price
+ADF -> MarketMakers: Example\nAn ADF market maker initially bids $10 for three round lots.
+ADF -> MarketMakers: It’s subsequently presented with a market order seeking to sell five round lots.
+ADF -> MarketMakers: The market maker executes only two round lots, which is less than its own initial bid size.
+ADF -> MarketMakers: However, since it did not purchase all three round lots as per its initial bid, it must update its bid to a price that is less than $10 after execution for the remaining 100 shares.
+
+== ADF Quotation Withdrawal ==
+
+ADF -> MarketMakers: Seek Excused Withdrawal
+ADF -> MarketMakers: Voluntary Terminations (Unexcused Withdrawals)
+
+== Minimum Performance Standards ==
+
+ADF -> ADF: Experience Three Unexcused System\nOutages Over Five Business Days
+ADF -> ADF: May Be Suspended From Quoting\nfor 20 Business Days
+ADF -> ADF: Review System Outages\nfor Excused/Unexcused
+ADF -> ADF: May Appeal to a FINRA Subcommittee
+
+== Suspension and Termination of Quotes ==
+
+ADF -> FINRAMembers: Disciplinary Action on Firm-Wide\nor Security-By-Security Basis
+ADF -> FINRAMembers: Restrictions on Quoting/Trading\nin Specific Securities
+ADF -> FINRAMembers: Penalties Including Limiting\nAuthority to Enter Quotes
+
+== Quote and Order Access Requirements ==
+
+ADF -> ADF: Provide Direct Electronic Access to\nOther ADF Trading Centers
+ADF -> FINRAMembers: Provide Direct Electronic Access\nfor Registered Broker-Dealers
+ADF -> ADF: Provide Similar Access to Quotations\nin NMS Stocks
+ADF -> ADF: Automatically Update Quotations\nand Respond to Orders
+ADF -> ADF: Ensure No Unfairly Discriminatory Terms
+ADF -> ADF: Provide Advance Notice Before\nDenying Direct Electronic Access
+
+== Reporting Agent Agreements ==
+
+FINRAMembers -> ADF: May Enter Agreements with\nReporting Agents for Reporting\nObligations
+
+@enduml

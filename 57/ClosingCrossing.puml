@@ -1,0 +1,40 @@
+@startuml
+
+!define CLOSING_CROSS_ORDER_TYPE
+!define CLOSING_CROSS_PRICE
+
+!include theme_sequential_diagram.puml
+
+title Closing Cross Process
+
+actor MarketParticipant
+participant NasdaqSystem
+participant Market
+
+MarketParticipant -> NasdaqSystem: Order Entry Begins (4:00 am)
+note right
+  Includes the following orders:
+  (*) limit-on-close (LOC)
+  (*) market-on-close (MOC)
+  (*) closing-imbalance-only (CIO)
+end note
+
+NasdaqSystem -> Market: Order Entry Received
+
+NasdaqSystem -> NasdaqSystem: Collects Closing Cross Orders
+
+NasdaqSystem -> Market: Collects and Calculates Orders
+
+NasdaqSystem -> Market: Publishes Closing Cross Order Imbalance Information (3:55 pm - 4:00 pm)
+
+MarketParticipant -> MarketParticipant: Participants Review Imbalance Information
+
+MarketParticipant -> NasdaqSystem: Enter CIO Buy Order (1000 shares for $50.10) {CLOSING_CROSS_ORDER_TYPE}
+
+NasdaqSystem -> NasdaqSystem: Calculate Closing Cross Price {CLOSING_CROSS_PRICE}
+
+NasdaqSystem --> MarketParticipant: Closing Cross Price: $50.20 {CLOSING_CROSS_PRICE}
+
+NasdaqSystem -> Market: Execute CIO Buy Order (1000 shares for $50.20) at Close (4:00 pm)
+
+@enduml

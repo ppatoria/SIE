@@ -1,0 +1,40 @@
+@startuml
+title Discretionary Order Execution
+
+!include theme_sequential_diagram.puml
+
+actor Trader
+participant BrokerOrAlgorithm
+participant Market
+
+Trader -> BrokerOrAlgorithm: Places a discretionary order
+note right
+Stock Company XYZ
+Side: Buy
+Current Market Price: $50 per share
+Desired Limit Price: $48 per share
+Discretionary Range: $2
+end note
+
+BrokerOrAlgorithm -> Market: Order enters the market
+skinparam defaultfontcolor Black
+loop #DarkGray **During Trading Session**
+    Market -> BrokerOrAlgorithm: Stock price updates
+    BrokerOrAlgorithm -> Trader: Informs trader about current stock price
+
+    alt#DarkGreen #DarkGreen **(Stock Price <= $46) then (yes)**
+        BrokerOrAlgorithm -> Market: Execute order at market price
+        Market -> BrokerOrAlgorithm: Confirmation of execution
+        BrokerOrAlgorithm -> Trader: Informs trader about execution price
+    else #Green **if ($46 < Stock Price < $50)**
+        BrokerOrAlgorithm -> Market: Execute order at a price within the range
+        Market -> BrokerOrAlgorithm: Confirmation of execution
+        BrokerOrAlgorithm -> Trader: Informs trader about execution price
+    else #pink
+        BrokerOrAlgorithm -> Trader: Order not executed (Price > $50)
+    end
+
+    Trader -> Trader: Decide whether to modify or cancel order
+end
+
+@enduml

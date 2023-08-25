@@ -1,0 +1,50 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+*_ __**ADT Summary**__
+
+** Trading Center Obligations:
+*** ADF Trading Centers are required to begin making a market not later than 9:30 a.m. EST each trading day.
+*** They may voluntarily choose to open earlier, but must maintain firm two-sided quotes during those hours.
+*** ADF Trading Centers are responsible for providing liquidity in the market, known as the Two-Sided Obligation.
+
+** Reporting Requirements:
+*** ADF Trading Centers must report various data to FINRA, including order data and records.
+*** Reporting can be outsourced to Reporting Agents under a written agreement, but the member remains responsible.
+
+** System Outages:
+*** ADF Trading Centers must promptly report system outages to FINRA.
+*** Unexcused system outages can result in trading suspensions, which can last up to 20 business days.
+
+** Excused Withdrawals:
+*** Excused withdrawals can be granted for up to 60 days for legal or regulatory reasons.
+*** Excused withdrawals can also be granted for up to 5 business days for circumstances beyond the center's control (e.g., equipment failure).
+
+
+** Direct Electronic Access:
+*** Trading Centers must give at least 14 calendar days' notice to FINRA before denying a broker-dealer direct electronic access.
+
+
+** Market Maker Responsibilities:
+*** Market makers in the ADF are obligated to buy and sell securities for their own account continuously during regular market hours.
+
+** Eligible Securities:
+*** The ADF primarily deals with NMS (National Market System) securities.
+
+** Marketability of Quotes and Orders:
+*** Quotes or orders must be accessible (traded against) by other trading centers or participants to comply with requirements against inactive quoting.
+
+** Appeals and Regulatory Actions:
+*** Appeals for trading suspensions can be made to a subcommittee within FINRA.
+*** FINRA can take disciplinary actions against ADF Trading Centers, including restrictions, penalties, and registration terminations.
+
+** Excused Outages and Criteria:
+*** An outage exists when a firm is unable to immediately and automatically respond to orders.
+*** An involuntary failure to maintain a clearing arrangement is considered an excused withdrawal.
+
+** Market Opening and Closing Times:
+*** ADF Trading Centers typically open at 9:30 a.m. EST and close no earlier than 4 p.m. EST.
+*** Voluntary openings may occur as early as 8:00 a.m. EST, with maintained obligations.
+
+@endmindmap

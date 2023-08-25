@@ -1,0 +1,41 @@
+@startuml
+
+!include theme_sequential_diagram.puml
+
+title Nasdaq Halt Cross Process
+
+participant "Nasdaq" as Nasdaq
+participant "Investor" as Investor
+participant "Market Maker (MM)" as MarketMaker
+participant "Trade Reporting Facility" as TRF
+
+== Phase 1: Quote-only Period ==
+
+Investor -> Nasdaq: Submits Orders/Quotes\n(Can be placed/canceled)
+Nasdaq -> Nasdaq: Disseminates\nIndicative Clearing Prices\nand Imbalance Info
+Nasdaq -> Nasdaq: Checks for\nHigh Volatility
+Nasdaq -> Nasdaq: May extend\nfor high volatility
+Note over Nasdaq: Quote-only period\nusually lasts for 5 minutes
+Nasdaq -> Investor: Indicative Clearing Prices\nand Imbalance Info
+Nasdaq -> Nasdaq: Determines Indicative\nClearing Price
+Nasdaq -> Nasdaq: Calculates Imbalance
+Nasdaq -> Nasdaq: Updates NOII
+Nasdaq -> Nasdaq: Continues accepting orders/quotes
+Nasdaq -> Nasdaq: Continues monitoring volatility
+
+== Phase 2: Trading Resumption ==
+
+Nasdaq -> Nasdaq: Ends Quote-only Period
+Nasdaq -> Nasdaq: Resumes Regular Trading
+Nasdaq -> Nasdaq: Sets Re-opening Price
+Nasdaq -> Nasdaq: Executes Orders\nat Indicative Clearing Price\n(based on quote-only period)
+Note over Nasdaq: Execution of orders\nfrom quote-only period
+Nasdaq -> TRF: Reports Bulk Trade\n(for record-keeping)
+Nasdaq -> Nasdaq: Regular Trading Resumes
+
+Investor -> MarketMaker: Orders/Quotes
+MarketMaker -> Nasdaq: Executes Orders
+Nasdaq -> TRF: Reports Trades\n(for record-keeping)
+
+
+@enduml

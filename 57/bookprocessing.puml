@@ -1,0 +1,52 @@
+@startuml
+
+!include theme_activity_diagram.puml
+
+start
+:Receive Orders;
+if(Order Type Priority?) then (yes)
+:Execute Based on **Order Type Priority**;
+note right
+        The priority of order types is as follows:
+        * Displayed orders
+        * Non-displayed orders, including shares in reserve
+        * The discretionary portion of discretionary orders
+        * For orders at a particular price,
+          all displayed orders are filled from earliest to latest.
+          Once all displayed orders are executed,
+          non-displayed orders are filled from earliest to latest,
+          followed by discretionary orders from earliest to latest.
+
+        Displayed orders have the highest priority
+        over non-displayed orders at the same price.
+end note
+
+if (Price Priority?) then (Yes)
+        :Execute Based on **Price Priority**;
+        note left
+                **Price Priority:**
+                **higher bid prices are executed before lower bid prices**, and
+                **lower offer (ask) prices are executed before higher offer prices** .
+        end note
+        if (Time Priority?) then (Yes)
+                :Execute Based on **Time Priority**;
+                note right
+                        If orders at the same price level,
+                        the system uses time priority.
+                        The order entered earlier gets executed first.
+                end note
+                if (Larger Order?) then (Yes)
+                        :Execute Larger Order;
+                        note right
+                                If both price and time are identical,
+                                the larger order is executed first.
+                        end note
+                endif
+        endif
+endif
+stop
+
+@enduml
+
+
+
