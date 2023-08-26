@@ -1,0 +1,783 @@
+* OTC
+** Question ID: 2136
+1) Which of the following equities could be quoted on the OTC Markets
+by a market marker without filing Form 211?
+ A) An equity that traded on Nasdaq earlier that day but was delisted
+ B) An equity that is listed on a national exchange
+ C) An equity that was previously quoted on the OTC Markets
+ D) An equity of an issuer that is delinquent in its SEC filings.
+Answer Explanation:
+Unlisted equities or equities that trade only on a regional exchange can be
+quoted on the OTC Markets after filing a Form 211 provided the issuer is
+current in its SEC filings. There are three exceptions to the requirement to
+file a Form 211: 1) piggybacking (this applies if a broker-dealer or quotation
+service is already currently quoting the stock), 2) unsolicited customer
+orders, and 3) securities that traded on an exchange either that day or the
+previous day (i.e. recently delisted). Here, an equity that traded on Nasdaq
+earlier that day but was then delisted could be quoted without a Form 211.
+Textbook Reference: Please see textbook section 2.1.1
+** Question ID: 2598
+2) Broker-dealer B is a market maker in the OTC Pink Market. The
+placement of a subject quote by BD B
+ A) Must be pre-approved by FINRA
+ B) Must be properly identified as a quote that is not firm
+ C) Is strictly prohibited
+ D) Is subject to FINRA best execution standards
+Answer Explanation:
+Quotes that are not to be understood as binding obligations on the firm that
+entered them must be clearly identified as such at the time the quote is
+published
+Textbook Reference: Please see textbook section 2.3
+14 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2308
+3) Prior to initiating or resuming a quotation of an OTC Equity security, a
+broker-dealer must
+ A) Demonstrate compliance with SEC net capital standards
+ B) Ensure that is has appropriate information barriers in place
+ C) Satisfy mandatory disclosure requirements pursuant to SEC Rule
+15g-9
+ D) Comply with the information requirements of SEC Rule 15c2-11
+Answer Explanation:
+SEC Rule 15c2-11 requires broker-dealers to collect certain information
+about an issuer of a non-exchange listed security and make a filing with
+FINRA.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 2189
+4) Market maker E is quoting Issuer F, an OTC Equity Security, at .98 -
+1.02. MM E must be willing to trade
+ A) At least 100 shares at .98 and 1,000 shares at 1.02
+ B) At least 100 shares on either side of its quote
+ C) At least 1,000 shares at .98 and 100 shares at 1.02
+ D) At least 1,000 shares on either side of its quote
+Answer Explanation:
+As Issuer F is an OTC Equity security, it must maintain a quote size based
+upon the price of the security, covering both the bid and offer side of their
+quote accordingly.
+Textbook Reference: Please see textbook section 2.2.1
+** Question ID: 2059
+5) On the OTC Markets, an indication of bid wanted or offer wanted is
+considered
+ A) a firm bid/offer.
+ B) a proprietary bid/offer for the firm's own book.
+ C) never permitted
+ D) an unpriced indication of interest.
+Answer Explanation:
+Market makers may enter unpriced indications of interest such as bid
+wanted or offer wanted on the OTC Markets.
+Textbook Reference: Please see textbook section 2.3.2
+15 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+6) Securities that are included in the Pink OTC Markets are
+** Question ID: 2942
+ A) quoted by market makers
+ B) not required to report last sale and trading volume information
+ C) typically traded actively
+ D) registered with the SEC
+Answer Explanation:
+A market maker determines whether to quote a Pink Sheets security, and
+initiates quotations by submitting Form 211 to FINRA. It is possible for a
+market maker to quote securities in the Pink Sheet Quote system without
+the knowledge or permission of the issuer of the securities. Pink Sheet
+Securities are not always registered with the SEC and are often thinly
+traded. All OTC equity securities are required to report last sale and trading
+volume information.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 3102
+7) Under SEC Rule 15c2-11, a market maker could initiate quotes in an
+OTC equity without filing Form 211 in all of the following cases except
+ A) the security has been regularly quoted by other market makers.
+ B) the security traded on an exchange the previous day.
+ C) the market maker quoted the security on an exchange 30 days prior.
+ D) the quote is to represent a customer's unsolicited order.
+Answer Explanation:
+Under Rule 15c2-11, market makers seeking to initiate quotes in an OTC
+equity must file Form 211 along with due diligence at least three days prior
+to resuming quotes. Due diligence can be satisfied with a prospectus,
+offering circular, 10k, or equivalent information. There are three exceptions,
+allowing a market maker to quote without submitting this documentation:
+unsolicited customer orders, securities that traded on an exchange on that
+day or the previous day, and piggybacking (i.e. the security satisfied a
+frequency of quotation test).
+Textbook Reference: Please see textbook section 2.1.1
+16 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3185
+8) A security can be quoted on an OTC facility if it is not listed on a
+national exchange, or otherwise if it is
+ A) Thinly traded
+ B) Undergoing reorganization
+ C) Not held by more than 1,000 shareholders
+ D) Being delisted
+Answer Explanation:
+The OTC Markets allows market makers to quote securities that cannot be
+listed elsewhere, including those of unlisted and delisting companies.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 3232
+9) Under SEC Rule 15c2-11, in order to be eligible for the piggybacking
+exemption the security cannot have had a gap of more than how
+many days without a quote?
+ A) five days
+ B) two days
+ C) four days
+ D) three days
+Answer Explanation:
+Piggybacking allows a market maker to initiate quotes in an OTC equity
+without filing Form 211 provided that there has been no more than four
+business days in a row without a quote during that period.
+Textbook Reference: Please see textbook section 2.1.1
+** Question ID: 1958
+10) A market maker quoting an OTC equity .12-.25 must have a minimum
+bid and ask size of
+ A) 10,000 x 10,000
+ B) 10,000 x 5000
+ C) 5,000 x 5,000
+ D) 5,000 x 2,500
+Answer Explanation:
+OTC quotes must be firm for a minimum number of shares depending on
+the price. The bid and ask side are evaluated independently to determine
+the minimum quote size. The minimum price and shares are as follows:
+0.0001-0.0999: 10,000 shares
+0.10-0.1999: 5,000 shares
+0.20-0.5099: 2,500 shares
+0.51-0.9999: 1,000 shares
+1.00-174.99: 100 shares
+175.00+: 1 share
+Textbook Reference: Please see textbook section 2.2.1
+17 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2818
+11) How many market makers, at minimum, are required for a security to
+be quoted on the OTC Pink?
+ A) One
+ B) Four
+ C) Three
+ D) Two
+Answer Explanation:
+Just one market maker is needed for a security to be on the OTC Pink.
+Textbook Reference: Please see textbook section 2.3
+** Question ID: 2778
+12) From date of publication of an OTC quote, for issuer due diligence
+purposes, how old may an income statement be to meet the test of
+"reasonably current?"
+ A) Not more than 18 months
+ B) Not more than three months
+ C) Not more than six months
+ D) Not more than 12 months
+Answer Explanation:
+Income and retained earnings statements are reasonably current if they
+are not more than six months old, from publication of the quote. For
+balance sheets, it is not more than 16 months old.
+Textbook Reference: Please see textbook section 2.1.1
+** Question ID: 2800
+13) How do market makers continue trading when a quote becomes
+locked or crossed?
+ A) By submitting orders manually
+ B) On a delayed basis
+ C) By routing all trades through FINRA Compliance
+ D) By submitting market orders only
+Answer Explanation:
+When quotes become locked due to automatic order quotes/executions
+on unlinked electronic trading platforms market makers are permitted to
+submit quotes manually.
+Textbook Reference: Please see textbook section 2.2
+18 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3103
+14) Under SEC Rule 15c2-11, a market maker seeking to initiate quotes
+is not required to file due diligence regarding the SEC in which of
+the following circumstances?
+ A) The market maker has also done M&A advisory work for the issuer.
+ B) The market maker attests to the SEC that it has previously executed
+due diligence on the issuer.
+ C) The market maker quoted the stock six months prior.
+ D) The stock in question had traded on an exchange on the previous
+day, though the market maker did not quote it.
+Answer Explanation:
+Under Rule 15c2-11, market makers seeking to initiate quotes in an OTC
+equity must file Form 211 along with due diligence at least three days
+prior to resuming quotes. Due diligence can be satisfied with a
+prospectus, offering circular, 10k, or equivalent information. There are
+three exceptions, allowing a market maker to quote without submitting this
+documentation: unsolicited customer orders, securities that traded on an
+exchange on that day or the previous day, and piggybacking (i.e. the
+security satisfied a frequency of quotation test).
+Textbook Reference: Please see textbook section 2.1.1
+** Question ID: 2989
+15) A trader reports that the tick size of an OTC equity is $0.0001. The
+stock must be
+ A) Inactive
+ B) Not publicly traded
+ C) Selling for less than $5 a share
+ D) Selling for less than $1 a share
+Answer Explanation:
+For OTC equities trading between $0.01 and $0.99 per share, the
+minimum tick size is $0.0001.
+Textbook Reference: Please see textbook section 2.2
+19 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3143
+16) In which case is a security listed on a U.S. exchange also eligible for
+the OTC Markets, assuming it does not qualify for Consolidated
+Tape transaction reports?
+ A) The security is listed on a regional exchange only
+ B) The security is state-registered
+ C) The security is listed on the Nasdaq only
+ D) The issuer is foreign and the securities are ADRs
+Answer Explanation:
+In general, securities listed on U.S. exchanges are ineligible for the OTC
+Markets. One exception is a security that does not qualify for
+Consolidated Tape reports and is listed only on one or more regional
+stock exchanges.
+Textbook Reference: Please see textbook section 2.3.1
+** Question ID: 2354
+17) When a market maker files a Form 211 under 15c2-11 the firm is
+preparing to
+ A) Withdrawing quotes on a Nasdaq listed stock
+ B) Enter quotes on a Nasdaq listed stock
+ C) Withdrawing quotes on a OTC stock
+ D) Enter quotes on an OTC stock
+Answer Explanation:
+Rule 15c2-11 and FINRA Rule 6432 requires OTC market makers and
+broker-dealers to perform due diligence on any issuer's securities prior to
+publishing quotes in an OTC security. These certifications require that a
+member firm review the issuer's financial and disclosure documents and
+believe these documents to be accurate and reliable.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 3137
+18) To begin quoting an OTC equity security, a market maker would first
+register by filing a form with
+ A) FINRA
+ B) The SEC
+ C) The issuer of the security
+ D) The Bulletin Board
+Answer Explanation:
+To begin quoting an OTC equity security, a market maker must first
+register by filing a Form 211 with FINRA.
+Textbook Reference: Please see textbook section 2.1
+20 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3094
+19) All of the following statements are true regarding securities that
+trade on the Pink OTC Markets EXCEPT
+ A) stocks included in the Pink OTC Markets may be penny stocks.
+ B) the information included in the Pink OTC Markets is also offered
+electronically.
+ C) the issuing companies that are included have been verified as valid
+companies by the National Quotations Bureau.
+ D) stocks included are often less liquid than exchange traded stocks.
+Answer Explanation:
+Companies that are quoted in the Pink OTC Markets are not verified prior
+to inclusion and are considered very risky. Stocks on the Pink OTC
+Markets that are worth less than $5 are typically referred to as penny
+stocks. These stocks are traded infrequently and may have substantial
+liquidity risk. Quotes are available electronically through the National
+Quotations Bureau.
+Textbook Reference: Please see textbook section 2.3
+** Question ID: 2215
+20) The best bid/ask quote displayed for an OTC equity is $9.95-$9.99.
+How would a trader who wants to buy shares lock the market?
+ A) Bid less than $9.95
+ B) Bid $9.99
+ C) Bid more than $9.99
+ D) Bid $9.95
+Answer Explanation:
+The only bid that will lock this market is the current ask - $9.99. A bid
+lower than this will not lock, and a bid higher will cross.
+Textbook Reference: Please see textbook section 2.2.2
+** Question ID: 3136
+21) A market maker "backs away" from a quote by failing to honor a
+quote at what price?
+ A) A price less favorable than the price quoted to the customer
+ B) The same price quoted to the customer
+ C) A price below the price quoted to the customer
+ D) A price above the price quoted to the customer
+Answer Explanation:
+Backing away occurs when a market maker or broker-dealer fails to
+execute an order presented in the quantity quoted, at a price at least as
+favorable to the customer as the published quote.
+Textbook Reference: Please see textbook section 2.3
+21 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3046
+22) Who is required to review and sign the filing required before a
+member firm initiates or resumes quotes in a non-exchange-listed
+security?
+ A) The firm's CPA
+ B) The CEO
+ C) A principal of the firm
+ D) The CFO
+Answer Explanation:
+Prior to entering quotations on a non-exchange listed equity (an OTC
+security) a Form 211 must be reviewed and signed by a principal of the
+member firm.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 2378
+23) Two broker-dealers engage in a trade that is cleared manually rather
+than through an automated central clearinghouse. The appropriate
+term to describe this is
+ A) De minimus clearing
+ B) Fail to deliver
+ C) Ex-clearing
+ D) Locked in
+Answer Explanation:
+Ex-clearing describes a trade directly between two parties where the
+clearing occurs directly between the two parties using a manual process,
+rather than utilizing electronic central clearinghouse services, such as
+DTCC.
+Textbook Reference: Please see textbook section 2.3
+22 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2458
+24) Which of the following markets require only one market maker for a
+stock to begin trading?
+I. Nasdaq
+II. Pink OTC Markets
+III.NYSE
+ A) I and II only
+ B) I and III only
+ C) II and III only
+ D) I, II and III
+Answer Explanation:
+A company's stock may be included in the OTC Markets as long as there
+is one market maker that is willing to quote the stock. Additionally, the
+NYSE has one designated market maker per security. Nasdaq stocks
+must have a minimum of three market makers for initial listing.
+Textbook Reference: Please see textbook section 2.3
+** Question ID: 2317
+25) A stock is quoted so that it has a negative spread. The bid price is
+above the ask. It is
+ A) frozen
+ B) forced
+ C) locked
+ D) crossed
+Answer Explanation:
+A quote is locked when bid = ask. It is crossed when bid is above ask.
+Textbook Reference: Please see textbook section 2.2.2
+** Question ID: 2269
+26) How can a market maker terminate its registration in a non-NMS
+security?
+ A) By requesting permission from FINRA
+ B) By giving five days' notice
+ C) By voluntarily withdrawing the quote
+ D) By notifying the issuer and giving adequate reason for cause
+Answer Explanation:
+A market maker can voluntarily terminate registration in a non-NMS
+security by withdrawing its quote. No filings or notice are required.
+Textbook Reference: Please see textbook section 2.3
+23 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2839
+27) For an ADF-eligible security selling at a price of $60 per share, what
+is the minimum quote increment?
+ A) Two cents
+ B) One-tenth of one cent
+ C) Half of one cent
+ D) One cent
+Answer Explanation:
+The minimum quote increment for quotes of $1.00 or above in ADF-
+eligible securities is one cent. Below $1.00, it is one one-hundredth of a
+cent ($0.0001).
+Textbook Reference: Please see textbook section 2.2.1
+** Question ID: 2348
+28) The due diligence that a market maker or broker-dealer must
+perform before they first publish OTC quotes focuses on
+documenting facts about
+ A) the OTC market
+ B) the specific security the market maker plans to quote
+ C) the issuer
+ D) each class of securities
+Answer Explanation:
+The idea is that any professional who provides OTC quotes should have
+done due diligence about the issuer and its business. This prevents
+market makers and broker-dealers from providing OTC quotes and then
+claiming they were not aware of the flimsy or failing nature of the issuer's
+business.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 2623
+29) In which case is the publication of an initiating quote in a non-
+exchange listed security not subject to prior filing requirements?
+ A) It represents an insider's interest
+ B) It represents an unsolicited customer indication of interest
+ C) It is intended for inter-dealer use only
+ D) It represents an advisory account over which the member has
+discretion
+Answer Explanation:
+The publication of a quote that represents an unsolicited indication of
+interest from a customer is not subject to prior filing requirements,
+provided this is documented by the member.
+Textbook Reference: Please see textbook section 2.1.2
+24 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 1934
+30) A market maker offering an OTC equity at $0.25 must be firm on at
+least
+ A) 1 share
+ B) 100 shares
+ C) 2,500 shares
+ D) 5,000 shares
+Answer Explanation:
+OTC quotes must be firm for a minimum number of shares depending on
+the price. The bid and ask side are evaluated independently to determine
+the minimum quote size. The minimum price and shares are as follows:
+0.0001-0.0999: 10,000 shares
+0.10-0.1999: 5,000 shares
+0.20-0.5099: 2,500 shares
+0.51-0.9999: 1,000 shares
+1.00-174.99: 100 shares
+175.00+: 1 share
+Textbook Reference: Please see textbook section 2.2.1
+** Question ID: 2796
+31) Which of the following OTC equity quotes by a market maker is
+prohibited?
+ A) Offer $0.15 on 5,000 shares
+ B) Offer $0.005 on 13,500 shares
+ C) Offer $0.25 on 2,000 shares
+ D) Offer $180.00 on 2 shares
+Answer Explanation:
+OTC equity quotes must be firm for a minimum number of shares
+depending on the price. The bid and ask side are evaluated
+independently to determine the minimum quote size. The minimum price
+and shares are as follows:
+0.0001-0.0999: 10,000 shares
+0.10-0.1999: 5,000 shares
+0.20-0.5099: 2,500 shares
+0.51-0.9999: 1,000 shares
+1.00-174.99: 100 shares
+175.00+: 1 share
+Textbook Reference: Please see textbook section 2.2.1
+25 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2355
+32) Which of the following is true regarding OTC Pink quotes?
+ A) Quotes can only be updated twice per day.
+ B) Quotes must always be for at least 100 shares.
+ C) Quotes that are priced can be subject.
+ D) Quotes must always be priced.
+Answer Explanation:
+The OTC Pink permits subject quotes (a quote with a price that may not
+be honored) provided they are indicated, and clearly designated, as not-
+firm, subject quotes. Unpriced indications are also permitted. Quotes can
+be updated real-time throughout the day. The minimum quote size for
+stocks trading at $175 or higher is one share.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 2726
+33) When Market Maker B enters a quote in the OTC Pink, this quote
+ A) Must be firm up to the applicable minimum quote size
+ B) Must be subject up to the applicable minimum quote size
+ C) May be firm or subject, as long as subject quotes are clearly
+indicated as such
+ D) Is firm only upon the market maker's reconfirmation of the quote
+Answer Explanation:
+The OTC Pink permits subject quotes (a quote with a price that may not
+be honored) provided they are indicated, and clearly designated, as not-
+firm, subject quotes.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 2809
+34) After a formal SEC trading suspension ends, when may broker-
+dealers begin to publish quotes or solicit investor orders for an OTC
+stock?
+ A) After waiting five days
+ B) On the next trading day
+ C) After the SEC gives the company a clean bill of health
+ D) After filing Form 211
+Answer Explanation:
+Form 211 represents that the market maker or broker-dealer has met all
+requirements for offering quotes on an OTC stock under the 34 Act.
+Textbook Reference: Please see textbook section 2.1.2
+26 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2221
+35) What type of trading may occur in an OTC stock that has been
+subject to a trading suspension without the filing of Form 211?
+ A) Solicited
+ B) Unsolicited
+ C) Block
+ D) Institutional
+Answer Explanation:
+Broker-dealers can facilitate limited unsolicited trading after the end of a
+trading halt without a Form 211 filing.
+Textbook Reference: Please see textbook section 2.1.2
+** Question ID: 2926
+36) Which of the following statements best describes the main
+differences between quotes on equity securities on the Nasdaq
+System versus the OTC Pink?
+ A) Quotes on Nasdaq must be priced, two-sided, and firm, whereas
+OTC Pink may be priced or unpriced and two-sided or one-sided.
+ B) Quotes on both systems can be two-sided, one-sided, subject, or
+firm.
+ C) Quotes on both venues must be priced, two-sided, and firm.
+ D) Quotes on Nasdaq are firm, quotes on the OTC Pink are subject.
+Answer Explanation:
+Quotes on the OTC Pink have much greater flexibility as compared to
+Nasdaq. On the OTC Pink, quotes can be two-sided, one-sided, or
+unpriced, whereas on Nasdaq all quotes must be priced, firm, and two-
+sided. The OTC Pink can include subject quotes, provided the quote is
+indicated as such.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 3129
+37) SEC Rule 15c2-11 is applicable in which of the following instances?
+ A) A quotation that is published at the request of a customer.
+ B) The publication of a quotation for a municipal security.
+ C) The publication of a quotation for an exchange traded security.
+ D) The resumption of a quotation for a non-exchange listed security.
+Answer Explanation:
+SEC Rule 15c2-11 stipulates that certain information requirements be
+satisfied by a broker-dealer who will initiate or resume publishing a
+quotation in an inter-dealer quotation medium for a non-exchange listed
+security.
+Textbook Reference: Please see textbook section 2.1.1
+27 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2459
+38) Which of the following statements are true regarding the OTC
+market?
+I. It facilitates the trading of stock not listed on an exchange
+II. It is a connection of broker-dealers via computers
+III. There can be more than one market maker in a security
+ A) I and III only
+ B) I, II and III
+ C) II and III only
+ D) I and II only
+Answer Explanation:
+The OTC market is a decentralized market connecting to broker-dealers
+electronically. It is a negotiated market place where various market
+makers enter bids and asks and facilitates the trading of stock not listed
+on an exchange.
+Textbook Reference: Please see textbook section 2.3
+** Question ID: 1983
+39) FINRA's extraordinary event halts in trading and quotations for OTC
+equities normally last for how long?
+ A) 3 days
+ B) 10 days
+ C) 20 days
+ D) 60 days
+Answer Explanation:
+FINRA exercises its authority to halt trading and quotes only in very
+limited circumstances. Halts normally last 10 days, but they may be
+longer if FINRA believes it is necessary for investor protection.
+Textbook Reference: Please see textbook section 2.3.3
+40) Which of the following best describes the OTC Pink?
+ A) A non-exchange equity quotation facility
+ B) An Electronic Communication Network
+ C) An Alternative Display Facility
+ D) A Third Market Quotation System
+** Question ID: 2084
+Answer Explanation:
+The OTC Pink is a non-exchange, non-Nasdaq, equity quotation facility.
+Note that the third market is for exchange listed securities only.
+Textbook Reference: Please see textbook section 2.3
+28 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 1974
+41) A market maker quoting an OTC stock at 1.75 bid must be firm on at
+least
+ A) 2,500 shares
+ B) 1,000 shares
+ C) 100 shares
+ D) 1 share
+Answer Explanation:
+OTC equity quotes must be firm for a minimum number of shares
+depending on the price. The bid and ask side are evaluated
+independently to determine the minimum quote size. The minimum price
+and shares are as follows:
+0.0001-0.0999: 10,000 shares
+0.10-0.1999: 5,000 shares
+0.20-0.5099: 2,500 shares
+0.51-0.9999: 1,000 shares
+1.00-174.99: 100 shares
+175.00+: 1 share
+Textbook Reference: Please see textbook section 2.2.1
+** Question ID: 2049
+42) Broker-dealer T is planning to initiate a quotation for Backdisk Inc., a
+non-exchange listed security. To comply with the information
+requirements of SEC Rule 15c2-11, which of the following items of
+information is not necessary?
+ A) A current prospectus
+ B) The exact name of the issuer and the addresses of each of its
+locations.
+ C) The issuer's CEO and board members
+ D) Most recent annual report of the issuer
+Answer Explanation:
+SEC Rule 15c2-11 requires broker-dealers to comply with information
+requirements about a non-exchange listed security, prior to the initiation
+or resumption of a quotation for that security. The exact name of the
+issuer is required, but only the address of its principal executive office
+only (its home address), not all locations.
+Textbook Reference: Please see textbook section 2.1.1
+29 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3124
+43) What would cause the minimum quote size for a security on an OTC
+interdealer quote system to increase from 100 shares to 1,000?
+ A) The price rises above $5
+ B) The price rises above $1
+ C) The price declines below $1
+ D) The price declines below $5
+Answer Explanation:
+The relationship between minimum quote size and security price is
+inverse. If the price drops below $1.00, the minimum quote size increases
+from 100 to 1,000 shares.
+Textbook Reference: Please see textbook section 2.2
+** Question ID: 2845
+44) All of the following statements are true regarding securities that
+trade on the OTC Markets EXCEPT
+ A) real time quotes are available
+ B) included companies are not required to meet set minimum assets or
+revenues
+ C) investors can trade securities in the OTC Markets directly without
+the services of a broker dealer
+ D) only equity securities trade on the OTC Markets
+Answer Explanation:
+Investors must deal with broker dealers to buy or sell OTC Markets
+securities. The OTC Markets displays real-time quotes, last-sale prices,
+and volume information in over-the-counter equity securities. OTC Market
+securities include national, regional, and foreign equity issues, warrants,
+units, American Depositary Receipts (ADRs), and Direct Participation
+Programs (DPPs). There are no minimum quantitative standards which
+must be met by an issuer for its securities to be quoted.
+Textbook Reference: Please see textbook section 2.3
+** Question ID: 2334
+45) All of the following types of securities may be quoted on the OTC
+Markets except
+ A) Domestic stocks
+ B) Direct Participation Programs
+ C) ADRs
+ D) Corporate bonds
+Answer Explanation:
+The OTC Markets is used for quoting domestic equities, ADRs and Direct
+Participation Programs that are not listed on stock exchanges and do not
+qualify for transaction reports on the Consolidated Tape. It does not report
+bonds.
+Textbook Reference: Please see textbook section 2.3.1
+30 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 2132
+46) Which of the following securities would not be listed on OTC
+Markets?
+ A) Warrants
+ B) American Depository Receipts
+ C) Senior Subordinated Notes
+ D) Direct Participation Programs
+Answer Explanation:
+Senior subordinated notes, or any corporate bond security, are typically
+listed on a highly regulated, electronic bond trading platform exchange
+such as the NYSE Bonds Trading Platform. OTC Market securities
+include foreign equity issues, warrants, ADRs, and DPPs.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 2788
+47) A company's stock that is trading at $0.15 per share would typically
+trade on which platform?
+ A) AMEX
+ B) OTC Pink
+ C) Nasdaq
+ D) NYSE
+Answer Explanation:
+Micro-cap, penny stocks, and shares of companies in bankruptcy typically
+trade on an OTC facility, such as the OTC Pink, as they do not meet the
+listing requirements of exchanges such as NYSE, Nasdaq, and AMEX.
+Textbook Reference: Please see textbook section 2.3
+31 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 3101
+48) Which of the following best describes who performs due diligence
+on issuer's securities prior to publishing quotes:
+ A) The exchanges complete due diligence on listed and unlisted
+securities prior to their being quoted
+ B) The market makers complete due diligence on listed and unlisted
+securities prior to their being quoted
+ C) The exchange does due diligence on listed securities prior to
+quotations, market makers or a qualified interdealer quotation system
+must complete due diligence on unlisted securities prior to their being
+quoted
+ D) The market maker does due diligence on listed securities prior to
+quotations, FINRA does due diligence on unlisted securities prior to their
+being quoted
+Answer Explanation:
+Securities listed on an exchange, such as Nasdaq, must meet listing
+criteria set forth and are subject to diligence by the exchange itself. For
+listed securities, the market makers themselves are not required to
+diligence the issuer. For unlisted securities, on the other hand, either a
+market maker seeking to enter quotes or a qualified interdealer quotation
+system must conduct due diligence on the issuer under 15c2-11.
+Textbook Reference: Please see textbook section 2.1.1
+** Question ID: 2885
+49) The filing of current quarterly and annual financial reports is a
+requirement for all of the following EXCEPT
+ A) Nasdaq
+ B) NYSE
+ C) NMS stocks
+ D) Pink OTC Markets
+Answer Explanation:
+Companies that are quoted in the Pink OTC Markets are not required to
+file financial reports with the SEC or other regulators. NYSE and Nasdaq,
+which include NMS stocks, required current financial reports t0 be filed for
+inclusion.
+Textbook Reference: Please see textbook section 2.3
+32 of 33
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/25/2023 3:39 PM
+** Question ID: 34901
+50) An OTC market maker is bidding $12 on 200 shares of ABC
+Corporation stock, and simultaneously asking $12.90 on 300 shares
+of the same stock. Less than a minute later, the market maker
+withdraws the buy side of the quote. Is this allowed?
+ A) No, both sides of the quote must be firm.
+ B) Yes, if at least two other market makers are quoting on the side
+withdrawn.
+ C) Yes, if the sell side of the quote is simultaneously withdrawn.
+ D) Yes, in all cases.
+Answer Explanation:
+OTC market makers do not have a continuous firm-quote requirement.
+There is no penalty for withdrawal of one or both sides of a quote.
+Textbook Reference: Please see textbook section 2.3.2
+** Question ID: 34900
+51) XYZ Corp. stock is delisted from the NYSE on a Wednesday, due to a
+persistently low share price. How could an investor who wishes to
+sell the stock do so immediately after a delisting?
+ A) By applying for a trading extension
+ B) By requesting a quote on the OTC equity
+ C) This is not possible, due to a trading blackout period following a
+delisting
+ D) By tendering shares directly to the issuer or their transfer agent
+Answer Explanation:
+If a stock is delisted from Nasdaq or NYSE, it can immediately be quoted
+on the OTC Markets.
+Textbook Reference: Please see textbook section 2.1.2
