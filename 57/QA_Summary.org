@@ -152,11 +152,15 @@ Textbook Reference: Please see textbook section 2.2.1
 ** Requires only one market maker to initiate quotes
 *** OTC Pink and NYSE
 
-**  A crossed market has the bid above the ask price.
+**  Crossed Market :
+*** The bid above the ask price.
 
-**  An OTC market maker can simply withdraw its quote to terminate registration.
+**  Termination of registration in Non-NMS securities:
+*** An OTC market maker can simply withdraw its quote to terminate registration.
 
-**  The minimum increment for prices above $1 is $0.01.
+** The minimum quote increment for quotes in ADF-eligible securities
+*** $1.00 or above  is one cent. ($0.01)
+*** Below $1.00, it is one one-hundredth of a cent ($0.0001).
 
 **  Due diligence for OTC quotes focuses on facts about the issuer.
 
