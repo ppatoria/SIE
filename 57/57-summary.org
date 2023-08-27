@@ -144,107 +144,9 @@ When a broker-dealer provides direct market access (DMA), the control should be 
 which means that the broker-dealer should not outsource the control.
 This means that the broker-dealer should not delegate the responsibility of risk control to a third party.
 
+* Trading Halts
 
 [[./TradingHalts.png]]
-* Trading Halts
-*** Reasons for Trading Halts:
-**** Trading in specific securities can be halted for various reasons, including
-***** investor protection and
-***** allowing time for material news dissemination or
-***** verifying an issuer's listing requirements.
-*** Initiating a Trading Halt:
-**** Depending on the nature of the security and the circumstances, a trading halt can be initiated by
-***** Nasdaq,
-***** FINRA (for NMS or OTC stocks), or
-***** the SEC.
-*** Trading Halt Impact:
-**** During a trading halt,
-***** no trades can be executed, and there are no exceptions for block trades.
-** Nasdaq Trading Halts
-*** Material News Notification:
-**** Issuers and market makers listed on Nasdaq agree to notify Nasdaq of material news at least 10 minutes before public release.
-**** This information is typically sent electronically.
-*** Nasdaq MarketWatch Evaluation:
-**** Nasdaq MarketWatch evaluates the news,
-**** estimates its market impact, and
-**** decides whether to halt trading based on Nasdaq Rule 4120.
-*** Halt Codes:
-**** Trading halts by Nasdaq are accompanied by codes (T1, T2, T3) indicating the status and timing of the halt.
-***** T1: Halt - News Pending:
-****** Trading is halted pending the release of material news.
-***** T2: Halt - News Released:
-****** The news has begun the dissemination process through an appropriate method.
-***** T3: News and Resumption Times:
-****** The news has been fully disseminated or
-****** Nasdaq has determined that the reason for the halt will no longer have a material effect on the market for the security.
-****** Under a T3 code, the system will display two times:
-******* (1) The time when market participants can enter quotations and
-******* (2) The time the security will be released for trading.
-*** Purpose of Halt:
-**** Halted securities allow investors to consider new information and make informed decisions about the appropriate price.
-** FINRA Trading Halts in NMS Securities
-*** Reasons for Trading Halts:
-**** FINRA has the authority to halt trading on exchanges in any NMS stock for various reasons, including
-***** news dissemination,
-***** verifying issuer listing requirements, and
-***** investor protection.
-*** Prompt Notification:
-**** Members are required to promptly notify FINRA if they have knowledge of **undisclosed material information** related to an NMS stock or its issuer.
-*** Halt Initiation:
-**** A trading halt can begin upon notice from the primary listing exchange, and when lifted, trading may resume.
-** FINRA Trading Halts in OTC Equities
-*** Reasons for Halt:
-**** FINRA can direct member firms to halt trading and quotations in OTC equity securities to protect investors and the public interest,
-***** especially in cases involving material news or
-***** system malfunctions.
-*** Halt Codes:
-**** Halt codes such as U1, U3, and H10 are used to identify different types of OTC trading halts.
-***** Provide information about the reason for a trading halt and its status.
-***** These codes are typically displayed on
-****** On Trading Screens
-****** Market Data Feeds
-****** Market Notices
-****** Communications with Broker-Dealers
-****** Record-Keeping and Compliance
-***** OTC trading halt codes:
-****** U1: (Trading of U.S. ADR)
-******* This code typically indicates a foreign regulatory halt.
-******* It suggests that trading in the security has been halted due to regulatory actions or events in the foreign market where the security is traded.
-****** U3:
-******* U3 signifies an extraordinary event halt.
-******** the release of material information with a significant impact on the company or stock price, has occurred.
-******** Trading is halted to allow market participants time to assess the impact of the news before trading resumes.
-****** H10:
-******* H10 indicates an SEC trading suspension.
-******* This code is used when the SEC suspends trading in a specific security for various reasons, including
-******** concerns about the accuracy of publicly available information,
-******** late or inadequate filings,
-******** insider trading, or market manipulation.
-** Halt Screen and Codes
-*** OTC Halt Codes:
-**** OTC Markets uses halt codes along with date, time, and ticker information to identify trading halts, including U1, U3, and H10.
-** Extraordinary Event Halt
-*** Limited Use:
-**** FINRA may impose an extraordinary event trading halt in OTC equities for up to 10 business days under specific circumstances.
-*** Consideration Factors:
-**** Factors considered for imposing an extraordinary event halt include
-***** the materiality of the event,
-***** impact on trading,
-***** potential marketplace disruption, and more.
-** Prohibition During Trading Halts
-*** Trading Prohibition:
-**** From publishing quotations or
-**** executing transactions during a trading halt,
-**** except for specific scenarios like limit up/limit down pauses.
-** SEC Suspension of Trading
-*** SEC Authority:
-**** The SEC can suspend trading in any stock for various reasons, including
-***** protecting investors,
-***** addressing late filings,
-***** investigating market manipulation, and
-***** emergency situations.
-*** Post-Suspension:
-***** After an SEC suspension, broker-dealers must file Form 211 with FINRA to resume quoting the previously suspended OTC stock.
 
 
 ** Limit Up Limit Down
@@ -715,12 +617,6 @@ No halt
 ** Pre-Trade Control: Automated control for automated trading system.
 ** If BD provides DMA: The control should be direct and exclusive (no out sourcing allowed)
 
-* Limit Up Limit Down
-** Band/LULD: is % above and below the stock reference price
-** Reference price: 5 minute average moving price of an stock which is
-*** calculated every 30 seconds.
-*** updated after 1% or greater change in the prior reference price.
-** COMMENT 5% band (lower priced stock have higher band 10%, 20% or 75%)
 
 
 # Rule
