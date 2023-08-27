@@ -1,0 +1,73 @@
+@startuml
+title Limit Up/Limit Down (LULD) 
+!include theme_sequential_diagram.puml
+
+participant "Market Data Feed" as MarketData
+participant "Exchange/Trading Platform" as Exchange
+participant "SEC" as SEC
+participant "Trader" as Trader
+
+note left: LULD rules are implemented\nby the SEC to address\nextraordinary volatility\nin NMS stocks.
+
+note right: Reference Price:\nThe five-minute moving average\nof the security's last sales price.
+
+note right
+LULD Bands:
+- Tier 1 (e.g., S&P 500):
+  - 5% price band (10% at open/close)
+- Tier 2 (All other NMS stocks):
+  - 10% price band (20% at open/close)
+- Stocks under $0.75:
+  - The lesser of $0.15 or 75% (doubled at open/close)
+end note
+note left
+Limit State:
+- If a quote moves the national best offer price to the lower band or the national best bid price to the upper band without crossing the market, a 15-second limit state begins.
+- Trading can continue within the band during this time.
+- A limit state ends if the quote causing it is executed, canceled, or modified.
+- If the national best bid or offer remains at the band for 15 seconds, a five-minute trading halt begins.
+end note
+note left
+LULD Halt:
+- During a five-minute volatility trading pause, trading is halted, but quotes can be updated, and orders can be accepted.
+- The halt can end after the mandatory five minutes when the primary market reports a re-opening price.
+end note
+
+note left
+FINRA Rule 6190:
+- Prohibits execution of trades outside LULD bands
+- Prohibits display of quotes outside LULD bands
+- Prohibits execution of trades during a volatility trading pause
+- Quotes can still be displayed during the pause.
+end note
+
+note left
+Exceptions from LULD Bands:
+- Certain trades excluded from LULD price bands and can execute outside the bands.
+- Examples include non-regular way settlement, benchmark/derivatively priced transactions, stop stock transactions, qualified contingent trades, error correction trades, and print protection trades.
+end note
+
+note left: **LULD Halts Sequence:**
+
+MarketData -> Exchange: Provides real-time data
+Trader -> Exchange: Places orders
+
+Exchange -> SEC: Implements LULD rules
+
+Exchange -> Exchange: Calculates reference price and bands
+
+Exchange -> Exchange: Monitors quotes and trades
+
+Exchange -> MarketData: Receives real-time data
+
+Exchange -> Trader: Sends trade confirmations
+
+SEC -> Exchange: Enforces LULD rules
+
+Exchange -> MarketData: Distributes data feeds
+
+Exchange -> SEC: Reports LULD-related events
+
+Trader -> Exchange: Receives trade confirmations
+
+@enduml

@@ -581,63 +581,70 @@ Sure, here is a summary table:
 1000  * 0.5   / 0.5     1/2
 100   * 1     / 1       1
 1
-#+title: Trading Rules
 
-* halts
-** market wide
-*** SEC market disruptions.
--   Up to 90 days (approval with notice to President).
-*** circuit break on decline of S&P (i.e. Index):
-**** 7%  (9.30-3.25): 15 minutes         (MM can enter quotes and customer can order quotes to BDs during last 5 min)
-**** 13% (9.30-3.25): 15 minutes         (MM can enter quotes and customer can order quotes to BDs during last 5 min)
-**** 20% (9.30-4.00): rest of the day
-** single stock
-*** Exchange
-**** T1 pending news                                      (BDs can submit order to NASDAQ during this time.)
-**** T2 release news                                      (BDs can submit order to NASDAQ during this time.)
-**** T3 let new disseminate for 5 minutes and reopen
-*** SEC (NMS or OTC)
-10 days for investor protection or market manipulation
-*** FINRA (NMS or OTC)
-**** Halt on system error/pending news/halt in a associative security
-**** SEC directed to halt.
-**** 10 days halt in extra ordinary situations.
-** ADR
-*** foreign company halts due to pending news or some event
-Halt trading
-*** Foreign company halts due to regulatory reasons.
-No halt
+* LULD
 
-* Close out /settlement
-** Short Sale : T + 3  (before open)
-** Long Sale  : T + 5  (before open)
-** Threshold  : T + 14 (before open)
+[[./LULDFlow.png]]
 
-* Risk Control
-** Pre-Trade Control: Automated control for automated trading system.
-** If BD provides DMA: The control should be direct and exclusive (no out sourcing allowed)
+
+** Reference Price and Bands Determination:
+   - The exchange calculates the reference price, which is the five-minute moving average of the security's last sales price.
+   - LULD bands are set based on the reference price:
+   -- For Tier 1 securities (e.g., S&P 500), the bands are 5% (10% at open/close).
+   -- For Tier 2 securities (all other NMS stocks), the bands are 10% (20% at open/close).
+   -- For securities priced under $0.75, the bands are the lesser of $0.15 or 75% (doubled at open/close).
+
+** Limit State:
+   - If a quote is entered that moves the national best offer price to the lower band or the national best bid price to the upper band without crossing the market, a 15-second limit state begins.
+   - Trading can continue within the band during this time.
+   - The limit state ends if the quote causing it is executed, canceled, or modified.
+   - If the national best bid or offer remains at the band for 15 seconds, a five-minute trading halt begins.
+
+** LULD Halts Sequence:
+   - An initial halt occurs if a security enters a limit state.
+   - During the five-minute volatility trading pause, no trading may occur, but quotes can be updated, and orders can be accepted.
+   - The halt can end after the mandatory five minutes when the primary market reports a re-opening price.
+   - If the issue causing the halt is not resolved, subsequent halts may occur in response to further limit state triggers.
+
+** Subsequent Halts:
+   - If the same issue persists and triggers another limit state after the initial halt ends, a new five-minute trading halt begins.
+   - Subsequent halts can repeat if the issue continues.
+
+** Conclusion If Not Resolved:
+   - If the issue causing the halt is not resolved after multiple halts, the security may remain halted for an extended period.
+   - The exchange, in conjunction with regulatory bodies like the SEC, may investigate the issue and determine appropriate actions to resolve it.
 
 
 
-# Rule
-# ----
-** IF greater than 5% Limit then
-*** price is changed to the limit
-**** IF == 5% Limit
-***** wait for 15 seconds
-***** During wait orders can be entered but they will not be executed.
-***** IF the quote is not removed or executed within 15 seconds
-****** pause and wait for 5 minutes
-****** IF the quote is not removed or executed within 5 minutes
-******* Primary Exchange can either pause or resume
-******* IF the quote is not removed or executed after 2nd halt
-******** Each exchange (there decision) may either wait for 10 minutes and result.
-***** ELSE
-****** EITHER order get canceled by the MM/BD/Customer
-****** OR     order is executed
-****** Trading will continue
 
 [[./LULD.png]]
+
+
+* Straddle State
+** Under LULD, a security is in a straddle state if the bid and offer are on either side of the price band.
+** Under a straddle state, the exchange will monitor conditions and implement a pause for anything abnormal.
+** Example:
+    The reference price for an S&P 500 stock is $50.
+    Therefore, the 5% band is down to 47.50 and up to 52.50.
+    If the NBBO is 52.45–.55, this is a straddle state.
+
+
+
+	  Numerical Guidelines         Reference Price 	(% Difference from Reference Price) 
+
+    $0.9999 and under 	         20% 
+
+    $1–$4.9999 	                 Low end of band: 20%
+                                 High end of band: 10% 
+
+    $5–$74.9999 	               10% 
+
+    $75–$199.9999 	             Low end of band: 10%
+                                 High end of band: 5% 
+    $200–$499.9999 	             5%
+    
+    $500–$999.9999 	             Low end of band: 5%
+                                 High end of band: 3% 
 
 * Short Sell
 ** Broker Dealer
@@ -1943,61 +1950,7 @@ Overall, the Halt Cross is a valuable tool that can help to provide a fair and o
 
 
 
-You are correct. I apologize for the error in my previous answer. I have reviewed the section 3.7.1 of the FINRA 57 Series Book carefully, and I understand the clearly erroneous thresholds now.
 
-The answer to the question is **B**.
-
-A trade is considered **clearly erroneous** if it is more than 5% away from the reference price, or 10% away outside of normal market hours. The reference price is the consolidated last sale immediately prior to the execution.
-
-In this case, the reference price is $73.00, so a trade at $70.08 is more than 5% away from the reference price. Therefore, FINRA would most likely define this trade as clearly erroneous.
-
-The other trades are not clearly erroneous because they are within the 5% threshold.
-
-**Here is a table that summarizes the clearly erroneous thresholds:**
-
-| **Price Range** | **Threshold** | **Time of Day** |
-|---|---|---|
-| Up to $25.00 | 10% | Normal market hours |
-| $25.00 - $50.00 | 5% | Normal market hours |
-| Above $50.00 | 3% | Normal market hours |
-| Up to $25.00 | 20% | Outside normal market hours |
-| $25.00 - $50.00 | 10% | Outside normal market hours |
-| Above $50.00 | 6% | Outside normal market hours |
-
-I hope this helps!
-
-
-
-
-You are right. I apologize for the omission. Here is the table with pre-market hours added:
-
-| **Market** | **Regular Trading Hours** | **Extended Trading Hours** | **Pre-Market Hours** |
-|---|---|---|---|
-| **NYSE** | 9:30 AM to 4:00 PM ET | 4:00 PM to 8:00 PM ET | 4:00 AM to 9:30 AM ET |
-| **Nasdaq** | 9:30 AM to 4:00 PM ET | 4:00 PM to 8:00 PM ET | 4:00 AM to 9:30 AM ET |
-| **Cboe** | 9:30 AM to 4:00 PM ET | 4:00 PM to 8:00 PM ET | 4:00 AM to 9:30 AM ET |
-
-I have added the pre-market hours to the table now. Thank you for bringing this to my attention.
-
-I hope this helps! Let me know if you have any other questions.
-
-Nasdaq: 5% during normal market hours and 10% outside of normal market hours.
-NYSE: 5% during normal market hours and 10% outside of normal market hours.
-Cboe: 5% during normal market hours and 10% outside of normal market hours.
-
-
-Sure, here is a table that shows the threshold limits for clearly erroneous trades and the defined limits for market makers' quotes:
-
-|**Price Range** | **Threshold Limit for Clearly Erroneous Trades** | **Defined Limit for Market Makers' Quotes** |
-|---|---|---|
-| Up to $25.00 | 10% | 5% |
-| $25.00 - $50.00 | 5% | 5% |
-| Above $50.00 | 3% | 5% |
-| Outside normal market hours | 20% | 10% |
-|---|---|---|
-| Up to $25.00 | 20% | 10% |
-| $25.00 - $50.00 | 10% | 10% |
-| Above $50.00 | 6% | 10% |
 
 
 
