@@ -18,7 +18,7 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
 * The executing party reports the trade, using its assigned MPID.
 * Give-up relationships allow another member to report on your behalf.
 
-* Trade prices exclude any
+* Trade prices include any
 ** markups,
 *** A "markup" is the amount added to the market price when a broker-dealer is selling a security as a principal.
 ** markdowns or
