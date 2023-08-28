@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-26 Sat 11:30 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Pralay Patoria" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org5e2993f">1. Circuit Breakers:</a>
+<ul>
+<li><a href="#org7d9554f">1.1. A circuit breaker is triggered by a 10% decline in the transaction price compared to the prior day's close.</a></li>
+<li><a href="#orgdb7d39d">1.2. Once triggered, a circuit breaker remains in effect through the next trading day.</a></li>
+<li><a href="#orgd8aa13a">1.3. The SEC can suspend trading in a stock for up to 10 business days.</a></li>
+<li><a href="#org4118b37">1.4. The 5-19 stock 10% event and 20+ stock 30% event criteria define multi-stock clearly erroneous trades.</a></li>
+<li><a href="#orga027513">1.5. Circuit breakers are based on declines in the S&amp;P 500 Index.</a></li>
+<li><a href="#org820f67d">1.6. Circuit breaker rules are uniform across all equities.</a></li>
+<li><a href="#org5c948a7">1.7. There can be at most 1 Level 1, Level 2, and Level 3 halt per day.</a></li>
+<li><a href="#orgfcef545">1.8. During a trading halt, open orders remain on the books unless canceled.</a></li>
+<li><a href="#org99ad31b">1.9. Quotes are halted for the first 10 minutes of a Level 1/2 halt.</a></li>
+<li><a href="#orgc2416de">1.10. A Level 3 halt continues for the remainder of the trading day.</a></li>
+<li><a href="#orgd5ddd79">1.11. After 3:25 pm, Level 1 and Level 2 halts cannot be triggered. Trading continues.</a></li>
+<li><a href="#org29a0837">1.12. A halted LULD trading session resumes when the primary exchange reports a reopening price.</a></li>
+<li><a href="#org5a72a03">1.13. No trading is permitted during an LULD halt, but orders and quotes can still be entered.</a></li>
+<li><a href="#org8e274d1">1.14. The minimum LULD trading halt is 5 minutes.</a></li>
+<li><a href="#org005edc5">1.15. Percentage bands double during the open and close periods.</a></li>
+<li><a href="#orgb62d676">1.16. With a circuit breaker in effect, dark pool trades must also occur above the national best bid.</a></li>
+<li><a href="#orgc60c930">1.17. After filling the protected quote, a market maker can update quotes based on news.</a></li>
+<li><a href="#org4a5470d">1.18. With a circuit breaker in effect, short sales must execute on an uptick, meaning at least $0.01 above the national best bid of $15.21.</a></li>
+<li><a href="#orgb9faa71">1.19. With a 10% decline so far, 20% lower is $1,600.</a></li>
+<li><a href="#org556f457">1.20. For OTC stocks, the percentage bands stay the same during and outside market hours.</a></li>
+<li><a href="#orgbfb605b">1.21. The Black-Scholes model is commonly used to calculate theoretical option prices.</a></li>
+<li><a href="#org9023791">1.22. The listing exchange (NYSE, Nasdaq) determines when a security's price has dropped 10% to trigger the circuit breaker.</a></li>
+</ul>
+</li>
+<li><a href="#orge273223">2. Clearly Erroneous Trades:</a>
+<ul>
+<li><a href="#orge89535b">2.1. Clearly erroneous decisions can be appealed to FINRA's Uniform Practice Code Committee.</a></li>
+<li><a href="#orgd0f700f">2.2. FINRA decides whether trades are clearly erroneous.</a></li>
+<li><a href="#org72a41aa">2.3. Obvious errors rules reference the theoretical option price.</a></li>
+<li><a href="#org1dc314e">2.4. For long-term customers, firms may rely on their assurance that they can deliver sold shares.</a></li>
+<li><a href="#org9567b76">2.5. Once settled, trades cannot be cancelled as clearly erroneous.</a></li>
+<li><a href="#org016db07">2.6. To evaluate clearly erroneous trades, the reference price and percentage band must be known.</a></li>
+<li><a href="#org55d9ab7">2.7. Obvious error bands are based on distance from Theoretical Price.</a></li>
+<li><a href="#org51aa45a">2.8. The 30-minute notification deadline for clearly erroneous trades applies during and outside normal market hours.</a></li>
+<li><a href="#org2b255c2">2.9. A print protection trade is exempt from trade-through rules.</a></li>
+<li><a href="#org03b8006">2.10. The first protected quote at a price gets priority over a crossing quote.</a></li>
+<li><a href="#orgac5fb20">2.11. Above $50, trades outside 3% bands are clearly erroneous.</a></li>
+<li><a href="#org5583482">2.12. A 13% decline triggers a Level 2 circuit breaker halt.</a></li>
+<li><a href="#org9006128">2.13. A 20% decline triggers a Level 3 circuit breaker halt.</a></li>
+<li><a href="#orgd5f0df6">2.14. During a limit state, orders can be entered and trades executed; if the limit state persists for 15 seconds, a halt will occur.</a></li>
+<li><a href="#org887bc73">2.15. Aggressive pricing outside bands causes a limit state, during which trading continues.</a></li>
+<li><a href="#org0cad349">2.16. For stocks above $50, trades outside 3% bands are clearly erroneous.</a></li>
+<li><a href="#org63f79d0">2.17. For buys, outside the quote means higher than the national best offer.</a></li>
+<li><a href="#orga8a4c10">2.18. For OTC stocks, the reference price is the market price just before the trade in question.</a></li>
+<li><a href="#org3870a16">2.19. Quotes may not be below the minimum increments under NMS.</a></li>
+<li><a href="#org64c9149">2.20. Percentage bands for listed equities double outside normal market hours.</a></li>
+<li><a href="#org6a3dc8a">2.21. Clearly erroneous actions must be taken within 30 minutes of detection.</a></li>
+<li><a href="#orga44a47c">2.22. A self-help alert allows orders to be routed away from troubled exchanges and trade through their quotes.</a></li>
+<li><a href="#orgbda300a">2.23. The self-help alert allows orders to be routed away from the impacted exchange.</a></li>
+<li><a href="#org74c395e">2.24. The UPC Committee's decision on a clearly erroneous appeal is final and binding.</a></li>
+<li><a href="#orgcf76309">2.25. The Threshold List consists of stocks with substantial fails to deliver, usually from heavy short selling activity.</a></li>
+<li><a href="#org2d7f480">2.26. Short sale rules including order marking fall under Reg SHO.</a></li>
+<li><a href="#org512c2d8">2.27. The 30-minute notification deadline applies at all times.</a></li>
+<li><a href="#orgc2aad1d">2.28. Long sale fails must be closed out by the open of T+5.</a></li>
+<li><a href="#org25494dc">2.29. Closing out the fail requires "like kind and quantity" shares to be purchased and delivered.</a></li>
+<li><a href="#orga13161f">2.30. Fails to deliver can cause a security to be added to the Threshold List.</a></li>
+<li><a href="#org8b34874">2.31. With no ownership, the sale must be marked short.</a></li>
+<li><a href="#org3e2e2b1">2.32. Tendering convertible bonds deems the investor to own the underlying stock.</a></li>
+<li><a href="#org5ecdcb4">2.33. Clearly erroneous trades can be adjusted or canceled based on specific rules.</a></li>
+<li><a href="#org2dfe9e9">2.34. Obvious error rules reference theoretical option prices.</a></li>
+<li><a href="#org3994b2b">2.35. The 30-minute notification window always applies.</a></li>
+<li><a href="#org3b8066e">2.36. The CEO must certify the effectiveness of the firm's risk management controls.</a></li>
+</ul>
+</li>
+<li><a href="#org0ccfe68">3. Short Sales and Regulation SHO:</a>
+<ul>
+<li><a href="#org33f5850">3.1. A regulatory halt applies across all markets trading the security.</a></li>
+<li><a href="#orgd19262b">3.2. Fails in the same security trigger restrictions on additional short sales in that security.</a></li>
+<li><a href="#org441e172">3.3. The close out for shorts is T+3. T+5 is for longs and market maker shorts.</a></li>
+<li><a href="#orgaa21adb">3.4. The T+5 close out applies equally to long and short sales by market makers.</a></li>
+<li><a href="#orgca971d7">3.5. With a net short position, the investor has no deemed ownership.</a></li>
+<li><a href="#org4d59690">3.6. Buying above the national best offer is a trade-through under Reg NMS.</a></li>
+<li><a href="#orgf8126be">3.7. Selling below the best bid is a trade-through under Reg NMS.</a></li>
+<li><a href="#org0f4de48">3.8. Only short and short exempt can be used to mark exchange short sales.</a></li>
+<li><a href="#orgb9a575a">3.9. To rely on an Easy to Borrow list for locates, it must be updated at least every 24 hours/daily.</a></li>
+<li><a href="#org9e070ae">3.10. Risk management controls apply to both trades and quotes entered into trading systems.</a></li>
+<li><a href="#org5e14f77">3.11. Payment for order flow may be received in cash or in-kind services like research or clearing and must be disclosed.</a></li>
+<li><a href="#orgee269fb">3.12. Risk management controls cannot be outsourced or delegated.</a></li>
+<li><a href="#org1b462b5">3.13. The SEC can suspend trading for up to 10 business days.</a></li>
+<li><a href="#org04f19bf">3.14. An order above 105 would slide to the 105 limit and trigger a limit state.</a></li>
+<li><a href="#orgfb6c9d2">3.15. Coordination means positions must be aggregated firm-wide.</a></li>
+<li><a href="#orgce9ca16">3.16. The broker-dealer effecting the short sale has responsibility for the locate.</a></li>
+<li><a href="#orga7b16a2">3.17. To be excluded from LULD, trades must not update the last sale price.</a></li>
+<li><a href="#orgfc447d5">3.18. For market makers, the close out is T+5 regardless of whether the sale was long or short; for non-market makers, shorts must close out by T+3.</a></li>
+<li><a href="#orga0828cf">3.19. A self-help alert tells firms to route orders away from the impacted exchange.</a></li>
+<li><a href="#org0d74c06">3.20. Risk management controls cannot be delegated to a third party.</a></li>
+<li><a href="#orgf2e7507">3.21. Short sales must transact on an uptick, or at least $0.01 above the national best bid.</a></li>
+<li><a href="#orgf70673b">3.22. An uptick means the price increases above the national best bid.</a></li>
+<li><a href="#org9d04efa">3.23. The originating broker-dealer has best execution duties regardless of payment routing arrangements.</a></li>
+<li><a href="#orgc211ce6">3.24. A new circuit breaker can trigger anytime price drops 10% from the prior close.</a></li>
+<li><a href="#org64c9357">3.25. The SEC can halt all exchange trading for up to 90 days with presidential notice.</a></li>
+<li><a href="#org864caf7">3.26. An open fail means the failure to deliver has not yet been closed out.</a></li>
+<li><a href="#orge84388f">3.27. FINRA can discipline market makers firm-wide or on a security-by-security basis.</a></li>
+<li><a href="#org5520d8d">3.28. A new Reference Price is calculated only when it moves 1% or more from the previous Reference Price.</a></li>
+<li><a href="#org3c250d2">3.29. With tendered preferred shares, the sale of common can be marked long.</a></li>
+<li><a href="#org1ddc608">3.30. Short positions must be reported to FINRA twice a month.</a></li>
+<li><a href="#orge4b247e">3.31. FINRA can halt both NMS and OTC equities in certain situations.</a></li>
+<li><a href="#org06a9e23">3.32. After 3:25 pm, Level 1 and 2 halts are not in effect.</a></li>
+<li><a href="#org504f8ce">3.33. After 3:25 pm, Level 1 and 2 halts cannot occur.</a></li>
+<li><a href="#orgeba18b8">3.34. The order protection rule aims to prevent trade-throughs.</a></li>
+<li><a href="#org34f09e9">3.35. Counterparties have 10 minutes after notification to mutually agree on adjustment.</a></li>
+<li><a href="#orgc9ed825">3.36. The access fee limit for quotes $1+ is $0.003 per share.</a></li>
+<li><a href="#orgbbc1625">3.37. The access fee limit for stocks $1+ is $0.003 per share.</a></li>
+<li><a href="#orgb723692">3.38. Above $3 theoretical options errors are adjusted $0.30 away.</a></li>
+<li><a href="#org7352dd1">3.39. Risk management controls must be under the firm's direct and exclusive control.</a></li>
+<li><a href="#org3badcc7">3.40. Aggressive pricing outside bands causes a limit state.</a></li>
+<li><a href="#orga11fd7c">3.41. The access fee limit is $0.003 per share.</a></li>
+<li><a href="#org5ed500d">3.42. The maximum access fee is $0.003 per share.</a></li>
+<li><a href="#org7c122ec">3.43. Below $3 theoretical, errors are adjusted to $0.15 away from theoretical, which is $0.75.</a></li>
+</ul>
+</li>
+<li><a href="#org18de351">4. Order Handling and Risk Management:</a>
+<ul>
+<li><a href="#org990d06d">4.1. Prime brokers must maintain minimum net capital of $1.5 million.</a></li>
+<li><a href="#orgf69cf24">4.2. Broker-dealers must provide risk management immediate post-trade reports on market access customer trades.</a></li>
+<li><a href="#orgdc434ba">4.3. The originating broker-dealer has responsibility for the locate.</a></li>
+<li><a href="#org705e291">4.4. The introducing broker-dealer has responsibility for the short sale locate.</a></li>
+<li><a href="#orged7f55b">4.5. The originating broker-dealer has responsibility for the locate unless the executing broker-dealer specifically assumed that duty.</a></li>
+<li><a href="#org856ec47">4.6. Broker-dealers must report both proprietary and customer short positions to FINRA periodically.</a></li>
+<li><a href="#orgdab078b">4.7. Broker-dealers must report both proprietary and customer short positions to FINRA twice a month.</a></li>
+<li><a href="#org776938c">4.8. The net long position is 11,000 shares less 3,000 share equivalents short, or 8,000 shares.</a></li>
+<li><a href="#org2773fae">4.9. 800 shares can be marked long, with 200 marked short based on the net long position.</a></li>
+<li><a href="#orgfe55afa">4.10. One order can be a long sale, with the others marked short based on net position.</a></li>
+<li><a href="#org528a283">4.11. With a circuit breaker in effect, even displayed limit orders must be above the national best bid.</a></li>
+<li><a href="#org27cffcd">4.12. The originating broker-dealer must adhere to best execution and disclose any payments received for order flow.</a></li>
+<li><a href="#org5145b22">4.13. Broker-dealers have 35 days to close out fails in restricted stock short sales.</a></li>
+</ul>
+</li>
+<li><a href="#org7eabb04">5. * Trading Halts:</a>
+<ul>
+<li><a href="#orgbe8f340">5.1. Exchanges, not the SEC, impose news-pending halts.</a></li>
+<li><a href="#org653a56a">5.2. Exchanges, such as Nasdaq and NYSE, impose regulatory halts.</a></li>
+<li><a href="#org2a9c799">5.3. A self-help alert allows trades to be executed away from a troubled platform.</a></li>
+<li><a href="#org84214d9">5.4. The self-help alert allows trades to be executed away from a troubled platform.</a></li>
+</ul>
+</li>
+<li><a href="#orgbe434c4">6. * Customer Order Handling:</a>
+<ul>
+<li><a href="#org4778373">6.1. Traders can only be assigned to one aggregation unit at a time.</a></li>
+<li><a href="#orgcfcd772">6.2. Independent aggregation doesn't require a physical location; it requires a written plan, independent net position calculations, one unit per trader, and no coordination between units.</a></li>
+<li><a href="#org4caf7ad">6.3. Independent trading unit aggregation allows position reporting by separate trading desks.</a></li>
+</ul>
+</li>
+<li><a href="#org31a7295">7. Limit Up/Limit Down (LULD):</a>
+<ul>
+<li><a href="#orgd69a222">7.1. LULD stands for Limit Up/Limit Down, the volatility control mechanism.</a></li>
+<li><a href="#orgf8fa94e">7.2. Percentage bands double outside normal market hours.</a></li>
+<li><a href="#orgdd2dbf8">7.3. LULD bands double during the open and close periods.</a></li>
+<li><a href="#org8c5e63c">7.4. Above $1 the minimum quote increment is $0.01 per share.</a></li>
+<li><a href="#orgf679120">7.5. A straddle state exists when the NBBO breaks the lower LULD band.</a></li>
+<li><a href="#orgd2c612f">7.6. During an LULD halt, orders can be entered but not executed.</a></li>
+</ul>
+</li>
+<li><a href="#org2eded4b">8. * Short Sale Rules:</a>
+<ul>
+<li><a href="#orge4d1919">8.1. Short sellers usually have two days (T+2) to deliver borrowed shares.</a></li>
+<li><a href="#orgf6d31df">8.2. Below $1 the minimum increment is $0.0001.</a></li>
+<li><a href="#orga112ca6">8.3. Having entered a borrowing arrangement is an exception to short sale restrictions.</a></li>
+<li><a href="#orgbdfb9ad">8.4. The locate department is responsible for finding shares to borrow and sell short.</a></li>
+</ul>
+</li>
+<li><a href="#org370b7eb">9. * Payment for Order Flow:</a></li>
+<li><a href="#orgbbc205d">10. * Trade-Through Rules:</a>
+<ul>
+<li><a href="#org975e05f">10.1. Orders may not trade through protected quotes.</a></li>
+<li><a href="#org34005f7">10.2. Regular way trades do not qualify as an exception to the trade-through rule.</a></li>
+<li><a href="#orgd9e33a1">10.3. Block trades do not qualify as short exempt. The other choices do.</a></li>
+</ul>
+</li>
+<li><a href="#org4b35942">11. Miscellaneous:</a>
+<ul>
+<li><a href="#org1b09968">11.1. Pre-trade controls screen orders to prevent erroneous and duplicate entries.</a></li>
+<li><a href="#org6d76371">11.2. Trade checks include rules and reasons checks for market makers.</a></li>
+<li><a href="#org27e6849">11.3. All activity resulting from erroneous orders is binding.</a></li>
+<li><a href="#orgd2cf3ef">11.4. An odd lot consists of fewer than 100 shares.</a></li>
+<li><a href="#org990a2a0">11.5. These points cover a wide range of topics related to trading, circuit breakers, clearly erroneous trades, short sales, order handling, risk management, payment for order flow, trade-through rules, and other relevant aspects of the securities industry. If you have any specific questions or need further clarification on any of these points, feel free to ask!</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+Here is a summary of the key points from Chapter 3 on Trading Rules:
+</p>
+
+<ul class="org-ul">
+<li>Regulation NMS
+
+<ul class="org-ul">
+<li>Access Rule: Limits access fees to $0.003/share, requires access to best quotes</li>
+<li>Order Protection Rule: Prevents trade-throughs, routes orders to best price</li>
+<li>Exceptions: Self-help, ISO, stopped, derivatives, crossed markets, etc.</li>
+<li>Minimum price increments: $0.01 for prices $1+, $0.0001 for prices below $1</li>
+</ul></li>
+
+<li>Disseminating Quotes
+
+<ul class="org-ul">
+<li>Quotes must be firm with limited exceptions</li>
+<li>Payment for order flow allowed with disclosure</li>
+<li>Rigging quotes is prohibited</li>
+</ul></li>
+
+<li>Trading Halts
+
+<ul class="org-ul">
+<li>Imposed by exchanges, FINRA, SEC to protect investors</li>
+<li>Reasons include pending news, extreme volatility, technical issues</li>
+<li>No trades permitted during halts</li>
+</ul></li>
+
+<li>Limit Up/Limit Down
+
+<ul class="org-ul">
+<li>Prevents extraordinary volatility by limiting price movements</li>
+<li>5-10% bands around 5-minute moving average reference price</li>
+<li>15-second limit state if price hits band; 5-minute halt if persists</li>
+</ul></li>
+
+<li>Clearly Erroneous Trades
+
+<ul class="org-ul">
+<li>FINRA can cancel trades priced far outside normal bands</li>
+<li>Numerical guidelines set allowable price ranges</li>
+<li>Parties can appeal FINRA rulings</li>
+</ul></li>
+
+<li>Regulation SHO - Short Sales
+
+<ul class="org-ul">
+<li>Requirements for marking tickets long/short/short exempt</li>
+<li>Locate required prior to short sale unless exempt</li>
+<li>Threshold security rules for chronic fails</li>
+<li>Close out timeframes: T+3 for shorts, T+5 for longs</li>
+</ul></li>
+
+<li>Risk Management Controls
+
+<ul class="org-ul">
+<li>Pre-trade controls on order size, erroneous trades</li>
+<li>Post-trade surveillance on market access</li>
+<li>Controls cannot be outsourced</li>
+</ul></li>
+</ul>
+
+<p>
+Let me know if you would like me to expand on any section or modify the summary.
+</p>
+
+
+
+
+<div id="outline-container-org5e2993f" class="outline-2">
+<h2 id="org5e2993f"><span class="section-number-2">1.</span> Circuit Breakers:</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7d9554f" class="outline-3">
+<h3 id="org7d9554f"><span class="section-number-3">1.1.</span> A circuit breaker is triggered by a 10% decline in the transaction price compared to the prior day's close.</h3>
+</div>
+<div id="outline-container-orgdb7d39d" class="outline-3">
+<h3 id="orgdb7d39d"><span class="section-number-3">1.2.</span> Once triggered, a circuit breaker remains in effect through the next trading day.</h3>
+</div>
+<div id="outline-container-orgd8aa13a" class="outline-3">
+<h3 id="orgd8aa13a"><span class="section-number-3">1.3.</span> The SEC can suspend trading in a stock for up to 10 business days.</h3>
+</div>
+<div id="outline-container-org4118b37" class="outline-3">
+<h3 id="org4118b37"><span class="section-number-3">1.4.</span> The 5-19 stock 10% event and 20+ stock 30% event criteria define multi-stock clearly erroneous trades.</h3>
+</div>
+<div id="outline-container-orga027513" class="outline-3">
+<h3 id="orga027513"><span class="section-number-3">1.5.</span> Circuit breakers are based on declines in the S&amp;P 500 Index.</h3>
+</div>
+<div id="outline-container-org820f67d" class="outline-3">
+<h3 id="org820f67d"><span class="section-number-3">1.6.</span> Circuit breaker rules are uniform across all equities.</h3>
+</div>
+<div id="outline-container-org5c948a7" class="outline-3">
+<h3 id="org5c948a7"><span class="section-number-3">1.7.</span> There can be at most 1 Level 1, Level 2, and Level 3 halt per day.</h3>
+</div>
+<div id="outline-container-orgfcef545" class="outline-3">
+<h3 id="orgfcef545"><span class="section-number-3">1.8.</span> During a trading halt, open orders remain on the books unless canceled.</h3>
+</div>
+<div id="outline-container-org99ad31b" class="outline-3">
+<h3 id="org99ad31b"><span class="section-number-3">1.9.</span> Quotes are halted for the first 10 minutes of a Level 1/2 halt.</h3>
+</div>
+<div id="outline-container-orgc2416de" class="outline-3">
+<h3 id="orgc2416de"><span class="section-number-3">1.10.</span> A Level 3 halt continues for the remainder of the trading day.</h3>
+</div>
+<div id="outline-container-orgd5ddd79" class="outline-3">
+<h3 id="orgd5ddd79"><span class="section-number-3">1.11.</span> After 3:25 pm, Level 1 and Level 2 halts cannot be triggered. Trading continues.</h3>
+</div>
+<div id="outline-container-org29a0837" class="outline-3">
+<h3 id="org29a0837"><span class="section-number-3">1.12.</span> A halted LULD trading session resumes when the primary exchange reports a reopening price.</h3>
+</div>
+<div id="outline-container-org5a72a03" class="outline-3">
+<h3 id="org5a72a03"><span class="section-number-3">1.13.</span> No trading is permitted during an LULD halt, but orders and quotes can still be entered.</h3>
+</div>
+<div id="outline-container-org8e274d1" class="outline-3">
+<h3 id="org8e274d1"><span class="section-number-3">1.14.</span> The minimum LULD trading halt is 5 minutes.</h3>
+</div>
+<div id="outline-container-org005edc5" class="outline-3">
+<h3 id="org005edc5"><span class="section-number-3">1.15.</span> Percentage bands double during the open and close periods.</h3>
+</div>
+<div id="outline-container-orgb62d676" class="outline-3">
+<h3 id="orgb62d676"><span class="section-number-3">1.16.</span> With a circuit breaker in effect, dark pool trades must also occur above the national best bid.</h3>
+</div>
+<div id="outline-container-orgc60c930" class="outline-3">
+<h3 id="orgc60c930"><span class="section-number-3">1.17.</span> After filling the protected quote, a market maker can update quotes based on news.</h3>
+</div>
+<div id="outline-container-org4a5470d" class="outline-3">
+<h3 id="org4a5470d"><span class="section-number-3">1.18.</span> With a circuit breaker in effect, short sales must execute on an uptick, meaning at least $0.01 above the national best bid of $15.21.</h3>
+</div>
+<div id="outline-container-orgb9faa71" class="outline-3">
+<h3 id="orgb9faa71"><span class="section-number-3">1.19.</span> With a 10% decline so far, 20% lower is $1,600.</h3>
+</div>
+<div id="outline-container-org556f457" class="outline-3">
+<h3 id="org556f457"><span class="section-number-3">1.20.</span> For OTC stocks, the percentage bands stay the same during and outside market hours.</h3>
+</div>
+<div id="outline-container-orgbfb605b" class="outline-3">
+<h3 id="orgbfb605b"><span class="section-number-3">1.21.</span> The Black-Scholes model is commonly used to calculate theoretical option prices.</h3>
+</div>
+<div id="outline-container-org9023791" class="outline-3">
+<h3 id="org9023791"><span class="section-number-3">1.22.</span> The listing exchange (NYSE, Nasdaq) determines when a security's price has dropped 10% to trigger the circuit breaker.</h3>
+</div>
+</div>
+<div id="outline-container-orge273223" class="outline-2">
+<h2 id="orge273223"><span class="section-number-2">2.</span> Clearly Erroneous Trades:</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orge89535b" class="outline-3">
+<h3 id="orge89535b"><span class="section-number-3">2.1.</span> Clearly erroneous decisions can be appealed to FINRA's Uniform Practice Code Committee.</h3>
+</div>
+<div id="outline-container-orgd0f700f" class="outline-3">
+<h3 id="orgd0f700f"><span class="section-number-3">2.2.</span> FINRA decides whether trades are clearly erroneous.</h3>
+</div>
+<div id="outline-container-org72a41aa" class="outline-3">
+<h3 id="org72a41aa"><span class="section-number-3">2.3.</span> Obvious errors rules reference the theoretical option price.</h3>
+</div>
+<div id="outline-container-org1dc314e" class="outline-3">
+<h3 id="org1dc314e"><span class="section-number-3">2.4.</span> For long-term customers, firms may rely on their assurance that they can deliver sold shares.</h3>
+</div>
+<div id="outline-container-org9567b76" class="outline-3">
+<h3 id="org9567b76"><span class="section-number-3">2.5.</span> Once settled, trades cannot be cancelled as clearly erroneous.</h3>
+</div>
+<div id="outline-container-org016db07" class="outline-3">
+<h3 id="org016db07"><span class="section-number-3">2.6.</span> To evaluate clearly erroneous trades, the reference price and percentage band must be known.</h3>
+</div>
+<div id="outline-container-org55d9ab7" class="outline-3">
+<h3 id="org55d9ab7"><span class="section-number-3">2.7.</span> Obvious error bands are based on distance from Theoretical Price.</h3>
+</div>
+<div id="outline-container-org51aa45a" class="outline-3">
+<h3 id="org51aa45a"><span class="section-number-3">2.8.</span> The 30-minute notification deadline for clearly erroneous trades applies during and outside normal market hours.</h3>
+</div>
+<div id="outline-container-org2b255c2" class="outline-3">
+<h3 id="org2b255c2"><span class="section-number-3">2.9.</span> A print protection trade is exempt from trade-through rules.</h3>
+</div>
+<div id="outline-container-org03b8006" class="outline-3">
+<h3 id="org03b8006"><span class="section-number-3">2.10.</span> The first protected quote at a price gets priority over a crossing quote.</h3>
+</div>
+<div id="outline-container-orgac5fb20" class="outline-3">
+<h3 id="orgac5fb20"><span class="section-number-3">2.11.</span> Above $50, trades outside 3% bands are clearly erroneous.</h3>
+</div>
+<div id="outline-container-org5583482" class="outline-3">
+<h3 id="org5583482"><span class="section-number-3">2.12.</span> A 13% decline triggers a Level 2 circuit breaker halt.</h3>
+</div>
+<div id="outline-container-org9006128" class="outline-3">
+<h3 id="org9006128"><span class="section-number-3">2.13.</span> A 20% decline triggers a Level 3 circuit breaker halt.</h3>
+</div>
+<div id="outline-container-orgd5f0df6" class="outline-3">
+<h3 id="orgd5f0df6"><span class="section-number-3">2.14.</span> During a limit state, orders can be entered and trades executed; if the limit state persists for 15 seconds, a halt will occur.</h3>
+</div>
+<div id="outline-container-org887bc73" class="outline-3">
+<h3 id="org887bc73"><span class="section-number-3">2.15.</span> Aggressive pricing outside bands causes a limit state, during which trading continues.</h3>
+</div>
+<div id="outline-container-org0cad349" class="outline-3">
+<h3 id="org0cad349"><span class="section-number-3">2.16.</span> For stocks above $50, trades outside 3% bands are clearly erroneous.</h3>
+</div>
+<div id="outline-container-org63f79d0" class="outline-3">
+<h3 id="org63f79d0"><span class="section-number-3">2.17.</span> For buys, outside the quote means higher than the national best offer.</h3>
+</div>
+<div id="outline-container-orga8a4c10" class="outline-3">
+<h3 id="orga8a4c10"><span class="section-number-3">2.18.</span> For OTC stocks, the reference price is the market price just before the trade in question.</h3>
+</div>
+<div id="outline-container-org3870a16" class="outline-3">
+<h3 id="org3870a16"><span class="section-number-3">2.19.</span> Quotes may not be below the minimum increments under NMS.</h3>
+</div>
+<div id="outline-container-org64c9149" class="outline-3">
+<h3 id="org64c9149"><span class="section-number-3">2.20.</span> Percentage bands for listed equities double outside normal market hours.</h3>
+</div>
+<div id="outline-container-org6a3dc8a" class="outline-3">
+<h3 id="org6a3dc8a"><span class="section-number-3">2.21.</span> Clearly erroneous actions must be taken within 30 minutes of detection.</h3>
+</div>
+<div id="outline-container-orga44a47c" class="outline-3">
+<h3 id="orga44a47c"><span class="section-number-3">2.22.</span> A self-help alert allows orders to be routed away from troubled exchanges and trade through their quotes.</h3>
+</div>
+<div id="outline-container-orgbda300a" class="outline-3">
+<h3 id="orgbda300a"><span class="section-number-3">2.23.</span> The self-help alert allows orders to be routed away from the impacted exchange.</h3>
+</div>
+<div id="outline-container-org74c395e" class="outline-3">
+<h3 id="org74c395e"><span class="section-number-3">2.24.</span> The UPC Committee's decision on a clearly erroneous appeal is final and binding.</h3>
+</div>
+<div id="outline-container-orgcf76309" class="outline-3">
+<h3 id="orgcf76309"><span class="section-number-3">2.25.</span> The Threshold List consists of stocks with substantial fails to deliver, usually from heavy short selling activity.</h3>
+</div>
+<div id="outline-container-org2d7f480" class="outline-3">
+<h3 id="org2d7f480"><span class="section-number-3">2.26.</span> Short sale rules including order marking fall under Reg SHO.</h3>
+</div>
+<div id="outline-container-org512c2d8" class="outline-3">
+<h3 id="org512c2d8"><span class="section-number-3">2.27.</span> The 30-minute notification deadline applies at all times.</h3>
+</div>
+<div id="outline-container-orgc2aad1d" class="outline-3">
+<h3 id="orgc2aad1d"><span class="section-number-3">2.28.</span> Long sale fails must be closed out by the open of T+5.</h3>
+</div>
+<div id="outline-container-org25494dc" class="outline-3">
+<h3 id="org25494dc"><span class="section-number-3">2.29.</span> Closing out the fail requires "like kind and quantity" shares to be purchased and delivered.</h3>
+</div>
+<div id="outline-container-orga13161f" class="outline-3">
+<h3 id="orga13161f"><span class="section-number-3">2.30.</span> Fails to deliver can cause a security to be added to the Threshold List.</h3>
+</div>
+<div id="outline-container-org8b34874" class="outline-3">
+<h3 id="org8b34874"><span class="section-number-3">2.31.</span> With no ownership, the sale must be marked short.</h3>
+</div>
+<div id="outline-container-org3e2e2b1" class="outline-3">
+<h3 id="org3e2e2b1"><span class="section-number-3">2.32.</span> Tendering convertible bonds deems the investor to own the underlying stock.</h3>
+</div>
+<div id="outline-container-org5ecdcb4" class="outline-3">
+<h3 id="org5ecdcb4"><span class="section-number-3">2.33.</span> Clearly erroneous trades can be adjusted or canceled based on specific rules.</h3>
+</div>
+<div id="outline-container-org2dfe9e9" class="outline-3">
+<h3 id="org2dfe9e9"><span class="section-number-3">2.34.</span> Obvious error rules reference theoretical option prices.</h3>
+</div>
+<div id="outline-container-org3994b2b" class="outline-3">
+<h3 id="org3994b2b"><span class="section-number-3">2.35.</span> The 30-minute notification window always applies.</h3>
+</div>
+<div id="outline-container-org3b8066e" class="outline-3">
+<h3 id="org3b8066e"><span class="section-number-3">2.36.</span> The CEO must certify the effectiveness of the firm's risk management controls.</h3>
+</div>
+</div>
+<div id="outline-container-org0ccfe68" class="outline-2">
+<h2 id="org0ccfe68"><span class="section-number-2">3.</span> Short Sales and Regulation SHO:</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org33f5850" class="outline-3">
+<h3 id="org33f5850"><span class="section-number-3">3.1.</span> A regulatory halt applies across all markets trading the security.</h3>
+</div>
+<div id="outline-container-orgd19262b" class="outline-3">
+<h3 id="orgd19262b"><span class="section-number-3">3.2.</span> Fails in the same security trigger restrictions on additional short sales in that security.</h3>
+</div>
+<div id="outline-container-org441e172" class="outline-3">
+<h3 id="org441e172"><span class="section-number-3">3.3.</span> The close out for shorts is T+3. T+5 is for longs and market maker shorts.</h3>
+</div>
+<div id="outline-container-orgaa21adb" class="outline-3">
+<h3 id="orgaa21adb"><span class="section-number-3">3.4.</span> The T+5 close out applies equally to long and short sales by market makers.</h3>
+</div>
+<div id="outline-container-orgca971d7" class="outline-3">
+<h3 id="orgca971d7"><span class="section-number-3">3.5.</span> With a net short position, the investor has no deemed ownership.</h3>
+</div>
+<div id="outline-container-org4d59690" class="outline-3">
+<h3 id="org4d59690"><span class="section-number-3">3.6.</span> Buying above the national best offer is a trade-through under Reg NMS.</h3>
+</div>
+<div id="outline-container-orgf8126be" class="outline-3">
+<h3 id="orgf8126be"><span class="section-number-3">3.7.</span> Selling below the best bid is a trade-through under Reg NMS.</h3>
+</div>
+<div id="outline-container-org0f4de48" class="outline-3">
+<h3 id="org0f4de48"><span class="section-number-3">3.8.</span> Only short and short exempt can be used to mark exchange short sales.</h3>
+</div>
+<div id="outline-container-orgb9a575a" class="outline-3">
+<h3 id="orgb9a575a"><span class="section-number-3">3.9.</span> To rely on an Easy to Borrow list for locates, it must be updated at least every 24 hours/daily.</h3>
+</div>
+<div id="outline-container-org9e070ae" class="outline-3">
+<h3 id="org9e070ae"><span class="section-number-3">3.10.</span> Risk management controls apply to both trades and quotes entered into trading systems.</h3>
+</div>
+<div id="outline-container-org5e14f77" class="outline-3">
+<h3 id="org5e14f77"><span class="section-number-3">3.11.</span> Payment for order flow may be received in cash or in-kind services like research or clearing and must be disclosed.</h3>
+</div>
+<div id="outline-container-orgee269fb" class="outline-3">
+<h3 id="orgee269fb"><span class="section-number-3">3.12.</span> Risk management controls cannot be outsourced or delegated.</h3>
+</div>
+<div id="outline-container-org1b462b5" class="outline-3">
+<h3 id="org1b462b5"><span class="section-number-3">3.13.</span> The SEC can suspend trading for up to 10 business days.</h3>
+</div>
+<div id="outline-container-org04f19bf" class="outline-3">
+<h3 id="org04f19bf"><span class="section-number-3">3.14.</span> An order above 105 would slide to the 105 limit and trigger a limit state.</h3>
+</div>
+<div id="outline-container-orgfb6c9d2" class="outline-3">
+<h3 id="orgfb6c9d2"><span class="section-number-3">3.15.</span> Coordination means positions must be aggregated firm-wide.</h3>
+</div>
+<div id="outline-container-orgce9ca16" class="outline-3">
+<h3 id="orgce9ca16"><span class="section-number-3">3.16.</span> The broker-dealer effecting the short sale has responsibility for the locate.</h3>
+</div>
+<div id="outline-container-orga7b16a2" class="outline-3">
+<h3 id="orga7b16a2"><span class="section-number-3">3.17.</span> To be excluded from LULD, trades must not update the last sale price.</h3>
+</div>
+<div id="outline-container-orgfc447d5" class="outline-3">
+<h3 id="orgfc447d5"><span class="section-number-3">3.18.</span> For market makers, the close out is T+5 regardless of whether the sale was long or short; for non-market makers, shorts must close out by T+3.</h3>
+</div>
+<div id="outline-container-orga0828cf" class="outline-3">
+<h3 id="orga0828cf"><span class="section-number-3">3.19.</span> A self-help alert tells firms to route orders away from the impacted exchange.</h3>
+</div>
+<div id="outline-container-org0d74c06" class="outline-3">
+<h3 id="org0d74c06"><span class="section-number-3">3.20.</span> Risk management controls cannot be delegated to a third party.</h3>
+</div>
+<div id="outline-container-orgf2e7507" class="outline-3">
+<h3 id="orgf2e7507"><span class="section-number-3">3.21.</span> Short sales must transact on an uptick, or at least $0.01 above the national best bid.</h3>
+</div>
+<div id="outline-container-orgf70673b" class="outline-3">
+<h3 id="orgf70673b"><span class="section-number-3">3.22.</span> An uptick means the price increases above the national best bid.</h3>
+</div>
+<div id="outline-container-org9d04efa" class="outline-3">
+<h3 id="org9d04efa"><span class="section-number-3">3.23.</span> The originating broker-dealer has best execution duties regardless of payment routing arrangements.</h3>
+</div>
+<div id="outline-container-orgc211ce6" class="outline-3">
+<h3 id="orgc211ce6"><span class="section-number-3">3.24.</span> A new circuit breaker can trigger anytime price drops 10% from the prior close.</h3>
+</div>
+<div id="outline-container-org64c9357" class="outline-3">
+<h3 id="org64c9357"><span class="section-number-3">3.25.</span> The SEC can halt all exchange trading for up to 90 days with presidential notice.</h3>
+</div>
+<div id="outline-container-org864caf7" class="outline-3">
+<h3 id="org864caf7"><span class="section-number-3">3.26.</span> An open fail means the failure to deliver has not yet been closed out.</h3>
+</div>
+<div id="outline-container-orge84388f" class="outline-3">
+<h3 id="orge84388f"><span class="section-number-3">3.27.</span> FINRA can discipline market makers firm-wide or on a security-by-security basis.</h3>
+</div>
+<div id="outline-container-org5520d8d" class="outline-3">
+<h3 id="org5520d8d"><span class="section-number-3">3.28.</span> A new Reference Price is calculated only when it moves 1% or more from the previous Reference Price.</h3>
+</div>
+<div id="outline-container-org3c250d2" class="outline-3">
+<h3 id="org3c250d2"><span class="section-number-3">3.29.</span> With tendered preferred shares, the sale of common can be marked long.</h3>
+</div>
+<div id="outline-container-org1ddc608" class="outline-3">
+<h3 id="org1ddc608"><span class="section-number-3">3.30.</span> Short positions must be reported to FINRA twice a month.</h3>
+</div>
+<div id="outline-container-orge4b247e" class="outline-3">
+<h3 id="orge4b247e"><span class="section-number-3">3.31.</span> FINRA can halt both NMS and OTC equities in certain situations.</h3>
+</div>
+<div id="outline-container-org06a9e23" class="outline-3">
+<h3 id="org06a9e23"><span class="section-number-3">3.32.</span> After 3:25 pm, Level 1 and 2 halts are not in effect.</h3>
+</div>
+<div id="outline-container-org504f8ce" class="outline-3">
+<h3 id="org504f8ce"><span class="section-number-3">3.33.</span> After 3:25 pm, Level 1 and 2 halts cannot occur.</h3>
+</div>
+<div id="outline-container-orgeba18b8" class="outline-3">
+<h3 id="orgeba18b8"><span class="section-number-3">3.34.</span> The order protection rule aims to prevent trade-throughs.</h3>
+</div>
+<div id="outline-container-org34f09e9" class="outline-3">
+<h3 id="org34f09e9"><span class="section-number-3">3.35.</span> Counterparties have 10 minutes after notification to mutually agree on adjustment.</h3>
+</div>
+<div id="outline-container-orgc9ed825" class="outline-3">
+<h3 id="orgc9ed825"><span class="section-number-3">3.36.</span> The access fee limit for quotes $1+ is $0.003 per share.</h3>
+</div>
+<div id="outline-container-orgbbc1625" class="outline-3">
+<h3 id="orgbbc1625"><span class="section-number-3">3.37.</span> The access fee limit for stocks $1+ is $0.003 per share.</h3>
+</div>
+<div id="outline-container-orgb723692" class="outline-3">
+<h3 id="orgb723692"><span class="section-number-3">3.38.</span> Above $3 theoretical options errors are adjusted $0.30 away.</h3>
+</div>
+<div id="outline-container-org7352dd1" class="outline-3">
+<h3 id="org7352dd1"><span class="section-number-3">3.39.</span> Risk management controls must be under the firm's direct and exclusive control.</h3>
+</div>
+<div id="outline-container-org3badcc7" class="outline-3">
+<h3 id="org3badcc7"><span class="section-number-3">3.40.</span> Aggressive pricing outside bands causes a limit state.</h3>
+</div>
+<div id="outline-container-orga11fd7c" class="outline-3">
+<h3 id="orga11fd7c"><span class="section-number-3">3.41.</span> The access fee limit is $0.003 per share.</h3>
+</div>
+<div id="outline-container-org5ed500d" class="outline-3">
+<h3 id="org5ed500d"><span class="section-number-3">3.42.</span> The maximum access fee is $0.003 per share.</h3>
+</div>
+<div id="outline-container-org7c122ec" class="outline-3">
+<h3 id="org7c122ec"><span class="section-number-3">3.43.</span> Below $3 theoretical, errors are adjusted to $0.15 away from theoretical, which is $0.75.</h3>
+</div>
+</div>
+<div id="outline-container-org18de351" class="outline-2">
+<h2 id="org18de351"><span class="section-number-2">4.</span> Order Handling and Risk Management:</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org990d06d" class="outline-3">
+<h3 id="org990d06d"><span class="section-number-3">4.1.</span> Prime brokers must maintain minimum net capital of $1.5 million.</h3>
+</div>
+<div id="outline-container-orgf69cf24" class="outline-3">
+<h3 id="orgf69cf24"><span class="section-number-3">4.2.</span> Broker-dealers must provide risk management immediate post-trade reports on market access customer trades.</h3>
+</div>
+<div id="outline-container-orgdc434ba" class="outline-3">
+<h3 id="orgdc434ba"><span class="section-number-3">4.3.</span> The originating broker-dealer has responsibility for the locate.</h3>
+</div>
+<div id="outline-container-org705e291" class="outline-3">
+<h3 id="org705e291"><span class="section-number-3">4.4.</span> The introducing broker-dealer has responsibility for the short sale locate.</h3>
+</div>
+<div id="outline-container-orged7f55b" class="outline-3">
+<h3 id="orged7f55b"><span class="section-number-3">4.5.</span> The originating broker-dealer has responsibility for the locate unless the executing broker-dealer specifically assumed that duty.</h3>
+</div>
+<div id="outline-container-org856ec47" class="outline-3">
+<h3 id="org856ec47"><span class="section-number-3">4.6.</span> Broker-dealers must report both proprietary and customer short positions to FINRA periodically.</h3>
+</div>
+<div id="outline-container-orgdab078b" class="outline-3">
+<h3 id="orgdab078b"><span class="section-number-3">4.7.</span> Broker-dealers must report both proprietary and customer short positions to FINRA twice a month.</h3>
+</div>
+<div id="outline-container-org776938c" class="outline-3">
+<h3 id="org776938c"><span class="section-number-3">4.8.</span> The net long position is 11,000 shares less 3,000 share equivalents short, or 8,000 shares.</h3>
+</div>
+<div id="outline-container-org2773fae" class="outline-3">
+<h3 id="org2773fae"><span class="section-number-3">4.9.</span> 800 shares can be marked long, with 200 marked short based on the net long position.</h3>
+</div>
+<div id="outline-container-orgfe55afa" class="outline-3">
+<h3 id="orgfe55afa"><span class="section-number-3">4.10.</span> One order can be a long sale, with the others marked short based on net position.</h3>
+</div>
+<div id="outline-container-org528a283" class="outline-3">
+<h3 id="org528a283"><span class="section-number-3">4.11.</span> With a circuit breaker in effect, even displayed limit orders must be above the national best bid.</h3>
+</div>
+<div id="outline-container-org27cffcd" class="outline-3">
+<h3 id="org27cffcd"><span class="section-number-3">4.12.</span> The originating broker-dealer must adhere to best execution and disclose any payments received for order flow.</h3>
+</div>
+<div id="outline-container-org5145b22" class="outline-3">
+<h3 id="org5145b22"><span class="section-number-3">4.13.</span> Broker-dealers have 35 days to close out fails in restricted stock short sales.</h3>
+</div>
+</div>
+<div id="outline-container-org7eabb04" class="outline-2">
+<h2 id="org7eabb04"><span class="section-number-2">5.</span> * Trading Halts:</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgbe8f340" class="outline-3">
+<h3 id="orgbe8f340"><span class="section-number-3">5.1.</span> Exchanges, not the SEC, impose news-pending halts.</h3>
+</div>
+<div id="outline-container-org653a56a" class="outline-3">
+<h3 id="org653a56a"><span class="section-number-3">5.2.</span> Exchanges, such as Nasdaq and NYSE, impose regulatory halts.</h3>
+</div>
+<div id="outline-container-org2a9c799" class="outline-3">
+<h3 id="org2a9c799"><span class="section-number-3">5.3.</span> A self-help alert allows trades to be executed away from a troubled platform.</h3>
+</div>
+<div id="outline-container-org84214d9" class="outline-3">
+<h3 id="org84214d9"><span class="section-number-3">5.4.</span> The self-help alert allows trades to be executed away from a troubled platform.</h3>
+</div>
+</div>
+<div id="outline-container-orgbe434c4" class="outline-2">
+<h2 id="orgbe434c4"><span class="section-number-2">6.</span> * Customer Order Handling:</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org4778373" class="outline-3">
+<h3 id="org4778373"><span class="section-number-3">6.1.</span> Traders can only be assigned to one aggregation unit at a time.</h3>
+</div>
+<div id="outline-container-orgcfcd772" class="outline-3">
+<h3 id="orgcfcd772"><span class="section-number-3">6.2.</span> Independent aggregation doesn't require a physical location; it requires a written plan, independent net position calculations, one unit per trader, and no coordination between units.</h3>
+</div>
+<div id="outline-container-org4caf7ad" class="outline-3">
+<h3 id="org4caf7ad"><span class="section-number-3">6.3.</span> Independent trading unit aggregation allows position reporting by separate trading desks.</h3>
+</div>
+</div>
+<div id="outline-container-org31a7295" class="outline-2">
+<h2 id="org31a7295"><span class="section-number-2">7.</span> Limit Up/Limit Down (LULD):</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-orgd69a222" class="outline-3">
+<h3 id="orgd69a222"><span class="section-number-3">7.1.</span> LULD stands for Limit Up/Limit Down, the volatility control mechanism.</h3>
+</div>
+<div id="outline-container-orgf8fa94e" class="outline-3">
+<h3 id="orgf8fa94e"><span class="section-number-3">7.2.</span> Percentage bands double outside normal market hours.</h3>
+</div>
+<div id="outline-container-orgdd2dbf8" class="outline-3">
+<h3 id="orgdd2dbf8"><span class="section-number-3">7.3.</span> LULD bands double during the open and close periods.</h3>
+</div>
+<div id="outline-container-org8c5e63c" class="outline-3">
+<h3 id="org8c5e63c"><span class="section-number-3">7.4.</span> Above $1 the minimum quote increment is $0.01 per share.</h3>
+</div>
+<div id="outline-container-orgf679120" class="outline-3">
+<h3 id="orgf679120"><span class="section-number-3">7.5.</span> A straddle state exists when the NBBO breaks the lower LULD band.</h3>
+</div>
+<div id="outline-container-orgd2c612f" class="outline-3">
+<h3 id="orgd2c612f"><span class="section-number-3">7.6.</span> During an LULD halt, orders can be entered but not executed.</h3>
+</div>
+</div>
+<div id="outline-container-org2eded4b" class="outline-2">
+<h2 id="org2eded4b"><span class="section-number-2">8.</span> * Short Sale Rules:</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-orge4d1919" class="outline-3">
+<h3 id="orge4d1919"><span class="section-number-3">8.1.</span> Short sellers usually have two days (T+2) to deliver borrowed shares.</h3>
+</div>
+<div id="outline-container-orgf6d31df" class="outline-3">
+<h3 id="orgf6d31df"><span class="section-number-3">8.2.</span> Below $1 the minimum increment is $0.0001.</h3>
+</div>
+<div id="outline-container-orga112ca6" class="outline-3">
+<h3 id="orga112ca6"><span class="section-number-3">8.3.</span> Having entered a borrowing arrangement is an exception to short sale restrictions.</h3>
+</div>
+<div id="outline-container-orgbdfb9ad" class="outline-3">
+<h3 id="orgbdfb9ad"><span class="section-number-3">8.4.</span> The locate department is responsible for finding shares to borrow and sell short.</h3>
+</div>
+</div>
+<div id="outline-container-org370b7eb" class="outline-2">
+<h2 id="org370b7eb"><span class="section-number-2">9.</span> * Payment for Order Flow:</h2>
+</div>
+<div id="outline-container-orgbbc205d" class="outline-2">
+<h2 id="orgbbc205d"><span class="section-number-2">10.</span> * Trade-Through Rules:</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-org975e05f" class="outline-3">
+<h3 id="org975e05f"><span class="section-number-3">10.1.</span> Orders may not trade through protected quotes.</h3>
+</div>
+<div id="outline-container-org34005f7" class="outline-3">
+<h3 id="org34005f7"><span class="section-number-3">10.2.</span> Regular way trades do not qualify as an exception to the trade-through rule.</h3>
+</div>
+<div id="outline-container-orgd9e33a1" class="outline-3">
+<h3 id="orgd9e33a1"><span class="section-number-3">10.3.</span> Block trades do not qualify as short exempt. The other choices do.</h3>
+</div>
+</div>
+<div id="outline-container-org4b35942" class="outline-2">
+<h2 id="org4b35942"><span class="section-number-2">11.</span> Miscellaneous:</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org1b09968" class="outline-3">
+<h3 id="org1b09968"><span class="section-number-3">11.1.</span> Pre-trade controls screen orders to prevent erroneous and duplicate entries.</h3>
+</div>
+<div id="outline-container-org6d76371" class="outline-3">
+<h3 id="org6d76371"><span class="section-number-3">11.2.</span> Trade checks include rules and reasons checks for market makers.</h3>
+</div>
+<div id="outline-container-org27e6849" class="outline-3">
+<h3 id="org27e6849"><span class="section-number-3">11.3.</span> All activity resulting from erroneous orders is binding.</h3>
+</div>
+<div id="outline-container-orgd2cf3ef" class="outline-3">
+<h3 id="orgd2cf3ef"><span class="section-number-3">11.4.</span> An odd lot consists of fewer than 100 shares.</h3>
+</div>
+<div id="outline-container-org990a2a0" class="outline-3">
+<h3 id="org990a2a0"><span class="section-number-3">11.5.</span> These points cover a wide range of topics related to trading, circuit breakers, clearly erroneous trades, short sales, order handling, risk management, payment for order flow, trade-through rules, and other relevant aspects of the securities industry. If you have any specific questions or need further clarification on any of these points, feel free to ask!</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Pralay Patoria</p>
+<p class="date">Created: 2023-08-26 Sat 11:30</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

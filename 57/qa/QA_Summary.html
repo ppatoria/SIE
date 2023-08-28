@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-26 Sat 21:13 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Pralay Patoria" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org8843591">1. ADT</a>
+<ul>
+<li><a href="#org9fea519">1.1. Resposibility for proving that an ADF Trading Center's system outage is excused or unexcused  is on "The Trading Center"</a></li>
+<li><a href="#orgc89f206">1.2. To deny BD direct electronic access</a>
+<ul>
+<li><a href="#orgdb99f67">1.2.1. The Trading Center must give prior notice of at least 14 calendar days to FINRA Market Operations.</a></li>
+</ul>
+</li>
+<li><a href="#org2f27eb8">1.3. The Two-Sided Obligation is suspended during a trading halt, suspension or pause.</a>
+<ul>
+<li><a href="#orgdaf9483">1.3.1. It re-commences after the <b><b>first regular way trade</b></b> in the primary listing market.</a></li>
+</ul>
+</li>
+<li><a href="#org6a84662">1.4. The defined limit for S&amp;P 500 index stock,</a>
+<ul>
+<li><a href="#org930d991">1.4.1. 9.5% from NBBO (or last trade) at all times</a></li>
+<li><a href="#orgd87fd0d">1.4.2. except between 9:30 and 9:45 and 3:35 and market close it 20%.</a></li>
+</ul>
+</li>
+<li><a href="#org2d87b3b">1.5. Excused withdrawals based on circumstances beyond a Center's control</a>
+<ul>
+<li><a href="#org8959ec1">1.5.1. Up to five business days, unless extended by ADF Operations. Excused withdrawals are not permanent in nature.</a></li>
+</ul>
+</li>
+<li><a href="#org9d48488">1.6. The five items that must be reported for an order received and acted upon or responded to via direct or indirect access from another broker dealer are:</a>
+<ul>
+<li><a href="#orgc6ddd8c">1.6.1. unique order identifier, order response, order response time, quantity, and price.</a></li>
+</ul>
+</li>
+<li><a href="#org63eeaf7">1.7. Reporting and record-keeping requirements may be outsourced by written agreement to a</a>
+<ul>
+<li><a href="#org78fb158">1.7.1. Reporting Agent. However, the member remains responsible for reporting and record-keeping requirements.</a></li>
+</ul>
+</li>
+<li><a href="#orgc5f0b22">1.8. Unexcused system outages, trading suspension last for an ADF Trading Center for</a>
+<ul>
+<li><a href="#org1d9cede">1.8.1. 20 business days</a></li>
+<li><a href="#orgb9495d4">1.8.2. The suspension generally requires three unexcused outages within five business days.</a></li>
+</ul>
+</li>
+<li><a href="#orgd1861e7">1.9. FINRA-excused withdrawal</a>
+<ul>
+<li><a href="#orgd4eb273">1.9.1. Up to 60 days</a></li>
+</ul>
+</li>
+<li><a href="#orga957a18">1.10. The ADF is a quote collection and trade reporting facility that serves as an alternative to exchanges for orders in NMS securities.</a>
+<ul>
+<li><a href="#orgca5894f">1.10.1. It does not provide order routing and execution.</a></li>
+</ul>
+</li>
+<li><a href="#org60443a9">1.11. Requests for withdrawals based on vacations are only available to</a>
+<ul>
+<li><a href="#org62afb94">1.11.1. small Nasdaq Market Markets - those with three or fewer Nasdaq level 3 terminals.</a></li>
+</ul>
+</li>
+<li><a href="#orgf53589f">1.12. An ADF Trading Center that seeks a FINRA review of a system outage must supply supporting information by</a>
+<ul>
+<li><a href="#org89f44de">1.12.1. the close of business that day or on the following business day if the outage occurs outside normal market hours.</a></li>
+<li><a href="#orgc96002a">1.12.2. FINRA normally will make a determination on the day after that.</a></li>
+</ul>
+</li>
+<li><a href="#org04d3294">1.13. ADF Trading Center two criteria to declare a system outage.</a>
+<ul>
+<li><a href="#org8e4ab8a">1.13.1. One is an inability to post automated quotations.</a></li>
+<li><a href="#org6ec394c">1.13.2. Inability to respond to orders</a></li>
+</ul>
+</li>
+<li><a href="#org5d297c0">1.14. A voluntary failure to maintain a clearing arrangement will not be an excused withdrawal.</a></li>
+<li><a href="#org5e7c6fb">1.15. Involuntary failure will be considered excused and participation in the Nasdaq Market Center system will be suspended.</a></li>
+<li><a href="#orgd8f0f0e">1.16. The <b><b>Two-Sided Obligation</b></b> is the essence of a market maker's responsibility.</a></li>
+<li><a href="#orga444bde">1.17. ADF Trading Centers may stay <b><b>open voluntarily</b></b> from 8:00 a.m. to 6:30 p.m. EST</a></li>
+<li><a href="#org1c6be38">1.18. ADF Trading Centers <b><b>must be open</b></b> from 9:30 a.m. to 4:00 p.m.</a></li>
+<li><a href="#orgebcbf64">1.19. If they choose to open voluntarily in pre-market or after-market hours, they must maintain a Two-Sided Obligation and firm quotes during these hours.</a></li>
+<li><a href="#org77c367e">1.20. An ADF Trading Center is suspended on the grounds of too many unexcused system outages. May appeal to</a>
+<ul>
+<li><a href="#org2eae175">1.20.1. Requesting a determination by a special FINRA subcommittee</a></li>
+</ul>
+</li>
+<li><a href="#org8063439">1.21. A firm quote means that a market maker executes transactions of at least the size displayed, at the price bid/offered.</a></li>
+<li><a href="#org7f61e1b">1.22. What makes a quote or order marketable, for purpose of complying with FINRA's requirement against inactive quoting by a Registered Reporting ADF ECN?</a>
+<ul>
+<li><a href="#org8bd7894">1.22.1. It is accessed by another center or participant</a></li>
+</ul>
+</li>
+<li><a href="#org47e0fd6">1.23. Stocks eligible for trading on the ADF?</a>
+<ul>
+<li><a href="#org8ed4ca4">1.23.1. NMS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga8e04b9">2. OTC</a>
+<ul>
+<li><a href="#org6aefa88">2.1. Securities that traded on an exchange earlier that day but were delisted can be quoted on the OTC Markets without a Form 211 filing.</a></li>
+<li><a href="#orgd98b233">2.2. OTC Pink quotes that are not meant to be firm must be clearly designated as subject quotes.</a></li>
+<li><a href="#org85ec337">2.3. Under Rule 15c2-11, market makers must review issuer information and file Form 211 before initiating OTC quotes.</a></li>
+<li><a href="#org6829edc">2.4. At a price of 0.98-1.02, the minimum quote size is 1,00 shares on the bid and 100 shares on the offer.</a></li>
+<li><a href="#org3d43361">2.5. Bid wanted/offer wanted are unpriced indications of interest on the OTC Markets.</a></li>
+<li><a href="#org412c8ec">2.6. OTC Pink securities are quoted by market makers after conducting due diligence. OTC stocks often trade infrequently.</a></li>
+<li><a href="#orge178073">2.7. The exception is for securities that traded on an exchange the prior day, not 30 days prior.</a></li>
+<li><a href="#org35b7a68">2.8. Securities undergoing delisting can be quoted on the OTC Markets.</a></li>
+<li><a href="#org24efd8f">2.9. The piggyback exception requires no gap of more than 4 days without a quote.</a></li>
+<li><a href="#org06d0c4c">2.10. At a price of 0.12-0.25, the minimum quote size is 5,000 shares on the bid and 2,500 shares on the offer.</a></li>
+<li><a href="#orgb9ab7bd">2.11. Only one market maker is needed to quote a stock on the OTC Pink.</a></li>
+<li><a href="#org2cc8f46">2.12. Income statements must be no more than 12 months old for catch-all OTC issuers.</a>
+<ul>
+<li><a href="#orgaa4e078">2.12.1. The date of its balance sheet does not exceed 16 months before the quote publication [67b].</a></li>
+<li><a href="#orgc768694">2.12.2. The profit and loss and retained earnings statements cover the 12 months before the balance sheet date [67a].</a></li>
+</ul>
+</li>
+<li><a href="#orgf3747ce">2.13. Market makers can manually submit orders to avoid locked/crossed markets.</a></li>
+<li><a href="#orge13a7cb">2.14. No Form 211 is required if the stock traded on an exchange the prior day.</a></li>
+<li><a href="#org8a1c376">2.15. OTC Tick size</a>
+<ul>
+<li><a href="#org5100218">2.15.1. OTC securities with a bid greater than or equal to $1, the tick size is $0.01</a></li>
+<li><a href="#org4f9601e">2.15.2. OTC securities with a bid less than $1, the tick size is $0.0001</a></li>
+</ul>
+</li>
+<li><a href="#org70214fb">2.16. Securities listed on U.S. exchanges are not eligible for the OTC Markets.</a>
+<ul>
+<li><a href="#org96789f8">2.16.1. Exception : A security that does not qualify for Consolidated Tape reports and is listed only on one or more regional stock exchanges.</a></li>
+</ul>
+</li>
+<li><a href="#orge0e6519">2.17. Form 211</a>
+<ul>
+<li><a href="#orgd14dacc">2.17.1. Filing requirement to initiate quotes in an OTC equity security with FINRA</a></li>
+<li><a href="#org7e0f714">2.17.2. OTC MM and BD need to perform due diligence on any issuer's securities prior to publishing quotes in an OTC security.</a></li>
+<li><a href="#org108b411">2.17.3. These certifications require that a member firm review the issuer's financial and disclosure documents and believe these documents to be accurate and reliable.</a></li>
+</ul>
+</li>
+<li><a href="#org88ab80d">2.18. OTC Pink companies are not verified by the NQB.</a></li>
+<li><a href="#orge68b3f6">2.19. To lock a market:</a>
+<ul>
+<li><a href="#orgb6fe327">2.19.1. Means to match the bid or offer so that trade is executed.</a></li>
+</ul>
+</li>
+<li><a href="#orgbd21d74">2.20. Backing away</a>
+<ul>
+<li><a href="#org5b23788">2.20.1. means failing to execute at the quoted price.</a></li>
+</ul>
+</li>
+<li><a href="#org2afc8ba">2.21. A principal of the firm must sign off on the Form 211 filing.</a></li>
+<li><a href="#org31c4f3d">2.22. Ex-clearing:</a>
+<ul>
+<li><a href="#org401889c">2.22.1. means trades clear directly between parties using a manual process.</a></li>
+</ul>
+</li>
+<li><a href="#orge72beff">2.23. Requires only one market maker to initiate quotes</a>
+<ul>
+<li><a href="#orgcdb0f4e">2.23.1. OTC Pink and NYSE</a></li>
+</ul>
+</li>
+<li><a href="#org99dc5ad">2.24. Crossed Market :</a>
+<ul>
+<li><a href="#org6875040">2.24.1. The bid above the ask price.</a></li>
+</ul>
+</li>
+<li><a href="#org9a88bb0">2.25. Termination of registration in Non-NMS securities:</a>
+<ul>
+<li><a href="#org2e43f94">2.25.1. An OTC market maker can simply withdraw its quote to terminate registration.</a></li>
+</ul>
+</li>
+<li><a href="#orgf5a7584">2.26. The minimum quote increment for quotes in ADF-eligible securities</a>
+<ul>
+<li><a href="#org22ed6e9">2.26.1. $1.00 or above  is one cent. ($0.01)</a></li>
+<li><a href="#org0304034">2.26.2. Below $1.00, it is one one-hundredth of a cent ($0.0001).</a></li>
+</ul>
+</li>
+<li><a href="#org6f346f9">2.27. Due diligence for OTC quotes focuses on facts about the issuer.</a></li>
+<li><a href="#orga9b80ba">2.28. An unsolicited customer order is exempt from Form 211 requirements.</a></li>
+<li><a href="#orgca242a9">2.29. At $0.25 per share, the minimum firm quote size is 2,500 shares.</a></li>
+<li><a href="#orgd886ff0">2.30. At $0.25 the offer must be firm on at least 2,500 shares.</a></li>
+<li><a href="#orgc3bdd3a">2.31. OTC Pink quotes can be subject if properly indicated as such.</a></li>
+<li><a href="#orgf8cccb4">2.32. OTC Pink quotes may be firm or subject if clearly designated.</a></li>
+<li><a href="#org0c4ebd1">2.33. Form 211 must be filed before resuming quotes after a trading halt.</a></li>
+<li><a href="#org19e8039">2.34. Only unsolicited trading is allowed after a trading suspension without Form 211.</a></li>
+<li><a href="#org53dfbe3">2.35. OTC Pink quotes have more flexibility compared to the requirements for Nasdaq quotes.</a></li>
+<li><a href="#orga99aab3">2.36. 15c2-11 applies to resuming quotes for an OTC security.</a></li>
+<li><a href="#org2f45aec">2.37. The OTC market connects broker-dealers electronically and facilitates unlisted trading.</a></li>
+<li><a href="#org75f68f4">2.38. FINRA halt periods normally last 10 trading days.</a></li>
+<li><a href="#org5daf4ee">2.39. The OTC Pink is a non-exchange equity quotation facility.</a></li>
+<li><a href="#org8fdc7cc">2.40. At $1.75 the minimum bid size is 100 shares.</a></li>
+<li><a href="#orga22f7e0">2.41. Only the issuer's principal executive office address is required.</a></li>
+<li><a href="#org4dc8fad">2.42. Below $1, the minimum quote size increases from 100 to 1,000 shares.</a></li>
+<li><a href="#org6cbf84e">2.43. Investors cannot directly access the OTC Markets without a broker-dealer.</a></li>
+<li><a href="#org1d61e37">2.44. Only equities, not bonds, are quoted on the OTC Markets.</a></li>
+<li><a href="#org0f49433">2.45. Corporate bonds do not trade on the OTC Markets.</a></li>
+<li><a href="#org77f14e5">2.46. Micro-cap and penny stocks often trade OTC on platforms like OTC Pink.</a></li>
+<li><a href="#orgc4449b8">2.47. Exchanges diligence listed securities, market makers or IDQS diligence OTC securities.</a></li>
+<li><a href="#orga1a5ffa">2.48. OTC Pink companies are not required to file financial reports.</a></li>
+<li><a href="#org67f6a92">2.49. OTC market makers can freely withdraw quotes without penalty.</a></li>
+<li><a href="#org93a3425">2.50. Delisted stocks can immediately be quoted OTC.</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8843591" class="outline-2">
+<h2 id="org8843591"><span class="section-number-2">1.</span> ADT</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org9fea519" class="outline-3">
+<h3 id="org9fea519"><span class="section-number-3">1.1.</span> Resposibility for proving that an ADF Trading Center's system outage is excused or unexcused  is on "The Trading Center"</h3>
+</div>
+
+<div id="outline-container-orgc89f206" class="outline-3">
+<h3 id="orgc89f206"><span class="section-number-3">1.2.</span> To deny BD direct electronic access</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgdb99f67" class="outline-4">
+<h4 id="orgdb99f67"><span class="section-number-4">1.2.1.</span> The Trading Center must give prior notice of at least 14 calendar days to FINRA Market Operations.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org2f27eb8" class="outline-3">
+<h3 id="org2f27eb8"><span class="section-number-3">1.3.</span> The Two-Sided Obligation is suspended during a trading halt, suspension or pause.</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-orgdaf9483" class="outline-4">
+<h4 id="orgdaf9483"><span class="section-number-4">1.3.1.</span> It re-commences after the <b><b>first regular way trade</b></b> in the primary listing market.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org6a84662" class="outline-3">
+<h3 id="org6a84662"><span class="section-number-3">1.4.</span> The defined limit for S&amp;P 500 index stock,</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org930d991" class="outline-4">
+<h4 id="org930d991"><span class="section-number-4">1.4.1.</span> 9.5% from NBBO (or last trade) at all times</h4>
+</div>
+<div id="outline-container-orgd87fd0d" class="outline-4">
+<h4 id="orgd87fd0d"><span class="section-number-4">1.4.2.</span> except between 9:30 and 9:45 and 3:35 and market close it 20%.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org2d87b3b" class="outline-3">
+<h3 id="org2d87b3b"><span class="section-number-3">1.5.</span> Excused withdrawals based on circumstances beyond a Center's control</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org8959ec1" class="outline-4">
+<h4 id="org8959ec1"><span class="section-number-4">1.5.1.</span> Up to five business days, unless extended by ADF Operations. Excused withdrawals are not permanent in nature.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org9d48488" class="outline-3">
+<h3 id="org9d48488"><span class="section-number-3">1.6.</span> The five items that must be reported for an order received and acted upon or responded to via direct or indirect access from another broker dealer are:</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-orgc6ddd8c" class="outline-4">
+<h4 id="orgc6ddd8c"><span class="section-number-4">1.6.1.</span> unique order identifier, order response, order response time, quantity, and price.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org63eeaf7" class="outline-3">
+<h3 id="org63eeaf7"><span class="section-number-3">1.7.</span> Reporting and record-keeping requirements may be outsourced by written agreement to a</h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-org78fb158" class="outline-4">
+<h4 id="org78fb158"><span class="section-number-4">1.7.1.</span> Reporting Agent. However, the member remains responsible for reporting and record-keeping requirements.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-orgc5f0b22" class="outline-3">
+<h3 id="orgc5f0b22"><span class="section-number-3">1.8.</span> Unexcused system outages, trading suspension last for an ADF Trading Center for</h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+<div id="outline-container-org1d9cede" class="outline-4">
+<h4 id="org1d9cede"><span class="section-number-4">1.8.1.</span> 20 business days</h4>
+</div>
+<div id="outline-container-orgb9495d4" class="outline-4">
+<h4 id="orgb9495d4"><span class="section-number-4">1.8.2.</span> The suspension generally requires three unexcused outages within five business days.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-orgd1861e7" class="outline-3">
+<h3 id="orgd1861e7"><span class="section-number-3">1.9.</span> FINRA-excused withdrawal</h3>
+<div class="outline-text-3" id="text-1-9">
+</div>
+<div id="outline-container-orgd4eb273" class="outline-4">
+<h4 id="orgd4eb273"><span class="section-number-4">1.9.1.</span> Up to 60 days</h4>
+</div>
+</div>
+
+
+<div id="outline-container-orga957a18" class="outline-3">
+<h3 id="orga957a18"><span class="section-number-3">1.10.</span> The ADF is a quote collection and trade reporting facility that serves as an alternative to exchanges for orders in NMS securities.</h3>
+<div class="outline-text-3" id="text-1-10">
+</div>
+<div id="outline-container-orgca5894f" class="outline-4">
+<h4 id="orgca5894f"><span class="section-number-4">1.10.1.</span> It does not provide order routing and execution.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org60443a9" class="outline-3">
+<h3 id="org60443a9"><span class="section-number-3">1.11.</span> Requests for withdrawals based on vacations are only available to</h3>
+<div class="outline-text-3" id="text-1-11">
+</div>
+<div id="outline-container-org62afb94" class="outline-4">
+<h4 id="org62afb94"><span class="section-number-4">1.11.1.</span> small Nasdaq Market Markets - those with three or fewer Nasdaq level 3 terminals.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-orgf53589f" class="outline-3">
+<h3 id="orgf53589f"><span class="section-number-3">1.12.</span> An ADF Trading Center that seeks a FINRA review of a system outage must supply supporting information by</h3>
+<div class="outline-text-3" id="text-1-12">
+</div>
+<div id="outline-container-org89f44de" class="outline-4">
+<h4 id="org89f44de"><span class="section-number-4">1.12.1.</span> the close of business that day or on the following business day if the outage occurs outside normal market hours.</h4>
+</div>
+<div id="outline-container-orgc96002a" class="outline-4">
+<h4 id="orgc96002a"><span class="section-number-4">1.12.2.</span> FINRA normally will make a determination on the day after that.</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org04d3294" class="outline-3">
+<h3 id="org04d3294"><span class="section-number-3">1.13.</span> ADF Trading Center two criteria to declare a system outage.</h3>
+<div class="outline-text-3" id="text-1-13">
+</div>
+<div id="outline-container-org8e4ab8a" class="outline-4">
+<h4 id="org8e4ab8a"><span class="section-number-4">1.13.1.</span> One is an inability to post automated quotations.</h4>
+</div>
+<div id="outline-container-org6ec394c" class="outline-4">
+<h4 id="org6ec394c"><span class="section-number-4">1.13.2.</span> Inability to respond to orders</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org5d297c0" class="outline-3">
+<h3 id="org5d297c0"><span class="section-number-3">1.14.</span> A voluntary failure to maintain a clearing arrangement will not be an excused withdrawal.</h3>
+</div>
+
+<div id="outline-container-org5e7c6fb" class="outline-3">
+<h3 id="org5e7c6fb"><span class="section-number-3">1.15.</span> Involuntary failure will be considered excused and participation in the Nasdaq Market Center system will be suspended.</h3>
+</div>
+
+<div id="outline-container-orgd8f0f0e" class="outline-3">
+<h3 id="orgd8f0f0e"><span class="section-number-3">1.16.</span> The <b><b>Two-Sided Obligation</b></b> is the essence of a market maker's responsibility.</h3>
+</div>
+
+<div id="outline-container-orga444bde" class="outline-3">
+<h3 id="orga444bde"><span class="section-number-3">1.17.</span> ADF Trading Centers may stay <b><b>open voluntarily</b></b> from 8:00 a.m. to 6:30 p.m. EST</h3>
+</div>
+
+<div id="outline-container-org1c6be38" class="outline-3">
+<h3 id="org1c6be38"><span class="section-number-3">1.18.</span> ADF Trading Centers <b><b>must be open</b></b> from 9:30 a.m. to 4:00 p.m.</h3>
+</div>
+
+<div id="outline-container-orgebcbf64" class="outline-3">
+<h3 id="orgebcbf64"><span class="section-number-3">1.19.</span> If they choose to open voluntarily in pre-market or after-market hours, they must maintain a Two-Sided Obligation and firm quotes during these hours.</h3>
+</div>
+
+<div id="outline-container-org77c367e" class="outline-3">
+<h3 id="org77c367e"><span class="section-number-3">1.20.</span> An ADF Trading Center is suspended on the grounds of too many unexcused system outages. May appeal to</h3>
+<div class="outline-text-3" id="text-1-20">
+</div>
+<div id="outline-container-org2eae175" class="outline-4">
+<h4 id="org2eae175"><span class="section-number-4">1.20.1.</span> Requesting a determination by a special FINRA subcommittee</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org8063439" class="outline-3">
+<h3 id="org8063439"><span class="section-number-3">1.21.</span> A firm quote means that a market maker executes transactions of at least the size displayed, at the price bid/offered.</h3>
+</div>
+
+<div id="outline-container-org7f61e1b" class="outline-3">
+<h3 id="org7f61e1b"><span class="section-number-3">1.22.</span> What makes a quote or order marketable, for purpose of complying with FINRA's requirement against inactive quoting by a Registered Reporting ADF ECN?</h3>
+<div class="outline-text-3" id="text-1-22">
+</div>
+<div id="outline-container-org8bd7894" class="outline-4">
+<h4 id="org8bd7894"><span class="section-number-4">1.22.1.</span> It is accessed by another center or participant</h4>
+</div>
+</div>
+
+
+<div id="outline-container-org47e0fd6" class="outline-3">
+<h3 id="org47e0fd6"><span class="section-number-3">1.23.</span> Stocks eligible for trading on the ADF?</h3>
+<div class="outline-text-3" id="text-1-23">
+</div>
+<div id="outline-container-org8ed4ca4" class="outline-4">
+<h4 id="org8ed4ca4"><span class="section-number-4">1.23.1.</span> NMS</h4>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-orga8e04b9" class="outline-2">
+<h2 id="orga8e04b9"><span class="section-number-2">2.</span> OTC</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org6aefa88" class="outline-3">
+<h3 id="org6aefa88"><span class="section-number-3">2.1.</span> Securities that traded on an exchange earlier that day but were delisted can be quoted on the OTC Markets without a Form 211 filing.</h3>
+</div>
+
+<div id="outline-container-orgd98b233" class="outline-3">
+<h3 id="orgd98b233"><span class="section-number-3">2.2.</span> OTC Pink quotes that are not meant to be firm must be clearly designated as subject quotes.</h3>
+</div>
+
+<div id="outline-container-org85ec337" class="outline-3">
+<h3 id="org85ec337"><span class="section-number-3">2.3.</span> Under Rule 15c2-11, market makers must review issuer information and file Form 211 before initiating OTC quotes.</h3>
+</div>
+
+<div id="outline-container-org6829edc" class="outline-3">
+<h3 id="org6829edc"><span class="section-number-3">2.4.</span> At a price of 0.98-1.02, the minimum quote size is 1,00 shares on the bid and 100 shares on the offer.</h3>
+</div>
+
+<div id="outline-container-org3d43361" class="outline-3">
+<h3 id="org3d43361"><span class="section-number-3">2.5.</span> Bid wanted/offer wanted are unpriced indications of interest on the OTC Markets.</h3>
+</div>
+
+<div id="outline-container-org412c8ec" class="outline-3">
+<h3 id="org412c8ec"><span class="section-number-3">2.6.</span> OTC Pink securities are quoted by market makers after conducting due diligence. OTC stocks often trade infrequently.</h3>
+</div>
+
+<div id="outline-container-orge178073" class="outline-3">
+<h3 id="orge178073"><span class="section-number-3">2.7.</span> The exception is for securities that traded on an exchange the prior day, not 30 days prior.</h3>
+</div>
+
+<div id="outline-container-org35b7a68" class="outline-3">
+<h3 id="org35b7a68"><span class="section-number-3">2.8.</span> Securities undergoing delisting can be quoted on the OTC Markets.</h3>
+</div>
+
+<div id="outline-container-org24efd8f" class="outline-3">
+<h3 id="org24efd8f"><span class="section-number-3">2.9.</span> The piggyback exception requires no gap of more than 4 days without a quote.</h3>
+</div>
+
+<div id="outline-container-org06d0c4c" class="outline-3">
+<h3 id="org06d0c4c"><span class="section-number-3">2.10.</span> At a price of 0.12-0.25, the minimum quote size is 5,000 shares on the bid and 2,500 shares on the offer.</h3>
+<div class="outline-text-3" id="text-2-10">
+<p>
+The minimum price and shares are as follows:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-right">0.0001-0.0999:</td>
+<td class="org-left">10,000</td>
+<td class="org-left">shares</td>
+</tr>
+
+<tr>
+<td class="org-right">0.10-0.1999:</td>
+<td class="org-left">5,000</td>
+<td class="org-left">shares</td>
+</tr>
+
+<tr>
+<td class="org-right">0.20-0.5099:</td>
+<td class="org-left">2,500</td>
+<td class="org-left">shares</td>
+</tr>
+
+<tr>
+<td class="org-right">0.51-0.9999:</td>
+<td class="org-left">1,000</td>
+<td class="org-left">shares</td>
+</tr>
+
+<tr>
+<td class="org-right">1.00-174.99:</td>
+<td class="org-left">100</td>
+<td class="org-left">shares</td>
+</tr>
+
+<tr>
+<td class="org-right">175.00+:</td>
+<td class="org-left">1</td>
+<td class="org-left">share</td>
+</tr>
+</tbody>
+</table>
+<p>
+Textbook Reference: Please see textbook section 2.2.1
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb9ab7bd" class="outline-3">
+<h3 id="orgb9ab7bd"><span class="section-number-3">2.11.</span> Only one market maker is needed to quote a stock on the OTC Pink.</h3>
+</div>
+
+<div id="outline-container-org2cc8f46" class="outline-3">
+<h3 id="org2cc8f46"><span class="section-number-3">2.12.</span> Income statements must be no more than 12 months old for catch-all OTC issuers.</h3>
+<div class="outline-text-3" id="text-2-12">
+</div>
+<div id="outline-container-orgaa4e078" class="outline-4">
+<h4 id="orgaa4e078"><span class="section-number-4">2.12.1.</span> The date of its balance sheet does not exceed 16 months before the quote publication [67b].</h4>
+</div>
+<div id="outline-container-orgc768694" class="outline-4">
+<h4 id="orgc768694"><span class="section-number-4">2.12.2.</span> The profit and loss and retained earnings statements cover the 12 months before the balance sheet date [67a].</h4>
+</div>
+</div>
+
+<div id="outline-container-orgf3747ce" class="outline-3">
+<h3 id="orgf3747ce"><span class="section-number-3">2.13.</span> Market makers can manually submit orders to avoid locked/crossed markets.</h3>
+</div>
+
+<div id="outline-container-orge13a7cb" class="outline-3">
+<h3 id="orge13a7cb"><span class="section-number-3">2.14.</span> No Form 211 is required if the stock traded on an exchange the prior day.</h3>
+</div>
+
+<div id="outline-container-org8a1c376" class="outline-3">
+<h3 id="org8a1c376"><span class="section-number-3">2.15.</span> OTC Tick size</h3>
+<div class="outline-text-3" id="text-2-15">
+</div>
+<div id="outline-container-org5100218" class="outline-4">
+<h4 id="org5100218"><span class="section-number-4">2.15.1.</span> OTC securities with a bid greater than or equal to $1, the tick size is $0.01</h4>
+</div>
+<div id="outline-container-org4f9601e" class="outline-4">
+<h4 id="org4f9601e"><span class="section-number-4">2.15.2.</span> OTC securities with a bid less than $1, the tick size is $0.0001</h4>
+</div>
+</div>
+
+<div id="outline-container-org70214fb" class="outline-3">
+<h3 id="org70214fb"><span class="section-number-3">2.16.</span> Securities listed on U.S. exchanges are not eligible for the OTC Markets.</h3>
+<div class="outline-text-3" id="text-2-16">
+</div>
+<div id="outline-container-org96789f8" class="outline-4">
+<h4 id="org96789f8"><span class="section-number-4">2.16.1.</span> Exception : A security that does not qualify for Consolidated Tape reports and is listed only on one or more regional stock exchanges.</h4>
+</div>
+</div>
+
+<div id="outline-container-orge0e6519" class="outline-3">
+<h3 id="orge0e6519"><span class="section-number-3">2.17.</span> Form 211</h3>
+<div class="outline-text-3" id="text-2-17">
+</div>
+<div id="outline-container-orgd14dacc" class="outline-4">
+<h4 id="orgd14dacc"><span class="section-number-4">2.17.1.</span> Filing requirement to initiate quotes in an OTC equity security with FINRA</h4>
+</div>
+<div id="outline-container-org7e0f714" class="outline-4">
+<h4 id="org7e0f714"><span class="section-number-4">2.17.2.</span> OTC MM and BD need to perform due diligence on any issuer's securities prior to publishing quotes in an OTC security.</h4>
+</div>
+<div id="outline-container-org108b411" class="outline-4">
+<h4 id="org108b411"><span class="section-number-4">2.17.3.</span> These certifications require that a member firm review the issuer's financial and disclosure documents and believe these documents to be accurate and reliable.</h4>
+</div>
+</div>
+
+<div id="outline-container-org88ab80d" class="outline-3">
+<h3 id="org88ab80d"><span class="section-number-3">2.18.</span> OTC Pink companies are not verified by the NQB.</h3>
+</div>
+
+<div id="outline-container-orge68b3f6" class="outline-3">
+<h3 id="orge68b3f6"><span class="section-number-3">2.19.</span> To lock a market:</h3>
+<div class="outline-text-3" id="text-2-19">
+</div>
+<div id="outline-container-orgb6fe327" class="outline-4">
+<h4 id="orgb6fe327"><span class="section-number-4">2.19.1.</span> Means to match the bid or offer so that trade is executed.</h4>
+</div>
+</div>
+
+<div id="outline-container-orgbd21d74" class="outline-3">
+<h3 id="orgbd21d74"><span class="section-number-3">2.20.</span> Backing away</h3>
+<div class="outline-text-3" id="text-2-20">
+</div>
+<div id="outline-container-org5b23788" class="outline-4">
+<h4 id="org5b23788"><span class="section-number-4">2.20.1.</span> means failing to execute at the quoted price.</h4>
+</div>
+</div>
+
+<div id="outline-container-org2afc8ba" class="outline-3">
+<h3 id="org2afc8ba"><span class="section-number-3">2.21.</span> A principal of the firm must sign off on the Form 211 filing.</h3>
+</div>
+
+<div id="outline-container-org31c4f3d" class="outline-3">
+<h3 id="org31c4f3d"><span class="section-number-3">2.22.</span> Ex-clearing:</h3>
+<div class="outline-text-3" id="text-2-22">
+</div>
+<div id="outline-container-org401889c" class="outline-4">
+<h4 id="org401889c"><span class="section-number-4">2.22.1.</span> means trades clear directly between parties using a manual process.</h4>
+</div>
+</div>
+
+<div id="outline-container-orge72beff" class="outline-3">
+<h3 id="orge72beff"><span class="section-number-3">2.23.</span> Requires only one market maker to initiate quotes</h3>
+<div class="outline-text-3" id="text-2-23">
+</div>
+<div id="outline-container-orgcdb0f4e" class="outline-4">
+<h4 id="orgcdb0f4e"><span class="section-number-4">2.23.1.</span> OTC Pink and NYSE</h4>
+</div>
+</div>
+
+<div id="outline-container-org99dc5ad" class="outline-3">
+<h3 id="org99dc5ad"><span class="section-number-3">2.24.</span> Crossed Market :</h3>
+<div class="outline-text-3" id="text-2-24">
+</div>
+<div id="outline-container-org6875040" class="outline-4">
+<h4 id="org6875040"><span class="section-number-4">2.24.1.</span> The bid above the ask price.</h4>
+</div>
+</div>
+
+<div id="outline-container-org9a88bb0" class="outline-3">
+<h3 id="org9a88bb0"><span class="section-number-3">2.25.</span> Termination of registration in Non-NMS securities:</h3>
+<div class="outline-text-3" id="text-2-25">
+</div>
+<div id="outline-container-org2e43f94" class="outline-4">
+<h4 id="org2e43f94"><span class="section-number-4">2.25.1.</span> An OTC market maker can simply withdraw its quote to terminate registration.</h4>
+</div>
+</div>
+
+<div id="outline-container-orgf5a7584" class="outline-3">
+<h3 id="orgf5a7584"><span class="section-number-3">2.26.</span> The minimum quote increment for quotes in ADF-eligible securities</h3>
+<div class="outline-text-3" id="text-2-26">
+</div>
+<div id="outline-container-org22ed6e9" class="outline-4">
+<h4 id="org22ed6e9"><span class="section-number-4">2.26.1.</span> $1.00 or above  is one cent. ($0.01)</h4>
+</div>
+<div id="outline-container-org0304034" class="outline-4">
+<h4 id="org0304034"><span class="section-number-4">2.26.2.</span> Below $1.00, it is one one-hundredth of a cent ($0.0001).</h4>
+</div>
+</div>
+
+<div id="outline-container-org6f346f9" class="outline-3">
+<h3 id="org6f346f9"><span class="section-number-3">2.27.</span> Due diligence for OTC quotes focuses on facts about the issuer.</h3>
+</div>
+
+<div id="outline-container-orga9b80ba" class="outline-3">
+<h3 id="orga9b80ba"><span class="section-number-3">2.28.</span> An unsolicited customer order is exempt from Form 211 requirements.</h3>
+</div>
+
+<div id="outline-container-orgca242a9" class="outline-3">
+<h3 id="orgca242a9"><span class="section-number-3">2.29.</span> At $0.25 per share, the minimum firm quote size is 2,500 shares.</h3>
+</div>
+
+<div id="outline-container-orgd886ff0" class="outline-3">
+<h3 id="orgd886ff0"><span class="section-number-3">2.30.</span> At $0.25 the offer must be firm on at least 2,500 shares.</h3>
+</div>
+
+<div id="outline-container-orgc3bdd3a" class="outline-3">
+<h3 id="orgc3bdd3a"><span class="section-number-3">2.31.</span> OTC Pink quotes can be subject if properly indicated as such.</h3>
+</div>
+
+<div id="outline-container-orgf8cccb4" class="outline-3">
+<h3 id="orgf8cccb4"><span class="section-number-3">2.32.</span> OTC Pink quotes may be firm or subject if clearly designated.</h3>
+</div>
+
+<div id="outline-container-org0c4ebd1" class="outline-3">
+<h3 id="org0c4ebd1"><span class="section-number-3">2.33.</span> Form 211 must be filed before resuming quotes after a trading halt.</h3>
+</div>
+
+<div id="outline-container-org19e8039" class="outline-3">
+<h3 id="org19e8039"><span class="section-number-3">2.34.</span> Only unsolicited trading is allowed after a trading suspension without Form 211.</h3>
+</div>
+
+<div id="outline-container-org53dfbe3" class="outline-3">
+<h3 id="org53dfbe3"><span class="section-number-3">2.35.</span> OTC Pink quotes have more flexibility compared to the requirements for Nasdaq quotes.</h3>
+</div>
+
+<div id="outline-container-orga99aab3" class="outline-3">
+<h3 id="orga99aab3"><span class="section-number-3">2.36.</span> 15c2-11 applies to resuming quotes for an OTC security.</h3>
+</div>
+
+<div id="outline-container-org2f45aec" class="outline-3">
+<h3 id="org2f45aec"><span class="section-number-3">2.37.</span> The OTC market connects broker-dealers electronically and facilitates unlisted trading.</h3>
+</div>
+
+<div id="outline-container-org75f68f4" class="outline-3">
+<h3 id="org75f68f4"><span class="section-number-3">2.38.</span> FINRA halt periods normally last 10 trading days.</h3>
+</div>
+
+<div id="outline-container-org5daf4ee" class="outline-3">
+<h3 id="org5daf4ee"><span class="section-number-3">2.39.</span> The OTC Pink is a non-exchange equity quotation facility.</h3>
+</div>
+
+<div id="outline-container-org8fdc7cc" class="outline-3">
+<h3 id="org8fdc7cc"><span class="section-number-3">2.40.</span> At $1.75 the minimum bid size is 100 shares.</h3>
+</div>
+
+<div id="outline-container-orga22f7e0" class="outline-3">
+<h3 id="orga22f7e0"><span class="section-number-3">2.41.</span> Only the issuer's principal executive office address is required.</h3>
+</div>
+
+<div id="outline-container-org4dc8fad" class="outline-3">
+<h3 id="org4dc8fad"><span class="section-number-3">2.42.</span> Below $1, the minimum quote size increases from 100 to 1,000 shares.</h3>
+</div>
+
+<div id="outline-container-org6cbf84e" class="outline-3">
+<h3 id="org6cbf84e"><span class="section-number-3">2.43.</span> Investors cannot directly access the OTC Markets without a broker-dealer.</h3>
+</div>
+
+<div id="outline-container-org1d61e37" class="outline-3">
+<h3 id="org1d61e37"><span class="section-number-3">2.44.</span> Only equities, not bonds, are quoted on the OTC Markets.</h3>
+</div>
+
+<div id="outline-container-org0f49433" class="outline-3">
+<h3 id="org0f49433"><span class="section-number-3">2.45.</span> Corporate bonds do not trade on the OTC Markets.</h3>
+</div>
+
+<div id="outline-container-org77f14e5" class="outline-3">
+<h3 id="org77f14e5"><span class="section-number-3">2.46.</span> Micro-cap and penny stocks often trade OTC on platforms like OTC Pink.</h3>
+</div>
+
+<div id="outline-container-orgc4449b8" class="outline-3">
+<h3 id="orgc4449b8"><span class="section-number-3">2.47.</span> Exchanges diligence listed securities, market makers or IDQS diligence OTC securities.</h3>
+</div>
+
+<div id="outline-container-orga1a5ffa" class="outline-3">
+<h3 id="orga1a5ffa"><span class="section-number-3">2.48.</span> OTC Pink companies are not required to file financial reports.</h3>
+</div>
+
+<div id="outline-container-org67f6a92" class="outline-3">
+<h3 id="org67f6a92"><span class="section-number-3">2.49.</span> OTC market makers can freely withdraw quotes without penalty.</h3>
+</div>
+
+<div id="outline-container-org93a3425" class="outline-3">
+<h3 id="org93a3425"><span class="section-number-3">2.50.</span> Delisted stocks can immediately be quoted OTC.</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Pralay Patoria</p>
+<p class="date">Created: 2023-08-26 Sat 21:13</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

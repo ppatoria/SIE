@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-27 Sun 13:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Pralay Patoria" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="outline-container-orgb831fe1" class="outline-2">
+<h2 id="orgb831fe1">Chapter 4 - Handling Customer Orders:</h2>
+<div class="outline-text-2" id="text-orgb831fe1">
+</div>
+<div id="outline-container-orgdac402b" class="outline-3">
+<h3 id="orgdac402b">FINRA’s Conduct Rule</h3>
+<div class="outline-text-3" id="text-orgdac402b">
+<p>
+FINRA Rule 2110 requires members to observe high standards of commercial honor and just and equitable principles of trade in the conduct of their business.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga3f29b3" class="outline-3">
+<h3 id="orga3f29b3">Types of Orders</h3>
+<div class="outline-text-3" id="text-orga3f29b3">
+</div>
+<div id="outline-container-orgdfd6136" class="outline-4">
+<h4 id="orgdfd6136">Market Order</h4>
+<div class="outline-text-4" id="text-orgdfd6136">
+</div>
+<ul class="org-ul">
+<li><a id="org1b95b04"></a>Executes immediately at the best available price.<br /></li>
+<li><a id="orgb60479a"></a>Crosses the spread.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org7d030d2" class="outline-4">
+<h4 id="org7d030d2">Collared Order</h4>
+<div class="outline-text-4" id="text-org7d030d2">
+</div>
+<ul class="org-ul">
+<li><a id="org35c3b21"></a>Market order that can execute within a specified price range, such as 5% of the NBBO.<br /></li>
+<li><a id="org13efcca"></a>Protects against volatility.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org5486e95" class="outline-4">
+<h4 id="org5486e95">Limit Order</h4>
+<div class="outline-text-4" id="text-org5486e95">
+</div>
+<ul class="org-ul">
+<li><a id="org659ec81"></a>Specifies a maximum price to buy or minimum price to sell.<br /></li>
+<li><a id="orgd205e87"></a>Remains on the books until executed or expired.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org338924a" class="outline-4">
+<h4 id="org338924a">Stop Order</h4>
+<div class="outline-text-4" id="text-org338924a">
+</div>
+<ul class="org-ul">
+<li><a id="orgd8c1794"></a>Activates into a market order once a specified stop price is hit.<br /></li>
+<li><a id="org10c39d7"></a>Used to limit losses or protect profits.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org71d90bb" class="outline-4">
+<h4 id="org71d90bb">Stop Limit Order</h4>
+<div class="outline-text-4" id="text-org71d90bb">
+</div>
+<ul class="org-ul">
+<li><a id="org4cb231c"></a>Activates into a limit order once the stop price is hit.<br /></li>
+<li><a id="orge0ccc27"></a>Provides control over execution price.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgab541f7" class="outline-4">
+<h4 id="orgab541f7">Discretionary Order</h4>
+<div class="outline-text-4" id="text-orgab541f7">
+</div>
+<ul class="org-ul">
+<li><a id="org5c7234e"></a>Displayed at one price but seeks to access additional liquidity at a more aggressive undisplayed price.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org7c004d8" class="outline-4">
+<h4 id="org7c004d8">Pegged Order</h4>
+<div class="outline-text-4" id="text-org7c004d8">
+</div>
+<ul class="org-ul">
+<li><a id="org5c0e907"></a>Adjusts automatically based on market prices.<br /></li>
+<li><a id="org999bed1"></a>Three types:<br />
+<ul class="org-ul">
+<li><a id="orgf0912ef"></a>primary,<br /></li>
+<li><a id="org24683c5"></a>market,<br /></li>
+<li><a id="orgb1ef08c"></a>midpoint.<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org6dedef6" class="outline-4">
+<h4 id="org6dedef6">Minimum Quantity Order</h4>
+<div class="outline-text-4" id="text-org6dedef6">
+</div>
+<ul class="org-ul">
+<li><a id="org599d946"></a>Requires a minimum number of shares for execution.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org6449845" class="outline-4">
+<h4 id="org6449845">Time in Force</h4>
+<div class="outline-text-4" id="text-org6449845">
+</div>
+<ul class="org-ul">
+<li><a id="orgc174b2d"></a>Determines how long an order remains active.<br /></li>
+<li><a id="orgd526663"></a>Examples: Day, GTC, IOC.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9f9be84" class="outline-3">
+<h3 id="org9f9be84">Paperwork for Customer Orders</h3>
+<div class="outline-text-3" id="text-org9f9be84">
+</div>
+<div id="outline-container-org86ba1b2" class="outline-4">
+<h4 id="org86ba1b2">Order Ticket</h4>
+<div class="outline-text-4" id="text-org86ba1b2">
+</div>
+<ul class="org-ul">
+<li><a id="orgd491920"></a>Records key details of customer order prior to execution.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgad68f61" class="outline-4">
+<h4 id="orgad68f61">Trade Confirmation</h4>
+<div class="outline-text-4" id="text-orgad68f61">
+</div>
+<ul class="org-ul">
+<li><a id="org5bdf6c1"></a>Provides customer with execution details after a trade.<br /></li>
+<li><a id="org9f777d6"></a>Must disclose payment for order flow if applicable.<br /></li>
+</ul>
+</div>
+
+<div id="outline-container-org76179d9" class="outline-4">
+<h4 id="org76179d9">Display of Customer Limit Orders</h4>
+<div class="outline-text-4" id="text-org76179d9">
+</div>
+<ul class="org-ul">
+<li><a id="orgcd076e5"></a>Customers' priced limit orders must be displayed,<br /></li>
+<li><a id="org785ad52"></a>with exceptions for marketable, block, odd-lot, and "don't display" orders.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8dc89df" class="outline-4">
+<h4 id="org8dc89df">Orders improving a firm's bid/offer must update quote within 30 seconds.</h4>
+<div class="outline-text-4" id="text-org8dc89df">
+</div>
+<ul class="org-ul">
+<li><a id="org3b4176d"></a>De minimis orders (less than 10% of MM's displayed size) need not be shown.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7f24807" class="outline-3">
+<h3 id="org7f24807">Trading Ahead of Customer Limit Orders (Manning Rule)</h3>
+<div class="outline-text-3" id="text-org7f24807">
+</div>
+<div id="outline-container-orgc58db24" class="outline-4">
+<h4 id="orgc58db24">Firms cannot trade for their own accounts at prices that would satisfy a held customer limit order, unless immediately thereafter executing customer order at same or better price.</h4>
+</div>
+<div id="outline-container-org10d4db8" class="outline-4">
+<h4 id="org10d4db8">Minimum price improvement levels must be provided to avoid obligation.</h4>
+</div>
+<div id="outline-container-orgec8fda4" class="outline-4">
+<h4 id="orgec8fda4">Exceptions exist including</h4>
+<div class="outline-text-4" id="text-orgec8fda4">
+</div>
+<ul class="org-ul">
+<li><a id="org185eb89"></a>trading along,<br /></li>
+<li><a id="org13d94b3"></a>no knowledge,<br /></li>
+<li><a id="orgd8e4815"></a>riskless principal,<br /></li>
+<li><a id="orgea80b72"></a>intermarket sweep orders.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org11c3284" class="outline-3">
+<h3 id="org11c3284">Net Transactions with Customers</h3>
+<div class="outline-text-3" id="text-org11c3284">
+</div>
+<div id="outline-container-org492b390" class="outline-4">
+<h4 id="org492b390">Net transactions involve buying from one party at one price and selling to another party at a different price.</h4>
+</div>
+<div id="outline-container-orgd0716d3" class="outline-4">
+<h4 id="orgd0716d3">Vary by customer:</h4>
+<div class="outline-text-4" id="text-orgd0716d3">
+</div>
+<ul class="org-ul">
+<li><a id="org4ae5e58"></a>Retail customers must consent in writing on order-by-order basis.<br /></li>
+<li><a id="orgfe64039"></a>Institutional customers have more flexibility.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf3e7192" class="outline-3">
+<h3 id="orgf3e7192">Fair Prices and Commissions</h3>
+<div class="outline-text-3" id="text-orgf3e7192">
+</div>
+<div id="outline-container-org8edda6e" class="outline-4">
+<h4 id="org8edda6e">5% policy on markups/markdowns is a guideline only. Actual fairness determined based on facts and circumstances.</h4>
+</div>
+<div id="outline-container-orgbf78b65" class="outline-4">
+<h4 id="orgbf78b65">When acting as agent, commissions must be fair and reasonable based on services rendered.</h4>
+</div>
+</div>
+
+<div id="outline-container-org3ddee97" class="outline-3">
+<h3 id="org3ddee97">Extended Hours Trading</h3>
+<div class="outline-text-3" id="text-org3ddee97">
+</div>
+<div id="outline-container-org22f66f4" class="outline-4">
+<h4 id="org22f66f4">Customers must receive disclosure on risks:</h4>
+<div class="outline-text-4" id="text-org22f66f4">
+</div>
+<ul class="org-ul">
+<li><a id="orge820efa"></a>lower liquidity,<br /></li>
+<li><a id="org6117e5e"></a>greater volatility,<br /></li>
+<li><a id="orgb6d91dd"></a>changing prices,<br /></li>
+<li><a id="orge9e46da"></a>unlinked markets,<br /></li>
+<li><a id="orgfc36197"></a>news announcements,<br /></li>
+<li><a id="org4d9c0e5"></a>wider spreads.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga0b76fc" class="outline-3">
+<h3 id="orga0b76fc">Ethics and Rules Involved in Customer Orders</h3>
+<div class="outline-text-3" id="text-orga0b76fc">
+</div>
+<div id="outline-container-orgc31fc8b" class="outline-4">
+<h4 id="orgc31fc8b">Must provide best execution, which involves checking multiple markets and venues. Directed orders excepted.</h4>
+</div>
+<div id="outline-container-org59802bb" class="outline-4">
+<h4 id="org59802bb">Prohibited trading practices include</h4>
+<div class="outline-text-4" id="text-org59802bb">
+</div>
+<ul class="org-ul">
+<li><a id="org42e6819"></a>manipulation,<br /></li>
+<li><a id="org99afcb2"></a>collusion between traders, and<br /></li>
+<li><a id="org0aa9bd2"></a>trading ahead of customers.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8aca28a" class="outline-4">
+<h4 id="org8aca28a">Investment advisers have fiduciary duties, including</h4>
+<div class="outline-text-4" id="text-org8aca28a">
+</div>
+<ul class="org-ul">
+<li><a id="org37df8a1"></a>disclosure of conflicts and<br /></li>
+<li><a id="orgacfd41e"></a>trade approvals.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc640798" class="outline-3">
+<h3 id="orgc640798">Uniform Practice Code (UPC) Rules</h3>
+<div class="outline-text-3" id="text-orgc640798">
+</div>
+<div id="outline-container-orga0b7638" class="outline-4">
+<h4 id="orga0b7638">Governs</h4>
+<div class="outline-text-4" id="text-orga0b7638">
+</div>
+<ul class="org-ul">
+<li><a id="org65a060f"></a>clearance,<br /></li>
+<li><a id="org6d397a7"></a>settlement, and<br /></li>
+<li><a id="org2de49cf"></a>trade processing.<br /></li>
+<li><a id="orgd3e98b1"></a>Most equity trades settled by NSCC/DTCC on T+2 basis.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfb0ec78" class="outline-3">
+<h3 id="orgfb0ec78">Ex-clearing settlement requires</h3>
+<div class="outline-text-3" id="text-orgfb0ec78">
+</div>
+<div id="outline-container-org44d1a98" class="outline-4">
+<h4 id="org44d1a98">written trade details and</h4>
+</div>
+<div id="outline-container-org1073742" class="outline-4">
+<h4 id="org1073742">agreement between parties.</h4>
+</div>
+<div id="outline-container-orgbebbba3" class="outline-4">
+<h4 id="orgbebbba3">When-issued contracts for new securities must be marked-to-market daily by sellers.</h4>
+</div>
+</div>
+
+<div id="outline-container-org9ef5991" class="outline-3">
+<h3 id="org9ef5991">Adjustment of Orders</h3>
+<div class="outline-text-3" id="text-org9ef5991">
+</div>
+<div id="outline-container-org25cf8b5" class="outline-4">
+<h4 id="org25cf8b5">Open orders below market price are adjusted for</h4>
+<div class="outline-text-4" id="text-org25cf8b5">
+</div>
+<ul class="org-ul">
+<li><a id="org11c8be0"></a>stock splits,<br /></li>
+<li><a id="org10368fc"></a>dividends, and<br /></li>
+<li><a id="org792ccab"></a>other corporate actions.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org7db474a" class="outline-4">
+<h4 id="org7db474a">Buy limits reduced by cash dividends.</h4>
+<div class="outline-text-4" id="text-org7db474a">
+</div>
+<ul class="org-ul">
+<li><a id="org11c4fc2"></a>Share amounts recalculated for forward splits.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgd2e34e7" class="outline-4">
+<h4 id="orgd2e34e7">Reverse splits cancel open orders.</h4>
+<div class="outline-text-4" id="text-orgd2e34e7">
+</div>
+<ul class="org-ul">
+<li><a id="orgd6dfb51"></a>Special situations have variable treatments.<br />
+<div class="outline-text-5" id="text-orgd6dfb51">
+<p>
+Certainly, I can provide explanations for the remaining statements you've listed:
+</p>
+
+<ol class="org-ol">
+<li><b><b>To lock in gains, the investor would place a sell stop order that becomes a market order if the price hits $85 or below. This would trigger a sale to protect profits.</b></b>
+<ul class="org-ul">
+<li>This statement refers to a sell stop order, which is a type of order used by investors to limit potential losses or protect gains on a stock. When the stock's market price reaches or falls below the specified stop price of $85, the sell stop order is activated and becomes a market order. A market order is designed to execute at the best available price immediately. So, in this case, the investor is using the sell stop order to lock in gains by automatically selling the stock if its price falls to or below $85.</li>
+</ul></li>
+
+<li><b><b>The board must declare a dividend, and the record date determines which shareholders receive it. Shareholders do not vote on dividends.</b></b>
+<ul class="org-ul">
+<li>Dividends are typically paid to shareholders by a corporation. However, shareholders typically do not vote on whether or not to pay dividends. Instead, dividends are declared by the corporation's board of directors. Once the board declares a dividend, they also set a record date. Shareholders who are recorded as owners of the stock on the record date are entitled to receive the dividend. Therefore, the record date is crucial in determining which shareholders will receive the dividend.</li>
+</ul></li>
+
+<li><b><b>Open buy orders below the market price are reduced by the amount of a cash dividend on the ex-date. So this limit order at $61.55 will be reduced by the $0.30 dividend to $61.25.</b></b>
+<ul class="org-ul">
+<li>This statement explains how open buy orders below the current market price are adjusted for cash dividends on the ex-dividend (ex-date) date. When a cash dividend is declared, the stock's price typically drops by the amount of the dividend on the ex-date. In this case, the limit order to buy at $61.55 will be reduced by the $0.30 dividend, resulting in a new limit price of $61.25. This adjustment ensures that buyers do not pay the full market price before the dividend, which would not be fair since they will receive the dividend.</li>
+</ul></li>
+
+<li><b><b>Spoofing involves briefly displaying quotes, with no intent to execute at that price, in order to manipulate prices.</b></b>
+<ul class="org-ul">
+<li>Spoofing is a manipulative trading practice in which a trader or entity places orders to buy or sell securities with the intention of canceling those orders before they are executed. The purpose of spoofing is to create a false appearance of supply or demand in the market, which can influence other market participants and potentially manipulate the security's price. It is considered illegal and is a violation of market regulations.</li>
+</ul></li>
+
+<li><b><b>Broker-dealers have a best execution obligation for any foreign security. Policies must stipulate the use of reasonable diligence in foreign markets.</b></b>
+<ul class="org-ul">
+<li>Broker-dealers have a best execution obligation for all securities they handle, including foreign securities. This obligation requires them to use reasonable diligence in seeking the best possible execution of customer orders. When dealing with foreign securities, broker-dealers should have policies and procedures in place to ensure that they meet this best execution obligation, taking into account the unique characteristics and conditions of foreign markets.</li>
+</ul></li>
+
+<li><b><b>Stock splits or reverse splits do not alter the total value of an investor's position, only the per-share price. The total value remains the same.</b></b>
+<ul class="org-ul">
+<li>This statement correctly explains the impact of stock splits and reverse splits on an investor's position. In a stock split, the number of shares owned by an investor increases, but the per-share price decreases proportionally. In a reverse split, the number of shares decreases, but the per-share price increases proportionally. Importantly, these actions do not change the total value of the investor's position. The total value remains the same because the change in share quantity is offset by the change in per-share price.</li>
+</ul></li>
+
+<li><b><b>An exception to the Manning Rule is available if proprietary traders are shielded behind effective information barriers and have no knowledge of held customer orders.</b></b>
+<ul class="org-ul">
+<li>The Manning Rule, which relates to order execution, requires that if a broker-dealer trades for its own account at the same or better price as a held customer limit order, it must immediately execute the customer order at least on the same terms. However, an exception exists when proprietary traders (those trading for the firm's own account) are isolated from customer order flow through effective information barriers and have no knowledge of the held customer orders. In such cases, the Manning Rule does not apply.</li>
+</ul></li>
+
+<li><b><b>The six key risks are lower liquidity, greater volatility, changing prices, unlinked markets, news announcements, and wider spreads. The risk that securities may lose value is not specific to extended hours trading.</b></b>
+<ul class="org-ul">
+<li>This statement lists the key risks associated with extended hours trading. These risks include lower liquidity (fewer buyers and sellers), greater volatility (rapid price swings), changing prices (prices can be different from regular hours), unlinked markets (limited access to certain markets), news announcements (market-moving news outside regular hours), and wider spreads (the difference between bid and ask prices). While it's true that securities can lose value at any time, this statement correctly points out that this risk is not specific to extended hours trading but applies to all trading.</li>
+</ul></li>
+
+<li><b><b>The ex-rights date is the first business day after the registration's effective date, assuming information is received with enough advance notice.</b></b>
+<ul class="org-ul">
+<li>The ex-rights date is an important date in the context of rights offerings, which allow existing shareholders the opportunity to purchase additional shares at a discounted price. The ex-rights date is typically set as the first business day after the effective date of the registration statement filed with regulatory authorities. It is important to note that the ex-rights date can change depending on regulatory requirements and the timing of information dissemination.</li>
+</ul></li>
+
+<li><b><b>Block size orders (10,000+ shares) are exempt from the requirement to display customer limit orders.</b></b>
+<ul class="org-ul">
+<li>This statement indicates an exemption from the requirement to immediately display customer limit orders for block size orders, which are typically defined as orders involving 10,000 shares or more. Block orders are often considered large and can significantly impact the market, so they may be exempt from certain order display rules to prevent market disruption.</li>
+</ul></li>
+</ol>
+
+<p>
+If you have any more statements or questions, please feel free to ask.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org71cc659" class="outline-2">
+<h2 id="org71cc659">A sell limit order entered below the market price would be adjusted downwards on the ex-dividend date. However, this is a sell limit order entered at $30, which is at or above the market price. Orders entered at or above the market price are not adjusted for cash dividends.</h2>
+</div>
+<div id="outline-container-orgd845bfe" class="outline-2">
+<h2 id="orgd845bfe">The mark-up is calculated as the sale price less the best available price to the customer (in this case, the best offer of 17.82), which equals $18.00 - $17.82 = $0.he 5% policy is a guideline - the actual mark-up may be higher or lower depending on facts and circumstances.</h2>
+</div>
+<div id="outline-container-org10ecf39" class="outline-2">
+<h2 id="org10ecf39">Interpositioning involves inserting an additional broker-dealer between the customer's order and the best available market, denying the customer best execution. This is usually done to generate extra commissions or markups.</h2>
+</div>
+<div id="outline-container-org6d5cac3" class="outline-2">
+<h2 id="org6d5cac3">A marketable limit order is one that can be filled immediately at the current market price. This buy order at $72.15 can be filled right away because the best offer is $72.15.</h2>
+</div>
+<div id="outline-container-org53893a5" class="outline-2">
+<h2 id="org53893a5">The one-second exception allows trade-throughs if the affected trading center displayed a quote inferior to the trade price within one second prior to the trade-through. This provides flexibility when quotes are changing very rapidly.</h2>
+</div>
+<div id="outline-container-org3620b8b" class="outline-2">
+<h2 id="org3620b8b">The CUSIP number, a security's unique identification code, is not required on the order ticket. Items like the account number, whether the trade was discretionary or solicited, time of order entry, etc. must be notated.</h2>
+</div>
+<div id="outline-container-org2041e64" class="outline-2">
+<h2 id="org2041e64">Best execution factors include the character of the market, size/type of transaction, number of markets checked, and quote accessibility. The number of shares executed in a particular market is not a consideration.</h2>
+</div>
+<div id="outline-container-org47bfc07" class="outline-2">
+<h2 id="org47bfc07">For retail net transactions, written consent must be obtained from the customer on an order-by-order basis before executing each trade. Verbal and negative consent letters are prohibited.</h2>
+</div>
+<div id="outline-container-orgae6f5a2" class="outline-2">
+<h2 id="orgae6f5a2">Market makers must update quotes to reflect customer limit orders within 30 seconds of receipt, unless an exception applies.</h2>
+</div>
+<div id="outline-container-org59624d1" class="outline-2">
+<h2 id="org59624d1">An exception is available if the customer's size is de minimis - no more than 10% of the displayed size. An exception does not exist for orders up to 20% of the size.</h2>
+</div>
+<div id="outline-container-org34c6688" class="outline-2">
+<h2 id="org34c6688">Good-till-market close (GTMC) orders may be entered beginning at 9:30 am ET. Orders entered earlier will be rejected.</h2>
+</div>
+<div id="outline-container-orge285fec" class="outline-2">
+<h2 id="orge285fec">To meet the de minimis exception of 10% of the quote size, a new order for at least 30 shares is required (10% of 200 shares is 20 shares, so 30 shares exceeds the threshold).</h2>
+</div>
+<div id="outline-container-org0f339b9" class="outline-2">
+<h2 id="org0f339b9">WI stands for "when, as and if issued" and indicates a new issue security for which the final IPO terms are pending. WI contracts must be marked-to-market while pending.</h2>
+</div>
+<div id="outline-container-orgd602de3" class="outline-2">
+<h2 id="orgd602de3">Retail customers must provide written consent on an order-by-order basis before "net" transactions can be executed by the broker-dealer.</h2>
+</div>
+<div id="outline-container-org9b1e42b" class="outline-2">
+<h2 id="org9b1e42b">It is prohibited to spread information known to be false or misleading, or that could improperly influence a security's market price.</h2>
+</div>
+<div id="outline-container-org8c98383" class="outline-2">
+<h2 id="org8c98383">Low-priced stock is not an exception to displaying customer limit orders for OTC equities. Exceptions include AON, odd-lot, and block size orders.</h2>
+</div>
+<div id="outline-container-org482e5ad" class="outline-2">
+<h2 id="org482e5ad">MGTC orders may be entered anytime from 4 am to 8 pm EST, and remain active for one year unless filled or cancelled sooner.</h2>
+</div>
+<div id="outline-container-org8c68e0c" class="outline-2">
+<h2 id="org8c68e0c">Broker-dealers must retain documentation of consents to net transactions for at least three years.</h2>
+</div>
+<div id="outline-container-org7c60268" class="outline-2">
+<h2 id="org7c60268">For debt securities, the mark-up or mark-down should be based on the security's prevailing market price, established by the firm's contemporaneous cost.</h2>
+</div>
+<div id="outline-container-orgdacc608" class="outline-2">
+<h2 id="orgdacc608">Entering limit orders to move the market and obtain beneficial execution on the other side defines the layering violation.</h2>
+</div>
+<div id="outline-container-org5ade9c1" class="outline-2">
+<h2 id="org5ade9c1">Market makers must update quotes to reflect customer limit orders within 30 seconds, unless an exception applies.</h2>
+</div>
+<div id="outline-container-orgb276432" class="outline-2">
+<h2 id="orgb276432">Investment advisers may only pay cash solicitation fees to third parties who refer clients if the arrangements are clearly disclosed to clients and agreed to by them.</h2>
+</div>
+<div id="outline-container-org770a7fa" class="outline-2">
+<h2 id="org770a7fa">For NMS stocks, the block order threshold is at least 10,000 shares and $200,000 in market value.</h2>
+</div>
+<div id="outline-container-org4040760" class="outline-2">
+<h2 id="org4040760">The prohibition against undisclosed joint accounts covers both formal and informal profit/loss sharing arrangements.</h2>
+</div>
+<div id="outline-container-org7d35df4" class="outline-2">
+<h2 id="org7d35df4">Advertisements that promote only selected profitable picks are misleading unless accompanied by a list of all recommendations made in the last 12 months.</h2>
+</div>
+<div id="outline-container-org5777377" class="outline-2">
+<h2 id="org5777377">The threshold for an institutional customer is $50 million in total assets. Banks, insurance companies, registered investment companies, and advisers are included.</h2>
+</div>
+<div id="outline-container-org7e7801d" class="outline-2">
+<h2 id="org7e7801d">Open orders below the market price must be adjusted on the ex-dividend date, before the market opens.</h2>
+</div>
+<div id="outline-container-orge8c57bc" class="outline-2">
+<h2 id="orge8c57bc">Sales made by prospectus at the stated public offering price are not subject to the 5% mark-up policy or fair pricing standards.</h2>
+</div>
+<div id="outline-container-org60c4c14" class="outline-2">
+<h2 id="org60c4c14">For institutions, consent for net trades may be provided through a negative consent letter that remains in effect until cancelled.</h2>
+</div>
+<div id="outline-container-orgffd08e5" class="outline-2">
+<h2 id="orgffd08e5">Marking-the-close is a manipulative violation that involves placing trades near the close to artificially impact the closing price.</h2>
+</div>
+<div id="outline-container-orgfcf03f2" class="outline-2">
+<h2 id="orgfcf03f2">Companies can declare dividends in cash, stock, goods produced by the company, or any combination.</h2>
+</div>
+<div id="outline-container-orga6ed6ab" class="outline-2">
+<h2 id="orga6ed6ab">Wash trades involve the sale and repurchase of the same security to create the appearance of activity or demand. They are prohibited manipulative activities.</h2>
+</div>
+<div id="outline-container-orgbf2c4a9" class="outline-2">
+<h2 id="orgbf2c4a9">During extended hours, limit orders are preferable to market orders because there is lower liquidity and higher volatility. Market orders carry higher execution risk.</h2>
+</div>
+<div id="outline-container-org7c48f06" class="outline-2">
+<h2 id="org7c48f06">The front-running prohibition remains in effect until the entire block order is filled and publicly reported. It begins when the firm has advance knowledge.</h2>
+</div>
+<div id="outline-container-org9eb78d2" class="outline-2">
+<h2 id="org9eb78d2">Industry fair practice rules require broker-dealers to buy and sell at fair prices, defined as prices as favorable as possible under prevailing market conditions.</h2>
+</div>
+<div id="outline-container-orgd2deddb" class="outline-2">
+<h2 id="orgd2deddb">A pump and dump scheme uses false information to inflate share prices so that promoters can "dump" shares on the public at a profit after the price is pumped up.</h2>
+</div>
+<div id="outline-container-orgfcc0894" class="outline-2">
+<h2 id="orgfcc0894">For cash dividends, fractional amounts are rounded up to the nearest cent and used to adjust open orders downward on the ex-date. Therefore, $0.115 is rounded up to $0.12.</h2>
+</div>
+<div id="outline-container-org6038690" class="outline-2">
+<h2 id="org6038690">Each principal trade by an investment adviser with a client's account must have the client's prior approval, not standing approval.</h2>
+</div>
+<div id="outline-container-orgf3e87ad" class="outline-2">
+<h2 id="orgf3e87ad">Advisers must disclose all actual or potential conflicts, whether or not they impact recommendations or compensation.</h2>
+</div>
+<div id="outline-container-orgb9bb8bb" class="outline-2">
+<h2 id="orgb9bb8bb">Investment advisers must disclose if they are acting as principal or agent, and obtain client consent for both types of trades.</h2>
+</div>
+<div id="outline-container-org69eea01" class="outline-2">
+<h2 id="org69eea01">The risk disclosure must be provided before a customer executes their first extended hours trade. It cannot be delayed.</h2>
+</div>
+<div id="outline-container-org51414ca" class="outline-2">
+<h2 id="org51414ca">The key difference between a regular limit order and a peg order is that the peg order price adjusts automatically as the market price changes.</h2>
+</div>
+<div id="outline-container-org906e3de" class="outline-2">
+<h2 id="org906e3de">Fair prices and commissions cannot consider what the customer can afford. Other relevant factors include market conditions, firm's expenses, and value of services rendered.</h2>
+</div>
+<div id="outline-container-orga45fe81" class="outline-2">
+<h2 id="orga45fe81">To locHere are the remaining explanations:</h2>
+</div>
+<div id="outline-container-org5244315" class="outline-2">
+<h2 id="org5244315">To lock in gains, the investor would place a sell stop order that becomes a market order if the price hits $85 or below. This would trigger a sale to protect profits.</h2>
+</div>
+<div id="outline-container-org6499a27" class="outline-2">
+<h2 id="org6499a27">The board must declare a dividend and the record date determines which shareholders receive it. Shareholders do not vote on dividends.</h2>
+</div>
+<div id="outline-container-org274e34a" class="outline-2">
+<h2 id="org274e34a">Open buy orders below the market price are reduced by the amount of a cash dividend on the ex-date. So this limit order at $61.55 will be reduced by the $0.30 dividend to $61.25.</h2>
+</div>
+<div id="outline-container-org2242141" class="outline-2">
+<h2 id="org2242141">Spoofing involves briefly displaying quotes, with no intent to execute at that price, in order to manipulate prices.</h2>
+</div>
+<div id="outline-container-orgf7abbd2" class="outline-2">
+<h2 id="orgf7abbd2">Broker-dealers have a best execution obligation for any foreign security. Policies must stipulate the use of reasonable diligence in foreign markets.</h2>
+</div>
+<div id="outline-container-orgd1a287c" class="outline-2">
+<h2 id="orgd1a287c">Stock splits or reverse splits do not alter the total value of an investor's position, only the per share price. The total value remains the same.</h2>
+</div>
+<div id="outline-container-org032357d" class="outline-2">
+<h2 id="org032357d">An exception to the Manning Rule is available if proprietary traders are shielded behind effective information barriers and have no knowledge of held customer orders.</h2>
+</div>
+<div id="outline-container-org5f100ba" class="outline-2">
+<h2 id="org5f100ba">The six key risks are lower liquidity, greater volatility, changing prices, unlinked markets, news announcements, and wider spreads. The risk that securities may lose value is not specific to extended hours trading.</h2>
+</div>
+<div id="outline-container-orgbe64f4d" class="outline-2">
+<h2 id="orgbe64f4d">The ex-rights date is the first business day after the registration's effective date, assuming information is received with enough advance notice.</h2>
+</div>
+<div id="outline-container-orgb5afe0a" class="outline-2">
+<h2 id="orgb5afe0a">Block size orders (10,000+ shares) are exempt from the requirement to display customer limit orders.</h2>
+</div>
+<div id="outline-container-orgc8c0f3a" class="outline-2">
+<h2 id="orgc8c0f3a">The 5% Policy applies to both listed and unlisted securities. It does not only apply when a "bona fide" market exists.</h2>
+</div>
+<div id="outline-container-org3563e04" class="outline-2">
+<h2 id="org3563e04">Prevailing market price refers to the dealer's contemporaneous cost to acquire the security.</h2>
+</div>
+<div id="outline-container-orge9af9c3" class="outline-2">
+<h2 id="orge9af9c3">A peg order that moves based on prices of a non-Nasdaq market maker is called a primary peg order.</h2>
+</div>
+<div id="outline-container-orga1dedf5" class="outline-2">
+<h2 id="orga1dedf5">The market maker's existing quote is not improved by the customer limit order at $35.herefore, the quote remains unchanged at $35.60 - $35.80.</h2>
+</div>
+<div id="outline-container-orga5e3a1e" class="outline-2">
+<h2 id="orga5e3a1e">For ex-clearing regular way trades, delivery is made at the office of the purchaser.</h2>
+</div>
+<div id="outline-container-orgb9fabe7" class="outline-2">
+<h2 id="orgb9fabe7">The customer order is below the market maker's existing quote and does not improve the price. Therefore, no update is required.</h2>
+</div>
+<div id="outline-container-org02bb8b2" class="outline-2">
+<h2 id="org02bb8b2">A net transaction allows the dealer to earn a profit with minimal risk by buying at one price and selling at a higher price.</h2>
+</div>
+<div id="outline-container-orgfd6bf36" class="outline-2">
+<h2 id="orgfd6bf36">All open orders must be cancelled by the close of business the day before the ex-date for a reverse split.</h2>
+</div>
+<div id="outline-container-org0f35dd6" class="outline-2">
+<h2 id="org0f35dd6">For institutions, consent for net trading may be oral or written, either before or after each trade.</h2>
+</div>
+<div id="outline-container-orgf0688d7" class="outline-2">
+<h2 id="orgf0688d7">The market maker must update just the size of its quote if an order is equal to its price, the inside market, and more than 10% of its displayed size.</h2>
+</div>
+<div id="outline-container-orgdcbc9f2" class="outline-2">
+<h2 id="orgdcbc9f2">Order receipt time is recorded in the OATS reporting system, not the trade confirmation.</h2>
+</div>
+<div id="outline-container-orga015260" class="outline-2">
+<h2 id="orga015260">GTMC orders may be executed until the closing cross at 4 pm ET. Orders entered after 4 pm will be rejected.</h2>
+</div>
+<div id="outline-container-org4df2251" class="outline-2">
+<h2 id="org4df2251">Appropriate disclosures and consents must be provided by all customers before executing net transactions on their behalf.</h2>
+</div>
+<div id="outline-container-org66679f2" class="outline-2">
+<h2 id="org66679f2">The order improves the market maker's bid, so full price and size must be displayed within 30 seconds.</h2>
+</div>
+<div id="outline-container-org1216fe5" class="outline-2">
+<h2 id="org1216fe5">Interpositioning means inserting an extra broker-dealer between the customer order and best market, denying best execution.</h2>
+</div>
+<div id="outline-container-orgc28131e" class="outline-2">
+<h2 id="orgc28131e">A market sell order executes against the best bid. So this order reduces the bid size from 400 to 100 shares.</h2>
+</div>
+<div id="outline-container-org505bc24" class="outline-2">
+<h2 id="org505bc24">Shifting trades between accounts with no change in beneficial ownership is a warning sign of manipulative trading. The goal is to create a false appearance of activity.</h2>
+</div>
+<div id="outline-container-orgbbe32cc" class="outline-2">
+<h2 id="orgbbe32cc">A transfer agent ID number is not found on an order ticket. Required details include quantity, price instructions, time, discretionary order notation, etc.</h2>
+</div>
+<div id="outline-container-orgf68fa45" class="outline-2">
+<h2 id="orgf68fa45">A stop-limit order turns into a priced order, not a market order, when the stop price is hit. It may or may not execute.</h2>
+</div>
+<div id="outline-container-orgd161b1d" class="outline-2">
+<h2 id="orgd161b1d">To require a size update, the order must be: equal to MM's price, the inside market, and &gt;10% of MM's size. Only the buy order for 300 shares meets all criteria.</h2>
+</div>
+<div id="outline-container-org31e9fbe" class="outline-2">
+<h2 id="org31e9fbe">Consent documentation must be retained for at least 3 years from the date obtained or updated.</h2>
+</div>
+<div id="outline-container-org00820db" class="outline-2">
+<h2 id="org00820db">MGTC orders remain available for one year from entry unless completely filled or cancelled sooner.</h2>
+</div>
+<div id="outline-container-org2c8a1f6" class="outline-2">
+<h2 id="org2c8a1f6">Only orders below the market price (buy limit, sell stop, sell stop limit) are adjusted. The sell limit is not adjusted. The buy limit is adjusted down by $0.20.</h2>
+</div>
+<div id="outline-container-orgd515d90" class="outline-2">
+<h2 id="orgd515d90">To avoid a Manning violation, the MM could have traded at $10.755 or higher. The minimum price improvement is $0.01.</h2>
+</div>
+<div id="outline-container-orgccbb990" class="outline-2">
+<h2 id="orgccbb990">SHEX allows the order to remain active for a specified period of time such as one hour. It does not relate to any minimum fill size.</h2>
+</div>
+<div id="outline-container-org9689d94" class="outline-2">
+<h2 id="org9689d94">Securities transactions may be settled ex-clearing if both parties to the transaction agree.</h2>
+</div>
+<div id="outline-container-org211de12" class="outline-2">
+<h2 id="org211de12">Members must report interests in joint accounts, but account addresses are not required.</h2>
+</div>
+<div id="outline-container-orgbde4fa9" class="outline-2">
+<h2 id="orgbde4fa9">Securities are typically deposited with a clearing house for electronic transfer between brokers. Physical handling is rare.</h2>
+</div>
+<div id="outline-container-org05b128d" class="outline-2">
+<h2 id="org05b128d">Corporate event adjustments are made only to orders below the market - buy limit, sell stop, and sell stop limit.</h2>
+</div>
+<div id="outline-container-org7e0270d" class="outline-2">
+<h2 id="org7e0270d">The minimum price improvement is one penny for stocks $1 and above.</h2>
+</div>
+<div id="outline-container-orgc4712da" class="outline-2">
+<h2 id="orgc4712da">Performance advertisements must disclose the possibility of loss if they promote the potential for profits.</h2>
+</div>
+<div id="outline-container-org21c5ca5" class="outline-2">
+<h2 id="org21c5ca5">In determining mark-ups for principal trades, the prevailing market price should be the starting point.</h2>
+</div>
+<div id="outline-container-org4e3cf37" class="outline-2">
+<h2 id="org4e3cf37">Newly issued primary market securities often trade on a "when, as and if issued" (WI) basis before the final IPO terms are set.</h2>
+</div>
+<div id="outline-container-org3c1135e" class="outline-2">
+<h2 id="org3c1135e">The relevant inside market is the best bid/offer on the specific quotation system where the OTC market maker posts quotes. Not the NBBO across all platforms.</h2>
+</div>
+<div id="outline-container-org5b6cf0b" class="outline-2">
+<h2 id="org5b6cf0b">The dividend is $0.522 per share. Rounding up to the nearest cent, it is $0.53 per share. The order for 300 shares at $12.73 is reduced by $0.53 to $12.20.</h2>
+</div>
+<div id="outline-container-org3a8db6d" class="outline-2">
+<h2 id="org3a8db6d">Market makers must immediately update quotes if a customer order improves the MM's existing bid or offer price.</h2>
+</div>
+<div id="outline-container-org1b78ea4" class="outline-2">
+<h2 id="org1b78ea4">The 5% policy is a guideline. Cases exist where a higher mark-up may be justified based on facts and circumstances.</h2>
+</div>
+<div id="outline-container-orgfd744a7" class="outline-2">
+<h2 id="orgfd744a7">The extended hours risk disclosure describes risks such as volatility that discourage retail investors from extended trading.</h2>
+</div>
+<div id="outline-container-org415e173" class="outline-2">
+<h2 id="org415e173">A discretionary order has aHere are the remaining explanations:</h2>
+</div>
+<div id="outline-container-org2b87205" class="outline-2">
+<h2 id="org2b87205">A discretionary order has an undisplayed discretionary price range, in addition to the displayed limit price. It seeks to access additional liquidity within that range.</h2>
+</div>
+<div id="outline-container-orga71a5ff" class="outline-2">
+<h2 id="orga71a5ff">Under the Manning Rule, if a firm trades for its own account at the same or better price than a held customer limit order, it must immediately thereafter execute the customer order on at least the same terms.</h2>
+</div>
+<div id="outline-container-org83a2a45" class="outline-2">
+<h2 id="org83a2a45">Stabilizing is a permissible pricing support activity in which underwriters may bid on a new issue, after proper disclosure, to prevent dramatic price declines.</h2>
+</div>
+<div id="outline-container-orgfea99d4" class="outline-2">
+<h2 id="orgfea99d4">An illegal stock pool requires coordinated action between traders to manipulate prices or create an artificial appearance of supply/demand.</h2>
+</div>
+<div id="outline-container-org67a3bc0" class="outline-2">
+<h2 id="org67a3bc0">The market maker's quote is improved by the $35.65 limit order. Therefore, the market maker must update its quote to reflect the new order's price and full size.</h2>
+</div>
+<div id="outline-container-org7758d01" class="outline-2">
+<h2 id="org7758d01">To qualify for a best execution exception, the broker-dealer must immediately deliver the customer limit order to a quotation system after receipt.</h2>
+</div>
+<div id="outline-container-org9fd0e00" class="outline-2">
+<h2 id="org9fd0e00">NSCC, a subsidiary of DTCC, provides centralized clearing and settlement for virtually all stock, ETF, corporate bond, and municipal bond trades in the U.S.</h2>
+</div>
+<div id="outline-container-org4726aa8" class="outline-2">
+<h2 id="org4726aa8">AON orders are exempt from the requirement to immediately display customer limit orders that improve on a market maker's quote.</h2>
+</div>
+<div id="outline-container-orgd8ac67d" class="outline-2">
+<h2 id="orgd8ac67d">Retail customers must provide written consent on an order-by-order basis prior to executing net trades. Verbal and negative consent letters are prohibited.</h2>
+</div>
+<div id="outline-container-orga64e29d" class="outline-2">
+<h2 id="orga64e29d">Open orders must be cancelled prior to reverse splits; they are not adjusted.</h2>
+</div>
+<div id="outline-container-org6b13780" class="outline-2">
+<h2 id="org6b13780">Trade confirmations must indicate if payment for order flow was received. Customers can request the details on a written basis.</h2>
+</div>
+<div id="outline-container-org9732bdd" class="outline-2">
+<h2 id="org9732bdd">Securities contracts due for delivery on holidays or Saturdays are settled on the next business day.</h2>
+</div>
+<div id="outline-container-org58dae09" class="outline-2">
+<h2 id="org58dae09">For a stop order to remain open, the market price must be above the stop price. Otherwise, the order would have already triggered.</h2>
+</div>
+<div id="outline-container-org1286d80" class="outline-2">
+<h2 id="org1286d80">On the ex-date, open orders below market are adjusted downward by the amount of the dividend. Here, the limit order will be adjusted from $30 to $29.85 and execute.</h2>
+</div>
+<div id="outline-container-org80c649f" class="outline-2">
+<h2 id="org80c649f">Market makers must post two-sided quotes from 9:30 am - 4:00 pm ET.</h2>
+</div>
+<div id="outline-container-org72022b4" class="outline-2">
+<h2 id="org72022b4">Best execution reviews do not include the number of shares executed in a particular market. Other factors like likelihood of execution and price improvement are relevant.</h2>
+</div>
+<div id="outline-container-orgc898efd" class="outline-2">
+<h2 id="orgc898efd">In a reverse split, all open orders are cancelled. They are not adjusted.</h2>
+</div>
+<div id="outline-container-orged41c13" class="outline-2">
+<h2 id="orged41c13">System hours begin at 4 am ET each trading day. So orders may be entered beginning at 4 am.</h2>
+</div>
+<div id="outline-container-orgfb3ce01" class="outline-2">
+<h2 id="orgfb3ce01">Municipal bonds, bank holding company securities, and direct participation programs are not subject to the Uniform Practice Code.</h2>
+</div>
+<div id="outline-container-orge5fa9e1" class="outline-2">
+<h2 id="orge5fa9e1">The risk disclosure must be provided to any customer who wishes to trade during extended hours.</h2>
+</div>
+<div id="outline-container-org1506850" class="outline-2">
+<h2 id="org1506850">The limit order to buy cannot be filled until the offer price drops to $52.85 or lower. It will rest on the books until then.</h2>
+</div>
+<div id="outline-container-org6de7f9b" class="outline-2">
+<h2 id="org6de7f9b">Government securities and options settle on a T+1 basis, one day after the trade date.</h2>
+</div>
+<div id="outline-container-org8fb72f8" class="outline-2">
+<h2 id="org8fb72f8">The firm could buy shares for its own account only if it immediately thereafter fills the same number of shares (or more) from the customer order, on the same terms.</h2>
+</div>
+<div id="outline-container-org7420055" class="outline-2">
+<h2 id="org7420055">In reviewing and comparing execution quality, the time of executions is not evaluated. Other factors like price improvement and likelihood of execution are considered.</h2>
+</div>
+<div id="outline-container-org2957186" class="outline-2">
+<h2 id="org2957186">The dividend is $0.162 per share. Rounding down to the nearest cent, the order is reduced from $75.25 to $75.08.</h2>
+</div>
+<div id="outline-container-org202ec64" class="outline-2">
+<h2 id="org202ec64">In a riskless principal trade, the two legs execute at the same price. In a net trade, the two legs execute at different prices.</h2>
+</div>
+<div id="outline-container-org7ea1ee0" class="outline-2">
+<h2 id="org7ea1ee0">Knowingly financing a manipulative operation, such as extending margin, is prohibited.</h2>
+</div>
+<div id="outline-container-orgb8ff95f" class="outline-2">
+<h2 id="orgb8ff95f">For OTC equities, a block order must meet both the share volume and market value thresholds - 10,000+ shares and $100,000+ in value. This order does not meet the value threshold.</h2>
+</div>
+<div id="outline-container-orge843610" class="outline-2">
+<h2 id="orge843610">If 10% or less of the market maker's displayed size, a customer limit order is exempt from display. This is the de minimis exception.</h2>
+</div>
+<div id="outline-container-orgbade7d4" class="outline-2">
+<h2 id="orgbade7d4">One test for interpositioning is whether a second, unnecessary broker-dealer was used in a way that denied the customer best execution.</h2>
+</div>
+<div id="outline-container-org44aa141" class="outline-2">
+<h2 id="org44aa141">For dividends worth 25% or more of the stock value, the ex-date is the first business day after the payable date.</h2>
+</div>
+<div id="outline-container-orgdc5154a" class="outline-2">
+<h2 id="orgdc5154a">The customer limit order improves the market maker's bid from 18.45 to 18.herefore, the quote must be updated to 18.48 - 18.63.</h2>
+</div>
+<div id="outline-container-org5ce8243" class="outline-2">
+<h2 id="org5ce8243">To require a size update, the order must be: equal to MM's price, the inside market, and &gt;10% of MM's size. Only the sell order for 200 shares meets all criteria.</h2>
+</div>
+<div id="outline-container-orgc85bfad" class="outline-2">
+<h2 id="orgc85bfad">If a firm allows online account opening and trading, the extended hours risk disclosure must be prominently posted on its website.</h2>
+</div>
+<div id="outline-container-org00487a0" class="outline-2">
+<h2 id="org00487a0">Special trading volume limits are not a risk of extended hours trading. The required risks to disclose relate to volatility, changing prices, lower liquidity, unlinked markets, news announcements and wider spreads.</h2>
+</div>
+<div id="outline-container-orgcc41e9d" class="outline-2">
+<h2 id="orgcc41e9d">Quote stuffing aims to slow down executions by flooding the market with orders and cancellations, allowing certain traders to take advantage.</h2>
+</div>
+<div id="outline-container-org5cf316c" class="outline-2">
+<h2 id="org5cf316c">Wash sales involve the sale and repurchase of the same security, with no change in beneficial ownership, to create the false appearance of activity or demand.</h2>
+</div>
+<div id="outline-container-orgb303703" class="outline-2">
+<h2 id="orgb303703">CNS allows for the automated, book-entry netting and settlement of broker-dealer transactions through a clearing agent such as NSCC.</h2>
+</div>
+<div id="outline-container-org52e493c" class="outline-2">
+<h2 id="org52e493c">GTMC orders may be entered beginning at 4 am but are only executable from 9:30 am to 4 pm ET.</h2>
+</div>
+<div id="outline-container-org85249f3" class="outline-2">
+<h2 id="org85249f3">In general, percentage mark-ups should be lower on transactions that are larger and involve higher priced securities.</h2>
+</div>
+<div id="outline-container-orgd508f21" class="outline-2">
+<h2 id="orgd508f21">WI fixed income transactions trade plus accrued interest on the expired portion of the current coupon.</h2>
+</div>
+<div id="outline-container-org86d9d98" class="outline-2">
+<h2 id="org86d9d98">Market makers have 30 seconds to update their quote after receiving an order for at least one round lot at their displayed price.</h2>
+</div>
+<div id="outline-container-org7dd5b55" class="outline-2">
+<h2 id="org7dd5b55">Best execution responsibilities remain with the firm placing the order, unless the customer provides specific routing instructions (directed order).</h2>
+</div>
+<div id="outline-container-org7a7012b" class="outline-2">
+<h2 id="org7a7012b">This is a riskless principal trade, in which both legs of the transaction execute at the same price.</h2>
+</div>
+<div id="outline-container-orgdff3971" class="outline-2">
+<h2 id="orgdff3971">A riskless principal trade that fills a customer order is considered a facilitated order and does not trigger obligations under the Manning Rule.</h2>
+</div>
+<div id="outline-container-org2528728" class="outline-2">
+<h2 id="org2528728">During extended hours, there is a high risk of extraordinary volatility around news events like earnings announcements. Stocks often reverse direction later.</h2>
+</div>
+<div id="outline-container-org78feaed" class="outline-2">
+<h2 id="org78feaed">Trade execution time is recorded on the order ticket. It may or may not be on the confirmation.</h2>
+</div>
+<div id="outline-container-org1dc9005" class="outline-2">
+<h2 id="org1dc9005">Two order size exceptions are odd-lots (less than 100 shares) and blocks (10,000+ shares).</h2>
+</div>
+<div id="outline-container-orgf1b80f8" class="outline-2">
+<h2 id="orgf1b80f8">If a limit order is executed upon receipt, it does not need to be displayed. Immediate execution is an exception to the display requirements.</h2>
+</div>
+<div id="outline-container-org3df0cec" class="outline-2">
+<h2 id="org3df0cec">For an order to be marketable, the limit price must equal or cross the opposite side of the market so it can execute immediately. This sell order cannot be filled right away.</h2>
+</div>
+<div id="outline-container-orgff44c1f" class="outline-2">
+<h2 id="orgff44c1f">ReferencHere are the remaining explanations:</h2>
+</div>
+<div id="outline-container-orgcc7e13f" class="outline-2">
+<h2 id="orgcc7e13f">Quote stuffing involves high frequency trading algorithms that overwhelm the market with orders/cancellations to slow down executions and enable favorable trades.</h2>
+</div>
+<div id="outline-container-orga772f26" class="outline-2">
+<h2 id="orga772f26">For equity markups/markdowns, firms should base pricing on the current market price, not the firm's cost basis.</h2>
+</div>
+<div id="outline-container-orgee79748" class="outline-2">
+<h2 id="orgee79748">Splitting orders cannot be done to increase payments or compensation. Other documented reasons are acceptable.</h2>
+</div>
+<div id="outline-container-org2e4cf68" class="outline-2">
+<h2 id="org2e4cf68">A midpoint peg order is priced at the midpoint between the NBBO. It executes at that midpoint or better.</h2>
+</div>
+<div id="outline-container-org3fe698d" class="outline-2">
+<h2 id="org3fe698d">A solicited trade involves a recommendation by the broker. An unsolicited trade is initiated entirely by the client.</h2>
+</div>
+<div id="outline-container-orgc5e5fc5" class="outline-2">
+<h2 id="orgc5e5fc5">Best execution factors do not include average spreads. They do include market character, size, number of markets checked, and accessibility.</h2>
+</div>
+<div id="outline-container-orgfb651f9" class="outline-2">
+<h2 id="orgfb651f9">Required risk disclosures relate to volatility, changing prices, liquidity, news, spreads - not specifically reduced costs.</h2>
+</div>
+<div id="outline-container-orgcc29f6a" class="outline-2">
+<h2 id="orgcc29f6a">Open buy limit orders below the market are reduced by the amount of a cash dividend on the ex-dividend date.</h2>
+</div>
+<div id="outline-container-org84068dd" class="outline-2">
+<h2 id="org84068dd">The Manning Rule does not apply if effective information barriers are in place, so proprietary traders are unaware of held customer limit orders.</h2>
+</div>
+<div id="outline-container-org371ad24" class="outline-2">
+<h2 id="org371ad24">GTMC orders must be entered by 4:00 pm ET. Orders entered after this time are rejected.</h2>
+</div>
+<div id="outline-container-org0794c9f" class="outline-2">
+<h2 id="org0794c9f">Documenting which trades are unsolicited protects brokers and helps demonstrate trades were not recommended unsuitably.</h2>
+</div>
+<div id="outline-container-org06067cc" class="outline-2">
+<h2 id="org06067cc">A midpoint peg executes at the midpoint between the best bid and offer, or better. Here, the midpoint is 42.36.</h2>
+</div>
+<div id="outline-container-orge2ae477" class="outline-2">
+<h2 id="orge2ae477">FINRA's best execution standard requires member firms to execute orders at prices as favorable as possible under prevailing market conditions.</h2>
+</div>
+<div id="outline-container-org693b639" class="outline-2">
+<h2 id="org693b639">Any order labeled as "stop" or "stop limit" must be triggered based on trades, not quotes. Alternative order types must be clearly distinguished.</h2>
+</div>
+<div id="outline-container-orgfcee84d" class="outline-2">
+<h2 id="orgfcee84d">Written consent must be obtained from retail customers before executing each net trade. Other methods are prohibited.</h2>
+</div>
+<div id="outline-container-org72d46b3" class="outline-2">
+<h2 id="org72d46b3">MDAY orders entered after 4 pm ET are immediately cancelled. They do not carry over or remain active in extended hours.</h2>
+</div>
+<div id="outline-container-orgf081af7" class="outline-2">
+<h2 id="orgf081af7">When the stop price is hit, a stop order becomes a market order. Stop limit orders become limit orders.</h2>
+</div>
+<div id="outline-container-org9a91d19" class="outline-2">
+<h2 id="org9a91d19">Market makers cannot revise a quote after receiving a marketable order until after filling the order. This is to prevent "backing away."</h2>
+</div>
+<div id="outline-container-org6097468" class="outline-2">
+<h2 id="org6097468">A stock pool is a coordinated manipulative scheme designed to influence share prices through artificial supply/demand.</h2>
+</div>
+<div id="outline-container-org51f55fa" class="outline-2">
+<h2 id="org51f55fa">Backing away involves failing to execute a quoted amount at the same or better price. Here, the lower share quantity constitutes backing away.</h2>
+</div>
+<div id="outline-container-org7000cea" class="outline-2">
+<h2 id="org7000cea">Purchasing shares based on non-public knowledge of an imminent block transaction is front-running.</h2>
+</div>
+<div id="outline-container-org692574d" class="outline-2">
+<h2 id="org692574d">Coordination among market makers to manipulate quote movements is known as quote rigging and is prohibited.</h2>
+</div>
+<div id="outline-container-org3beb185" class="outline-2">
+<h2 id="org3beb185">Upon partial execution, the remaining displayed portion of an order is decremented (reduced in share amount).</h2>
+</div>
+<div id="outline-container-orgf3b68f4" class="outline-2">
+<h2 id="orgf3b68f4">To qualify for the no-knowledge exception, proprietary traders must be separated from customer order flow by effective information barriers.</h2>
+</div>
+<div id="outline-container-org9849af5" class="outline-2">
+<h2 id="org9849af5">An AON limit order is exempt from immediate display if it betters the market maker’s quote.</h2>
+</div>
+<div id="outline-container-org16f8f67" class="outline-2">
+<h2 id="org16f8f67">On the ex-date, which is one business day before the record date, this buy limit order will be reduced by the $0.20 dividend.</h2>
+</div>
+<div id="outline-container-orgce03b91" class="outline-2">
+<h2 id="orgce03b91">When executing trades in an agency capacity, commissions charged must be fair and reasonable. They cannot consider the firm's profit.</h2>
+</div>
+<div id="outline-container-orgea3c523" class="outline-2">
+<h2 id="orgea3c523">Open orders below the market will not be adjusted if marked "Do Not Reduce" (DNR) for cash dividends.</h2>
+</div>
+<div id="outline-container-org5137c5e" class="outline-2">
+<h2 id="org5137c5e">A broker-dealer's profitability is not an acceptable factor when determining fair pricing for agency trades. Other factors like market conditions and security availability are relevant.</h2>
+</div>
+<div id="outline-container-org0aa2790" class="outline-2">
+<h2 id="org0aa2790">Stock exchanges must receive 10 days notice prior to the record date when dividends will be paid.</h2>
+</div>
+<div id="outline-container-org896e74f" class="outline-2">
+<h2 id="org896e74f">Pre-market hours on Nasdaq begin at 4 am ET. Market hours are 9:30 am - 4 pm ET.</h2>
+</div>
+<div id="outline-container-org4e00f7a" class="outline-2">
+<h2 id="org4e00f7a">To limit losses on a short position, the investor would place a buy stop order to repurchase the shares if the price trades at or above a specified stop price.</h2>
+</div>
+<div id="outline-container-orgc86c3b4" class="outline-2">
+<h2 id="orgc86c3b4">Matched trades involve placing buy and sell orders at the same time, at similar prices, to create the false impression of active trading.</h2>
+</div>
+<div id="outline-container-org063d9b7" class="outline-2">
+<h2 id="org063d9b7">When a dividend can be taken in either cash or securities, open orders below market are reduced by whichever value is greater.</h2>
+</div>
+<div id="outline-container-org55b2693" class="outline-2">
+<h2 id="org55b2693">Securities are typically deposited electronically with a clearing house for efficient transfer between brokerage firms.</h2>
+</div>
+<div id="outline-container-org66a70b7" class="outline-2">
+<h2 id="org66a70b7">Shareholders who purchase stock before the ex-dividend date will receive the upcoming dividend payment.</h2>
+</div>
+<div id="outline-container-org2b22e35" class="outline-2">
+<h2 id="org2b22e35">The extended hours risk disclosure must cover six specific types of risks at a minimum.</h2>
+</div>
+<div id="outline-container-org8814511" class="outline-2">
+<h2 id="org8814511">A directed order specifically instructs the broker-dealer to route the trade to a particular market, exchange or venue.</h2>
+</div>
+<div id="outline-container-org53b0181" class="outline-2">
+<h2 id="org53b0181">Creating the appearance of activity without an actual change in beneficial ownership is prohibited manipulative behavior.</h2>
+</div>
+<div id="outline-container-org8052937" class="outline-2">
+<h2 id="org8052937">Any unfilled portion of an MDAY order is returned to the entering party at 4 pm ET.</h2>
+</div>
+<div id="outline-container-org2c686aa" class="outline-2">
+<h2 id="org2c686aa">The de minimis threshold is 10% of the market maker's displayed quote size.</h2>
+</div>
+<div id="outline-container-org0d71a6d" class="outline-2">
+<h2 id="org0d71a6d">The 5% mark-up policy is a guideline. In some cases, a mark-up under 5% could still be considered unfair or unreasonable.</h2>
+</div>
+<div id="outline-container-orgb3a9296" class="outline-2">
+<h2 id="orgb3a9296">Negative consent letters, allowing net trading, may only be used with institutional customers according to FINRA rules.</h2>
+</div>
+<div id="outline-container-org12c5bfe" class="outline-2">
+<h2 id="org12c5bfe">Speculation and manipulation often impact prices more significantly in post-market hours between 4 pm - 6 pm ET.</h2>
+</div>
+<div id="outline-container-org6830eff" class="outline-2">
+<h2 id="org6830eff">The firm must document methods for ascertaining the best inter-dealer market when limited pricing information exists.</h2>
+</div>
+<div id="outline-container-orgf927770" class="outline-2">
+<h2 id="orgf927770">For a trade to be discretionary, the broker must have prior written approval from the client for discretionary trading authority.</h2>
+</div>
+<div id="outline-container-orgb555dcc" class="outline-2">
+<h2 id="orgb555dcc">CUSIP numbers are not usually on the order ticket. Other required details include number of shares, price, time, discretionary order notation, etc.</h2>
+</div>
+<div id="outline-container-orgcacda96" class="outline-2">
+<h2 id="orgcacda96">For ADR dividends and distributions, the ex-date is set by FINRA's Uniform Practice Code Committee.</h2>
+</div>
+<div id="outline-container-org35da0a9" class="outline-2">
+<h2 id="org35da0a9">Only orders below the market (buy limit, sell stop, sell stop limit) are adjusted for dividends. Orders above the market are not adjusted.</h2>
+</div>
+<div id="outline-container-orge5775f3" class="outline-2">
+<h2 id="orge5775f3">A negative consent letter must provide meaningful ways for the client to object to any net transaction.</h2>
+</div>
+<div id="outline-container-org6343c29" class="outline-2">
+<h2 id="org6343c29">Buy stop orderHere are the remaining explanations:</h2>
+</div>
+<div id="outline-container-orge27eb64" class="outline-2">
+<h2 id="orge27eb64">Buy stop orders are placed above the market price and are not adjusted for forward stock splits or cash dividends. Only orders below the market are adjusted.</h2>
+</div>
+<div id="outline-container-org869afed" class="outline-2">
+<h2 id="org869afed">Even partial knowledge of an imminent block transaction is enough to trigger a front-running violation if that knowledge is used for economic gain before the block trade is fully executed and reported.</h2>
+</div>
+<div id="outline-container-org1e5d1cc" class="outline-2">
+<h2 id="org1e5d1cc">Collusion refers to traders coordinating quotes or spreads, which gives them an unfair advantage over customers.</h2>
+</div>
+<div id="outline-container-org2396d5d" class="outline-2">
+<h2 id="org2396d5d">Buying puts in advance of a known block sale of stock is akin to shorting the stock. Therefore, it would constitute front-running based on non-public information.</h2>
+</div>
+<div id="outline-container-orgd5eef97" class="outline-2">
+<h2 id="orgd5eef97">Reviews of order execution quality must be conducted at least quarterly when using automated order routing.</h2>
+</div>
+<div id="outline-container-org373e185" class="outline-2">
+<h2 id="org373e185">For front-running purposes, a block trade is considered public only after the entire block is executed and reported.</h2>
+</div>
+<div id="outline-container-orgcf2689e" class="outline-2">
+<h2 id="orgcf2689e">The investor's limit price acts as the ceiling for downward adjustments of a pegged sell order.</h2>
+</div>
+<div id="outline-container-orgaf3f4dc" class="outline-2">
+<h2 id="orgaf3f4dc">An exception to displaying customer limit orders is for AON (all-or-none) orders.</h2>
+</div>
+<div id="outline-container-org0123242" class="outline-2">
+<h2 id="org0123242">Written consent must be obtained from retail customers on an order-by-order basis before executing net trades.</h2>
+</div>
+<div id="outline-container-org3503786" class="outline-2">
+<h2 id="org3503786">GTC orders remain active for one year unless completely filled or cancelled sooner.</h2>
+</div>
+<div id="outline-container-org5e30e4f" class="outline-2">
+<h2 id="org5e30e4f">FINRA's Uniform Practice Code Committee may cancel or terminate WI contracts under certain circumstances.</h2>
+</div>
+<div id="outline-container-orged6de0b" class="outline-2">
+<h2 id="orged6de0b">The Manning Rule applies anytime a firm permits limit order execution, including outside regular market hours.</h2>
+</div>
+<div id="outline-container-orgd7c2c9b" class="outline-2">
+<h2 id="orgd7c2c9b">For cash-settled trades, the ex-dividend date is one business day after the record date.</h2>
+</div>
+<div id="outline-container-orgfedb41a" class="outline-2">
+<h2 id="orgfedb41a">In a 3-for-2 split, the investor will receive 50% more shares. 5 original shares becomes 5 * (3/2) = 7 shares after rounding down fractions.</h2>
+</div>
+<div id="outline-container-org5007cb8" class="outline-2">
+<h2 id="org5007cb8">In a 3-for-2 split, the investor will receive 50% more shares. 5 original shares becomes 5 * (3/2) = 7.5 shares. Fractional shares are rounded down, so the adjusted order is for 7 shares.</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Pralay Patoria</p>
+<p class="date">Created: 2023-08-27 Sun 13:57</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
