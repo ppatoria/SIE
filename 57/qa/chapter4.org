@@ -1,0 +1,356 @@
+#+OPTIONS: num:nil loc:nil
+
+* Chapter 4 - Handling Customer Orders:
+
+** FINRA’s Conduct Rule
+FINRA Rule 2110 requires members to observe high standards of commercial honor and just and equitable principles of trade in the conduct of their business.
+
+**  Types of Orders
+*** Market Order
+**** Executes immediately at the best available price.
+**** Crosses the spread.
+*** Collared Order
+**** Market order that can execute within a specified price range, such as 5% of the NBBO.
+**** Protects against volatility.
+*** Limit Order
+**** Specifies a maximum price to buy or minimum price to sell.
+**** Remains on the books until executed or expired.
+*** Stop Order
+**** Activates into a market order once a specified stop price is hit.
+**** Used to limit losses or protect profits.
+*** Stop Limit Order
+**** Activates into a limit order once the stop price is hit.
+**** Provides control over execution price.
+*** Discretionary Order
+**** Displayed at one price but seeks to access additional liquidity at a more aggressive undisplayed price.
+*** Pegged Order
+**** Adjusts automatically based on market prices.
+**** Three types:
+***** primary,
+***** market,
+***** midpoint.
+*** Minimum Quantity Order
+**** Requires a minimum number of shares for execution.
+*** Time in Force
+**** Determines how long an order remains active.
+**** Examples: Day, GTC, IOC.
+
+** Paperwork for Customer Orders
+*** Order Ticket
+**** Records key details of customer order prior to execution.
+*** Trade Confirmation
+**** Provides customer with execution details after a trade.
+**** Must disclose payment for order flow if applicable.
+
+***  Display of Customer Limit Orders
+**** Customers' priced limit orders must be displayed,
+**** with exceptions for marketable, block, odd-lot, and "don't display" orders.
+*** Orders improving a firm's bid/offer must update quote within 30 seconds.
+**** De minimis orders (less than 10% of MM's displayed size) need not be shown.
+
+**  Trading Ahead of Customer Limit Orders (Manning Rule)
+*** Firms cannot trade for their own accounts at prices that would satisfy a held customer limit order, unless immediately thereafter executing customer order at same or better price.
+*** Minimum price improvement levels must be provided to avoid obligation.
+*** Exceptions exist including
+**** trading along,
+**** no knowledge,
+**** riskless principal,
+**** intermarket sweep orders.
+
+** Net Transactions with Customers
+*** Net transactions involve buying from one party at one price and selling to another party at a different price.
+*** Vary by customer:
+**** Retail customers must consent in writing on order-by-order basis.
+**** Institutional customers have more flexibility.
+
+** Fair Prices and Commissions
+*** 5% policy on markups/markdowns is a guideline only. Actual fairness determined based on facts and circumstances.
+*** When acting as agent, commissions must be fair and reasonable based on services rendered.
+
+** Extended Hours Trading
+*** Customers must receive disclosure on risks:
+**** lower liquidity,
+**** greater volatility,
+**** changing prices,
+**** unlinked markets,
+**** news announcements,
+**** wider spreads.
+
+** Ethics and Rules Involved in Customer Orders
+*** Must provide best execution, which involves checking multiple markets and venues. Directed orders excepted.
+*** Prohibited trading practices include
+**** manipulation,
+**** collusion between traders, and
+**** trading ahead of customers.
+*** Investment advisers have fiduciary duties, including
+**** disclosure of conflicts and
+**** trade approvals.
+
+** Uniform Practice Code (UPC) Rules
+*** Governs
+**** clearance,
+**** settlement, and
+**** trade processing.
+**** Most equity trades settled by NSCC/DTCC on T+2 basis.
+
+** Ex-clearing settlement requires
+*** written trade details and
+*** agreement between parties.
+*** When-issued contracts for new securities must be marked-to-market daily by sellers.
+
+** Adjustment of Orders
+*** Open orders below market price are adjusted for
+**** stock splits,
+**** dividends, and
+**** other corporate actions.
+*** Buy limits reduced by cash dividends.
+**** Share amounts recalculated for forward splits.
+*** Reverse splits cancel open orders.
+**** Special situations have variable treatments.
+
+
+
+Certainly, I can provide explanations for the remaining statements you've listed:
+
+1. **To lock in gains, the investor would place a sell stop order that becomes a market order if the price hits $85 or below. This would trigger a sale to protect profits.**
+   - This statement refers to a sell stop order, which is a type of order used by investors to limit potential losses or protect gains on a stock. When the stock's market price reaches or falls below the specified stop price of $85, the sell stop order is activated and becomes a market order. A market order is designed to execute at the best available price immediately. So, in this case, the investor is using the sell stop order to lock in gains by automatically selling the stock if its price falls to or below $85.
+
+2. **The board must declare a dividend, and the record date determines which shareholders receive it. Shareholders do not vote on dividends.**
+   - Dividends are typically paid to shareholders by a corporation. However, shareholders typically do not vote on whether or not to pay dividends. Instead, dividends are declared by the corporation's board of directors. Once the board declares a dividend, they also set a record date. Shareholders who are recorded as owners of the stock on the record date are entitled to receive the dividend. Therefore, the record date is crucial in determining which shareholders will receive the dividend.
+
+3. **Open buy orders below the market price are reduced by the amount of a cash dividend on the ex-date. So this limit order at $61.55 will be reduced by the $0.30 dividend to $61.25.**
+   - This statement explains how open buy orders below the current market price are adjusted for cash dividends on the ex-dividend (ex-date) date. When a cash dividend is declared, the stock's price typically drops by the amount of the dividend on the ex-date. In this case, the limit order to buy at $61.55 will be reduced by the $0.30 dividend, resulting in a new limit price of $61.25. This adjustment ensures that buyers do not pay the full market price before the dividend, which would not be fair since they will receive the dividend.
+
+4. **Spoofing involves briefly displaying quotes, with no intent to execute at that price, in order to manipulate prices.**
+   - Spoofing is a manipulative trading practice in which a trader or entity places orders to buy or sell securities with the intention of canceling those orders before they are executed. The purpose of spoofing is to create a false appearance of supply or demand in the market, which can influence other market participants and potentially manipulate the security's price. It is considered illegal and is a violation of market regulations.
+
+5. **Broker-dealers have a best execution obligation for any foreign security. Policies must stipulate the use of reasonable diligence in foreign markets.**
+   - Broker-dealers have a best execution obligation for all securities they handle, including foreign securities. This obligation requires them to use reasonable diligence in seeking the best possible execution of customer orders. When dealing with foreign securities, broker-dealers should have policies and procedures in place to ensure that they meet this best execution obligation, taking into account the unique characteristics and conditions of foreign markets.
+
+6. **Stock splits or reverse splits do not alter the total value of an investor's position, only the per-share price. The total value remains the same.**
+   - This statement correctly explains the impact of stock splits and reverse splits on an investor's position. In a stock split, the number of shares owned by an investor increases, but the per-share price decreases proportionally. In a reverse split, the number of shares decreases, but the per-share price increases proportionally. Importantly, these actions do not change the total value of the investor's position. The total value remains the same because the change in share quantity is offset by the change in per-share price.
+
+7. **An exception to the Manning Rule is available if proprietary traders are shielded behind effective information barriers and have no knowledge of held customer orders.**
+   - The Manning Rule, which relates to order execution, requires that if a broker-dealer trades for its own account at the same or better price as a held customer limit order, it must immediately execute the customer order at least on the same terms. However, an exception exists when proprietary traders (those trading for the firm's own account) are isolated from customer order flow through effective information barriers and have no knowledge of the held customer orders. In such cases, the Manning Rule does not apply.
+
+8. **The six key risks are lower liquidity, greater volatility, changing prices, unlinked markets, news announcements, and wider spreads. The risk that securities may lose value is not specific to extended hours trading.**
+   - This statement lists the key risks associated with extended hours trading. These risks include lower liquidity (fewer buyers and sellers), greater volatility (rapid price swings), changing prices (prices can be different from regular hours), unlinked markets (limited access to certain markets), news announcements (market-moving news outside regular hours), and wider spreads (the difference between bid and ask prices). While it's true that securities can lose value at any time, this statement correctly points out that this risk is not specific to extended hours trading but applies to all trading.
+
+9. **The ex-rights date is the first business day after the registration's effective date, assuming information is received with enough advance notice.**
+   - The ex-rights date is an important date in the context of rights offerings, which allow existing shareholders the opportunity to purchase additional shares at a discounted price. The ex-rights date is typically set as the first business day after the effective date of the registration statement filed with regulatory authorities. It is important to note that the ex-rights date can change depending on regulatory requirements and the timing of information dissemination.
+
+10. **Block size orders (10,000+ shares) are exempt from the requirement to display customer limit orders.**
+    - This statement indicates an exemption from the requirement to immediately display customer limit orders for block size orders, which are typically defined as orders involving 10,000 shares or more. Block orders are often considered large and can significantly impact the market, so they may be exempt from certain order display rules to prevent market disruption.
+
+If you have any more statements or questions, please feel free to ask.
+
+* A sell limit order entered below the market price would be adjusted downwards on the ex-dividend date. However, this is a sell limit order entered at $30, which is at or above the market price. Orders entered at or above the market price are not adjusted for cash dividends.
+* The mark-up is calculated as the sale price less the best available price to the customer (in this case, the best offer of 17.82), which equals $18.00 - $17.82 = $0.he 5% policy is a guideline - the actual mark-up may be higher or lower depending on facts and circumstances.
+* Interpositioning involves inserting an additional broker-dealer between the customer's order and the best available market, denying the customer best execution. This is usually done to generate extra commissions or markups.
+* A marketable limit order is one that can be filled immediately at the current market price. This buy order at $72.15 can be filled right away because the best offer is $72.15.
+* The one-second exception allows trade-throughs if the affected trading center displayed a quote inferior to the trade price within one second prior to the trade-through. This provides flexibility when quotes are changing very rapidly.
+* The CUSIP number, a security's unique identification code, is not required on the order ticket. Items like the account number, whether the trade was discretionary or solicited, time of order entry, etc. must be notated.
+* Best execution factors include the character of the market, size/type of transaction, number of markets checked, and quote accessibility. The number of shares executed in a particular market is not a consideration.
+* For retail net transactions, written consent must be obtained from the customer on an order-by-order basis before executing each trade. Verbal and negative consent letters are prohibited.
+* Market makers must update quotes to reflect customer limit orders within 30 seconds of receipt, unless an exception applies.
+* An exception is available if the customer's size is de minimis - no more than 10% of the displayed size. An exception does not exist for orders up to 20% of the size.
+* Good-till-market close (GTMC) orders may be entered beginning at 9:30 am ET. Orders entered earlier will be rejected.
+* To meet the de minimis exception of 10% of the quote size, a new order for at least 30 shares is required (10% of 200 shares is 20 shares, so 30 shares exceeds the threshold).
+* WI stands for "when, as and if issued" and indicates a new issue security for which the final IPO terms are pending. WI contracts must be marked-to-market while pending.
+* Retail customers must provide written consent on an order-by-order basis before "net" transactions can be executed by the broker-dealer.
+* It is prohibited to spread information known to be false or misleading, or that could improperly influence a security's market price.
+* Low-priced stock is not an exception to displaying customer limit orders for OTC equities. Exceptions include AON, odd-lot, and block size orders.
+* MGTC orders may be entered anytime from 4 am to 8 pm EST, and remain active for one year unless filled or cancelled sooner.
+* Broker-dealers must retain documentation of consents to net transactions for at least three years.
+* For debt securities, the mark-up or mark-down should be based on the security's prevailing market price, established by the firm's contemporaneous cost.
+* Entering limit orders to move the market and obtain beneficial execution on the other side defines the layering violation.
+* Market makers must update quotes to reflect customer limit orders within 30 seconds, unless an exception applies.
+* Investment advisers may only pay cash solicitation fees to third parties who refer clients if the arrangements are clearly disclosed to clients and agreed to by them.
+* For NMS stocks, the block order threshold is at least 10,000 shares and $200,000 in market value.
+* The prohibition against undisclosed joint accounts covers both formal and informal profit/loss sharing arrangements.
+* Advertisements that promote only selected profitable picks are misleading unless accompanied by a list of all recommendations made in the last 12 months.
+* The threshold for an institutional customer is $50 million in total assets. Banks, insurance companies, registered investment companies, and advisers are included.
+* Open orders below the market price must be adjusted on the ex-dividend date, before the market opens.
+* Sales made by prospectus at the stated public offering price are not subject to the 5% mark-up policy or fair pricing standards.
+* For institutions, consent for net trades may be provided through a negative consent letter that remains in effect until cancelled.
+* Marking-the-close is a manipulative violation that involves placing trades near the close to artificially impact the closing price.
+* Companies can declare dividends in cash, stock, goods produced by the company, or any combination.
+* Wash trades involve the sale and repurchase of the same security to create the appearance of activity or demand. They are prohibited manipulative activities.
+* During extended hours, limit orders are preferable to market orders because there is lower liquidity and higher volatility. Market orders carry higher execution risk.
+* The front-running prohibition remains in effect until the entire block order is filled and publicly reported. It begins when the firm has advance knowledge.
+* Industry fair practice rules require broker-dealers to buy and sell at fair prices, defined as prices as favorable as possible under prevailing market conditions.
+* A pump and dump scheme uses false information to inflate share prices so that promoters can "dump" shares on the public at a profit after the price is pumped up.
+* For cash dividends, fractional amounts are rounded up to the nearest cent and used to adjust open orders downward on the ex-date. Therefore, $0.115 is rounded up to $0.12.
+* Each principal trade by an investment adviser with a client's account must have the client's prior approval, not standing approval.
+* Advisers must disclose all actual or potential conflicts, whether or not they impact recommendations or compensation.
+* Investment advisers must disclose if they are acting as principal or agent, and obtain client consent for both types of trades.
+* The risk disclosure must be provided before a customer executes their first extended hours trade. It cannot be delayed.
+* The key difference between a regular limit order and a peg order is that the peg order price adjusts automatically as the market price changes.
+* Fair prices and commissions cannot consider what the customer can afford. Other relevant factors include market conditions, firm's expenses, and value of services rendered.
+* To locHere are the remaining explanations:
+* To lock in gains, the investor would place a sell stop order that becomes a market order if the price hits $85 or below. This would trigger a sale to protect profits.
+* The board must declare a dividend and the record date determines which shareholders receive it. Shareholders do not vote on dividends.
+* Open buy orders below the market price are reduced by the amount of a cash dividend on the ex-date. So this limit order at $61.55 will be reduced by the $0.30 dividend to $61.25.
+* Spoofing involves briefly displaying quotes, with no intent to execute at that price, in order to manipulate prices.
+* Broker-dealers have a best execution obligation for any foreign security. Policies must stipulate the use of reasonable diligence in foreign markets.
+* Stock splits or reverse splits do not alter the total value of an investor's position, only the per share price. The total value remains the same.
+* An exception to the Manning Rule is available if proprietary traders are shielded behind effective information barriers and have no knowledge of held customer orders.
+* The six key risks are lower liquidity, greater volatility, changing prices, unlinked markets, news announcements, and wider spreads. The risk that securities may lose value is not specific to extended hours trading.
+* The ex-rights date is the first business day after the registration's effective date, assuming information is received with enough advance notice.
+* Block size orders (10,000+ shares) are exempt from the requirement to display customer limit orders.
+* The 5% Policy applies to both listed and unlisted securities. It does not only apply when a "bona fide" market exists.
+* Prevailing market price refers to the dealer's contemporaneous cost to acquire the security.
+* A peg order that moves based on prices of a non-Nasdaq market maker is called a primary peg order.
+* The market maker's existing quote is not improved by the customer limit order at $35.herefore, the quote remains unchanged at $35.60 - $35.80.
+* For ex-clearing regular way trades, delivery is made at the office of the purchaser.
+* The customer order is below the market maker's existing quote and does not improve the price. Therefore, no update is required.
+* A net transaction allows the dealer to earn a profit with minimal risk by buying at one price and selling at a higher price.
+* All open orders must be cancelled by the close of business the day before the ex-date for a reverse split.
+* For institutions, consent for net trading may be oral or written, either before or after each trade.
+* The market maker must update just the size of its quote if an order is equal to its price, the inside market, and more than 10% of its displayed size.
+* Order receipt time is recorded in the OATS reporting system, not the trade confirmation.
+* GTMC orders may be executed until the closing cross at 4 pm ET. Orders entered after 4 pm will be rejected.
+* Appropriate disclosures and consents must be provided by all customers before executing net transactions on their behalf.
+* The order improves the market maker's bid, so full price and size must be displayed within 30 seconds.
+* Interpositioning means inserting an extra broker-dealer between the customer order and best market, denying best execution.
+* A market sell order executes against the best bid. So this order reduces the bid size from 400 to 100 shares.
+* Shifting trades between accounts with no change in beneficial ownership is a warning sign of manipulative trading. The goal is to create a false appearance of activity.
+* A transfer agent ID number is not found on an order ticket. Required details include quantity, price instructions, time, discretionary order notation, etc.
+* A stop-limit order turns into a priced order, not a market order, when the stop price is hit. It may or may not execute.
+* To require a size update, the order must be: equal to MM's price, the inside market, and >10% of MM's size. Only the buy order for 300 shares meets all criteria.
+* Consent documentation must be retained for at least 3 years from the date obtained or updated.
+* MGTC orders remain available for one year from entry unless completely filled or cancelled sooner.
+* Only orders below the market price (buy limit, sell stop, sell stop limit) are adjusted. The sell limit is not adjusted. The buy limit is adjusted down by $0.20.
+* To avoid a Manning violation, the MM could have traded at $10.755 or higher. The minimum price improvement is $0.01.
+* SHEX allows the order to remain active for a specified period of time such as one hour. It does not relate to any minimum fill size.
+* Securities transactions may be settled ex-clearing if both parties to the transaction agree.
+* Members must report interests in joint accounts, but account addresses are not required.
+* Securities are typically deposited with a clearing house for electronic transfer between brokers. Physical handling is rare.
+* Corporate event adjustments are made only to orders below the market - buy limit, sell stop, and sell stop limit.
+* The minimum price improvement is one penny for stocks $1 and above.
+* Performance advertisements must disclose the possibility of loss if they promote the potential for profits.
+* In determining mark-ups for principal trades, the prevailing market price should be the starting point.
+* Newly issued primary market securities often trade on a "when, as and if issued" (WI) basis before the final IPO terms are set.
+* The relevant inside market is the best bid/offer on the specific quotation system where the OTC market maker posts quotes. Not the NBBO across all platforms.
+* The dividend is $0.522 per share. Rounding up to the nearest cent, it is $0.53 per share. The order for 300 shares at $12.73 is reduced by $0.53 to $12.20.
+* Market makers must immediately update quotes if a customer order improves the MM's existing bid or offer price.
+* The 5% policy is a guideline. Cases exist where a higher mark-up may be justified based on facts and circumstances.
+* The extended hours risk disclosure describes risks such as volatility that discourage retail investors from extended trading.
+* A discretionary order has aHere are the remaining explanations:
+* A discretionary order has an undisplayed discretionary price range, in addition to the displayed limit price. It seeks to access additional liquidity within that range.
+* Under the Manning Rule, if a firm trades for its own account at the same or better price than a held customer limit order, it must immediately thereafter execute the customer order on at least the same terms.
+* Stabilizing is a permissible pricing support activity in which underwriters may bid on a new issue, after proper disclosure, to prevent dramatic price declines.
+* An illegal stock pool requires coordinated action between traders to manipulate prices or create an artificial appearance of supply/demand.
+* The market maker's quote is improved by the $35.65 limit order. Therefore, the market maker must update its quote to reflect the new order's price and full size.
+* To qualify for a best execution exception, the broker-dealer must immediately deliver the customer limit order to a quotation system after receipt.
+* NSCC, a subsidiary of DTCC, provides centralized clearing and settlement for virtually all stock, ETF, corporate bond, and municipal bond trades in the U.S.
+* AON orders are exempt from the requirement to immediately display customer limit orders that improve on a market maker's quote.
+* Retail customers must provide written consent on an order-by-order basis prior to executing net trades. Verbal and negative consent letters are prohibited.
+* Open orders must be cancelled prior to reverse splits; they are not adjusted.
+* Trade confirmations must indicate if payment for order flow was received. Customers can request the details on a written basis.
+* Securities contracts due for delivery on holidays or Saturdays are settled on the next business day.
+* For a stop order to remain open, the market price must be above the stop price. Otherwise, the order would have already triggered.
+* On the ex-date, open orders below market are adjusted downward by the amount of the dividend. Here, the limit order will be adjusted from $30 to $29.85 and execute.
+* Market makers must post two-sided quotes from 9:30 am - 4:00 pm ET.
+* Best execution reviews do not include the number of shares executed in a particular market. Other factors like likelihood of execution and price improvement are relevant.
+* In a reverse split, all open orders are cancelled. They are not adjusted.
+* System hours begin at 4 am ET each trading day. So orders may be entered beginning at 4 am.
+* Municipal bonds, bank holding company securities, and direct participation programs are not subject to the Uniform Practice Code.
+* The risk disclosure must be provided to any customer who wishes to trade during extended hours.
+* The limit order to buy cannot be filled until the offer price drops to $52.85 or lower. It will rest on the books until then.
+* Government securities and options settle on a T+1 basis, one day after the trade date.
+* The firm could buy shares for its own account only if it immediately thereafter fills the same number of shares (or more) from the customer order, on the same terms.
+* In reviewing and comparing execution quality, the time of executions is not evaluated. Other factors like price improvement and likelihood of execution are considered.
+* The dividend is $0.162 per share. Rounding down to the nearest cent, the order is reduced from $75.25 to $75.08.
+* In a riskless principal trade, the two legs execute at the same price. In a net trade, the two legs execute at different prices.
+* Knowingly financing a manipulative operation, such as extending margin, is prohibited.
+* For OTC equities, a block order must meet both the share volume and market value thresholds - 10,000+ shares and $100,000+ in value. This order does not meet the value threshold.
+* If 10% or less of the market maker's displayed size, a customer limit order is exempt from display. This is the de minimis exception.
+* One test for interpositioning is whether a second, unnecessary broker-dealer was used in a way that denied the customer best execution.
+* For dividends worth 25% or more of the stock value, the ex-date is the first business day after the payable date.
+* The customer limit order improves the market maker's bid from 18.45 to 18.herefore, the quote must be updated to 18.48 - 18.63.
+* To require a size update, the order must be: equal to MM's price, the inside market, and >10% of MM's size. Only the sell order for 200 shares meets all criteria.
+* If a firm allows online account opening and trading, the extended hours risk disclosure must be prominently posted on its website.
+* Special trading volume limits are not a risk of extended hours trading. The required risks to disclose relate to volatility, changing prices, lower liquidity, unlinked markets, news announcements and wider spreads.
+* Quote stuffing aims to slow down executions by flooding the market with orders and cancellations, allowing certain traders to take advantage.
+* Wash sales involve the sale and repurchase of the same security, with no change in beneficial ownership, to create the false appearance of activity or demand.
+* CNS allows for the automated, book-entry netting and settlement of broker-dealer transactions through a clearing agent such as NSCC.
+* GTMC orders may be entered beginning at 4 am but are only executable from 9:30 am to 4 pm ET.
+* In general, percentage mark-ups should be lower on transactions that are larger and involve higher priced securities.
+* WI fixed income transactions trade plus accrued interest on the expired portion of the current coupon.
+* Market makers have 30 seconds to update their quote after receiving an order for at least one round lot at their displayed price.
+* Best execution responsibilities remain with the firm placing the order, unless the customer provides specific routing instructions (directed order).
+* This is a riskless principal trade, in which both legs of the transaction execute at the same price.
+* A riskless principal trade that fills a customer order is considered a facilitated order and does not trigger obligations under the Manning Rule.
+* During extended hours, there is a high risk of extraordinary volatility around news events like earnings announcements. Stocks often reverse direction later.
+* Trade execution time is recorded on the order ticket. It may or may not be on the confirmation.
+* Two order size exceptions are odd-lots (less than 100 shares) and blocks (10,000+ shares).
+* If a limit order is executed upon receipt, it does not need to be displayed. Immediate execution is an exception to the display requirements.
+* For an order to be marketable, the limit price must equal or cross the opposite side of the market so it can execute immediately. This sell order cannot be filled right away.
+* ReferencHere are the remaining explanations:
+* Quote stuffing involves high frequency trading algorithms that overwhelm the market with orders/cancellations to slow down executions and enable favorable trades.
+* For equity markups/markdowns, firms should base pricing on the current market price, not the firm's cost basis.
+* Splitting orders cannot be done to increase payments or compensation. Other documented reasons are acceptable.
+* A midpoint peg order is priced at the midpoint between the NBBO. It executes at that midpoint or better.
+* A solicited trade involves a recommendation by the broker. An unsolicited trade is initiated entirely by the client.
+* Best execution factors do not include average spreads. They do include market character, size, number of markets checked, and accessibility.
+* Required risk disclosures relate to volatility, changing prices, liquidity, news, spreads - not specifically reduced costs.
+* Open buy limit orders below the market are reduced by the amount of a cash dividend on the ex-dividend date.
+* The Manning Rule does not apply if effective information barriers are in place, so proprietary traders are unaware of held customer limit orders.
+* GTMC orders must be entered by 4:00 pm ET. Orders entered after this time are rejected.
+* Documenting which trades are unsolicited protects brokers and helps demonstrate trades were not recommended unsuitably.
+* A midpoint peg executes at the midpoint between the best bid and offer, or better. Here, the midpoint is 42.36.
+* FINRA's best execution standard requires member firms to execute orders at prices as favorable as possible under prevailing market conditions.
+* Any order labeled as "stop" or "stop limit" must be triggered based on trades, not quotes. Alternative order types must be clearly distinguished.
+* Written consent must be obtained from retail customers before executing each net trade. Other methods are prohibited.
+* MDAY orders entered after 4 pm ET are immediately cancelled. They do not carry over or remain active in extended hours.
+* When the stop price is hit, a stop order becomes a market order. Stop limit orders become limit orders.
+* Market makers cannot revise a quote after receiving a marketable order until after filling the order. This is to prevent "backing away."
+* A stock pool is a coordinated manipulative scheme designed to influence share prices through artificial supply/demand.
+* Backing away involves failing to execute a quoted amount at the same or better price. Here, the lower share quantity constitutes backing away.
+* Purchasing shares based on non-public knowledge of an imminent block transaction is front-running.
+* Coordination among market makers to manipulate quote movements is known as quote rigging and is prohibited.
+* Upon partial execution, the remaining displayed portion of an order is decremented (reduced in share amount).
+* To qualify for the no-knowledge exception, proprietary traders must be separated from customer order flow by effective information barriers.
+* An AON limit order is exempt from immediate display if it betters the market maker’s quote.
+* On the ex-date, which is one business day before the record date, this buy limit order will be reduced by the $0.20 dividend.
+* When executing trades in an agency capacity, commissions charged must be fair and reasonable. They cannot consider the firm's profit.
+* Open orders below the market will not be adjusted if marked "Do Not Reduce" (DNR) for cash dividends.
+* A broker-dealer's profitability is not an acceptable factor when determining fair pricing for agency trades. Other factors like market conditions and security availability are relevant.
+* Stock exchanges must receive 10 days notice prior to the record date when dividends will be paid.
+* Pre-market hours on Nasdaq begin at 4 am ET. Market hours are 9:30 am - 4 pm ET.
+* To limit losses on a short position, the investor would place a buy stop order to repurchase the shares if the price trades at or above a specified stop price.
+* Matched trades involve placing buy and sell orders at the same time, at similar prices, to create the false impression of active trading.
+* When a dividend can be taken in either cash or securities, open orders below market are reduced by whichever value is greater.
+* Securities are typically deposited electronically with a clearing house for efficient transfer between brokerage firms.
+* Shareholders who purchase stock before the ex-dividend date will receive the upcoming dividend payment.
+* The extended hours risk disclosure must cover six specific types of risks at a minimum.
+* A directed order specifically instructs the broker-dealer to route the trade to a particular market, exchange or venue.
+* Creating the appearance of activity without an actual change in beneficial ownership is prohibited manipulative behavior.
+* Any unfilled portion of an MDAY order is returned to the entering party at 4 pm ET.
+* The de minimis threshold is 10% of the market maker's displayed quote size.
+* The 5% mark-up policy is a guideline. In some cases, a mark-up under 5% could still be considered unfair or unreasonable.
+* Negative consent letters, allowing net trading, may only be used with institutional customers according to FINRA rules.
+* Speculation and manipulation often impact prices more significantly in post-market hours between 4 pm - 6 pm ET.
+* The firm must document methods for ascertaining the best inter-dealer market when limited pricing information exists.
+* For a trade to be discretionary, the broker must have prior written approval from the client for discretionary trading authority.
+* CUSIP numbers are not usually on the order ticket. Other required details include number of shares, price, time, discretionary order notation, etc.
+* For ADR dividends and distributions, the ex-date is set by FINRA's Uniform Practice Code Committee.
+* Only orders below the market (buy limit, sell stop, sell stop limit) are adjusted for dividends. Orders above the market are not adjusted.
+* A negative consent letter must provide meaningful ways for the client to object to any net transaction.
+* Buy stop orderHere are the remaining explanations:
+* Buy stop orders are placed above the market price and are not adjusted for forward stock splits or cash dividends. Only orders below the market are adjusted.
+* Even partial knowledge of an imminent block transaction is enough to trigger a front-running violation if that knowledge is used for economic gain before the block trade is fully executed and reported.
+* Collusion refers to traders coordinating quotes or spreads, which gives them an unfair advantage over customers.
+* Buying puts in advance of a known block sale of stock is akin to shorting the stock. Therefore, it would constitute front-running based on non-public information.
+* Reviews of order execution quality must be conducted at least quarterly when using automated order routing.
+* For front-running purposes, a block trade is considered public only after the entire block is executed and reported.
+* The investor's limit price acts as the ceiling for downward adjustments of a pegged sell order.
+* An exception to displaying customer limit orders is for AON (all-or-none) orders.
+* Written consent must be obtained from retail customers on an order-by-order basis before executing net trades.
+* GTC orders remain active for one year unless completely filled or cancelled sooner.
+* FINRA's Uniform Practice Code Committee may cancel or terminate WI contracts under certain circumstances.
+* The Manning Rule applies anytime a firm permits limit order execution, including outside regular market hours.
+* For cash-settled trades, the ex-dividend date is one business day after the record date.
+* In a 3-for-2 split, the investor will receive 50% more shares. 5 original shares becomes 5 * (3/2) = 7 shares after rounding down fractions.
+* In a 3-for-2 split, the investor will receive 50% more shares. 5 original shares becomes 5 * (3/2) = 7.5 shares. Fractional shares are rounded down, so the adjusted order is for 7 shares. 

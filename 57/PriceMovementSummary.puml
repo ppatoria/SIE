@@ -1,0 +1,71 @@
+* Price movement rules and/regulations.
+
+** Minimum price increments:
+*** $0.01 for prices $1+,
+*** $0.0001 for prices below $1
+
+** Trading Center Access Fees Limit
+*** $0.003/share
+
+** LULD
+*** Price Movement / Bands
+**** above $3
+***** Tier1
+****** reference price 5% (10% open/close)
+***** Tier2
+****** Ref Price 10% (20% open/close)
+**** $0.75 - $3
+***** 20% (40% open/close)
+**** below $0.75
+***** less of ($0.15 or 75%) ($.30 or 75% at the open /close)
+*** Reference Price
+**** 5 minute moving average is recalculated every 30 seconds.
+**** updated if new reference price is at least 1% higher or lower than the old one.
+*** Halt Durations
+**** Limit State 15 Seconds
+**** LULD Halt 5 minutes
+
+** Circuit Breakers
+
+*** Price Movements
+**** Levels
+***** 7% drop in S&P index => Level 1
+***** 13% drop in S&P index => Level 2
+***** 20% drop in S&P index => Level 3
+
+**** if before 3:25 pm
+***** Level 1 or Level 2
+****** halts market 15 mins
+***** Level 3
+****** Close market rest of the day
+**** If after 3:25 PM
+***** Level 1, 2 and 3:
+***** Close market rest of the day
+
+** Cleanrly Errorneous Numerical Guidelines
+*** Listed Equities
+****  above $0.00 - including $25
+***** Normal Market Hours  : 10%
+***** Outside Market Hours : 20%
+**** above $25 - including $50
+***** Normal Market Hours  : 5%
+***** Outside Market Hours : 10%
+**** above $50
+***** Normal Market Hours  : 3%
+***** Outside Market Hours : 6%
+*** OTC
+**** $0.9999 and under
+***** 20%
+**** $1–$4.9999
+***** Low end of band: 20%
+***** High end of band: 10%
+**** $5–$74.9999
+***** 10%
+**** $75–$199.9999
+***** Low end of band: 10%
+***** High end of band: 5%
+**** $200–$499.9999
+***** 5%
+**** $500–$999.9999
+***** Low end of band: 5%
+***** High end of band: 3%

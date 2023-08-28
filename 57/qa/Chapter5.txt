@@ -1,0 +1,2587 @@
+5. Trade Reporting
+A member firm has continuing regulatory obligations after trade execution.
+Trades in equity securities must be reported to the appropriate trade reporting
+facility for dissemination to other firms, investors, and regulators. This chapter
+will cover the following topics:
+◆ Reporting transactions to the appropriate facility
+◆ Deadline to report a trade
+◆ Appropriate modifiers when reporting trades
+◆ Additional regulatory reporting for executed transactions
+5.1 Trade Reporting Technologies
+The vast majority of trades are executed and subsequently reported through an
+exchange, such as Nasdaq or NYSE. For these trades, member firms have no
+reporting obligations.
+However, for over-the-counter transactions in exchange-listed and OTC equities,
+the member firm itself has the obligation to file a trade report. Broker-dealers
+use a number of different technological facilities to report trades.
+5.1.1 Reporting Transactions in NMS Stocks
+For NMS stocks, firms can report trades using one of three facilities:
+◆ FINRA/Nasdaq Trade Reporting Facility
+◆ FINRA/NYSE Trade Reporting Facility
+◆ Alternative Display Facility (ADF)
+Although Nasdaq and NYSE operate competing facilities, trades in NMS stocks
+can be reported to either location, or to the ADF.
+Knopman Note: If a firm’s primary reporting facility is having an
+outage the firm may continue to trade provided that it can report to
+a secondary facility. Alternatively, firms may stop executing until the
+problem is resolved or can route orders to another exchange or FINRA
+facility that is able to effectively report trades.
+167
+Chapter 5
+Trade Reporting
+5.1.1.1 Trade Entry
+Most firms use trade reporting software to enter trades into a reporting facil-
+ity. For example, trade reports may be submitted to the FINRA/Nasdaq TRF via
+the Nasdaq OMX ACT Workstation, which disseminates transaction reports. A
+screenshot of the ACT software can be found below.
+168
+This screenshot shows how the firm can enter the required information in a trade
+report, including the following:
+◆ Stock symbol
+◆ Number of shares
+◆ Price of the transaction
+◆ Name of contraparty (firm on other side of transaction)
+◆ Indication that the transaction is a buy, sell, or cross, and if applicable,
+sell short or sell short exempt
+◆ Expected settlement
+◆ Time of execution (in hours, minutes, seconds, and milliseconds), and
+◆ Any necessary modifiers, discussed shortly
+FINRA/NYSE TRF and ADF use trade entry screens similar to the one shown
+above.
+5.1.2 Reporting Transactions in OTC Equities
+FINRA operates the OTC Reporting Facility (ORF) for transactions in OTC equi-
+ties, which include all equities that are not listed on an exchange, except for
+restricted stock.
+The rules for OTC trade reporting are almost identical to those for NMS stocks.
+Both the TRF and ORF are open from 8:00 am–8:00 pm.
+Knopman Note: The TRF and ORF are open from 8:00 am–8:00 pm. The
+ADF is open from 8:00 am–6:30 pm.
+5.2 Reporting Trades to TRF
+In this section, the term TRF includes both the FINRA/Nasdaq TRF and the
+FINRA/NYSE TRF. The FINRA rules that govern the two systems are identical.
+Knopman Note: FINRA’s Trade Reporting Facility (TRF) provides a
+mechanism for reporting transactions (including trades in Nasdaq and
+other exchange-listed securities) that occur off an exchange (i.e., not
+on the exchange itself). For example, an NMS stock that trades off the
+exchange will be reported to the TRF.
+The NYSE will not report a trade to the FINRA/Nasdaq TRF. Trades on the
+floor of the exchange are reported to the consolidated tape.
+5.2.1 Timely Transaction Reporting
+The deadline for reporting transactions varies based on the time of day. TRF
+hours of operation are 8:00 am–8:00 pm, ET.
+All reportable transactions not reported within the required time period must be
+marked late, with the appropriate modifier. If FINRA determines a firm has a pat-
+tern of late reporting, the firm could be subject to disciplinary action. Exceptional
+circumstances that may excuse late reports are determined on a case-by-case
+basis but include instances of system failure or unusual market conditions with
+regard to a particular security or the entire market.
+5.2.1.1 Transaction Reporting When TRF Is Open
+When TRF is open (i.e., 8:00 am–8:00 pm), member firms must report transac-
+tions to the TRF as soon as possible, but no later than 10 seconds after execution.
+If the TRF is unavailable due to a technical problem, a firm can report trades by
+calling the TRF Operations Department.
+Knopman Note: TRF hours of operation are 8:00 am–8:00 pm.
+Chapter 5
+Trade Reporting
+169
+Chapter 5
+Trade Reporting
+170
+5.2.1.2 Transaction Reporting When TRF Is Closed
+Transactions executed while the TRF is closed (i.e., between 8:00 pm–8:00 am
+the next business day) are required to be reported by 8:15 am—within the first 15
+minutes—the next time the TRF is open. For example, a trade executed at 7:00
+am on Monday would need to be reported by 8:15 am that Monday morning.
+Trades executed between 8:00 pm and midnight must be designated as/of in the
+trade report, indicating the trade is being reported after the execution date. For
+example, a trade executed at 9:00 pm on Tuesday would need to be reported by
+8:15 am Wednesday morning with an as/of notation. The same applies for any
+trades executed on a non-business day.
+Knopman Note: A trade report is marked as/of when the trade occurred
+earlier than the current day (e.g., yesterday) or when reporting the
+reversal of a trade from a previous day.
+5.2.2 Transactions Executed Outside Normal Market Hours
+Normal market hours for equity trading are 9:30 am–4:00 pm, ET. Trades exe-
+cuted outside normal market hours must be denoted with a modifier to indicate
+this. The modifier will be entered on the ACT software, or ACT-equivalent trade
+report screen, that was shown earlier in this chapter. In this specific instance, a
+.T modifier must be selected. Modifiers will be discussed in greater detail shortly.
+5.2.3 Untimely Transaction Reporting
+Trades not reported in a timely fashion are considered late and must include the
+appropriate modifier indicating as much. For trades executed during normal
+market hours, a .Z modifier indicates a late report. For trades executed outside
+normal market hours, a .U modifier indicates a late report (you can remember
+.T is timely and .U is untimely).
+Example
+Party A and B execute a trade at 4:01:23 pm. The trade report is entered at
+4:03:01 pm. This report requires a .U modifier because the trade was reported
+late (more than 10 seconds after execution).
+Transactions that are not reported on the required date (i.e., on the trade date
+for pre-8:00 pm trades or on T + 1 for post-8:00 pm trades) must be reported as
+as/of trades on a later date. This is commonly notated as T + N.
+Knopman Note: A trade executed at 3:58 pm but reported at 4:10 would
+get a .Z modifier since it was executed during normal market hours.
+Remember, a pattern of late reporting without reasonable justification or excep-
+tional circumstances may subject the firm to disciplinary action.
+Knopman Note: FINRA considers several factors for consequences for
+late trading reporting–including the trade complexity.
+5.2.4 Summary of Trade Reporting Deadlines
+The chart below summarizes when trades must be reported:
+Knopman Note: Candidates should be familiar with trade reporting rules
+and appropriate uses of the .Z, .T, and .U modifiers.
+Trade Execution Time
+Midnight–7:59:59 am
+8:00 am–9:29:59 am
+9:30 am–4:00 pm
+4:00:01 pm–8:00 pm
+8:01:01 pm–11:59:59 pm
+Reporting Requirement
+8:15 am
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+By 8:15 am on T + 1
+Designated “as/of”
+Report Time
+8:00 am–8:15 am on trade date
+After 8:15 am
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+8:00 am–8:15 am on T + 1
+After 8:15 am on T + 1
+Trade
+Modifier
+.T
+.U
+.T
+.U
+None
+.Z
+.T
+.U
+.T
+.U
+5.2.5 Form T Reporting Obligations
+All members must report trades to the Market Regulation Department on Form
+T when electronic submission is not possible. Manual submissions are necessary
+when, for example, the ticker symbol for the security is no longer available or a
+market participant identifier is no longer active.
+Form T should not be used for any other purpose.
+Knopman Note: Form T is used to report OTC trades that cannot be
+submitted electronically.
+Chapter 5
+Trade Reporting
+171
+Chapter 5
+Trade Reporting
+172
+5.2.6 Modifiers for Trade Reporting
+Modifiers are required to indicate additional information regarding a transaction.
+Trade reporting modifiers are summarized in this table:
+.C
+.F
+.J
+.M
+.N
+.P
+.Q
+.T
+.U
+.W
+.X
+.Z
+Cash trade option (i.e., same-day settlement)
+Intermarket sweep order
+Sub-penny designator
+Nasdaq official closing price
+Next-day settlement
+Prior reference price
+Nasdaq official opening price
+Timely trade report executed outside normal market hours
+Untimely trade report executed outside normal market hours
+Weighted average price/stopped stock
+Cross trade
+Normal-market-hours trade reported late
+Knopman Note: A trade report will identify whether a trade was a long
+sale or short sale. Note that there is not a specific trade modifier used to
+identify a short sale.
+Some of these modifiers have unique requirements, as indicated in the following
+sections.
+Knopman Note: There are various modifiers to indicate non-regular way
+settlement:
+• .N indicates next-day settlement.
+• .C indicates cash settlement, which means the trade settles the same
+day that it is executed.
+5.2.6.1 .P—Prior Reference Price
+The prior reference price (PRP) modifier is used to indicate that the execution
+price is based on the price of the stock at a time other than the execution time,
+such as a price from earlier in the day. The most common example of the use of
+this modifier is for a late execution. For example, if a trader receives a market
+order from a client at 10:00 am but forgets to enter the order until 2:00 pm, the
+firm would likely honor the price of the security at 10:00 am. This trade would be
+designated .P to indicate that the execution price is not based on the 2:00 pm
+price.
+When using the PRP modifier, the trade report must include both the reference
+time (i.e., the time in the day used to price the trade) and the execution time.
+For example, if a trade is executed for a client at 11:00 am, but should have been
+executed at 10:55 am, the firm should report 10:55 am as the prior reference time
+and 11:00 am as the execution time. In effect, two times are reported for PRP
+trades. An exception to this is for trades executed within 10 seconds of the prior
+reference time. In this case, the PRP modifier is not required.
+The PRP modifier is also used to execute on-open orders if the firm does not
+receive the opening price information immediately after the open. For example,
+a market-on-open order executed at 9:35 am but at the opening price would
+include the PRP modifier, a reference price of 9:30 am, and an execution time of
+9:35 am.
+A PRP modifier is also used to indicate exemptions from Reg NMS Rule 611 (the
+Order Protection Rule) for error corrections executed on the same day as the
+original transaction.
+Knopman Note: A trade report with a .P (i.e., PRP) modifier will include
+both the actual execution time and the reference time; the price
+reported will be the execution price.
+Example
+A client places an order to buy stock at 11:00 am. At 11:30 am, the trader real-
+izes that the order wasn’t executed. The trade can be executed at the 11:00 am
+price with a .P modifier indicating both times.
+5.2.6.2 .W Modifier
+The .W modifier has two distinct uses:
+◆ Stop stock transactions
+◆ Weighted average price transactions
+.W—Stop Stock: A stop stock transaction is the result of an order that a mem-
+ber and another party agree will be executed at a specific price or better and is
+subsequently executed at that price. In a typical stop stock trade, the market
+maker will guarantee the client a fill at a specific price and then give the client
+an opportunity to look for a better price in the market.
+Example
+Market Maker A guarantees that it will fill a customer order to buy 100 shares
+of DEF at $10.75. The customer can then go look for a cheaper price in the
+market. Absent finding a price better than $10.75, the customer will return to
+Market Maker A and have the order filled at $10.75.
+Similar to the .P modifier, a .W modifier will include two times—the actual exe-
+cution time and the time the parties agreed to the stop stock price.
+Chapter 5
+Trade Reporting
+173
+Chapter 5
+Trade Reporting
+For trades that are executed within 10 seconds of the agreement to stop, the .W
+modifier is not required and only the time of execution must be reported.
+The time of the stop stock price can be reported in seconds, since the price is usu-
+ally negotiated live, whereas the execution time will be reported in milliseconds.
+Knopman Note: It is important to note that a trade report for a stop
+stock transaction will include both the time at which the price was
+agreed to and the actual execution time.
+.W—Weighted Average Price: Occasionally, market makers will execute trades
+for clients at a weighted average price or at a price based on a special formula.
+For example, to execute a large trade for a customer, the market maker could
+accumulate the shares in the open market through multiple executions and then
+sell to the client at the weighted average price of all the transactions. This price
+is referred to as the volume weighted average price (VWAP).
+Example
+A customer enters an order to purchase 12,000 shares of ABC, Inc., common
+stock. The market maker purchases stock in the open market in multiple
+executions, as follows:
+Time
+ Shares
+ Price
+ Total Cost
+10:01:30
+ 1,500
+ $14.75
+ $22,125
+10:01:55
+ 2,500
+ $14.90
+ $37,250
+10:02:25
+ 1,000
+ $14.80
+ $24,800
+10:02:55
+ 4,000
+ $15
+ $60,000
+10:03:00
+ 3,000
+ $14.92
+ $44,760
+Total
+ 12,000
+ $178,935
+As indicated, the firm was able to accumulate the 12,000 shares for the
+customer in five transactions. The market maker then sells the shares to the
+client at the weighted average price, calculated as $178,935/12,000 = $14.91.
+In total, six transactions would be reported: five purchases by the market
+maker as indicated in the table and one sale by the market maker to the
+customer at the weighted average price for all 12,000 shares. Only the sale to
+the customer would require the .W modifier.
+In cases where the client and market maker have a compensation agreement,
+the reported price would be the net price, including the compensation (i.e.,
+mark-up).
+174
+5.2.7 Responsibility for Trade Reporting
+The executing party is required to report the transaction. The executing party
+is defined as “the member that receives an order for handling or execution or is
+presented an order against its quote, does not subsequently re-route the order,
+and executes the transaction.”
+In a transaction where it is unclear who the executing party is (e.g., one negoti-
+ated via telephone), the seller is responsible for reporting the trade, unless the
+parties reach a different agreement.
+When a broker-dealer receives an order and executes the order as principal, it
+is considered the executing party. Likewise, if a broker-dealer receives an order
+and executes as agent by matching with another order, it is also considered the
+executing party.
+If a negotiation exists between the parties, it is possible that the executing party
+could be the broker-dealer that initially placed the order.
+Example
+Broker-Dealer 1 is offering ACME Corp, an OTC security, at 10.52. Broker-
+Dealer 2 places an order with Broker-Dealer 1 to buy ACME Corp, but not at
+10.52. Rather, it bids 10.49. Broker-Dealer 1 decides to accept the price of 10.49
+and executes with Broker-Dealer 2.
+In this scenario, Broker-Dealer 2 is the executing party and must report the
+trade within 10 seconds of execution. Even though Broker-Dealer 1 initially
+received an order, the execution was eventually done against a quote pro-
+vided by Broker-Dealer 2, at 10.49.
+The responsibility for timely trade reporting lies with the executing party. The two
+sides of a trade are denoted as EPID (executing party) and CPID (contraparty).
+Knopman Note: In a transaction between a member firm and a non-
+member firm, the member firm will always assume the role of the
+executing party.
+5.2.7.1 Give-Up Relationship
+Firms may engage other member firms to report transactions on their behalf.
+This is referred to as a give-up relationship. In order to enter into a give-up rela-
+tionship, the parties must execute a written agreement and submit it to FINRA.
+Knopman Note: A give-up agreement allows one broker-dealer to allow
+another to report a trades on its behalf.
+Chapter 5
+Trade Reporting
+175
+Chapter 5
+Trade Reporting
+When a firm gives up reporting responsibility to another firm, the trade is still
+reported under the MPID of the firm that traded (not the reporting firm).
+The member who has given up reporting responsibility, however, is still respon-
+sible for the transaction submitted on its behalf. If the trade is not submitted in
+compliance with FINRA regulations, the initial firm can be subject to disciplinary
+action, along with the firm who actually reported the trade.
+Knopman Note: In a give-up relationship the trade is still reported under
+the MPID of the firm that executed the trade (not the reporting firm).
+5.2.8 Reporting Capacity
+Market makers can execute trades for customers in many different capacities,
+including agency, principal, and riskless principal. The manner in which a trade
+is reported to the TRF will differ based on capacity.
+5.2.8.1 Agency Transactions
+For agency trades, where the firm matches up a buyer and seller, the transaction
+is reported excluding the commission.
+Example
+Broker-Dealer A sells 1,000 shares to a client as agent for $37.50 per share, plus
+a commission of $10. The trade would be reported as 1,000 shares at $37.50.
+5.2.8.2 Principal Transactions
+For principal transactions, where the market maker executes out of inventory,
+the reported price will exclude any mark-up or mark-down. For purchases by a
+broker-dealer, the mark-down is added back to determine the reportable pur-
+chase price.
+Example
+Broker-Dealer A buys as principal 500 shares from a client at $39, including a
+$0.50 mark-down per share. The transaction would be reported as 500 shares
+at $39.50, since the mark-down is excluded from the trade report.
+When the broker-dealer sells as principal, the mark-up is subtracted from the
+net price to determine the true sales price of the stock.
+Example
+Broker-Dealer A sells as principal to a client 5,000 shares at $60, including a
+$2 mark-up. The trade would be reported as 5,000 shares at $58.
+176
+5.2.8.3 Riskless Principal Trades
+As described earlier, a riskless principal trade is one where a member, already
+having received an order to buy, purchases the security as principal and fills the
+existing order at the same price. A trade would also be riskless principal in the
+opposite scenario, where the member sells in the market having already received
+a sell order from a customer.
+Knopman Note: Riskless principal trades are permitted for NMS stocks
+and OTC equities, including penny stocks.
+Even though a riskless principal trade consists of two legs, it is generally treated
+as a single transaction, as the shares instantaneously pass through the firm’s
+inventory. Care must be taken to ensure that the volume of the trade is not dou-
+ble-counted. Therefore, the trade is generally reported as one transaction.
+Alternatively, a riskless principal trade can be reported as two transactions, pro-
+vided that one of the legs is identified as a riskless principal trade. The initial leg
+of the trade will be reported the same as any other trade (agency or principal) and
+disseminated for trade volume information. The second leg will be reported as
+riskless principal, but will be identified as a clearing-only report or a non-tape,
+non-clearing report. By reporting with these specifications, only the initial leg
+will be recorded for purposes of disseminating trading volume. Reporting the
+second leg is for informational purposes only.
+Example
+Broker-Dealer A sells as a principal 100 shares to another member at $40 to
+fill an existing customer order. The firm simultaneously buys 100 shares as
+principal from a customer at $40, less a mark-down of $1.50. This trade can
+be reported in two ways:
+1. Report 100 shares at $40, capacity riskless principal
+2. Report two trades as follows:
+a. 100 shares as principal at $40 (leg 1)
+b. 100 shares at $40 as riskless principal, identified as a non-clearing
+and non-tape or clearing-only report (leg 2)
+If one leg of the trade is executed on an exchange, then that leg will be reported
+by the exchange. The non-tape report (the second leg) will be reported by the
+member firm.
+If a broker-dealer executes a riskless principal trade on behalf of other mem-
+ber firms, it is required to submit non-tape reports identifying the other firms
+involved in the trade.
+Chapter 5
+Trade Reporting
+177
+Chapter 5
+Trade Reporting
+Knopman Note: Make sure to review how trade reporting works for
+riskless principal transactions.
+5.2.8.4 Give-Up Trades
+As discussed earlier, a give-up trade is when the executing broker reports a trade
+on behalf of another broker as if the executing broker actually did the trade.
+Example
+Broker A gets a buy order from a client but is too busy to place the trade, so
+she asks Broker B, who isn’t as busy, to execute the order. Broker B then buys
+the stock from Broker C on behalf of Broker A’s client. Although Broker B
+places the trade, he must give up the transaction and report it as if Broker A
+placed the trade. Therefore, the transaction is recorded as if Brokers A and C
+made the trade, even though Broker B executed it.
+5.2.8.5 Step-Outs
+A step-out refers to the execution of a large order by several firms, each assigned
+portions of the trade by another brokerage firm. In step-out trading, each bro-
+kerage receives credits or commissions for the share of the trade that it executes.
+Step-out trading can also refer to an order that is executed entirely by one firm
+but that will then allocate all or part of the position to the client’s account at
+another firm. Put differently, a step-out transfers one client’s shares between
+accounts at two different firms—there is no exchange of shares and funds and
+no change in beneficial ownership.
+Example
+Safe Asset Management (SAM) holds trading accounts at ABC Brokerage and
+XYZ Brokerage. SAM instructs ABC to purchase 300,000 shares of Microsoft,
+but to step out of 100,000 shares to XYZ. This means that ABC will buy 300,000
+shares on behalf of SAM, but will then transfer 100,000 of those shares into
+SAM’s account at XYZ.
+5.2.9 Transactions Exempt from Trade Reporting
+The following transactions are not required to be reported to the TRF:
+◆ Primary and follow-on offerings (however, shelf offerings are reported)
+◆ Private placements
+◆ Transactions reported on or through an exchange (e.g., NYSE)
+◆ Transactions executed via a tender offer
+◆ Transfers of securities under the jurisdiction of a bankruptcy court,
+178
+◆provided that the asset purchase agreement is not based on the
+security’s current market price on or after the effective date
+Transfers of securities for redeeming an instrument on which the
+security is based (e.g., ADRs, ETFs)
+Some transactions are reported for the purpose of regulatory fee assessments
+but not for publication and dissemination. These are:
+◆◆◆Transactions for which the buyer and seller have agreed to trade at a
+price substantially unrelated to the current market for the security, e.g.,
+to enable the seller to make a gift
+Transactions executed upon the exercise of an option or any other right
+to acquire securities (e.g., rights or warrants)
+Transfers of proprietary securities where the transfer 1) is made in
+connection with a merger or an acquisition and 2) is not part of a trading
+or investment strategy. Members must give FINRA at least three business
+days’ advance written notice of their intent to use this exception,
+including the reasons their transfer meets the terms of the exception.
+Knopman Note: Be sure to review the list above of which transactions
+are exempt from trade reporting. Note that some of these transactions
+are reported for purpose of regulatory fee assessment, but not for
+publication and dissemination.
+Knopman Note: If Party A wishes to give Party B a gift by selling securities
+at a price substantially different from the current market price, the trade
+must still be reported for fee assessment purposes. These may be referred
+to as “away from the market sales.”
+Who would report such a trade? In this case, the executing party (Party
+A) is required to report the transaction. If, however, only one party to the
+trade is a reporting member, the reporting member is required to report
+the trade.
+5.2.10 Inclusion of Transaction Fees
+The price reported in a transaction will always exclude the transaction fee.
+Example
+A firm that simultaneously receives an order to buy 300 shares with a $0.03
+commission and sell 300 shares with a $0.03 commission would report both
+trades at the trade price, excluding the $0.03 commission.
+Knopman Note: Trade reports do not include transaction fees.
+Chapter 5
+Trade Reporting
+179
+Chapter 5
+Trade Reporting
+FINRA members may agree in advance to transfer a transaction fee through the
+submission of a clearing report. This report will be submitted to the National
+Securities Clearing Corporation for processing, and it will provide pricing infor-
+mation to indicate a total per-share or contract price amount.
+Prior to submitting any report, members and their respective clearing firms must
+have executed an agreement permitting such transfers and submitted it to FINRA
+Market Operations.
+Example
+A firm sells 100 shares to another firm at $15, plus a transaction fee of $0.03
+per share. The transaction will be reported as 100 shares at $15 for publication.
+The report must also include additional pricing information to indicate a
+$15.03 per-share price inclusive of the transaction fee for purposes of clear-
+ance and settlement through the National Securities Clearing Corporation.
+180
+Chapter 5: Trade Reporting
+Progress Check
+1.Trade reporting modifiers are used for all of
+the following reasons except to identify:
+A.
+B.
+C.
+D.
+a cash-settled transaction.
+a short sale.
+a stop stock transaction.
+an intermarket sweep order.
+2.A transaction that is required to be reported on
+the trade date but is in fact reported on a later
+date must be marked:
+A.B.C.D.T + 1 and late.
+T + 1 and as/of.
+PRP.
+as/of and late.
+3.How are transactions in shares involved in a
+primary distribution by an issuer reported to
+the ADF, on the day of the IPO?
+A.B.C.D.With a special IPO designator
+Without commission or mark-up
+By each broker or dealer who participates
+in the underwriting
+They are not.
+4.Broker-Dealer ABC sells 200 shares of XYZ
+stock to a retail client at $15.00 per share,
+which includes a $0.05 per share mark-up. The
+transactions will be reported for publication
+as:
+A.B.C.D.$14.95.
+$15.00.
+$15.05.
+$15.10.
+5.A market maker executes a trade for a client
+at 10:00 am after realizing that it should have
+been executed at 9:55 am. Although the stock
+is trading at $12.72 at 10:00 am, the market
+maker decides to honor the price at 9:55 am,
+which was $12.68. Which price will be included
+in the trade report?
+A.B.C.D.$12.68
+$12.72
+Both prices
+The average of the two prices
+181
+Chapter 5: Trade Reporting
+Progress Check—Solutions
+1.
+2.3.4.5.(B)
+(D)
+(D)
+(A)
+(A)
+There is not a specific trade modifier to identify a short sale. A cash-settled transaction
+is indicated with a .C, a stop stock transaction is indicated with a .W, and an
+intermarket sweep order is indicated with a .F.
+As/of indicates that the report was not made on the same date as the transaction. A
+designation of late indicates that the report did not meet the time requirement, which
+is 10 seconds in most cases.
+Transactions that are part of a primary distribution (IPO) or a registered secondary
+distribution (other than a shelf distribution) are not reported to the ADF.
+The price reported in a transaction will always exclude the transaction fee. Since the
+$15.00 price includes the $0.05 mark-up, the price reported will be $14.95 (which
+subtracts the $0.05 fees received by the firm).
+When a firm executes an order at a prior reference time for a client, the trade report will
+include the actual execution price. Note that both the execution time and prior
+reference time will be included, but only one price will appear in the trade report.
+182
+5.3 Cancelled Trades
+Occasionally, member firms will enter into a transaction that must be cancelled,
+post-execution. When a trade is cancelled, the firm responsible for submitting
+the trade report is also required to submit the cancellation report.
+5.3.1 Timing for Reporting Cancelled Trades
+The timing for reporting cancelled trades can get somewhat complex. It depends
+on three factors:
+1. Whether the trade was executed during normal market hours or outside
+normal market hours
+2. Whether the trade was cancelled during normal market hours
+3. Whether the trade was cancelled on the trade date or after the trade date
+5.3.1.1 Trades Executed During Normal Market Hours
+For trades executed during normal market hours and also cancelled during normal
+market hours on the same day, the cancellation must be reported within 10 seconds.
+Example
+A trade is executed at 3:00 pm and then cancelled 15 minutes later, at 3:15 pm.
+The cancellation must be reported by 3:15:10 pm.
+If a trade is cancelled on the trade date between 4:00 pm–8:00 pm (i.e., after
+market hours), best efforts must be made to report the cancellation by 8:00 pm
+that day. Otherwise, it must be reported by 8:00 pm on the following day (T + 1).
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 4:15 pm on
+Monday. The firm must make best efforts to report the cancellation by 8:00
+pm on Monday. If it cannot, it must report the cancellation no later than 8:00
+pm on Tuesday.
+Finally, if a trade during normal market hours is cancelled on the trade date after
+8:00 pm, the cancellation must be reported by 8:00 pm on the next business day
+(T + 1).
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 9:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Tuesday.
+5.3.1.2 Trades Executed Outside Normal Market Hours
+For trades executed outside the normal market hours of 9:30 am–4:00 pm and
+cancelled prior to 8:00 pm on the trade date, the cancellation must be reported
+by 8:00 pm.
+Chapter 5
+Trade Reporting
+183
+Chapter 5
+Trade Reporting
+184
+Example
+A trade is executed at 7:00 pm on Monday and then cancelled at 7:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Monday.
+If a trade executed outside normal market hours is cancelled at or after 8:00
+pm on the trade date, the cancellation must be reported by 8:00 pm on the next
+business day.
+Example
+A trade is executed at 7:00 pm on Monday and then cancelled at 9:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Tuesday.
+5.3.1.3 Trades Cancelled After the Trade Date
+Trades that are cancelled after the trade date are said to be reversed, rather than
+cancelled. For a trade cancelled on any date after the execution date but before
+8:00 pm, the cancellation must be reported on the cancellation date by 8:00 pm.
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 2:00 pm on
+Tuesday. The firm must report the cancellation by 8:00 pm on Tuesday.
+For a trade cancelled on any date after the execution date and after 8:00 pm, the
+cancellation must be reported by 8:00 pm on the business day after cancellation.
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 9:00 pm on
+Tuesday. The firm must report the cancellation by 8:00 pm on Wednesday.
+5.3.1.4 Summary of Cancellation Deadlines
+The table below summarizes the rules for cancelling trades:
+Execution Time
+Normal market hours
+Outside normal market hours
+Any time
+Cancellation Time
+Trades cancelled on trade date
+Same day, during normal
+market hours
+Same day, 4:00 pm–8:00 pm
+Same day, after 8:00 pm
+Same day, before 8:00 pm
+Same day, after 8:00 pm
+Trades cancelled after trade date
+After trade date, before 8:00 pm
+After trade date, after 8:00 pm
+Report of Cancellation Due
+Within 10 seconds
+Best efforts by 8:00 pm;
+otherwise T + 1 before 8:00 pm
+T + 1 before 8:00 pm
+Same day, before 8:00 pm
+T + 1 before 8:00 pm
+Cancellation date, before 8:00 pm
+Cancellation date + 1, before
+8:00 pm
+Knopman Note: Candidates should learn the rules for trade cancellations,
+as they are likely to be tested.
+5.3.1.5 Definition of Cancellation Time
+The time of cancellation is the earlier of:
+◆ The firm responsible for cancellation informs the contraparty that
+the trade is being cancelled, or receives the same notice from the
+contraparty
+◆ Both counterparties agree to cancel the trade, or
+◆ The member with reporting responsibility cancels the trade on its books
+and records
+5.4 Transaction Reporting to ADF
+Other than the 6:30 pm closing time, the reporting rules for the ADF are sub-
+stantially the same as those for the TRF. On both systems, the executing party
+reports with the same modifiers (.T, .U, .Z, etc.). Transaction reporting to the ADF
+is summarized as follows:
+Trade Execution Time
+ Reporting Requirement
+Midnight–7:59:59 am
+8:00 am–9:29:59 am
+9:30 am–4:00 pm
+4:00:01 pm–6:30 pm
+6:30:01 pm–11:59:59 pm
+8:15 am
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+By 8:15 am on T + 1
+Designated “as/of”
+Report Time
+8:00 am–8:15 am on trade date
+After 8:15 am
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+8:00 am–8:15 am on T + 1
+After 8:15 am on T + 1
+Trade
+Modifier
+.T
+.U
+.T
+.U
+None
+.Z
+.T
+.U
+.T
+.U
+All other rules regarding trade reporting to TRF apply equally to ADF reporting,
+including:
+◆ Modifiers
+◆ Form T
+5.4.1 Reporting Trade Cancellations
+ADF cancellations rules are identical to those for the TRF, except that the 8:00
+pm cutoff is, again, moved earlier, to 6:30 pm. The rules are summarized here:
+Chapter 5
+Trade Reporting
+185
+Chapter 5
+Trade Reporting
+186
+Execution Time
+ Cancellation Time
+ Report of Cancellation Due
+Trades cancelled on the date of execution
+Same day, during normal
+Within 10 seconds
+market hours
+Normal market hours
+ Best efforts before 6:30 pm;
+Same day, 4:00 pm–6:30 pm
+otherwise T + 1 before 6:30 pm
+Same day, after 6:30 pm
+ T + 1 by 6:30 pm
+Same day, before 6:30 pm
+ Same day, before 6:30 pm
+Outside normal market hours
+Same day, at or after 6:30 pm
+ T + 1 before 6:30 pm
+Trades cancelled after the execution date
+After trade date, before 6:30
+Cancellation date, before 6:30 pm
+pm
+Any time
+After trade date, at or after
+ Cancellation date + 1, before 6:30
+6:30 pm
+ pm
+5.4.2 Acceptance of ADF Trades
+With the ADF software, the non-executing party has 20 minutes to accept any
+trades entered by the executing counterparty. Under FINRA Rule 7140, the ADF
+system may accept locked-in trades through the following methods:
+◆◆Trade-by-trade match—Both parties to the trade submit transaction
+data, and the system performs an online match.
+Trade acceptance—The executing party enters its version of the trade
+data into the ADF system. The contraparty then reviews the trade report
+and accepts or declines the trade. An acceptance results in a locked-in
+trade; a declined trade report will be carried over at the end of trade-date
+processing and will remain in the system but will not be subject to the
+automatic lock-in process.
+Knopman Note: The timeline for transaction reporting is as follows:
+1. Executing party reports the transaction within 10 seconds.
+2. Non-executing party confirms the transaction within 20 minutes.
+5.4.2.1 Automatic Lock-In
+As of July 13, 2015, any trade that remains open (i.e., unmatched or unaccepted)
+at the end of its entry day will be carried over for continued comparison and
+reconciliation. The system will automatically lock in and submit to DTCC as such
+any carried-over T to T + 21 (calendar day) trade if it remains open as of 2:30 pm
+on the next business day. The system will carry over any T + 22 (calendar day) or
+older “as/of ” trade that remains open, but such a trade will not be subject to the
+automatic lock-in process.
+5.5 Reporting Transactions in OTC Equity Securities
+The rules for reporting transactions in OTC equity securities are almost identi-
+cal to those for reporting transactions in NMS stocks. An OTC equity security
+is defined as any equity that is not an NMS stock; for example, those quoted on
+the OTC Pink.
+Restricted equity securities (i.e., unregistered stock) are not included in the
+definition of an OTC equity security. As discussed shortly, restricted stock is sub-
+ject to different reporting requirements.
+Transactions in OTC equity securities and restricted equity securities are reported
+to the OTC Reporting Facility (ORF).
+5.5.1 Timing of Trade Reports
+The timing of trade reports for OTC equities is identical to that of NMS stocks
+reported to the TRF. The table is reprinted here for convenience and reinforcement:
+Trade Execution Time
+ Reporting Requirement
+Midnight–7:59:59 am
+8:00 am–9:29:59 am
+9:30 am–4:00 pm
+4:00:01 pm–8:00 pm
+8:01:01 pm–11:59:59 pm
+8:15 am
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+Within 10 seconds of
+execution
+By 8:15 am on T + 1
+Designated “as/of”
+Report Time
+8:00 am–8:15 am on trade date
+After 8:15 am
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+Within 10 seconds of execution
+After 10 seconds
+8:00 am–8:15 am on T + 1
+After 8:15 am on T + 1
+Trade
+Modifier
+.T
+.U
+.T
+.U
+None
+.Z
+.T
+.U
+.T
+.U
+5.5.2 Other Similarities to TRF
+The following sections from the TRF discussion earlier in this chapter apply
+equally to the OTC Reporting Facility:
+◆ Trade reporting modifiers (e.g., .W, .N, etc.)
+◆ Use of Form T
+◆ Reporting trade capacity (e.g., agent, principal, give-up)
+◆ Reporting trade cancellations
+5.5.3 Restricted Equity Securities
+Transactions in restricted equity securities under Rule 144A between midnight
+and 8:00 pm (e.g., 10:00 am, 3:00 pm, or 7:00 pm) must be reported by 8:00 pm
+on the same business day as the transaction.
+Chapter 5
+Trade Reporting
+187
+Chapter 5
+Trade Reporting
+Transactions between 8:00 pm and midnight (e.g., 8:01 pm or 11:00 pm) must be
+reported by 8:00 pm on the following business day.
+Rule 144A, discussed later, allows for unregistered securities to be sold to quali-
+fied institutional buyers (QIBs).
+5.5.3.1 Cancellations for Restricted Equity Securities
+The cancellation procedures for trades in restricted equity securities are slightly
+different than those for OTC equities. They are summarized here:
+Cancellation Time
+On trade date, before 8:00 pm
+On trade date, at 8:00 pm or after
+After trade date, before 8:00 pm
+After trade date, at 8:00 pm or after
+Report of Cancellation Due
+On trade date, before 8:00 pm
+T + 1, before 8:00 pm
+On date of cancellation, before 8:00 pm
+On business day after cancellation, before 8:00 pm
+5.5.4 Transactions in Foreign Equity Securities
+In the context of trade reporting, a foreign equity security is defined as any
+OTC equity issued by a foreign corporation. NMS stocks (i.e., exchange-listed)
+issued by a foreign corporation remain NMS stocks and are excluded from this
+definition.
+Transactions in foreign equity securities must be reported to the ORF unless:
+◆ The transaction is executed on and reported to a foreign securities
+exchange, or
+◆ The transaction is executed over-the-counter in a foreign country and is
+reported to that country’s regulator of securities markets
+Knopman Note: Trades in foreign equity securities must be reported
+to either a US exchange or an SRO (e.g., FINRA, via TRF) unless the
+transaction is required to be reported to a foreign exchange or regulator.
+5.6 Trade Reporting by Alternative Trading Systems
+An alternative trading system (ATS) is a trading system that is not regulated
+as an exchange but that is a means of matching the buy and sell orders of its
+subscribers. Alternative trading systems are becoming more popular and have
+greatly contributed to the liquidity in publicly traded securities. ATSs will be
+discussed in more detail in later chapters, but for now it suffices to understand
+that these systems allow market participants to trade securities.
+188
+Knopman Note: Similar to a stock exchange, an alternative trading
+system (ATS) is any system that provides a marketplace that brings
+together purchasers and sellers of securities. An ATS can be characterized
+as an “order and quote collection system.”
+ATSs must report trades to TRF or ORF within 10 seconds of execution. Reports
+must be submitted in accordance with the trade reporting guidelines discussed
+throughout this chapter.
+Knopman Note: Unless there’s an exemption from trade reporting
+requirements (discussed below), an ATS must report trades to the TRF or
+ORF within 10 seconds of execution.
+Each ATS must have a unique MPID used only to report transactions on that spe-
+cific ATS; therefore, a member firm that operates more than one ATS must have
+a unique MPID for each one. Member firms are permitted to have two MPIDs
+for an ATS if they execute reportable transactions in fixed-income securities, in
+addition to transactions in equities.
+5.6.1 Exemption from Trade Reporting
+FINRA Rules 6183 and 6625 provide an exemption from trade reporting by the
+ATS if all the following criteria are satisfied:
+1. Trades are between ATS subscribers that are FINRA members.
+2. The ATS demonstrates that:
+a. The member subscribers are fully disclosed to one another at all
+times.
+b. The system does not permit automatic execution, and a member
+subscriber takes affirmative steps beyond the submission of an
+order to agree to a trade with another member subscriber.
+c. The trade does not pass through any ATS account, and the ATS
+does not in any way hold itself out to be a party to the trade.
+d. The ATS does not exchange shares or funds on behalf of the
+member subscribers or take either side of the trade for clearing or
+settlement purposes.
+3. The ATS and the member subscribers agree in writing that the ATS
+trades shall be reported by the member subscribers and that the ATS is
+not a party to the transaction.
+4. The ATS agrees to provide monthly data relating to the volume of trades,
+by security, executed by member subscribers. If the ATS fails to report
+such data, its exemption from reporting trades may be revoked.
+Chapter 5
+Trade Reporting
+189
+Chapter 5
+Trade Reporting
+190
+Note that this rule only grants an exemption from trade reporting by the actual
+ATS. The member subscribers trading as counterparties are still subject to trans-
+action reporting. Furthermore, the responsibility for reporting the transaction
+rests with the executing party, as defined earlier in this chapter.
+5.6.2 FINRA Weekly Trading Volume
+The SEC requires alternative trading systems (ATSs) to report to FINRA weekly
+volume information and the number of securities transactions within the ATS
+by security. These obligations are found in FINRA Rule 4552.
+Each SEC-registered ATS must file trading information with FINRA within seven
+business days after the end of each week. The report must include the aggregate
+weekly trading information for each NMS stock and OTC equity security executed
+within the ATS during the previous week. FINRA will subsequently publish the
+information on its website.
+5.6.3 Dissemination of Daily Trading Volume
+FINRA Rule 6160 allows ATSs to disseminate their daily trading volumes to the
+public. However, the rule also details the exact nature of the reported volumes
+and required disclosures.
+Any reporting member firm that chooses to publish daily trading volume for
+transactions in its ATS must base such volume solely on transactions reported
+by the ATS dark pool to the TRF. (As mentioned earlier, a dark pool is a type of
+ATS that does not disseminate its quotes to other market centers.) Because of the
+exemptions from trade reporting described in the previous section, this volume
+will not reflect all transactions in the pool. Therefore, the member firm must
+prominently disclose that its website may not reflect 100% of the volume for any
+given dark pool and that interested parties must consult all member websites to
+obtain a dark pool’s total volume.
+Furthermore, a member’s dark pool transaction data will not be included in the
+published volume unless the member opts in to have its data included. To do so,
+a member operating a dark pool must certify in writing to FINRA that:
+1.The member is opting in to having its dark pool transaction data included
+in the published data and acknowledges that its data may be presented as
+an overall percentage volume only or may be broken down by security, and
+2. The member has obtained a separate MPID that will be used exclusively
+for reporting all transactions executed within the ATS dark pool.
+Knopman Note: Member firms that wish to publish or advertise
+trading volumes in an ATS can only publish those volumes that were
+also reported to a trade reporting facility. Firms should report trading
+volumes as accurately as possible.
+5.6.4 Multiple MPIDs for Trade Reporting Facility Participants
+As mentioned earlier, FINRA Rule 6160 permits member firms to use multiple
+MPIDs for trade reporting purposes. The MPID used to report a transaction must
+be identical to the MPID used to post a quote that resulted in execution.
+Example
+Broker-Dealer A posts a $75.10 bid on 300 shares under its MPID “BDAA.”
+Upon execution against this quote, the trade must be reported under the
+same MPID of “BDAA.”
+5.7 Consolidated Audit Trail (CAT)
+The Consolidated Audit Trail (CAT) requires broker-dealers to create a time-se-
+quenced audit trail of all events in the life of an order. It allows the national
+securities exchanges and FINRA to effectively and efficiently reconstruct the life
+of a trade to investigate violations or manipulation and to ensure the general
+integrity of the marketplace.
+The CAT system, required under Regulation NMS Rule 613, and implemented in
+2021, replaced the order audit trail system (OATS) and consolidated options audit
+trail system (COATS), which were formerly the audit systems used for equities
+trades and options trades, respectively.
+5.7.1 CAT Eligibility
+Broker-dealers are required to report to CAT orders for NMS securities, OTC
+equity securities, and exchange-listed options. An order’s lifecycle information
+reportable to CAT includes information on:
+◆ Order origination and receipt;
+◆ Routing of the order (e.g., to another department);
+◆ Order cancellation;
+◆ Order modification; and
+◆ Order execution.
+All order types, whether verbal, written, or electronic, are reportable.
+Knopman Note: A CAT report is required for order receipt, order
+transmittal to another department, and order execution. For example,
+in the situation that a customer places an order by phone at 11 am, the
+order is sent by the representative to the trading desk at 11:03 am, and
+the order is executed at 11:05 am, all three events would require a report.
+Chapter 5
+Trade Reporting
+191
+Chapter 5
+Trade Reporting
+192
+5.7.2 Customer Account and Identifying Information
+CAT, in addition to providing FINRA with order information, includes customer
+and firm information on all equity and options transactions.
+Customer information required to be reported to CAT by broker-dealers includes:
+◆ Account number;
+◆ Type of account;
+◆ Type of customer;
+◆ Date of account opening; and
+◆ Any identifier for a large trade.
+5.7.3 CAT Reporting Obligations
+All U.S. registered broker-dealers, regardless of size, that receive or originate
+orders in NMS stocks, OTC equity securities, or listed options are required to
+report to CAT. The reporting obligation includes all proprietary trading activi-
+ties, such as market making. Importantly, there are no reporting exclusions or
+exemptions for broker-dealers.
+Broker-dealers are permitted to engage a third party to submit CAT reports on
+their behalf, referred to as a reporting agent. Before the reporting agent begins
+submitting reports, the two parties must enter into a written agreement that
+specifies the functions and responsibilities of each party. Additionally, the bro-
+ker-dealer must ensure they have a supervisory system in place that is designed
+to ensure that all the data reported to CAT by the reporting agent is timely, accu-
+rate, and complete.
+5.7.4 Member Business Clocks
+To ensure uniformity across firms and that each reportable event is accurate, CAT
+requires transactions to be reported with a time accuracy of within 50 millisec-
+onds. Firms must synchronize their clocks every business day, prior to the open
+of trading. If necessary, firms should re-synchronize throughout the day to avoid
+drifting beyond the 50-millisecond cushion.
+This synchronization must occur to within 50 milliseconds of National Institute
+of Standards and Technology (NIST) or to any time source that has been synced
+to within 50 milliseconds of the NIST.
+If a firm is unable to re-synchronize during the day, it should maintain a record
+of the synchronization problem and notify FINRA. For example, midday re-syn-
+chronization could cause a trading system to malfunction, so the firm could delay
+synchronization until after the market closes, but must notify FINRA.
+This rule applies only to clocks used for regulatory reporting. It does not apply to
+all clocks (e.g., an analog clock in a conference room).
+Knopman Note: All business clocks used for CAT reporting purposes
+must be synchronized every business day prior to the open of trading.
+5.7.5 CAT Transmission Requirements
+Firms are required to submit daily electronic CAT reports to FINRA. The deadline
+to submit reports is somewhat complex.
+A CAT “business day” begins at 4:15:00:01 pm EST on one market day and ends
+at 4:15:00:00 pm EST on the next market day. For example, 4:15:00:01 pm EST on
+Monday until 4:15:00:00 pm EST on Tuesday is a CAT business day. In another
+example, 4:15:00:01 pm EST on Friday until 4:15:00:00 pm EST on Monday is one
+CAT business day.
+All CAT reports must be submitted to FINRA by 8:00 am EST on the calendar day
+following the end of the CAT business day. Here are a few examples:
+Example
+A trade is executed at 3:00 pm EST on Tuesday. The CAT business day ends
+at 4:15:00:00 pm EST on Tuesday. Therefore, the CAT report of the execution
+is due to FINRA by 8:00 am EST on Wednesday.
+Example
+An order is modified at 8:00 pm EST on Wednesday. The CAT business day
+ends on 4:15:00:00 pm EST on Thursday. Therefore, the CAT report detailing
+the order modification is due to FINRA by 8:00 am EST on Friday.
+Example
+An order is cancelled at 9:00 pm EST on Friday. The CAT business day ends
+on 4:15:00:00 pm EST on Monday—the next market day. Therefore, the can-
+cellation report is due by 8:00 am EST on Tuesday. This is the same result as
+if the trade were canceled anytime on Saturday or Sunday.
+Knopman Note: CAT reports are due at 8:00 am EST on the calendar day
+following the CAT business day.
+Chapter 5
+Trade Reporting
+193
+Chapter 5: Trade Reporting
+Unit Exam
+1.If an ATS has been granted a trade reporting
+exemption, and it then fails to report trading
+volume data to FINRA monthly, what is the
+penalty?
+A.B.C.D.A warning
+A fine
+Revocation of the exemption
+Suspension of trading authority
+2.A trade is executed at 3:40 pm EST, but is not
+reported until 4:30 pm EST. The trade report:
+A.
+B.
+C.
+D.
+will include a “.T” trade modifier.
+will include a “.U” trade modifier.
+will include a “.Z” trade modifier.
+will not include any trade modifier.
+3.A trade is executed on Monday at 10:30 am EST
+and is canceled by the parties on Wednesday
+at 3:00 pm EST. The report of the cancellation
+is due:
+A.
+B.
+C.
+D.
+within 10 seconds of cancellation.
+by 4:00 pm EST on Wednesday.
+by 8:00 pm EST on Wednesday.
+by 8:00 pm EST on Thursday.
+4.Brokerage Firm A and Brokerage Firm B have
+a give-up relationship, in which trades are
+reported by Firm A but executed by Firm B.
+Which statement is accurate?
+A.B.C.D.The MPID of Firm A is used to report
+trades
+The MPID of Firm B is used to report
+trades
+The MPIDs of both firms are used to re-
+port trades
+A special supplemental MPID must be
+created and used to report trades
+5.A client purchases 200,000 shares of ABC
+common stock through BD A, but requests
+that 100,000 of these shares be allocated to
+their account at BD B. This is referred to as a:
+A.
+B.
+C.
+D.
+step-out trade.
+give-up trade.
+not held trade.
+stop stock trade.
+6.A client places a market order to sell stock at
+1:00 pm. At 1:45 pm, the trader realizes that the
+order was not yet executed. To make up for the
+error, the trader honors the 1:00 pm price. The
+trade report will include a:
+A.B.C.D..W modifier and indicate only the 1:00 pm
+time since that is the time of the price
+being honored.
+.P modifier and indicate only the 1:00 pm
+time since that is the time of the price
+being honored.
+.P modifier and indicate only the 1:45 pm
+time since that is when the trade is exe-
+cuted.
+.P modifier and indicate both the 1:00 pm
+and 1:45 pm times.
+7.Which of the following statements regarding
+broker-dealer business clocks used for CAT
+reporting is least accurate?
+A.B.C.D.All clocks located on the premises of a
+broker-dealer must be synchronized
+All business clocks used for CAT reporting
+must be synchronized every business day
+prior to the open of trading
+All business clocks must be synchronized
+to within 50 milliseconds of NIST
+Broker-dealers must notify FINRA of any
+issues in regards to clock synchronization
+194
+Chapter 5: Trade Reporting
+Unit Exam (Continued)
+8.For a trade cancelled during normal market
+hours, what is the deadline for reporting the
+cancellation to the ADF?
+A.B.C.D.10 seconds after the trade is cancelled
+30 seconds after the trade is cancelled
+By 6:30 pm the same day
+By 6:30 pm on the following day
+9.For a trade executed during normal market
+hours, the non-executing party must confirm a
+transaction within:
+A.B.C.D.10 seconds.
+20 minutes.
+by 8:00 pm EST that day.
+by 8:00 pm EST the next day.
+10. A trade is executed by Broker-Dealer ABC at
+3:00 pm EST on Friday. ABC must submit a
+CAT report to FINRA by:
+A.B.C.D.8:00 am EST on Saturday.
+8:00 am EST on Monday.
+8:00 am EST on Tuesday.
+4:00 pm EST on Friday.
+195
+Chapter 5: Trade Reporting
+Unit Exam—Solutions
+1.
+2.3.4.5.6.7.
+8.9.10.(C)
+(C)
+(C)
+(B)
+(A)
+(D)
+(A)
+(A)
+(B)
+(A)
+Failure to report trading volume data on a monthly basis is a violation of FINRA rules
+and results in the revocation of the exemption.
+.Z indicates a late trade report for a trade executed during normal market hours. Late
+is defined as more than 10 seconds after execution. Note that a trade executed during
+normal market hours, but reported late after the market closes, still carries a .Z trade
+modifier since the trade was executed during normal market hours.
+When a transaction is canceled after the trade date before 8:00 pm EST, the
+cancellation report is required that same day prior to 8:00 pm EST. If a transaction is
+canceled after the trade date, but after 8:00 pm EST, then the report of the cancellation
+is due by 8:00 pm EST the following day.
+A give-up agreement allows one broker-dealer to allow another to report trades on its
+behalf. The trade is still reported under the MPID of the firm that executed the trade
+(not the reporting firm).
+A step-out refers to an order that is executed by one firm, but then all or part of the
+position is allocated to the client’s account at another firm.
+.P trade modifier is used to indicate a prior reference price trade. A trade report with a
+.P modifier will include both the actual execution time and the prior reference time.
+Note that a .W is used to indicate stop stock transactions and volume weighted average
+price trades.
+All business clocks used for CAT reporting must be synchronized to within 50
+milliseconds of NIST or to any time source that has been synced to within 50
+milliseconds of the NIST. All business clocks are required to be synchronized every
+business day prior to the open of trading and firms must notify FINRA of any issues in
+regards to clock synchronization. This rule applies only to clocks used for regulatory
+reporting. It does not apply to all clocks (e.g., an analog clock in a conference room).
+The deadline for reporting cancellations during normal market hours is the same as for
+trade reporting—within 10 seconds.
+For a trade executed during normal market hours, the executing party must report the
+transaction within 10 seconds. The non-executing party must confirm the transaction
+within 20 minutes.
+A reportable trade that occurs on one CAT business day must be reported by 8:00 am,
+ET, on the next calendar day, or else FINRA considers it late. In this case, the business
+day is Friday, so the report must be made by Saturday at 8:00 am.
+
+
+* Question and answers.
+----------------------
+
+
+
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 3207
+1) Which reporting facility is used for trade reporting in OTC equity and
+restricted securities?
+ A) FINRA TRF
+ B) Arca
+ C) TRACE
+ D) ORF
+Answer Explanation:
+Members must use the OTC Reporting Facility for trade reporting in OTC
+and restricted equities.
+Textbook Reference: Please see textbook section 5.5
+Question ID: 2177
+2) A trade is executed at 8:00 AM and cancelled at 7:00 PM the same
+day. The cancellation report must be submitted
+ A) At any time prior to the start of the following market day
+ B) By 8:00 PM the same day
+ C) By 8:00 AM the next business day
+ D) At 8:00 PM the next business day
+Answer Explanation:
+For trades executed outside of regular market hours and cancelled prior to
+8:00 PM on the date of execution, the cancellation report must be
+submitted by 8:00 PM that day.
+Textbook Reference: Please see textbook section 5.3
+Question ID: 1921
+3) In a last sale report of an ADF-eligible security after 6:30 p.m., what
+designation is used to denote that execution took place on a prior
+day?
+ A) as/of
+ B) .U
+ C) .T
+ D) NC
+Answer Explanation:
+as/of denotes execution on a prior day - e.g. for trades executed after 6:30
+p.m. and reported before 8:15 a.m. the next day.
+Textbook Reference: Please see textbook section 5.2.1.2
+23 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 34921
+4) A broker-dealer's primary reporting facility is experiencing an outage.
+Which of the following would not be permitted by the broker-dealer
+during the outage?
+ A) Route orders to another exchange that can report the trades
+ B) Halt trading until the problem is resolved
+ C) Document the trades manually and report to the primary facility once
+the outage is resolved
+ D) Continue to trade provided that the broker-dealer can report to a
+secondary facility
+Answer Explanation:
+All trades must be promptly reported. During an outage of a primary
+reporting facility, a firm has three choices: 1) halt trading; 2) report on a
+secondary facility; or 3) route trades to another exchange that can report.
+Note that this concept is not explicitly covered in the 2nd Edition textbook,
+but is covered in the Class Summary and as long as you review the
+rationale you will be prepared for this item.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 15678
+5) At 10:45 am, a market maker agrees to execute a trade for 1,000
+shares of an OTC stock at the close of normal market hours on that
+trading day, at a price equal to the last trade price. What should the
+trade report show as the time of the trade?
+ A) on close
+ B) 16:00:00:000
+ C) 10:45 pending sale
+ D) 10:45:00:000
+Answer Explanation:
+The trade time must be shown in military-style hours, minutes and seconds
+and (usually) milliseconds. This is the time when parties to the transaction
+have agreed to all essential terms, including the actual price. If the price is
+conditional, the time reported is when the price becomes known the
+close of normal market hours (4:00 pm) in this case.
+Textbook Reference: Please see textbook section 5.1.1
+24 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2067
+6) For trade reporting purposes, the trade price reported must exclude
+ A) A mark-up and mark-down, but not a service charge
+ B) A mark-up, but not a mark-down
+ C) A service charge, but not a mark-up or mark-down
+ D) A mark-up, mark-down, and service charge
+Answer Explanation:
+In a principal transaction, the reported price must exclude any mark-up,
+mark-down, and service charge.
+Textbook Reference: Please see textbook section 5.2.8.2
+Question ID: 34924
+7) All of the following transactions are exempt from trade reporting
+requirements except
+ A) tender offer transactions.
+ B) a trade in which both sides have agreed to a price unrelated to the
+current market price.
+ C) new issue transactions.
+ D) a riskless principal trade.
+Answer Explanation:
+Tender offer transactions, new issue transactions, transactions where the
+buyer and seller have agreed to a price unrelated to the current market
+price (e.g., a gift) are all exempt from trade reporting requirements. Note
+that some of the aforementioned are reported to the TRF for the purpose of
+regulatory fee assessments, but not for publication and dissemination.
+Textbook Reference: Please see textbook section 5.2.9
+Question ID: 2595
+8) Participation in the Over the Counter Trade Reporting Facility (ORF) is
+mandatory for any FINRA member that
+ A) Carries inventory in OTC stocks or bonds
+ B) Has an obligation to report an OTC transaction
+ C) Trades for non-proprietary accounts
+ D) Is not self-clearing
+Answer Explanation:
+The Over the Counter Trade Reporting Facility (ORF) is used for reporting
+OTC transactions. Usage is required for FINRA members.
+Textbook Reference: Please see textbook section 5.1.2
+25 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2854
+9) In the Trade by Trade Match method of locked-in trade reporting,
+which party submits transaction data?
+ A) Only the Reporting Party
+ B) Only the contra party
+ C) Both parties
+ D) Neither party
+Answer Explanation:
+Both parties to the trade submit transaction data and the ADF System
+performs an on-line match. The executing party is required to report a trade
+within 10 seconds of execution. The non-executing party submits for a
+match within 20 minutes.
+Textbook Reference: Please see textbook section 5.4.2
+Question ID: 2268
+10) What is the best way for an interested party obtain information on an
+ATS dark pool's total trading volume?
+ A) By consulting the member's web site
+ B) By making a formal request to FINRA
+ C) By consulting a consolidated monthly report produced by FINRA
+ D) This data is not available
+Answer Explanation:
+Interested parties must consult members' web sites to obtain ATS dark
+pool total volume. FINRA Rule 6160 allows ATSs to disseminate their
+daily trading volumes to the public. Any reporting member firm that
+chooses to publish daily trading volume for transactions in its ATS must
+base such volume solely on transactions reported by the ATS dark pool to
+the TRF.
+Textbook Reference: Please see textbook section 5.6
+26 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 26128
+11) Under the CAT system, what time does the trading day end and
+reports due respectively?
+ A) Trading day ends at 4:15 p.m. ET and reports are due by 9 a.m. the
+next morning
+ B) Trading day ends at 4:15 p.m. ET and reports are due by 8 a.m. the
+next morning
+ C) Trading day ends at 4 p.m. ET and reports are due by 9 a.m. the
+next morning
+ D) Trading day ends at 4 p.m. ET and reports are due by 8 a.m. the
+next morning
+Answer Explanation:
+The OATS trading day ends (and the next day begins) at 4 p.m. ET and
+reports are due by 8 a.m. the next morning. Under the CAT system,
+reports are still due at 8 am. the next morning but the trading day ends
+and begins at 4:15 p.m. ET.
+Textbook Reference: Please see textbook section 5.7
+Question ID: 26129
+12) Which U.S. broker-dealers are exempt from reporting requirements
+under the CAT system?
+ A) non-FINRA members
+ B) none
+ C) non-market makers
+ D) those meeting requirements for small firms
+Answer Explanation:
+Although non-FINRA members are exempt from OATS reporting, there
+will be no reporting exemptions under the CAT system. All US registered
+broker-dealers must report.
+Textbook Reference: Please see textbook section 5.7
+27 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 20696
+13) The time of execution of an OTC equity trade is reported as
+4:00:00:004 PM. When must the trade be reported and what modifier
+must be used, assuming it is reported on time?
+ A) within 30 seconds, .T
+ B) by 8:15 am the next morning, .U
+ C) within 10 seconds, .U
+ D) within 10 seconds, .T
+Answer Explanation:
+This trade took place 4 milliseconds after the close of normal market
+hours. Note that without the millisecond digits, the trade would appear to
+be executed during normal market hours (i.e. at the close). However, in
+this case it is executed outside normal market hours but before 8:00 pm
+so it must be reported within 10 seconds because the trade reporting
+system is still open. If the report is timely (within the 10 seconds), the
+modifier is .T, if it was late, it would include a .U modifier.
+Textbook Reference: Please see textbook section 5.1
+Question ID: 3045
+14) Who is responsible for reporting a trade cancellation to the ADF?
+ A) The member who submitted the original trade
+ B) The buying broker
+ C) The selling broker
+ D) All parties to the trade
+Answer Explanation:
+The member who originated each trade has responsibility for reporting its
+cancellation. This usually is the executing member.
+Textbook Reference: Please see textbook section 5.4.1
+Question ID: 2370
+15) In a transaction between a member and a non-member, which party
+has responsibility for reporting the transaction?
+ A) Contra party
+ B) Member
+ C) Non-member
+ D) Executing party
+Answer Explanation:
+In transactions between a member and a non-member, the member must
+report the trade. Note that the member may be either the executing party
+or contra party.
+Textbook Reference: Please see textbook section 5.2.6
+28 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2213
+16) When a dealer buys shares from a customer in a principal trade, with
+a mark-down, the customer's price will be
+ A) Above the prevailing market price
+ B) The prevailing market price plus a service charge
+ C) The same as the prevailing market price
+ D) Below the prevailing market price
+Answer Explanation:
+The dealer's mark-down is added to the execution price to arrive at the
+reported trade price. For example, a customer sells 100 shares of ABC to
+broker dealer B at $10.00 inclusive of a $0.15 markdown. The trade report
+would indicate a price of $10.15.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 2856
+17) What time must be stamped on a last trade report for a Stop Stock
+Transaction?
+ A) Neither the time of execution nor the stop stock price
+ B) Only the time of the stop stock price
+ C) Both the time of execution and the time of the stop stock price
+ D) Only the time of execution
+Answer Explanation:
+For stock stop transactions, the trade report must include both the
+execution time and the time that the stop stock transaction was agreed to.
+The only exception is when the execution occurs within ten seconds of
+the stop stock price. In that case only the execution time is required on
+the trade report.
+Textbook Reference: Please see textbook section 5.2.6
+Question ID: 36504
+18) A firm executes a trade at 10:30 am that must be reported on
+FINRA's Trade Reporting Facility (TRF). The trade must be reported
+ A) within 10 seconds of execution.
+ B) within 30 seconds of execution.
+ C) within 15 minutes of execution
+ D) at any time prior to market close.
+Answer Explanation:
+The TRF provides a mechanism for reporting trades. Trades executed
+during normal market hours must be reported within 10 seconds of
+execution.
+Textbook Reference: Please see textbook section 5.2.1.1
+29 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 15679
+19) A trade in an OTC stock occurs on Saturday, June 9. By what date
+and time must the trade be reported?
+ A) by Monday at 4 pm
+ B) by Monday at 8:15 am
+ C) by Saturday at midnight
+ D) by Saturday at 4:00 pm
+Answer Explanation:
+Trades executed on non-business days, such as weekends and holidays,
+must be reported on an "as/of" basis by 8:15 am the next business day
+following execution. FINRA facilities are not open on Saturdays, Sundays
+or holidays to accept trade reports.
+Textbook Reference: Please see textbook section 5.1.2
+Question ID: 2878
+20) What does the term locked-in mean in context of a trade?
+ A) At least one party to the trade accepts the terms
+ B) Terms of the trade are recognized by the system
+ C) Participants are bound to honor and settle the trade
+ D) The system has captured trade report data
+Answer Explanation:
+Participants have an obligation to honor locked-in trades and their terms
+on the scheduled settlement date.
+Textbook Reference: Please see textbook section 5.4.2
+Question ID: 26120
+21) A customer buys 300 shares of a stock on Tuesday at 9 p.m. What
+special notation does the order receive when it is reported the next
+day?
+ A) .P modifier
+ B) as/of
+ C) .W modifier
+ D) .U modifier
+Answer Explanation:
+A trade report is marked as/of when the trade occurred earlier than the
+current day (e.g., yesterday) or when reporting the reversal of a trade
+from a previous day.
+Textbook Reference: Please see textbook section 5.2.1.2
+30 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2613
+22) Under the Trade Acceptance method of processing, what happens if
+the contra party declines the trade?
+ A) It is purged on the day following the trade date
+ B) It will remain in the System, but will not be subject to the automatic
+lock-in process.
+ C) It is purged on the trade date
+ D) It is carried forward for one business day
+Answer Explanation:
+If the contra party reviews a Trade Acceptance report and declines the
+trade, the report will remain in the System, but will not be subject to the
+automatic lock-in process.
+Textbook Reference: Please see textbook section 5.4.2
+Question ID: 3278
+23) In which case may a series of individual orders placed by a member
+- at the same price, in the same security, and on the same side of the
+market - be aggregated for trade reporting purposes?
+ A) In no case
+ B) If they are executed within the same 30-minute period
+ C) With the customer's permission
+ D) If they are reported on the same trading day
+Answer Explanation:
+Individual executions of orders in a security at the same price may not be
+aggregated into a single transaction report for reporting purposes.
+Textbook Reference: Please see textbook section 5.2
+Question ID: 2586
+24) FINRA may grant an Alternative Trading System (ATS) an exemption
+from trade reporting obligations, provided it is consistent with
+ A) Investor protection and public interest
+ B) Previously granted exemptions
+ C) Trading volume and activity
+ D) Regulatory oversight responsibilities
+Answer Explanation:
+FINRA will grant an exemption to trade reporting only if four conditions
+are met, and also if the exemption is consistent with investor protection
+and the public interest. In such circumstances the "executing party" to the
+trade (typically the seller) is required to report the trade.
+Textbook Reference: Please see textbook section 5.6
+31 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2218
+25) What term defines an ATS that does not display quotes or
+subscriber orders to anyone?
+ A) Wide moat
+ B) Closed market
+ C) Dark pool
+ D) Black box
+Answer Explanation:
+A dark pool is an ATS in which quotes and orders are concealed. Most
+orders are placed directly between large institutions.
+Textbook Reference: Please see textbook section 5.6
+Question ID: 2846
+26) To avoid being reported late, must a pre-open trade be reported
+within 10 seconds?
+ A) Only if execution is after 8:00 a.m.
+ B) Only if execution is between 7:00 a.m. and 8:00 a.m.
+ C) Only if execution is before 8:00 a.m.
+ D) Only if execution is before 7:00 a.m.
+Answer Explanation:
+A pre-opening trade made before 8:00 a.m. must be reported by 8:15
+a.m. EST. A pre-opening trade made after 8:00 EST must be reported
+within 10 seconds or else it is late.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 15689
+27) A client has filed a written complaint against Jeffrey, an options
+trader, alleging that he consistently delayed execution of the client's
+orders to buy or sell options contracts. To prove or disprove the
+complaint, regulators will review the time sequence options trades
+Jeffrey has placed. What system captures this data?
+ A) TRF
+ B) OPRA
+ C) OATS
+ D) CAT
+Answer Explanation:
+The Consolidated Audit Trail (CAT) replaced the old systems of the Order
+Audit Trail System (OATS) and the CBOE's Consolidated Options Audit
+Trail System (COATS), to provide an accurate, time-sequences record of
+orders, quotes and transactions. It allows regulators to recreate events in
+the life cycle of trades to review handling, execution and reporting.
+Textbook Reference: Please see textbook section 5.7
+32 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2103
+28) What term describes a member firm that is a party to a transaction
+and is identified by the trade reporting system as such, even though
+it does not execute or clear trades?
+ A) Affiliated broker-dealer
+ B) Introducing broker-dealer
+ C) Referring broker-dealer
+ D) Correspondent broker-dealer
+Answer Explanation:
+An introducing broker-dealer contracts with a clearing firm to handle
+execution and settlement of its orders.
+Textbook Reference: Please see textbook section 5.2
+Question ID: 2442
+29) Broker-dealer B does a trade with its customer Helen in an ADF
+security. The report of this trade is made by
+ A) Helen
+ B) OATS
+ C) FINRA
+ D) BD B
+Answer Explanation:
+In trades between broker-dealers and customers in ADF securities, the
+trade report is submitted to the ADF by the broker-dealer.
+Textbook Reference: Please see textbook section 5.4.1
+Question ID: 3281
+30) A trade is executed at 3:10 p.m. EST and then cancelled at 4:15 p.m.
+on the same day. When must the cancellation be reported to the ADF
+on a best-efforts basis?
+ A) Within 10 seconds
+ B) By the opening of the market on the next day
+ C) Within 30 minutes
+ D) By 6:30 p.m. on the same day
+Answer Explanation:
+For trades executed between 9:30 a.m. and 4:00 p.m. EST and cancelled
+after 4:00 p.m. but before 6:30 p.m. on the day of execution, the member
+must use its best efforts to report cancellation not later than 6:30 p.m. that
+day. Otherwise, the trade must be reported by 6:30 p.m. the next day.
+Textbook Reference: Please see textbook section 5.3.1
+33 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2985
+31) Members that operate multiple Alternative Trading Systems (ATS)
+must obtain a separate MPID for each
+ A) ATS
+ B) Trade report
+ C) Security quoted
+ D) Security traded
+Answer Explanation:
+The MPID identifies not only the member but also the ATS on which it is
+trading, if the member is operating multiple ATSs.
+Textbook Reference: Please see textbook section 5.6
+Question ID: 2615
+32) If a last sale report of an OTC transaction in an ADF-eligible security
+is not possible, because the ticker symbol is no longer available,
+how is the last sale reported?
+ A) On Form G
+ B) It isn't
+ C) On Form N
+ D) On Form T
+Answer Explanation:
+Form T is used to submit last sale reports of over-the-counter (OTC)
+transactions in equity securities for which electronic submission is not
+possible. For example, a Form T submission may
+not be possible if the ticker symbol for the security is no longer available.
+Textbook Reference: Please see textbook section 5.2.5
+Question ID: 3316
+33) If a trade in an ADF-eligible security occurs after market hours, must
+the last sale report be made the following business day?
+ A) Yes, in all cases
+ B) Only if the trade is after 6:30 p.m. EST
+ C) Only if the trade is after 8:00 p.m. EST
+ D) Not unless FINRA permits an exception
+Answer Explanation:
+The last sale report for trades in ADF-eligible securities executed after
+6:30 p.m. must be reported the following business day (T+1) by 8:15 a.m.
+EST. Trades that occur after market hours but prior to 6:30 p.m. must be
+reported within 10 seconds of execution.
+Textbook Reference: Please see textbook section 5.4
+34 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 1908
+34) Dan wishes to buy 100 shares of DEF. The broker dealer holding his
+account executes the trade as principal, includes a $0.10 mark-up,
+and submits a timely trade report indicating a price of $5.20. What
+will Dan need to pay per share?
+ A) $5.10
+ B) $5.20
+ C) $5.30
+ D) $520.10
+Answer Explanation:
+When reporting principal transactions, any mark-up, mark-down, or
+commission is not included in the trade report. Therefore, the reported
+price of $5.20 does not include the $0.10 fee Bob pays the broker dealer
+for executing the transaction. Inclusive of fees the shares will cost $5.30
+per share.
+Textbook Reference: Please see textbook section 5.2.8.2
+Question ID: 15675
+35) An OTC equity trade is made by a firm located in San Francisco for a
+client who lives in Chicago. The time of execution is shown on the
+trade report as 14:04:12:146. What time did the trade occur?
+ A) 4:04 pm Central Time
+ B) 2:04 pm Pacific Time
+ C) 4:04 pm Eastern Time
+ D) 2:04 pm Eastern Time
+Answer Explanation:
+On a trade report, the time of execution generally is expressed in hours,
+minutes, seconds and milliseconds based on Eastern Time in military
+format, unless another provision of FINRA rules requires that a different
+time be included. It doesn't matter where the trade takes place or where
+the firm and client are located.
+Textbook Reference: Please see textbook section 5.1.1
+Question ID: 37931
+36) XYZ Brokerage executes trades for another firm while giving up
+reporting of the trade, to the other firm. In which case should XYZ’s
+MPID be used when reporting these give-up trades?
+ A) Only with the written approval of the other brokerage firm
+ B) Always
+ C) On a case-by-case basis, subject to supervisory approval
+ D) Never
+Answer Explanation:
+In a give-up relationship, the trade is reported under the MPID of the
+executing firm, not the reporting firm.
+Textbook Reference: Please see textbook section 5.2.7.1
+35 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 1924
+37) A trade is executed at 6:05:47pm. When is the last sale trade report
+due, to avoid being late?
+ A) 06:05:57
+ B) The next trade day
+ C) 07:05:57
+ D) 06:06:57
+Answer Explanation:
+The execution is reported at 6:05:57 p.m. Since this is between 4 p.m.
+and 8:00 p.m., it must be reported within 10 seconds or it is late. It also
+needs a modifier to designate a trade outside normal market hours.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 26125
+38) The purpose of the consolidated audit trail (CAT) system is to
+ A) archive order tickets into a consolidated electronic system.
+ B) help regulators track events in the trade life cycle.
+ C) increase the SEC's jurisdiction over trade processing.
+ D) provide more trade transparency for investors and consumers.
+Answer Explanation:
+The CAT system, created by Regulation NMS Rule 613, allows regulators
+to effectively and efficiently tack events in the life cycle of a trade, thereby
+enhancing regulatory oversight of US securities markets.
+Textbook Reference: Please see textbook section 5.7
+Question ID: 26121
+39) The modifier that indicates a Prior Reference Price trade is
+ A) .RP
+ B) .PRP
+ C) .P
+ D) .R
+Answer Explanation:
+The modifier .P indicates a Prior Reference Price trade i.e., one
+executed at a time later than a prior reference time.
+Textbook Reference: Please see textbook section 5.2.6.1
+36 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2679
+40) A customer buys stock from a dealer in a principal trade, paying
+$36.12 per share. The trade is reported at $36.04 per share, what
+accounts for the 8 cent difference?
+ A) Transaction tax
+ B) Mark-down or service charge
+ C) Mark-up or service charge
+ D) Prior agreement between dealers
+Answer Explanation:
+In a principal trade, the reported purchase price must exclude the selling
+dealer's mark-up or service charge.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 26122
+41) A customer enters an order to buy 600 shares of stock at 2:46 p.m.
+Due to an error, the trade does not execute until almost an hour
+later, at 3:44 p.m. The trade report will indicate
+ A) the price that prevailed at 2:46 along with a .P modifier.
+ B) the actual execution price along with a .T modifier.
+ C) the price that prevailed at 2:46 along with a .T modifier.
+ D) the actual execution price along with a .P modifier.
+Answer Explanation:
+A modifier of .P indicates a Prior Reference Price for a trade that occurred
+earlier. The report shows the actual execution price and includes the .P
+modifier to flag the late trade.
+Textbook Reference: Please see textbook section 5.2.6.1
+Question ID: 3160
+42) When would a member who has a reporting obligation and is acting
+in a riskless principal capacity on behalf of another member submit
+a non-tape report?
+ A) The other member is a dark pool
+ B) The trade is executed without commission or mark-up
+ C) The trade is executed outside normal market hours
+ D) The other member is not identified in the initial trade report
+Answer Explanation:
+FINRA wants all participants in a riskless principal transaction (both legs)
+to be identified. If the other participant is not identified in the initial trade,
+the member with a reporting obligation on the second leg must submit a
+non-tape report identifying the member. A non-tape report will ensure that
+the trading volume is not double counted.
+Textbook Reference: Please see textbook section 5.2.8
+37 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 1875
+43) Bob wishes to sell 100 shares of DEF. The broker dealer holding his
+account executes the trade as principal, includes a $0.15 mark-
+down, and submits a timely trade report indicating a price of $15.20.
+What proceeds will Bob receive per share?
+ A) $15.05
+ B) $15.15
+ C) $15.20
+ D) $15.35
+Answer Explanation:
+When reporting principal transactions, any mark-up, mark-down, or
+commission is not included in the trade report. Therefore, the reported
+price of $15.20 does not include the $0.15 fee Bob pays the broker dealer
+for executing the transaction. Net of fees Bob will receive proceeds of
+$15.05 per share.
+Textbook Reference: Please see textbook section 5.2.8.2
+Question ID: 2029
+44) What is the deadline for a last sale report of a transaction in an ADF-
+eligible security executed at 7:45:00 a.m. EST?
+ A) 7:45:10 a.m. EST the same day
+ B) 8:15:00 a.m. EST the same day
+ C) 4:00:00 p.m. EST the same day
+ D) 8:15:00 a.m. EST the next day (T+1)
+Answer Explanation:
+Last sale reports of trades in ADF-eligible securities executed between
+midnight and 8:00 a.m. EST must be reported by 8:15 a.m. EST on trade
+date.
+Textbook Reference: Please see textbook section 5.4
+Question ID: 2226
+45) A transaction in an ADF-eligible security is made between two
+FINRA members, both of whom are considered executing parties.
+Which one must report the transaction?
+ A) The buy-side
+ B) Neither
+ C) Both
+ D) The sell-side
+Answer Explanation:
+In a transaction between members, the executing party must report the
+trade. If both parties satisfy the definition of executing party, the sell-side
+reports the transaction.
+Textbook Reference: Please see textbook section 5.2.7
+38 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 26124
+46) In a riskless principal transaction, a firm purchases 100,000 shares
+of stock to fill a customer order to buy the same stock, in the same
+amount. This will be reported as
+ A) it depends on the price differential of the two transactions.
+ B) two trades for 100,000 shares.
+ C) one trade for 200,000 shares.
+ D) one trade for 100,000 shares.
+Answer Explanation:
+A riskless principal transaction is treated as one transaction for trade
+reporting purposes
+Textbook Reference: Please see textbook section 5.2.8.3
+47) Stop stock orders are allowed for
+Question ID: 34923
+ A) any type of order, provided prior approval is obtained from an
+exchange or regulator.
+ B) block trades only.
+ C) customer orders only.
+ D) riskless principal trades only.
+Answer Explanation:
+Stop stock orders, in which the customer is promised a price for a short
+period of time, are allowed for customer orders only. They do not require
+exchange or regulator permission.
+Textbook Reference: Please see textbook section 5.2.6.2
+Question ID: 1960
+48) Acting as principal, a dealer buys 100 shares from a customer at
+$28.45 per share, including a 10 cent mark-down from the prevailing
+market. The trade will be reported by the buying dealer as
+ A) 100 shares at $28.35
+ B) 100 shares at $28.45
+ C) 100 shares at $28.55
+ D) 100 shares at $28.45 with a .10 mark-down modifier
+Answer Explanation:
+In a principal trade, a mark-down by a buying dealer must be added back
+to the trade price. A mark-up by a selling dealer must be subtracted from
+the trade price.
+Textbook Reference: Please see textbook section 5.2.8.2
+39 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2276
+49) Broker-dealers Y and Z execute a trade in Stock X at a price
+unrelated to the current market for X. This transaction is reported
+ A) By the seller for publication purposes
+ B) By the buyer for regulatory transaction fee assessment purposes
+ C) Using Form T, due to the trade being executed at a price unrelated
+to the current market
+ D) By the seller for regulatory transaction fee assessment purposes
+Answer Explanation:
+If two parties enter a trade at a price substantially unrelated to the current
+market for the security, the executing party must report for regulatory
+transaction fee assessment purposes. This information will not be
+disseminated to the public.
+Textbook Reference: Please see textbook section 5.2.10
+Question ID: 2837
+50) What type of Alternative Trading System (ATS) may meet the
+conditions for a trade reporting exemption?
+ A) One that exchanges shares for subscribers
+ B) One that is not fully disclosed
+ C) One that clears trades
+ D) One that does not permit automatic execution
+Answer Explanation:
+To qualify for an exemption, the ATS must demonstrate that it is fully
+disclosed at all times, does not exchange shares or funds on behalf of the
+member subscriber, and does not take either side of the trade for clearing
+or settlement purposes. It also may not permit automatic execution.
+Textbook Reference: Please see textbook section 5.6
+Question ID: 26123
+51) A Nasdaq market maker receives a customer order to sell 1,000
+shares of an OTC equity. Within seconds, the market maker buys
+1,000 shares of the same stock for its own inventory, at the same
+price. This practice is considered
+ A) a violation of the fiduciary duty of care.
+ B) a wash sale.
+ C) a violation of best-execution rules.
+ D) an acceptable riskless principal trade.
+Answer Explanation:
+Riskless principal trades occur when a market maker offsets a customer
+order by executing the same order in reverse for its own account, as in
+this example. Such trades are permitted for NMS stock and OTC equities.
+Textbook Reference: Please see textbook section 5.2.8.3
+40 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2719
+52) Last sale reports must include a modifier if the trade is executed
+during normal market hours and is reported
+ A) More than 10 seconds after execution
+ B) More than 90 seconds after execution
+ C) More than 5 seconds after execution
+ D) More than 30 seconds after execution
+Answer Explanation:
+The modifier indicates that the last sale trade report is late. For trades
+during normal market hours late is defined as reported more than 10
+seconds after execution.
+Textbook Reference: Please see textbook section 5.2.3
+Question ID: 34922
+53) Which of the following factors does FINRA consider when
+determining the consequences of late trade reporting by a broker-
+dealer?
+ A) The dollar amount of the trade
+ B) The complexity of the trade
+ C) The size of the trade
+ D) The size of the broker-dealer
+Answer Explanation:
+FINRA considers several factors when determining the consequences of
+late trade reporting including the trade's complexity.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 1982
+54) Under the T+N Trade Processing method, how long is an open order
+carried over, before it is no longer eligible for automatic lock-in
+processing?
+ A) 2 business days after trade date (T+2)
+ B) 3 business days after settlement date (T+5)
+ C) 22 calendar days after trade date
+ D) 30 calendar days after trade date
+Answer Explanation:
+Open orders are those that are unmatched or unaccepted. The system
+automatically carries forward open orders to the next business day,
+through and including T+21. On T+22 the System will carry over any trade
+that remains open, but the trade will not be subject to the automatic lock-
+in process.
+Textbook Reference: Please see textbook section 5.4.2
+41 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 15674
+55) ABC Securities buys 200 shares of stock for a customer on an
+agency basis. The price of the transaction is $67.25 per share,
+including a commission of 50 cents per share. What price will be
+shown on the trade report?
+ A) $67.75
+ B) it depends on the customer's profile and preferences
+ C) $66.75
+ D) $67.25
+Answer Explanation:
+For agency trades, firms should report the number of shares traded and
+the trade price excluding any commissions charged. For buy trades,
+subtract the commission from the transaction price. For sell trades, add
+the commission to the transaction price.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 2620
+56) A trade in an OTC Equity security is effected at 10:30 AM and then
+cancelled at 6:30 PM. If the broker-dealer is unable to report the
+cancellation that same day,
+ A) It must report the cancellation by 8 AM the following business day.
+ B) It is in violation of FINRA trade reporting rules, and will incur a Minor
+Rule Violation.
+ C) It must report the cancellation within 10 seconds of the next market
+open.
+ D) The cancellation must be reported by 8 PM the next business day.
+Answer Explanation:
+For trades executed between 9:30 AM and 4:00 PM and cancelled after
+4:00 PM but before 8:00 PM, the firm must use best efforts to report the
+cancellation by 8:00 PM that same day. Alternatively, it may report the
+cancellation by 8:00 PM the following business day.
+Textbook Reference: Please see textbook section 5.3.1
+Question ID: 2534
+57) For a Seller's Option Trade, the trade report must include a modifier
+to denote
+ A) Identity of the buying broker
+ B) Identity of the selling broker
+ C) Exact time of the order
+ D) Days to deliver
+Answer Explanation:
+Modifiers add information such as the days to deliver in a Seller's Option
+Trade - i.e., a trade with delayed delivery.
+Textbook Reference: Please see textbook section 5.2.6
+42 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2815
+58) Broker-dealer N posts a quote to one FINRA system. It then reports a
+trade resulting from that quote to another FINRA system. How many
+MPIDs may it use in quoting and reporting the transaction?
+ A) It depends on the type of transaction
+ B) One
+ C) Up to three
+ D) Two
+Answer Explanation:
+Quotes, and trades resulting from those quotes, must use the same
+MPID.
+Textbook Reference: Please see textbook section 5.6
+Question ID: 2616
+59) For an agency transaction, how is the commission reported on the
+last sale transaction report?
+ A) Dollars per 100 shares
+ B) It isn't
+ C) Net dollars
+ D) Gross dollars
+Answer Explanation:
+On agency transactions, the trade report excludes any commission
+charged.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 1893
+60) Jane wishes to buy 100 shares of XYZ when it is trading at $35.00
+per share. The broker dealer holding her account executes the trade
+at that price and takes a profit through a $0.30 mark-up. What price
+will be reported to the reporting facility?
+ A) $34.70
+ B) $35.00
+ C) $35.30
+ D) The trade is not reported because it is a principal trade
+Answer Explanation:
+When reporting principal transactions, any mark-up, mark-down, or
+commission is not included in the trade report. Therefore, the firm must
+submit the full $35.00 share price to the trade reporting facility, regardless
+of whatever fees it charges its clients. Note that Jane will pay $35.30,
+inclusive of the markup.
+Textbook Reference: Please see textbook section 5.2.8.2
+43 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2240
+61) Broker S represents the sell-side in a trade and Broker B represents
+the buy side. If both are members and both meet the definition of
+executing party, which party must report the transaction, assuming
+they do not agree otherwise?
+ A) Broker B, because it represents the buy-side
+ B) FINRA will notify the responsible party
+ C) Both must report
+ D) Broker S, because it represents the sell-side
+Answer Explanation:
+In this situation, where both are executing and both are members, the
+sell-side has reporting responsibility, unless they agree otherwise.
+Textbook Reference: Please see textbook section 5.2.7
+Question ID: 2763
+62) In a dual agency transaction for 200 shares at $60 per share, with a
+commission of $15 to the selling broker and $14 to the buying
+broker, what commission is included in the last sale trade report?
+ A) None
+ B) $15
+ C) $14
+ D) $29
+Answer Explanation:
+Neither commission is reported in a dual agency transaction - only the
+number of shares traded and the price.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 1894
+63) Jane wishes to sell 100 shares of XYZ when it is trading at $35.00 per
+share. The broker dealer holding her account executes the trade at
+that price and takes a profit through a $0.30 mark-down. What price
+will be reported to the reporting facility?
+ A) $34.70
+ B) $35.00
+ C) $35.30
+ D) The trade is not reported because it is a principal trade
+Answer Explanation:
+When reporting principal transactions, any mark-up, mark-down, or
+commission is not included in the trade report. Therefore, the firm must
+submit the full $35.00 share price to the trade reporting facility, regardless
+of whatever fees it charges its clients. Note that Jane will receive only
+$34.70 in proceeds from the sale, because the firm charges 30 cents per
+share fee to execute.
+Textbook Reference: Please see textbook section 5.2.8.2
+44 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2227
+64) In a transaction between two FINRA members, which one must
+report the trade?
+ A) Executing party
+ B) Receiving party
+ C) Delivering party
+ D) Both
+Answer Explanation:
+In a transaction between members, the executing party must report the
+trade. If both parties satisfy the definition of executing party, the sell-side
+reports the transaction.
+Textbook Reference: Please see textbook section 5.2.7
+Question ID: 3014
+65) Broker Z executes a trade on behalf of its client, collects the
+appropriate commission, and subsequently the trade is allocated to
+the client's account with Broker Y. This is an example of a
+ A) Give -Up
+ B) Reallocated trade
+ C) Step-Out
+ D) Omnibus transaction
+Answer Explanation:
+In a Step Out, one broker executes the client trade and later on
+allocates the trade to the client's account at a different broker.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 2262
+66) A trade in an OTC Equity Security was executed at 12 PM and was
+subsequently cancelled at 3 PM the same day. The cancellation must
+be reported
+ A) By 4:10 PM
+ B) Within 10 seconds
+ C) By 4 PM
+ D) Within 30 seconds
+Answer Explanation:
+Trades in OTC equity securities executed between 9:30 AM and 4 PM
+and then cancelled at or before 4 PM on the same day must be reported
+as cancelled trades within 10 seconds of the cancellation.
+Textbook Reference: Please see textbook section 5.3.1
+45 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 1925
+67) A trade is executed at 6:45:23 pm via a quote accessed on the ADF.
+To avoid being late, when is the last sale trade report due?
+ A) 07:45:23
+ B) The next business day by 8:15:00
+ C) 06:45:33
+ D) 06:55:23
+Answer Explanation:
+The execution is reported at 6:45:23 p.m. Since this is after 6:30 EST the
+ADF reporting facility is closed, and the trade must be reported the
+following business day by 8:15 a.m.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 2914
+68) Simon Corp. is a UK based retailer. A 50,000 share trade was
+effected on the London stock exchange by a U.S. broker dealer. This
+transaction must be reported to the OTC Reporting Facility
+ A) If the transaction was not reported to the London exchange
+ B) Promptly after the trade is reported to the London exchange
+ C) Within 10 seconds of execution
+ D) At the same time it is reported to the London exchange
+Answer Explanation:
+A foreign equity security is an OTC Equity security that is issued by an
+entity organized under the laws of any foreign country. Trades in these
+securities must be reported to the OTC Reporting Facility unless the trade
+is executed on and reported to a foreign securities exchange.
+Textbook Reference: Please see textbook section 5.5
+Question ID: 15687
+69) Bernice is a broker who executes options trades. If she sends orders
+to the CBOE for execution, in which case will these orders not be
+received by the CBOE in a systematized format?
+ A) when they are not transmitted electronically
+ B) when they are combination orders, such as a spread or a straddle
+ C) when orders are not transmitted during normal market hours
+ D) when she is trading for her firm's own account
+Answer Explanation:
+A systematized transmission is one that is electronically submitted to the
+CBOE for execution. If an order is received in a non-electronic format,
+such as an order telephoned to a floor broker, the order must be input into
+CBOE's electronic systems upon receipt at the CBOE. This allows the
+order to be captured by the CAT system.
+Textbook Reference: Please see textbook section 5.7
+46 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2312
+70) Brian calls his registered rep and asks for the NBBO on shares of
+EDD common stock. The rep indicates it is $25.64-$25.69 12x4. Brian
+places a directed order to sell 500 shares on Nasdaq. Following the
+transaction, the trade report will be sent to
+ A) TRF
+ B) Consolidated tape
+ C) ADF
+ D) ORF
+Answer Explanation:
+Trades that occur on the Nasdaq System must be reported to the
+Nasdaq/FINRA Trade Reporting Facility (TRF).
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 15676
+71) A trade in an OTC equity takes place at 7:36 am. The trade is not
+reported until 9:03 am the same day. When is the trade report due,
+and what modifier should be included on the trade report?
+ A) 8:15 am, .U
+ B) within 10 second, .T
+ C) 9:00 am, .U
+ D) 8:00 am, .T
+Answer Explanation:
+For OTC equity trades executed between midnight and before 8:00 am,
+the reporting requirement is by 8:15 am (within 15 minutes of system
+open on trade date). This trade is reported late so the modifier is .U
+(untimely). If it had been reported by 8:15, the modifier would be .T
+(timely).
+Textbook Reference: Please see textbook section 5.1.2
+Question ID: 3000
+72) Two market makers execute a trade at 4:03:32 p.m. and the trade is
+reported at 4:06:15 p.m.
+This trade report
+ A) Requires a .U modifier
+ B) Must include a .T modifier
+ C) Need not contain a trade modifier if reported on the same day as
+the execution
+ D) Should be notated with a .Z modifier
+Answer Explanation:
+Trades executed outside of normal market hours and reported late (more
+than 10 seconds after execution) must utilize the .U modifier.
+Textbook Reference: Please see textbook section 5.2.3
+47 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2264
+73) A trade in an OTC Equity security was executed on May 15 and
+cancelled at 3 PM on May 16. Notification of the cancellation must be
+reported
+ A) By 8:00 PM on May 17
+ B) By 8:00 PM on May 16
+ C) At 8:15 AM on May 17
+ D) By 8:00 AM on May 17
+Answer Explanation:
+When a trade is cancelled before 8:00 PM on any date after the date of
+execution the cancellation notice must be submitted by 8:00 PM on the
+dated of cancellation. If the trade is cancelled at or after 8:00 PM, the
+cancellation notice must be submitted by 8:00 PM on the following
+business day.
+Textbook Reference: Please see textbook section 5.3.1
+Question ID: 1976
+74) Member firm X executes a trade at 1:45 p.m. and promptly reports it.
+X then takes action to cancel the trade on its books at 2:12. It
+informs the contra party that the trade is being cancelled three
+minutes later, at 2:15. The parties agree to cancel the trade at 2:17.
+What is the deadline for reporting the cancellation?
+ A) 2:12 + 10 seconds
+ B) 2:15 + 10 seconds
+ C) 2:17 + 10 seconds
+ D) By 6:30 p.m. that day
+Answer Explanation:
+The deadline is based on the first of three events to occur: cancellation on
+the reporting member's books, notification of the contra party, and
+agreement of the parties to cancel. If the trade was executed the same
+day and the cancellation occurred during normal market hours, the
+deadline is 10 seconds later.
+Textbook Reference: Please see textbook section 5.3.1
+Question ID: 2367
+75) A trade was reported at 4:22 p.m. with a .Z modifier. This trade was
+ A) Reported and executed outside market orders
+ B) Executed outside of market hours and reported within 10 seconds
+ C) Executed during market hours and reported late
+ D) Executed during market hours and reported within 10 seconds
+Answer Explanation:
+The use of the .Z modifier indicates that the trade was executed during
+market hours buy reported after 10 seconds.
+Textbook Reference: Please see textbook section 5.2.3
+48 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2896
+76) Which FINRA member is responsible for the complete and accurate
+submission of information into the Trade Reporting Facility?
+ A) Designated Member
+ B) Primary Member
+ C) Contra Member
+ D) Reporting Member
+Answer Explanation:
+Unless the contra side has an opportunity to provide its own trade
+information, the Reporting Member is responsible for complete and
+accurate submission of information for both sides of the trade.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 37930
+77) Brokerage Firm A and Brokerage Firm B have a give-up relationship,
+in which trades are reported by Firm A but executed by Firm B.
+Which MPID(s) are used to report trades?
+ A) The MPIDs of both firms
+ B) The MPID of Firm B
+ C) The MPID of Firm A
+ D) A special supplemental MPID must be created and used for a give-
+up relationship
+Answer Explanation:
+In a give-up relationship, the trade is reported under the MPID of the firm
+that executed the trade, not the reporting firm.
+Textbook Reference: Please see textbook section 5.2.7.1
+Question ID: 2263
+78) A trade is executed at 5:00 PM and is cancelled at 9:00 PM on the
+same day. The cancellation report must be submitted
+ A) By 8:00 PM on the following business day
+ B) Within 10 seconds
+ C) By noon the next business day
+ D) By 8:00 AM the next business day
+Answer Explanation:
+If a trade is executed outside regular business hours and then cancelled
+on or after 8PM that same day, the cancellation notice must be submitted
+by 8:00 PM the following business day.
+Textbook Reference: Please see textbook section 5.3.1
+49 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2228
+79) When FINRA grants a trade reporting exemption to an ATS, which
+FINRA member is responsible for reporting the trade?
+ A) The executing party
+ B) The receiving party
+ C) Both
+ D) Neither, the ATS reports
+Answer Explanation:
+Where FINA grants a trade reporting exemption to an ATS, trades are
+reported by the member that is the executing party.
+Textbook Reference: Please see textbook section 5.6.1
+Question ID: 2320
+80) To receive an exemption from trade reporting, an ATS must agree to
+provide trading volume data to FINRA how often?
+ A) At regular intervals
+ B) Daily
+ C) Weekly
+ D) Monthly
+Answer Explanation:
+All of four conditions must be met for an ATS trade reporting exemption.
+One is that the ATS agrees to provide FINRA monthly data on the volume
+of trades executed.
+Textbook Reference: Please see textbook section 5.6
+81) A trade is executed at 9 a.m. This trade must be reported
+Question ID: 3286
+ A) Within 10 seconds with a .T modifier
+ B) By 9:15 a.m. with a .T modifier
+ C) Within 10 seconds with no modifier
+ D) Within 10 seconds with a .U modifier
+Answer Explanation:
+Trades executed between 8:00 a.m. and 9:29:59 a.m. must be reported
+within 10 seconds with a .T modifier
+Textbook Reference: Please see textbook section 5.2.2
+50 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 3060
+82) Broker-dealer T has been told that its last sale report for a trade,
+made in normal market hours, is late. This is because the report was
+made
+ A) After-hours on the day of the trade
+ B) More than 10 seconds after execution
+ C) More than one hour after execution
+ D) The day after the trade
+Answer Explanation:
+Trades executed during normal market hours, other than on an exchange,
+must be reported with 10 seconds of execution. Otherwise, they are
+designated as late.
+Textbook Reference: Please see textbook section 5.2.1
+Question ID: 15680
+83) ABC Securities, a broker-dealer, executes an OTC trade for 800
+shares of an NMS stock that normally trades on Nasdaq. If the trade
+takes place at 7:45 pm, how and when must ABC report the trade?
+ A) within 10 seconds of execution on FINRA TRF
+ B) by 8:15 am the next business day on FINRA ADF
+ C) within 10 seconds of execution on FINRA ORF
+ D) the broker-dealer will not report the trade because it is captured on
+the NYSE consolidated tape
+Answer Explanation:
+FINRA's Trade Reporting Facility (TRF) reports transactions in exchange-
+listed securities that occur off the exchange. The TRF's hours of operation
+are 8:00 am to 8:00 pm EST, and all trades during these hours must be
+reported within 10 seconds.
+Textbook Reference: Please see textbook section 5.1.2
+Question ID: 15673
+84) ABC Securities executes a trade in an equity security at 1:47 pm
+Eastern Time. When must the trade report be made to FINRA's Trade
+Reporting Facility?
+ A) within two minutes of execution
+ B) within five minutes of execution
+ C) within 10 seconds of execution
+ D) within 60 seconds of execution
+Answer Explanation:
+Reports for equity trades reported to FINRA's Trade Reporting Facility
+(TRF) between 8:00 am and 8:00 pm must be made within 10 seconds
+after execution, or else they must include modifier designating a late trade
+report.
+Textbook Reference: Please see textbook section 5.1.2
+51 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+85) A trade is executed at 5:00 p.m. The trade report
+Question ID: 2729
+ A) Must be submitted within 10 seconds and include a .U modifier
+ B) Must be submitted by 8:15 a.m. on T+1 and carry a .T modifier
+ C) Must be submitted within 10 seconds and include a .T modifier
+ D) Can be submitted by 8:15 a.m. and only include a modifier if
+reported at 8:15 a.m.
+Answer Explanation:
+Trades executed between 4:00:01 p.m. and 8:00 p.m. must be reported
+within 10 seconds and include a .T modifier
+Textbook Reference: Please see textbook section 5.2.2
+Question ID: 2104
+86) What may a member do to have its dark pool transaction data
+included in FINRA's published volume?
+ A) Affirmatively opt-out
+ B) Affirmatively opt-in
+ C) Meet trading volume thresholds
+ D) File required reports on time
+Answer Explanation:
+A member's dark pool transaction data will not be included in published
+volume unless the member affirmatively opts-in.
+Textbook Reference: Please see textbook section 5.6
+Question ID: 2211
+87) A trade in an OTC Equity security is executed at 9:45 AM and is
+cancelled 12 hours later. The broker-dealer must report the
+cancellation
+ A) By 8:00 PM the following business day
+ B) Before midnight that same day
+ C) Within 24 hours
+ D) By 8:00 AM the following business day.
+Answer Explanation:
+If the trade was executed during regular market hours and cancelled after
+8:00 PM the same day, the cancellation report must be submitted by 8:00
+PM the next business day.
+Textbook Reference: Please see textbook section 5.3
+52 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2006
+88) How long after trade execution do participants have to accept or
+decline a trade executed via a quote on the ADF, or else input the
+trade report?
+ A) 5 minutes
+ B) 10 minutes
+ C) 20 minutes
+ D) 30 minutes
+Answer Explanation:
+Participants must either input trade reports or accept or decline a trade
+within 20 minutes after execution.
+Textbook Reference: Please see textbook section 5.4.2
+Question ID: 1874
+89) Bob wishes to buy 100 shares of DEF. The broker dealer holding his
+account executes the trade as principal, includes a $0.15 mark-up,
+and submits a timely trade report indicating a price of $15.20. What
+will be Bob's total cost per share?
+ A) $15.05
+ B) $15.15
+ C) $15.20
+ D) $15.35
+Answer Explanation:
+When reporting principal transactions, any mark-up, mark-down, or
+commission is not included in the trade report. Therefore, the reported
+price of $15.20 does not include the $0.15 fee Bob pays the broker dealer
+for executing the transaction. Inclusive of fees, Bob will pay a total cost of
+$15.35 per share.
+Textbook Reference: Please see textbook section 5.2.8.2
+Question ID: 1949
+90) What is the deadline for last sale reports of transactions in ADF-
+eligible securities executed during normal market hours, and not on
+an exchange?
+ A) 10 seconds after execution
+ B) 30 seconds after execution
+ C) 90 seconds after execution
+ D) 15 minutes after execution
+Answer Explanation:
+During normal market hours, transactions not reported within 10 seconds
+after execution are designated as late.
+Textbook Reference: Please see textbook section 5.2.1
+53 of 54
+KnopmanMarks
+http://testprep.knopman.com
+Series 57 Top-Off - 8/27/2023 1:09 PM
+Question ID: 2541
+91) When is a riskless principal capacity indicator used to report a
+riskless principal transaction to FINRA?
+ A) When the trade is made after-hours
+ B) When only one side of the trade is reported
+ C) If the trade deviates by more than 8.5% from the trailing 5 minute
+average
+ D) When the trade is reported late
+Answer Explanation:
+If only one leg of a riskless principal transaction is reported by a dealer
+(because the other leg has been reported by another member), a riskless
+principal capacity indicator must be added to the non-tape, non-clearing
+report or a clearing-only report.
+Textbook Reference: Please see textbook section 5.2.8
+Question ID: 36503
+92) Which type of trades are executed through FINRA's TRF?
+ A) OTC trades
+ B) Third market trades
+ C) Off-exchange trades in listed securities
+ D) None
+Answer Explanation:
+TRF (Trade Reporting Facility) provides a mechanism for reporting trades
+but is not used for trade executions.
+Textbook Reference: Please see textbook section 5.2
