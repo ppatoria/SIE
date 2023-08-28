@@ -1,0 +1,179 @@
+* Broker-dealers must update public information on National Market System posting at least every 6 months.
+* Firms must retain records of all complaints, whether verbal, written, or electronic.
+* Order routing details must be published quarterly.
+* The intermediary can be disclosed to the SEC as an Identified Large Trader.
+* ITSEFEA authorized fines up to 3 times illicit profits, not short swing profits.
+* Both source and amount of any compensation for stock promotion must be disclosed.
+* Firms must provide routing details to customers in a timely manner upon request.
+* Penny stocks generally trade below $5 per share.
+* Penny stock transactions require two separate compensation disclosures.
+* With a credit limit exception, a supervisor should review and authorize any increase.
+* After a disqualifying month, a firm must wait 6 full months to qualify for exemption.
+* Those with material nonpublic information should not trade until it becomes public.
+* The monthly threshold of $20M value is exceeded.
+* Explanations for changes to the restricted list are not required in books and records.
+* Initial penny stock disclosure must be oral or written before the trade.
+* Order routing reports must be made quarterly.
+* Institutional suitability does not require ensuring the customer understands specific risks.
+* Penny stocks may lack liquidity.
+* Orders with special handling instructions are excluded from the order execution statistics.
+* The technician misappropriated confidential information, so could be liable.
+* Execution quality reports must be readily accessible by the public.
+* Large Traders must file quarterly.
+* Order routing reports must disclose conflicts of interest.
+* The disclosure must be received at least 1 day prior.
+* To use prevailing price, the market maker must be in a competitive market.
+* Without a recent market price, the original cost should be shown.
+* A single transaction can qualify as a block.
+* Compensation is the difference between prevailing market price and the price charged.
+* Listed stocks can't be penny stocks.
+* Time of order entry is when the firm transmits the order for execution.
+* Market makers with inside knowledge should not solicit trades.
+* Members cannot compensate media for influencing opinions on securities.
+* Revenue and trading activity tests apply.
+* The revenue test sets a 5% threshold.
+* Misappropriation applies to a non-insider breaching a duty of confidentiality.
+* Penny stock disclosure acknowledgments must be kept 6 years.
+* With no consistent interdealer trading, the last dealer purchase price must be disclosed.
+* Block orders must be at least $200,000 in value.
+* Splitting orders to speed execution is allowed.
+* Penny stock disclosures can be acknowledged verbally or in writing.
+* Disclosures can be delivered by mail or email.
+* Splitting orders primarily to increase volume is prohibited.
+* Disclosures are due 1 day before the penny stock transaction.
+* Large Traders disclose all accounts where discretionary trading exceeded thresholds.
+* Misappropriation applies to breaching duty of confidentiality.
+* Large Traders must identify trades by assigned ID numbers.
+* Rule 605 covers order execution statistics of market centers.
+* A statement of "no estimated value" indicates no recent market for the stock.
+* A block trade must be executed in a single transaction.
+* Large Trader thresholds are based on monthly trading activity.
+* Order splitting may also be called shredding.
+* With rumors of news, a market maker should seek withdrawal status.
+* Trade reports are not categorized by individual security.
+* Riskless principal transactions are included in the Large Trader calculations.
+* Quotes from at least one other dealer are required in penny stock agency sales.
+* Order routing reports must be published for the benefit of the public.
+* The penny stock quote disclosure must include average daily trading volume.
+* Contingent compensation arrangements must disclose both cash and non-cash compensation.
+* Attempts to coordinate quotes/trades between any entities are prohibited.
+* After-market liquidity is not reported in order execution quality statistics.
+* Staff accountants are not defined as insiders under the Act.
+* Firms decide if penny stock disclosures apply for their customers.
+* Venues exceeding 5% of orders must be identified, so 7 here.
+* The prevailing market price from a market maker must be known.
+* ATS's must report if ADTV exceeds 5% threshold.
+* Filing a Termination Request will stop future filing obligations.
+* Inside quote requires bids and offers from at least two market makers.
+* Over-the-counter transactions in NMS stocks must be reported to FINRA.
+* Giving market makers selective early disclosure is prohibited selective disclosure.
+* With 3 consistent interdealer trades, the firm's bid or offer can be disclosed.
+* Large Trader thresholds are based on trading NMS securities.
+* OTC market makers are not considered market centers.
+* Block positioners must maintain minimum net capital of $5 million.
+* Average effective spread measures trading liquidity and efficiency.
+* The daily threshold is $20 million in fair market value.
+* Order routing reports cover non-directed orders.
+* Members cannot pay media to influence opinions on securities.
+* Execution quality statistics cover regular trading hours orders.
+* Routing reports must identify the 10 largest venues for non-directed orders.
+* Unofficial compensation sources must be disclosed if customers trade the stock.
+* ATS is the term for non-exchange trading venues.
+* Reports must categorize by order type.
+* With advance knowledge, customer orders should be handled on a non-discretionary basis.
+* Trading ahead occurs if the information is used before it becomes public.
+* Exchanges cannot allow those statutorily disqualified from associating with an SRO to be members.
+* Form CRS must be provided before a recommendation is made.
+* Listed stocks don't become penny stocks based on share price.
+* Penny stock quote disclosure must provide the most recent bid/ask prices.
+* Regulation BI states recommendations that result in higher costs must be in the customer's best interest.
+* Venues receiving 5% or more of non-directed orders must be identified.
+* Block positioners must exercise reasonable due diligence to check for better pricing.
+* Unsolicited customer-initiated trades may qualify for penny stock disclosure exemption.
+* Plaintiffs must specify allegedly fraudulent statements in private rights of action.
+* Customers can request routing details for the past 6 months.
+* Customers can request past 6 months of routing details.
+* Execution quality reports must be made available to the public.
+* Trading on misappropriated information could violate insider trading laws.
+* Average effective spread best measures liquidity premium paid by investors.
+* ATS volume thresholds are based on 4 of last 6 calendar months.
+* Contingent compensation depends on stock performance.
+* Best independent interdealer bid/ask prices must be disclosed for agency penny stock sales.
+* Firms must document approval of discretionary accounts.
+* Form 13H is filed annually by Large Traders.
+* Order routing reports are required quarterly.
+* Maximum prison term under ITSEFEA is 10 years, not 5 years.
+* Large Trader thresholds for index options are based on both share volume and fair market value.
+* The penny stock disclosure states investors may lose their entire investment.
+* Books and records should include annual income, net worth excluding residence, and objectives.
+* Regulation BI applies a heightened standard of conduct when advising retail clients on account types.
+* With advance knowledge, reps can only discuss public information widely reported.
+* Market makers cannot trade for their own account with advance knowledge of research.
+* Order routing reports must identify the 10 largest venues for non-directed orders.
+* For the exemption, the revenue threshold can't be exceeded in more than 3 of the last 12 months.
+* ITSEFEA does not prohibit short swing profits.
+* Order entry and execution times must be preserved in books and records.
+* Order splitting is prohibited to manipulate either trade execution or reporting.
+* Securities affiliates' trades don't count toward the Large Trader's volume.
+* With no inside quote, the market maker's own bid-ask should be disclosed.
+* Broker-dealers with minimal penny stock business can qualify for exemption.
+* Statements II and III are correct under the 1934 Act.
+* Trading ahead based on nonpublic research is prohibited regardless of who trades.
+
+
+
+* Record-Keeping and Reporting:
+**  Broker-dealers must update public information on the National Market System posting at least every 6 months.
+**  Firms must retain records of all complaints, whether verbal, written, or electronic.
+**  Order routing details must be published quarterly.
+**  Execution quality reports must be readily accessible by the public.
+**  Reports must categorize by order type.
+**  Books and records should include annual income, net worth excluding residence, and objectives.
+**  Order entry and execution times must be preserved in books and records.
+* Large Traders and Thresholds:
+**  The intermediary can be disclosed to the SEC as an Identified Large Trader.
+**  Large Traders must file quarterly.
+**  Large Trader thresholds are based on monthly trading activity.
+**  Large Trader thresholds for index options are based on both share volume and fair market value.
+**  Securities affiliates' trades don't count toward the Large Trader's volume.
+* Regulation and Compliance:
+**  ITSEFEA authorized fines up to 3 times illicit profits, not short swing profits.
+**  Regulation BI applies a heightened standard of conduct when advising retail clients on account types.
+**  Regulation BI states recommendations that result in higher costs must be in the customer's best interest.
+**  Regulation BI applies when Form CRS must be provided before a recommendation is made.
+* Penny Stocks:
+**  Penny stocks generally trade below $5 per share.
+**  Penny stock transactions require two separate compensation disclosures.
+**  Initial penny stock disclosure must be oral or written before the trade.
+**  Penny stock disclosures can be acknowledged verbally or in writing.
+**  Disclosures can be delivered by mail or email.
+**  Disclosures are due 1 day before the penny stock transaction.
+**  Unsolicited customer-initiated trades may qualify for penny stock disclosure exemption.
+**  Broker-dealers with minimal penny stock business can qualify for exemption.
+**  The penny stock disclosure states investors may lose their entire investment.
+**  With no inside quote, the market maker's own bid-ask should be disclosed.
+**  The penny stock quote disclosure must include average daily trading volume.
+**  Best independent interdealer bid/ask prices must be disclosed for agency penny stock sales.
+* Order Routing and Execution Quality:
+**  Orders with special handling instructions are excluded from the order execution statistics.
+**  Execution quality statistics cover regular trading hours orders.
+**  Order routing reports must identify the 10 largest venues for non-directed orders.
+**  Execution quality reports must be made available to the public.
+**  Block positioners must exercise reasonable due diligence to check for better pricing.
+* Trading and Insider Information:
+**  With advance knowledge, reps can only discuss public information widely reported.
+**  Market makers cannot trade for their own account with advance knowledge of research.
+**  Trading on misappropriated information could violate insider trading laws.
+**  Trading ahead based on nonpublic research is prohibited regardless of who trades.
+**  Market makers with inside knowledge should not solicit trades.
+**  Inside quote requires bids and offers from at least two market makers.
+* Trade Reporting and Disclosure:
+**  Over-the-counter transactions in NMS stocks must be reported to FINRA.
+**  Unsolicited customer-initiated trades may qualify for penny stock disclosure exemption.
+**  Explanations for changes to the restricted list are not required in books and records.
+**  SEC disclosures for Listed vs. OTC stocks.
+**  Splitting orders primarily to increase volume is prohibited.
+**  Trade reports are not categorized by individual security.
+**  For the exemption, the revenue threshold can't be exceeded in more than 3 of the last 12 months.
+**  Giving market makers selective early disclosure is prohibited selective disclosure.
+**  Splitting orders to speed execution is allowed.
