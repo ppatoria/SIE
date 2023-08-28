@@ -1735,2130 +1735,1340 @@ as they do in the equity markets.
 
 Question and answers
 ----------------------
-KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                            Answers and explanations follow the test.
-                                                                       Question ID: 3207
-1) Which reporting facility is used for trade reporting in OTC equity and
-   restricted securities?
-    A) FINRA TRF
-    B) Arca
-    C) TRACE
-    D) ORF
-                                                                       Question ID: 2177
-2) A trade is executed at 8:00 AM and cancelled at 7:00 PM the same
-   day. The cancellation report must be submitted
-    A) At any time prior to the start of the following market day
-    B) By 8:00 PM the same day
-    C) By 8:00 AM the next business day
-    D) At 8:00 PM the next business day
-                                                                       Question ID: 1921
-3) In a last sale report of an ADF-eligible security after 6:30 p.m., what
-   designation is used to denote that execution took place on a prior
-   day?
-    A) as/of
-    B) .U
-    C) .T
-    D) NC
-                                                                      Question ID: 34921
-4) A broker-dealer's primary reporting facility is experiencing an outage.
-   Which of the following would not be permitted by the broker-dealer
-   during the outage?
-    A) Route orders to another exchange that can report the trades
-    B) Halt trading until the problem is resolved
-    C) Document the trades manually and report to the primary facility once
-   the outage is resolved
-    D) Continue to trade provided that the broker-dealer can report to a
-   secondary facility
-                                         1 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                  Question ID: 15678
-5) At 10:45 am, a market maker agrees to execute a trade for 1,000
-   shares of an OTC stock at the close of normal market hours on that
-   trading day, at a price equal to the last trade price. What should the
-   trade report show as the time of the trade?
-    A) on close
-    B) 16:00:00:000
-    C) 10:45 pending sale
-    D) 10:45:00:000
-                                                                   Question ID: 2067
-6) For trade reporting purposes, the trade price reported must exclude
-    A) A mark-up and mark-down, but not a service charge
-    B) A mark-up, but not a mark-down
-    C) A service charge, but not a mark-up or mark-down
-    D) A mark-up, mark-down, and service charge
-                                                                  Question ID: 34924
-7) All of the following transactions are exempt from trade reporting
-   requirements except
-    A) tender offer transactions.
-    B) a trade in which both sides have agreed to a price unrelated to the
-   current market price.
-    C) new issue transactions.
-    D) a riskless principal trade.
-                                                                   Question ID: 2595
-8) Participation in the Over the Counter Trade Reporting Facility (ORF) is
-   mandatory for any FINRA member that
-    A) Carries inventory in OTC stocks or bonds
-    B) Has an obligation to report an OTC transaction
-    C) Trades for non-proprietary accounts
-    D) Is not self-clearing
-                                                                   Question ID: 2854
-9) In the Trade by Trade Match method of locked-in trade reporting,
-   which party submits transaction data?
-    A) Only the Reporting Party
-    B) Only the contra party
-    C) Both parties
-    D) Neither party
-                                      2 of 54
-                            KnopmanMarks
-                        http://testprep.knopman.com
-                   Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                 Question ID: 2268
-10) What is the best way for an interested party obtain information on an
-    ATS dark pool's total trading volume?
-     A) By consulting the member's web site
-     B) By making a formal request to FINRA
-     C) By consulting a consolidated monthly report produced by FINRA
-     D) This data is not available
-                                                                Question ID: 26128
-11) Under the CAT system, what time does the trading day end and
-    reports due respectively?
-     A) Trading day ends at 4:15 p.m. ET and reports are due by 9 a.m. the
-    next morning
-     B) Trading day ends at 4:15 p.m. ET and reports are due by 8 a.m. the
-    next morning
-     C) Trading day ends at 4 p.m. ET and reports are due by 9 a.m. the
-    next morning
-     D) Trading day ends at 4 p.m. ET and reports are due by 8 a.m. the
-    next morning
-                                                                Question ID: 26129
-12) Which U.S. broker-dealers are exempt from reporting requirements
-    under the CAT system?
-     A) non-FINRA members
-     B) none
-     C) non-market makers
-     D) those meeting requirements for small firms
-                                                                Question ID: 20696
-13) The time of execution of an OTC equity trade is reported as
-    4:00:00:004 PM. When must the trade be reported and what modifier
-    must be used, assuming it is reported on time?
-     A) within 30 seconds, .T
-     B) by 8:15 am the next morning, .U
-     C) within 10 seconds, .U
-     D) within 10 seconds, .T
-                                    3 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                   Question ID: 3045
-14) Who is responsible for reporting a trade cancellation to the ADF?
-     A) The member who submitted the original trade
-     B) The buying broker
-     C) The selling broker
-     D) All parties to the trade
-                                                                   Question ID: 2370
-15) In a transaction between a member and a non-member, which party
-    has responsibility for reporting the transaction?
-     A) Contra party
-     B) Member
-     C) Non-member
-     D) Executing party
-                                                                   Question ID: 2213
-16) When a dealer buys shares from a customer in a principal trade, with
-    a mark-down, the customer's price will be
-     A) Above the prevailing market price
-     B) The prevailing market price plus a service charge
-     C) The same as the prevailing market price
-     D) Below the prevailing market price
-                                                                   Question ID: 2856
-17) What time must be stamped on a last trade report for a Stop Stock
-    Transaction?
-     A) Neither the time of execution nor the stop stock price
-     B) Only the time of the stop stock price
-     C) Both the time of execution and the time of the stop stock price
-     D) Only the time of execution
-                                                                  Question ID: 36504
-18) A firm executes a trade at 10:30 am that must be reported on
-    FINRA's Trade Reporting Facility (TRF). The trade must be reported
-     A) within 10 seconds of execution.
-     B) within 30 seconds of execution.
-     C) within 15 minutes of execution
-     D) at any time prior to market close.
-                                      4 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 15679
-19) A trade in an OTC stock occurs on Saturday, June 9. By what date
-    and time must the trade be reported?
-     A) by Monday at 4 pm
-     B) by Monday at 8:15 am
-     C) by Saturday at midnight
-     D) by Saturday at 4:00 pm
-                                                                      Question ID: 2878
-20) What does the term locked-in mean in context of a trade?
-     A) At least one party to the trade accepts the terms
-     B) Terms of the trade are recognized by the system
-     C) Participants are bound to honor and settle the trade
-     D) The system has captured trade report data
-                                                                     Question ID: 26120
-21) A customer buys 300 shares of a stock on Tuesday at 9 p.m. What
-    special notation does the order receive when it is reported the next
-    day?
-     A) .P modifier
-     B) as/of
-     C) .W modifier
-     D) .U modifier
-                                                                      Question ID: 2613
-22) Under the Trade Acceptance method of processing, what happens if
-    the contra party declines the trade?
-     A) It is purged on the day following the trade date
-     B) It will remain in the System, but will not be subject to the automatic
-    lock-in process.
-     C) It is purged on the trade date
-     D) It is carried forward for one business day
-                                                                      Question ID: 3278
-23) In which case may a series of individual orders placed by a member
-    - at the same price, in the same security, and on the same side of the
-    market - be aggregated for trade reporting purposes?
-     A) In no case
-     B) If they are executed within the same 30-minute period
-     C) With the customer's permission
-     D) If they are reported on the same trading day
-                                      5 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                 Question ID: 2586
-24) FINRA may grant an Alternative Trading System (ATS) an exemption
-    from trade reporting obligations, provided it is consistent with
-     A) Investor protection and public interest
-     B) Previously granted exemptions
-     C) Trading volume and activity
-     D) Regulatory oversight responsibilities
-                                                                 Question ID: 2218
-25) What term defines an ATS that does not display quotes or
-    subscriber orders to anyone?
-     A) Wide moat
-     B) Closed market
-     C) Dark pool
-     D) Black box
-                                                                 Question ID: 2846
-26) To avoid being reported late, must a pre-open trade be reported
-    within 10 seconds?
-     A) Only if execution is after 8:00 a.m.
-     B) Only if execution is between 7:00 a.m. and 8:00 a.m.
-     C) Only if execution is before 8:00 a.m.
-     D) Only if execution is before 7:00 a.m.
-                                                                Question ID: 15689
-27) A client has filed a written complaint against Jeffrey, an options
-    trader, alleging that he consistently delayed execution of the client's
-    orders to buy or sell options contracts. To prove or disprove the
-    complaint, regulators will review the time sequence options trades
-    Jeffrey has placed. What system captures this data?
-     A) TRF
-     B) OPRA
-     C) OATS
-     D) CAT
-                                     6 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                 Question ID: 2103
-28) What term describes a member firm that is a party to a transaction
-    and is identified by the trade reporting system as such, even though
-    it does not execute or clear trades?
-     A) Affiliated broker-dealer
-     B) Introducing broker-dealer
-     C) Referring broker-dealer
-     D) Correspondent broker-dealer
-                                                                 Question ID: 2442
-29) Broker-dealer B does a trade with its customer Helen in an ADF
-    security. The report of this trade is made by
-     A) Helen
-     B) OATS
-     C) FINRA
-     D) BD B
-                                                                 Question ID: 3281
-30) A trade is executed at 3:10 p.m. EST and then cancelled at 4:15 p.m.
-    on the same day. When must the cancellation be reported to the ADF
-    on a best-efforts basis?
-     A) Within 10 seconds
-     B) By the opening of the market on the next day
-     C) Within 30 minutes
-     D) By 6:30 p.m. on the same day
-                                                                 Question ID: 2985
-31) Members that operate multiple Alternative Trading Systems (ATS)
-    must obtain a separate MPID for each
-     A) ATS
-     B) Trade report
-     C) Security quoted
-     D) Security traded
-                                                                 Question ID: 2615
-32) If a last sale report of an OTC transaction in an ADF-eligible security
-    is not possible, because the ticker symbol is no longer available,
-    how is the last sale reported?
-     A) On Form G
-     B) It isn't
-     C) On Form N
-     D) On Form T
-                                      7 of 54
-                              KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 3316
-33) If a trade in an ADF-eligible security occurs after market hours, must
-    the last sale report be made the following business day?
-     A) Yes, in all cases
-     B) Only if the trade is after 6:30 p.m. EST
-     C) Only if the trade is after 8:00 p.m. EST
-     D) Not unless FINRA permits an exception
-                                                                    Question ID: 1908
-34) Dan wishes to buy 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.10 mark-up,
-    and submits a timely trade report indicating a price of $5.20. What
-    will Dan need to pay per share?
-     A) $5.10
-     B) $5.20
-     C) $5.30
-     D) $520.10
-                                                                   Question ID: 15675
-35) An OTC equity trade is made by a firm located in San Francisco for a
-    client who lives in Chicago. The time of execution is shown on the
-    trade report as 14:04:12:146. What time did the trade occur?
-     A) 4:04 pm Central Time
-     B) 2:04 pm Pacific Time
-     C) 4:04 pm Eastern Time
-     D) 2:04 pm Eastern Time
-                                                                   Question ID: 37931
-36) XYZ Brokerage executes trades for another firm while giving up
-    reporting of the trade, to the other firm. In which case should XYZ’s
-    MPID be used when reporting these give-up trades?
-     A) Only with the written approval of the other brokerage firm
-     B) Always
-     C) On a case-by-case basis, subject to supervisory approval
-     D) Never
-                                      8 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 1924
-37) A trade is executed at 6:05:47pm. When is the last sale trade report
-    due, to avoid being late?
-     A) 06:05:57
-     B) The next trade day
-     C) 07:05:57
-     D) 06:06:57
-                                                                    Question ID: 26125
-38) The purpose of the consolidated audit trail (CAT) system is to
-     A) archive order tickets into a consolidated electronic system.
-     B) help regulators track events in the trade life cycle.
-     C) increase the SEC's jurisdiction over trade processing.
-     D) provide more trade transparency for investors and consumers.
-                                                                    Question ID: 26121
-39) The modifier that indicates a Prior Reference Price trade is
-     A) .RP
-     B) .PRP
-     C) .P
-     D) .R
-                                                                     Question ID: 2679
-40) A customer buys stock from a dealer in a principal trade, paying
-    $36.12 per share. The trade is reported at $36.04 per share, what
-    accounts for the 8 cent difference?
-     A) Transaction tax
-     B) Mark-down or service charge
-     C) Mark-up or service charge
-     D) Prior agreement between dealers
-                                                                    Question ID: 26122
-41) A customer enters an order to buy 600 shares of stock at 2:46 p.m.
-    Due to an error, the trade does not execute until almost an hour
-    later, at 3:44 p.m. The trade report will indicate
-     A) the price that prevailed at 2:46 along with a .P modifier.
-     B) the actual execution price along with a .T modifier.
-     C) the price that prevailed at 2:46 along with a .T modifier.
-     D) the actual execution price along with a .P modifier.
-                                     9 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 3160
-42) When would a member who has a reporting obligation and is acting
-    in a riskless principal capacity on behalf of another member submit
-    a non-tape report?
-     A) The other member is a dark pool
-     B) The trade is executed without commission or mark-up
-     C) The trade is executed outside normal market hours
-     D) The other member is not identified in the initial trade report
-                                                                     Question ID: 1875
-43) Bob wishes to sell 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.15 mark-
-    down, and submits a timely trade report indicating a price of $15.20.
-    What proceeds will Bob receive per share?
-     A) $15.05
-     B) $15.15
-     C) $15.20
-     D) $15.35
-                                                                     Question ID: 2029
-44) What is the deadline for a last sale report of a transaction in an ADF-
-    eligible security executed at 7:45:00 a.m. EST?
-     A) 7:45:10 a.m. EST the same day
-     B) 8:15:00 a.m. EST the same day
-     C) 4:00:00 p.m. EST the same day
-     D) 8:15:00 a.m. EST the next day (T+1)
-                                                                     Question ID: 2226
-45) A transaction in an ADF-eligible security is made between two
-    FINRA members, both of whom are considered executing parties.
-    Which one must report the transaction?
-     A) The buy-side
-     B) Neither
-     C) Both
-     D) The sell-side
-                                     10 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 26124
-46) In a riskless principal transaction, a firm purchases 100,000 shares
-    of stock to fill a customer order to buy the same stock, in the same
-    amount. This will be reported as
-     A) it depends on the price differential of the two transactions.
-     B) two trades for 100,000 shares.
-     C) one trade for 200,000 shares.
-     D) one trade for 100,000 shares.
-                                                                    Question ID: 34923
-47) Stop stock orders are allowed for
-     A) any type of order, provided prior approval is obtained from an
-    exchange or regulator.
-     B) block trades only.
-     C) customer orders only.
-     D) riskless principal trades only.
-                                                                     Question ID: 1960
-48) Acting as principal, a dealer buys 100 shares from a customer at
-    $28.45 per share, including a 10 cent mark-down from the prevailing
-    market. The trade will be reported by the buying dealer as
-     A) 100 shares at $28.35
-     B) 100 shares at $28.45
-     C) 100 shares at $28.55
-     D) 100 shares at $28.45 with a .10 mark-down modifier
-                                                                     Question ID: 2276
-49) Broker-dealers Y and Z execute a trade in Stock X at a price
-    unrelated to the current market for X. This transaction is reported
-     A) By the seller for publication purposes
-     B) By the buyer for regulatory transaction fee assessment purposes
-     C) Using Form T, due to the trade being executed at a price unrelated
-    to the current market
-     D) By the seller for regulatory transaction fee assessment purposes
-                                                                     Question ID: 2837
-50) What type of Alternative Trading System (ATS) may meet the
-    conditions for a trade reporting exemption?
-     A) One that exchanges shares for subscribers
-     B) One that is not fully disclosed
-     C) One that clears trades
-     D) One that does not permit automatic execution
-                                      11 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                  Question ID: 26123
-51) A Nasdaq market maker receives a customer order to sell 1,000
-    shares of an OTC equity. Within seconds, the market maker buys
-    1,000 shares of the same stock for its own inventory, at the same
-    price. This practice is considered
-     A) a violation of the fiduciary duty of care.
-     B) a wash sale.
-     C) a violation of best-execution rules.
-     D) an acceptable riskless principal trade.
-                                                                   Question ID: 2719
-52) Last sale reports must include a modifier if the trade is executed
-    during normal market hours and is reported
-     A) More than 10 seconds after execution
-     B) More than 90 seconds after execution
-     C) More than 5 seconds after execution
-     D) More than 30 seconds after execution
-                                                                  Question ID: 34922
-53) Which of the following factors does FINRA consider when
-    determining the consequences of late trade reporting by a broker-
-    dealer?
-     A) The dollar amount of the trade
-     B) The complexity of the trade
-     C) The size of the trade
-     D) The size of the broker-dealer
-                                                                   Question ID: 1982
-54) Under the T+N Trade Processing method, how long is an open order
-    carried over, before it is no longer eligible for automatic lock-in
-    processing?
-     A) 2 business days after trade date (T+2)
-     B) 3 business days after settlement date (T+5)
-     C) 22 calendar days after trade date
-     D) 30 calendar days after trade date
-                                      12 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 15674
-55) ABC Securities buys 200 shares of stock for a customer on an
-    agency basis. The price of the transaction is $67.25 per share,
-    including a commission of 50 cents per share. What price will be
-    shown on the trade report?
-     A) $67.75
-     B) it depends on the customer's profile and preferences
-     C) $66.75
-     D) $67.25
-                                                                        Question ID: 2620
-56) A trade in an OTC Equity security is effected at 10:30 AM and then
-    cancelled at 6:30 PM. If the broker-dealer is unable to report the
-    cancellation that same day,
-     A) It must report the cancellation by 8 AM the following business day.
-     B) It is in violation of FINRA trade reporting rules, and will incur a Minor
-    Rule Violation.
-     C) It must report the cancellation within 10 seconds of the next market
-    open.
-     D) The cancellation must be reported by 8 PM the next business day.
-                                                                        Question ID: 2534
-57) For a Seller's Option Trade, the trade report must include a modifier
-    to denote
-     A) Identity of the buying broker
-     B) Identity of the selling broker
-     C) Exact time of the order
-     D) Days to deliver
-                                                                        Question ID: 2815
-58) Broker-dealer N posts a quote to one FINRA system. It then reports a
-    trade resulting from that quote to another FINRA system. How many
-    MPIDs may it use in quoting and reporting the transaction?
-     A) It depends on the type of transaction
-     B) One
-     C) Up to three
-     D) Two
-                                       13 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                   Question ID: 2616
-59) For an agency transaction, how is the commission reported on the
-    last sale transaction report?
-     A) Dollars per 100 shares
-     B) It isn't
-     C) Net dollars
-     D) Gross dollars
-                                                                   Question ID: 1893
-60) Jane wishes to buy 100 shares of XYZ when it is trading at $35.00
-    per share. The broker dealer holding her account executes the trade
-    at that price and takes a profit through a $0.30 mark-up. What price
-    will be reported to the reporting facility?
-     A) $34.70
-     B) $35.00
-     C) $35.30
-     D) The trade is not reported because it is a principal trade
-                                                                   Question ID: 2240
-61) Broker S represents the sell-side in a trade and Broker B represents
-    the buy side. If both are members and both meet the definition of
-    executing party, which party must report the transaction, assuming
-    they do not agree otherwise?
-     A) Broker B, because it represents the buy-side
-     B) FINRA will notify the responsible party
-     C) Both must report
-     D) Broker S, because it represents the sell-side
-                                                                   Question ID: 2763
-62) In a dual agency transaction for 200 shares at $60 per share, with a
-    commission of $15 to the selling broker and $14 to the buying
-    broker, what commission is included in the last sale trade report?
-     A) None
-     B) $15
-     C) $14
-     D) $29
-                                     14 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                   Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                   Question ID: 1894
-63) Jane wishes to sell 100 shares of XYZ when it is trading at $35.00 per
-    share. The broker dealer holding her account executes the trade at
-    that price and takes a profit through a $0.30 mark-down. What price
-    will be reported to the reporting facility?
-     A) $34.70
-     B) $35.00
-     C) $35.30
-     D) The trade is not reported because it is a principal trade
-                                                                   Question ID: 2227
-64) In a transaction between two FINRA members, which one must
-    report the trade?
-     A) Executing party
-     B) Receiving party
-     C) Delivering party
-     D) Both
-                                                                   Question ID: 3014
-65) Broker Z executes a trade on behalf of its client, collects the
-    appropriate commission, and subsequently the trade is allocated to
-    the client's account with Broker Y. This is an example of a
-     A) Give -Up
-     B) Reallocated trade
-     C) Step-Out
-     D) Omnibus transaction
-                                                                   Question ID: 2262
-66) A trade in an OTC Equity Security was executed at 12 PM and was
-    subsequently cancelled at 3 PM the same day. The cancellation must
-    be reported
-     A) By 4:10 PM
-     B) Within 10 seconds
-     C) By 4 PM
-     D) Within 30 seconds
-                                     15 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                  Question ID: 1925
-67) A trade is executed at 6:45:23 pm via a quote accessed on the ADF.
-    To avoid being late, when is the last sale trade report due?
-     A) 07:45:23
-     B) The next business day by 8:15:00
-     C) 06:45:33
-     D) 06:55:23
-                                                                  Question ID: 2914
-68) Simon Corp. is a UK based retailer. A 50,000 share trade was
-    effected on the London stock exchange by a U.S. broker dealer. This
-    transaction must be reported to the OTC Reporting Facility
-     A) If the transaction was not reported to the London exchange
-     B) Promptly after the trade is reported to the London exchange
-     C) Within 10 seconds of execution
-     D) At the same time it is reported to the London exchange
-                                                                 Question ID: 15687
-69) Bernice is a broker who executes options trades. If she sends orders
-    to the CBOE for execution, in which case will these orders not be
-    received by the CBOE in a systematized format?
-     A) when they are not transmitted electronically
-     B) when they are combination orders, such as a spread or a straddle
-     C) when orders are not transmitted during normal market hours
-     D) when she is trading for her firm's own account
-                                                                  Question ID: 2312
-70) Brian calls his registered rep and asks for the NBBO on shares of
-    EDD common stock. The rep indicates it is $25.64-$25.69 12x4. Brian
-    places a directed order to sell 500 shares on Nasdaq. Following the
-    transaction, the trade report will be sent to
-     A) TRF
-     B) Consolidated tape
-     C) ADF
-     D) ORF
-                                     16 of 54
-                            KnopmanMarks
-                        http://testprep.knopman.com
-                   Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                 Question ID: 15676
-71) A trade in an OTC equity takes place at 7:36 am. The trade is not
-    reported until 9:03 am the same day. When is the trade report due,
-    and what modifier should be included on the trade report?
-     A) 8:15 am, .U
-     B) within 10 second, .T
-     C) 9:00 am, .U
-     D) 8:00 am, .T
-                                                                  Question ID: 3000
-72) Two market makers execute a trade at 4:03:32 p.m. and the trade is
-    reported at 4:06:15 p.m.
-    This trade report
-     A) Requires a .U modifier
-     B) Must include a .T modifier
-     C) Need not contain a trade modifier if reported on the same day as
-    the execution
-     D) Should be notated with a .Z modifier
-                                                                  Question ID: 2264
-73) A trade in an OTC Equity security was executed on May 15 and
-    cancelled at 3 PM on May 16. Notification of the cancellation must be
-    reported
-     A) By 8:00 PM on May 17
-     B) By 8:00 PM on May 16
-     C) At 8:15 AM on May 17
-     D) By 8:00 AM on May 17
-                                                                  Question ID: 1976
-74) Member firm X executes a trade at 1:45 p.m. and promptly reports it.
-    X then takes action to cancel the trade on its books at 2:12. It
-    informs the contra party that the trade is being cancelled three
-    minutes later, at 2:15. The parties agree to cancel the trade at 2:17.
-    What is the deadline for reporting the cancellation?
-     A) 2:12 + 10 seconds
-     B) 2:15 + 10 seconds
-     C) 2:17 + 10 seconds
-     D) By 6:30 p.m. that day
-                                    17 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                 Question ID: 2367
-75) A trade was reported at 4:22 p.m. with a .Z modifier. This trade was
-     A) Reported and executed outside market orders
-     B) Executed outside of market hours and reported within 10 seconds
-     C) Executed during market hours and reported late
-     D) Executed during market hours and reported within 10 seconds
-                                                                 Question ID: 2896
-76) Which FINRA member is responsible for the complete and accurate
-    submission of information into the Trade Reporting Facility?
-     A) Designated Member
-     B) Primary Member
-     C) Contra Member
-     D) Reporting Member
-                                                                Question ID: 37930
-77) Brokerage Firm A and Brokerage Firm B have a give-up relationship,
-    in which trades are reported by Firm A but executed by Firm B.
-    Which MPID(s) are used to report trades?
-     A) The MPIDs of both firms
-     B) The MPID of Firm B
-     C) The MPID of Firm A
-     D) A special supplemental MPID must be created and used for a give-
-    up relationship
-                                                                 Question ID: 2263
-78) A trade is executed at 5:00 PM and is cancelled at 9:00 PM on the
-    same day. The cancellation report must be submitted
-     A) By 8:00 PM on the following business day
-     B) Within 10 seconds
-     C) By noon the next business day
-     D) By 8:00 AM the next business day
-                                                                 Question ID: 2228
-79) When FINRA grants a trade reporting exemption to an ATS, which
-    FINRA member is responsible for reporting the trade?
-     A) The executing party
-     B) The receiving party
-     C) Both
-     D) Neither, the ATS reports
-                                     18 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 2320
-80) To receive an exemption from trade reporting, an ATS must agree to
-    provide trading volume data to FINRA how often?
-     A) At regular intervals
-     B) Daily
-     C) Weekly
-     D) Monthly
-                                                                     Question ID: 3286
-81) A trade is executed at 9 a.m. This trade must be reported
-     A) Within 10 seconds with a .T modifier
-     B) By 9:15 a.m. with a .T modifier
-     C) Within 10 seconds with no modifier
-     D) Within 10 seconds with a .U modifier
-                                                                     Question ID: 3060
-82) Broker-dealer T has been told that its last sale report for a trade,
-    made in normal market hours, is late. This is because the report was
-    made
-     A) After-hours on the day of the trade
-     B) More than 10 seconds after execution
-     C) More than one hour after execution
-     D) The day after the trade
-                                                                    Question ID: 15680
-83) ABC Securities, a broker-dealer, executes an OTC trade for 800
-    shares of an NMS stock that normally trades on Nasdaq. If the trade
-    takes place at 7:45 pm, how and when must ABC report the trade?
-     A) within 10 seconds of execution on FINRA TRF
-     B) by 8:15 am the next business day on FINRA ADF
-     C) within 10 seconds of execution on FINRA ORF
-     D) the broker-dealer will not report the trade because it is captured on
-    the NYSE consolidated tape
-                                                                    Question ID: 15673
-84) ABC Securities executes a trade in an equity security at 1:47 pm
-    Eastern Time. When must the trade report be made to FINRA's Trade
-    Reporting Facility?
-     A) within two minutes of execution
-     B) within five minutes of execution
-     C) within 10 seconds of execution
-     D) within 60 seconds of execution
-                                     19 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                Question ID: 2729
-85) A trade is executed at 5:00 p.m. The trade report
-     A) Must be submitted within 10 seconds and include a .U modifier
-     B) Must be submitted by 8:15 a.m. on T+1 and carry a .T modifier
-     C) Must be submitted within 10 seconds and include a .T modifier
-     D) Can be submitted by 8:15 a.m. and only include a modifier if
-    reported at 8:15 a.m.
-                                                                Question ID: 2104
-86) What may a member do to have its dark pool transaction data
-    included in FINRA's published volume?
-     A) Affirmatively opt-out
-     B) Affirmatively opt-in
-     C) Meet trading volume thresholds
-     D) File required reports on time
-                                                                Question ID: 2211
-87) A trade in an OTC Equity security is executed at 9:45 AM and is
-    cancelled 12 hours later. The broker-dealer must report the
-    cancellation
-     A) By 8:00 PM the following business day
-     B) Before midnight that same day
-     C) Within 24 hours
-     D) By 8:00 AM the following business day.
-                                                                Question ID: 2006
-88) How long after trade execution do participants have to accept or
-    decline a trade executed via a quote on the ADF, or else input the
-    trade report?
-     A) 5 minutes
-     B) 10 minutes
-     C) 20 minutes
-     D) 30 minutes
-                                     20 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 1874
-89) Bob wishes to buy 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.15 mark-up,
-    and submits a timely trade report indicating a price of $15.20. What
-    will be Bob's total cost per share?
-     A) $15.05
-     B) $15.15
-     C) $15.20
-     D) $15.35
-                                                                    Question ID: 1949
-90) What is the deadline for last sale reports of transactions in ADF-
-    eligible securities executed during normal market hours, and not on
-    an exchange?
-     A) 10 seconds after execution
-     B) 30 seconds after execution
-     C) 90 seconds after execution
-     D) 15 minutes after execution
-                                                                    Question ID: 2541
-91) When is a riskless principal capacity indicator used to report a
-    riskless principal transaction to FINRA?
-     A) When the trade is made after-hours
-     B) When only one side of the trade is reported
-     C) If the trade deviates by more than 8.5% from the trailing 5 minute
-    average
-     D) When the trade is reported late
-                                                                   Question ID: 36503
-92) Which type of trades are executed through FINRA's TRF?
-     A) OTC trades
-     B) Third market trades
-     C) Off-exchange trades in listed securities
-     D) None
-                                     21 of 54
-         KnopmanMarks
-     http://testprep.knopman.com
-Series 57 Top-Off - 8/27/2023 1:09 PM
-                 22 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 3207
-1) Which reporting facility is used for trade reporting in OTC equity and
-   restricted securities?
-    A) FINRA TRF
-    B) Arca
-    C) TRACE
-    D) ORF
+                                                                      Question ID: 26150
+1) All of the following are valid exceptions to the CBOE's options
+   position limits except
+    A) market-making.
+    B) Dividends.
+    C) firm facilitation.
+    D) delta hedging.
    Answer Explanation:
-   Members must use the OTC Reporting Facility for trade reporting in OTC
-   and restricted equities.
-   Textbook Reference: Please see textbook section 5.5
-                                                                    Question ID: 2177
-2) A trade is executed at 8:00 AM and cancelled at 7:00 PM the same
-   day. The cancellation report must be submitted
-    A) At any time prior to the start of the following market day
-    B) By 8:00 PM the same day
-    C) By 8:00 AM the next business day
-    D) At 8:00 PM the next business day
+   There are three exceptions to the CBOE's options position limits: delta
+   hedging, firm facilitation and market-making. There is no exception based
+   on dividends.
+   Textbook Reference: Please see textbook section 8.7.2
+                                                                      Question ID: 26148
+2) An investor wants to buy 1 XYZ Nov 50 put for a $4 per share
+   premium in her margin account. Assuming there is no available cash
+   in the customer's margin account, how much cash must she deposit
+   to make the purchase?
+    A) at least $200
+    B) $400
+    C) Zero
+    D) $500
    Answer Explanation:
-   For trades executed outside of regular market hours and cancelled prior to
-   8:00 PM on the date of execution, the cancellation report must be
-   submitted by 8:00 PM that day.
-   Textbook Reference: Please see textbook section 5.3
-                                                                    Question ID: 1921
-3) In a last sale report of an ADF-eligible security after 6:30 p.m., what
-   designation is used to denote that execution took place on a prior
-   day?
-    A) as/of
-    B) .U
-    C) .T
-    D) NC
+   Generally, options may not be purchased on margin. The full premium of
+   $4 X 100 shares per contract ($400) must be paid in cash.
+   Textbook Reference: Please see textbook section 8.7.1
+                                                                      Question ID: 34931
+3) On a not held order to sell stock, the floor broker does not have
+   discretion over
+    A) the security to be sold or the quantity of shares sold.
+    B) the quantity of shares sold or the time of sale.
+    C) the quantity of shares sold or the sale price.
+    D) the security to be sold or the sale price.
    Answer Explanation:
-   as/of denotes execution on a prior day - e.g. for trades executed after 6:30
-   p.m. and reported before 8:15 a.m. the next day.
-   Textbook Reference: Please see textbook section 5.2.1.2
-                                      23 of 54
-                                 KnopmanMarks
-                             http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 34921
-4) A broker-dealer's primary reporting facility is experiencing an outage.
-   Which of the following would not be permitted by the broker-dealer
-   during the outage?
-    A) Route orders to another exchange that can report the trades
-    B) Halt trading until the problem is resolved
-    C) Document the trades manually and report to the primary facility once
-   the outage is resolved
-    D) Continue to trade provided that the broker-dealer can report to a
-   secondary facility
-   Answer Explanation:
-   All trades must be promptly reported. During an outage of a primary
-   reporting facility, a firm has three choices: 1) halt trading; 2) report on a
-   secondary facility; or 3) route trades to another exchange that can report.
-   Note that this concept is not explicitly covered in the 2nd Edition textbook,
-   but is covered in the Class Summary and as long as you review the
-   rationale you will be prepared for this item.
-   Textbook Reference: Please see textbook section 5.2.1
-                                                                        Question ID: 15678
-5) At 10:45 am, a market maker agrees to execute a trade for 1,000
-   shares of an OTC stock at the close of normal market hours on that
-   trading day, at a price equal to the last trade price. What should the
-   trade report show as the time of the trade?
-    A) on close
-    B) 16:00:00:000
-    C) 10:45 pending sale
-    D) 10:45:00:000
-   Answer Explanation:
-   The trade time must be shown in military-style hours, minutes and seconds
-   and (usually) milliseconds. This is the time when parties to the transaction
-   have agreed to all essential terms, including the actual price. If the price is
-   conditional, the time reported is when the price becomes known the
-   close of normal market hours (4:00 pm) in this case.
-   Textbook Reference: Please see textbook section 5.1.1
-                                         24 of 54
+   Not held orders give the floor broker discretion in choosing the time and
+   price at which orders are executed. However, a not held order does not
+   give discretion over the specific security, quantity, or action (buy or sell).
+   Textbook Reference: Please see textbook section 8.9.3
+                                       24 of 57
                                  KnopmanMarks
                             http://testprep.knopman.com
-                       Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                      Question ID: 2067
-6) For trade reporting purposes, the trade price reported must exclude
-    A) A mark-up and mark-down, but not a service charge
-    B) A mark-up, but not a mark-down
-    C) A service charge, but not a mark-up or mark-down
-    D) A mark-up, mark-down, and service charge
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 2860
+4) To reduce loss in a previously established position a call writer will
+   engage in which of the following transactions?
+    A) Opening purchase
+    B) Closing sale
+    C) Closing purchase
+    D) Opening sale
    Answer Explanation:
-   In a principal transaction, the reported price must exclude any mark-up,
-   mark-down, and service charge.
-   Textbook Reference: Please see textbook section 5.2.8.2
-                                                                     Question ID: 34924
-7) All of the following transactions are exempt from trade reporting
-   requirements except
-    A) tender offer transactions.
-    B) a trade in which both sides have agreed to a price unrelated to the
-   current market price.
-    C) new issue transactions.
-    D) a riskless principal trade.
+   An investor that previously established a position by selling an option
+   (writing a call or put) will close the position by purchasing an identical
+   option to reduce or cancel the position.
+   Textbook Reference: Please see textbook section 8.6.1
+                                                                        Question ID: 8655
+5) Adjustments to options contracts for splits and dividends are made to
+   option contracts by
+    A) The issuer
+    B) The CBOE
+    C) The OCC
+    D) FINRA
    Answer Explanation:
-   Tender offer transactions, new issue transactions, transactions where the
-   buyer and seller have agreed to a price unrelated to the current market
-   price (e.g., a gift) are all exempt from trade reporting requirements. Note
-   that some of the aforementioned are reported to the TRF for the purpose of
-   regulatory fee assessments, but not for publication and dissemination.
-   Textbook Reference: Please see textbook section 5.2.9
-                                                                      Question ID: 2595
-8) Participation in the Over the Counter Trade Reporting Facility (ORF) is
-   mandatory for any FINRA member that
-    A) Carries inventory in OTC stocks or bonds
-    B) Has an obligation to report an OTC transaction
-    C) Trades for non-proprietary accounts
-    D) Is not self-clearing
+   When a corporate issuer determines that a contract adjustment such as a
+   dividend or split is to be made, the OCC adjusts the option contracts to
+   reflect the changes in value of the underlying stock and/or changes in the
+   number of contracts.
+   Textbook Reference: Please see textbook section 8.8
+                                                                       Question ID: 37935
+6) In a call spread position, the dominant position is the option with the
+    A) higher strike price.
+    B) lower strike price.
+    C) earlier expiration date.
+    D) lower premium.
    Answer Explanation:
-   The Over the Counter Trade Reporting Facility (ORF) is used for reporting
-   OTC transactions. Usage is required for FINRA members.
-   Textbook Reference: Please see textbook section 5.1.2
-                                        25 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 2854
-9) In the Trade by Trade Match method of locked-in trade reporting,
-   which party submits transaction data?
-    A) Only the Reporting Party
-    B) Only the contra party
-    C) Both parties
-    D) Neither party
-   Answer Explanation:
-   Both parties to the trade submit transaction data and the ADF System
-   performs an on-line match. The executing party is required to report a trade
-   within 10 seconds of execution. The non-executing party submits for a
-   match within 20 minutes.
-   Textbook Reference: Please see textbook section 5.4.2
-                                                                     Question ID: 2268
-10) What is the best way for an interested party obtain information on an
-    ATS dark pool's total trading volume?
-     A) By consulting the member's web site
-     B) By making a formal request to FINRA
-     C) By consulting a consolidated monthly report produced by FINRA
-     D) This data is not available
-    Answer Explanation:
-    Interested parties must consult members' web sites to obtain ATS dark
-    pool total volume. FINRA Rule 6160 allows ATSs to disseminate their
-    daily trading volumes to the public. Any reporting member firm that
-    chooses to publish daily trading volume for transactions in its ATS must
-    base such volume solely on transactions reported by the ATS dark pool to
-    the TRF.
-    Textbook Reference: Please see textbook section 5.6
-                                      26 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 26128
-11) Under the CAT system, what time does the trading day end and
-    reports due respectively?
-     A) Trading day ends at 4:15 p.m. ET and reports are due by 9 a.m. the
-    next morning
-     B) Trading day ends at 4:15 p.m. ET and reports are due by 8 a.m. the
-    next morning
-     C) Trading day ends at 4 p.m. ET and reports are due by 9 a.m. the
-    next morning
-     D) Trading day ends at 4 p.m. ET and reports are due by 8 a.m. the
-    next morning
-    Answer Explanation:
-    The OATS trading day ends (and the next day begins) at 4 p.m. ET and
-    reports are due by 8 a.m. the next morning. Under the CAT system,
-    reports are still due at 8 am. the next morning but the trading day ends
-    and begins at 4:15 p.m. ET.
-    Textbook Reference: Please see textbook section 5.7
-                                                                     Question ID: 26129
-12) Which U.S. broker-dealers are exempt from reporting requirements
-    under the CAT system?
-     A) non-FINRA members
-     B) none
-     C) non-market makers
-     D) those meeting requirements for small firms
-    Answer Explanation:
-    Although non-FINRA members are exempt from OATS reporting, there
-    will be no reporting exemptions under the CAT system. All US registered
-    broker-dealers must report.
-    Textbook Reference: Please see textbook section 5.7
-                                       27 of 54
+   In a call spread, the lower strike price is the dominant position and
+   determines the investor’s attitude - bullish or bearish.
+   Textbook Reference: Please see textbook section 8.1.1
+                                        25 of 57
                                 KnopmanMarks
                             http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 20696
-13) The time of execution of an OTC equity trade is reported as
-    4:00:00:004 PM. When must the trade be reported and what modifier
-    must be used, assuming it is reported on time?
-     A) within 30 seconds, .T
-     B) by 8:15 am the next morning, .U
-     C) within 10 seconds, .U
-     D) within 10 seconds, .T
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                          Question ID: 2162
+7) Which time-in-force instruction would a trader use on the CBOE to
+   indicate that he wants to buy up to 20 Netflix calls at a stated price, as
+   soon as the order is presented for execution, and a partial fill is
+   acceptable.
+    A) Either IOC or AON
+    B) FOK
+    C) AON
+    D) IOC
+   Answer Explanation:
+   The only time-in-force order that will result in a partial fill is immediate-or-
+   cancel (IOC). All-or-none (AON) and fill-or-kill (FOK) require that all of the
+   order be filled, or none at all. A fill-and-kill (FAK) order provides the same
+   instructions as IOC.
+   Textbook Reference: Please see textbook section 8.9.4
+                                                                          Question ID: 2861
+8) An investor writes a call to increase income to his portfolio. In
+   establishing this position this investor has engaged in an
+    A) Closing purchase
+    B) Closing sale
+    C) Opening sale
+    D) Opening purchase
+   Answer Explanation:
+   This investor enters the market by writing a call. Creating an opening sale
+   to establish the position.
+   Textbook Reference: Please see textbook section 8.6.1
+                                                                         Question ID: 34935
+9) The OCC has set the position limit for XYZ stock at 250,000 contracts.
+   Which of the following investors has violated the position limits?
+    A) Trader D bought 100,000 puts and sold 200,000 puts.
+    B) Trader B is long 200,000 calls and short 100,000 puts.
+    C) Trader C holds 150,000 calls and wrote 150,000 calls.
+    D) Trade A owns 150,000 calls and owns 150,000 puts.
+   Answer Explanation:
+   Position limits are set by the OCC to limit the number of options contracts
+   that an investor can have on each side of the market. To calculate position
+   limits, bullish positions (long calls and short puts) are aggregated and
+   bearish positions (short calls and long puts are aggregated). In this case,
+   investor B violates the limit because they own 300,000 contracts on the bull
+   side of the market. Note that the bullish and bearish positions do not offset
+   one another.
+   Textbook Reference: Please see textbook section 8.7.2
+                                        26 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 8631
+10) An investor is short an XYZ Jul 45 call for 3. To establish a bearish
+    vertical spread the investor would
+     A) Buy an XYZ Sept 53 call for 1
+     B) Buy an XYZ Jul 53 call for 1
+     C) Sell an XYZ Jul 36 put for 9
+     D) Buy an XYZ Jul 36 call for 9
     Answer Explanation:
-    This trade took place 4 milliseconds after the close of normal market
-    hours. Note that without the millisecond digits, the trade would appear to
-    be executed during normal market hours (i.e. at the close). However, in
-    this case it is executed outside normal market hours but before 8:00 pm
-    so it must be reported within 10 seconds because the trade reporting
-    system is still open. If the report is timely (within the 10 seconds), the
-    modifier is .T, if it was late, it would include a .U modifier.
-    Textbook Reference: Please see textbook section 5.1
-                                                                        Question ID: 3045
-14) Who is responsible for reporting a trade cancellation to the ADF?
-     A) The member who submitted the original trade
-     B) The buying broker
-     C) The selling broker
-     D) All parties to the trade
+    The bear call spread is used when the investor thinks that the price of the
+    underlying asset will go down moderately in the near term. Vertical bear
+    call spreads can be implemented by buying a call option with a certain
+    strike price and selling a call option of a lower strike price on the same
+    stock that expires in the same month. The bear call spread option
+    strategy is also known as the bear call credit spread because the investor
+    receives more premium than what is paid to implement the strategy.
+    The costlier option is the short call which makes the position bearish.
+    Textbook Reference: Please see textbook section 8.1.2
+                                                                        Question ID: 8663
+11) An investor has established a debit call spread. The investor will
+    benefit if
+     A) The difference in premiums narrows
+     B) Both options expire
+     C) The difference in premiums widens
+     D) The difference in premiums does not change
     Answer Explanation:
-    The member who originated each trade has responsibility for reporting its
-    cancellation. This usually is the executing member.
-    Textbook Reference: Please see textbook section 5.4.1
-                                                                        Question ID: 2370
-15) In a transaction between a member and a non-member, which party
-    has responsibility for reporting the transaction?
-     A) Contra party
-     B) Member
-     C) Non-member
-     D) Executing party
+    Debit spreads are profitable if the difference between the premiums
+    widens and both options are in the money at expiration. That is because
+    an investor closing out a debit spread will receiving net premiums and
+    wants to collect as much as possible.
+    Textbook Reference: Please see textbook section 8.1.1
+                                       27 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 22411
+12) An investor who purchases a call option on the VIX most likely
+    believes
+     A) that stock prices will be trending lower in the foreseeable future,
+    which will tend to enhance market volatility.
+     B) the market will remain stable through at least the next two earnings
+    cycles, and then begin to trend higher, albeit at a modest pace.
+     C) that stock prices in the near future will trend higher, allowing for
+    potential capital gains.
+     D) that strong upside potential exists during the next few months, to be
+    followed by a reversal, forecast to run for a few more months.
     Answer Explanation:
-    In transactions between a member and a non-member, the member must
-    report the trade. Note that the member may be either the executing party
-    or contra party.
-    Textbook Reference: Please see textbook section 5.2.6
-                                        28 of 54
+    The VIX is a measure of market volatility. Call options on the VIX will tend
+    to increase during bearish market periods. The VIX is a market index
+    based on the S & P 500 stock index.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                       Question ID: 2464
+13) Which two of the following statements are true about the OCC?
+    I. It is the largest U.S. options exchange
+    II. It guarantees the performance of options contracts
+    III. It creates listed equity options and makes them available for
+    trading
+    IV. It is a clearinghouse for equity options and derivatives
+     A) I and III
+     B) II and III
+     C) II and IV
+     D) I and IV
+    Answer Explanation:
+    The Options Clearing Corporation clears transactions in equity options
+    and other derivative contracts. It guarantees the performance of options
+    contracts that are assigned and executed by its clearing members
+    Textbook Reference: Please see textbook section 8.5
+                                       28 of 57
                               KnopmanMarks
                           http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                      Question ID: 2213
-16) When a dealer buys shares from a customer in a principal trade, with
-    a mark-down, the customer's price will be
-     A) Above the prevailing market price
-     B) The prevailing market price plus a service charge
-     C) The same as the prevailing market price
-     D) Below the prevailing market price
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 8654
+14) An investor owns 1 NBC Jun 60 call. The adjustment for a 3 for 2
+    split will result in which of the following?
+    I. 1.5 contracts
+    II. 1 contract
+    III. Strike price of 40
+    IV. No change to the strike price
+     A) I and III
+     B) II and III
+     C) I and IV
+     D) II and IV
     Answer Explanation:
-    The dealer's mark-down is added to the execution price to arrive at the
-    reported trade price. For example, a customer sells 100 shares of ABC to
-    broker dealer B at $10.00 inclusive of a $0.15 markdown. The trade report
-    would indicate a price of $10.15.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                      Question ID: 2856
-17) What time must be stamped on a last trade report for a Stop Stock
-    Transaction?
-     A) Neither the time of execution nor the stop stock price
-     B) Only the time of the stop stock price
-     C) Both the time of execution and the time of the stop stock price
-     D) Only the time of execution
+    Contract adjustments are made only when the split results in a multiple of
+    100 shares. In a 3 for 2 split, 1 contract for 100 shares becomes 1
+    contract for 150 shares with the strike price adjusted down
+    proportionately. To calculate the new contract size, multiple the 100
+    shares in 1 contract times the split fraction (3/2). The strike price is
+    adjusted by multiplying it by the inverse of the split fraction (2/3). After the
+    adjustment, the contract value remains the same: 100 shares at $60 =
+    $6,000; 150 shares at $40 = $6,000.
+    Textbook Reference: Please see textbook section 8.8.2
+                                                                        Question ID: 3040
+15) What is the settlement date that applies to the exercise of index
+    options?
+     A) The 2nd business day after exercise
+     B) The 5th business day after exercise
+     C) The 3rd business day after exercise
+     D) The business day following the date of exercise
     Answer Explanation:
-    For stock stop transactions, the trade report must include both the
-    execution time and the time that the stop stock transaction was agreed to.
-    The only exception is when the execution occurs within ten seconds of
-    the stop stock price. In that case only the execution time is required on
-    the trade report.
-    Textbook Reference: Please see textbook section 5.2.6
-                                                                     Question ID: 36504
-18) A firm executes a trade at 10:30 am that must be reported on
-    FINRA's Trade Reporting Facility (TRF). The trade must be reported
-     A) within 10 seconds of execution.
-     B) within 30 seconds of execution.
-     C) within 15 minutes of execution
-     D) at any time prior to market close.
+    Cash settlement for index options must take place on the business day
+    following the date of exercise.
+    Textbook Reference: Please see textbook section 8.3.1
+                                      29 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 2480
+16) An investor that is bearish on an index could potentially benefit from
+    which two of the following options positions?
+    I. Long call
+    II. Long put
+    III. Short call
+    IV. Short put
+     A) I and III
+     B) II and III
+     C) I and IV
+     D) II and IV
     Answer Explanation:
-    The TRF provides a mechanism for reporting trades. Trades executed
-    during normal market hours must be reported within 10 seconds of
-    execution.
-    Textbook Reference: Please see textbook section 5.2.1.1
-                                      29 of 54
+    An investor that is pessimistic or bearish about a index's performance
+    would buy puts or write calls. Buying puts secures the right to sell stock.
+    Call writers are obligated to sell stock if the call holder exercises the
+    contract.
+    Textbook Reference: Please see textbook section 8.3
+                                                                       Question ID: 26152
+17) The function of the Options Price Reporting Authority (OPRA) is to
+     A) match options buyers and sellers and facilitate the expiration
+    process.
+     B) collect, consolidate and disseminate options market data from
+    exchanges.
+     C) determine which options are in-the-money.
+     D) prevent fraud in the dissemination of options trading data.
+    Answer Explanation:
+    Think of OPRA as the reporting facility for options transactions, similar to
+    the consolidated tape.
+    Textbook Reference: Please see textbook section 8.5
+                                                                       Question ID: 26144
+18) An investor buys one call option contract on Japanese yen. If it is
+    in the-money by 2 cents per contract shortly before expiration, the
+    investor's gain is
+     A) $50,000 less the premium paid.
+     B) $20,000 less the premium paid.
+     C) $10,000 less the premium paid.
+     D) $2,000 less the premium paid.
+    Answer Explanation:
+    Most foreign currency options have a size of 10,000 units. The exception
+    is yen, with a size of 1 million yen. $.02 X 1 million yen = $20,000. From
+    this, the premium paid would be subtracted. Note that the premium,
+    contract value and profit are in dollars, not yen.
+    Textbook Reference: Please see textbook section 8.4.1
+                                       30 of 57
                              KnopmanMarks
                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 15679
-19) A trade in an OTC stock occurs on Saturday, June 9. By what date
-    and time must the trade be reported?
-     A) by Monday at 4 pm
-     B) by Monday at 8:15 am
-     C) by Saturday at midnight
-     D) by Saturday at 4:00 pm
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                  Question ID: 26140
+19) CBOE floor brokers are permitted to accept and execute orders from
+     A) institutional customers only.
+     B) both retail and institutional customers.
+     C) registered broker-dealers and Trading Permit Holders only.
+     D) other CBOE floor brokers.
     Answer Explanation:
-    Trades executed on non-business days, such as weekends and holidays,
-    must be reported on an "as/of" basis by 8:15 am the next business day
-    following execution. FINRA facilities are not open on Saturdays, Sundays
-    or holidays to accept trade reports.
-    Textbook Reference: Please see textbook section 5.1.2
-                                                                     Question ID: 2878
-20) What does the term locked-in mean in context of a trade?
-     A) At least one party to the trade accepts the terms
-     B) Terms of the trade are recognized by the system
-     C) Participants are bound to honor and settle the trade
-     D) The system has captured trade report data
+    CBOE floor brokers work on the floor of the exchange and may accept
+    and execute orders only for registered broker-dealers and Trading Permit
+    Holders.
+    Textbook Reference: Please see textbook section 8.9
+                                                                  Question ID: 26145
+20) An investor sells 20 put options on Canadian dollars at a strike price
+    of .80. The premium is $100 per contract. What is the maximum gain
+    and loss on this position?
+     A) Gain: $16,000. Loss: $34,000.
+     B) Gain: $2,000. Loss: $16,000.
+     C) Gain: $16,000. Loss: Unlimited.
+     D) Gain: $2,000. Loss: $158,000.
     Answer Explanation:
-    Participants have an obligation to honor locked-in trades and their terms
-    on the scheduled settlement date.
-    Textbook Reference: Please see textbook section 5.4.2
-                                                                    Question ID: 26120
-21) A customer buys 300 shares of a stock on Tuesday at 9 p.m. What
-    special notation does the order receive when it is reported the next
-    day?
-     A) .P modifier
-     B) as/of
-     C) .W modifier
-     D) .U modifier
+    The maximum gain when an investor writes an option is the premium
+    received, which is 20 contracts X $100 per contract = $2,000. The
+    maximum loss is if the Canadian dollar goes to zero, in which case loss is
+    .80 X 10,000 contract size X 20 contracts = $160,000, less the premium
+    collected of $2,000 = $158,000.
+    Textbook Reference: Please see textbook section 8.4.1
+                                     31 of 57
+                             KnopmanMarks
+                         http://testprep.knopman.com
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 2484
+21) An investor has purchased a call option on XYZ stock. Which two of
+    the following statements are TRUE?
+    I. The contract is an American style contract
+    II. The contract could be either an American or European style
+    contract
+    III. The contract may be exercised only at a specified time just prior
+    to expiration
+    IV. The contract may be exercised any time after purchase but prior
+    to expiration
+     A) II and III
+     B) I and III
+     C) II and IV
+     D) I and IV
     Answer Explanation:
-    A trade report is marked as/of when the trade occurred earlier than the
-    current day (e.g., yesterday) or when reporting the reversal of a trade
-    from a previous day.
-    Textbook Reference: Please see textbook section 5.2.1.2
-                                     30 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                      Question ID: 2613
-22) Under the Trade Acceptance method of processing, what happens if
-    the contra party declines the trade?
-     A) It is purged on the day following the trade date
-     B) It will remain in the System, but will not be subject to the automatic
-    lock-in process.
-     C) It is purged on the trade date
-     D) It is carried forward for one business day
+    Options on stock, or equity options, are American style contracts only.
+    This means that the holder may exercise them at any time after purchase
+    but before the contract's expiration date. Index options contracts are both
+    American and European style.
+    Textbook Reference: Please see textbook section 8.6.1
+                                                                     Question ID: 8667
+22) An investor has purchased an ABC Jan 73 put for 6. What additional
+    position is needed to create a long straddle?
+     A) Short ABC Jan 73 put
+     B) Long ABC Jan 83 call
+     C) Short ABC Jan 73 call
+     D) Long ABC Jan 73 call
     Answer Explanation:
-    If the contra party reviews a Trade Acceptance report and declines the
-    trade, the report will remain in the System, but will not be subject to the
-    automatic lock-in process.
-    Textbook Reference: Please see textbook section 5.4.2
-                                                                      Question ID: 3278
-23) In which case may a series of individual orders placed by a member
-    - at the same price, in the same security, and on the same side of the
-    market - be aggregated for trade reporting purposes?
-     A) In no case
-     B) If they are executed within the same 30-minute period
-     C) With the customer's permission
-     D) If they are reported on the same trading day
+    To establish a long straddle position, an investor must be long both a call
+    and a put with the same strike price and expiration date.
+    Textbook Reference: Please see textbook section 8.2.1
+                                     32 of 57
+                                 KnopmanMarks
+                            http://testprep.knopman.com
+                       Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                          Question ID: 26143
+23) An investor buys a listed call option contract on euros, at a time
+    when the euro is worth $1.18 per dollar. The strike price is $1.20. If
+    the euro rises to $1.25 near expiration, the investor stands to profit
+    by
+     A) $500 per contract, less premiums paid.
+     B) $5,000 per contract, less premiums paid.
+     C) zero, because the options will be out-of-the-money.
+     D) $2,500 per contract, less premiums paid.
     Answer Explanation:
-    Individual executions of orders in a security at the same price may not be
-    aggregated into a single transaction report for reporting purposes.
-    Textbook Reference: Please see textbook section 5.2
-                                                                      Question ID: 2586
-24) FINRA may grant an Alternative Trading System (ATS) an exemption
-    from trade reporting obligations, provided it is consistent with
-     A) Investor protection and public interest
-     B) Previously granted exemptions
-     C) Trading volume and activity
-     D) Regulatory oversight responsibilities
+    Foreign currency options have a contract size of 10,000 units of currency
+    - i.e., euros. The exception is Japanese yen, in which size is 1,000,000
+    yen. This contract would be in the money by 5 cents X 10,000 units =
+    $500. From this profit, the premium paid would be subtracted.
+    Textbook Reference: Please see textbook section 8.4.1
+                                                                          Question ID: 36513
+24) A customer wishes to buy 500 shares of ABC stock, but only if all
+    500 shares can be bought today, before the market close, at a price
+    no higher than $35.40. If that is not possible, the customer then
+    wants to buy 500 shares of XYZ stock tomorrow at the market. What
+    order should the customer enter today to execute this strategy?
+     A) Buy 500 shares of ABC at $35.40 GTC
+     B) Buy 500 shares of ABC at $35.40 IOC
+     C) Buy 500 shares of ABC at $35.40 AON
+     D) Buy 500 shares of ABC
     Answer Explanation:
-    FINRA will grant an exemption to trade reporting only if four conditions
-    are met, and also if the exemption is consistent with investor protection
-    and the public interest. In such circumstances the "executing party" to the
-    trade (typically the seller) is required to report the trade.
-    Textbook Reference: Please see textbook section 5.6
-                                       31 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 2218
-25) What term defines an ATS that does not display quotes or
-    subscriber orders to anyone?
-     A) Wide moat
-     B) Closed market
-     C) Dark pool
-     D) Black box
+    AON (all-or-none) indicates that a time-in-force order must be filled in total
+    at the limit price or else none of the order should be filled Partial fills are
+    not acceptable on AON orders. If a day order is marked AON and can't be
+    filled in full during the trading day, it is cancelled at the end of the day.
+    Textbook Reference: Please see textbook section 8.9.4
+                                                                          Question ID: 26147
+25) An investor owns listed call options with a May expiration. The strike
+    price is $35. The last possible time the options can be exercised is
+     A) 30 minutes before the market closes on the last trading day of May.
+     B) 3:00 p.m. EST on the second Friday of May.
+     C) 30 minutes before the market closes on the next-to-last trading day
+    of May.
+     D) 5:30 p.m. EST on the third Friday of May.
     Answer Explanation:
-    A dark pool is an ATS in which quotes and orders are concealed. Most
-    orders are placed directly between large institutions.
-    Textbook Reference: Please see textbook section 5.6
-                                                                     Question ID: 2846
-26) To avoid being reported late, must a pre-open trade be reported
-    within 10 seconds?
-     A) Only if execution is after 8:00 a.m.
-     B) Only if execution is between 7:00 a.m. and 8:00 a.m.
-     C) Only if execution is before 8:00 a.m.
-     D) Only if execution is before 7:00 a.m.
-    Answer Explanation:
-    A pre-opening trade made before 8:00 a.m. must be reported by 8:15
-    a.m. EST. A pre-opening trade made after 8:00 EST must be reported
-    within 10 seconds or else it is late.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                    Question ID: 15689
-27) A client has filed a written complaint against Jeffrey, an options
-    trader, alleging that he consistently delayed execution of the client's
-    orders to buy or sell options contracts. To prove or disprove the
-    complaint, regulators will review the time sequence options trades
-    Jeffrey has placed. What system captures this data?
-     A) TRF
-     B) OPRA
-     C) OATS
-     D) CAT
-    Answer Explanation:
-    The Consolidated Audit Trail (CAT) replaced the old systems of the Order
-    Audit Trail System (OATS) and the CBOE's Consolidated Options Audit
-    Trail System (COATS), to provide an accurate, time-sequences record of
-    orders, quotes and transactions. It allows regulators to recreate events in
-    the life cycle of trades to review handling, execution and reporting.
-    Textbook Reference: Please see textbook section 5.7
-                                       32 of 54
+    Listed options can be exercised up to 5:30 p.m. EST on the third Friday of
+    the expiration month.
+    Textbook Reference: Please see textbook section 8.6.3
+                                        33 of 57
                               KnopmanMarks
                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 2103
-28) What term describes a member firm that is a party to a transaction
-    and is identified by the trade reporting system as such, even though
-    it does not execute or clear trades?
-     A) Affiliated broker-dealer
-     B) Introducing broker-dealer
-     C) Referring broker-dealer
-     D) Correspondent broker-dealer
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 34932
+26) A customer wishes to use index options in an ERISA retirement plan
+    and has already confirmed that options conform with the plan's
+    investment policy. What type of options position would the investor
+    be prohibited from purchasing in the plan?
+     A) Protective put
+     B) Uncovered call
+     C) Covered call
+     D) Long call
     Answer Explanation:
-    An introducing broker-dealer contracts with a clearing firm to handle
-    execution and settlement of its orders.
-    Textbook Reference: Please see textbook section 5.2
-                                                                       Question ID: 2442
-29) Broker-dealer B does a trade with its customer Helen in an ADF
-    security. The report of this trade is made by
-     A) Helen
-     B) OATS
+    Index options can be used in an ERISA plan provided they conform to the
+    plan's investment policy. Additionally, since ERISA accounts must be
+    cash accounts, no position that requires margin is permitted. Because
+    uncovered call writing requires a margin deposit, it is a prohibited position
+    in an ERISA plan.
+    Textbook Reference: Please see textbook section 8.3.1
+                                                                      Question ID: 8640
+27) An investor wishes to establish a long combination. If the investor
+    currently holds 1 ABC Feb 55 call, the investor will
+     A) Buy an ABC Feb 60 put
+     B) Sell an ABC Feb 65 call
+     C) Sell an ABC Feb 55 put
+     D) Buy an ABC Feb 65 call
+    Answer Explanation:
+    A combination is an option trading strategy that involves the purchase or
+    sale of both call and put options on the same underlying asset.
+    Textbook Reference: Please see textbook section 8.2.2
+                                                                     Question ID: 33788
+28) Which of the following CBOE listed option contracts is most likely to
+    be European style?
+     A) iShares Core S&P 500 ETF May contract
+     B) ARK Innovation ETF January contract
+     C) Microsoft stock, September contract
+     D) Pfizer stock, October contract
+    Answer Explanation:
+    Most exchange-traded equity options on stocks and ETFs (other than
+    index funds) are American-style. Most exchange-traded index options and
+    VIX index options are European-style.
+    Textbook Reference: Please see textbook section 8.6.2
+                                      34 of 57
+                              KnopmanMarks
+                          http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 2793
+29) Which of the following organizations guarantees the performance of
+    standardized options contracts?
+     A) SEC
+     B) OCC
      C) FINRA
-     D) BD B
+     D) CBOE
     Answer Explanation:
-    In trades between broker-dealers and customers in ADF securities, the
-    trade report is submitted to the ADF by the broker-dealer.
-    Textbook Reference: Please see textbook section 5.4.1
-                                                                       Question ID: 3281
-30) A trade is executed at 3:10 p.m. EST and then cancelled at 4:15 p.m.
-    on the same day. When must the cancellation be reported to the ADF
-    on a best-efforts basis?
-     A) Within 10 seconds
-     B) By the opening of the market on the next day
-     C) Within 30 minutes
-     D) By 6:30 p.m. on the same day
+    The Options Clearing Corporation (OCC) is the world's largest equity
+    derivatives clearing house. As a clearinghouse, the OCC also acts as
+    guarantor, ensuring that the obligations of the contracts it clears are
+    fulfilled.
+    Textbook Reference: Please see textbook section 8.5
+                                                                      Question ID: 2418
+30) Exercise of all of the following options is settled in cash EXCEPT for
+     A) Index options
+     B) Foreign currency options
+     C) Equity options
+     D) Interest rate options
     Answer Explanation:
-    For trades executed between 9:30 a.m. and 4:00 p.m. EST and cancelled
-    after 4:00 p.m. but before 6:30 p.m. on the day of execution, the member
-    must use its best efforts to report cancellation not later than 6:30 p.m. that
-    day. Otherwise, the trade must be reported by 6:30 p.m. the next day.
-    Textbook Reference: Please see textbook section 5.3.1
-                                      33 of 54
-                               KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 2985
-31) Members that operate multiple Alternative Trading Systems (ATS)
-    must obtain a separate MPID for each
-     A) ATS
-     B) Trade report
-     C) Security quoted
-     D) Security traded
+    When equity options are exercised, delivery of stock is required.
+    However, foreign currency options, interest rate options and index options
+    are settled in cash.
+    Textbook Reference: Please see textbook section 8.6.3
+                                                                      Question ID: 2487
+31) An investor purchases an index 452 call for a premium of 9. At
+    expiration the index value is 471. Which two of the followings
+    statements are TRUE?
+    I. The call is in the money at expiration
+    II. The breakeven of the contract is 463
+    III. The investor will receive $1,900 at exercise of the contract
+    IV. The investor will receive $1,000 at exercise of the contract
+     A) I and III
+     B) II and III
+     C) I and IV
+     D) II and IV
     Answer Explanation:
-    The MPID identifies not only the member but also the ATS on which it is
-    trading, if the member is operating multiple ATSs.
-    Textbook Reference: Please see textbook section 5.6
-                                                                       Question ID: 2615
-32) If a last sale report of an OTC transaction in an ADF-eligible security
-    is not possible, because the ticker symbol is no longer available,
-    how is the last sale reported?
-     A) On Form G
-     B) It isn't
-     C) On Form N
-     D) On Form T
-    Answer Explanation:
-    Form T is used to submit last sale reports of over-the-counter (OTC)
-    transactions in equity securities for which electronic submission is not
-    possible. For example, a Form T submission may
-    not be possible if the ticker symbol for the security is no longer available.
-    Textbook Reference: Please see textbook section 5.2.5
-                                                                       Question ID: 3316
-33) If a trade in an ADF-eligible security occurs after market hours, must
-    the last sale report be made the following business day?
-     A) Yes, in all cases
-     B) Only if the trade is after 6:30 p.m. EST
-     C) Only if the trade is after 8:00 p.m. EST
-     D) Not unless FINRA permits an exception
-    Answer Explanation:
-    The last sale report for trades in ADF-eligible securities executed after
-    6:30 p.m. must be reported the following business day (T+1) by 8:15 a.m.
-    EST. Trades that occur after market hours but prior to 6:30 p.m. must be
-    reported within 10 seconds of execution.
-    Textbook Reference: Please see textbook section 5.4
-                                      34 of 54
+    This long index call was in the money at expiration, so was exercised for
+    cash equal to the intrinsic value. Because the multiplier is $100, the cash
+    amount is $1,900 and settlement takes place the business day after
+    exercise. The BE for this call is 461 (SP + prem).
+    Textbook Reference: Please see textbook section 8.3.1
+                                      35 of 57
                               KnopmanMarks
                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 1908
-34) Dan wishes to buy 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.10 mark-up,
-    and submits a timely trade report indicating a price of $5.20. What
-    will Dan need to pay per share?
-     A) $5.10
-     B) $5.20
-     C) $5.30
-     D) $520.10
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                       Question ID: 8668
+32) An investor has written a short naked put. To create a straddle the
+    investor must
+     A) Sell a call
+     B) Sell a put
+     C) Buy a call
+     D) Buy a put
     Answer Explanation:
-    When reporting principal transactions, any mark-up, mark-down, or
-    commission is not included in the trade report. Therefore, the reported
-    price of $5.20 does not include the $0.10 fee Bob pays the broker dealer
-    for executing the transaction. Inclusive of fees the shares will cost $5.30
-    per share.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                                                      Question ID: 15675
-35) An OTC equity trade is made by a firm located in San Francisco for a
-    client who lives in Chicago. The time of execution is shown on the
-    trade report as 14:04:12:146. What time did the trade occur?
-     A) 4:04 pm Central Time
-     B) 2:04 pm Pacific Time
-     C) 4:04 pm Eastern Time
-     D) 2:04 pm Eastern Time
+    A short straddle is an option combination strategy that involves the sale of
+    both call and put options on the same underlying asset with the same
+    exercise price and expiration date. The investor will profit on a short
+    straddle if the stock has little volatility.
+    Textbook Reference: Please see textbook section 8.2.2
+                                                                       Question ID: 8662
+33) An investor has unlimited risk in which of the following positions?
+     A) Long XYZ 30 put; short XYZ 24 put
+     B) Short XYZ 50 put; short XYZ 50 call
+     C) Long XYZ stock at 50; short XYZ 60 call; long XYZ 42 put
+     D) Short XYZ stock at 35; Long XYZ 40 call
     Answer Explanation:
-    On a trade report, the time of execution generally is expressed in hours,
-    minutes, seconds and milliseconds based on Eastern Time in military
-    format, unless another provision of FINRA rules requires that a different
-    time be included. It doesn't matter where the trade takes place or where
-    the firm and client are located.
-    Textbook Reference: Please see textbook section 5.1.1
-                                                                      Question ID: 37931
-36) XYZ Brokerage executes trades for another firm while giving up
-    reporting of the trade, to the other firm. In which case should XYZ’s
-    MPID be used when reporting these give-up trades?
-     A) Only with the written approval of the other brokerage firm
-     B) Always
-     C) On a case-by-case basis, subject to supervisory approval
-     D) Never
+    A short straddle subjects an investor to unlimited risk short a call and
+    short a put subject an investor to unlimited risk because of the naked
+    call position.
+    Textbook Reference: Please see textbook section 8.2.2
+                                                                      Question ID: 26139
+34) To create a butterfly spread, it is necessary to place orders for
+     A) at least three different options, all with the same strike prices.
+     B) two options, a put and a call, with different expirations and strike
+    prices.
+     C) two puts or two calls call, so that each pair of options has the same
+    expiration and a different strike price.
+     D) four options, all with the same expiration and with three different
+    strike prices.
     Answer Explanation:
-    In a give-up relationship, the trade is reported under the MPID of the
-    executing firm, not the reporting firm.
-    Textbook Reference: Please see textbook section 5.2.7.1
-                                      35 of 54
+    A butterfly spread is created with four options, all with the same expiration
+    and with three different strike prices.
+    Textbook Reference: Please see textbook section 8.1.2
+                                       36 of 57
+                              KnopmanMarks
+                          http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 37929
+35) The VIX measures expected volatility based on the
+     A) Wilshire 5000 Index.
+     B) Nasdaq-100 Index.
+     C) S&P 500 Index.
+     D) Dow Jones Industrial Average.
+    Answer Explanation:
+    The VIX measures expected volatility based on the S&P 500 Index.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                       Question ID: 8639
+36) An investor that buys a Feb 70 call for 3 also purchases a Feb 65 put
+    for 1. The investor now has a
+     A) long combination
+     B) long straddle
+     C) bear spread
+     D) vertical spread
+    Answer Explanation:
+    A combination is an option trading strategy that involves the purchase or
+    sale of both call and put options on the same underlying asset. A straddle
+    is a type of combination that has the same exercise price and expiration
+    month. If one or both are different, the investor has implemented a
+    combination. In a long combination or long straddle, the investor will profit
+    if the stock moves up or down. The investor will suffer a loss if the stock
+    stays flat.
+    Textbook Reference: Please see textbook section 8.2.2
+                                                                       Question ID: 2253
+37) An investor is long an EFG Nov 70 call for 3. To establish a straddle
+    the investor must
+     A) Buy an EFG Nov 65 put
+     B) Sell an EFG Nov 70 call
+     C) Buy an EFG Nov 70 put
+     D) Sell an EFG Nov 80 call
+    Answer Explanation:
+     A straddle is a market neutral combination position in which the investor
+    buys calls and puts with the same exercise prices and expiration dates.
+    The investor wants high volatility because the market must move enough
+    in one direction to recover both of the strike prices paid to implement the
+    straddle.
+    Textbook Reference: Please see textbook section 8.2.1
+                                      37 of 57
                                KnopmanMarks
                            http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                          Question ID: 1924
-37) A trade is executed at 6:05:47pm. When is the last sale trade report
-    due, to avoid being late?
-     A) 06:05:57
-     B) The next trade day
-     C) 07:05:57
-     D) 06:06:57
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 2022
+38) A trader submits a not held order to buy 20 call options. What is the
+    latest time at which this order may be exercised, measured from the
+    time it is entered?
+     A) 60 seconds
+     B) 10 minutes
+     C) 30 minutes
+     D) There is no limit
     Answer Explanation:
-    The execution is reported at 6:05:57 p.m. Since this is between 4 p.m.
-    and 8:00 p.m., it must be reported within 10 seconds or it is late. It also
-    needs a modifier to designate a trade outside normal market hours.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                         Question ID: 26125
-38) The purpose of the consolidated audit trail (CAT) system is to
-     A) archive order tickets into a consolidated electronic system.
-     B) help regulators track events in the trade life cycle.
-     C) increase the SEC's jurisdiction over trade processing.
-     D) provide more trade transparency for investors and consumers.
+    A not held order gives the floor broker discretion as to when the order will
+    be executed. Often, the floor broker will wait for a change in price that is
+    favorable for the investor or trader who entered the order.
+    Textbook Reference: Please see textbook section 8.9.3
+                                                                        Question ID: 2254
+39) A client owns a portfolio of blue chip stocks that is to fund his
+    retirement in 10 years. Although confident that the market will
+    continue to advance, he is concerned that a market correction of
+    more than 10% could wipe out significant value. Which of the
+    following strategies might benefit this investor?
+     A) Buy index calls
+     B) Sell index calls
+     C) Sell index puts
+     D) Buy index puts
     Answer Explanation:
-    The CAT system, created by Regulation NMS Rule 613, allows regulators
-    to effectively and efficiently tack events in the life cycle of a trade, thereby
-    enhancing regulatory oversight of US securities markets.
-    Textbook Reference: Please see textbook section 5.7
-                                                                         Question ID: 26121
-39) The modifier that indicates a Prior Reference Price trade is
-     A) .RP
-     B) .PRP
-     C) .P
-     D) .R
+    By purchasing index puts the investor would earn cash in an overall
+    market decline. This cash could offset portfolio losses and allow the
+    investor to benefit from continued market growth from the blue chip
+    portfolio.
+    Textbook Reference: Please see textbook section 8.3.1
+                                                                        Question ID: 8644
+40) A British company is exporting goods to the U.S. and will receive
+    payment in U.S. dollars in 6 months. Which options strategy will
+    protect the exporting company?
+     A) Buy British pound puts
+     B) Write British pound puts
+     C) Write British pound calls
+     D) Buy British pound calls
     Answer Explanation:
-    The modifier .P indicates a Prior Reference Price trade i.e., one
-    executed at a time later than a prior reference time.
-    Textbook Reference: Please see textbook section 5.2.6.1
-                                       36 of 54
+    A British exporter receiving US dollars will profit if the pound falls in value
+    compared to the USD as the company will be able to purchase more
+    pounds with the dollars it receives. Therefore, the company should buy
+    pound calls to hedge against the pound increasing in value.
+    Textbook Reference: Please see textbook section 8.4.2
+                                       38 of 57
+                              KnopmanMarks
+                          http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 26146
+41) The main risk factor in OTC options, compared to exchange-listed
+    options, is
+     A) volatility risk.
+     B) duration risk.
+     C) counterparty risk.
+     D) systematic risk.
+    Answer Explanation:
+    OTC options are created individually between two counterparties.
+    Therefore, they have counterparty risk. The OCC guarantees listed
+    options contracts, which removes default risk.
+    Textbook Reference: Please see textbook section 8.5
+                                                                     Question ID: 22219
+42) An investor who is bearish on the equity markets might deploy
+    which of the following investment strategies?
+     A) Long VIX call option
+     B) Short straddle
+     C) Long S & P 500 call option
+     D) Call debit spread
+    Answer Explanation:
+    The VIX is a tool used to measure market expectations of near-term
+    volatility, based on S&P 500 Index option prices. Investors who are
+    bearish generally believe there will be an increased level of volatility and
+    would be likely to buy call options on the VIX.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                      Question ID: 8637
+43) An investor is short an XYZ Apr 36 call when XYZ is trading at 25.
+    To establish a bull spread the investor would
+     A) Buy an XYZ Apr 25 call
+     B) Buy an XYZ Apr 45 call
+     C) Buy an XYZ Apr 35 put
+     D) Sell an XYZ Apr 36 put
+    Answer Explanation:
+    The bull call spread strategy is used when the investor thinks that the
+    price of the underlying asset will go up moderately in the near term. Bull
+    call spreads can be implemented by buying an at-the-money call option
+    while simultaneously writing an out-of-the-money call option of the same
+    underlying security and the same expiration month with a higher strike
+    price. A call spread will be bullish when the long call has the lower strike
+    price.
+    Textbook Reference: Please see textbook section 8.1.1
+                                      39 of 57
+                               KnopmanMarks
+                          http://testprep.knopman.com
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 3011
+44) All of the following are characteristics of listed options EXCEPT
+     A) Fixed strike prices
+     B) Exchange trading
+     C) Standardized expirations
+     D) Limited liquidity
+    Answer Explanation:
+    Listed options are puts and calls that are exchange traded. They have
+    standardized strike prices and expiration dates which make them
+    marketable and liquid for buyers and sellers.
+    Textbook Reference: Please see textbook section 8.5
+                                                                      Question ID: 2143
+45) All of the following investors would benefit from the purchase of an
+    S&P 500 put EXCEPT
+     A) An investor who wishes to generate portfolio income and believes
+    that the market is likely to remain flat
+     B) An investor who wants to take advantage of the leverage that
+    options can provide with a limited dollar risk
+     C) An investor who is highly bearish on the market overall and wants to
+    profit from a decline in its level
+     D) An investor who wants diversify a portfolio with downside exposure
+    of the S&P 500, but does not wish to establish short positions in shares of
+    multiple component issues
+    Answer Explanation:
+    An Index put allows the investor to profit from a downward move in the
+    level of the market as measured by S&P 500 index, while committing less
+    capital compared to the margin requirements needed for the short sale of
+    a number of component issues. A long put holder is not subject to the
+    unlimited upside risk that applies to investors with short stock positions.
+    The maximum loss to the investor is the premium paid.
+    Textbook Reference: Please see textbook section 8.3
+                                       40 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 2279
+46) A trader enters a CBOE order to sell 5 December Microsoft 55 calls
+    at $3.12. What will happen to the order if the option price is $3.14
+    when Microsoft's stock price is at $52.14?
+     A) Calls will be sold at $3.12
+     B) Stock will be bought at $52.14 and calls will be sold at $3.14
+     C) Nothing
+     D) Calls will be sold at $3.14
+    Answer Explanation:
+    A limit order depends on the price of the option premium. In this case, the
+    investor wants to sell the options at $3.12 or higher. Once they are trading
+    at that price or better, the order is executed.
+    Textbook Reference: Please see textbook section 8.9.1
+                                                                        Question ID: 8632
+47) Which of the following best describes the market attitude of an
+    investor the sells a call spread?
+     A) Neutral
+     B) Bullish
+     C) Bearish
+     D) Speculative
+    Answer Explanation:
+    A credit call spread has more net premium on the sell side, which
+    corresponds to selling a call. Therefore, it is a bearish position.
+    Textbook Reference: Please see textbook section 8.1.2
+                                                                        Question ID: 8656
+48) After a 4 for 1 split is declared, an investor that previously owned 1
+    ABC Jul 100 put will have which of the following?
+     A) 1 contract of 400 shares with a strike price of 25
+     B) 4 contracts of 100 shares each with a strike price of 100
+     C) 1 contract of 400 shares with a strike price of 100
+     D) 4 contracts of 100 shares each with a strike price of 25
+    Answer Explanation:
+    Following a 4 for 1 split, adjustments are made to the number of contracts
+    and the strike price. The number of contracts is multiplied by the split
+    fraction (4/1). The strike price per share is multiplied by the inverse of the
+    split fraction (1/4) so that the aggregate value is the same before and
+    after the split: 1 x 100 = 100; 4 x 25 = 100.
+    Textbook Reference: Please see textbook section 8.8.1
+                                       41 of 57
+                              KnopmanMarks
+                          http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 2485
+49) An investor writes an S&P 500 2020 call for 8.50. Just prior to
+    expiration the S&P is 2004. Which two of the following statements
+    are TRUE?
+    I. The contract will be exercised
+    II. The contract will expire
+    III. The investor profits in this transaction
+    IV. The investor has a loss in this transaction
+     A) II and IV
+     B) I and IV
+     C) II and III
+     D) I and III
+    Answer Explanation:
+    The investor received $850 to write the index call. The call is not
+    exercised because the index value is below the exercise price. The writer
+    profits from the premium received at expiration as the contrast will expire
+    unexercised.
+    Textbook Reference: Please see textbook section 8.3.1
+                                                                     Question ID: 2280
+50) When customers sign and return an options agreement they confirm
+    that they
+     A) will not complain against the broker-dealer if they lose money in
+    their account.
+     B) will participate in arbitration as a means of settling monetary
+    disputes with the broker-dealer.
+     C) can afford the risk of loss in an options account.
+     D) have read and understand the options disclosure document.
+    Answer Explanation:
+    When customers sign an option agreement to open their account, they
+    verify that they have read and understood the option disclosure
+    document.
+    Textbook Reference: Please see textbook section 8.7.2
+                                      42 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 3015
+51) On the CBOE, what is another name for a one-cancels-the-other
+    (OCO) order?
+     A) Stipulation order
+     B) Linked order
+     C) Paired trade
+     D) Conditional order
+    Answer Explanation:
+    An OCO or stipulation order consists of two or more orders treated as a
+    unit. If one order is executed, all other orders as part of that unit are
+    cancelled.
+    Textbook Reference: Please see textbook section 8.9.2
+                                                                        Question ID: 8664
+52) An investor that establishes a credit call spread benefits if which of
+    the following occur?
+     A) The difference in premiums widens
+     B) Both options are exercised
+     C) The difference in premiums does not change
+     D) The difference in premiums narrows
+    Answer Explanation:
+    A credit spread is profitable if the difference in premiums narrows, and
+    both options expire worthless. If the spread does narrow, the investor will
+    keep some of the net premium, thereby profiting.
+    Textbook Reference: Please see textbook section 8.1.2
+                                                                       Question ID: 41985
+53) A fund manager oversees a well-diversified portfolio consisting of
+    large cap U.S. stocks with a combined value of $10,000,000. The
+    current level of the S&P 500 is 2000. How many S&P contracts are
+    needed to hedge this portfolio?
+     A) 50 contracts
+     B) 5,000 contracts
+     C) 100 contracts
+     D) 1,000 contracts
+    Answer Explanation:
+    To calculate the number of contracts needed, divide the total portfolio by
+    the value of the S&P 500 (10,000,000/2,000 = 5000). Because the
+    multiplier for S&P 500 contracts is 100, divide the result by 100 to
+    determine the number of contracts (5,000/100 = 50 contracts). The
+    portfolio valued at $10,000,000 can be hedged with the purchase of 50
+    put contracts.
+    Textbook Reference: Please see textbook section 8.3.1
+                                       43 of 57
+                                KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                       Question ID: 37934
+54) An investor creates a call spread by buying a September 45 call and
+    selling a September 55 call. The underlying stock is trading at
+    $46.15. In what scenario would this position profit?
+     A) Flat stock price
+     B) Rising stock price (bullish)
+     C) Falling stock price (bearish)
+     D) Decline in stock price volatility
+    Answer Explanation:
+    In a call spread position, the call option with the lower strike price is
+    dominant and determines the investor’s attitude (bullish or bearish). The
+    September 45 call has the lower strike price and it is a buy, so the
+    investor’s attitude is bullish.
+    Textbook Reference: Please see textbook section 8.1.1
+                                                                        Question ID: 2661
+55) Which of the following options positions are aggregated to
+    determine whether position limits in equity options have been
+    violated?
+     A) Short calls and short puts
+     B) Long calls and long puts
+     C) Long puts and short calls
+     D) Long calls and short calls
+    Answer Explanation:
+    Position limits specify the maximum number of contracts that can be held
+    by a controlling entity on the same side of the market. Bullish positions
+    and bearish positions are the two "sides of the market". So, long calls and
+    short puts (both bullish) are aggregated, and short calls and long puts
+    (both bearish) are aggregated to determine compliance with position
+    limits.
+    Textbook Reference: Please see textbook section 8.7.2
+                                                                        Question ID: 2667
+56) Ted has placed two orders with his RR Sandy; he wants to buy a call
+    option and sell a call option on Issuer W. These two positions
+    together would create a
+     A) Long straddle
+     B) Spread
+     C) Covered call
+     D) Combination
+    Answer Explanation:
+    When an investor buys a call option and sells a call option on the same
+    security they are creating a spread.
+    Textbook Reference: Please see textbook section 8.1
+                                       44 of 57
                                 KnopmanMarks
                             http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                           Question ID: 2679
-40) A customer buys stock from a dealer in a principal trade, paying
-    $36.12 per share. The trade is reported at $36.04 per share, what
-    accounts for the 8 cent difference?
-     A) Transaction tax
-     B) Mark-down or service charge
-     C) Mark-up or service charge
-     D) Prior agreement between dealers
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 8645
+57) A European importer purchases goods from a U.S firm that requires
+    payment in U.S. dollars in 6 months. The importer has purchased
+    puts on the euro. What is the concern of the importer?
+     A) The trade deficit is increasing
+     B) Interest rates are increasing
+     C) The dollar is rising in value
+     D) The euro is increasing in value
     Answer Explanation:
-    In a principal trade, the reported purchase price must exclude the selling
-    dealer's mark-up or service charge.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                          Question ID: 26122
-41) A customer enters an order to buy 600 shares of stock at 2:46 p.m.
-    Due to an error, the trade does not execute until almost an hour
-    later, at 3:44 p.m. The trade report will indicate
-     A) the price that prevailed at 2:46 along with a .P modifier.
-     B) the actual execution price along with a .T modifier.
-     C) the price that prevailed at 2:46 along with a .T modifier.
-     D) the actual execution price along with a .P modifier.
+    An importer that must pay for goods in U.S dollars is concerned about
+    exchange rate of the foreign currency against the dollar. If puts are
+    purchased on the foreign currency, the investor will be able to lock in a
+    price at which to sell them, which will be valuable if the currency falls in
+    the future.
+    Textbook Reference: Please see textbook section 8.4.2
+                                                                     Question ID: 36517
+58) When tendering an options exercise notice to a clearing member, the
+    OCC uses
+     A) either FIFO or a random selection process.
+     B) first-in-first-out (FIFO).
+     C) last-in-first-out (LIFO).
+     D) a random selection process.
     Answer Explanation:
-    A modifier of .P indicates a Prior Reference Price for a trade that occurred
-    earlier. The report shows the actual execution price and includes the .P
-    modifier to flag the late trade.
-    Textbook Reference: Please see textbook section 5.2.6.1
-                                                                           Question ID: 3160
-42) When would a member who has a reporting obligation and is acting
-    in a riskless principal capacity on behalf of another member submit
-    a non-tape report?
-     A) The other member is a dark pool
-     B) The trade is executed without commission or mark-up
-     C) The trade is executed outside normal market hours
-     D) The other member is not identified in the initial trade report
+    The OCC uses a random assignment process when tendering an options
+    exercise notice to a clearing member. The assigned firm can then assign
+    that notice to its customers either by using a random selection process or
+    FIFO, which is first-in-first-out.
+    Textbook Reference: Please see textbook section 8.6.3
+                                                                      Question ID: 8669
+59) An investor is short an EFG Nov 70 call for 3. To establish a straddle
+    the investor must
+     A) Write an EFG Nov 80 call
+     B) Buy an EFG Nov 70 call
+     C) Write an EFG Dec 70 put
+     D) Write an EFG Nov 70 put
     Answer Explanation:
-    FINRA wants all participants in a riskless principal transaction (both legs)
-    to be identified. If the other participant is not identified in the initial trade,
-    the member with a reporting obligation on the second leg must submit a
-    non-tape report identifying the member. A non-tape report will ensure that
-    the trading volume is not double counted.
-    Textbook Reference: Please see textbook section 5.2.8
-                                        37 of 54
+    A short straddle is a market neutral combination position in which the
+    investor sells calls and puts with the same exercise prices and expiration
+    dates. The investor wants low volatility. The investor loses the premiums
+    collected if the market moves substantially in either direction so that one
+    of the options is exercised.
+    Textbook Reference: Please see textbook section 8.2.2
+                                        45 of 57
                                KnopmanMarks
                            http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 1875
-43) Bob wishes to sell 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.15 mark-
-    down, and submits a timely trade report indicating a price of $15.20.
-    What proceeds will Bob receive per share?
-     A) $15.05
-     B) $15.15
-     C) $15.20
-     D) $15.35
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                    Question ID: 20738
+60) On the CBOE, the execution of contingency orders depends on the
+     A) last reported price of the underlying security, as reported by the
+    primary market maker
+     B) current offer price of the underlying security, as reported by the
+    primary market maker
+     C) last reported price of the underlying security, as reported on the
+    primary exchange
+     D) current offer price of the underlying security, as reported on the
+    primary exchange
     Answer Explanation:
-    When reporting principal transactions, any mark-up, mark-down, or
-    commission is not included in the trade report. Therefore, the reported
-    price of $15.20 does not include the $0.15 fee Bob pays the broker dealer
-    for executing the transaction. Net of fees Bob will receive proceeds of
-    $15.05 per share.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                                                        Question ID: 2029
-44) What is the deadline for a last sale report of a transaction in an ADF-
-    eligible security executed at 7:45:00 a.m. EST?
-     A) 7:45:10 a.m. EST the same day
-     B) 8:15:00 a.m. EST the same day
-     C) 4:00:00 p.m. EST the same day
-     D) 8:15:00 a.m. EST the next day (T+1)
+    Execution of all contingency orders depends on the last reported price of
+    the underlying security, as reported on the primary exchange. In most
+    cases, the primary exchange is the NYSE or Nasdaq.
+    Textbook Reference: Please see textbook section 8.9
+                                                                    Question ID: 26141
+61) Unless other specific instructions are provided, an order given to an
+    options floor broker is defined as a
+     A) facilitation cross order.
+     B) a limit order.
+     C) not held order.
+     D) day order.
     Answer Explanation:
-    Last sale reports of trades in ADF-eligible securities executed between
-    midnight and 8:00 a.m. EST must be reported by 8:15 a.m. EST on trade
-    date.
-    Textbook Reference: Please see textbook section 5.4
-                                                                        Question ID: 2226
-45) A transaction in an ADF-eligible security is made between two
-    FINRA members, both of whom are considered executing parties.
-    Which one must report the transaction?
-     A) The buy-side
-     B) Neither
-     C) Both
-     D) The sell-side
+    All orders given to floor brokers are defined as not held orders unless
+    otherwise specified.
+    Textbook Reference: Please see textbook section 8.9.3
+                                                                     Question ID: 8641
+62) All of the following positions are credit spreads EXCEPT
+     A) Long 1 Jan 60 put; Short 1 Jan 52 put
+     B) Short 1 Feb 46 put; Long 1 Feb 40 put
+     C) Long 1 Jan 40 call; Short 1 Jan 30 call
+     D) Short 1 Feb 40 call; Long 1 Feb 46 call
     Answer Explanation:
-    In a transaction between members, the executing party must report the
-    trade. If both parties satisfy the definition of executing party, the sell-side
-    reports the transaction.
-    Textbook Reference: Please see textbook section 5.2.7
-                                       38 of 54
+    A credit spread has a net premium credit that is, the higher premium of
+    the 2 options is on the sell side. For calls the more valuable option is the
+    one with the lower strike price; for puts the more valuable option is the
+    one with the higher strike price.
+    Textbook Reference: Please see textbook section 8.1.2
+                                       46 of 57
                                KnopmanMarks
                            http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 26124
-46) In a riskless principal transaction, a firm purchases 100,000 shares
-    of stock to fill a customer order to buy the same stock, in the same
-    amount. This will be reported as
-     A) it depends on the price differential of the two transactions.
-     B) two trades for 100,000 shares.
-     C) one trade for 200,000 shares.
-     D) one trade for 100,000 shares.
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 2377
+63) Which of the following best describes the role of the Options
+    Clearing Corporation (OCC)?
+     A) Provides clearing services for listed option trades
+     B) Reviews retail communications to be disseminated to the general
+    public
+     C) Sets the opening price for an options contract
+     D) Facilitates parties in cancelling trades
     Answer Explanation:
-    A riskless principal transaction is treated as one transaction for trade
-    reporting purposes
-    Textbook Reference: Please see textbook section 5.2.8.3
-                                                                     Question ID: 34923
-47) Stop stock orders are allowed for
-     A) any type of order, provided prior approval is obtained from an
-    exchange or regulator.
-     B) block trades only.
-     C) customer orders only.
-     D) riskless principal trades only.
+    The Options Clearing Corporation (OCC) provides clearing services for
+    listed option trades.
+    Textbook Reference: Please see textbook section 8.5
+                                                                    Question ID: 26151
+64) Before executing a facilitation cross, an options floor broker is
+    required to
+     A) check the market for a better price.
+     B) receive prior approval from a compliance officer of the exchange.
+     C) obtain written permission from both parties to the trade.
+     D) reduce open orders on the options trading book to zero.
     Answer Explanation:
-    Stop stock orders, in which the customer is promised a price for a short
-    period of time, are allowed for customer orders only. They do not require
-    exchange or regulator permission.
-    Textbook Reference: Please see textbook section 5.2.6.2
-                                                                      Question ID: 1960
-48) Acting as principal, a dealer buys 100 shares from a customer at
-    $28.45 per share, including a 10 cent mark-down from the prevailing
-    market. The trade will be reported by the buying dealer as
-     A) 100 shares at $28.35
-     B) 100 shares at $28.45
-     C) 100 shares at $28.55
-     D) 100 shares at $28.45 with a .10 mark-down modifier
+    A facilitation cross occurs when a floor broker holds a customer order and
+    an opposite side order. They can be crossed, but only after checking for a
+    better price and allowing other participants to execute on the same or
+    better terms.
+    Textbook Reference: Please see textbook section 8.7.2
+                                       47 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 2481
+65) An investor wrote an XYZ index 205 put for 4.75. Just prior to
+    expiration, the index is 210. Which two of the following statements
+    are TRUE?
+    I. The contract will be exercised
+    II. The contract will expire
+    III. The holder will receive cash equal to the in-the-money amount
+    IV. The writer will keep the premium of $475
+     A) II and IV
+     B) I and IV
+     C) I and III
+     D) II and III
     Answer Explanation:
-    In a principal trade, a mark-down by a buying dealer must be added back
-    to the trade price. A mark-up by a selling dealer must be subtracted from
-    the trade price.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                       39 of 54
+    An investor that has written an index put is obligated to pay cash equal to
+    the in-the-money amount to the holder if the contract is exercised. Puts
+    are in the money when the market value is below the strike price. This
+    contract will expire because the market price of the index is 210, which is
+    above the strike price of 205; At expiration of the contract the holder will
+    lose the premium paid, but the writer will keep the premium of $475.
+    Textbook Reference: Please see textbook section 8.3.1
+                                                                      Question ID: 8649
+66) An investor purchased 2 Dec 86 Swiss franc calls for 3.5. A Swiss
+    Franc contract has 10,000 units. How much does the investor pay to
+    establish this position?
+     A) $86
+     B) $350
+     C) $860
+     D) $700
+    Answer Explanation:
+    Premium for currency options is quoted in cents per unit. Therefore, the
+    cost of the position is 10,000 units x $.035 = $350 per contract x 2
+    contracts = $700)
+    Textbook Reference: Please see textbook section 8.4
+                                       48 of 57
                               KnopmanMarks
                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 2276
-49) Broker-dealers Y and Z execute a trade in Stock X at a price
-    unrelated to the current market for X. This transaction is reported
-     A) By the seller for publication purposes
-     B) By the buyer for regulatory transaction fee assessment purposes
-     C) Using Form T, due to the trade being executed at a price unrelated
-    to the current market
-     D) By the seller for regulatory transaction fee assessment purposes
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 8657
+67) An investor is short 1 60 Jul call trading for 8. Following a 10%
+    stock dividend which of the following statements is TRUE?
+     A) There is no adjustment for the stock dividend
+     B) The investor will have 2 contracts with a reduced strike price after
+    the adjustment
+     C) This stock dividend will not result in a change in the number of
+    contracts
+     D) The premiums of the contract will be adjusted to $7.20
     Answer Explanation:
-    If two parties enter a trade at a price substantially unrelated to the current
-    market for the security, the executing party must report for regulatory
-    transaction fee assessment purposes. This information will not be
-    disseminated to the public.
-    Textbook Reference: Please see textbook section 5.2.10
-                                                                        Question ID: 2837
-50) What type of Alternative Trading System (ATS) may meet the
-    conditions for a trade reporting exemption?
-     A) One that exchanges shares for subscribers
-     B) One that is not fully disclosed
-     C) One that clears trades
-     D) One that does not permit automatic execution
+    A 10% stock dividend will not result in an increase to the number of
+    contracts. Instead, the investor will own 1 contract worth 110 shares with
+    a proportionately reduced strike price. The aggregate value of the
+    contract will be the same before and after the dividend. The premium will
+    not change. The number of contracts will only change with an even stock
+    split.
+    Textbook Reference: Please see textbook section 8.8.3
+                                                                      Question ID: 8666
+68) Which of the following positions is bullish?
+     A) Long 1 Jan 60 put; Short 1 Jan 52 put
+     B) Short 1 Feb 40 call; Long 1 Feb 36 call
+     C) Short 1 Feb 46 put; Long 1 Feb 50 put
+     D) Long 1 Jan 40 call; Short 1 Jan 30 call
     Answer Explanation:
-    To qualify for an exemption, the ATS must demonstrate that it is fully
-    disclosed at all times, does not exchange shares or funds on behalf of the
-    member subscriber, and does not take either side of the trade for clearing
-    or settlement purposes. It also may not permit automatic execution.
-    Textbook Reference: Please see textbook section 5.6
-                                                                      Question ID: 26123
-51) A Nasdaq market maker receives a customer order to sell 1,000
-    shares of an OTC equity. Within seconds, the market maker buys
-    1,000 shares of the same stock for its own inventory, at the same
-    price. This practice is considered
-     A) a violation of the fiduciary duty of care.
-     B) a wash sale.
-     C) a violation of best-execution rules.
-     D) an acceptable riskless principal trade.
+    All of these positions are spreads. The more valuable of the two options
+    determines the market attitude of the spread. For calls the more valuable
+    option is the one with the lower strike price; for puts the more valuable
+    option is the one with the higher strike price. A bull spread means that
+    either the long call or short put must be the dominant position (i.e. higher
+    premium).
+    Textbook Reference: Please see textbook section 8.1.1
+                                      49 of 57
+                                 KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 22412
+69) A client expresses to you that various factors in the economy may
+    cause more short-term widespread volatility than would otherwise
+    be the case. What investment strategy would you suggest for this
+    client?
+     A) Short calls on the VIX
+     B) Long calls on the S & P 500 Index
+     C) Long calls on the VIX
+     D) Short straddle
     Answer Explanation:
-    Riskless principal trades occur when a market maker offsets a customer
-    order by executing the same order in reverse for its own account, as in
-    this example. Such trades are permitted for NMS stock and OTC equities.
-    Textbook Reference: Please see textbook section 5.2.8.3
-                                      40 of 54
+    An investor may purchase call options on the VIX if they believe that there
+    will be significant volatility in the markets. The underlying asset for the VIX
+    is S & P 500 index options.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                      Question ID: 26142
+70) The trustee for an ERISA retirement plan wishes to trade listed
+    options in her plan's investment account. To do so, she should
+     A) be told that options trading is not permitted by ERISA plans
+     B) make sure options trading is permitted by her plan's Investment
+    Policy Statement.
+     C) make sure to obtain an options liability waiver for her plan and its
+    trustees.
+     D) make sure to only use covered calls.
+    Answer Explanation:
+    ERISA retirement plans are permitted to trade options if the activity is
+    permitted under the investment criteria of the plan, typically contained in
+    an Investment Policy Statement.
+    Textbook Reference: Please see textbook section 8.3.1
+                                        50 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                            Question ID: 2236
+71) On the CBOE, an OCO order is executed based on the last sale price
+    of the underlying security. Then, an hour later, the underlying price
+    is determined to have been erroneously reported. What happens?
+     A) Both the order and the trade will be cancelled.
+     B) The trade will be cancelled and the order will be reinstated.
+     C) The trade will stand but the remainder of the order will be
+    reinstated.
+     D) The order will not be altered without mutual agreement.
+    Answer Explanation:
+    There is an element of risk in a CBOE OCO order - namely, that the
+    underlying security price that triggers execution of one leg of the order
+    (and cancellation of all other legs) is erroneous. In this case, the order will
+    not be altered without mutual agreement. The executed trade will stand
+    and the rest of the order will remain cancelled.
+    Textbook Reference: Please see textbook section 8.9.2
+                                                                           Question ID: 36514
+72) A customer has entered an order to sell 800 shares of ABC stock at
+    $67.55 AON. How will the order be executed assuming that 500
+    shares are currently being bid at $67.55 and another 500 shares are
+    being bid at $67.54?
+     A) 500 shares will be executed at $67.55 and the remaining 300
+    shares of the order will remain unfilled
+     B) All 800 shares of the order will be executed at $67.55
+     C) 500 shares will be executed at $67.55 and 300 shares will be
+    executed at $67.54
+     D) The order will not currently be executed
+    Answer Explanation:
+    For an AON, or all or none order, the customer is specifying that the
+    entire order must be filled at the limit price or else none of the order
+    should be filled. The market maker must wait for a bid of $67.55 or better
+    (higher) for at least 800 shares to fill this order. Partial fills are not
+    acceptable on AON orders.
+    Textbook Reference: Please see textbook section 8.9.4
+                                       51 of 57
+                                KnopmanMarks
+                            http://testprep.knopman.com
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 36516
+73) An investor that has a positive outlook on the market and wants to
+    profit by taking advantage of VIX options would most likely use
+    which options positions?
+     A) Buy VIX puts and sell VIX calls
+     B) Buy VIX calls and sell VIX calls
+     C) Buy VIX puts and sell VIX puts
+     D) Buy VIX calls and sell VIX puts
+    Answer Explanation:
+    The VIX is a measure of stock market volatility, and it generally moves
+    inverse to the market because there is greater volatility during times of
+    market decline. Therefore, an investor who is bullish on the market would
+    be bearish on the VIX and could profit by taking a bearish options position
+       buying VIX puts or selling VIX calls.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                      Question ID: 8646
+74) A long March 90 Canadian Dollar call is trading for 4. If the Canadian
+    dollar is currently valued at $0.94, which of the following statements
+    is TRUE?
+     A) The contract is at parity
+     B) The contract would expire if it were at expiration
+     C) The contract is at the money
+     D) The contract is out of the money
+    Answer Explanation:
+    The contract is currently at parity (i.e. breakeven) because the current
+    value of the Canadian dollar is equal to the strike price plus the premium.
+    Note that the strike price of 90 corresponds to $0.90.
+    Textbook Reference: Please see textbook section 8.4.1
+                                                                     Question ID: 36518
+75) When tendering an options exercise notice to a customer, a clearing
+    firm uses
+     A) first-in-first-out (FIFO).
+     B) last-in-first-out (LIFO).
+     C) a random selection process.
+     D) either FIFO or a random selection process.
+    Answer Explanation:
+    The OCC tenders exercise assignment notices to clearing member firms
+    using a random selection process. The firm then chooses individual
+    customers for exercise based on random selection or first-in, first-out
+    (FIFO).
+    Textbook Reference: Please see textbook section 8.6.3
+                                        52 of 57
+                              KnopmanMarks
+                          http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 8650
+76) U.S. Company X imports electronic components from Japan. It must
+    pay its invoice in Japanese Yen within 60 days. If Company X wants
+    to hedge against an adverse move in the currency, it should
+     A) Buy Japanese Yen calls
+     B) Buy U.S. Dollar calls
+     C) Buy U.S. Dollar puts
+     D) Buy Japanese Yen puts
+    Answer Explanation:
+    Buying a call will protect the company just in case the Yen appreciates. It
+    will allow the company to lock in the price at which it can purchase Yen.
+    Textbook Reference: Please see textbook section 8.4
+                                                                      Question ID: 8636
+77) An investor is bullish on the overall market but wants to limit loss. If
+    he has sold an index call, which additional position could be added
+    to help achieve this objective?
+     A) Sell a put to create a straddle
+     B) Buy a call with a lower strike price
+     C) Buy a call with a higher strike price
+     D) Buying a protective put with a lower strike price
+    Answer Explanation:
+    By purchasing a call option with a lower strike price, the investor will
+    create a bull debit spread, which has a bullish view.
+    Textbook Reference: Please see textbook section 8.1.1
+                                                                      Question ID: 8648
+78) An investor purchase 2 Dec 86 Swiss franc puts for 3.5. A Swiss
+    Franc contract has 10,000 units. What is the investor's maximum
+    loss in this position?
+     A) $350
+     B) $8,350
+     C) $700
+     D) Unlimited
+    Answer Explanation:
+    An investor that buys an option can lose no more than the premium that
+    was paid. In this example the investor paid $700 for 2 contracts.
+    Premium for currency options is quoted in cents per unit. (10,000 x .035
+    = $350 per contract. 2 contracts x $350 = $700)
+    Textbook Reference: Please see textbook section 8.4
+                                      53 of 57
+                               KnopmanMarks
+                           http://testprep.knopman.com
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 34934
+79) A customer has written call options against a stock she holds in her
+    portfolio. Which method is her broker-dealer permitted to use to
+    determine when she will receive an exercise notice?
+     A) Last-in-first-out (LIFO) or random selection
+     B) First-in-first-out (FIFO) or random selection
+     C) Only first-in-first-out (FIFO)
+     D) Only last-in-first-out (LIFO)
+    Answer Explanation:
+    The OCC assigns exercise notices to broker-dealers based on random
+    selection. The broker-dealer then assigns notices to customers using
+    random selection, first-in first-out, or any other fair method.
+    Textbook Reference: Please see textbook section 8.6.3
+                                                                      Question ID: 26149
+80) A customer has $2,500 in her cash account and she wishes to buy
+    three put options in her margin account with a strike price of $75
+    and a premium of $5. She can pay for the transaction by
+     A) using a combination of cash and margin.
+     B) using margin and depositing more cash.
+     C) transferring the funds from her cash account to her margin account.
+     D) using margin only.
+    Answer Explanation:
+    Options generally may not be purchased on margin but they can be
+    purchased in a margin account as long as the customer pays in full. In
+    this case, the three options will cost a premium of $1,500 (300 X $5). This
+    can be paid for by depositing new cash in the margin account or
+    transferring $1,500 from her cash account to her margin account.
+    Textbook Reference: Please see textbook section 8.7.1
+                                                                      Question ID: 21996
+81) An investor with a bearish view would most likely engage in which of
+    the following transactions?
+     A) Buy LBK April 50 Put, sell LBK April 55 Put.
+     B) Buy VIX call.
+     C) Buy VIX put.
+     D) Buy HMK May 40 Call, sell HMK May 50 call.
+    Answer Explanation:
+    An investor who holds a bearish view would be interested in buying a call
+    option on the VIX. This is a volatility index which tends to rise as equity
+    prices fall. VIX call options are often used as a hedge against stock
+    market declines.
+    Textbook Reference: Please see textbook section 8.3.2
+                                       54 of 57
                              KnopmanMarks
                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 2719
-52) Last sale reports must include a modifier if the trade is executed
-    during normal market hours and is reported
-     A) More than 10 seconds after execution
-     B) More than 90 seconds after execution
-     C) More than 5 seconds after execution
-     D) More than 30 seconds after execution
+                    Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                     Question ID: 36515
+82) For what purpose might an investor buy VIX index call options?
+     A) To profit from a declining stock market
+     B) To profit from a rising stock market
+     C) To protect against a decline in the US dollar against foreign
+    currencies
+     D) To protect against rising interest rates
     Answer Explanation:
-    The modifier indicates that the last sale trade report is late. For trades
-    during normal market hours late is defined as reported more than 10
-    seconds after execution.
-    Textbook Reference: Please see textbook section 5.2.3
-                                                                      Question ID: 34922
-53) Which of the following factors does FINRA consider when
-    determining the consequences of late trade reporting by a broker-
-    dealer?
-     A) The dollar amount of the trade
-     B) The complexity of the trade
-     C) The size of the trade
-     D) The size of the broker-dealer
+    The VIX is a measure of stock market volatility, and it generally moves
+    inverse to the market because there is greater volatility during times of
+    market decline. An investor who is bullish on volatility would be bearish on
+    the market and would profit by purchasing VIX calls.
+    Textbook Reference: Please see textbook section 8.3.2
+                                                                      Question ID: 8647
+83) A U.S. investor wishes to profit on the belief that Euros will rise in
+    value in the short-term against the dollar. Which strategy is
+    appropriate?
+     A) Buy Euro calls
+     B) Buy U.S. dollar calls
+     C) Buy Euro puts
+     D) Buy U.S. dollar puts
     Answer Explanation:
-    FINRA considers several factors when determining the consequences of
-    late trade reporting including the trade's complexity.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                       Question ID: 1982
-54) Under the T+N Trade Processing method, how long is an open order
-    carried over, before it is no longer eligible for automatic lock-in
-    processing?
-     A) 2 business days after trade date (T+2)
-     B) 3 business days after settlement date (T+5)
-     C) 22 calendar days after trade date
-     D) 30 calendar days after trade date
-    Answer Explanation:
-    Open orders are those that are unmatched or unaccepted. The system
-    automatically carries forward open orders to the next business day,
-    through and including T+21. On T+22 the System will carry over any trade
-    that remains open, but the trade will not be subject to the automatic lock-
-    in process.
-    Textbook Reference: Please see textbook section 5.4.2
-                                     41 of 54
+    There are no U.S dollar currency options available on US exchanges.
+    The investor must buy options on the foreign currency. This investor
+    should buy calls on the Euro which will allow the Euro to be purchased at
+    a lower price (the exercise price) than the market price if the value rises.
+    The Euros can then be sold at a profit, or the option can be closed out for
+    a higher value.
+    Textbook Reference: Please see textbook section 8.4
+                                     55 of 57
                                KnopmanMarks
                            http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 15674
-55) ABC Securities buys 200 shares of stock for a customer on an
-    agency basis. The price of the transaction is $67.25 per share,
-    including a commission of 50 cents per share. What price will be
-    shown on the trade report?
-     A) $67.75
-     B) it depends on the customer's profile and preferences
-     C) $66.75
-     D) $67.25
+                     Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                        Question ID: 2341
+84) An investor who puts on a straddle position
+     A) Is expecting significant changes in the market price of the
+    underlying security in the near term
+     B) Is confident that positive news is forthcoming from the issuer of the
+    underlying security
+     C) Does not believe there will be much movement in the price of the
+    underlying security in the near term
+     D) Will earn profits when the price of the underlying security is close to
+    the strike price of the option contracts at the time of expiration
     Answer Explanation:
-    For agency trades, firms should report the number of shares traded and
-    the trade price excluding any commissions charged. For buy trades,
-    subtract the commission from the transaction price. For sell trades, add
-    the commission to the transaction price.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                        Question ID: 2620
-56) A trade in an OTC Equity security is effected at 10:30 AM and then
-    cancelled at 6:30 PM. If the broker-dealer is unable to report the
-    cancellation that same day,
-     A) It must report the cancellation by 8 AM the following business day.
-     B) It is in violation of FINRA trade reporting rules, and will incur a Minor
-    Rule Violation.
-     C) It must report the cancellation within 10 seconds of the next market
-    open.
-     D) The cancellation must be reported by 8 PM the next business day.
+    An investor who purchases a straddle is buying a put option and a call
+    option on the same security. This type of strategy would be beneficial
+    when there are significant changes in the market price of the underlying
+    security.
+    Textbook Reference: Please see textbook section 8.2
+                                                                       Question ID: 34933
+85) In what type of market environment would an investor expect the
+    greatest profit by purchasing VIX index call options?
+     A) Volatile and falling
+     B) Volatile and rising
+     C) Flat
+     D) Volatile, either rising or falling
     Answer Explanation:
-    For trades executed between 9:30 AM and 4:00 PM and cancelled after
-    4:00 PM but before 8:00 PM, the firm must use best efforts to report the
-    cancellation by 8:00 PM that same day. Alternatively, it may report the
-    cancellation by 8:00 PM the following business day.
-    Textbook Reference: Please see textbook section 5.3.1
-                                                                        Question ID: 2534
-57) For a Seller's Option Trade, the trade report must include a modifier
-    to denote
-     A) Identity of the buying broker
-     B) Identity of the selling broker
-     C) Exact time of the order
-     D) Days to deliver
-    Answer Explanation:
-    Modifiers add information such as the days to deliver in a Seller's Option
-    Trade - i.e., a trade with delayed delivery.
-    Textbook Reference: Please see textbook section 5.2.6
-                                       42 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 2815
-58) Broker-dealer N posts a quote to one FINRA system. It then reports a
-    trade resulting from that quote to another FINRA system. How many
-    MPIDs may it use in quoting and reporting the transaction?
-     A) It depends on the type of transaction
-     B) One
-     C) Up to three
-     D) Two
-    Answer Explanation:
-    Quotes, and trades resulting from those quotes, must use the same
-    MPID.
-    Textbook Reference: Please see textbook section 5.6
-                                                                        Question ID: 2616
-59) For an agency transaction, how is the commission reported on the
-    last sale transaction report?
-     A) Dollars per 100 shares
-     B) It isn't
-     C) Net dollars
-     D) Gross dollars
-    Answer Explanation:
-    On agency transactions, the trade report excludes any commission
-    charged.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                        Question ID: 1893
-60) Jane wishes to buy 100 shares of XYZ when it is trading at $35.00
-    per share. The broker dealer holding her account executes the trade
-    at that price and takes a profit through a $0.30 mark-up. What price
-    will be reported to the reporting facility?
-     A) $34.70
-     B) $35.00
-     C) $35.30
-     D) The trade is not reported because it is a principal trade
-    Answer Explanation:
-    When reporting principal transactions, any mark-up, mark-down, or
-    commission is not included in the trade report. Therefore, the firm must
-    submit the full $35.00 share price to the trade reporting facility, regardless
-    of whatever fees it charges its clients. Note that Jane will pay $35.30,
-    inclusive of the markup.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                      43 of 54
+    VIX index options allow investors to speculate on market sentiment and
+    also market volatility. The index measures volatility and generally rises in
+    falling markets. Buying VIX call options works best in volatile, falling
+    markets.
+    Textbook Reference: Please see textbook section 8.3.2
+                                       56 of 57
                                KnopmanMarks
                            http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 2240
-61) Broker S represents the sell-side in a trade and Broker B represents
-    the buy side. If both are members and both meet the definition of
-    executing party, which party must report the transaction, assuming
-    they do not agree otherwise?
-     A) Broker B, because it represents the buy-side
-     B) FINRA will notify the responsible party
-     C) Both must report
-     D) Broker S, because it represents the sell-side
+                      Series 57 Top-Off - 8/28/2023 1:25 PM
+                                                                      Question ID: 2482
+86) An investor has purchased an XYZ index 205 call for 4.75. Just prior
+    to expiration, the index is 210. Which two of the following statements
+    are TRUE?
+    I. The contract will be exercised
+    II. The contract will expire
+    III. holder will receive cash equal to the in-the-money amount
+    IV. holder will lose the premium
+     A) II and IV
+     B) II and III
+     C) I and III
+     D) I and IV
     Answer Explanation:
-    In this situation, where both are executing and both are members, the
-    sell-side has reporting responsibility, unless they agree otherwise.
-    Textbook Reference: Please see textbook section 5.2.7
-                                                                        Question ID: 2763
-62) In a dual agency transaction for 200 shares at $60 per share, with a
-    commission of $15 to the selling broker and $14 to the buying
-    broker, what commission is included in the last sale trade report?
-     A) None
-     B) $15
-     C) $14
-     D) $29
-    Answer Explanation:
-    Neither commission is reported in a dual agency transaction - only the
-    number of shares traded and the price.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                        Question ID: 1894
-63) Jane wishes to sell 100 shares of XYZ when it is trading at $35.00 per
-    share. The broker dealer holding her account executes the trade at
-    that price and takes a profit through a $0.30 mark-down. What price
-    will be reported to the reporting facility?
-     A) $34.70
-     B) $35.00
-     C) $35.30
-     D) The trade is not reported because it is a principal trade
-    Answer Explanation:
-    When reporting principal transactions, any mark-up, mark-down, or
-    commission is not included in the trade report. Therefore, the firm must
-    submit the full $35.00 share price to the trade reporting facility, regardless
-    of whatever fees it charges its clients. Note that Jane will receive only
-    $34.70 in proceeds from the sale, because the firm charges 30 cents per
-    share fee to execute.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                       44 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 2227
-64) In a transaction between two FINRA members, which one must
-    report the trade?
-     A) Executing party
-     B) Receiving party
-     C) Delivering party
-     D) Both
-    Answer Explanation:
-    In a transaction between members, the executing party must report the
-    trade. If both parties satisfy the definition of executing party, the sell-side
-    reports the transaction.
-    Textbook Reference: Please see textbook section 5.2.7
-                                                                        Question ID: 3014
-65) Broker Z executes a trade on behalf of its client, collects the
-    appropriate commission, and subsequently the trade is allocated to
-    the client's account with Broker Y. This is an example of a
-     A) Give -Up
-     B) Reallocated trade
-     C) Step-Out
-     D) Omnibus transaction
-    Answer Explanation:
-    In a Step Out, one broker executes the client trade and later on
-    allocates the trade to the client's account at a different broker.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                        Question ID: 2262
-66) A trade in an OTC Equity Security was executed at 12 PM and was
-    subsequently cancelled at 3 PM the same day. The cancellation must
-    be reported
-     A) By 4:10 PM
-     B) Within 10 seconds
-     C) By 4 PM
-     D) Within 30 seconds
-    Answer Explanation:
-    Trades in OTC equity securities executed between 9:30 AM and 4 PM
-    and then cancelled at or before 4 PM on the same day must be reported
-    as cancelled trades within 10 seconds of the cancellation.
-    Textbook Reference: Please see textbook section 5.3.1
-                                       45 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 1925
-67) A trade is executed at 6:45:23 pm via a quote accessed on the ADF.
-    To avoid being late, when is the last sale trade report due?
-     A) 07:45:23
-     B) The next business day by 8:15:00
-     C) 06:45:33
-     D) 06:55:23
-    Answer Explanation:
-    The execution is reported at 6:45:23 p.m. Since this is after 6:30 EST the
-    ADF reporting facility is closed, and the trade must be reported the
-    following business day by 8:15 a.m.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                     Question ID: 2914
-68) Simon Corp. is a UK based retailer. A 50,000 share trade was
-    effected on the London stock exchange by a U.S. broker dealer. This
-    transaction must be reported to the OTC Reporting Facility
-     A) If the transaction was not reported to the London exchange
-     B) Promptly after the trade is reported to the London exchange
-     C) Within 10 seconds of execution
-     D) At the same time it is reported to the London exchange
-    Answer Explanation:
-    A foreign equity security is an OTC Equity security that is issued by an
-    entity organized under the laws of any foreign country. Trades in these
-    securities must be reported to the OTC Reporting Facility unless the trade
-    is executed on and reported to a foreign securities exchange.
-    Textbook Reference: Please see textbook section 5.5
-                                                                    Question ID: 15687
-69) Bernice is a broker who executes options trades. If she sends orders
-    to the CBOE for execution, in which case will these orders not be
-    received by the CBOE in a systematized format?
-     A) when they are not transmitted electronically
-     B) when they are combination orders, such as a spread or a straddle
-     C) when orders are not transmitted during normal market hours
-     D) when she is trading for her firm's own account
-    Answer Explanation:
-    A systematized transmission is one that is electronically submitted to the
-    CBOE for execution. If an order is received in a non-electronic format,
-    such as an order telephoned to a floor broker, the order must be input into
-    CBOE's electronic systems upon receipt at the CBOE. This allows the
-    order to be captured by the CAT system.
-    Textbook Reference: Please see textbook section 5.7
-                                      46 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                      Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 2312
-70) Brian calls his registered rep and asks for the NBBO on shares of
-    EDD common stock. The rep indicates it is $25.64-$25.69 12x4. Brian
-    places a directed order to sell 500 shares on Nasdaq. Following the
-    transaction, the trade report will be sent to
-     A) TRF
-     B) Consolidated tape
-     C) ADF
-     D) ORF
-    Answer Explanation:
-    Trades that occur on the Nasdaq System must be reported to the
-    Nasdaq/FINRA Trade Reporting Facility (TRF).
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                    Question ID: 15676
-71) A trade in an OTC equity takes place at 7:36 am. The trade is not
-    reported until 9:03 am the same day. When is the trade report due,
-    and what modifier should be included on the trade report?
-     A) 8:15 am, .U
-     B) within 10 second, .T
-     C) 9:00 am, .U
-     D) 8:00 am, .T
-    Answer Explanation:
-    For OTC equity trades executed between midnight and before 8:00 am,
-    the reporting requirement is by 8:15 am (within 15 minutes of system
-    open on trade date). This trade is reported late so the modifier is .U
-    (untimely). If it had been reported by 8:15, the modifier would be .T
-    (timely).
-    Textbook Reference: Please see textbook section 5.1.2
-                                                                     Question ID: 3000
-72) Two market makers execute a trade at 4:03:32 p.m. and the trade is
-    reported at 4:06:15 p.m.
-    This trade report
-     A) Requires a .U modifier
-     B) Must include a .T modifier
-     C) Need not contain a trade modifier if reported on the same day as
-    the execution
-     D) Should be notated with a .Z modifier
-    Answer Explanation:
-    Trades executed outside of normal market hours and reported late (more
-    than 10 seconds after execution) must utilize the .U modifier.
-    Textbook Reference: Please see textbook section 5.2.3
-                                       47 of 54
-                               KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                       Question ID: 2264
-73) A trade in an OTC Equity security was executed on May 15 and
-    cancelled at 3 PM on May 16. Notification of the cancellation must be
-    reported
-     A) By 8:00 PM on May 17
-     B) By 8:00 PM on May 16
-     C) At 8:15 AM on May 17
-     D) By 8:00 AM on May 17
-    Answer Explanation:
-    When a trade is cancelled before 8:00 PM on any date after the date of
-    execution the cancellation notice must be submitted by 8:00 PM on the
-    dated of cancellation. If the trade is cancelled at or after 8:00 PM, the
-    cancellation notice must be submitted by 8:00 PM on the following
-    business day.
-    Textbook Reference: Please see textbook section 5.3.1
-                                                                       Question ID: 1976
-74) Member firm X executes a trade at 1:45 p.m. and promptly reports it.
-    X then takes action to cancel the trade on its books at 2:12. It
-    informs the contra party that the trade is being cancelled three
-    minutes later, at 2:15. The parties agree to cancel the trade at 2:17.
-    What is the deadline for reporting the cancellation?
-     A) 2:12 + 10 seconds
-     B) 2:15 + 10 seconds
-     C) 2:17 + 10 seconds
-     D) By 6:30 p.m. that day
-    Answer Explanation:
-    The deadline is based on the first of three events to occur: cancellation on
-    the reporting member's books, notification of the contra party, and
-    agreement of the parties to cancel. If the trade was executed the same
-    day and the cancellation occurred during normal market hours, the
-    deadline is 10 seconds later.
-    Textbook Reference: Please see textbook section 5.3.1
-                                                                       Question ID: 2367
-75) A trade was reported at 4:22 p.m. with a .Z modifier. This trade was
-     A) Reported and executed outside market orders
-     B) Executed outside of market hours and reported within 10 seconds
-     C) Executed during market hours and reported late
-     D) Executed during market hours and reported within 10 seconds
-    Answer Explanation:
-    The use of the .Z modifier indicates that the trade was executed during
-    market hours buy reported after 10 seconds.
-    Textbook Reference: Please see textbook section 5.2.3
-                                     48 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 2896
-76) Which FINRA member is responsible for the complete and accurate
-    submission of information into the Trade Reporting Facility?
-     A) Designated Member
-     B) Primary Member
-     C) Contra Member
-     D) Reporting Member
-    Answer Explanation:
-    Unless the contra side has an opportunity to provide its own trade
-    information, the Reporting Member is responsible for complete and
-    accurate submission of information for both sides of the trade.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                    Question ID: 37930
-77) Brokerage Firm A and Brokerage Firm B have a give-up relationship,
-    in which trades are reported by Firm A but executed by Firm B.
-    Which MPID(s) are used to report trades?
-     A) The MPIDs of both firms
-     B) The MPID of Firm B
-     C) The MPID of Firm A
-     D) A special supplemental MPID must be created and used for a give-
-    up relationship
-    Answer Explanation:
-    In a give-up relationship, the trade is reported under the MPID of the firm
-    that executed the trade, not the reporting firm.
-    Textbook Reference: Please see textbook section 5.2.7.1
-                                                                     Question ID: 2263
-78) A trade is executed at 5:00 PM and is cancelled at 9:00 PM on the
-    same day. The cancellation report must be submitted
-     A) By 8:00 PM on the following business day
-     B) Within 10 seconds
-     C) By noon the next business day
-     D) By 8:00 AM the next business day
-    Answer Explanation:
-    If a trade is executed outside regular business hours and then cancelled
-    on or after 8PM that same day, the cancellation notice must be submitted
-    by 8:00 PM the following business day.
-    Textbook Reference: Please see textbook section 5.3.1
-                                      49 of 54
-                              KnopmanMarks
-                          http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                    Question ID: 2228
-79) When FINRA grants a trade reporting exemption to an ATS, which
-    FINRA member is responsible for reporting the trade?
-     A) The executing party
-     B) The receiving party
-     C) Both
-     D) Neither, the ATS reports
-    Answer Explanation:
-    Where FINA grants a trade reporting exemption to an ATS, trades are
-    reported by the member that is the executing party.
-    Textbook Reference: Please see textbook section 5.6.1
-                                                                    Question ID: 2320
-80) To receive an exemption from trade reporting, an ATS must agree to
-    provide trading volume data to FINRA how often?
-     A) At regular intervals
-     B) Daily
-     C) Weekly
-     D) Monthly
-    Answer Explanation:
-    All of four conditions must be met for an ATS trade reporting exemption.
-    One is that the ATS agrees to provide FINRA monthly data on the volume
-    of trades executed.
-    Textbook Reference: Please see textbook section 5.6
-                                                                    Question ID: 3286
-81) A trade is executed at 9 a.m. This trade must be reported
-     A) Within 10 seconds with a .T modifier
-     B) By 9:15 a.m. with a .T modifier
-     C) Within 10 seconds with no modifier
-     D) Within 10 seconds with a .U modifier
-    Answer Explanation:
-    Trades executed between 8:00 a.m. and 9:29:59 a.m. must be reported
-    within 10 seconds with a .T modifier
-    Textbook Reference: Please see textbook section 5.2.2
-                                      50 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                     Question ID: 3060
-82) Broker-dealer T has been told that its last sale report for a trade,
-    made in normal market hours, is late. This is because the report was
-    made
-     A) After-hours on the day of the trade
-     B) More than 10 seconds after execution
-     C) More than one hour after execution
-     D) The day after the trade
-    Answer Explanation:
-    Trades executed during normal market hours, other than on an exchange,
-    must be reported with 10 seconds of execution. Otherwise, they are
-    designated as late.
-    Textbook Reference: Please see textbook section 5.2.1
-                                                                    Question ID: 15680
-83) ABC Securities, a broker-dealer, executes an OTC trade for 800
-    shares of an NMS stock that normally trades on Nasdaq. If the trade
-    takes place at 7:45 pm, how and when must ABC report the trade?
-     A) within 10 seconds of execution on FINRA TRF
-     B) by 8:15 am the next business day on FINRA ADF
-     C) within 10 seconds of execution on FINRA ORF
-     D) the broker-dealer will not report the trade because it is captured on
-    the NYSE consolidated tape
-    Answer Explanation:
-    FINRA's Trade Reporting Facility (TRF) reports transactions in exchange-
-    listed securities that occur off the exchange. The TRF's hours of operation
-    are 8:00 am to 8:00 pm EST, and all trades during these hours must be
-    reported within 10 seconds.
-    Textbook Reference: Please see textbook section 5.1.2
-                                                                    Question ID: 15673
-84) ABC Securities executes a trade in an equity security at 1:47 pm
-    Eastern Time. When must the trade report be made to FINRA's Trade
-    Reporting Facility?
-     A) within two minutes of execution
-     B) within five minutes of execution
-     C) within 10 seconds of execution
-     D) within 60 seconds of execution
-    Answer Explanation:
-    Reports for equity trades reported to FINRA's Trade Reporting Facility
-    (TRF) between 8:00 am and 8:00 pm must be made within 10 seconds
-    after execution, or else they must include modifier designating a late trade
-    report.
-    Textbook Reference: Please see textbook section 5.1.2
-                                       51 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                   Question ID: 2729
-85) A trade is executed at 5:00 p.m. The trade report
-     A) Must be submitted within 10 seconds and include a .U modifier
-     B) Must be submitted by 8:15 a.m. on T+1 and carry a .T modifier
-     C) Must be submitted within 10 seconds and include a .T modifier
-     D) Can be submitted by 8:15 a.m. and only include a modifier if
-    reported at 8:15 a.m.
-    Answer Explanation:
-    Trades executed between 4:00:01 p.m. and 8:00 p.m. must be reported
-    within 10 seconds and include a .T modifier
-    Textbook Reference: Please see textbook section 5.2.2
-                                                                   Question ID: 2104
-86) What may a member do to have its dark pool transaction data
-    included in FINRA's published volume?
-     A) Affirmatively opt-out
-     B) Affirmatively opt-in
-     C) Meet trading volume thresholds
-     D) File required reports on time
-    Answer Explanation:
-    A member's dark pool transaction data will not be included in published
-    volume unless the member affirmatively opts-in.
-    Textbook Reference: Please see textbook section 5.6
-                                                                   Question ID: 2211
-87) A trade in an OTC Equity security is executed at 9:45 AM and is
-    cancelled 12 hours later. The broker-dealer must report the
-    cancellation
-     A) By 8:00 PM the following business day
-     B) Before midnight that same day
-     C) Within 24 hours
-     D) By 8:00 AM the following business day.
-    Answer Explanation:
-    If the trade was executed during regular market hours and cancelled after
-    8:00 PM the same day, the cancellation report must be submitted by 8:00
-    PM the next business day.
-    Textbook Reference: Please see textbook section 5.3
-                                     52 of 54
-                             KnopmanMarks
-                         http://testprep.knopman.com
-                    Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                      Question ID: 2006
-88) How long after trade execution do participants have to accept or
-    decline a trade executed via a quote on the ADF, or else input the
-    trade report?
-     A) 5 minutes
-     B) 10 minutes
-     C) 20 minutes
-     D) 30 minutes
-    Answer Explanation:
-    Participants must either input trade reports or accept or decline a trade
-    within 20 minutes after execution.
-    Textbook Reference: Please see textbook section 5.4.2
-                                                                      Question ID: 1874
-89) Bob wishes to buy 100 shares of DEF. The broker dealer holding his
-    account executes the trade as principal, includes a $0.15 mark-up,
-    and submits a timely trade report indicating a price of $15.20. What
-    will be Bob's total cost per share?
-     A) $15.05
-     B) $15.15
-     C) $15.20
-     D) $15.35
-    Answer Explanation:
-    When reporting principal transactions, any mark-up, mark-down, or
-    commission is not included in the trade report. Therefore, the reported
-    price of $15.20 does not include the $0.15 fee Bob pays the broker dealer
-    for executing the transaction. Inclusive of fees, Bob will pay a total cost of
-    $15.35 per share.
-    Textbook Reference: Please see textbook section 5.2.8.2
-                                                                      Question ID: 1949
-90) What is the deadline for last sale reports of transactions in ADF-
-    eligible securities executed during normal market hours, and not on
-    an exchange?
-     A) 10 seconds after execution
-     B) 30 seconds after execution
-     C) 90 seconds after execution
-     D) 15 minutes after execution
-    Answer Explanation:
-    During normal market hours, transactions not reported within 10 seconds
-    after execution are designated as late.
-    Textbook Reference: Please see textbook section 5.2.1
-                                     53 of 54
-                               KnopmanMarks
-                           http://testprep.knopman.com
-                     Series 57 Top-Off - 8/27/2023 1:09 PM
-                                                                        Question ID: 2541
-91) When is a riskless principal capacity indicator used to report a
-    riskless principal transaction to FINRA?
-     A) When the trade is made after-hours
-     B) When only one side of the trade is reported
-     C) If the trade deviates by more than 8.5% from the trailing 5 minute
-    average
-     D) When the trade is reported late
-    Answer Explanation:
-    If only one leg of a riskless principal transaction is reported by a dealer
-    (because the other leg has been reported by another member), a riskless
-    principal capacity indicator must be added to the non-tape, non-clearing
-    report or a clearing-only report.
-    Textbook Reference: Please see textbook section 5.2.8
-                                                                       Question ID: 36503
-92) Which type of trades are executed through FINRA's TRF?
-     A) OTC trades
-     B) Third market trades
-     C) Off-exchange trades in listed securities
-     D) None
-    Answer Explanation:
-    TRF (Trade Reporting Facility) provides a mechanism for reporting trades
-    but is not used for trade executions.
-    Textbook Reference: Please see textbook section 5.2
-                                       54 of 54
+    An investor that has purchased an index call has the right to exercise the
+    contract for cash equal to the in-the-money amount. This contract will be
+    exercised because the market price of the index is 210, which is above
+    the strike price of 205; At exercise the holder will receive $500 (5 points
+    in-the-money x multiplier of 100).
+    Textbook Reference: Please see textbook section 8.3.1
+                                       57 of 57

@@ -1,0 +1,306 @@
+
+* There are three exceptions to the CBOE's options position limits: delta hedging, firm facilitation and market-making. There is no exception based on dividends.
+
+* Options generally may not be purchased on margin (using borrowed funds). Therefore, the full premium of $4 x 100 shares per contract ($400) must be paid in cash.
+
+* A not held order gives the floor broker discretion in choosing the time and price at which orders are executed. However, it does
+
+*  B is the correct answer. The CBOE's position limits have exceptions for delta hedging, firm facilitation, and market-making. There is no exception based on dividends.
+
+**  The CBOE's position limits rule governs the maximum number of options contracts an investor can control on the same side of the market (bullish or bearish). There are three exceptions that allow an investor to exceed the standard limits: delta hedging, firm facilitation, and market-making. These provide flexibility for certain trading strategies. However, there is no exception based on dividends. Dividends do not impact position limits.
+
+*  C is correct. The investor wrote an index call and the index expired below the strike price, so the call expires worthless. The writer gets to keep the full premium as profit.
+
+**  When an investor writes an index call, the maximum profit is the premium received if the call expires worthless. Here, the index closed at 2004, below the strike price of 2020. So the call expires out of the money and the writer has no obligation. The investor keeps the full $850 premium as profit.
+
+*  A is correct. The OCC provides clearing services for listed options trades.
+
+**  The Options Clearing Corporation (OCC) acts as the issuer and guarantor for standardized, listed options. As a clearinghouse, the OCC clears and settles options trades, ensuring the obligations are fulfilled. The OCC does not set prices, cancel trades, or regulate communications. Its main role is clearing services.
+
+*  C is correct. Buying VIX calls allows an investor to profit from increased volatility.
+
+**  The VIX measures expected volatility based on the S&P 500 index options. It tends to rise when volatility increases and equity prices fall. So an investor who believes volatility will increase substantially should buy VIX calls to profit. VIX calls increase in value when volatility spikes.
+
+*  B is correct. Buying a call with a lower strike creates a bull call spread, which is moderately bullish.
+
+**  A bull call spread combines a long call at a lower strike and a short call at a higher strike. This allows an investor to remain bullish but with limited profit potential and reduced cost compared to a long call alone. Here, buying a call with a lower strike than the written call creates the bull call spread.
+
+*  A is correct. A straddle profits from significant price changes, whether up or down. It is a volatility strategy.
+
+**  A long straddle combines a long call and long put on the same asset. This position benefits from substantial price moves in either direction. It does not depend on a price increase or decrease, just on volatility. So it is a pure volatility play, not a directional bet. Significant price changes are needed to offset the premiums paid.
+
+
+*  A is correct. To create a long combination, the investor would buy a put with a higher strike price than the existing call.
+
+**  A long combination is a volatility strategy that combines a long call and a long put on the same asset. Since the investor already owns a Feb 55 call, to make this a long combination they need to add a long put at a different strike. Buying a higher strike put creates the long combination.
+
+*  A is correct. A bearish investor would buy VIX calls, as the VIX tends to increase when the market declines.
+
+**  The VIX measures expected volatility based on S&P 500 options. It generally rises as the equity market falls. So an investor with a bearish equity market outlook would want to buy VIX calls, profiting as volatility increases in a declining market.
+
+*  B is correct. With the long 45 call and short 55 call, the spread profits if the stock price rises.
+
+**  In a call spread, the lower strike call is dominant. Here that is the long 45 call, making this spread bullish. As the stock price rises, the long 45 call profits more than the short 55 call loses. So this spread is profitable if the stock price increases.
+
+*  C is correct. Contingency orders depend on the last reported price on the primary exchange.
+
+**  Contingency orders like stops and limits are triggered based on the last sale price of the underlying stock on its primary exchange. This is typically the NYSE or Nasdaq. The orders do not depend on quotes or any specific market maker's price.
+
+*  A is correct. To profit from a bullish outlook, an investor would buy VIX puts and sell VIX calls.
+
+**  The VIX tends to decline when equity prices rise. So an investor with a bullish stock market outlook would want to sell VIX calls and buy VIX puts, profiting as the VIX decreases in a rising market. This is the reverse position of a bearish investor.
+
+
+*  D is correct. Index options settle in cash on the business day after exercise.
+
+**  When an index option is exercised, the parties do not actually exchange any securities. Instead, they settle the contract in cash for the in-the-money amount. This settlement occurs on the business day following the exercise notice. Index options do not settle T+2 like equities.
+
+*  C is correct. Long puts and short calls are aggregated to determine position limit compliance.
+
+**  Position limits specify the maximum number of contracts on each side of the market - bullish (long calls, short puts) and bearish (long puts, short calls). To check for compliance, long puts and short calls are added up since they are both bearish positions.
+
+*  C is correct. Orders to floor brokers are "not held" by default unless specified otherwise.
+
+**  When customers give orders to floor brokers on the exchange, they are automatically considered "not held" orders. This gives the floor broker discretion on time and price of execution, unless the customer specifies otherwise. "Not held" is the default.
+
+*  D is correct. The contingency order and trade will not be altered without mutual consent.
+
+**  With CBOE contingency orders, there is risk that the price triggering execution was erroneous. However, trades are still binding. Without mutual agreement, the order and trade will stand. So here, the original trade executes and remainder of order stays cancelled.
+
+*  B is correct. Firms can choose FIFO or random selection when assigning exercise notices.
+
+**  Broker-dealers are assigned notices from OCC randomly but can use FIFO or random selection for their customers. LIFO is not permitted. The firm has flexibility in distribution.
+
+
+*  C is correct. The investor will receive $1,000 at exercise since the call is $10 in the money.
+
+**  This index call has a strike price of 452 and the index closed at 471. With the 100x multiplier, the call is $10 in the money [(471 - 452) x 100 = $1,000]. The investor will receive this amount at settlement. The breakeven is strike + premium = 452 + 9 = 461.
+
+*  D is correct. The British exporter receiving USD should buy GBP calls to hedge currency risk.
+
+**  The exporter is concerned about the GBP rising vs the USD, reducing the value of payments received. Since there are no USD options, the exporter buys GBP calls, profiting if GBP rises. This locks in a GBP purchase price if it strengthens.
+
+*  C is correct. Selling a call spread is a bearish position.
+
+**  In a call spread, the seller profits as the spread narrows. This occurs if the underlying price goes down. So selling a call spread indicates a bearish outlook, unlike buying calls which is bullish.
+
+*  A is correct. A debit put spread has net premium paid, not received.
+
+**  In a credit spread, the opening sale generates excess premium over the purchase cost. But in this put spread, the purchase costs more than the sale, so there is a net debit. With no net credit received, this cannot be a credit spread.
+
+
+*  C is correct. The VIX measures expected volatility based on the S&P 500 index.
+
+**  The CBOE Volatility Index, or VIX, is calculated using S&P 500 index options prices. It reflects the market's expectations for volatility in the S&P 500 over the next 30 days. The VIX does not measure volatility of other indices like the Dow Jones or Nasdaq.
+
+*  B is correct. Buying one call and selling another creates a spread position.
+
+**  When an investor buys a call and sells a call on the same underlying security, they have created a spread position. A spread involves options from only one class (calls or puts) and on opposite sides of the market. This is different from a straddle which combines a call and a put.
+
+*  A is correct. Before crossing orders, floor brokers must check for a better market price.
+
+**  On the CBOE, floor brokers can "cross" customer orders, but must first expose the order to the market to check for price improvement. They cannot cross at a inferior price to what is quoted in the market. This ensures customer orders get best execution.
+
+*  D is correct. The AON order will not execute since the full size is not available at the limit price.
+
+**  With an AON order, the entire order quantity must be filled at the limit price or else none of the order executes. Here, only 500 shares are bid at the customer's limit, so the order cannot be filled and will remain open.
+
+
+*  A is correct. To create a bull call spread from the existing short call, the investor should buy a lower strike call.
+
+**  A bull call spread combines a long lower strike call with a short higher strike call. Since the investor already sold a 36 call, to make this a bull spread they need to buy a call at a lower strike price like the 25 call. This creates a moderately bullish position.
+
+*  C is correct. The importer is concerned about the dollar rising vs the euro.
+
+**  The importer must pay USD in the future, so they are concerned about the EUR falling relative to the USD. Since the EUR falling is the same as the USD rising, the importer bought EUR puts to hedge this currency risk.
+
+*  D is correct. The total cost to buy the two calls is $700.
+
+**  The premium for currency options is quoted in cents per unit of the currency. Here the premium is 3.5 cents per franc. With 10,000 francs per contract, that is 10,000 x $0.035 = $350 per contract. Since the investor bought 2 contracts, the total cost is 2 x $350 = $700.
+
+*  B is correct. The plan can trade options if permitted in its investment policy statement.
+
+**  ERISA plans can trade options if it aligns with the plan's investment policy criteria. The trustee should verify the policy statement allows options trading. No waiver is needed and covered calls are not required. But options must be purchased - no naked writing.
+
+
+*  C is correct. The OCC guarantees performance and provides clearing services for listed options.
+
+**  The Options Clearing Corporation (OCC) is not an exchange, but rather acts as the issuer and guarantor for standardized listed options contracts. As a clearinghouse, the OCC clears and settles options trades, ensuring the obligations are fulfilled. This provides security to options traders.
+
+*  C is correct. To create a straddle, the investor needs to buy a call with the same strike price and expiration.
+
+**  A long straddle combines a long call and a long put on the same underlying asset. Since the investor already owns the Nov 70 call, to make this a straddle they need to buy a Nov 70 put with the same strike and expiration.
+
+*  D is incorrect. Listed options have standardized terms that create liquidity.
+
+**  Listed options are exchange-traded with fixed strikes, expirations, and contract terms. This standardization is what creates an active secondary market allowing the contracts to be readily bought and sold. Therefore, listed options have substantial liquidity, unlike OTC options.
+
+*  D is correct. To create a short straddle, the investor needs to sell a put with the same strike and expiration.
+
+**  A short straddle combines a short call and a short put at the same strike and expiration. Since the investor already sold a Nov 70 call, they need to sell a Nov 70 put to complete the straddle. Selling the put creates the short straddle position.
+
+
+*  B is correct. The Options Clearing Corporation guarantees the performance of listed options contracts.
+
+**  As the issuer and guarantor of standardized listed options, a key role of the Options Clearing Corporation (OCC) is to guarantee the performance of the options contracts it clears. This removes counterparty default risk for options traders, as the OCC will ensure obligations are fulfilled even if an original writer defaults.
+
+*  A is incorrect. An investor who believes the market will be flat would not benefit from buying S&P 500 puts.
+
+**  Buying an S&P 500 put provides downside protection and allows an investor to profit if the overall market declines. However, an investor who believes the market will trade flat would not benefit from purchasing puts, as minimal index movement would result in the puts expiring worthless.
+
+*  A is correct. To hedge a $10 million portfolio with the S&P 500 at 2000, the investor needs 50 contracts.
+
+**  To determine the number of index contracts needed, divide the portfolio value by the index level ($10,000,000 / 2000 = 5000) and then divide by 100 due to the index multiplier (5000 / 100 = 50 contracts). Each S&P 500 contract covers $100 per index point.
+
+*  C is correct. The contract terms do not change after a stock dividend.
+
+**  Stock dividends of less than 100% do not result in a change in the number of contracts. Only the strike price is reduced proportionately. So after a 10% dividend, the investor still owns 1 contract at a reduced strike price, but the same aggregate value.
+
+
+*  A is correct. The profit would be $500 per contract if the euro rises to $1.25.
+
+**  This euro call has a strike price of $1.20. With the euro at $1.25, the call is in the money by 5 cents (0.05). For FX options, this 5 cent gain is multiplied by the 10,000 euro contract size, resulting in a $500 profit per contract (0.05 x 10,000). Any premium paid would be subtracted.
+
+*  D is correct. The limit order will execute at the market price if it meets or betters the investor's limit.
+
+**  A limit order to sell the calls at $3.12 or higher will execute at the market price if it is at that level or better. Here the market price is $3.14, so the order executes at this price since it exceeds the investor's limit. The order price depends on the option premium quote, not the stock price.
+
+*  D is correct. Firms can use either FIFO or random selection when assigning exercise notices to customers.
+
+**  Broker-dealers receive exercise notices from OCC randomly but can choose FIFO or random selection when assigning notices to customers. FIFO or random selection are both permitted distribution methods.
+
+*  C is correct. The customer can transfer cash from her other account to fully fund the options purchase.
+
+**  Options cannot be purchased on margin, but can be purchased in a margin account if fully paid for. Here the customer can transfer $1,500 cash from her other account to pay for the options, allowing the purchase in the margin account.
+
+
+*  D is correct. By signing the options agreement, the customer verifies they have read and understand the disclosure document.
+
+**  The options agreement is a customer account form that is signed when opening an options trading account. By signing it, the customer legally confirms receipt and understanding of the options disclosure document provided by the firm. It does not relate to arbitration, affordability of losses, or complaining.
+
+*  A is correct. The contract will expire since the index price of 210 is above the 205 strike at expiration.
+
+**  As the writer of the index put, the investor wants the put to expire worthless so they keep the full premium. Here, with the index above the strike price, the put expires out of the money. The contract expires and the writer keeps the $475 premium.
+
+*  A is correct. The call is currently at parity with the strike at the current Canadian dollar spot rate.
+
+**  The call strike is 90 and the current Canadian dollar spot rate is 0.94. Since the strike of 90 represents $0.90, the call is at parity or breakeven at the current exchange rate. It is not in, at, or out of the money.
+
+*  B is correct. An investor with a bearish outlook would likely buy a VIX call to benefit from volatility.
+
+**  The VIX tends to increase when equity prices fall and volatility rises. So a bearish investor would buy VIX calls, profiting from an increase in the VIX in a declining equity market. VIX calls are a common tool for equity market hedging.
+
+
+*  A is correct. Index options like the S&P 500 are more likely to be European style.
+
+**  Most index options, including those on the S&P 500, are European style, meaning they can only be exercised at expiration. Equity options are typically American style, exercisable anytime prior to expiration. ETF options also tend to be American style.
+
+*  D is correct. A credit spread profits if the difference in premiums narrows.
+
+**  In a credit spread, the investor's maximum gain occurs if the options expire worthless and they keep the full net credit received. This happens if the spread narrows. So credit spreads benefit from a narrowing between the premiums.
+
+*  B is correct. Selling a lower strike call against a higher strike long call creates a bullish call spread.
+
+**  In a call spread, the call with the lower strike price is the dominant position and determines if the spread is bullish or bearish. Here, selling the lower 40 strike call makes this a bullish call spread, since the investor is net long the higher 36 strike call.
+
+*  A is correct. An investor would buy VIX calls to profit from a declining equity market.
+
+**  The VIX tends to increase when stock prices fall and volatility rises. So an investor who expects a declining stock market would buy VIX calls, benefiting as volatility increases in a falling market environment.
+
+Here are detailed explanations for the remaining questions:
+
+*  D is correct. Listed options can be exercised until 5:30 pm ET on the third Friday of the expiration month.
+
+**  For most listed options, the expiration date is the third Friday of the contract month. Options holders have until 5:30 pm ET on that day to send exercise instructions to their broker. This is the latest cut-off time for exercise.
+
+*  B is correct. A short straddle has unlimited risk due to the naked call position.
+
+**  A short straddle involves selling both a call and a put. The naked call creates unlimited risk if the stock price rises. Even though the short put limits risk for a stock price decline, the overall position still has unlimited risk on the upside.
+
+*  C is correct. The main risk with OTC options is counterparty risk.
+
+**  OTC options are negotiated between two counterparties and are not guaranteed by any clearing entity. This exposes the parties to default risk if the counterparty cannot fulfill its obligations. Listed options have no counterparty risk since the OCC guarantees performance.
+
+*  A is correct. To hedge payment risk, the company should buy yen calls.
+
+**  The company must pay yen in the future, so it wants to lock in a yen purchase price. Since there are no dollar options, the company buys calls on yen to profit if the yen rises vs. the dollar before payment is due.
+
+*  A is correct. To create a short straddle, the investor with the short put needs to sell a call at the same strike and expiration.
+
+**  A short straddle combines a short call and a short put at the same strike and expiration. Since the investor already sold a put, they need to sell a call at the same strike and expiration to complete the straddle. Selling the call results in the short straddle.
+
+*  D is correct. A butterfly spread requires 4 option contracts with 3 different strikes but the same expiration.
+
+**  A butterfly spread has a specific structure of 2 contracts at the middle strike and 1 contract at each of the outside strikes. So it requires 4 total option contracts with 3 different strikes, like a 50-60-60-70 butterfly. The expiration months must be the same.
+
+*  D is correct. After a 4:1 split, the 1 contract becomes 4 contracts with the strike adjusted to 25.
+
+**  For a forward split, the number of contracts increases by the split ratio. So here the 1 contract becomes 4 contracts after the 4:1 split. The aggregate value stays the same, so the strike is divided by 4, going from 100 to 25.
+
+*  D is correct. The OCC uses a random selection process when assigning exercise notices.
+
+**  When an investor exercises a contract, the OCC randomly selects a broker-dealer to receive the assignment notice. That brokerage can then assign it to a customer randomly or based on FIFO. But OCC uses random selection.
+
+**Options Position Limits and Exceptions:**
+- There are three exceptions to the CBOE's options position limits: delta hedging, firm facilitation, and market-making.
+- Options position limits apply to control the maximum number of options contracts an investor can hold on one side of the market.
+- There is no exception based on dividends for position limits.
+
+**Options Trading and Margin:**
+- Options generally may not be purchased on margin; the full premium must be paid in cash.
+- A "not held" order gives the floor broker discretion in choosing the time and price for execution.
+- To fully fund options purchases, a customer can transfer cash from another account.
+- Options trading is subject to an options agreement, which ensures the customer understands options trading.
+
+**Options Profit and Expiration:**
+- The profit for writing an index call comes from keeping the full premium if the index expires below the strike price.
+- Index options settle in cash on the business day after exercise.
+- Stock dividends do not change the terms of options contracts, only the strike price is adjusted.
+- Index options can be European-style, meaning they can only be exercised at expiration.
+
+**Options Clearing and OCC:**
+- The Options Clearing Corporation (OCC) provides clearing services for listed options trades.
+- OCC guarantees the performance of standardized listed options contracts and removes counterparty default risk.
+- OCC provides a distribution mechanism for exercise notices received by broker-dealers.
+- Broker-dealers can use either FIFO or random selection when assigning exercise notices.
+
+**VIX and Volatility Trading:**
+- Buying VIX calls allows an investor to profit from increased volatility in the market.
+- The VIX measures expected volatility based on the S&P 500 index options.
+- To profit from a bearish outlook, an investor can buy VIX calls.
+- The VIX tends to rise when volatility increases and equity prices fall.
+
+**Options Strategies - Call Spreads and Straddles:**
+- Buying a call with a lower strike creates a bull call spread, which is moderately bullish.
+- A long straddle combines a long call and long put on the same asset to profit from significant price changes, regardless of direction.
+- A long combination involves buying a call and a put at different strike prices.
+- Selling a call spread is a bearish position, and selling a put spread is a bullish position.
+
+**Options Strategies - Contingency Orders:**
+- Contingency orders, like stops and limits, depend on the last reported price on the primary exchange.
+- Contingency orders are triggered based on the last sale price of the underlying stock.
+- CBOE contingency orders are legally binding and not altered without mutual consent.
+- To benefit from a flat market, an investor would not buy S&P 500 puts.
+
+**Currency Options:**
+- Currency options trade in terms of cents per unit of the currency.
+- Currency options can be used to hedge against exchange rate fluctuations.
+- The profit in currency options is determined by the change in exchange rate multiplied by the contract size.
+- Options are used to hedge currency risk when payments need to be made in a foreign currency.
+
+**Customer Account and Disclosure:**
+- Options agreements are signed by customers to verify their understanding of the options disclosure document.
+- Customers can transfer cash to fully fund options purchases in their accounts.
+- An options agreement confirms receipt and understanding of the options disclosure document.
+
+**Options Trading Strategies - Straddles and Spreads:**
+- Creating a short straddle involves selling both a call and a put at the same strike and expiration.
+- Listed options tend to be European-style and cannot be exercised until expiration.
+- A short straddle carries unlimited risk due to the naked call position.
+- OTC options are subject to counterparty risk, while listed options are guaranteed by the OCC.
+
+**Hedging Currency Risk:**
+- To hedge payment risk, companies can buy currency calls to lock in a purchase price.
+- Currency options can be used to mitigate the risk of unfavorable exchange rate movements.
+
+These summaries cover the key points from the provided answers without eliminating any important information.
