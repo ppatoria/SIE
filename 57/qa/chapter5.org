@@ -159,7 +159,10 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
 *** All US registered broker-dealers must report.
 
 * within 10 seconds, .T
-   This trade took place 4 milliseconds after the close of normal market hours. Note that without the millisecond digits, the trade would appear to be executed during normal market hours (i.e. at the close). However, in this case it is executed outside normal market hours but before 8:00 pm so it must be reported within 10 seconds because the trade reporting system is still open. If the report is timely (within the 10 seconds), the modifier is .T, if it was late, it would include a .U modifier.
+   This trade took place 4 milliseconds after the close of normal market hours.
+   Note that without the millisecond digits, the trade would appear to be executed during normal market hours (i.e. at the close).
+   However, in this case it is executed outside normal market hours but before 8:00 pm so it must be reported within 10 seconds because the trade reporting system is still open.
+   If the report is timely (within the 10 seconds), the modifier is .T, if it was late, it would include a .U modifier.
 
 * The member who submitted the original trade
    The member who originated each trade has responsibility for reporting its cancellation. This usually is the executing member.
@@ -168,16 +171,22 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
    In transactions between a member and a non-member, the member must report the trade. Note that the member may be either the executing party or contra party.
 
 * Below the prevailing market price
-   The dealer's mark-down is added to the execution price to arrive at the reported trade price. For example, a customer sells 100 shares of ABC to broker dealer B at $10.00 inclusive of a $0.15 markdown. The trade report would indicate a price of $10.15.
+   The dealer's mark-down is added to the execution price to arrive at the reported trade price.
+   For example, a customer sells 100 shares of ABC to broker dealer B at $10.00 inclusive of a $0.15 markdown.
+   The trade report would indicate a price of $10.15.
 
 * Both the time of execution and the time of the stop stock price
-   For stock stop transactions, the trade report must include both the execution time and the time that the stop stock transaction was agreed to. The only exception is when the execution occurs within ten seconds of the stop stock price. In that case only the execution time is required on the trade report.
+   For stock stop transactions, the trade report must include both the execution time and the time that the stop stock transaction was agreed to.
+   The only exception is when the execution occurs within ten seconds of the stop stock price.
+   In that case only the execution time is required on the trade report.
 
 * within 10 seconds of execution.
-   The TRF provides a mechanism for reporting trades. Trades executed during normal market hours must be reported within 10 seconds of execution.
+   The TRF provides a mechanism for reporting trades.
+   Trades executed during normal market hours must be reported within 10 seconds of execution.
 
 * by Monday at 8:15 am
-   Trades executed on non-business days, such as weekends and holidays, must be reported on an "as/of" basis by 8:15 am the next business day following execution. FINRA facilities are not open on Saturdays, Sundays or holidays to accept trade reports.
+   Trades executed on non-business days, such as weekends and holidays, must be reported on an "as/of" basis by 8:15 am the next business day following execution.
+   FINRA facilities are not open on Saturdays, Sundays or holidays to accept trade reports.
 
 * Participants are bound to honor and settle the trade
    Participants have an obligation to honor locked-in trades and their terms on the scheduled settlement date.
@@ -192,34 +201,43 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
    Individual executions of orders in a security at the same price may not be aggregated into a single transaction report for reporting purposes.
 
 * Investor protection and public interest
-   FINRA will grant an exemption to trade reporting only if four conditions are met, and also if the exemption is consistent with investor protection and the public interest. In such circumstances the "executing party" to the trade (typically the seller) is required to report the trade.
+   FINRA will grant an exemption to trade reporting only if four conditions are met, and also if the exemption is consistent with investor protection and the public interest.
+   In such circumstances the "executing party" to the trade (typically the seller) is required to report the trade.
 
 * Dark pool
-   A dark pool is an ATS in which quotes and orders are concealed. Most orders are placed directly between large institutions.
+   A dark pool is an ATS in which quotes and orders are concealed.
+   Most orders are placed directly between large institutions.
 
 * Only if execution is after 8:00 a.m.
-   A pre-opening trade made before 8:00 a.m. must be reported by 8:15 a.m. EST. A pre-opening trade made after 8:00 EST must be reported within 10 seconds or else it is late.
+   A pre-opening trade made before 8:00 a.m. must be reported by 8:15 a.m. EST.
+   A pre-opening trade made after 8:00 EST must be reported within 10 seconds or else it is late.
 
 * CAT
-   The Consolidated Audit Trail (CAT) replaced the old systems of the Order Audit Trail System (OATS) and the CBOE's Consolidated Options Audit Trail System (COATS), to provide an accurate, time-sequences record of orders, quotes and transactions. It allows regulators to recreate events in the life cycle of trades to review handling, execution and reporting.
+   The Consolidated Audit Trail (CAT) replaced the old systems of the Order Audit Trail System (OATS) and the CBOE's Consolidated Options Audit Trail System (COATS),
+   to provide an accurate, time-sequences record of orders, quotes and transactions.
+   It allows regulators to recreate events in the life cycle of trades to review handling, execution and reporting.
 
 * Introducing broker-dealer
    An introducing broker-dealer contracts with a clearing firm to handle execution and settlement of its orders.
 
-* BD B
+* BD
    In trades between broker-dealers and customers in ADF securities, the trade report is submitted to the ADF by the broker-dealer.
 
 * By 6:30 p.m. on the same day
-   For trades executed between 9:30 a.m. and 4:00 p.m. EST and cancelled after 4:00 p.m. but before 6:30 p.m. on the day of execution, the member must use its best efforts to report cancellation not later than 6:30 p.m. that day. Otherwise, the trade must be reported by 6:30 p.m. the next day.
+   For trades executed between 9:30 a.m. and 4:00 p.m. EST and cancelled after 4:00 p.m.
+   but before 6:30 p.m. on the day of execution, the member must use its best efforts to report cancellation not later than 8:00 p.m.
+   that day. Otherwise, the trade must be reported by 8:15 a.m. the next day.
 
 * ATS
    The MPID identifies not only the member but also the ATS on which it is trading, if the member is operating multiple ATSs.
 
 * On Form T
-   Form T is used to submit last sale reports of over-the-counter (OTC) transactions in equity securities for which electronic submission is not possible. For example, a Form T submission may not be possible if the ticker symbol for the security is no longer available.
+   Form T is used to submit last sale reports of over-the-counter (OTC) transactions in equity securities for which electronic submission is not possible.
+   For example, a Form T submission may not be possible if the ticker symbol for the security is no longer available.
 
 * Only if the trade is after 6:30 p.m. EST
-   The last sale report for trades in ADF-eligible securities executed after 6:30 p.m. must be reported the following business day (T+1) by 8:15 a.m. EST. Trades that occur after market hours but
+   The last sale report for trades in ADF-eligible securities executed after 6:30 p.m. must be reported the following business day (T+1) by 8:15 a.m. EST.
+   Trades that occur after market hours but
 
 
 * $15.20
@@ -250,7 +268,9 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
     FINRA wants all participants in a riskless principal transaction to be identified. If the other participant is not identified in the initial tape report, the member must submit a non-tape report identifying the member. A non-tape report will ensure the trading volume is not double counted.
 
 * $15.05
-    When reporting principal transactions, any mark-down is excluded from the trade report. Therefore, the reported price of $15.20 does not include the $0.15 fee Jane pays the broker dealer for executing the transaction. Net of fees Jane will receive proceeds of $15.05 per share.
+    When reporting principal transactions, any mark-down is excluded from the trade report.
+    Therefore, the reported price of $15.20 does not include the $0.15 fee Jane pays the broker dealer for executing the transaction.
+    Net of fees Jane will receive proceeds of $15.05 per share.
 
 * 8:15:00 a.m. EST the same day
     Last sale reports of trades in ADF-eligible securities executed between midnight and 8:00 a.m. EST must be reported by 8:15 a.m. EST on trade date.
@@ -399,3 +419,68 @@ This means trades executed between 8:00 pm and midnight must be designated as "a
 
 * Off-exchange trades in listed securities
     TRF (Trade Reporting Facility) provides a mechanism for reporting trades but is not used for trade executions. It is used for off-exchange trades in listed securities. 
+
+
+
+Certainly, I can group the similar topics and summarize the key points without eliminating any important information. Here's a grouped summary of the key points from the provided answers:
+
+**Trade Reporting Timeframes:**
+- Trades executed during normal market hours must be reported within 10 seconds of execution.
+- Trades executed before 8:00 a.m. must be reported by 8:15 a.m. EST.
+- Trades executed on non-business days must be reported by 8:15 a.m. the next business day.
+- Trades executed after market hours but before 8:00 p.m. must be reported within 10 seconds.
+
+**Modifiers for Late Reporting:**
+- If a trade report is late, it includes a .U modifier.
+- A .Z modifier indicates a trade executed during normal market hours but reported late.
+- Trades executed between 4:00:01 p.m. and 8:00 p.m. must include a .U modifier if reported late.
+
+**Principal Transactions:**
+- For principal transactions, mark-ups or mark-downs are excluded from the trade report.
+- The reported price should reflect the actual execution price without mark-ups or mark-downs.
+
+**Riskless Principal Transactions:**
+- Riskless principal transactions are treated as one transaction for trade reporting purposes.
+- Both legs of a riskless principal transaction should be reported, with a capacity indicator added if only one leg is reported.
+
+**Dark Pools:**
+- Dark pools are ATSs where quotes and orders are concealed.
+- Members wishing to publish trading volumes in a dark pool must base them on transactions reported to the trade reporting facility.
+- Published volumes in dark pools may not represent 100% of total volume due to exemptions from trade reporting.
+
+**CAT (Consolidated Audit Trail):**
+- CAT is used to track events in the life cycle of trades for regulatory oversight.
+- It replaced OATS and COATS systems to provide accurate, time-sequenced records of orders and transactions.
+
+**ATS (Alternative Trading Systems):**
+- An ATS must not permit automatic execution to qualify for an exemption.
+- ATS trade data can be exempted from published volume unless the member opts in.
+
+**Execution Time Reporting:**
+- Execution times are reported in Eastern Time in military format.
+- Time of execution should include milliseconds in some cases.
+
+**Cancellation Reporting:**
+- Cancellations should be reported promptly, either on the same day or the next business day, depending on the time of execution.
+
+**Reporting Responsibilities:**
+- The executing party typically reports the trade between member firms.
+- In dual agency transactions, only the number of shares and price are reported; commissions are not included.
+- For give-up agreements, the executing firm's MPID is used to report trades.
+
+**Trade Complexity and Consequences:**
+- The complexity of the trade can influence reporting consequences for late reporting.
+- Late reporting is defined as reporting more than 10 seconds after execution.
+
+**Other Reporting Requirements:**
+- Reporting is required for various types of trades, including step-outs, stop stock orders, and foreign equities trades.
+- Quotes and trades from quotes should use the same MPID.
+- Open orders are carried over for up to T+21 calendar days.
+
+**Regulatory Considerations:**
+- FINRA will grant exemptions to trade reporting only under specific conditions, ensuring investor protection and public interest.
+- Participants are bound to honor and settle locked-in trades on the scheduled settlement date.
+- Trade reports are marked as/of for earlier trades or reversals from previous days.
+- The Reporting Member is responsible for accurate submission of both sides of the trade.
+
+These summaries cover the key points from the provided answers without eliminating any important information. 
