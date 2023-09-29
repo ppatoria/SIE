@@ -1,0 +1,15 @@
+@startmindmap
+!include theme_mindmap.puml
+* Flipping/Penalty bid/recouping.
+** Flipping
+
+*** Definition: An investor selling shares acquired in an Initial Public Offering (IPO) within 30 days of the offering date (not the purchase date).
+*** Observation: Flipping is not illegal, but it is generally discouraged as it can destabilize the price of the newly issued securities in the short term.
+** Penalty Bid
+
+*** Definition: A mechanism that allows the lead underwriter to reclaim a part of the selling concession (or commission) from a syndicate member if the securities initially sold by the syndicate member are quickly resold ("flipped") by the initial purchasers within a certain period, typically 30 days.
+** Recouping (Taking back the commission or credit earned from selling IPO shares)
+
+*** Allowed: If the managing underwriter has assessed (set) a penalty bid on the entire syndicate.
+*** Restricted: If the managing underwriter has not assessed (set) a penalty bid on the entire syndicate, or has only assessed a penalty bid on some brokers, not all.
+@endmindmap

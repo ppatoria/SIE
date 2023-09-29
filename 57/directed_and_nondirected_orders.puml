@@ -1,0 +1,12 @@
+@startmindmap
+!include theme_mindmap.puml
+
+* Directed and non-directed orders
+** Directed orders
+*** Investor specifies the trading venue.
+** Non-Directed orders
+*** Investor does not specify the trading venue.
+*** Broker-Dealer has discretion (freedom to decide) over choosing the best venue.
+*** broker-dealers need to disclose quarterly information about their handling of non-directed orders.
+
+@endmindmap

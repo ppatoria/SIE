@@ -1,0 +1,17 @@
+@startmindmap
+!include theme_mindmap.puml
+
+* Types of halts
+** Regulatory Halt
+*** Significant news about a company that has not been disseminated.
+*** Regulatory concern about a stock.
+** Circuit Break Halt
+*** Severe interday decline in S&P 500 index.
+** Volatility Trading Pause or Halt
+*** Stock moves beyond "pre-determined price movement thresholds".
+** Technical Halt
+*** Technical glitch or problem with trading system or exchange.
+** Imbalance Order
+*** This is only applicable to NYSE as NASDAQ handles it in a different way without Halts.
+
+@endmindmap

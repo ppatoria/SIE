@@ -1,0 +1,17 @@
+
+@startmindmap
+
+!include theme_mindmap.puml
+
+* Deadlines for Trade Reporting for Cancellations (irrespective of when the trade is executed)
+** Trade Cancellation During Normal Market Hours (9:30 am to 4:00 pm ET)
+*** Report within 10 seconds
+** Trade Cancellation Outside Market Hours
+*** If Cancellation Occurs Before 8:00 pm ET
+**** Report by 8:00 pm ET on the same day
+*** If Cancellation Occurs Between 4:00 pm and 8:00 pm ET
+**** Best effort to report by 8:00 pm ET on the same day, otherwise report by 8:00 pm ET on the next day
+*** If Cancellation Occurs After 8:00 pm ET
+**** Report by 8:00 pm ET on the next business day
+
+@endmindmap

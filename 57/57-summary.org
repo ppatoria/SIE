@@ -1,8 +1,27 @@
+
 #+TITLE: Series 57 Summary
-#+AUTHOR: Pralay
+#+
+AUTHOR: Pralay
 #+DATE: 2023-06-17
 
 #+TOC: headlines 
+
+* Directed and non-directed orders
+
+[[./directed_and_nondirected_orders.png]]
+
+* Market Trading Hours (NASDAQ)
+
+[[./market_trading_hours.png]]
+
+* Excused Withdrawal
+
+[[./excused_withdrawal.png]]
+
+
+* Trade Reporting
+** Cancellation Deadlines
+[[./cancellation_deadlines.png]]
 
 * Market Participants
 ** Broker Dealer
@@ -145,6 +164,11 @@ which means that the broker-dealer should not outsource the control.
 This means that the broker-dealer should not delegate the responsibility of risk control to a third party.
 
 * Trading Halts
+
+** Types of halts and delays.
+
+[[./types_of_halts.png]]
+
 
 [[./TradingHalts.png]]
 
@@ -1865,7 +1889,10 @@ I hope this explanation is more clear. Let me know if you have any other questio
 [[./QuidProQuo.png]]
 
 
-* Flipping
+* Flipping/Penelty Bid/Recouping
+
+[[./flipping_penaltybid_recouping.png]]
+
 
 [[./flipping.png]]
 
@@ -2165,7 +2192,7 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 [[./PriceImprovement.png]]
 
 
-** Pricing Obligations for new Quotes:
+** Pricing Obligations or Designated percentage rules for Quotes:
 
 [[./PricingObligationForNewQuotes.png]]
 

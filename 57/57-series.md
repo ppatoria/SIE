@@ -12599,7 +12599,7 @@ Significant Venues
 ```
 ```
 Total Non-
-Directed
+Direct   ed
 Orders
 ```
 ```
@@ -12626,7 +12626,6 @@ Other Orders
     8. Nasdaq OMX PHLX, Inc. (XPHL) 3.00% 4.00% 2.00% 3.20%
 9. CDRO 1.00% 1.00% 1.00% 1.00%
 10. IEX 0.50% 0.50% 0.50% 0.50%
-
 
 Chapter 7
 Equity Markets

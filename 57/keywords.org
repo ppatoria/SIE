@@ -1,0 +1,165 @@
+#+title: Keywords
+* trade reporting obligations
+* Alternative Trading System
+* restructuring
+* designated percentage rule
+* designated percentage increase
+* The broker-dealer cancellation report rule
+* anti-flipping rule
+* recouping a concession
+* penalty bid
+* Market centers
+* clearly erroneous
+* Types of halts
+* Risk management controls
+* disreputable penny stock promoter
+* pump a penny stock
+ Please only and only refer the book for the answer and also please point the section in the book which you have refereed to answer this question.
+ Above is the one of the chapter (1) from the book for finra 57 series examination. Please only and only refer the book for the answer that I will ask and also please point the section in the book which you have refereed to answer this question.
+
+
+* Insider Trading
+** non-public information
+
+
+
+
+5.3 Cancelled Trades
+Occasionally, member firms will enter into a transaction that must be cancelled,
+post-execution. When a trade is cancelled, the firm responsible for submitting
+the trade report is also required to submit the cancellation report.
+Chapter 5
+Trade Reporting
+5.3.1 Timing for Reporting Cancelled Trades
+The timing for reporting cancelled trades can get somewhat complex. It depends
+on three factors:
+1. Whether the trade was executed during normal market hours or outside
+normal market hours
+2. Whether the trade was cancelled during normal market hours
+3. Whether the trade was cancelled on the trade date or after the trade date
+5.3.1.1 Trades Executed During Normal Market Hours
+For trades executed during normal market hours and also cancelled during normal
+market hours on the same day, the cancellation must be reported within 10 seconds.
+Example
+A trade is executed at 3:00 pm and then cancelled 15 minutes later, at 3:15 pm.
+The cancellation must be reported by 3:15:10 pm.
+If a trade is cancelled on the trade date between 4:00 pm–8:00 pm (i.e., after
+market hours), best efforts must be made to report the cancellation by 8:00 pm
+that day. Otherwise, it must be reported by 8:00 pm on the following day (T + 1).
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 4:15 pm on
+Monday. The firm must make best efforts to report the cancellation by 8:00
+pm on Monday. If it cannot, it must report the cancellation no later than 8:00
+pm on Tuesday.
+Finally, if a trade during normal market hours is cancelled on the trade date after
+8:00 pm, the cancellation must be reported by 8:00 pm on the next business day
+(T + 1).
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 9:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Tuesday.
+5.3.1.2 Trades Executed Outside Normal Market Hours
+For trades executed outside the normal market hours of 9:30 am–4:00 pm and
+cancelled prior to 8:00 pm on the trade date, the cancellation must be reported
+by 8:00 pm.
+183Chapter 5
+Trade Reporting
+Example
+A trade is executed at 7:00 pm on Monday and then cancelled at 7:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Monday.
+If a trade executed outside normal market hours is cancelled at or after 8:00
+pm on the trade date, the cancellation must be reported by 8:00 pm on the next
+business day.
+Example
+A trade is executed at 7:00 pm on Monday and then cancelled at 9:15 pm on
+Monday. The firm must report the cancellation by 8:00 pm on Tuesday.
+5.3.1.3 Trades Cancelled After the Trade Date
+Trades that are cancelled after the trade date are said to be reversed, rather than
+cancelled. For a trade cancelled on any date after the execution date but before
+8:00 pm, the cancellation must be reported on the cancellation date by 8:00 pm.
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 2:00 pm on
+Tuesday. The firm must report the cancellation by 8:00 pm on Tuesday.
+For a trade cancelled on any date after the execution date and after 8:00 pm, the
+cancellation must be reported by 8:00 pm on the business day after cancellation.
+Example
+A trade is executed at 3:00 pm on Monday and then cancelled at 9:00 pm on
+Tuesday. The firm must report the cancellation by 8:00 pm on Wednesday.
+5.3.1.4 Summary of Cancellation Deadlines
+The table below summarizes the rules for cancelling trades:
+Execution Time
+Cancellation Time
+Report of Cancellation Due
+Trades cancelled on trade date
+Normal market hours
+Outside normal market hours
+Same day, during normal
+market hoursWithin 10 seconds
+Same day, 4:00 pm–8:00 pmBest efforts by 8:00 pm;
+otherwise T + 1 before 8:00 pm
+Same day, after 8:00 pmT + 1 before 8:00 pm
+Same day, before 8:00 pmSame day, before 8:00 pm
+Same day, after 8:00 pmT + 1 before 8:00 pm
+Trades cancelled after trade date
+Any time
+184
+After trade date, before 8:00 pmCancellation date, before 8:00 pm
+After trade date, after 8:00 pmCancellation date + 1, before
+8:00 pmKnopman Note: Candidates should learn the rules for trade cancellations,
+as they are likely to be tested.
+Chapter 5
+Trade Reporting
+5.3.1.5 Definition of Cancellation Time
+The time of cancellation is the earlier of:
+◆ The firm responsible for cancellation informs the contraparty that
+the trade is being cancelled, or receives the same notice from the
+contraparty
+◆ Both counterparties agree to cancel the trade, or
+◆ The member with reporting responsibility cancels the trade on its books
+and records
+
+
+* Deadlines for Trade Reporting for cancellations. \n(This is irrespective of when the trade is executed)
+** Normal Market hour or Regular market hours (9:30 am - 4:00 pm )
+*** 10s
+** Outside Market hour
+*** Before 8:00 pm
+** Between 4:00 pm and 8:00 pm
+*** Either before 8:00 pm same day to before 8:00 pm next day.
+** After 8:00 pm EST
+*** Before 8:00 pm next day
+
+5.3.1.4 Summary of Cancellation Deadlines
+The table below summarizes the rules for cancelling trades:
+Execution Time
+Cancellation Time
+Report of Cancellation Due
+Trades cancelled on trade date
+Normal market hours
+Outside normal market hours
+Same day, during normal
+market hoursWithin 10 seconds
+Same day, 4:00 pm–8:00 pmBest efforts by 8:00 pm;
+otherwise T + 1 before 8:00 pm
+Same day, after 8:00 pmT + 1 before 8:00 pm
+Same day, before 8:00 pmSame day, before 8:00 pm
+Same day, after 8:00 pmT + 1 before 8:00 pm
+Trades cancelled after trade date
+Any time
+184
+After trade date, before 8:00 pmCancellation date, before 8:00 pm
+After trade date, after 8:00 pmCancellation date + 1, before
+8:00 pm
+
+
+* Types of halts
+** Regulatory Halt
+*** Significant news about a company that has not been disseminated.
+*** Regulatory concern about a stock.
+** Circuit Break Halt
+*** Severe interday decline in S&P 500 index.
+** Volatility Trading Pause or Halt
+*** Stock moves beyond "pre-determined price movement thresholds".
+** Technical Halt
+*** Technical glitch or problem with trading system or exchange.
+** Imbalance Order
+*** This is only applicable to NYSE as NASDAQ handles it in a different way without Halts.
