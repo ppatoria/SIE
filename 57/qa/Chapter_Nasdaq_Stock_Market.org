@@ -1,0 +1,1349 @@
+#+title: Chapter 1: Nasdaq Stock Market
+
+1) For purposes of pricing obligations, the Designated Percentage
+during most of a trading day for an S&P 500 or Russell 1000 index
+stocks is
+**** [] 4%
+**** [] 6%
+**** [*] 8%
+**** [] 10%
+* * Question ID: 2206
+2) The Nasdaq halt cross process aims to reopen trading after a halt at a
+price that
+**** [] reflects market supply and demand.
+**** [] creates incentives for placing new orders
+**** [] avoids profiteering.
+**** [*] represents fair market value.
+* * Question ID: 2939
+3) What must a broker-dealer do to operate as a Nasdaq market maker
+and use Nasdaq trading systems and services?
+**** [] Send a notice to FINRA
+**** [] Register with Nasdaq
+**** [*] Terminate FINRA membership
+**** [] Register with the SEC
+* * Question ID: 2743
+4) Broker-dealer B receives a customer order to buy 100 shares of ABC.
+BD B buys 100 shares of ABC from the market at $60 and then resells
+the shares to its customer at $60 plus commission. This is an
+example of what type of trade?
+**** [] VWAP
+**** [] Risk Arbitrage
+**** [*] Riskless Principal
+**** [] Net Basis
+* * Question ID: 2123
+5) Which Nasdaq Market Makers are eligible for excused withdrawal
+requests based on vacation?
+**** [] Only those with five or fewer market makers
+**** [] Only those with a single market maker
+**** [*] All market makers
+**** [] Only those with three or fewer market makers
+1 of 101
+* * Question ID: 3222
+6) The automatic time-stamping of Nasdaq System Orders is important
+because it determines
+**** [*] Time ranking
+**** [] Trading time zone
+**** [] Trade routing
+**** [] Short sale period
+* * Question ID: 36520
+7) A firm makes a market in 80 stocks, of which half are priced at $5 or
+below and half are priced above $5. What is the firm's minimum net
+capital requirement?
+**** [] $100,000
+**** [] $125,000
+**** [] $140,000
+**** [*] $1,000,000
+* * Question ID: 3305
+8) At a time when a protected bid is higher than a protected offer in an
+NMS stock, a market maker enters into a bid at the same price as the
+protected bid. Is this prohibited as a locking or crossing quote?
+**** [] Not if the market maker receives an exemption against the general rule
+**** [*] No, because it is an exception to the general rule against locking or crossing quotes
+**** [] Yes, because the bid is not protected
+**** [] Yes, because only one such bid is allowed at a time
+* * Question ID: 1923
+9) Which of the following orders could not be placed in the Nasdaq
+system?
+**** [] "Sell 105.5 shares @ 32.50"
+**** [*] "Buy 622,000 shares @ .18"
+**** [] "Sell 72 shares at 103.55"
+**** [] "Buy 350 shares at 22.75"
+
+* * Question ID: 2147
+10) An order placed on the Nasdaq Stock Market for less than a normal
+unit of trading is
+**** [*] An odd-lot
+**** [] Automatically cancelled
+**** [] A mixed-lot
+**** [] A partial lot
+* * Question ID: 1951
+11) A market maker must fulfill the two-sided quote obligation by
+offering both bid and ask quotes of at least
+**** [] 10 shares
+**** [] 100 shares
+**** [] 200 shares
+**** [] There is no specified number of shares
+* * Question ID: 2366
+12) FINRA's Alternative Display Facility (ADF) does all of the following
+except
+**** [] Execute trade comparisons
+**** [] Deliver real-time data for compliance and enforcement
+**** [] Provide order routing and execution
+**** [] Report transactions in NMS securities
+* * Question ID: 3250
+13) For OTC market makers, excused withdrawals related to systematic
+equipment problems usually are granted for
+**** [] up to two weeks.
+**** [] up to seven business days.
+**** [] up to three business days.
+**** [] up to five business days.
+* * Question ID: 2745
+14) When is a market maker's obligation to meet pricing obligations
+suspended?
+**** [] When the member has announced a qualified block trade
+**** [] Never
+**** [] During trading halts, suspensions or pauses
+**** [] During the last 30 minutes of each trading day
+
+* * Question ID: 1952
+15) Market makers are expected to buy a normal trading unit of the
+quoted stock at their current quote. That unit usually is
+**** [] 10 shares
+**** [] 100 shares
+**** [] 500 shares
+**** [] 1,000 shares
+* * Question ID: 2610
+16) Trader E previously placed a System Order to sell 1,000 shares of
+ABC stock. Now, he modifies the order by reducing the size to be
+sold to 500 shares. How does this affect priority of the order?
+**** [] It is not affected
+**** [] All orders must be given priority over this order
+**** [] Smaller orders must be given priority over this order
+**** [] Larger orders must be given priority over this order
+* * Question ID: 2063
+17) To request more than one Market Participation Identifier (MPID), a
+FINRA member must identify
+**** [] A foreign subsidiary.
+**** [] separate trading symbols to be used for each MPID.
+**** [] a bona fide business or regulatory purpose.
+**** [] separate and distinct trading desks.
+* * Question ID: 2831
+18) If an ADF Trading Center requests a withdrawal based on a religious
+holiday, the request must be received by FINRA how far in advance?
+**** [] Two weeks
+**** [] One day
+**** [] Three days
+**** [] Five days
+* * Question ID: 2775
+19) Can FINRA membership be terminated when a market maker
+registers with Nasdaq?
+**** [] Only if the firm provides at least 30 days' notice
+**** [] Only with explicit SEC approval
+**** [] Only if the firm is registered with at least one other SRO
+**** [] Not in any case
+
+* * Question ID: 2637
+20) KKF Securities, a FINRA registered market maker, is displaying a
+quote in a Nasdaq listed security of 7-8 4x5. A customer of the firm
+contacts his registered rep and asks to have the quote explained to
+him. Which of the following is the best explanation?
+**** [] KKF is willing to sell 400 shares at $8
+**** [] KKF is willing to buy 700 shares at $4
+**** [] KKF is willing to buy 400 shares at $7 per share
+**** [] KKF is willing to sell 700 shares at $5
+* * Question ID: 2801
+21) By definition, a dealer becomes a market-maker by holding himself
+out as willing to buy or sell securities for his own account
+**** [] on a regular and continuous basis.
+**** [] at either a profit or loss.
+**** [] at competitive prices.
+**** [] on a high-volume basis.
+* * Question ID: 1869
+22) A block positioner must meet a minimum net capital requirement of
+**** [] $100,000
+**** [] $500,000
+**** [] $1,000,000
+**** [] $3,000,000
+* * Question ID: 2088
+23) When a market maker has not executed a trade, what action will
+require the market maker to refresh a quote on a stock?
+**** [] Lack of trading interest among investors
+**** [] A lack of competing quotes
+**** [] A trading halt
+**** [] A big change in the NBBO
+* * Question ID: 2646
+24) A market maker seeking to purchase shares of ABC at the open at 50
+or better should place a(n)
+**** [] Marketable limit order
+**** [] Limit on Open order
+**** [] Open Limit order
+**** [] Market order
+
+* * Question ID: 2030
+25) Under the Nasdaq rule on firm quotes, what is the highest
+percentage that may be used for the pricing obligation of a Tier 1
+security, during the last 25 minutes of the trading day?
+**** [] 8%
+**** [] 10%
+**** [] 12%
+**** [] 20%
+* * Question ID: 2230
+26) Market maker A has two MPIDs, a primary and an alternate. If
+effecting a trade using their alternate MPID,
+**** [] The trade report must contain the alternate MPID only
+**** [] MM A can decide which MPID they would prefer to use for the trade
+report
+**** [] Both MPIDs must be supplied in the trade report
+**** [] The trade report should be posted showing the alternate MPID as
+the "executing" ID and the primary MPID as the "official" ID
+* * Question ID: 33780
+27) The inside market for an OTC stock is 12.14  12.19 25 X 11. If an
+order to buy 600 shares at 12.20 is entered and executed, what will
+the quote be immediately after execution?
+**** [] 12.14  12.20; 25 x 11
+**** [] 12.14  12.19; 25 x 5
+**** [] 12.14  12.20; 19 x 5
+**** [] 12.14  12.19; 19 x 11
+* * Question ID: 2390
+28) Who has the burden for proving that an ADF Trading Center's
+system outage is excused?
+**** [] FINRA
+**** [] An arbitration panel
+**** [] The Trading Center
+**** [] The counterparty
+6 o
+* * Question ID: 2949
+29) A firm that has the responsibility to monitor securities for the
+purpose of preventing unauthorized issuance is a(n)
+**** [] registrar and transfer agent
+**** [] exchange
+**** [] bank and clearing agent
+**** [] regulator
+* * Question ID: 2792
+30) A mutual fund that holds Nasdaq-traded securities calculates its
+NAV based on which official published Price?
+**** [] OCAM
+**** [] NOCP
+**** [] ACPL
+**** [] NCPL
+* * Question ID: 2443
+31) DZ Securities is a FINRA member firm and registered market maker.
+In its capacity as such, DZ may do each of the following except
+**** [] Hold itself out as willing to buy or sell a particular security at publicly
+quoted prices
+**** [] Operate a physical marketplace where securities may be bought
+and sold
+**** [] Trade for its own proprietary account
+**** [] Trade for the accounts of its customer
+* * Question ID: 2597
+32) To be granted by Nasdaq, market maker withdrawal requests based
+on legal or regulatory requirement must be supported by a
+statement that the problem
+**** [] involves a violation of federal securities law.
+**** [] is not permanent in nature.
+**** [] is being appropriately addressed by qualified legal counsel.
+**** [] is severe and mission-critical.
+
+* * Question ID: 1889
+33) A customer submits a limit-on-close (LOC) order to sell shares of
+ABC stock at $28.42. If the closing cross price is $28.40. What price
+will he receive?
+**** [] $28.40
+**** [] $28.41
+**** [] $28.42
+**** [] The trade will not execute
+* * Question ID: 37925
+34) Under the designated percentage rule, new quotes for Tier 1
+securities must be entered within 8% of the NBBO, except during
+certain market hours. At what time, prior to the market close, does
+the designated percentage increase and by how much does it
+increase?
+**** [] At 3:25 p.m., to 12%
+**** [] At 3:35 p.m., to 20%
+**** [] At 3:45 p.m., to 15%
+**** [] At 3:55 p.m., to 22%
+* * Question ID: 36474
+35) A customer sees that the inside quote for DEF stock is 27.45 x 4,000
+27.46 x 10,000. If the customer then enters an order to sell 100
+shares at 27.46, when will the customer's order be filled?
+**** [] Immediately
+**** [] After 4,000 shares are executed at the limit price or better
+**** [] After 10,000 shares are executed at the limit price or better
+**** [] As soon as another investor or market-maker is willing to pay the
+limit price or better
+* * Question ID: 2271
+36) How does a dealer hold himself out as willing to buy or sell
+securities?
+**** [] By entering quotes
+**** [] By public declaration
+**** [] By registering with the SEC
+**** [] By trading at or above an assigned volume threshold
+
+* * Question ID: 3105
+37) What is the Designated Percentage?
+**** [] The percentage that all fees, mark-ups, mark-downs, and
+commissions quotes must be away from the NBBO.
+**** [] The percentage that existing quotes can be away from the NBBO
+without requiring adjustment
+**** [] The maximum percentage that all new quotes may be away from
+the NBBO.
+**** [] The percentage of trading that a firm can conduct in its propriety
+accounts as compared to its customer limit orders.
+* * Question ID: 36471
+38) A market maker displays a two-sided quote of $27.14 x 300 - $27.23 x
+100 on ABC stock, which is currently the only quote available on this
+thinly traded stock. If a customer enters an order to buy 245 shares
+of the stock at $27.23, how many shares is the market maker obliged
+to sell?
+**** [] Zero shares
+**** [] 100 shares
+**** [] 245 shares
+**** [] 300 shares
+* * Question ID: 2962
+39) Market Maker C displays a manual quote in the ADF, so that it locks
+a previously disseminated quote. Unless the quote is promptly
+withdrawn the market maker must
+**** [] Reverse the trade within 30 minutes
+**** [] Route an intermarket sweep order
+**** [] Request an exemption from FINRA
+**** [] Cease trading for the rest of the day
+* * Question ID: 2937
+40) After each trade execution a market maker must take what action in
+order to maintain a continuous two-sided market?
+**** [] Refresh the quote
+**** [] Rebalance the quote
+**** [] Reduce the quote size to 100 shares on each side
+**** [] Update the quote to reflect the most competitive price available
+
+* * Question ID: 2744
+41) The electronic system through which Nasdaq measures and
+declares the unpaired shares is called
+**** [] Net Order Imbalance Indicator (NOII)
+**** [] Electronic Trade Order System (ETOS)
+**** [] Share Cross Automated System (SCAS)
+**** [] Trade Order Balance Processor (TOBP)
+* * Question ID: 2964
+42) Nasdaq Level 3 service is used by
+**** [] Pattern day traders
+**** [] Institutional investors
+**** [] Market Makers
+**** [] Retail investors
+* * Question ID: 36469
+43) When is a market maker allowed to withdraw one side of a firm twosided quote entered into the Nasdaq system?
+**** [] At no time
+**** [] When the quote is entered using a supplemental MPID
+**** [] When the quote is entered using a primary MPID
+**** [] At any time
+* * Question ID: 2538
+44) A market maker is not required to honor its currently quoted price
+**** [] If it plans to publish a revised quote in one hour
+**** [] When it receives an order two minutes after it revises its quote
+**** [] If the market maker receives an order that it places in its order book
+**** [] If the market maker was in the process of effecting a trade and will
+be revising its quote
+* * Question ID: 2929
+45) What name is given to a Nasdaq process for determining the price at
+which trades will execute, when a security is re-opened?
+**** [] Reopening
+**** [] Net order cross
+**** [] Rebalancing
+**** [] Halt cross
+1
+* * Question ID: 2297
+46) When a broker dealer acts on an agency basis to help a customer
+complete trades, the firm normally is compensated through
+**** [] Mark-ups
+**** [] Commissions
+**** [] Transaction surcharges
+**** [] Asset-based fees
+* * Question ID: 2565
+47) For purposes of a market maker's quote, what does a "Defined
+Limit" do?
+**** [] Alert regulators that the quote is non-conforming
+**** [] Indicate when quotes must be refreshed
+**** [] Indicate when quotes must be withdrawn
+**** [] Halt all trading activity for the rest of the day
+* * Question ID: 2135
+48) All of the following are true regarding a Nasdaq market maker's
+application for an excused withdrawal except
+**** [] An application based on legal reasons may be granted for up to 60
+days.
+**** [] An application based on a religious holiday must include the names
+in which the firm is seeking a withdrawal from.
+**** [] An application based on a vacation must include the names in
+which the firm is seeking a withdrawal from.
+**** [] An application based on a system outage must be submitted to
+Nasdaq Market Operations
+* * Question ID: 37928
+49) A market maker is displaying a firm two-sided quote on XYZ stock at
+2:00 pm EST. At what time during the trading day does the obligation
+to display the firm quote end?
+**** [] 2:45 pm
+**** [] 3:55 pm
+**** [] 4:00 pm
+**** [] 8:00 pm
+1
+* * Question ID: 18851
+50) What are two key functions of a market maker?
+**** [] determining profit and loss
+**** [] providing liquidity and price transparency
+**** [] setting the open and close
+**** [] establishing exchanges and alternative trading systems
+* * Question ID: 26089
+51) A Nasdaq market maker decides to begin offering quotes on ABC
+Co. stock. The market maker has never quoted this stock previously.
+If the ABC offers the market maker a $5,000 gift for providing quotes,
+the market maker should
+**** [] refuse the gift and stop quoting the stock.
+**** [] accept the gift and stop quoting the stock.
+**** [] refuse the gift but continue quoting the stock.
+**** [] accept the gift and continue quoting the stock.
+* * Question ID: 1868
+52) A Qualified Block Positioner is a broker-dealer who executes orders
+with a current market value of
+**** [] $100,000
+**** [] $500,000
+**** [] $200,000
+**** [] $250,000
+* * Question ID: 2685
+53) An entity that buys and sells securities for its own account on a
+regular and continuous basis at a quoted price and for a minimum
+size is defined as a(n)
+**** [] Market maker
+**** [] Market center
+**** [] Agency trader
+**** [] Block positioner
+* * Question ID: 1864
+54) The NBBO on ABC, an S&P 500 stock, is 10.00 - 10.10. MDS is a
+market maker and wants to enter a new bid on the stock at 3:55 p.m.
+What is the lowest bid MDS could enter?
+**** [] $1.00
+**** [] $7.00
+**** [] $8.00
+**** [] $9.20
+1
+* * Question ID: 1959
+55) Market Maker G bids $47.50 to buy 800 shares of XYZ Co. If G
+receives an offer from a dealer to sell 600 shares at the market, how
+many must it buy from the dealer at that price?
+**** [] 100
+**** [] 300
+**** [] 600
+**** [] 800
+* * Question ID: 1902
+56) At 3:10 p.m., Trader H enters an IO limit order to buy at $45.63. At
+what price will it execute?
+**** [] $45.63
+**** [] $45.64
+**** [] At or below the 4 p.m. bid price
+**** [] At or above the 4 p.m. ask price
+* * Question ID: 2031
+57) A market maker's quote must be refreshed when it is more than
+**** [] 8% away from the last NBBO.
+**** [] 12% away from the last NBBO.
+**** [] one standard trading interval away from the last NBBO.
+**** [] a Defined Limit away from the last NBBO.
+* * Question ID: 2406
+58) The Designated Percentages establish what pricing obligation limits
+on a market maker's quotes?
+**** [] Floor on bids, ceiling on asks
+**** [] Floor on bids, no limit on asks
+**** [] Guidance but no hard-and-fast limits
+**** [] Ceiling on asks, no limit on bids
+* * Question ID: 37926
+59) The NBBO for a Tier 1 stock is 20.24 - 20.28. Under the designated
+percentage rule, what is the lowest new quote that a market maker
+can enter to buy the stock five minutes after the market opens?
+**** [] $16.19
+**** [] $16.22
+**** [] $18.62
+**** [] $18.65
+1
+* * Question ID: 34896
+60) A market making firm files to begin quoting an additional stock that
+is has not previously quoted. How long after the filing becomes
+effective may the market maker delay before starting bona fide
+quotes in the additional name?
+**** [] 24 hours
+**** [] Three business days
+**** [] Five business days
+**** [] Up to 30 days, depending on liquidity in the additional name
+* * Question ID: 2891
+61) Broker A is an ADF Trading Center that has received an order via
+direct access from another broker-dealer. Broker A must report to
+FINRA five additional items of information about the order if it acts
+on or responds to the order. They include all of the following except
+**** [] Quantity
+**** [] Order Response
+**** [] Commission
+**** [] Price
+* * Question ID: 2043
+62) Which of the following firms is a market maker, by definition?
+**** [] A registered rep who deals in only one issue
+**** [] A broker-dealer that meets size and volume criteria
+**** [] A specialist permitted to act as a dealer
+**** [] A supervisory analyst
+* * Question ID: 2817
+63) For a quote on an OTC equity that is subsequently reported to a
+FINRA system as a trade how many different MPIDs may be used at
+maximum?
+**** [] One
+**** [] Three
+**** [] There is no limit
+**** [] Two
+1
+* * Question ID: 3293
+64) Broker-dealer C has been approved as a Nasdaq market maker. It
+must begin to enter quotes
+**** [] As soon as its NASDAQ terminal is properly connected
+**** [] Within five business days of application approval
+**** [] Upon notification by FINRA
+**** [] Within one business day of application approval
+* * Question ID: 3021
+65) How does an ADF Participant obtain FINRA's approval to use a
+second MPID?
+**** [] The second MPID is automatically assigned
+**** [] Meet trade reporting requirements for six months
+**** [] Be nominated by a FINRA director
+**** [] Submit a written request to FINRA
+* * Question ID: 2259
+66) When a broker-dealer maintains a firm market in a stock, that brokerdealer is committed to
+**** [] buying or selling the normal trading unit of that stock at the quoted
+price
+**** [] working out the amount of the markup or commission on each OTC
+transaction
+**** [] buying back any security it sells
+**** [] maintaining a continuous subject market
+* * Question ID: 3287
+67) A market maker can initiate market making activities in additional
+securities with the appropriate application to NASDAQ. Quoting may
+begin
+**** [] When authorized by FINRA
+**** [] Within 24 hours
+**** [] That same day
+**** [] Within 48 hours
+* * Question ID: 2849
+68) When do Imbalance Only (IO) orders execute?
+**** [] Only in the after-market
+**** [] Only in the pre-market
+**** [] Only at the opening and closing cross
+**** [] At any time during the trading day
+1
+* * Question ID: 3249
+69) When Nasdaq grants excused status for legal or regulatory
+problems, it is usually for a period of
+**** [] up to 60 days
+**** [] up to five days
+**** [] up to two weeks
+**** [] up to 120 days
+* * Question ID: 3034
+70) Which Nasdaq event occurs at 3:55 p.m. daily?
+**** [] The 30-second pre-close trading halt
+**** [] Termination of Market-on-close (MOC) quotes
+**** [] Cancellation of open day limit orders
+**** [] Dissemination of the Net Order Imbalance Indicator
+* * Question ID: 2199
+71) Any quotes entered by a market maker or broker-dealer must
+represent prices
+**** [] at which a prudent person would be willing to buy or sell.
+**** [] at which the market maker or broker-dealer is willing to buy or sell.
+**** [] that are not more than 10% away from the NBBO.
+**** [] that are competitive with the current market.
+* * Question ID: 34898
+72) A broker-dealer believes a market maker has failed to honor a bona
+fide quote. What action can the broker-dealer take to remedy this
+situation?
+**** [] Declare self-help
+**** [] File a reneging complaint with regulators
+**** [] Re-enter the trade as a market-on-close order
+**** [] File a backing away complaint with regulators
+* * Question ID: 26090
+73) A customer enters an order to sell 457 shares of a Nasdaq stock at a
+limit price of $32.09 per share. It is a day order. This is displayed as
+an order for
+**** [] four round lots and one odd lot.
+**** [] five round lots.
+**** [] four round lots.
+**** [] an odd lot.
+1
+* * Question ID: 34899
+74) A customer submits a displayed order to buy 300 shares of stock at
+$47 per share, while there already is a non-displayed order to buy
+500 shares of the same stock at the same price. Which order has
+priority?
+**** [] The non-displayed order has priority because it was entered first.
+**** [] The non-displayed order has priority because it is larger in size.
+**** [] The displayed order has priority over the non-displayed order at the
+same price.
+**** [] Both orders have the same priority.
+* * Question ID: 3289
+75) When must a qualified block positioner execute an order to buy or
+sell a block of securities?
+**** [] Within 30 minutes
+**** [] Within one hour
+**** [] Within the same trading day
+**** [] As rapidly as possible
+* * Question ID: 1932
+76) A market maker seeking an excused withdrawal from Nasdaq for
+involuntary failure to maintain a clearing arrangement can expect the
+withdrawal to be granted for up to
+**** [] 1 day
+**** [] 3 days
+**** [] 5 days
+**** [] 60 days
+* * Question ID: 3199
+77) Beginning at 3:58 p.m. ET, which closing orders can still be entered?
+**** [] Imbalance only (IO) orders
+**** [] Limit-on-close (LOC) orders
+**** [] All on-close orders
+**** [] Market-on-close (MOC) orders
+1
+* * Question ID: 3220
+78) A Nasdaq Market Maker makes a two-sided quote in four OTC
+issues. If registration is voluntarily withdrawn in one issue, what will
+happen to the other three?
+**** [] Trading is suspended
+**** [] Registration is suspended
+**** [] Trading can continue.
+**** [] Registration is terminated
+* * Question ID: 3225
+79) A firm that acts as an intermediary in making payments and
+deliveries and which provides facilities for settling securities is a
+**** [] escrow agent
+**** [] broker's broker
+**** [] transfer agent
+**** [] clearing agent
+* * Question ID: 3248
+80) A FINRA-excused withdrawal from ADF Trading Center quotes and
+orders, based on demonstrated legal or regulatory requirements, is
+granted for how long in most cases?
+**** [] Up to 30 days
+**** [] Up to 60 days
+**** [] Up to three months
+**** [] Up to 90 days
+* * Question ID: 2828
+81) Request for excused market maker withdrawal for religious holidays
+must be received by Nasdaq how far in advance?
+**** [] One business day
+**** [] Five business days
+**** [] Seven business days
+**** [] Three business days
+* * Question ID: 2294
+82) Just before the market closes Nasdaq disseminates information
+about unpaired shares on the closing book through the
+**** [] Closing Cross
+**** [] Nasdaq Official Closing Price (NOCP)
+**** [] Net Order Imbalance Indicator (NOII)
+**** [] Closing Imbalance Index Level (CIIL)
+1
+* * Question ID: 2040
+83) Market makers may not withdraw two-sided quotes unless Nasdaq
+grants
+**** [] excused status
+**** [] exempt status
+**** [] a blanket waiver
+**** [] a vacation or religious holiday
+* * Question ID: 2868
+84) What happens during the quote-only period of a Nasdaq halt cross?
+**** [] Orders may not be placed
+**** [] Orders may be freely placed and canceled
+**** [] Executions may take place
+**** [] Orders are automatically canceled
+* * Question ID: 2324
+85) Which one of the following services is not performed by the Nasdaq
+Market Center?
+**** [] Clearing
+**** [] Data feeds
+**** [] Order execution
+**** [] Trade reporting
+* * Question ID: 36470
+86) A market maker has entered a firm quote into the Nasdaq system to
+buy 400 ABC Co. shares at $19.23 and sell 200 ABC Co. shares at
+$19.35. The quote has been entered using a supplemental MPID. If
+the market maker wishes to temporarily withdraw the bid side of this
+quote in full, what action is allowed?
+**** [] This action is not allowed because quotes must be firm and twosided
+**** [] One side of the quote may be withdrawn in full, without restriction
+**** [] Both the bid and ask side of the quote must be simultaneously
+withdrawn, in full.
+**** [] One side of the quote may be withdrawn in full, but the withdrawal
+must continue for the rest of the trading day
+1
+* * Question ID: 1883
+87) The NBBO on BRT, an S&P 500 stock, is 20.00 - 20.10. MDX is a
+market maker and has an existing offer on the stock. What is the
+highest possible value for MDX's offer?
+**** [] $20.10
+**** [] $22.00
+**** [] $27.20
+**** [] $27.62
+* * Question ID: 2644
+88) Brian calls his registered rep and asks for the NBBO on shares of
+EDD common stock. The rep indicates it is $25.64-$25.69 12x4. Brian
+places a market order to buy 300 shares, and asks for an estimated
+gross cost per share, inclusive of any fees and commissions. What
+is the best estimate the rep can give Brian?
+**** [] More than $25.69
+**** [] Exactly $25.64
+**** [] Less than $25.64
+**** [] Exactly $25.69
+* * Question ID: 3197
+89) How do mutual funds use the Nasdaq Official Closing Price (NOCP)?
+**** [] To calculate daily NAV
+**** [] To determine the number of daily share redemptions
+**** [] To report trading volume
+**** [] To calculate gains/losses
+* * Question ID: 2076
+90) During a Nasdaq halt cross, trading resumes with the execution of
+**** [] a round-lot order at the indicative clearing price.
+**** [] a bulk order at a negotiated price.
+**** [] a round-lot order at a negotiated price.
+**** [] a bulk order at the indicative clearing price.
+* * Question ID: 2692
+91) An order to purchase 1000 shares at the open regardless of price is
+a
+**** [] Limit on Open order
+**** [] Market on open order
+**** [] Marketable limit order
+**** [] Market order
+2
+* * Question ID: 2721
+92) A market is crossed when the inside ask price is
+**** [] More than the inside bid
+**** [] The same as the inside bid
+**** [] More than 1% below the inside bid
+**** [] Less than the inside bid
+* * Question ID: 2956
+93) Which of the following is not a valid reason for a market maker to
+request an excused withdrawal?
+**** [] Equipment malfunction
+**** [] Religious Holiday
+**** [] Passive market making
+**** [] Under staffed trading desk
+* * Question ID: 3007
+94) What is a four-letter code assigned by FINRA to identify a member
+and enforce quote and pricing obligations?
+**** [] MPID
+**** [] SPDT
+**** [] PARN
+**** [] OPED
+* * Question ID: 36472
+95) A customer enters an order to sell 480 shares of ABC Co. stock at
+$19.84. The current inside quote for the stock is $19.75 x 300 - $19.82
+x 600. How will the customer's order be displayed in the Nasdaq
+system?
+**** [] As 4 round lots
+**** [] As 5 round lots
+**** [] As 4.8 round lots
+**** [] As 480 shares
+2
+* * Question ID: 2457
+96) When a firm "position trades", it
+I. makes a market in securities
+II. trades for the firm's account
+III. sells short in all transactions
+IV. executes agency trades for customers
+**** [] I and II only
+**** [] I, II, III and IV
+**** [] II and III only
+**** [] I, II and IV only
+* * Question ID: 2275
+97) For NMS stocks, how are a market maker's pricing obligations
+determined?
+**** [] By Designated Percentages away from the current National Best
+Bid/Offer
+**** [] By the SEC, based on historic trading patterns
+**** [] Based on trading volume in the underlying security
+**** [] By the market maker's investment policies and procedures
+* * Question ID: 2681
+98) Broker C advises his clients not to trade Nasdaq stocks too near the
+market open, due to fast price movements or imbalances. This
+advice is most applicable to which type of orders?
+**** [] Market
+**** [] Limit
+**** [] Fill or kill
+**** [] Stop-limit
+* * Question ID: 36521
+99) A firm makes a market in 40 stocks, of which half are priced at $5 or
+below and half are priced above $5. What is the firm's minimum net
+capital requirement?
+**** [] $70,000
+**** [] $100,000
+**** [] $150,000
+**** [] $1,000,000
+2
+* * Question ID: 1890
+100) A customer submits a limit-on-close (LOC) order to buy shares of
+ABC stock at a price of $28.42 per share. If the closing cross price
+is $28.40. What price will he receive?
+**** [] $28.40
+**** [] $28.41
+**** [] $28.42
+**** [] The trade will not execute
+* * Question ID: 2737
+101) A Nasdaq market maker can request a withdrawal for operational
+difficulties from
+**** [] Nasdaq MarketWatch.
+**** [] FINRA.
+**** [] Nasdaq Market Operations.
+**** [] the SEC.
+* * Question ID: 2893
+102) For purposes of resolving a Nasdaq halt cross, what is indicated by
+the Current Reference Price?
+**** [] Price at which the maximum number of shares can be paired
+**** [] Price of the last trade
+**** [] Average price of trading in the last five minutes
+**** [] Average price of open buy orders
+* * Question ID: 1989
+103) Under the Nasdaq rule for designated percentages for market
+maker quotes, for how many minutes per day, in total, do the
+pricing obligation percentages change for Tier 1 securities?
+**** [] 30
+**** [] 40
+**** [] 60
+**** [] 120
+* * Question ID: 2955
+104) Which of the following excused withdrawal requests to Nasdaq
+MarketWatch will typically allow a market maker to stop quoting a
+security for up to five business days?
+**** [] Religious holiday
+**** [] Equipment failure
+**** [] Underwriting activities under Regulation M
+**** [] Involuntary failure to maintain a clearing agreement
+2
+* * Question ID: 2707
+105) Which one of the following broker-dealers does not meet the
+criteria for a block positioner?
+**** [] Minimum net capital of $1.5 million; sells blocks worth $250,000
+**** [] Minimum net capital of $500,000; sells blocks worth $1 million
+**** [] Minimum net capital of $2.0 million; sells blocks worth $250,000
+**** [] Minimum net capital of $1.0 million; sells blocks worth $500,000
+* * Question ID: 1939
+106) For Tier 1 securities what is the percentage difference between the
+Defined Limit and the Designated Percentage triggers?
+**** [] 1.00%
+**** [] 1.50%
+**** [] 2.50%
+**** [] 5.00%
+* * Question ID: 2810
+107) Firm P is a Registered Reporting ADF ECN. To maintain ADF
+certification, it must post at least one marketable quote or order
+through the ADF on each side of the market at least
+**** [] Once every 30 calendar days
+**** [] Once per week
+**** [] Once every 15 calendar days
+**** [] Twice per week
+* * Question ID: 1926
+108) What is the minimum number of shares of stock a market maker
+generally must quote?
+**** [] It depends on the securities' trading volume
+**** [] 1
+**** [] 100
+**** [] 1000
+* * Question ID: 2687
+109) An ADF Market Maker is required to buy and sell securities for its
+own account on a continuous basis during regular market hours. In
+short, this duty is called the
+**** [] Liquidity Provision
+**** [] Double-Sided Continuous Trade
+**** [] Market Making Imperative
+**** [] Two-Sided Obligation
+2
+* * Question ID: 1870
+110) A block positioner engages in buying or selling blocks of stock
+with a current market value of
+**** [] $100,000 or more
+**** [] $200,000 or more
+**** [] $500,000 or more
+**** [] $1 million or more
+* * Question ID: 2033
+111) On each trading day, an ADF Trading Center must begin making a
+market not later than what time of day?
+**** [] 9:00 a.m. EST
+**** [] 8:00 a.m. EST
+**** [] 8:30 a.m. EST
+**** [] 9:30 a.m. EST
+* * Question ID: 2260
+112) Trader Q enters a MDAY buy order for 600 shares at 10:00 a.m. At
+10:20, 200 shares of the order are filled. When will the remaining
+shares be filled?
+**** [] By 11:00 a.m. or not at all
+**** [] By 4:00 p.m. or not at all
+**** [] Never because the order will be cancelled with a partial fill
+**** [] At any time
+* * Question ID: 2638
+113) KKF Securities, a FINRA registered market maker is displaying a
+quote in a Nasdaq listed security of 7-8 4x5. A customer of the firm
+contacts his registered rep and asks to have the quote explained to
+him. Which of the following is the best explanation?
+**** [] KKF will sell shares at $8 per share for 400 shares
+**** [] KKF will sell shares at $7 per share for 400 shares
+**** [] KKF will sell shares at $7 per share for 500 shares
+**** [] KKF will sell shares at $8 per share for 500 shares
+* * Question ID: 1987
+114) During the trading day Nasdaq begins disseminating information
+through its Net Order Imbalance Indicator (NOII) at
+**** [] 3:30 p.m.
+**** [] 3:45 p.m.
+**** [] 3:55 p.m.
+**** [] 10 seconds before 4 p.m.
+2
+* * Question ID: 2198
+115) A Nasdaq halt cross would most likely occur
+**** [] on a weekend or holiday
+**** [] in pre and post-market hours
+**** [] at the open and close
+**** [] during the trading day
+* * Question ID: 2077
+116) An order for less than a normal unit of trading is called
+**** [] A mixed lot
+**** [] A short lot
+**** [] An odd lot
+**** [] A round lot
+* * Question ID: 37932
+117) Two buy limit orders are entered at the exact same time. Both
+orders are also entered at the same price of $25.10. What
+determines the priority of which order is filled first?
+**** [] The customer with the larger historical trading volume is filled first
+**** [] The larger order is filled first
+**** [] The smaller order is filled first
+**** [] The firm will randomly select which customer order is filled first
+* * Question ID: 26087
+118) A trader wants to sell 2,000 shares of a stock at the closing cross
+price, but only if it is $26.50 or better. If the full order is not sold,
+she would like the remainder to be killed. This order should be
+entered as
+**** [] sell 2,000 and $26.50, AON and LOC.
+**** [] sell 2,000 at $26.50, AON.
+**** [] sell 2,000 at $26.50, FOK.
+**** [] sell 2,000 at $26.50, LOC.
+* * Question ID: 2606
+119) For a market maker in a Tier 1 security, at what time in the
+afternoon does the pricing obligation percentage change?
+**** [] It doesn't
+**** [] At 3:35 p.m. EST
+**** [] At 3:00 p.m. EST
+**** [] At the market close
+2
+* * Question ID: 3107
+120) If a market maker is quoting both equity and warrants on a specific
+issuer, the market maker is required to trade
+**** [] The minimum size for the equity but no specific quantity of
+warrants
+**** [] The minimum size for the equity and the warrant.
+**** [] As many shares and as many warrants as the public display book
+is showing
+**** [] One warrant for every 100 shares
+* * Question ID: 2108
+121) Firm C has a Two-Sided Obligation to make a market in ABC Co.
+common stock. If trading in the stock is suspended, when does the
+obligation re-commence?
+**** [] As agreed upon by all market makers in the stock
+**** [] After FINRA issues a trading signal
+**** [] After the first regular way trade in the primary listing market
+**** [] At the opening on the next trading day
+* * Question ID: 2234
+122) Which of the following is true regarding Nasdaq MPIDs?
+**** [] Primary MPIDs must be firm and two-sided while supplemental
+MPIDs must be two-sided only.
+**** [] Primary MPIDs must be firm and two-sided while supplemental
+MPIDs must be firm only.
+**** [] Both primary and supplemental MPIDs must be firm but neither is
+required to be two-sided.
+**** [] Both primary and supplemental MPIDs must be firm and twosided.
+* * Question ID: 3118
+123) When a broker-dealer receives a limit order from a customer,
+**** [] The order must be displayed in the broker-dealer quote if the
+customer specifically requests that his order be displayed
+**** [] The order must be returned to the customer
+**** [] The order must be executed as promptly as possible
+**** [] It must be displayed in the firm's quote absent special instructions
+2
+* * Question ID: 2797
+124) If the best bid for an NMS stock is $54.11 per share, which of the
+following quotes would produce a locked quote?
+**** [] Bid $54.11
+**** [] Offer $54.12
+**** [] Offer $54.11
+**** [] Bid $54.10
+* * Question ID: 2001
+125) On a voluntary basis, what is the latest time of day that an ADF
+Trading Center may remain open for business?
+**** [] 4:00 p.m. EST
+**** [] 5:00 p.m. EST
+**** [] 6:30 p.m. EST
+**** [] 8:30 p.m. EST
+* * Question ID: 3006
+126) A market maker is expected to make what kind of trading market in
+round lots of securities quoted?
+**** [] Sound
+**** [] Ongoing
+**** [] Firm
+**** [] Even
+* * Question ID: 2024
+127) Client Rick has placed a limit order to buy 300 shares at 22. The
+current bids on the limit book are:
+MM W : 22.08 X 100
+MM X: 22.05 X 300
+MM Y: 22.04 X 200
+MM Z : 22.02 X 500
+How many shares must be purchased before Rick receives an
+execution?
+**** [] 600 shares
+**** [] 1,000 shares
+**** [] 1,100 shares
+**** [] 700 shares
+2
+* * Question ID: 1950
+128) The normal trading unit for equity securities traded through the
+Alternative Display Facility (ADF) is
+**** [] 10 shares
+**** [] 100 shares
+**** [] 500 shares
+**** [] It depends on the stock price
+* * Question ID: 1863
+129) The NBBO on ABC, an S&P 500 stock, is 10.00 - 10.10. MDS is a
+market maker and wants to enter a new bid on the stock. What is
+the lowest bid MDS could enter?
+**** [] $1.00
+**** [] $7.00
+**** [] $7.20
+**** [] $9.20
+* * Question ID: 2545
+130) Two trading books are brought together at 4 p.m. to produce the
+Nasdaq closing cross. They are the
+**** [] Net and gross order books
+**** [] Continuous and closing order books
+**** [] Limit and market order books
+**** [] Imbalance and regular order books
+* * Question ID: 3064
+131) If there is an NBBO, a market maker must satisfy the Two-Sided
+Obligation by entering a bid that is, at most, how far away from the
+NBBO?
+**** [] The Designated Percentage
+**** [] 12.5%
+**** [] The Defined Limit
+**** [] 7.5%
+* * Question ID: 2207
+132) When a market maker fails to honor a quote in full, it is a violation
+called
+**** [] undercutting
+**** [] hedging
+**** [] reneging
+**** [] backing away
+2
+* * Question ID: 26088
+133) All of the following are exclusively associated with exchanges with
+the exception of
+**** [] designated market makers.
+**** [] market makers.
+**** [] floor brokers.
+**** [] specialists.
+* * Question ID: 3254
+134) How must requests for multiple MPIDs be submitted and approved?
+**** [] Either verbally or in writing
+**** [] Through a designated contact at the SEC
+**** [] In writing
+**** [] Verbally
+* * Question ID: 2053
+135) Firm A enters into a written agreement, under which it will
+outsource to Company B its responsibilities for reporting order
+data to FINRA and maintaining required records. Company B is
+considered
+**** [] An Authorized Representative
+**** [] A Reporting Agent
+**** [] A Designated Provider
+**** [] A Technology Vendor
+* * Question ID: 36473
+136) Three buy limit orders are entered at the same price but at 10-
+minute intervals. All are displayed orders. Customer A's order is
+entered first to buy 300 shares. Customer B's order is entered next
+to buy 500 shares. Customer C's order is entered next to buy 100
+shares. Which order will be filled first?
+**** [] The orders will be executed simultaneously since they are all
+entered at the same price
+**** [] Customer A's order since it was entered first
+**** [] Customer B's order since it is the largest order size
+**** [] Customer C's order since it is the smallest order size
+3
+* * Question ID: 2020
+137) If an ADF Trading Center chooses to open at the earliest possible
+time during a trading day, when must it begin making firm twosided quotes?
+**** [] 6:00 a.m. EST
+**** [] 8:00 a.m. EST
+**** [] 9:00 a.m. EST
+**** [] 9:30 a.m. EST
+* * Question ID: 2829
+138) An ADF Trading Center is granted an excused absence from
+submitting quotes and responding to orders, based on
+circumstances beyond its control. Normally, this absence will be
+granted for how long?
+**** [] Five business days
+**** [] 15 business days
+**** [] One business day at a time
+**** [] 10 business days
+* * Question ID: 1918
+139) The NBBO on ABC, an S&P 500 stock, is 10.00 - 11.00. MDS is a
+market maker and wants to enter a new offer on the stock. What is
+the highest offer MDS could enter?
+**** [] $9.20
+**** [] $10.00
+**** [] $11.88
+**** [] $14.08
+* * Question ID: 2345
+140) When is a market maker required to maintain a continuous twosided quote?
+**** [] During all regular market hours
+**** [] During all regular and pre-market hours
+**** [] During all regular, pre-market and after-hours trading
+**** [] At least four hours per trading day
+3
+* * Question ID: 2401
+141) After an excused withdrawal and notification of an intent to
+reinstate quotes, how much time does a market maker have to meet
+its market making obligations?
+**** [] 60 minutes
+**** [] 30 minutes
+**** [] 10 minutes
+**** [] Five minutes
+* * Question ID: 36519
+142) A market maker must maintain a minimum net capital of
+**** [] $100,000.00
+**** [] $500,000.00
+**** [] $1,000,000.00
+**** [] $1,500,000.00
+* * Question ID: 34897
+143) A firm's primary MPID must be used for all of the following types of
+quotes except:
+**** [] Passive market making quotes
+**** [] Pre-market quotes
+**** [] Market maker quotes
+**** [] Stabilization quotes
+* * Question ID: 3121
+144) What is the Defined Limit?
+**** [] The percentage that all fees, mark-ups, mark-downs, and
+commissions quotes must be away from the NBBO.
+**** [] The percentage that all new quotes can be away from the NBBO.
+**** [] The percentage of trading that a firm can conduct in its propriety
+accounts as compared to its customer limit orders.
+**** [] The percentage that existing quotes can be away from the NBBO
+without requiring adjustment
+3
+* * Question ID: 1898
+145) GA Securities, a FINRA registered market maker, is displaying a
+quote in a Nasdaq listed security of 7-8 4x5. A customer of the firm
+contacts his registered rep and places a market buy order. What
+price will the customer receive?
+**** [] $4 per share
+**** [] $5 per share
+**** [] $7 per share
+**** [] $8 per share
+* * Question ID: 2032
+146) For a quote in a stock that is a component of the S&P 500 index
+made at 11 a.m. during a trading day what is the Defined Limit?
+**** [] 8% from NBBO
+**** [] 31.5% from NBBO
+**** [] 28% from NBBO
+**** [] 9.5% from NBBO
+* * Question ID: 1904
+147) A market sell order is executed at the quote at a time when the
+NBBO is $48.35-$48.37. The transaction price is
+**** [] $48.35
+**** [] $48.37
+**** [] Below $48.35
+**** [] Above $48.37
+* * Question ID: 2858
+148) An ADF Trading Center is suspended on the grounds of too many
+unexcused system outages. May it appeal?
+**** [] Yes, by requesting a determination by a special FINRA
+subcommittee
+**** [] Only with FINRA permission
+**** [] Only if the firm has not previously been suspended for the same
+reason
+**** [] Yes, by submitting an application to the SEC
+3
+* * Question ID: 2614
+149) What makes a quote or order marketable, for purpose of complying
+with FINRA's requirement against inactive quoting by a Registered
+Reporting ADF ECN?
+**** [] It is competitively priced
+**** [] It is visible to the public
+**** [] It is accessed by another center or participant
+**** [] It is reported to FINRA
+* * Question ID: 2961
+150) How does a Nasdaq Market Maker voluntarily terminate registration
+on a security-by-security basis?
+**** [] Withdraw the two-sided quote
+**** [] Request a waiver
+**** [] Publish an announcement to other Market Makers
+**** [] Request a termination
+* * Question ID: 2643
+151) Brian calls his registered rep and asks for the NBBO on shares of
+EDD common stock. The rep indicates it is $25.64-$25.69 12x4.
+Brian places a market order to sell 100 shares, and asks for an
+estimated gross proceeds per share, inclusive of any fees and
+commissions. What is the best estimate the rep can give Brian?
+**** [] More than $25.69
+**** [] Exactly $25.64
+**** [] Less than $25.64
+**** [] Exactly $25.69
+* * Question ID: 2600
+152) The Net Order Imbalance Indicator (NOII)
+**** [] Provides parties with details concerning opening and closing
+orders along with the likely opening and closing prices of a security
+**** [] Provides traders with an estimate of the trading volume that will be
+represented during the opening and closing crosses
+**** [] Reflects the volume of short interest in the market at the opening
+and close of trading each day
+**** [] Is used by NASDAQ to calculate the average bid-ask spread on a
+security
+3
+* * Question ID: 1931
+153) A market maker seeking an excused withdrawal from Nasdaq for
+operational difficulties can expect the withdrawal to be granted for
+up to
+**** [] 1 day.
+**** [] 3 days.
+**** [] 5 days.
+**** [] 60 days.
+* * Question ID: 2216
+154) Which of the following quotes represents a valid market maker
+quote of a normal trading unit?
+**** [] Bid 200 shares at $39; ask 50 shares at $39.25
+**** [] Bid 100 shares at $39; ask 100 shares at $38.90
+**** [] Bid 100 shares at $39; ask 100 shares at $39.25
+**** [] No bid; ask 200 shares at $39.25
+* * Question ID: 3169
+155) If there is no National Best Bid/Offer on a stock, how is the market
+maker's pricing obligation determined?
+**** [] There is no pricing obligation in this case
+**** [] Based on the market maker's best estimate
+**** [] Based on the prior day's average execution price
+**** [] Based on the last reported sale
+* * Question ID: 2358
+156) Supplemental MPIDs are often used to report
+**** [] ETF trades.
+**** [] short sales.
+**** [] dark pool and OTC trades.
+**** [] option trades.
+* * Question ID: 26092
+157) The NBBO for a stock is $47.25-$47.30. The two sides of this quote
+are shown by one exchange. A Nasdaq market maker then enters a
+buy order on the same exchange with a limit price of $47.31. This
+order is permitted by Nasdaq only if
+**** [] the exchange showing the crossed quote is experiencing a system
+malfunction.
+**** [] it is displayed for less than 30 seconds and not executed.
+**** [] it is on behalf of a qualified institution.
+**** [] it is for an odd lot.
+3
+* * Question ID: 2917
+158) Closing Imbalance Orders (CIO) are entered to
+**** [] Offset the remaining unexecuted orders from the Opening Cross
+**** [] Ensure that all customer orders receive execution at the market
+close.
+**** [] Provide liquidity to offset on-close orders during the closing cross
+**** [] Provide liquidity to offset on-open orders during the opening cross
+* * Question ID: 2876
+159) Which stocks are eligible for trading on the Alternative Display
+Facility (ADF)?
+**** [] All
+**** [] NMS
+**** [] Penny stocks
+**** [] OTC-only
+* * Question ID: 3272
+160) For pricing obligation purposes, what is the difference between a
+Tier 2 and Tier 3 security?
+**** [] Whether the share price is above $1
+**** [] Whether the average daily trading volume is greater than 100,000
+shares
+**** [] How many shares of stock are outstanding
+**** [] Whether the security has been offered for at least one year
+* * Question ID: 3268
+161) When is a market maker's inability to maintain quotes excused by
+Nasdaq, if it relates to a failure to maintain a clearing arrangement?
+**** [] When the failure is voluntary
+**** [] When the failure is relationship-related
+**** [] When the failure is system-related
+**** [] When the failure is involuntary
+* * Question ID: 2426
+162) A market maker displays quotes that represent prices at which it is
+willing to buy or sell securities
+**** [] belonging to its customers
+**** [] to or for large traders
+**** [] from its own inventory
+**** [] for a commission
+3
+* * Question ID: 1943
+163) Once a Nasdaq Market Maker voluntarily terminates registration for
+a Nasdaq-listed security, for how long is the firm barred from reregistering that security?
+**** [] 10 business days
+**** [] 20 business days
+**** [] 30 business days
+**** [] There is no set time limit; it is at FINRA's discretion
+* * Question ID: 2025
+164) Broker D is an ADF Trading Center. If it wishes to deny a brokerdealer that is not a Trading Center direct electronic access, how
+much prior notice must it give to FINRA?
+**** [] 7 business days
+**** [] 14 calendar days
+**** [] 21 calendar days
+**** [] 30 business days
+* * Question ID: 2560
+165) For an ADF Trading Center one of two criteria can be used to
+declare a system outage. One is an inability to post automated
+quotations. The other is
+**** [] Lack of network connection
+**** [] Inability to report data to FINRA
+**** [] Inability to respond to orders
+**** [] Lack of power for two consecutive hours
+* * Question ID: 37933
+166) Three sell limit orders are entered at exactly the same time and at
+the same price, $17.43. Customer A's order is for 2,000 shares.
+Customer B’s order is for 800 shares. Customer C’s order is for 500
+shares. If a bid is entered for 800 shares at $17.43, which customer
+order will be filled first?
+**** [] Customer A
+**** [] Customer B
+**** [] Customer C
+**** [] It could be Customer A, B, or C based on random selection by the
+firm
+3
+* * Question ID: 2834
+167) The minimum quote increment for a stock trading at $7.50 per
+share is
+**** [] One tenth of a cent
+**** [] One hundredth of a cent
+**** [] One cent
+**** [] Five cents
+* * Question ID: 2986
+168) Assuming that a round-lot size for a security is 100 shares, which
+of the following orders is for a mixed lot?
+**** [] Buy 89
+**** [] Buy 100
+**** [] Sell 50
+**** [] Sell 140
+* * Question ID: 3049
+169) Broker N has a system outage on Wednesday at 9pm. To request a
+FINRA determination that the outage is excused, Broker N must
+supply supporting information by
+**** [] The close of business on Wednesday
+**** [] The close of business on Thursday
+**** [] The start of business on Thursday
+**** [] The start of business on Friday
+* * Question ID: 2005
+170) On the basis of unexcused system outages, how long can a trading
+suspension last for an ADF Trading Center?
+**** [] 5 business days
+**** [] 10 business days
+**** [] 20 business days
+**** [] 30 business days
+3
+* * Question ID: 2416
+171) As the result of a regulatory audit, FINRA is requiring that Market
+Maker A withdraw its quotes from Nasdaq. Market MMA notifies
+NASDAQ of its intention to withdraw its quotes in all those
+securities it makes a market in. MMA will be permitted to abstain
+from market making
+**** [] With 60 days written notice to FINRA
+**** [] With written consent of NASDAQ market operations
+**** [] For up to 30 days
+**** [] For up to 60 days

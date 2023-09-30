@@ -2,7 +2,24 @@
 #+AUTHOR: Pralay
 #+DATE: 2023-06-17
 
-#+TOC: headlines 
+#+TOC: headlines
+
+
+** what is Halt cross?
+The Halt Cross is used by Nasdaq to resume trading in securities that have been *halted due to* :
+ - significant news events or
+ - other factors that have caused the price of the security to become volatile.
+
+*** The Halt Cross is a two-step process.
+**** First step:
+****** Nasdaq disseminates indicative clearing price and imbalance information to market participants.
+       This information allows market participants to see the current supply and demand for the security and
+       to make informed decisions about whether to participate in the Halt Cross.
+
+*** Second step:
+**** The Halt Cross is executed.
+***** The price at which the Halt Cross is executed is *determined by*:
+     - The volume-weighted average price of the bids and offers that were submitted during the indicative clearing price phase.
 
 * Market Participants
 ** Broker Dealer
@@ -32,6 +49,12 @@ Active broker-dealers:
 - Bank of America Merrill Lynch
 
 Passive broker-dealers:
+#+BEGIN: columnview :hlines 1 :id local
+| ITEM                                           | TODO | PRIORITY | TAGS |
+|------------------------------------------------+------+----------+------|
+| Examples of active and passive broker-dealers: |      | B        |      |
+#+END:
+
 - Charles Schwab
 - TD Ameritrade
 - E*TRADE
@@ -178,7 +201,7 @@ This means that the broker-dealer should not delegate the responsibility of risk
 ** Broker-Dealer
 *** Locate
 **** Agreement with institutional investors
-    or
+  or
 **** Have availability
 ***** Should publish the list of available lists and update every 24 hours.
 *** Aggregate the position
@@ -202,9 +225,9 @@ This means that the broker-dealer should not delegate the responsibility of risk
 [[./in_kind_service.png]]
 
 *** BD should
-    - adhere order protection rule
-    - best execution mandate
-    - disclose any payments for order flow to affected customers.
+  - adhere order protection rule
+  - best execution mandate
+  - disclose any payments for order flow to affected customers.
 * The differences in cost basis calculation for covered and non-covered securities, along with an example:
 
 |-------------------------------------+--------------------------------------------------------------+-------------------------------------------------------------------|
@@ -588,31 +611,31 @@ Sure, here is a summary table:
 
 
 ** Reference Price and Bands Determination:
-   - The exchange calculates the reference price, which is the five-minute moving average of the security's last sales price.
-   - LULD bands are set based on the reference price:
-   -- For Tier 1 securities (e.g., S&P 500), the bands are 5% (10% at open/close).
-   -- For Tier 2 securities (all other NMS stocks), the bands are 10% (20% at open/close).
-   -- For securities priced under $0.75, the bands are the lesser of $0.15 or 75% (doubled at open/close).
+  - The exchange calculates the reference price, which is the five-minute moving average of the security's last sales price.
+  - LULD bands are set based on the reference price:
+  -- For Tier 1 securities (e.g., S&P 500), the bands are 5% (10% at open/close).
+  -- For Tier 2 securities (all other NMS stocks), the bands are 10% (20% at open/close).
+  -- For securities priced under $0.75, the bands are the lesser of $0.15 or 75% (doubled at open/close).
 
 ** Limit State:
-   - If a quote is entered that moves the national best offer price to the lower band or the national best bid price to the upper band without crossing the market, a 15-second limit state begins.
-   - Trading can continue within the band during this time.
-   - The limit state ends if the quote causing it is executed, canceled, or modified.
-   - If the national best bid or offer remains at the band for 15 seconds, a five-minute trading halt begins.
+  - If a quote is entered that moves the national best offer price to the lower band or the national best bid price to the upper band without crossing the market, a 15-second limit state begins.
+  - Trading can continue within the band during this time.
+  - The limit state ends if the quote causing it is executed, canceled, or modified.
+  - If the national best bid or offer remains at the band for 15 seconds, a five-minute trading halt begins.
 
 ** LULD Halts Sequence:
-   - An initial halt occurs if a security enters a limit state.
-   - During the five-minute volatility trading pause, no trading may occur, but quotes can be updated, and orders can be accepted.
-   - The halt can end after the mandatory five minutes when the primary market reports a re-opening price.
-   - If the issue causing the halt is not resolved, subsequent halts may occur in response to further limit state triggers.
+  - An initial halt occurs if a security enters a limit state.
+  - During the five-minute volatility trading pause, no trading may occur, but quotes can be updated, and orders can be accepted.
+  - The halt can end after the mandatory five minutes when the primary market reports a re-opening price.
+  - If the issue causing the halt is not resolved, subsequent halts may occur in response to further limit state triggers.
 
 ** Subsequent Halts:
-   - If the same issue persists and triggers another limit state after the initial halt ends, a new five-minute trading halt begins.
-   - Subsequent halts can repeat if the issue continues.
+  - If the same issue persists and triggers another limit state after the initial halt ends, a new five-minute trading halt begins.
+  - Subsequent halts can repeat if the issue continues.
 
 ** Conclusion If Not Resolved:
-   - If the issue causing the halt is not resolved after multiple halts, the security may remain halted for an extended period.
-   - The exchange, in conjunction with regulatory bodies like the SEC, may investigate the issue and determine appropriate actions to resolve it.
+  - If the issue causing the halt is not resolved after multiple halts, the security may remain halted for an extended period.
+  - The exchange, in conjunction with regulatory bodies like the SEC, may investigate the issue and determine appropriate actions to resolve it.
 
 
 
@@ -624,33 +647,33 @@ Sure, here is a summary table:
 ** Under LULD, a security is in a straddle state if the bid and offer are on either side of the price band.
 ** Under a straddle state, the exchange will monitor conditions and implement a pause for anything abnormal.
 ** Example:
-    The reference price for an S&P 500 stock is $50.
-    Therefore, the 5% band is down to 47.50 and up to 52.50.
-    If the NBBO is 52.45–.55, this is a straddle state.
+  The reference price for an S&P 500 stock is $50.
+  Therefore, the 5% band is down to 47.50 and up to 52.50.
+  If the NBBO is 52.45–.55, this is a straddle state.
 
 
 
-	  Numerical Guidelines         Reference Price 	(% Difference from Reference Price) 
+  Numerical Guidelines         Reference Price 	(% Difference from Reference Price) 
 
-    $0.9999 and under 	         20% 
+  $0.9999 and under 	         20% 
 
-    $1–$4.9999 	                 Low end of band: 20%
-                                 High end of band: 10% 
+  $1–$4.9999 	                 Low end of band: 20%
+                                High end of band: 10% 
 
-    $5–$74.9999 	               10% 
+  $5–$74.9999 	               10% 
 
-    $75–$199.9999 	             Low end of band: 10%
-                                 High end of band: 5% 
-    $200–$499.9999 	             5%
-    
-    $500–$999.9999 	             Low end of band: 5%
-                                 High end of band: 3% 
+  $75–$199.9999 	             Low end of band: 10%
+                                High end of band: 5% 
+  $200–$499.9999 	             5%
+
+  $500–$999.9999 	             Low end of band: 5%
+                                High end of band: 3% 
 
 * Short Sell
 ** Broker Dealer
 *** Locate
 **** Agreement with institutional investors
-    or
+  or
 **** Have availability
 ***** Should publish the list of available list and update every 24 hours.
 *** Aggregate the position
@@ -670,9 +693,9 @@ Sure, here is a summary table:
 
 ** In-Kind services
 *** BD should
-    - adhere order protection rule
-    - best execution mandate
-    - disclose any payments for order flow to affected customers.
+  - adhere order protection rule
+  - best execution mandate
+  - disclose any payments for order flow to affected customers.
 
 
 
@@ -762,7 +785,7 @@ Sure, here is a summary table:
 |                             | System (NMS) securities.                                     |                                                                        |
 |                             |                                                              |                                                                        |
 |-----------------------------+--------------------------------------------------------------+------------------------------------------------------------------------|
-    
+
 
 
 
@@ -787,11 +810,48 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 ** Detailed
 
 *** Simple
-              +------------------+
+            +------------------+
+            |   Open Short     |
+            +------------------+
+                    | Close
+                    v
+            +------------------+
+            |  Closed Short    |
+            +------------------+
+
+            +------------------+
+            |   Open Long      |
+            +------------------+
+                    | Close
+                    v
+            +------------------+
+            |  Closed Long     |
+            +------------------+
+
+            +------------------+
+            |    Open Fail     |
+            +------------------+
+                    | Close
+                    v
+            +------------------+
+            |  Closed Short    |
+            +------------------+
+*** Transition
+            +------------------+
               |   Open Short     |
               +------------------+
-                      | Close
-                      v
+                    | Close
+                    v
+              +------------------+
+              |  Closed Short    |
+              +------------------+
+                    | Open-Fail
+                    v
+              +------------------+
+              |    Open Fail     |
+              +------------------+
+                    | Close
+                    v
               +------------------+
               |  Closed Short    |
               +------------------+
@@ -799,73 +859,36 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
               +------------------+
               |   Open Long      |
               +------------------+
-                      | Close
-                      v
+                    | Close
+                    v
               +------------------+
               |  Closed Long     |
               +------------------+
 
-              +------------------+
-              |    Open Fail     |
-              +------------------+
-                      | Close
-                      v
-              +------------------+
-              |  Closed Short    |
-              +------------------+
-*** Transition
-              +------------------+
-               |   Open Short     |
-               +------------------+
-                      | Close
-                      v
-               +------------------+
-               |  Closed Short    |
-               +------------------+
-                      | Open-Fail
-                      v
-               +------------------+
-               |    Open Fail     |
-               +------------------+
-                      | Close
-                      v
-               +------------------+
-               |  Closed Short    |
-               +------------------+
-
-               +------------------+
-               |   Open Long      |
-               +------------------+
-                      | Close
-                      v
-               +------------------+
-               |  Closed Long     |
-               +------------------+
-
 ** Summary 
-   +--------------------+       Close       +----------------+
-   |    Open Short      |----------------->| Closed Short   |
-   +--------------------+                   +----------------+
-           |   Close
-           v
-   +--------------------+
-   |    Open Long       |
-   +--------------------+
-           |   Close
-           v
-   +--------------------+
-   |    Closed Long     |
-   +--------------------+
-           |   Open-Fail
-           v
-   +--------------------+
-   |    Open Fail       |
-   +--------------------+
-           |   Close
-           v
-   +--------------------+
-   |    Closed Short    |
-   +--------------------+
+  +--------------------+       Close       +----------------+
+  |    Open Short      |----------------->| Closed Short   |
+  +--------------------+                   +----------------+
+          |   Close
+          v
+  +--------------------+
+  |    Open Long       |
+  +--------------------+
+          |   Close
+          v
+  +--------------------+
+  |    Closed Long     |
+  +--------------------+
+          |   Open-Fail
+          v
+  +--------------------+
+  |    Open Fail       |
+  +--------------------+
+          |   Close
+          v
+  +--------------------+
+  |    Closed Short    |
+  +--------------------+
 
 * Table listing some possible scenarios or reasons for an Open-Fail position in short selling, along with examples:
 
@@ -1283,19 +1306,19 @@ An *Open-Fail* Position can transition back to a *Closed-Short* Position if the 
 | **Net Order Imbalance Indicator (NOII)** | A measure of the imbalance between the number of buy and sell orders for a security. It is calculated by taking the total number of buy orders for a security and subtracting the total number of sell orders for that security. A positive NOII indicates that there are more buy orders than sell orders, while a negative NOII indicates that there are more sell orders than buy orders. | NOII = Buy Orders - Sell Orders | Identify stocks that are likely to experience a price move. | NOII is just one indicator of a stock's price movement. Other factors, such as company earnings, economic news, and political events, can also affect a stock's price. | **A positive NOII indicates that there is strong buying pressure on a stock, which could lead to a price increase. A negative NOII indicates that there is strong selling pressure on a stock, which could lead to a price decrease.** | **Institutional investors, hedge funds, and day traders** | **NOII can be used to identify stocks that are likely to experience a price move. It can also be used to confirm other technical indicators, such as moving averages and support and resistance levels.** |
 
 ** NOII is used by a variety of investors,including
-    - institutional investors,
-    - hedge funds, and
-    - day traders.
-      It is a valuable tool for identifying stocks that are likely to experience a price move.
+  - institutional investors,
+  - hedge funds, and
+  - day traders.
+    It is a valuable tool for identifying stocks that are likely to experience a price move.
 
 ** NOII is a lagging indicator,
-    - which means that it measures the imbalance between buy and sell orders that have already been placed.
-      This means that NOII can be used to confirm a price move that has already happened,
-      but it cannot be used to predict a future price move.
+  - which means that it measures the imbalance between buy and sell orders that have already been placed.
+    This means that NOII can be used to confirm a price move that has already happened,
+    but it cannot be used to predict a future price move.
 ** NOII is not always accurate.
-    - There are times when NOII may indicate a price move that does not happen.
-      This is because NOII is just one indicator of a stock's price movement,
-      and other factors can also affect a stock's price.
+  - There are times when NOII may indicate a price move that does not happen.
+    This is because NOII is just one indicator of a stock's price movement,
+    and other factors can also affect a stock's price.
 * Unpaired shares:
 
 | **Term**        | **Definition**                          | **Causes**                                                | **Implications on the Market**                     | **Relationship with NOII**                                      |
@@ -1357,59 +1380,59 @@ Here is an example of how the steps above are applied:
 * let's go through the process step by step:
 
 1. Pre-Market Phase:
-   - During the pre-market phase, before regular trading hours, traders can submit orders to buy or sell securities.
-   - The exchange calculates the NOII based on the orders received during this phase.
-     The NOII represents the net order imbalance, indicating the difference between buy and sell orders.
+  - During the pre-market phase, before regular trading hours, traders can submit orders to buy or sell securities.
+  - The exchange calculates the NOII based on the orders received during this phase.
+    The NOII represents the net order imbalance, indicating the difference between buy and sell orders.
 
 2. Auction Phase:
-   - The auction phase occurs immediately before the market opens.
-   - The exchange calculates the reference price based on the NOII and the unpaired shares.
+  - The auction phase occurs immediately before the market opens.
+  - The exchange calculates the reference price based on the NOII and the unpaired shares.
 
 3. Calculation of Reference Price:
-   - The reference price is determined to facilitate the opening auction process.
-     It aims to find a price at which the maximum number of shares can be matched.
-   - The exchange considers the following factors:
-     - Buy Imbalance: The total quantity of buy orders in the NOII.
-     - Sell Imbalance: The total quantity of sell orders in the NOII.
-     - Unpaired Shares: The remaining shares that could not be matched based on the buy and sell orders in the NOII.
-   - The reference price is calculated to minimize the imbalance between buy and sell orders and
-     maximize the number of matched shares.
+  - The reference price is determined to facilitate the opening auction process.
+    It aims to find a price at which the maximum number of shares can be matched.
+  - The exchange considers the following factors:
+    - Buy Imbalance: The total quantity of buy orders in the NOII.
+    - Sell Imbalance: The total quantity of sell orders in the NOII.
+    - Unpaired Shares: The remaining shares that could not be matched based on the buy and sell orders in the NOII.
+  - The reference price is calculated to minimize the imbalance between buy and sell orders and
+    maximize the number of matched shares.
 
 4. Opening Auction:
-   - The opening auction occurs after the reference price is determined.
-   - Orders placed during the pre-market phase are matched at or within a specified range around the reference price.
-   - The exchange executes the trades at the opening price,
-     which is the price at which the maximum number of shares can be matched.
+  - The opening auction occurs after the reference price is determined.
+  - Orders placed during the pre-market phase are matched at or within a specified range around the reference price.
+  - The exchange executes the trades at the opening price,
+    which is the price at which the maximum number of shares can be matched.
 
 5. Opening Price:
-   - The opening price is the price at which the trades are executed during the opening auction.
-   - It is calculated based on the matching algorithm of the exchange,
-     taking into account the order flow and the reference price.
+  - The opening price is the price at which the trades are executed during the opening auction.
+  - It is calculated based on the matching algorithm of the exchange,
+    taking into account the order flow and the reference price.
 
 6. Regular Trading Hours:
-   - Once the market is open, securities can be traded throughout the regular trading hours.
-   - The price of each trade is determined by the supply and demand dynamics in the market,
-     with buyers and sellers agreeing on a price for each transaction.
+  - Once the market is open, securities can be traded throughout the regular trading hours.
+  - The price of each trade is determined by the supply and demand dynamics in the market,
+    with buyers and sellers agreeing on a price for each transaction.
 
 7. Closing Auction:
-   - At the end of the trading day, a closing auction takes place to establish the closing price.
-   - Similar to the opening auction, buy and sell orders are matched, and the exchange determines a closing reference price.
-   - Orders placed during the regular trading hours are matched at or
-     within a specified range around the closing reference price.
-   - The trades executed during the closing auction contribute to determining the closing price.
+  - At the end of the trading day, a closing auction takes place to establish the closing price.
+  - Similar to the opening auction, buy and sell orders are matched, and the exchange determines a closing reference price.
+  - Orders placed during the regular trading hours are matched at or
+    within a specified range around the closing reference price.
+  - The trades executed during the closing auction contribute to determining the closing price.
 
 8. Closing Price:
-   - The closing price is the final price at which the trades are executed during the closing auction.
-   - It represents the last traded price for the day and
-     is often used as a reference for performance measurement.
+  - The closing price is the final price at which the trades are executed during the closing auction.
+  - It represents the last traded price for the day and
+    is often used as a reference for performance measurement.
 
 Regulations and exchange rules:
 - The specific rules and regulations governing the calculation of opening and closing prices,
-  as well as the use of imbalance indicators, may vary depending on the exchange and jurisdiction.
+as well as the use of imbalance indicators, may vary depending on the exchange and jurisdiction.
 - Each exchange has its own set of rules that govern the opening and closing auction processes,
-  including how the reference price is determined and the trading rules during these periods.
+including how the reference price is determined and the trading rules during these periods.
 - Regulatory bodies such as the Financial Industry Regulatory Authority (FINRA) in the United States may
-  provide guidelines and oversight to ensure fair and orderly markets.
+provide guidelines and oversight to ensure fair and orderly markets.
 
 It's important to note that the precise calculations and rules for opening and closing prices
 can be complex and vary across different exchanges and markets.
@@ -1471,11 +1494,11 @@ P - Prior Reference Price. This modifier is used to indicate that the trade was 
 For example, if a trade is reported with the T modifier, it means that the trade was executed after the close of regular market hours. If a trade is reported with the P modifier, it means that the trade was executed at a price that was previously agreed upon by the parties involved in the trade.
 
 ** Question: 
- A customer enters an order to buy 600 shares of stock at 2:46 p.m. Due to an error, the trade does not execute until almost an hour later, at 3:44 p.m. The trade report will indicate
- A) the actual execution price along with a .T modifier.
- B) the price that prevailed at 2:46 along with a .P modifier.
- C) the actual execution price along with a .P modifier.
- D) the price that prevailed at 2:46 along with a .T modifier.
+A customer enters an order to buy 600 shares of stock at 2:46 p.m. Due to an error, the trade does not execute until almost an hour later, at 3:44 p.m. The trade report will indicate
+A) the actual execution price along with a .T modifier.
+B) the price that prevailed at 2:46 along with a .P modifier.
+C) the actual execution price along with a .P modifier.
+D) the price that prevailed at 2:46 along with a .T modifier.
 
 *** Answer: The answer is C) the actual execution price along with a .P modifier.
 
@@ -1720,7 +1743,9 @@ Locked and/or crossed trades can be harmful to the market because they can artif
 
 ** Regulation
 
-The Securities and Exchange Commission (SEC) regulates locked and/or crossed trades. The SEC's rules prohibit market makers from engaging in a pattern or practice of displaying quotations that lock or cross protected quotations. Protected quotations are those that are displayed at the best available price.
+The Securities and Exchange Commission (SEC) regulates locked and/or crossed trades.
+The SEC's rules prohibit market makers from engaging in a pattern or practice of displaying quotations that lock or cross protected quotations.
+Protected quotations are those that are displayed at the best available price.
 
 The SEC's rules also allow for certain exceptions to the prohibition on locked and/or crossed trades. For example, the rules allow for locked and/or crossed trades that are executed in connection with a block trade or that are executed in accordance with an order received from a customer.
 
@@ -1919,28 +1944,6 @@ In the context of short selling, an "open-fail position" occurs when a short sel
 [[./Lockup-Provision.png]]
 
 
-* what is Halt cross?
-1
-A Halt Cross is an auction process designed to provide an orderly, single-priced opening of securities subject to an intraday halt, including securities that are the subject of an IPO. The Halt Cross is used by Nasdaq to resume trading in securities that have been halted due to significant news events or other factors that have caused the price of the security to become volatile.
-
-The Halt Cross is a two-step process. In the first step, Nasdaq disseminates indicative clearing price and imbalance information to market participants. This information allows market participants to see the current supply and demand for the security and to make informed decisions about whether to participate in the Halt Cross.
-
-In the second step, the Halt Cross is executed. The price at which the Halt Cross is executed is determined by the volume-weighted average price of the bids and offers that were submitted during the indicative clearing price phase.
-
-The Halt Cross is designed to provide a fair and orderly opening for securities that have been halted. It also helps to ensure that all market participants have an opportunity to participate in the opening of the security.
-
-Here are some of the benefits of the Halt Cross:
-
-It provides a fair and orderly opening for securities that have been halted.
-It helps to ensure that all market participants have an opportunity to participate in the opening of the security.
-It minimizes the potential for price volatility.
-Here are some of the limitations of the Halt Cross:
-
-It can be slow to execute, as it requires market participants to submit bids and offers.
-It may not always reflect the true value of the security, as it is based on the volume-weighted average price of the bids and offers that were submitted.
-Overall, the Halt Cross is a valuable tool that can help to provide a fair and orderly opening for securities that have been halted. However, it is important to be aware of its limitations before using it.
-
-
 
 
 
@@ -1966,36 +1969,36 @@ Individual Security Circuit Breaker	Level 3	Closed for the day	30%	20%	20%
 ┌─────┐
 │Start│
 └───┬─┘
-    │
-    ▼
+  │
+  ▼
 ┌────────────┐
 │Limit│Order │
 └───┬────────┘
-    │
-    ▼
+  │
+  ▼
 ┌─────────────────────────┐
 │Limit order == quote?    │
 └───┬─────────────────────┘
-    │
-    │ Yes
-    ▼
+  │
+  │ Yes
+  ▼
 ┌─────────────────────────┐
 │Limit order == BBO?      │
 └───┬─────────────────────┘
-    │
-    │ Yes
-    ▼
+  │
+  │ Yes
+  ▼
 ┌───────────────────────────────────────────┐
 │Limit order > de minimis change (i.e. 10%) |
 └───┬───────────────────────────────────────┘
-    │
-    │ Yes
-    ▼
+  │
+  │ Yes
+  ▼
 ┌───────────────┐
 │Update quote   │
 └───┬───────────┘
-    │
-    ▼
+  │
+  ▼
 ┌───────┐
 │  End  │
 └───────┘
@@ -2093,15 +2096,15 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 │           └────── Long Sale
 |           
 └────── Non-Tape Reports
-    |    
-    ├────── Clearing Reports
-    |
-    └────── Regulatory Reports
-        |    
-        ├────── Regularly Submitted Reports
-        |
-        └────── Reports Submitted Upon Request
-        
+  |    
+  ├────── Clearing Reports
+  |
+  └────── Regulatory Reports
+      |    
+      ├────── Regularly Submitted Reports
+      |
+      └────── Reports Submitted Upon Request
+
 
 * The NASDAQ stock Market
 -------------------------
@@ -2162,11 +2165,27 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 
 ** Price IMprovement
 
-[[./PriceImprovement.png]]
+ [[./PriceImprovement.png]]
 
 
 ** Pricing Obligations for new Quotes:
 
+*** Pricing Obligation: Range of quote pricing in reference to NBBO
+**** Tier 1 (S&P 500 or Russell 1000)
+***** New Quotes : <>8% not allowed
+***** Existing Quotes
+****** Regular Trading Hours : <> 9.5% not allowed
+****** Before or After Regular Hours : <> 21.5% not allowed
+**** Tier 2 (price >= $1)
+***** New Quotes : <>28% not allowed
+***** Existing Quotes: <> 29.5% now allowed
+**** Tier 3 (price < $1)
+***** New Quotes : <>30% not allowed
+***** Existing Quotes:  <>31.5% not allowed
+**** Rights and Warrants
+***** New Quotes: <>30% not allowed
+***** Existing Quotes: <>31.5% not allowed
+ 
 [[./PricingObligationForNewQuotes.png]]
 
 
@@ -2214,7 +2233,7 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 ** Terminating Quotes
 
 [[./TerminatingQuotes.png]]
- 
+
 ** Prohibition of Locking and Crossing Quotation.
 
 [[./ProhibitionLockingCrossingQuotes.png]]
