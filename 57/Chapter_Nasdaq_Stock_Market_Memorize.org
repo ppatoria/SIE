@@ -1,0 +1,16 @@
+#+title: Nasdaq Stock Market
+*** Pricing Obligation: Range of quote pricing in reference to NBBO
+**** Tier 1 (S&P 500 or Russell 1000)
+***** New Quotes : <>8% not allowed
+***** Existing Quotes
+****** Regular Trading Hours : <> 9.5% not allowed
+****** Before or After Regular Hours : <> 21.5% not allowed
+**** Tier 2 (price >= $1)
+***** New Quotes : <>28% not allowed
+***** Existing Quotes: <> 29.5% now allowed
+**** Tier 3 (price < $1)
+***** New Quotes : <>30% not allowed
+***** Existing Quotes:  <>31.5% not allowed
+**** Rights and Warrants
+***** New Quotes: <>30% not allowed
+***** Existing Quotes: <>31.5% not allowed
