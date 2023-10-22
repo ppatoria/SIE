@@ -1,0 +1,29 @@
+@startmindmap
+!include theme_mindmap.puml
+
+* 15c2-11\nDue Diligence Requirement
+right side
+** Category of Issuer Security.
+*** New
+**** Non-Exempted
+***** Should be filed within 90 days;\nreferring to the issuer's prospectus.
+**** Exempted (Regulation A)
+***** Should be filed after 40 days of the issuer filing a Regulation A offering statement;\nreferring to issuer's offering circular.
+*** Existing
+**** Annual report + any additional required periodic or current reports.
+*** Foreign private issuers exempt from US registration.
+**** Information published on their website\nor\ninformation available in issuer's primary market.
+*** "Catch-all issuers":
+**** All others\nwhich do not fall into the above categories.
+***** Information includes list of:
+****** Officers
+****** Large shareholders
+****** Insiders' job titles
+****** Names of the predecessors for the past 5 years.
+****** States of the incorporation\nor\nregistration for all the predecessors.
+****** Principal place of business
+****** Ticker symbol during the last 5 years.
+left side
+** Responsibility: on Broker-Dealer, not Issuer.
+
+@endmindmap

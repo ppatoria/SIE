@@ -1,21 +1,17 @@
 !define DarkBackground #2D2D2D
 !define LightGreen #00CC00
-!define LightRed #FF6666
 !define LightBlue #3399FF
 !define LightYellow #FFFF66
-!define LightPurple #CC99FF
-!define LightOrange #FF9933
 !define LightGray #E6E6E6
 !define DarkGray #444444
 
 skinparam backgroundColor DarkBackground
 skinparam defaultFontColor LightGray
-skinparam handwritten true
-skinparam shadowing<<with_shadow>> true
 skinparam arrowcolor LightGray
 skinparam defaultfontsize 20
 skinparam defaultfontname "Ubuntu Mono"
-skinparam mindmapboxcolor  "darkslategray"
+skinparam noteBorderColor black
+skinparam shadowing false
 <style>
 mindmapDiagram {
         .darkkhaki {
@@ -41,41 +37,116 @@ mindmapDiagram {
                 BackgroundColor darkseagreen
         }
         :depth(0) {
-                BackGroundColor DarkGreen
-                FontColor Black
+                BackGroundColor DarkBackground
+                skinparam noteBorderColor DarkBackground
+                skinparam BorderColor DarkBackground
+                FontColor Grey
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(1) {
                 BackGroundColor DarkSlateGray
                 FontColor Black
+                FontSize 30
+                noteBorderColor black
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(2) {
                 BackGroundColor DarkGray
                 FontColor Black
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(3) {
                 BackGroundColor darkcyan
                 FontColor Black
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(4) {
                 BackGroundColor Grey
-                FontColor Black
+                FontColor black
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(5) {
                 BackGroundColor DarkGray
                 FontColor Grey
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
         :depth(6) {
                 BackGroundColor Black
                 FontColor Grey
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor black
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
 
         :depth(7) {
                 BackGroundColor DarkBackground
                 FontColor LightGray
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor DarkBackground
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
 
         boxless {
-                FontColor DarkGray
+                FontColor Grey
+                FontSize 30
+                Padding 12
+                Margin 3
+                HorizontalAlignment center
+                LineColor DarkBackground
+                LineThickness 3.0
+                RoundCorner 40
+                MaximumWidth 400
         }
 }
 </style>

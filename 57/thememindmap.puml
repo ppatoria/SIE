@@ -1,0 +1,82 @@
+!define DarkBackground #2D2D2D
+!define LightGreen #00CC00
+!define LightRed #FF6666
+!define LightBlue #3399FF
+!define LightYellow #FFFF66
+!define LightPurple #CC99FF
+!define LightOrange #FF9933
+!define LightGray #E6E6E6
+!define DarkGray #444444
+
+skinparam defaultFontColor #333333
+skinparam handwritten false
+skinparam shadowing<<with_shadow>> true
+skinparam arrowcolor #444444
+skinparam defaultfontsize 20
+skinparam defaultfontname "Ubuntu Mono"
+skinparam mindmapboxcolor  "#5F9EA0"
+skinparam mindmapShadowColor DarkGray
+skinparam backgroundColor DarkBackground
+<style>
+mindmapDiagram {
+        .darkkhaki {
+                BackgroundColor #BDB76B
+        }
+        .midnightblue {
+                BackgroundColor #191970
+                mindmapfontcolor white
+        }
+        .gray {
+                BackgroundColor #808080
+        }
+        .darkgray {
+                BackgroundColor #A9A9A9
+        }
+        .darkcyan {
+                BackgroundColor #008B8B
+        }
+        .darkslategrey {
+                BackgroundColor #2F4F4F
+        }
+        .darkseagreen {
+                BackgroundColor #8FBC8F
+        }
+        :depth(0) {
+                BackGroundColor #5F9EA0
+                FontColor White
+        }
+        :depth(1) {
+                BackGroundColor #7FDBFF
+                FontColor Black
+        }
+        :depth(2) {
+                BackGroundColor #0074D9
+                FontColor White
+        }
+        :depth(3) {
+                BackGroundColor #39CCCC
+                FontColor Black
+        }
+        :depth(4) {
+                BackGroundColor #7FDBFF
+                FontColor Black
+        }
+        :depth(5) {
+                BackGroundColor #0074D9
+                FontColor White
+        }
+        :depth(6) {
+                BackGroundColor #39CCCC
+                FontColor Black
+        }
+
+        :depth(7) {
+                BackGroundColor DarkBackground
+                FontColor LightGray
+        }
+
+        boxless {
+                FontColor DarkGray
+        }
+}
+</style>

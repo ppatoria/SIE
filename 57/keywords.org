@@ -17,8 +17,14 @@
  Please only and only refer the book for the answer and also please point the section in the book which you have refereed to answer this question.
  Above is the one of the chapter (1) from the book for finra 57 series examination. Please only and only refer the book for the answer that I will ask and also please point the section in the book which you have refereed to answer this question.
 
-
+* ADF
+* lock-up agreement
+* 15c211
+* block and non-block purchase
+* safe harbor
 * Insider Trading
+* Material Change
+
 ** non-public information
 
 

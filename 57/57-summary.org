@@ -2304,3 +2304,17 @@ I have deleted the rows for Excused for Trouble and Excused Withdrawal, as you r
 
 
 [[./NasdaqClossingProcessSummary.png]]
+
+
+
+* 15c2-11 Due diligence requirements:
+
+[[./15c2-11-due-diligence-requirements-otc.png]]
+
+* Directed and non-directed orders
+
+[[./directed_and_nondirected_orders.png]]
+
+* Lockup Agreement:
+
+[[./lockup-agreement.png]]

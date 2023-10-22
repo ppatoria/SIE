@@ -1,0 +1,37 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+side right
+
+* NMS Rule 606 : order routing reporting rules.
+** Rules
+*** Directed Orders
+**** Excluded/Excepted from reporting
+*** Non-Directed Orders
+**** Report to SEC
+***** Quarterly
+**** Disseminate to public
+***** By the end of the month immediately following the quarter for which the report is prepared
+****** Post on Free Website
+****** Furnish Written Copies Upon Request
+****** Annual Notification to Customers that report is available upon request
+
+side left
+
+** Contents of the report
+*** % of Non-Directed orders out of total customer orders
+**** % of Market Order Types
+**** % of Limit Order Types
+**** % of Other Order Types
+*** Top 10 venues
+**** List of venues where the largest number of non-directed orders were routed
+**** List of venues where 5% or more of non-directed orders were routed
+***** For each venue listed:
+****** % of total non-directed orders routed to the venue
+****** Discussion of the material aspects of the broker-dealer’s relationship with the venue
+*** Information to Customers on request
+**** Routing destinations of last six months' customer orders and their details
+**** Annually notify customers that the report is available upon request
+
+@endmindmap

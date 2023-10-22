@@ -3,6 +3,9 @@
 !include theme_mindmap.puml
 
 *_ **Trading Halts**
+
+side left
+
 ** Reasons for Trading Halts
 *** Trading in specific securities can be halted for various reasons, including
 **** investor protection and
@@ -16,6 +19,8 @@
 *** Trading Halt Impact
 **** During a trading halt,
 ***** no trades can be executed, and there are no exceptions for block trades.
+
+side right
 ** Nasdaq Trading Halts
 *** Material News Notification
 **** Issuers and market makers listed on Nasdaq agree to notify Nasdaq of material news at least 10 minutes before public release.
@@ -38,6 +43,7 @@
 ******* (2) The time the security will be released for trading.
 *** Purpose of Halt
 **** Halted securities allow investors to consider new information and make informed decisions about the appropriate price.
+side left
 ** FINRA Trading Halts in NMS Securities
 *** Reasons for Trading Halts
 **** FINRA has the authority to halt trading on exchanges in any NMS stock for various reasons, including
@@ -48,6 +54,7 @@
 **** Members are required to promptly notify FINRA if they have knowledge of **undisclosed material information** related to an NMS stock or its issuer.
 *** Halt Initiation
 **** A trading halt can begin upon notice from the primary listing exchange, and when lifted, trading may resume.
+side left
 ** FINRA Trading Halts in OTC Equities
 *** Reasons for Halt
 **** FINRA can direct member firms to halt trading and quotations in OTC equity securities to protect investors and the public interest,

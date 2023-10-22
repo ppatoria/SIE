@@ -1,0 +1,32 @@
+@startmindmap
+
+!include theme_mindmap.puml
+
+* Lockup Agreement
+
+side left
+
+** Purpose: Prevents insiders and issuer-directed shareholders from selling shares immediately after the IPO
+** Participants
+*** Issuer (Company going public)
+*** Underwriters
+*** Shareholders
+**** Insiders: Individuals with access to non-public material information
+***** Officers of the company
+***** Directors
+***** Majority Shareholders (holding more than 10%)
+***** Certain Employees
+**** Issuer-Directed Shareholders: Selected investors as part of the IPO
+
+side right
+
+** Duration
+*** Usually 180 days; can be modified and vary per employee in case of insiders
+*** Can be terminated any time at the underwriter's discretion
+** Disclosure
+*** In Registration Statement and Prospectus
+*** Each shareholder has a separate agreement
+** Expiration
+*** 2 business days before expiration, book-running lead manager notifies issuer and announces to the public
+
+@endmindmap
