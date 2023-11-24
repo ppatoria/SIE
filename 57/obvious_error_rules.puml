@@ -1,0 +1,60 @@
+* Theoretical Price
+** It is determined either by
+*** the inside market for options that trade on Nasdaq and at least one other exchange, or
+*** by Nasdaq MarketWatch for options that do not.
+
+* Allowable Price Bands
+** These bands are expressed in dollars away from a theoretical price, and
+** they vary based on the theoretical price of the option.
+*** Less than $2: $0.25
+*** $2–$5: $0.40
+*** $5.01–$10: $0.50
+*** $10.01–$20: $0.80
+*** $20.01+: $1
+
+* Obvious Error Rule:
+** Nasdaq considers a listed option transaction to be an obvious error
+*** if the execution price (i.e., the premium) falls outside certain prescribed price bands based on the theoretical price of the option.
+
+* Resolution of Obvious Errors
+** Instead of nullifying the trade,
+*** Nasdaq will generally adjust obvious error purchases to their theoretical price
+*** plus 15 cents if the theoretical price is under $3,
+*** or plus 30 cents if the theoretical price is at or above $3.
+** The adjustment is the opposite for obvious error sell trades—
+*** minus 15 cents for under $3;
+*** minus 30 cents for above $3.
+
+** *Example:
+*** An option with a theoretical price of $4.20 sold for $3.67 falls outside the 40-cent band, which begins at $3.80.
+*** The trade price (premium) will be adjusted down from the theoretical price by 30 cents, to $3.90.
+* *Customer Trade Exception*:
+** If one party to the obvious error is a customer (i.e., not a broker-dealer), and
+** the adjustment would result in an execution price violating the customer’s limit price,
+** then the trade will be canceled as opposed to adjusted.
+
+* Nasdaq's No-Bid Rule
+** Nasdaq will deem a trade an obvious error if the trade was quoted no bid for at least five seconds before the execution,
+** and options of the same class one strike price below (for calls) or one strike price above (for puts) were also quoted no bid.
+
+** *Example*:
+*** If the January ABC 50 calls were not being quoted,
+*** and the January 45 calls were also not being quoted,
+*** a trade for the January 50 calls would be an obvious error and would be nullified.
+
+* Obvious Error Procedure
+** A party that believes it participated in a transaction that was the result of an obvious error must notify Nasdaq.
+** If the obvious error involved a customer order, a filing must be made within 30 minutes of execution.
+** For trades only involving broker-dealers, the filing must be received within 15 minutes of the execution time.
+
+* Catastrophic Errors:
+** A catastrophic error is defined as one where the transaction price is even further away from the theoretical price than the obvious error thresholds.
+** The price of the transaction for catastrophic errors will be adjusted according to a prescribed table.
+
+** *Example*:
+*** For a catastrophic buy error with a theoretical price of $10.50 and a transaction price of $13 (which is more than $2.50 away, the threshold for a catastrophic error for a theoretical price above $10),
+*** the price would be adjusted downward to the theoretical price plus $2, which is $12.50.
+
+** Remember, as per *Knopman Note*, the adjustment made for an obvious options error is always plus or minus 15 or 30 cents depending on the theoretical price.
+** This figure differs from the allowable price bands discussed above.
+** It also takes at least two options of the same class quoted no bid to trigger an obvious error.

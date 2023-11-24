@@ -1,0 +1,222 @@
+
+* The limit order display rule¹, ².
+** When they receive a customer order that is better than their current quote
+** They must update their quote to reflect the price and size of the customer order, or execute the order immediately.
+** The customer order is priced at the same level as the national best bid or offer (NBBO), which is better than the market maker's quote.
+*** For example, if
+**** the NBBO                    $10.00 x $10.05, and
+**** the market maker is quoting $9.95 x $10.10,
+**** a customer order to         buy at $10.00 or to sell at $10.05
+**** would be better than the market maker's quote.
+** The customer order is priced between the NBBO, which is better than the market maker's quote.
+*** For example, if
+**** the NBBO is                 $10.00 x $10.05, and
+**** the market maker is quoting $9.95 x $10.10
+**** a customer order to         buy at $10.01 or to sell at $10.04
+**** would be better than the market maker's quote.
+**  The customer order is priced outside the NBBO, which is better than the market maker's quote.
+*** For example, if
+**** the NBBO is                  $10.00 x $10.05, and
+**** the market maker is quoting  $9.95 x $10.10
+**** a customer order to buy at   $10.06 or to sell at $9.99 would be better than the market maker's quote.
+
+* The minimum pricing increment rule¹, ².
+** When they receive a customer order that is priced equal to the national best bid or offer (NBBO)
+** They must update their quote to reflect the size of the customer order, or execute the order immediately.
+*** For example, if
+**** the NBBO                    $10.00 x $10.05, and
+**** the market maker is quoting $9.95 x $10.10,
+**** a customer order to         buy at $10.00 or to sell at $10.05
+**** would be better than the market maker's quote.
+
+* The sub-penny rule¹, ².
+** Rule: Market participants can display Quote only if
+*** greater than $0.01   if the price is equal to or greater than $1.00 per share or
+*** greter  than $0.0001 if the price is less than $1.00 per share¹, ².
+** Update quote when MM receive a customer order that is priced between the NBBO
+*** Example
+*** the NBBO for an NMS stock is   $10.00 x $10.05, and
+*** a market maker is quoting    $9.99  x $10.06  for 100 shares each.
+***  a customer order to  buy 50 shares at $10.02, which is between the NBBO.
+*** MM must update their quote to reflect the price and size of the customer order, or execute the order immediately. as the sub-penny rule >0.001
+
+* Trade Through:
+** Execution of trade at prices inferior to protected quotations or NBBO.
+*** Under the NMS rule, the market maker must also prevent a trade-through of the protected offer at $10.05.
+*** If the market maker executes the order at $10.02, it must also send an intermarket sweep order (ISO) to execute against the full displayed size of the protected offer at $10.05, or route the order to a trading center that will do so.
+*** If the market maker displays the order at $10.02, it must ensure that it does not execute any sell orders at $10.02 or higher until the protected offer at $10.05 is no longer available, or it sends an ISO to execute against it.
+
+
+
+* The access fee rule¹, ².
+MM cannot charge, for access to protected quotation, a fee that exceeds $0.0030 per share (or, for securities priced at less than $1.00 per share, 0.30% of the quotation price) for each round trip transaction². A round trip transaction is a transaction in which a market participant accesses a protected quotation and then subsequently provides liquidity at the same price level².
+
+* Protected quote
+** quote in an NMS stock that is displayed by an automated trading center
+** It is protected from trade-throughs, i.e. trading center can't execute at a price inferior to protected quote.
+** *The NBBO is calculated by consolidating the protected quotations from all trading centers and selecting the highest bid and the lowest offer*
+* The locking and crossing rule¹, ².
+
+** When MM receives order for price equal to NBBO; they can;t display the quote.
+*** *MM receives a customer order to sell 100 shares at $10.00 which is the same as the NBBO bid.
+***  The market maker must either execute the order immediately at $10.00, or route the order to another trading center that can execute it at $10.00 or better.
+*** The market maker cannot display the order at $10.00, or lower its offer to $10.00, because that would lock the market with another market maker's bid at $10.00.
+*** Same for offer
+
+** When a market maker receives a customer order to sell at price which is lower than the NBBO bid
+*** MM receives a customer order to sell 100 shares at $9.99, which is lower than the NBBO bid.
+*** The market maker must either execute the order immediately at $9.99, or route the order to another trading center that can execute it at $9.99 or better.
+*** The market maker cannot display the order at $9.99, or lower its offer to $9.99, because that would cross the market with another market maker's bid at $10.00.
+*** Same for order highter than the NBBO.
+** Prevent trade-through.
+
+* CBOE's VIX index
+** It measure the amount of volatility in the stock market
+** It is computed based on the prices of options on the S&P 500 index
+
+
+* A short call and a credit call are two different names for the same option strategy.
+** is a bearish strategy that
+** involves selling a call option
+*** on a stock that the trader expects to fall in price.
+** The trader receives a premium, for selling the call option and
+** Hopes that the option will expire worthless, or out of the money,
+*** so that they can keep the premium as profit.
+** if the stock price rises above the strike price of the call option,
+*** the trader will have to buy the stock at the higher market price and sell it at the lower strike price, resulting in a loss.
+** The maximum profit of a short call is limited to the premium received, and
+** the maximum loss is unlimited if the stock price rises indefinitely.
+
+** Example
+*** Suppose a trader is bearish on XYZ stock, which is trading at $50 per share.
+*** The trader sells a call option on XYZ with a strike price of $55 and an expiration date of one month later.
+*** The trader receives a premium of $2 per share, or $200 for the contract (100 shares per contract).
+*** If XYZ stock falls below $55 by the expiration date, the call option will expire worthless, and the trader will keep the $200 premium as profit.
+**** This is the best-case scenario for the trader, and the maximum profit they can make from this strategy.
+*** If XYZ stock rises above $55 by the expiration date, the call option will be in the money, and the trader will be assigned to deliver 100 shares of XYZ at $55 per share.
+**** The trader will have to buy the shares at the market price, which could be higher than $55, and sell them at the strike price, resulting in a loss.
+****  This is the worst-case scenario for the trader, and the loss could be even higher if the stock price rises above strike price.
+
+* Credit Spread or specifically a "credit call spread", is
+** a two-part options strategy that
+*** involves
+**** selling a call option and
+**** buying another call option at a higher strike price.
+*** Both options have the same expiration date.
+*** The aim is to
+**** earn the premium from the sale of the short call, but
+**** also to limit potential losses by owning a call option.
+
+** Example
+*** the current stock price of Company XYZ is $100.
+*** An investor can initiate a credit call spread by:
+**** Selling a call option (i.e., writing a short call) with a strike price of $105 and earning a premium of $10.
+**** Buying a call option with a strike price of $110 for a premium of $8.
+*** The net income from this transaction is the difference in premiums, which is $2 ($10 - $8).
+*** If the stock price stays below $105, both options expire worthless, and the investor keeps the net premium of $2 as profit.
+*** If the stock price rises above $105 but stays below $110,
+**** the sold call option will be exercised, and the investor has to sell the stock at $105.
+**** However, the bought call option expires worthless.
+**** The investor's profit is still the net premium, but now reduced by the difference between the stock price and the $105 strike price.
+**** If the stock price goes above $110, both options are exercised.
+**** The investor has to sell stock at $105,
+**** but they can buy it at $110.
+**** The loss from this is offset by the net premium received.
+
+* Differences and Similarities of short call and credit call spread .
+
+** similarity
+*** both strategies involve writing a call option and can profit when the stock price stays below the strike price of the written option.
+
+** difference lies in their risk profiles:
+*** A short call has unlimited risk. If the stock price skyrockets, the losses could be substantial.
+*** A credit call spread, on the other hand, has a capped risk.
+**** The call option purchased acts as an insurance policy that limits the losses if the stock price increases significantly.
+
+
+* straddle
+|------------+----------------------------------------------------------------------------+---------------------------------------------------------|
+| Attributes | Long Straddle                                                              | Short Straddle                                          |
+|------------+----------------------------------------------------------------------------+---------------------------------------------------------|
+| win        | if the coin lands on heads or tails (volatile market)                      | if the coin lands on its edge   (no or less volatility) |
+| Betting    | on both heads and on tails (Bullish + Bearish)                             | coin will land on edge i.e no heads and no tails        |
+| profit     | No matter which way the coin will fall, you have a chance of making money. | you make money if the coin fall either ways             |
+| risk       | would lose if the coin lands on its edge.                                  | would loose if heads or tails.                          |
+|------------+----------------------------------------------------------------------------+---------------------------------------------------------|
+
+|-------------------------------------------------------+----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Attributes                                            | Long Straddle                                      | Short Straddle                                                                       |
+|-------------------------------------------------------+----------------------------------------------------+--------------------------------------------------------------------------------------|
+| Strategy                                              | is a **bullish** or **bearish** strategy               | is a **neutral** strategy                                                              |
+| Profits from                                          | a **large** movement in the underlying asset's price | a **small** or **no** movement in the underlying asset's price.                          |
+| Risk and Reward                                       | has a **limited** risk and a **unlimited** reward      | **unlimited**     risk and a **limited** reward                                          |
+| Premium                                               | **paying** a premium to buy the options              | **collecting** a premium to  sell the options                                          |
+| vega (benefit from an increase in implied volatility) | has a **positive** vega                              | has a **negative** vega, which means it benefits from a decrease in implied volatility |
+|-------------------------------------------------------+----------------------------------------------------+--------------------------------------------------------------------------------------|
+
+** Example of Long Straddle
+*** If the investor thinks that the price of a stock will change significantly but does not know in which direction.
+*** The stock is currently trading at $50,
+*** and the investor buys a call and a put option with a strike price of $50
+*** and an expiration date of one month later.
+*** Each option costs $2, so the total cost of the long straddle is $4.
+*** This means that the investor needs the stock price to move more than $4 in either direction to make a profit.
+*** If the stock price rises to $60 after the earnings report, the investor can exercise the call option and buy the stock for $50,
+*** then sell it for $60, making a profit of $10 per share. However, the investor also has to subtract the cost of the options, which is $4, so the net profit is $6 per share.
+*** If the stock price falls to $40 after the earnings report, the investor can exercise the put option and sell the stock for $50,
+*** then buy it back for $40, making a profit of $10 per share. Again, the investor has to subtract the cost of the options, which is $4, so the net profit is $6 per share.
+*** If the stock price stays at $50 or moves less than $4 in either direction, the investor will lose money, because the options will expire worthless and the investor will lose the $4 paid for them.
+
+** Example of Short Straddle
+*** *Suppose another investor thinks that the price of the same stock will not change much after the earnings report,* and expects the implied volatility to drop.
+*** *The stock is still trading at $50,* and the investor sells a call and a put option with a strike price of $50
+*** and an expiration date of one month later.
+*** Each option pays $2, so the total income of the short straddle is $4.
+*** This means that the investor needs the stock price to stay within $4 of the strike price to make a profit.
+*** If the stock price stays at $50 or moves less than $4 in either direction, the investor will keep the $4 received from selling the options, which is the maximum profit.
+*** If the stock price rises above $54 or falls below $46,
+*** the investor will lose money,
+**** because the options will be exercised by the buyers
+**** and the investor will have to buy or sell the stock at an unfavorable price.
+**** The potential loss is unlimited, as the stock price can move infinitely higher or lower.
+*** If the implied volatility drops, the investor can also close the position early by buying back the options at a lower price, and lock in a profit without waiting for expiration.
+
+* No-bid
+**  a situation where there are no buyers for a particular security at any price.
+
+
+
+
+
+* Minimum Quotation Size Requirements for OTC Equity Securities
+
+| Bid Price ($)           | Minimum Quote Size (Shares) |
+|-------------------------+-----------------------------|
+| 0.00 - 0.50             |                       5,000 |
+| 0.51 - 1.00             |                       2,500 |
+| 1.01 - 10.00            |                         500 |
+| 10.01 - 100.00          |                         200 |
+| 100.01 - 200.00         |                         100 |
+| 200.01 - 500.00         |                          25 |
+| 500.01 - 1,000.00       |                          10 |
+| 1,000.01 - 2,500.00     |                           5 |
+| 2,500.01 - 5,000.00     |                           2 |
+| 5,000.01 - 10,000.00    |                           1 |
+| 10,000.01 - 100,000.00  |                         0.1 |
+| 100,000.01 - 250,000.00 |                        0.05 |
+| 250,000.01 or greater   |                        0.01 |
+|                         |                             |
+
+* Minimum Pricing Increment for OTC Equity Securities
+
+| Bid Price ($)          | Minimum Pricing Increment ($) |
+|------------------------+-------------------------------|
+| 0.00 - 0.50            |                        0.0001 |
+| 0.51 - 1.00            |                         0.001 |
+| 1.01 - 10.00           |                          0.01 |
+| 10.01 - 100.00         |                          0.05 |
+| 100.01 - 1,000.00      |                          0.10 |
+| 1,000.01 - 10,000.00   |                          0.25 |
+| 10,000.01 - 100,000.00 |                          0.50 |
+| 100,000.01 or greater  |                          1.00 |
+

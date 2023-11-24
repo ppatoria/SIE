@@ -1,0 +1,33 @@
+@startmindmap
+!include theme_mindmap.puml
+title Key Concepts - Broker-Dealer Activities
+
+* Broker-Dealer Activities
+** Block Positioner
+*** Commits capital to take a large position
+*** Gradual sales to clients or on the open market
+*** Involves substantial numbers of shares
+** Hedge or Arbitrage
+*** Hedging
+**** Offset risk from adverse price movements
+**** Buying put options to hedge positions
+*** Arbitrage
+**** Taking advantage of price differences between markets
+**** Profiting from price differentials
+** Unwinding an Index Arbitrage Position
+*** Closing out or liquidating a position
+*** Taking positions in index futures contracts and underlying stocks
+*** Profiting from price differences
+** Futures and Options Contracts
+*** Futures Contracts
+**** Obligation to buy or sell an asset in the future
+*** Options Contracts
+**** Right, but not obligation, to buy or sell an asset
+** NYSE Down Less Than 2%
+*** Marking short sales as "long"
+*** Condition: NYSE price decrease less than 2%
+** Bona Fide Hedging Activity
+*** Offset positions to reduce risk
+*** Selling call options against long stock positions
+*** Protecting against downside risk
+@endmindmap

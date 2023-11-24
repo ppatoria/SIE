@@ -5,8 +5,8 @@ title LULD Process
 start
 note
 *** Band/LULD: is % above and below the stock reference price
-*** Reference price: the 5-minute average moving price of a stock 
-**** which is calculated every 30 seconds 
+*** Reference price: the 5-minute average moving price of a stock
+**** which is calculated every 30 seconds
 **** updated after 1% or greater change in the prior reference price.
 *** Band is typically 5% (lower priced stock have higher band 10%, 20%, or 75%)
 end note
@@ -27,14 +27,7 @@ else (outside LULD Band)
   endif
 endif
 stop
-@enduml
-#+END_SRC
-[[./LULD.png]]
 
-
-** Circuit breaker
-#+begin_src 
-@startuml
 title Market-Wide Circuit Breakers Process
 
 start

@@ -1,0 +1,38 @@
+@startmindmap
+title Regulation SHO Rule 200
+!include theme_mindmap.puml
+
+* Regulation SHO Rule 200
+** Ownership of Stock
+*** An investor is considered long if they:
+**** Have title to the security.
+**** Have a contract to purchase the security but haven't received the shares yet (unsettled purchase).
+**** Own a convertible bond or preferred stock and have given conversion instructions.
+**** Own a call option or derivative and have exercised it.
+**** Hold security futures to purchase the stock and have received notice of physical delivery.
+*** Additional Notes
+**** Selling stock futures doesn't require borrowing shares since delivery is not immediate.
+**** Owning a convertible security and giving conversion instructions means the investor owns the stock.
+**** Long or short position is determined based on trades throughout the day.
+** Marking Orders
+*** If the broker-dealer has the security or expects to have it before settlement, and the investor meets the ownership criteria, the order can be marked as long.
+*** If the conditions are not met, the order must be marked as a short sale.
+** Broker-Dealer Short Sales [[./key_concepts.puml]]
+
+*** Broker-dealers can mark order tickets for their own account as long if they:
+**** Acquired shares as a block positioner and established a short position to hedge or arbitrage the block.
+**** Are unwinding an index arbitrage position using futures or options contracts.
+**** Are short the stock due to arbitrage or hedging activities.
+**** The sale occurs on a day when the NYSE is down less than 2% from the previous day's close.
+** Broker-Dealer Aggregation of Positions
+*** Broker-dealers must aggregate all long and short positions firm-wide to determine how to mark their own order tickets.
+*** They may qualify for independent trading unit aggregation under certain conditions.
+** Independent Trading Unit Aggregation
+*** Requirements for qualification include:
+**** Having a written plan identifying each unit.
+**** Each unit determining its own net position for every security.
+**** Traders being assigned to only one unit.
+**** Traders from one unit not coordinating with traders in another unit.
+** Impact of Independent Unit Aggregation
+*** If a broker-dealer qualifies, a unit can have a net short position in a security even if the firm is net long on that security.
+@endmindmap

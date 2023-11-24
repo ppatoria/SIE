@@ -1,0 +1,63 @@
+* Limit Up/Limit Down (LULD)
+
+*** LULD is a set of rules implemented by the SEC to limit the extreme volatility in the prices of stocks in the National Market System (NMS).
+*** These rules restrict a stock’s price from moving more than a specified percentage away from its five minute moving average.
+*** The main purpose of LULD is to prevent extraordinary volatility in NMS stocks.
+
+** 3.5.1 Reference Price
+
+*** The "reference price" is the five minute moving average of the stock's price.
+*** This average is recalculated every 30 seconds, but the reference price is only updated if the new value is at least 1% higher or lower than the previous one.
+*** Example
+**** If at 10:30 the reference price is $98.16, and at 10:30:30 the five minute moving average is $98.50, the reference price will remain at $98.16 since the new average hasn't changed by more than 1%.
+
+** 3.5.2 LULD Bands
+
+*** LULD bands are set as a percentage based on the stock's reference price and they determine the acceptable range for the stock's price.
+*** There are two tiers of NMS securities. Tier 1 includes S&P 500 and Russell 1000 components and selected exchange traded products. Tier 2 includes all other NMS stocks.
+*** These bands are in effect during normal market hours and double during the market open and close (9:30–9:45 am and 3:35–4:00 pm, ET).
+*** LULD bands are typically 5% for S&P 500 and Russell 1000 stocks and 10% for all other NMS stocks.
+
+** 3.5.2.1 Limit State
+
+*** If a quote is entered that moves the national best offer price to the lower band or the national best bid price to the upper band, the security will enter a limit state for 15 seconds.
+*** Example
+**** A Tier 1 stock has a reference price of $13. An offer to sell is entered into the system at $12.35. This quote triggers a 15 second limit state. If the quote remains at the band for 15 seconds, then a five minute trading halt will begin.
+*** During a limit state, no new reference prices or price bands are calculated, and trading continues within the price bands. If the quote remains at or outside the band for 15 seconds, a five minute pause is triggered.
+
+** 3.5.2.2 Straddle State
+
+*** A straddle state exists when the edge of the band is between the best bid and best offer.
+*** Example
+**** The reference price for an S&P 500 stock is $50. The 5% band is down to 47.50 and up to 52.50. If the NBBO (National Best Bid and Offer) is 52.45–.55, this is a straddle state.
+*** Under a straddle state, the exchange will monitor conditions and implement a pause for anything abnormal.
+
+** 3.5.3 LULD Halt
+
+*** During the five minute volatility trading pause, no trading may occur but quotes may be updated and orders can be accepted.
+
+** 3.5.4 FINRA Rules Relating to LULD.
+
+*** FINRA (Financial Industry Regulatory Authority) has rules to ensure that all member firms comply with the LULD plan. These include prohibiting the execution of trades at prices that are outside the bands, the display of quotes that are outside the bands, and the execution of trades in an NMS stock during a volatility trading pause.
+
+** 3.5.5 Exceptions from LULD Bands
+
+*** Certain trades are excluded from LULD price bands and can execute outside the bands. The exceptions include non regular way settlement, benchmark/derivatively priced transactions, stop stock transactions, qualified contingent trades, error correction trades, and print protection trades.
+
+*** Non-Regular Way Settlement
+**** This refers to the settlement of securities that does not follow the standard procedure or timeline. For example, if a stock trade settles in three business days (T+3), a non-regular way settlement might occur on the same day (T+0), the next business day (T+1), or two business days after the trade (T+2).
+
+*** Benchmark/Derivatively Priced Transactions
+**** These are trades where the price is derived from a benchmark. For example, a trade might be priced at the closing price of a security, which is a benchmark. Another example could be an option priced based on the volatility index (VIX), which is a benchmark for market volatility.
+
+*** Stop Stock Transactions
+**** A stop stock transaction is a trade that is executed at a price agreed upon by the buyer and seller, regardless of the current market price. For example, a buyer and seller might agree to trade a stock at $50 per share when the current market price is $55. The trade will be executed at $50 if the stock reaches this price.
+
+*** Qualified Contingent Trades (QCTs)
+**** A QCT is a transaction consisting of two or more dependent trades, where the execution of one trade depends on the execution of another. For example, an investor might buy a call option (the right to buy a stock at a certain price) and sell the underlying stock at the same time. The sale of the stock is contingent on the purchase of the option.
+
+*** Error Correction Trades
+**** These are trades that are executed to correct a mistake made in a previous trade. For example, if a trader accidentally sells 1,000 shares of a stock instead of 100, they might execute an error correction trade to buy back the extra 900 shares.
+
+*** Print Protection Trades
+**** A print protection trade is a trade that is executed to protect a trader from adverse price movements after a large trade (the "print") has been executed. For example, if a trader sells a large quantity of a stock, they might execute a print protection trade by buying a put option (the right to sell a stock at a certain price) to protect against a potential drop in the stock's price.

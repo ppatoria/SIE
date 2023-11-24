@@ -1,0 +1,573 @@
+#+title: * A market maker must be willing to hold itself out to buy and sell securities on a continuous basis. Candidates should memorize the market maker definition.
+
+* DONE Broker-dealers are required to be members of the Securities Investor Protection Corporation (SIPC), which protects customer accounts against the loss of their securities if their broker- dealer becomes insolvent.
+CLOSED: [2023-11-11 Sat 10:15]
+
+* DONE Floor brokers, floor market makers, specialists, and designated market makers are all associated with exchanges. The term market maker can be used in reference to exchanges (e.g., Nasdaq) or OTC securities.
+CLOSED: [2023-11-11 Sat 10:17]
+
+* DONE Payments are prohibited for maintaining quotes or publishing a specific quote, as well as for market-making activities. Although issuers of thinly traded securities may have a legitimate business reason for wanting market makers to continue publishing quotes, they cannot pay a market maker any type of compensation, directly or indirectly, to do so. If they do, the market maker violates the rule by accepting the payment.
+CLOSED: [2023-11-11 Sat 10:51]
+
+* DONE Promoters may not pay traders or market makers or provide them with any incentives (e.g., cash, securities, even college tuition for the traders’ children) in exchange for maintaining or publishing quotes. If an issuer offers payment so a market maker will initiate quotations, the firm must refuse the payment but may still initiate quotations.
+CLOSED: [2023-11-11 Sat 10:55]
+
+* DONE Be sure to memorize the various minimum net capital requirements discussed in this section.
+CLOSED: [2023-11-11 Sat 10:59]
+
+* Regulation NMS modernized and strengthened the regulatory structure of the United States equities market.
+
+* DONE Below is the general timeline a market maker is required to follow when it wants to begin quoting additional securities:
+CLOSED: [2023-11-11 Sat 15:26]
+1. Market maker applies on Nasdaq to initiate quotes in the specific
+    security.
+2. Nasdaq generally approves request on the same day, at which point
+the market maker may begin entering quotes.
+3. The market maker must begin quoting the security by no later than
+the open of trading five business days later.
+
+* DONE Q: Are the quotation requirements for a supplemental and primary MPID the same?
+CLOSED: [2023-11-11 Sat 11:33]
+A: No. Supplemental MPID quotes do not need to be two-sided and can
+be withdrawn at any time, while the primary MPID must always have a
+firm, two-sided quote.
+```
+```
+* DONE Q: Can a market maker execute and report one trade using different
+CLOSED: [2023-11-11 Sat 15:29]
+MPIDs?
+A: No. A market maker must report a trade using the same MPID that
+was used to execute it. For example, a market maker has a primary
+MPID (e.g., MMAA) and an additional MPID (e.g., MMAAB). If the
+firm executes a trade using the additional MPID (MMAAB), it must
+report the trade using that same MPID (MMAAB).
+```
+
+*
+
+* DONE Market makers do not have an obligation to maintain quotes outside regular market hours.
+CLOSED: [2023-11-11 Sat 15:31]
+
+* DONE Bona fide means real or actual. Bona fide quotes (aka firm quotes) are quotes that a market maker must be able and willing to execute. Failing to do so is considered backing away. Complaints regarding backing away should be filed with regulators within five minutes. However, a failure to do so does not forgive the offending firm from liability.
+CLOSED: [2023-11-11 Sat 15:36]
+
+* DONE Under Reg NMS Rule 602, market makers are expected to buy or sell a normal trading unit (typically 100 shares) in a quoted stock at its quoted price.
+CLOSED: [2023-11-11 Sat 15:37]
+
+*
+
+* DONE Here are a few points to know about quote sizes: On the Nasdaq system, allowable order sizes are between one and 999,999 shares. Odd-lot orders (fewer than 100 shares) are permitted, but orders for fractional shares are not. The displayed size for a quote is in round lots of 100 shares. A customer’s order for a mixed lot (e.g., 378 shares) would be entered into the system and displayed as three round lots (300 shares), although all the shares (378) would be available for execution. A market maker’s quotation obligation requires it to be prepared to trade at least one normal unit of trading, which is defined as 100 shares.
+CLOSED: [2023-11-11 Sat 15:42]
+
+* DONE For listed stocks, quotes of four decimals are only permitted for stocks trading for less than $1.
+
+* DONE Any potential price improvement goes to the taker of liquidity, which is the party that crosses the spread to execute an order against an existing quote.
+
+* DONE  Under the designated percentage rule, new quotes must be entered within 8% (for Tier 1 securities) of the NBBO. Note however, that from 9:30am–9:45am (market open) and 3:35pm–4:00pm (market close), the designated percentage is increased to 20%, as there is often greater volatility and price movement at these times.
+
+* DONE New quotes entered by a market maker must be within a designated percentage (typically 8%) of the NBBO. Once the quote is entered, it must remain within defined limit of the NBBO (typically 9.5%). Importantly, the designated percentage rule applies to new quotes, while the defined limit rule applies to existing quotes.
+
+* DONE Unless stated otherwise, all times mentioned in this manual are in Eastern Standard (ET). This designation will appear throughout as a reminder.
+CLOSED: [2023-11-11 Sat 15:45]
+
+* DONE A firm wishing to display an attributable quote will use its assigned primary or supplemental MPID. A firm wishing to display a non-attributable quote will use the MPID NSDQ. Non-attributable quotes and orders are anonymous.
+CLOSED: [2023-11-11 Sat 15:57]
+
+* DONE Orders are executed based on price priority. For example, a customer limit order to buy at $15 entered at 11:00 am would have priority over another customer limit order to buy at $14.99 entered at 10:55 am.
+CLOSED: [2023-11-11 Sat 15:58]
+
+* DONE If two limit orders are entered at the exact same time at the exact same price, the larger of the two orders will have priority and be filled first.
+CLOSED: [2023-11-11 Sat 15:58]
+
+* DONE Displayed orders will have priority over non-displayed orders at the same price.
+CLOSED: [2023-11-11 Sat 16:02]
+
+* DONE A Nasdaq market maker that terminates quotations in a stock cannot re-register as a market maker in that same stock for 20 business days. Prior to a voluntary withdrawal, a market maker is not required to submit additional filings or provide notice.
+CLOSED: [2023-11-11 Sat 16:02]
+
+* DONE A market maker that comes into possession of inside information should seek an excused withdrawal due to legal requirements (i.e., to avoid trading on the basis of inside information). The MM may be able to engage in passive market-making, as discussed later.
+CLOSED: [2023-11-11 Sat 16:03]
+
+* DONE For up to 60 days, a market maker can seek an excused withdrawal for legal or regulatory reasons, such as an involuntary termination of a clearing agreement.
+CLOSED: [2023-11-11 Sat 16:03]
+
+* DONE The number of days a market maker can be excused are as follows:
+CLOSED: [2023-11-11 Sat 16:04]
+** DONE Five days—Due to equipment malfunction, vacation, religious holiday
+** DONE 60 days—For legal or regulatory reasons
+** DONE No specific time limit—If engaged in investment banking activities
+
+
+* DONE Firms may not submit locking or crossing quotes— instead, such quotes should be treated as marketable and executed. E.g., the NBBO is 9.50 × 9.55. If a customer places a sell limit at 9.49, the firm should treat the order as a market order and execute against the 9.50 best bid.
+CLOSED: [2023-11-11 Sat 16:04]
+
+* DONE Be sure to review these exceptions for locked quotes.
+
+* DONE Here is a summary of the types of crossing orders and an example of each. If a market maker wants to buy shares at the opening price and ensure that it receives a particular price or better, the MM should enter a limit- on-open (LOO) order. E.g.: Buy LOO $28 means that if the market opens at $28 or less, the order will be filled. If the market opens above $28, the order will not be filled. If a market maker wants to buy shares at the open whatever the opening price, the MM should enter a market-on-open (MOO) order. E.g.: A buy MOO order will be executed at the opening price, whatever that may be ($22, $28, $34, etc.). A MOO guarantees execution at the open, but offers no guarantee as to price. An imbalance-only (IO) order is a priced order to be executed at the opening or closing price. An IO order’s price will be adjusted as the cross occurs, subject to the price instruction. E.g.: If an IO buy order is entered with a price of $21, and the highest bid is $20.95, the IO order is repriced to $20.95. If the highest bid drops further, to $20.89, the IO order will be repriced again so it can be executed at the best bid. If, however, the highest bid moves to $21.15, the IO order will not be repriced above the $21 price instruction and will not execute in the cross.
+CLOSED: [2023-11-11 Sat 17:46]
+
+* DONE Here are some additional important notes about opening cross order types:
+
+* DONE Market-on-close (MOC) orders will be executed at the closing price, regardless of their time of entry.
+
+* DONE Opening and closing cross orders can never be noted as all-or-none.
+
+* DONE A market-on-open order, or MOO, may be entered between 4:00 am and immediately prior to 9:28 am.
+
+*
+
+* DONE Below is the halt cross timeline: Phase 1 (quote-only period): A MM can accept and enter customer quotes and orders. Phase 2 (resume trading): The halt cross sets the re-opening price, orders execute, and regular trading begins. During a trading halt, a market order that is received should be held by the broker-dealer until trading resumes with a halt cross process.
+
+* DONE The ADF does not route orders; instead, market participants using the ADF must execute using their own private connectivity systems.  The ADF does handle trade reports, including accepting or declining trade reports.
+
+#+title: Chapter 2: Over-the-Counter (OTC) Equities
+
+* DONE The OTC Pink, and other OTC Markets facilities, are only used for quoting equities. Bonds, including senior debentures, are not quoted on the OTC venues.
+
+* DONE 15c2-11 applies when a market maker wants to enter quotes in an OTC equity security. It does not apply to NMS stocks. 15c2-11 is an important rule to know by rule number.
+
+* DONE If a stock is delisted from Nasdaq or the NYSE, it can immediately be quoted OTC without a Form 211 filing.
+
+* DONE An exception to the Form 211 filing is available if the quotes represent unsolicited customer interest (i.e., customer orders).  Once the customer’s order is filled, or if the customer withdraws (cancels) its interest, the market can no longer quote the stock. If the order is in fact cancelled, the market maker must remove the quote.
+
+* DONE The OTC Pink marketplace has no eligibility criteria, but market makers can only post quotes after conducting the appropriate due diligence.
+
+* DONE OTC Pink permits subject quotes (a quote with a price that may not be honored) provided they are indicated, and clearly designated, as not-firm, subject quotes.
+
+* DONE An unpriced indication of interest that reflects a customer order or a desire to make a transaction in the security is generally referred to as a “natural” indication of interest. Firms are encouraged to identify naturals to a potential counterparty. The alternative, a “non-natural,” reflects an IOI for a market maker to transact for its own account.
+
+* DONE There is no penalty for a quote withdrawal by an OTC market maker as OTC equities do not have a continuous, firm-quote requirement.
+
+* The exam may reference a benchmark trade. A benchmark trade is an order executed at a price that is not based on the then-current quoted price—benchmark trades are very specific types of orders only permitted in connection with a pilot program on small-cap stocks (Rule 608 of Reg NMS). This type of trade should be selected as an answer only if all these characteristics are indicated. In all other cases, benchmark trade will not be the correct answer.
+
+* The maximum access fee is $.003 per share for stocks quoted at $1 or more.
+
+* Unless an exception (described below) exists, it is prohibited to execute trades at prices inferior to protected quotations.
+
+* A broker-dealer or an exchange raises a “self-help” alert when another broker-dealer or exchange is experiencing a technical problem and should be bypassed when routing orders. For example, Broker-Dealer X could raise a self-help against Broker-Dealer Z when Broker-Dealer Z is having a technical problem. Broker-Dealer X would then route orders elsewhere. A self-help is usually claimed if a market center does not respond to orders within one second. Once the self-help is raised, a broker-dealer can trade through the protected quotes on the exchange experiencing difficulties and would not violate the trade through rules. Note that when a market maker raises a self-help alert, it must notify the market center with the issue that its quotes will not be protected.
+
+* Stop stock orders do not require exchange or regulator permission.
+
+* An exception from the Order Protection Rule means an order can be executed at a price that is inferior to, or not executed against (i.e., traded-through), a better price on another exchange. Candidates should know the list of exceptions from the Order Protection Rule, including the second leg of a riskless principal trade, qualified contingent trades, crossed market trades, self-help (described above), and ISO orders.
+
+* During a trading halt, no trades can be executed (i.e., a market maker cannot match buys and sells). There is NOT any exception for block trades.
+
+* During a Nasdaq trading halt, participants are permitted to enter orders and designate them to be held until the beginning of the display-only period (as indicated by T3). These orders are held in a suspended state until the display-only period begins.
+
+* During a trading halt, new orders on a NYSE-listed stock cannot be entered on Nasdaq until the security re-opens on the NYSE (primary market).
+
+*
+
+* FINRA can halt OTC trading for an extraordinary event for up to 10 business days. After 10 business days FINRA must confirm that the extraordinary event is ongoing in order to extend the halt.
+
+* During a trading halt (except for an LULD halt), firms cannot publish quotes or execute any trades.
+
+* Here is a summary of key trading halt rules:
+
+* The purpose of limit up/limit down (LULD) is to prevent extraordinary volatility in National Market System (NMS) stocks.
+
+* LULD bands are typically 5% for S&P 500 and Russell 1000 stocks and 10% for all other NMS stocks.
+
+* What happens in a limit state?
+
+* Under LULD, a security is in a straddle state if the bid and offer are on either side of the price band. Under a straddle state, the exchange will monitor conditions and implement a pause for anything abnormal.
+
+* If a Level 3 halt occurs, FINRA will halt trading for the remainder of the trading day. In this situation, all market-on-close (MOC) orders are canceled and the official closing price will be the last trade executed before the halt. Trading will resume at the open the next market day.
+
+* On the exam, they could ask you to calculate how far the S&P 500 needs to fall for a Level 3 halt to be triggered. For example, assume today’s S&P 500 opening price is 3,600, which is down 10% from the previous day’s closing price.
+
+* While Nasdaq allows quotes to be entered, trading is not permitted during the last five minutes of the 15-minute Level 1 market decline (7% decline) or Level 2 market decline (13% decline) trading halt.
+
+* If a trade is erroneous, regulators may review the trade and:
+
+* During normal market hours, any trade in an NMS stock with a price greater than $50 outside a 3% band from the reference price will be deemed clearly erroneous.
+
+* OTC transactions (third market) that are clearly erroneous are addressed by FINRA’s Market Regulation Department, not Nasdaq.
+
+* The 30-minute deadline for clearly erroneous trades applies at all times—even when the market is closed. For example, if a trade is executed at 7:15 pm, and the market maker discovers it to be clearly erroneous, Nasdaq MarketWatch must be notified by 7:45 pm.
+
+* OTC transactions (third market) that are clearly erroneous are addressed by FINRA’s Market Regulation Department, not Nasdaq.
+
+* The adjustment made for an obvious options error is always plus or minus 15 or 30 cents depending on the theoretical price. This figure differs from the allowable price bands discussed above.
+
+* It takes at least two options of the same class quoted no bid to trigger an obvious error.
+
+* A person is deemed to own stock (for long or short sale order marking) if the person owns a convertible security and has given conversion instructions. Similarly, for an investor who owns convertible preferred stock and places an order to sell shares of common stock, the order ticket must be marked short unless the investor has tendered the preferred shares for conversion.
+
+* An investor selling stock futures is not required to borrow the shares first, since delivery is not made immediately.
+
+* A customer who is long 8,000 shares of stock and is also short 30 call options is net long 5,000 shares, because each call option is worth 100 shares.
+
+* A firm must take into account its trades during the day to determine whether it is long or short in a security. For example, if BD A begins the day long 2,000 shares of ABC, and during the day it enters three orders—sell 1,500 ABC, buy 1,500 ABC, and sell 500 ABC—it will still be long (1,500 shares) at the end of the day.
+
+* If a broker-dealer acquires 500,000 shares as part of a block trade and subsequently sells 6,000 call options, it would still be net long since the shares were acquired in a block and the call options would be deemed bona fide hedging activity.
+
+* Any time the exam refers to an aggregated unit for a short sale, the underlying concept, in summary, is that the firm must calculate long and short positions across the entire firm to see whether it is net long or net short.
+
+* When a broker-dealer is determining its own net long or short position in a security, it must aggregate all of its positions in that security unless it qualifies for independent trading unit aggregation. Independent aggregation allows each trading desk (i.e., unit) to determine its own position, if all of the below requirements are met:
+
+* If a broker-dealer qualifies for independent unit aggregation, a unit can have a net short position in a security even if the firm is net long that security.
+
+* Under Reg SHO, if a stock falls by 10% on Monday and then an additional 10% on Tuesday, the short sale price restriction will apply to Wednesday’s trading day and be lifted at the close of business on Wednesday (unless the price also falls by 10% on Wednesday, in which case it would be further extended).
+
+* Key takeaway from the uptick rule: If a stock’s price declines 10% from the prior day’s close, no short sales may be executed in that stock for the remainder of that day or the next trading day. An exception is available for short sales above the NBB, which can be executed and marked short exempt. The short sale circuit breaker only applies during normal market hours (9:30 am–4:00 pm).
+
+* Orders tickets may be marked short exempt when a broker-dealer is executing a riskless principal trade for a customer provided that the customer’s order is in place prior to the offsetting transaction and both legs of the trade are executed within 60 seconds of each other. Also, the broker dealer must maintain records that readily reconstruct the trades.
+
+* Other than the first scenario, which requires short sales to be executed at a price above the national best bid, all other short exempt scenarios (e.g., odd-lot orders, riskless principal, VWAP trades, etc.) can be executed at or below the best bid, even if the stock is otherwise subject to the circuit breaker rule due to a 10% decline. It is important to learn the circumstances under which an order ticket can be marked as short exempt. Note that a regular way trade is not listed as an acceptable exemption.
+
+* For long-term customers selling shares, a broker-dealer may rely on their assurances that they are long stock and can make delivery at settlement.
+
+* When executing a short sale, it is the introducing (or receiving) broker-dealer’s obligation to obtain a locate. The executing and clearing firms need not get a locate.
+
+* A firm which cannot confirm that the shares are available to borrow (e.g., the firm cannot obtain a locate because it cannot reach its prime broker) may not execute a short sale for a customer.
+
+* A broker-dealer does not need a locate on a sale if 1) the customer owns the stock and 2) the broker-dealer reasonably believes the security will be delivered as soon as all restrictions on delivery have been removed (e.g., restricted stock has its legend removed by a transfer agent).
+
+* The “threshold security list,” a list of securities with significant outstanding fails, is prepared and disseminated by the SRO that maintains the primary listing for the security. FINRA publishes a list of OTC threshold securities.  Other SROs such as Nasdaq and NYSE publish their own threshold lists.
+
+* For the closing out of short sales, it is important to note not only that the close out is required on T + 3, but also that it must be done at the beginning of the day.
+
+* Candidates should be familiar with the following chart, which details the close-out requirements for various positions.
+
+* A prime broker performs a suite of services on behalf of hedge funds and other large institutional clients. Examples of services include margin, settlement, position consolidation, and securities lending. However, prime brokers do not assist with anti-money laundering compliance. Prime brokers are required to maintain a minimum net capital of at least $1.5MM.
+
+* The SEC Market Access Rule (15c3-5) requires firms to have risk management controls and supervisory procedures that prevent market access customers from entering orders exceeding appropriate, pre-set credit or capital thresholds. Risk management controls cannot be designated or delegated to a third- party or outside vendor and the firm’s CEO must certify the effectiveness of a firm’s controls.
+
+* A firm using automated trading systems must also use automated pre-trade controls.
+
+* Firms should have pre-trade controls (a type of risk management control) in place to prevent “fat finger” errors—e.g., entering extra zeroes or duplicate orders. Pre-trade controls will screen orders prior to entry to prevent duplicates, unusual dollar amounts and size, and a price too far from the current market price.
+
+* Financial risk management controls prevent the entry of erroneous orders. These are distinct from a firm’s regulatory risk management (which deals with regulation compliance) and credit risk management (which deals with the extension of credit).
+
+* A client choosing to “hit the bid” is saying they want to place a market order to sell. Conversely, “lifting the offer” is a market order to buy.
+
+* If an investor places a limit order that specifies that they want a certain price, including the commission, the broker-dealer must place the order at a better price of its choosing so that the all-in price to the customer does not exceed the customer’s specifications. For example, if a customer says, “I want to pay no more than $30, including the commission,” the broker-dealer might choose to place the order at $29, thereby allowing room for a $1 commission. This must be clearly explained to the customer.
+
+* When a firm is holding multiple customer limit orders, the priority in which they will be filled is 1) price, 2) time of entry, and 3) order size (largest order first). Also, if a customer places a limit order that is marketable at the time of order entry but is not marketable by the time the order reaches the market, the broker-dealer would continue to hold the order as a traditional “resting” limit order.
+
+* A stop order entered good ’til cancelled (GTC) can be activated by the opening price the next day and then subsequently executed.
+
+* There are three types of pegged orders: primary peg, market peg, and midpoint peg. Any order with a limit price is not necessarily a pegged order. A pegged order is a special type of limit order that automatically adjusts as the market moves.
+
+* Nasdaq system hours are 4:00 am to 8:00 pm.
+
+* A good ’til cancelled (GTC) order is an order to buy or sell a stock that remains on the limit order book (“the book”) until the order is executed or cancelled.
+
+* Key things to know about order tickets: An order ticket must specifically note whether an order was entered as a discretionary or an unsolicited order. It is a violation to inappropriately mark a solicited trade as unsolicited or discretionary. Here is a summary of the ways that orders can be received:
+
+*
+
+* When executing a block trade (e.g., an order to buy 15,000 shares) a market maker can display or show an indication of less than the full 15,000 shares. For example, showing a quote or indication of 10,000 shares would be permissible.
+
+* Make sure to review the exceptions to limit order display detailed above.
+
+* On the exam, unless an exception is presented within a question, always assume that a market maker is required to display a customer’s limit order.
+
+* An order that only impacts the market maker’s size must only be reflected in a quote if that price is at the inside market.
+
+* If a firm trades for its own account to execute a customer’s order as a riskless principal trade, this does not trigger a Manning obligation. This is sometimes referred to as executing a facilitated order.
+
+* A broker-dealer can trade ahead of a customer limit order if the:
+
+* For NMS stocks trading for $1 or more, the minimum price improvement is one penny. For example, the smallest price improvement available to a bid of $12.30 is one cent, making the bid $12.31. A bid of $12.305 is not permissible. The smallest price improvement available for an offer of $12.35 is $12.34 (down one cent); a quote of $12.345 is not permitted.
+
+* The permission requirements to execute a net transaction for a client differ for retail investors and institutional investors. Candidates should know the three ways to get approval from institutional clients and the one way to get approval from retail clients.
+
+* The FINRA 5% policy is a guideline, NOT a rule. There are cases where a higher than 5% fee may be justified.
+
+* The 5% mark-up policy applies to transactions in both listed and unlisted securities, but does not apply to investment advisory fees.
+
+* When a broker-dealer is trading as a principal, it can consider the fact that it is entitled to a profit when determining a fair price. When a broker-dealer is trading as agent, it cannot.
+
+* When determining an equity mark-up or mark-down, a firm would not consider its own cost (or basis) in the security; instead the firm should look to the current market price. The 5% policy is different for debt securities. For debt securities, the mark-up or mark-down should first reflect the prevailing market price, which is established by the firm’s contemporaneous cost or proceeds (i.e., recent purchase or sale price by that firm).
+
+* Customers wishing to engage in extended hours trading must receive a risk disclosure document which highlights the following after-hours trading risk factors: lack of liquidity, high volatility, unlinked markets, effect of news, and wider spreads.
+
+* Investors may face wide spreads (a large difference between the bid and the ask) if they 1) trade outside of normal market hours or 2) trade penny stocks (discussed later).
+
+* To summarize best execution, when a MM considers where to route customer orders, it should consider:
+
+* Painting the tape can inflate trading volume, manipulate the stock price, or both.
+
+* Here are a few other types of market manipulation:
+
+* If introducing the additional party results in a superior price (not equal, but better), then doing so is allowed.
+
+* Even if part of a block transaction has already been executed, the entire order must be filled and publicly reported to avoid triggering a front-running violation.
+
+* Make sure to review the exemptions from the front- running rules detailed above.
+
+* If a firm is holding a customer’s block order to buy shares, it could execute another customer’s order in the security without being in violation of the front-running rule.
+
+* Tweeting newsworthy information as a means of public dissemination is not a violation as long as the information is accurate. However, if a CEO tweets newsworthy information about a company that is not factually accurate and which causes the stock to rise, this would be considered manipulative and deceptive. For example, if a CEO of a company tweets that they have secured funding to take the company private without knowledge of the company’s board of directors, it would be considered market manipulation.
+
+* A marking-the-close violation occurs if trades are placed with the intent to artificially affect the closing price.
+
+* Like broker-dealers, investment advisers are required to register with the SEC or with the states where they operate. An exception is available for certain professionals (e.g., accountants, lawyers, etc.) who render incidental investment advice. That is, if the advice is incidental to the accounting or legal advice being rendered, the professional need not register as an investment adviser.
+
+* Securities, such as stocks and bonds, are typically deposited with a clearing house.
+
+* Ex-clearing describes a trade directly between two parties with a manual trade comparison process that does not engage electronic central clearinghouse services, such as those offered by NSCC/ DTCC.
+
+* Regular way settlement is T + 2.
+
+* When a re-organized company emerges from bankruptcy with an IPO, the newly issued shares will generally trade when-issued with a “v” symbol at the end of the ticker. Once the shares are formally issued, the “v” symbol is removed.
+
+* Warrants are similar to call options in that they allow investors to purchase stock for a specific price. They are usually issued with another security, such as a bond or preferred stock. It is important to note that warrants do not pay dividends.
+
+* It is important to note that the record date is the date that determines which shareholders will receive the dividend.
+
+* For cash dividends, orders entered at or below the market are reduced on the ex-dividend date—this includes buy limit, sell stop, and sell stop limit orders.
+
+* Dividends for fractional cents are rounded up to the nearest whole cent and then the price is adjusted downwards by that amount.
+
+* Expect to see a few questions on the exam on adjusting stock splits and stock dividends.
+
+* After a reverse stock split, all open orders are cancelled.
+
+* If a firm’s primary reporting facility is having an outage the firm may continue to trade provided that it can report to a secondary facility. Alternatively, firms may stop executing until the problem is resolved or can route orders to another exchange or FINRA facility that is able to effectively report trades.
+
+* The TRF and ORF are open from 8:00 am–8:00 pm. The ADF is open from 8:00 am–6:30 pm.
+
+* FINRA’s Trade Reporting Facility (TRF) provides a mechanism for reporting transactions (including trades in Nasdaq and other exchange-listed securities) that occur off an exchange (i.e., not on the exchange itself). For example, an NMS stock that trades off the exchange will be reported to the TRF. The NYSE will not report a trade to the FINRA/Nasdaq TRF. Trades on the floor of the exchange are reported to the consolidated tape.
+
+* TRF hours of operation are 8:00 am–8:00 pm.
+
+* A trade report is marked as/of when the trade occurred earlier than the current day (e.g., yesterday) or when reporting the reversal of a trade from a previous day.
+
+* A trade executed at 3:58 pm but reported at 4:10 would get a .Z modifier since it was executed during normal market hours.
+
+* FINRA considers several factors for consequences for late trading reporting–including the trade complexity.
+
+* Candidates should be familiar with trade reporting rules and appropriate uses of the .Z, .T, and .U modifiers.
+
+* Form T is used to report OTC trades that cannot be submitted electronically. 
+
+* A trade report will identify whether a trade was a long sale or short sale. Note that there is not a specific trade modifier used to identify a short sale.
+
+* There are various modifiers to indicate non-regular way settlement:
+
+* A trade report with a .P (i.e., PRP) modifier will include both the actual execution time and the reference time; the price reported will be the execution price.
+
+* It is important to note that a trade report for a stop stock transaction will include both the time at which the price was agreed to and the actual execution time.
+
+* In a transaction between a member firm and a non- member firm, the member firm will always assume the role of the executing party.
+
+* A give-up agreement allows one broker-dealer to allow another to report a trades on its behalf.
+
+* In a give-up relationship the trade is still reported under the MPID of the firm that executed the trade (not the reporting firm).
+
+* Riskless principal trades are permitted for NMS stocks and OTC equities, including penny stocks.
+
+* Make sure to review how trade reporting works for riskless principal transactions.
+
+* Be sure to review the list above of which transactions are exempt from trade reporting. Note that some of these transactions are reported for purpose of regulatory fee assessment, but not for publication and dissemination.
+
+* If Party A wishes to give Party B a gift by selling securities at a price substantially different from the current market price, the trade must still be reported for fee assessment purposes. These may be referred to as “away from the market sales.” Who would report such a trade? In this case, the executing party (Party A) is required to report the transaction. If, however, only one party to the trade is a reporting member, the reporting member is required to report the trade.
+
+* Trade reports do not include transaction fees.
+
+* Candidates should learn the rules for trade cancellations, as they are likely to be tested.
+
+* The timeline for transaction reporting is as follows:
+
+* Trades in foreign equity securities must be reported to either a US exchange or an SRO (e.g., FINRA, via TRF) unless the transaction is required to be reported to a foreign exchange or regulator.
+
+* Similar to a stock exchange, an alternative trading system (ATS) is any system that provides a marketplace that brings together purchasers and sellers of securities. An ATS can be characterized as an “order and quote collection system.”
+
+* Unless there’s an exemption from trade reporting requirements (discussed below), an ATS must report trades to the TRF or ORF within 10 seconds of execution.
+
+* Member firms that wish to publish or advertise trading volumes in an ATS can only publish those volumes that were also reported to a trade reporting facility. Firms should report trading volumes as accurately as possible.
+
+* A CAT report is required for order receipt, order transmittal to another department, and order execution. For example, in the situation that a customer places an order by phone at 11 am, the order is sent by the representative to the trading desk at 11:03 am, and the order is executed at 11:05 am, all three events would require a report.
+
+* All business clocks used for CAT reporting purposes must be synchronized every business day prior to the open of trading.
+
+* CAT reports are due at 8:00 am EST on the calendar day following the CAT business day.
+
+* There is no required public seasoning period before an issuer can qualify for Nasdaq. This means that even a newly public company can be listed on Nasdaq.
+
+* Tie-in arrangements are a form of market manipulation.
+
+* The 30-day period is measured from the offering date regardless of when the purchaser was allocated or paid for the shares.
+
+* Spinning can be a violation. Flipping is not. Both concepts are important to know for the exam.
+
+* A new issue security cannot be bought on margin (with borrowed funds) for the first 30 days. During this timeframe, an investor must deposit up 100% of the purchase price. Additionally, newly issued shares (e.g., IPO or mutual fund shares) may not be loaned to customers for short sales for 30 days.
+
+* Insiders (e.g., CEO, CFO, and board members) will often agree to a post-IPO lock-up with their underwriter. Though they are not required, lock-ups typically last 180 days.
+
+* A company can allocate shares of an IPO to “friends and family” through a directed share program.
+
+* Here are a few key points regarding secondary market trading of new issues: In an IPO, a market maker can buy or sell stock in the secondary market after the first trade on the primary exchange. Once a new security is priced and the SEC grants effectiveness, the underwriters will sell the new issue at the public offering price (POP) to investors (e.g., at $11 per share). The initial transaction after the IPO (typically the next morning) will occur on Nasdaq or NYSE at a higher price (e.g., $16). A broker-dealer that is not part of an IPO can execute customer orders for the new shares on the effective date after the market opens. A market-making firm can register and immediately begin quoting an IPO after its opening IPO cross.
+
+* Regulation M prevents manipulation of a securities offering, and prohibits sales and trading activities that could artificially influence the market for a new issue.
+
+* Make sure to review the restricted periods under Regulation M.
+
+* If securities are being distributed in connection with a merger, an acquisition, or an exchange offer, the restricted period begins on the first day proxies or offering materials are sent to security holders and ends upon the completion of the distribution.
+
+* During the Regulation M restricted period, distribution participants (i.e., underwriters) can also choose to be passive market makers (discussed below) or can seek an excused withdrawal.
+
+* Reg M Rule 102 limits how the issuer, selling security holders, and insiders can sell their stock during a follow-on offering.
+
+* Passive market making must be done with a primary MPID only, never a supplemental MPID.
+
+* Passive market-making means a market maker can bid no higher than the best independent bid in a security. It can increase its bid when the best independent bid increases and must reduce its bid (after purchasing up to two times the minimum quotation size, if desired) when the best independent bid falls. Once its net purchases exceed 30% of the ADTV, it must withdraw from the market for the rest of the day. Candidates should be familiar with the pricing rules regarding passive market-making, along with the limit to its daily trading activity and when a passive market maker must withdraw its bid.
+
+* Here are some key items regarding stabilization bids:
+
+* The green shoe clause in an underwriting agreement permits the underwriter to increase the size of the deal by up to 15% to meet investor demand.
+
+*
+
+* Rule 105 applies to firm commitment equity follow-on offerings. It does not apply to best efforts equity offerings or initial public offerings (IPOs).
+
+* An exception to Regulation M’s Rule 105 allows bona fide investors who meet certain conditions to short sell within the five day restricted period and still invest in the newly offered shares as long as the investor closes their short position in the market prior. For example, if an investor sells short 1,000 shares of XYZ on Monday, but then covers their short position on Tuesday, they would be permitted to still invest in the follow-on offering occurring on Wednesday. To use the exception, the latest a short sale trade can occur is 30 minutes prior to the close on the business day prior to the pricing.
+
+* In a Dutch auction tender offer, all accepted shares receive the clearing price.
+
+* If a Dutch auction is over-subscribed, shareholders that tender at or below the clearing price will tender their shares on a pro-rata basis.
+
+* Here are some key items to know regarding Rule 10b-18:
+
+* In addition to repurchase transactions, public companies are required to disclose a wide range of quantitative and qualitative information on SEC filings. Regulation SK governs the release of non-financial information while Regulation SX governs the release of financial information.
+
+* QIBs are institutions with a discretionary portfolio of at least $100 million or broker-dealers with a discretionary portfolio of at least $10 million.
+
+* Under Rule 144, brokers can only sell restricted stock on an unsolicited basis.
+
+* Summary of Rule 144:
+
+* Regulation NMS Rules 605 and 606 require uniform information on where customer orders are being routed and the quality of execution being received. Candidates should know both the content of the rules and the rule numbers.
+
+* Rule 605 reports only reflect orders that were received and executed during normal market hours.
+
+* Short sales are generally excluded from Reg NMS Rule 605 monthly reports by market centers.
+
+*
+
+* A Rule 606 report must include the top 10 venues to which a broker-dealer routes customer orders along with other venues to which the firm routes at least 5% of non-directed customer orders.
+
+*
+
+* To satisfy the suitability obligation for an institutional client, the rep must believe that the client is capable of evaluating risks independently and the client must indicate it is exercising independent judgment of the rep’s recommendations. Satisfying one of the requirements is not sufficient.
+
+* If an institutional client suggests a trade that would take the client over their credit limit at that broker-dealer, the registered representative should talk to their supervisor about increasing the limit.
+
+* Summary of important suitability items:
+
+* Retail recommendations are no longer subject to FINRA’s suitability standard under Rule 2111, which continues to apply to recommended transactions with entities and institutions, e.g., pension funds, small businesses, and charitable trusts.
+
+* Understanding inactive status is important for the exam. Large traders must identify themselves using a Form 13H. However, “inactive status” is available for large traders who did not cross the large trader threshold at any time during the previous full calendar year. Once inactive, a large trader need not file Form 13H unless and until its transactions are equal to or greater than the threshold level.
+
+* Block positioners are exempt from the locate requirement for short sales as mandated by Regulation SHO.
+
+* Under most rules, a block trade is defined as having at least 10,000 shares or a value of $200,000 or more. An exception is the FINRA definition of a block trade in OTC equities, which is a trade of at least 10,000 shares and at least $100,000 in market value.
+
+* Firms may not adjust inventory positions in any way based on advance knowledge of research. A firm’s inventory will change every day through normal market trading—this is permitted. It is inventory management based on knowledge of the research report that triggers a violation. As a result, research should not discuss an upcoming report with the trading desk.
+
+* If the event causing a change in a pending research report is public (e.g., there is widely reported news that a company has lost a major client or government contract), a trader could inform a client of the public news but must remain silent as to any pending change in the research coverage.
+
+* A trader is allowed to split an order for a valid reason, such as faster execution, but trade-shredding to generate additional commissions is prohibited.
+
+* Broker-dealers must have procedures in place to review and prevent a pattern of self-trades. Assuming procedures are in place, a self-trade is not a violation if it was unintentional. For example, if the trade occurred between legitimately distinct trading desks and was not done merely to create the illusion of activity in a security, it would not be a violation.
+
+* In general, penny stocks are defined as OTC equities worth less than $5 per share. However, companies with any of the following financial statistics are NOT penny stocks: Net tangible assets in excess of $2MM (or $5MM if in business less than three years) or average revenue of at least $6MM for the last three years.
+
+* The client must sign and return a penny stock risk disclosure document prior to their first penny stock trade.
+
+* Prior to effecting any penny stock transactions for customers, a broker-dealer must share 1) the penny stock risk disclosure document, 2) the firm’s and the associated person’s compensation, and 3) the inside quote. The number of market makers need not be disclosed.
+
+* Key exemptions from the suitability statement include: 1) unsolicited orders, 2) institutional accounts, and 3) firms who receive less than 5% of their commission revenue from penny stock trades.
+
+* Be sure to review the various ways to calculate the estimated market value of a penny stock.
+
+* Firms must maintain records of orders to buy or sell securities that include:
+
+* Work-related instant messages, chats (group or individual), and text messages are all considered business communications, so the member firm must record and maintain these for the appropriate time period. If a firm is unable to do so, whether for technical or other reasons, these types of communications may not be used by employees for work purposes. Records may be retained in paper, microfiche, or electronic formats.
+
+* Information barriers include both physical barriers and technologic barriers, as detailed above.
+
+* If a market maker possesses inside information, it can still execute unsolicited customer orders (long or short). The market maker cannot use the inside information to solicit customer orders, to increase its proprietary positions, or in any discussions with equity research.
+
+* Regulation FD requires firms to disclose sensitive information simultaneously with their intentional disclosure to research analysts. Accidental disclosure of sensitive information requires public disclosure by the later of 24 hours or the open of trading the next business day.
+
+* Options questions on the Series 57 will focus on complex positions, including spreads, straddles, and combinations. Answering questions on complex strategies requires a strong understanding of options fundamentals, including single options. Candidates who need a review of fundamental options positions should read the options addendum in the http://www.knopman.com Training Center before reviewing this chapter.
+
+* The type of spread is determined by the contract feature that is different.
+
+* When creating a call spread position, the call option with the lower strike price will be the dominant position, which the investor’s attitude is based upon. For example, if an investor buys a May 30 call and sells a May 40 call, the May 30 call would be the dominant position (since it has the lower strike price) and it is a bullish position (since buying calls is the dominant position).
+
+* An investor with a debit call spread will incur a loss of the aggregate premiums if both options expire.
+
+* Investors who establish debit call spreads are moderately bullish because they limit their potential upside to make the position less costly. They give up any profit above the strike price of the short call.
+
+* A put spread is 1) bearish and 2) a debit when the investor purchases a put contract with a higher strike price and sells a put contract with a lower strike price.
+
+* A trick to remember whether an investor hopes for a spread to widen or narrow is to look at the number of letters in the words.
+
+* A bear call spread is established with two positions:
+
+* Here is a summary of key spread items: The dominant position is always the position with the higher premium. It indicates whether the spread is bullish or bearish and is also used to find the breakeven point. To find the breakeven, use the strategy of “call up, put down.” For calls, add the net premium to the strike price of the dominant position—call up. For puts, subtract the net premium from the strike price of the dominant position—put down.
+
+* A butterfly spread is made up of four options, all with the same expiration, three with different strike prices, for example, buy 1 Oct 50 call, sell 2 Oct 60 calls, and buy 1 Oct 70 call. Therefore, a two- option position could not be a butterfly spread. Also note that a butterfly spread consists of two contracts on the outside and two contracts in the middle—e.g., Buy 1 50 call, Sell 2 60 calls, Buy 1 70 call. Described differently, it is a 1-2-1 position, not a 2-1-2 position.
+
+*
+
+*
+
+* Straddles have two breakevens, both call up and put down.
+
+* An investor who expects little volatility (i.e., flat markets) should enter into a short straddle position (short call and short put). A short combination, similar to a straddle, would also achieve the same effect.
+
+*** If the investor enters a straddle (long or short) with options that have different strike prices—e.g., a higher call strike and a lower put strike, or vice versa—the position is called a **strangle** or a **combination**. A long or short combination has the exact same attitude as a long or short straddle. For example, a long combination, like a long straddle, speculates that the stock will be volatile.
+
+*** Here are a few key points to know about complex orders, including spreads and straddles:
+
+* Index options are always settled for cash.
+
+* Index options can be purchased in an ERISA-sponsored plan provided they conform with the plan’s investment policy and that no margin is required (since ERISA accounts must be cash accounts). For example, selling uncovered calls requires a margin deposit and therefore would be prohibited.
+
+* The VIX measures expected volatility based on the S&P 500 index.
+
+* To summarize, VIX Index options allow investors to speculate on investor sentiment and market volatility. Importantly, the VIX Index is inverse to the market; so as the market rises, the VIX falls. When the market falls, the VIX rises. Described differently, a bearish investor would purchase VIX calls.
+
+* Foreign currency options have a contract size of 10,000 units of currency (i.e., 10,000 pounds, Euros, or Canadian dollars). The exception is Japanese yen. Options denominated in Japanese yen have a contract size of 1,000,000 yen.
+
+* To take advantage of a strong foreign economy, an investor can buy calls in that currency. For example, if the French economy looks strong and France has falling unemployment, an investor should buy EUR calls. If, however, a foreign economy is weakening, an investor should buy puts on that currency.
+
+* OTC options are created individually between two counterparties. The key difference between OTC and exchange-listed options is that OTC options have counterparty risk.
+
+* The Options Price Reporting Authority (OPRA) collects, consolidates, and disseminates options market data (last sale and quotes) from options exchanges. Think of OPRA as the reporting facility for options transactions, similar to the consolidated tape or TRF.
+
+* Be sure to review the chart below as to which types of options are typically American-style as opposed to European-style.
+
+* When an option is exercised, the OCC assigns an exercise notice to a broker-dealer using random selection. A broker-dealer will then assign delivery to a customer who is short the equivalent position using random selection, first-in first-out, or any other fair and equitable method.
+
+* Options can be exercised up until 5:30 pm (ET) on the third Friday of the expiration month. An investor who owns an out-of- the-money option at this time will let it expire.
+
+* The settlement timeframe for buying and selling options contracts is T + 1, which is different when compared to buying and selling equities and corporate or municipal bonds, which settle T + 2.
+
+* Options typically cannot be purchased on margin (using borrowed funds). Therefore, a customer buying two options contracts at a premium of $14 per contract would need to pay $2,800 ($14 per Share × 100 Shares × 2 Contracts) at settlement. Note that if the customer already had more than $2,800 in their account, no deposit of cash would be required to make the purchase.
+
+* When determining the number of options contracts an investor has on each side of the market to ensure the investor is not exceeding position limits, add up bullish positions on one side of the market (long calls and short puts) and bearish positions on the other side of the market (long puts and short calls). For example, 5,000 long calls and 4,000 short puts are aggregated as a 9,000 contract position (since they are both bullish). On the other hand, 3,000 long calls and 3,000 long puts would be two separate 3,000 contract positions since one is bullish and one is bearish.
+
+* The CBOE’s position limits rule governs how many options contracts an investor may control. Exceptions to the standard position limits are available for 1) delta hedging, 2) firm facilitation, or 3) market-making. Note: No exception exists for position limits based on dividends. It is more important to know the exemptions’ names—and what is not an exemption—than their application or use.
+
+* The key to successfully adjusting options contracts for splits or stock dividends is to make sure that the investor’s total contract value is the same before and after the split. The adjustments do not affect the premiums nor the expiration dates, though the premiums could be impacted by trading conditions.
+
+* Here are some key points regarding stock splits:
+
+* Remember, new options contracts are created only when shares increase by a multiple of 100.
+
+* Under CBOE rules, a floor broker is an individual who accepts and executes orders while physically on the floor of the exchange. Floor brokers can accept and execute orders from registered broker- dealers and trading permit holders; they cannot accept orders from any other source.
+
+* Contingency orders are executed based on the last sale price of the underlying security on the primary exchange. If that price is later determined to be erroneous, the contingency trade will not be altered unless mutually agreed to by the parties to the trade.
+
+* All orders given to floor brokers are defined as not held orders unless otherwise specified.
+
+* If a market maker holds a customer all-or-none (AON) buy order and receives a sell order that is not for enough shares, the market maker will not execute the customer’s AON order. For example, if a customer enters a buy 600 shares AON order and, subsequently, a market order to sell 300 is received, the AON order is not executed. The same concept applies to options trades.
+
+* Complex orders can be executed via CBOE’s Complex Order Book (COB) or Complex Order Auction (COA). These automated systems facilitate execution of complex orders while still offering the opportunity for price improvement.Knopman Notes
